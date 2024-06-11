@@ -1,0 +1,38 @@
+ID	HMM	DomTscore	Min_len	Max_len	Name	Type	Color	Description
+1	TIGR01847	50	50	1000	GG-motif	core peptide 	#298a43	
+2	TIGR04079	50	50	1000	KxxxW cyclized peptide pheromone	core peptide 	#298a43	
+3	TIGR04149	100	50	1000	Bacteroidales natural product precursor	core peptide 	#298a43	
+4	PF19409	50	50	1000	Thiopeptide-like	core peptide 	#298a43	
+5	PF13165	75	50	1000	SCIFF peptide	core peptide 	#298a43	
+6	TIGR03973	75	50	1000	SCIFF ranthipeptide	core peptide 	#298a43	
+7	PF19158	75	50	1000	Pren cyc PirE-like	core peptide 	#298a43	Prenylated cyclic peptide, anacyclamide/piricyclamide-like
+8	PF05952	100	50	1000	ComX	core peptide 	#298a43	Bacillus competence pheromone
+9	TIGR04363	50	50	1000	FxLD leader motif	core peptide 	#298a43	
+10	LE-DUF	50	50	1000	Lacticin 481-like	core peptide 	#298a43	lantibiotic peptide lacticin 481 group (dufour et al)
+11	LE-LAC481	50	50	1000	Leader lacticin 481-like	core peptide 	#298a43	Lantibiotic leader lacticin 481 group
+12	LE-LanBC	50	50	1000	Leader region class I lanthipeptide-like	core peptide 	#298a43	Lantibiotic leader LanBC modified
+13	LE-MER+2PEP	50	50	1000	Leader mersacidin-like	core peptide 	#298a43	Lantibiotic leader mersacidin cinnamycin group
+14	MA-2PEPA	50	50	1000	Lanthipeptide-like alpha subunit	core peptide 	#298a43	Lantibiotic peptide two component alpha
+15	MA-2PEPB	50	50	1000	Lanthipeptide-like beta subunit	core peptide 	#298a43	Lantibiotic peptide two component beta
+16	MA-DUF	50	50	1000	Leader lacticin 481-like	core peptide 	#298a43	lantibiotic leader lacticin 481 group (dufour et al)
+17	MA-EPI	50	50	1000	Epidermin-like	core peptide 	#298a43	Lantibiotic peptide epidermin group
+18	MA-LAC481	50	50	1000	Lacticin 481-like	core peptide 	#298a43	Lantibiotic peptide lacticin 481 group
+19	MA-NIS	50	50	1000	Nisin-like	core peptide 	#298a43	Lantibiotic peptide nisin group
+20	MA-NIS+EPI	50	50	1000	Nisin or Epidermin-like	core peptide 	#298a43	Lantibiotic peptide nisin epidermin group
+21	PF01721	50	50	1000	YGNGVXC containing class II bacteriocin	core peptide 	#298a43	
+22	PF02052	50	50	1000	Gallidermin-like	core peptide 	#298a43	
+23	PF03047	50	50	1000	ComC-like	core peptide 	#298a43	
+24	PF04369	50	50	1000	Lactococcin-like	core peptide 	#298a43	
+25	PF04454	50	50	1000	Linocin M18-like	core peptide 	#298a43	
+26	PF04604	50	50	1000	Class I lanthipeptide-like	core peptide 	#298a43	
+27	PF08109	50	50	1000	Lactocin 705-like	core peptide 	#298a43	
+28	PF08129	50	50	1000	Enterocin-like	core peptide 	#298a43	
+29	PF08130	50	50	1000	Class I lanthipeptide-like	core peptide 	#298a43	
+30	PF09221	50	50	1000	Bacteriocin AS-48-like	core peptide 	#298a43	
+31	PF09683	50	50	1000	Lactococcin 972-like	core peptide 	#298a43	
+32	PF10439	50	50	1000	Class IIc bacteriocin-like	core peptide 	#298a43	
+33	PF11758	50	50	1000	Aureocin-like	core peptide 	#298a43	
+34	PF16934	50	50	1000	Class II lanthipeptide-like	core peptide 	#298a43	
+35	GGmotif	50	50	1000	GGmotif	core peptide 	#298a43	Dirix et al.
+36	leaderLanBC	50	50	1000	Class I lanthipeptide processing site	core peptide 	#298a43	
+37	leaderLanM	50	50	1000	Class II lanthipeptide processing site	core peptide 	#298a43	

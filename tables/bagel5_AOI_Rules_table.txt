@@ -1,0 +1,17 @@
+RiPP_Class	HMM1	HMM2
+Class I lanthipeptide	PF04738	PF14028
+Class II lanthipeptide	TIGR03897	TIGR03897
+Class III lanthipeptide/ Class IV lanthipeptide/ Polar functionalized fatty-acylated RiPPs	PF00069	PF05147
+Class V lanthipeptide	PF17914	PF01636
+Thioamitide	PF02624	PF07812
+Thiopeptide/YM-216391-like	PF02624	TIGR03605
+LAP/Bottromycin/Trifolitoxin-like/YcaO modified peptide	PF02624	PF02624
+Cyanobactins	TIGR03895	TIGR03895
+Epipeptide	TIGR04078	TIGR04078
+Glycocin	PF13632	PF03412
+Lasso peptide	PF13471	PF00733
+Lasso peptide	PF13471	PF13537
+Graspetide	TIGR04185	TIGR04185
+Graspetide	TIGR04184	TIGR04184
+rSAM modified peptide 	PF04055	PF13186
+Linaridin	LinL	LinL

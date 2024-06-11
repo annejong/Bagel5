@@ -1,0 +1,45 @@
+ID	HMM	DomTscore	Min_len	Max_len	Name	Type	Color	Description
+22	LinL	30	300	3000	LinL	PTM	#6ba3ff	LinL
+32	PF00005.31	30	300	3000	ABC transporter	Leader cleavage and transport	#FF0000	ABC transporter
+29	PF00067.26	30	300	3000	Cytochrome P450	PTM	#6ba3ff	Cytochrome P450
+6	PF00069.29+PF05147.17	30	300	3000	LanL or LanKC	PTM	#6ba3ff	LanL or LanKC
+34	PF00072.28+PF00486.32	30	300	3000	Response regulator LanR-like	Regulation	#fff651	Response regulator LanR-like
+33	PF00082.26	30	300	3000	Peptidase S8, NisP-like	Leader cleavage and transport	#FF0000	Peptidase S8, NisP-like
+24	PF00107.30	30	300	3000	LanJ	PTM	#6ba3ff	LanJ
+42	PF00296.24	30	300	3000	LanO-like	PTM	#6ba3ff	LanO-like
+35	PF00512.29+PF13581.10	30	300	3000	Histidine kinase LanK-like	Regulation	#fff651	Histidine kinase LanK-like
+14	PF00535.30	30	300	3000	Glycosyltransferase family 2	PTM	#6ba3ff	Glycosyltransferase family 2
+18	PF00733.25	30	300	3000	Asparagine aminotransferase, LasC-like	PTM	#6ba3ff	Asparagine aminotransferase, LasC-like
+41	PF01320.22	30	300	3000	Pyocin immunity protein	Immunity	#FF6699	Pyocin immunity protein
+28	PF01494.23	30	300	3000	Oxygenase	PTM	#6ba3ff	Oxygenase
+8	PF01636.27	30	300	3000	LanK	PTM	#6ba3ff	LanK
+23	PF02441.23	30	300	3000	LanD	PTM	#6ba3ff	LanD
+9	PF02624.20	30	300	3000	YcaO	PTM	#6ba3ff	YcaO
+39	PF02794.20	30	300	3000	HlyC-like	Toxin activator	#C1D9FF	HlyC-like
+15	PF03412.19	30	300	3000	C39 leader peptidase	Leader cleavage and transport 	#FF0000	C39 leader peptidase
+31	PF03412.19+PF00005.31	30	300	3000	PCAT	Leader cleavage and transport	#FF0000	PCAT
+40	PF03857.17	30	300	300	Colicin immunity protein	Immunity	#FF6699	Colicin immunity protein
+21	PF04055.25+PF13186.10	30	300	3000	rSAM 	PTM	#6ba3ff	rSAM 
+1	PF04738.17	30	300	3000	LanB_Glutamylation_domain	PTM	#6ba3ff	LanB_Glutamylation_domain
+3	PF04738.17+PF14028.10	30	300	3000	LanB	PTM	#6ba3ff	LanB
+4	PF05147.17	30	100	600	LanC	PTM	#6ba3ff	LanC
+44	PF05402.16	30	100	200	PqqD-like	RRE	#99CC00 	PqqD-like
+30	PF07475.16	30	300	3000	HPr kinase	PTM	#6ba3ff	HPr kinase
+10	PF07812.16	30	300	3000	TfuA-like	PTM	#6ba3ff	TfuA-like
+38	PF08951.14	30	100	300	EntA Immunity protein	Immunity	#FF6699	EntA Immunity protein
+36	PF12679.11	30	300	3000	ABC transporter	Leader cleavage and transport	#FF0000	ABC transporter
+37	PF12730.11	30	300	3000	ABC transporter	Leader cleavage and transport	#FF0000	ABC transporter
+43	PF13437.10	30	300	3000	MFP	Leader cleavage and transport	#FF0000	MFP
+16	PF13471.10	30	300	3000	Transglutaminase McjB-like	PTM	#6ba3ff	Transglutaminase McjB-like
+17	PF13537.10	30	300	3000	Glutamine Aminotransferase, LasC-like	PTM	#6ba3ff	Glutamine Aminotransferase, LasC-like
+2	PF14028.10 	30	300	3000	LanB_Elimination_domain	PTM	#6ba3ff	LanB_Elimination_domain
+7	PF17914.5	30	300	3000	LanY	PTM	#6ba3ff	LanY
+11	TIGR03605.1	30	300	3000	SagB-type dehydrogenase domain	PTM	#6ba3ff	SagB-type dehydrogenase domain
+12	TIGR03895.1	30	300	3000	Peptidase S8A, PatG-like	PTM	#6ba3ff	Peptidase S8A, PatG-like
+5	TIGR03897.1	30	300	3000	LanM	PTM	#6ba3ff	LanM
+27	TIGR03975.1	30	300	3000	rSAM methyltransferase	PTM	#6ba3ff	rSAM methyltransferase
+13	TIGR04078.1	30	300	3000	rSAM Epimerase YydG-like	PTM	#6ba3ff	rSAM Epimerase YydG-like
+20	TIGR04184.1	30	300	3000	ATP-grasp ligase, MvdD-like	PTM	#6ba3ff	ATP-grasp ligase, MvdD-like
+19	TIGR04185.1	30	300	3000	ATP-grasp ligase, MvdC-like	PTM	#6ba3ff	ATP-grasp ligase, MvdC-like
+26	TIGR04445.1	30	300	3000	Cyanobactin prenyltransferase	PTM	#6ba3ff	Cyanobactin prenyltransferase
+25	TIGR04517.1	30	300	3000	rSAM epimerase PoyD-like	PTM	#6ba3ff	rSAM epimerase PoyD-like
