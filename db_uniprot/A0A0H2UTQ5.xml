@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2015-09-16" modified="2024-01-24" version="24" xmlns="http://uniprot.org/uniprot">
+  <accession>A0A0H2UTQ5</accession>
+  <name>A0A0H2UTQ5_STRP3</name>
+  <protein>
+    <submittedName>
+      <fullName evidence="1">Streptolysin S associated protein</fullName>
+    </submittedName>
+  </protein>
+  <gene>
+    <name evidence="1" type="primary">sagA</name>
+    <name evidence="1" type="ordered locus">SpyM3_0480</name>
+  </gene>
+  <organism evidence="1 2">
+    <name type="scientific">Streptococcus pyogenes serotype M3 (strain ATCC BAA-595 / MGAS315)</name>
+    <dbReference type="NCBI Taxonomy" id="198466"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Bacillota</taxon>
+      <taxon>Bacilli</taxon>
+      <taxon>Lactobacillales</taxon>
+      <taxon>Streptococcaceae</taxon>
+      <taxon>Streptococcus</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="1 2" key="1">
+    <citation type="journal article" date="2002" name="Proc. Natl. Acad. Sci. U.S.A." volume="99" first="10078" last="10083">
+      <title>Genome sequence of a serotype M3 strain of group A Streptococcus: phage-encoded toxins, the high-virulence phenotype, and clone emergence.</title>
+      <authorList>
+        <person name="Beres S.B."/>
+        <person name="Sylva G.L."/>
+        <person name="Barbian K.D."/>
+        <person name="Lei B."/>
+        <person name="Hoff J.S."/>
+        <person name="Mammarella N.D."/>
+        <person name="Liu M.Y."/>
+        <person name="Smoot J.C."/>
+        <person name="Porcella S.F."/>
+        <person name="Parkins L.D."/>
+        <person name="Campbell D.S."/>
+        <person name="Smith T.M."/>
+        <person name="McCormick J.K."/>
+        <person name="Leung D.Y."/>
+        <person name="Schlievert P.M."/>
+        <person name="Musser J.M."/>
+      </authorList>
+      <dbReference type="PubMed" id="12122206"/>
+      <dbReference type="DOI" id="10.1073/pnas.152298499"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="2">ATCC BAA-595 / MGAS315</strain>
+    </source>
+  </reference>
+  <dbReference type="EMBL" id="AE014074">
+    <property type="protein sequence ID" value="AAM79087.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="WP_002985285.1">
+    <property type="nucleotide sequence ID" value="NC_004070.1"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="A0A0H2UTQ5"/>
+  <dbReference type="GeneID" id="69901133"/>
+  <dbReference type="KEGG" id="spg:SpyM3_0480"/>
+  <dbReference type="HOGENOM" id="CLU_213406_0_0_9"/>
+  <dbReference type="OMA" id="MLQFTSN"/>
+  <dbReference type="Proteomes" id="UP000000564">
+    <property type="component" value="Chromosome"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR019891">
+    <property type="entry name" value="Bacteriocin_streptolysin_S_pre"/>
+  </dbReference>
+  <dbReference type="NCBIfam" id="TIGR03602">
+    <property type="entry name" value="streptolysinS"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="predicted"/>
+  <evidence type="ECO:0000313" key="1">
+    <source>
+      <dbReference type="EMBL" id="AAM79087.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="2">
+    <source>
+      <dbReference type="Proteomes" id="UP000000564"/>
+    </source>
+  </evidence>
+  <sequence length="53" mass="5203" checksum="0B94D144B04978EB" modified="2015-09-16" version="1">MLKFTSNILATSVAETTQVAPGGCCCCCTTCCFSIATGSGNSQGGSGSYTPGK</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

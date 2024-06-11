@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="1995-02-01" modified="2024-01-24" version="74" xmlns="http://uniprot.org/uniprot">
+  <accession>Q06583</accession>
+  <name>PYS1_PSEAI</name>
+  <protein>
+    <recommendedName>
+      <fullName>Pyocin-S1</fullName>
+      <ecNumber>3.1.-.-</ecNumber>
+    </recommendedName>
+    <alternativeName>
+      <fullName>Killer protein</fullName>
+    </alternativeName>
+  </protein>
+  <gene>
+    <name type="primary">pys1</name>
+  </gene>
+  <organism>
+    <name type="scientific">Pseudomonas aeruginosa</name>
+    <dbReference type="NCBI Taxonomy" id="287"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Pseudomonadota</taxon>
+      <taxon>Gammaproteobacteria</taxon>
+      <taxon>Pseudomonadales</taxon>
+      <taxon>Pseudomonadaceae</taxon>
+      <taxon>Pseudomonas</taxon>
+    </lineage>
+  </organism>
+  <reference key="1">
+    <citation type="journal article" date="1993" name="J. Bacteriol." volume="175" first="2907" last="2916">
+      <title>Molecular structures and functions of pyocins S1 and S2 in Pseudomonas aeruginosa.</title>
+      <authorList>
+        <person name="Sano Y."/>
+        <person name="Matsui H."/>
+        <person name="Kobayashi M."/>
+        <person name="Kageyama M."/>
+      </authorList>
+      <dbReference type="PubMed" id="8491711"/>
+      <dbReference type="DOI" id="10.1128/jb.175.10.2907-2916.1993"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+    <scope>PROTEIN SEQUENCE OF 2-13 AND 484-504</scope>
+    <source>
+      <strain>NIH-H</strain>
+    </source>
+  </reference>
+  <comment type="function">
+    <text>Causes breakdown of chromosomal DNA as well as complete inhibition of lipid synthesis in sensitive cells.</text>
+  </comment>
+  <comment type="subunit">
+    <text>Purified pyocin S1 makes up a complex of the two (large and small) proteins. The large protein, but not the pyocin complex, shows in vitro DNase activity.</text>
+  </comment>
+  <comment type="miscellaneous">
+    <text>Pyocins contain N-terminal receptor-binding domain, translocation domain and C-terminal DNase domain.</text>
+  </comment>
+  <comment type="similarity">
+    <text evidence="2">Belongs to the colicin/pyosin nuclease family.</text>
+  </comment>
+  <dbReference type="EC" id="3.1.-.-"/>
+  <dbReference type="EMBL" id="D12707">
+    <property type="protein sequence ID" value="BAA02201.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="PIR" id="A36907">
+    <property type="entry name" value="A36907"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="Q06583"/>
+  <dbReference type="SMR" id="Q06583"/>
+  <dbReference type="eggNOG" id="COG4104">
+    <property type="taxonomic scope" value="Bacteria"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0004519">
+    <property type="term" value="F:endonuclease activity"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0005102">
+    <property type="term" value="F:signaling receptor binding"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="InterPro"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0019835">
+    <property type="term" value="P:cytolysis"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="InterPro"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0042742">
+    <property type="term" value="P:defense response to bacterium"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0031640">
+    <property type="term" value="P:killing of cells of another organism"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="CDD" id="cd00085">
+    <property type="entry name" value="HNHc"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Gene3D" id="3.90.540.10">
+    <property type="entry name" value="Colicin/pyocin, DNase domain"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR037146">
+    <property type="entry name" value="Colicin/pyocin_DNase_dom_sf"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR044925">
+    <property type="entry name" value="His-Me_finger_sf"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR003615">
+    <property type="entry name" value="HNH_nuc"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR003060">
+    <property type="entry name" value="Pyocin_killer"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR016128">
+    <property type="entry name" value="Pyosin/cloacin_T_dom"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR036302">
+    <property type="entry name" value="Pyosin/cloacin_T_dom_sf"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF21431">
+    <property type="entry name" value="Col-Pyo_DNase"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF06958">
+    <property type="entry name" value="Pyocin_S"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="PRINTS" id="PR01300">
+    <property type="entry name" value="PYOCINKILLER"/>
+  </dbReference>
+  <dbReference type="SMART" id="SM00507">
+    <property type="entry name" value="HNHc"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="SUPFAM" id="SSF69369">
+    <property type="entry name" value="Cloacin translocation domain"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="SUPFAM" id="SSF54060">
+    <property type="entry name" value="His-Me finger endonucleases"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="evidence at protein level"/>
+  <keyword id="KW-0044">Antibiotic</keyword>
+  <keyword id="KW-0929">Antimicrobial</keyword>
+  <keyword id="KW-0078">Bacteriocin</keyword>
+  <keyword id="KW-0903">Direct protein sequencing</keyword>
+  <keyword id="KW-0255">Endonuclease</keyword>
+  <keyword id="KW-0378">Hydrolase</keyword>
+  <keyword id="KW-0540">Nuclease</keyword>
+  <feature type="initiator methionine" description="Removed" evidence="1">
+    <location>
+      <position position="1"/>
+    </location>
+  </feature>
+  <feature type="chain" id="PRO_0000218685" description="Pyocin-S1">
+    <location>
+      <begin position="2"/>
+      <end position="618"/>
+    </location>
+  </feature>
+  <evidence type="ECO:0000269" key="1">
+    <source>
+      <dbReference type="PubMed" id="8491711"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000305" key="2"/>
+  <sequence length="618" mass="65629" checksum="EEBEF47F8163E24F" modified="2007-01-23" version="2">MARPIADLIHFNSTTVTASGDVYYGPGGGTGIGPIARPIEHGLDSSTENGWQEFESYADVGVDPRRYVPLQVKEKRREIELQFRDAEKKLEASVQAELDKADAALGPAKNLAPLDVINRSLTIVGNALQQKNQKLLLNQKKITSLGAKNFLTRTAEEIGEQAVREGNINGPEAYMRFLDREMEGLTAAYNVKLFTEAISSLQIRMNTLTAAKASIEAAAANKAREQAAAEAKRKAEEQARQQAAIRAANTYAMPANGSVVATAAGRGLIQVAQGAASLAQAISDAIAVLGRVLASAPSVMAVGFASLTYSSRTAEQWQDQTPDSVRYALGMDAAKLGLPPSVNLNAVAKASGTVDLPMRLTNEARGNTTTLSVVSTDGVSVPKAVPVRMAAYNATTGLYEVTVPSTTAEAPPLILTWTPASPPGNQNPSSTTPVVPKPVPVYEGATLTPVKATPETYPGVITLPEDLIIGFPADSGIKPIYVMFRDPRDVPGAATGKGQPVSGNWLGAASQGEGAPIPSQIADKLRGKTFKNWRDFREQFWIAVANDPELSKQFNPGSLAVMRDGGAPYVRESEQAGGRIKIEIHHKVRVADGGGVYNMGNLVAVTPKRHIEIHKGGK</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

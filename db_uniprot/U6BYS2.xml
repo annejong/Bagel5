@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2014-01-22" modified="2023-05-03" version="6" xmlns="http://uniprot.org/uniprot">
+  <accession>U6BYS2</accession>
+  <name>U6BYS2_LATSK</name>
+  <protein>
+    <submittedName>
+      <fullName evidence="1">Sakacin D98c</fullName>
+    </submittedName>
+  </protein>
+  <organism evidence="1">
+    <name type="scientific">Latilactobacillus sakei</name>
+    <name type="common">Lactobacillus sakei</name>
+    <dbReference type="NCBI Taxonomy" id="1599"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Bacillota</taxon>
+      <taxon>Bacilli</taxon>
+      <taxon>Lactobacillales</taxon>
+      <taxon>Lactobacillaceae</taxon>
+      <taxon>Latilactobacillus</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="1" key="1">
+    <citation type="journal article" date="2013" name="J. Appl. Microbiol." volume="115" first="61" last="69">
+      <title>Identification and characterization of novel multiple bacteriocins produced by Lactobacillus sakei D98.</title>
+      <authorList>
+        <person name="Sawa N."/>
+        <person name="Koga S."/>
+        <person name="Okamura K."/>
+        <person name="Ishibashi N."/>
+        <person name="Zendo T."/>
+        <person name="Sonomoto K."/>
+      </authorList>
+      <dbReference type="PubMed" id="23594273"/>
+      <dbReference type="DOI" id="10.1111/jam.12226"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="1">D98</strain>
+    </source>
+  </reference>
+  <dbReference type="EMBL" id="AB771453">
+    <property type="protein sequence ID" value="BAN57369.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="U6BYS2"/>
+  <proteinExistence type="predicted"/>
+  <evidence type="ECO:0000313" key="1">
+    <source>
+      <dbReference type="EMBL" id="BAN57369.1"/>
+    </source>
+  </evidence>
+  <sequence length="51" mass="5593" checksum="CD33F25137531598" modified="2014-01-22" version="1">MEKYINIESRKLSSIKGGAAKGFIGWLIGESDDIAKGIVSAMNSDNKKKHR</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

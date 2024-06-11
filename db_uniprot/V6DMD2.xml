@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2014-02-19" modified="2024-01-24" version="14" xmlns="http://uniprot.org/uniprot">
+  <accession>V6DMD2</accession>
+  <name>V6DMD2_9LACO</name>
+  <protein>
+    <recommendedName>
+      <fullName evidence="3">Bacteriocin</fullName>
+    </recommendedName>
+  </protein>
+  <gene>
+    <name evidence="1" type="ORF">LSCP400_09551</name>
+  </gene>
+  <organism evidence="1 2">
+    <name type="scientific">Ligilactobacillus salivarius cp400</name>
+    <dbReference type="NCBI Taxonomy" id="1273133"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Bacillota</taxon>
+      <taxon>Bacilli</taxon>
+      <taxon>Lactobacillales</taxon>
+      <taxon>Lactobacillaceae</taxon>
+      <taxon>Ligilactobacillus</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="1 2" key="1">
+    <citation type="journal article" date="2014" name="Genome Announc." volume="2" first="e01231" last="e01213">
+      <title>Draft Genome Sequence of a Novel Lactobacillus salivarius Strain Isolated from Piglet.</title>
+      <authorList>
+        <person name="Mackenzie D.A."/>
+        <person name="McLay K."/>
+        <person name="Roos S."/>
+        <person name="Walter J."/>
+        <person name="Swarbreck D."/>
+        <person name="Drou N."/>
+        <person name="Crossman L.C."/>
+        <person name="Juge N."/>
+      </authorList>
+      <dbReference type="PubMed" id="24526652"/>
+      <dbReference type="DOI" id="10.1128/genomeA.01231-13"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="2">cp400</strain>
+    </source>
+  </reference>
+  <comment type="caution">
+    <text evidence="1">The sequence shown here is derived from an EMBL/GenBank/DDBJ whole genome shotgun (WGS) entry which is preliminary data.</text>
+  </comment>
+  <dbReference type="EMBL" id="CBVR010000011">
+    <property type="protein sequence ID" value="CDK35149.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="V6DMD2"/>
+  <dbReference type="Proteomes" id="UP000018601">
+    <property type="component" value="Unassembled WGS sequence"/>
+  </dbReference>
+  <dbReference type="NCBIfam" id="NF038163">
+    <property type="entry name" value="bactofencin_A"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="predicted"/>
+  <evidence type="ECO:0000313" key="1">
+    <source>
+      <dbReference type="EMBL" id="CDK35149.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="2">
+    <source>
+      <dbReference type="Proteomes" id="UP000018601"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0008006" key="3">
+    <source>
+      <dbReference type="Google" id="ProtNLM"/>
+    </source>
+  </evidence>
+  <sequence length="53" mass="6394" checksum="E66B99875841BE9C" modified="2014-02-19" version="1">MFFNFMKKVDVKKNFGYKEVSRKDLAKVNGGKRKKHRCRVYNNGMPTGMYRWC</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

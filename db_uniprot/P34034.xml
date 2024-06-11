@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="1994-02-01" modified="2023-05-03" version="102" xmlns="http://uniprot.org/uniprot">
+  <accession>P34034</accession>
+  <name>LCCA_LEUGE</name>
+  <protein>
+    <recommendedName>
+      <fullName>Bacteriocin leucocin-A</fullName>
+    </recommendedName>
+    <alternativeName>
+      <fullName>Leucocin A-UAL 187</fullName>
+      <shortName>Leu A</shortName>
+    </alternativeName>
+  </protein>
+  <gene>
+    <name type="primary">lcnA</name>
+  </gene>
+  <organism>
+    <name type="scientific">Leuconostoc gelidum</name>
+    <dbReference type="NCBI Taxonomy" id="1244"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Bacillota</taxon>
+      <taxon>Bacilli</taxon>
+      <taxon>Lactobacillales</taxon>
+      <taxon>Lactobacillaceae</taxon>
+      <taxon>Leuconostoc</taxon>
+      <taxon>Leuconostoc gelidum group</taxon>
+    </lineage>
+  </organism>
+  <geneLocation type="plasmid">
+    <name>pLG7.6</name>
+  </geneLocation>
+  <reference key="1">
+    <citation type="journal article" date="1991" name="J. Bacteriol." volume="173" first="7491" last="7500">
+      <title>Characterization of leucocin A-UAL 187 and cloning of the bacteriocin gene from Leuconostoc gelidum.</title>
+      <authorList>
+        <person name="Hastings J.W."/>
+        <person name="Sailer M."/>
+        <person name="Johnson K."/>
+        <person name="Roy K.L."/>
+        <person name="Vederas J.C."/>
+        <person name="Stiles M.E."/>
+      </authorList>
+      <dbReference type="PubMed" id="1840587"/>
+      <dbReference type="DOI" id="10.1128/jb.173.23.7491-7500.1991"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+    <scope>PROTEIN SEQUENCE OF 25-37</scope>
+    <source>
+      <strain>UAL 187</strain>
+    </source>
+  </reference>
+  <reference key="2">
+    <citation type="journal article" date="1993" name="Biochemistry" volume="32" first="310" last="318">
+      <title>15N- and 13C-labeled media from Anabaena sp. for universal isotopic labeling of bacteriocins: NMR resonance assignments of leucocin A from Leuconostoc gelidum and nisin A from Lactococcus lactis.</title>
+      <authorList>
+        <person name="Sailer M."/>
+        <person name="Helms G.L."/>
+        <person name="Henkel T."/>
+        <person name="Niemczura W.P."/>
+        <person name="Stiles M.E."/>
+        <person name="Vederas J.C."/>
+      </authorList>
+      <dbReference type="PubMed" id="8418850"/>
+      <dbReference type="DOI" id="10.1021/bi00052a039"/>
+    </citation>
+    <scope>STRUCTURE BY NMR</scope>
+    <source>
+      <strain>UAL 187</strain>
+    </source>
+  </reference>
+  <reference key="3">
+    <citation type="journal article" date="1997" name="Biochemistry" volume="36" first="15062" last="15072">
+      <title>Three-dimensional structure of leucocin A in trifluoroethanol and dodecylphosphocholine micelles: spatial location of residues critical for biological activity in type IIa bacteriocins from lactic acid bacteria.</title>
+      <authorList>
+        <person name="Gallagher N.L.F."/>
+        <person name="Sailer M."/>
+        <person name="Niemczura W.P."/>
+        <person name="Nakashima T.T."/>
+        <person name="Stiles M.E."/>
+        <person name="Vederas J.C."/>
+      </authorList>
+      <dbReference type="PubMed" id="9398233"/>
+      <dbReference type="DOI" id="10.1021/bi971263h"/>
+    </citation>
+    <scope>STRUCTURE BY NMR</scope>
+  </reference>
+  <comment type="function">
+    <text>Inhibits a wide spectrum of lactic acid bacteria.</text>
+  </comment>
+  <comment type="subcellular location">
+    <subcellularLocation>
+      <location>Secreted</location>
+    </subcellularLocation>
+  </comment>
+  <comment type="similarity">
+    <text evidence="2">Belongs to the bacteriocin class IIA/YGNGV family.</text>
+  </comment>
+  <dbReference type="EMBL" id="M64371">
+    <property type="protein sequence ID" value="AAA68003.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="PIR" id="A41657">
+    <property type="entry name" value="A41657"/>
+  </dbReference>
+  <dbReference type="PDB" id="1CW6">
+    <property type="method" value="NMR"/>
+    <property type="chains" value="A=25-61"/>
+  </dbReference>
+  <dbReference type="PDB" id="2LEU">
+    <property type="method" value="NMR"/>
+    <property type="chains" value="A=25-61"/>
+  </dbReference>
+  <dbReference type="PDB" id="2LJQ">
+    <property type="method" value="NMR"/>
+    <property type="chains" value="A=25-61"/>
+  </dbReference>
+  <dbReference type="PDB" id="2LJT">
+    <property type="method" value="NMR"/>
+    <property type="chains" value="A=25-61"/>
+  </dbReference>
+  <dbReference type="PDB" id="3LEU">
+    <property type="method" value="NMR"/>
+    <property type="chains" value="A=25-61"/>
+  </dbReference>
+  <dbReference type="PDBsum" id="1CW6"/>
+  <dbReference type="PDBsum" id="2LEU"/>
+  <dbReference type="PDBsum" id="2LJQ"/>
+  <dbReference type="PDBsum" id="2LJT"/>
+  <dbReference type="PDBsum" id="3LEU"/>
+  <dbReference type="AlphaFoldDB" id="P34034"/>
+  <dbReference type="SMR" id="P34034"/>
+  <dbReference type="TCDB" id="1.C.24.1.6">
+    <property type="family name" value="the pediocin (pediocin) family"/>
+  </dbReference>
+  <dbReference type="EvolutionaryTrace" id="P34034"/>
+  <dbReference type="GO" id="GO:0005576">
+    <property type="term" value="C:extracellular region"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-SubCell"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0042742">
+    <property type="term" value="P:defense response to bacterium"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0031640">
+    <property type="term" value="P:killing of cells of another organism"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="Gene3D" id="1.20.5.130">
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR002633">
+    <property type="entry name" value="Bacteriocin_IIa"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR023384">
+    <property type="entry name" value="Bacteriocin_IIa_CS"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR023388">
+    <property type="entry name" value="Bacteriocin_IIa_dom_sf"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF01721">
+    <property type="entry name" value="Bacteriocin_II"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="PROSITE" id="PS60030">
+    <property type="entry name" value="BACTERIOCIN_IIA"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="evidence at protein level"/>
+  <keyword id="KW-0002">3D-structure</keyword>
+  <keyword id="KW-0044">Antibiotic</keyword>
+  <keyword id="KW-0929">Antimicrobial</keyword>
+  <keyword id="KW-0078">Bacteriocin</keyword>
+  <keyword id="KW-0903">Direct protein sequencing</keyword>
+  <keyword id="KW-1015">Disulfide bond</keyword>
+  <keyword id="KW-0614">Plasmid</keyword>
+  <keyword id="KW-0964">Secreted</keyword>
+  <feature type="propeptide" id="PRO_0000002742" evidence="1">
+    <location>
+      <begin position="1"/>
+      <end position="24"/>
+    </location>
+  </feature>
+  <feature type="chain" id="PRO_0000002743" description="Bacteriocin leucocin-A">
+    <location>
+      <begin position="25"/>
+      <end position="61"/>
+    </location>
+  </feature>
+  <feature type="disulfide bond">
+    <location>
+      <begin position="33"/>
+      <end position="38"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="3">
+    <location>
+      <begin position="28"/>
+      <end position="30"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="3">
+    <location>
+      <begin position="32"/>
+      <end position="34"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="3">
+    <location>
+      <begin position="37"/>
+      <end position="39"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="3">
+    <location>
+      <begin position="43"/>
+      <end position="53"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="3">
+    <location>
+      <begin position="57"/>
+      <end position="59"/>
+    </location>
+  </feature>
+  <evidence type="ECO:0000269" key="1">
+    <source>
+      <dbReference type="PubMed" id="1840587"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000305" key="2"/>
+  <evidence type="ECO:0007829" key="3">
+    <source>
+      <dbReference type="PDB" id="1CW6"/>
+    </source>
+  </evidence>
+  <sequence length="61" mass="6586" checksum="4A645D631486409F" modified="1994-02-01" version="1" precursor="true">MMNMKPTESYEQLDNSALEQVVGGKYYGNGVHCTKSGCSVNWGEAFSAGVHRLANGGNGFW</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

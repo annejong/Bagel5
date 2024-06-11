@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2003-06-01" modified="2023-09-13" version="24" xmlns="http://uniprot.org/uniprot">
+  <accession>Q84BW6</accession>
+  <name>Q84BW6_9ACTN</name>
+  <protein>
+    <submittedName>
+      <fullName evidence="2">Ipomicin</fullName>
+    </submittedName>
+  </protein>
+  <gene>
+    <name evidence="2" type="primary">ipoA</name>
+    <name evidence="3" type="ORF">Sipo7851_46050</name>
+    <name evidence="4" type="ORF">SipoB123_13925</name>
+  </gene>
+  <organism evidence="2">
+    <name type="scientific">Streptomyces ipomoeae</name>
+    <dbReference type="NCBI Taxonomy" id="103232"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Actinomycetota</taxon>
+      <taxon>Actinomycetes</taxon>
+      <taxon>Kitasatosporales</taxon>
+      <taxon>Streptomycetaceae</taxon>
+      <taxon>Streptomyces</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="2" key="1">
+    <citation type="journal article" date="2003" name="Appl. Environ. Microbiol." volume="69" first="2201" last="2208">
+      <title>Interstrain inhibition in the sweet potato pathogen Streptomyces ipomoeae: purification and characterization of a highly specific bacteriocin and cloning of its structural gene.</title>
+      <authorList>
+        <person name="Zhang X."/>
+        <person name="Clark C.A."/>
+        <person name="Pettis G.S."/>
+      </authorList>
+      <dbReference type="PubMed" id="12676701"/>
+      <dbReference type="DOI" id="10.1128/AEM.69.4.2201-2208.2003"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="2">91-03</strain>
+    </source>
+  </reference>
+  <reference evidence="5 6" key="2">
+    <citation type="submission" date="2019-03" db="EMBL/GenBank/DDBJ databases">
+      <title>Comparative genomic analyses of the sweetpotato soil rot pathogen, Streptomyces ipomoeae.</title>
+      <authorList>
+        <person name="Ruschel Soares N."/>
+        <person name="Badger J.H."/>
+        <person name="Huguet-Tapia J.C."/>
+        <person name="Clark C.A."/>
+        <person name="Pettis G.S."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="3 5">78-51</strain>
+      <strain evidence="4 6">B12321</strain>
+    </source>
+  </reference>
+  <dbReference type="EMBL" id="AF545850">
+    <property type="protein sequence ID" value="AAO85559.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="SPAY01000334">
+    <property type="protein sequence ID" value="TQE18586.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="SPBA01000054">
+    <property type="protein sequence ID" value="TQE26700.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="WP_009309468.1">
+    <property type="nucleotide sequence ID" value="NZ_SPBA01000054.1"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="Q84BW6"/>
+  <dbReference type="Proteomes" id="UP000318230">
+    <property type="component" value="Unassembled WGS sequence"/>
+  </dbReference>
+  <dbReference type="Proteomes" id="UP000320001">
+    <property type="component" value="Unassembled WGS sequence"/>
+  </dbReference>
+  <proteinExistence type="predicted"/>
+  <keyword evidence="1" id="KW-0732">Signal</keyword>
+  <feature type="signal peptide" evidence="1">
+    <location>
+      <begin position="1"/>
+      <end position="30"/>
+    </location>
+  </feature>
+  <feature type="chain" id="PRO_5036286552" evidence="1">
+    <location>
+      <begin position="31"/>
+      <end position="131"/>
+    </location>
+  </feature>
+  <evidence type="ECO:0000256" key="1">
+    <source>
+      <dbReference type="SAM" id="SignalP"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="2">
+    <source>
+      <dbReference type="EMBL" id="AAO85559.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="3">
+    <source>
+      <dbReference type="EMBL" id="TQE18586.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="4">
+    <source>
+      <dbReference type="EMBL" id="TQE26700.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="5">
+    <source>
+      <dbReference type="Proteomes" id="UP000318230"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="6">
+    <source>
+      <dbReference type="Proteomes" id="UP000320001"/>
+    </source>
+  </evidence>
+  <sequence length="131" mass="13798" checksum="C9EED722C60C005B" modified="2003-06-01" version="1">MRFGKPARKASALRAVGALCLAAAVTGAIAAPAQADAPGHPGKHYLQVNVPSDVRTIGVAGGGVQQCFRVTPGAWNDTRALVSNGAQVEVWGYTVADCANRTTANQKYYDKAAAPSDSSTYFWFTLKNLRV</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

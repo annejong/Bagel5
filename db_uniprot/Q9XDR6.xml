@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="1999-11-01" modified="2024-01-24" version="52" xmlns="http://uniprot.org/uniprot">
+  <accession>Q9XDR6</accession>
+  <name>Q9XDR6_LACGS</name>
+  <protein>
+    <submittedName>
+      <fullName evidence="2">Bacteriocin</fullName>
+    </submittedName>
+    <submittedName>
+      <fullName evidence="4">GatX</fullName>
+    </submittedName>
+    <submittedName>
+      <fullName evidence="3">Putative GaeX</fullName>
+    </submittedName>
+  </protein>
+  <gene>
+    <name evidence="4" type="primary">gatX</name>
+    <name evidence="3" type="synonym">gaeX</name>
+    <name evidence="6" type="ORF">C3745_03215</name>
+  </gene>
+  <organism evidence="4">
+    <name type="scientific">Lactobacillus gasseri</name>
+    <dbReference type="NCBI Taxonomy" id="1596"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Bacillota</taxon>
+      <taxon>Bacilli</taxon>
+      <taxon>Lactobacillales</taxon>
+      <taxon>Lactobacillaceae</taxon>
+      <taxon>Lactobacillus</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="4" key="1">
+    <citation type="journal article" date="2000" name="Biosci. Biotechnol. Biochem." volume="64" first="2201" last="2208">
+      <title>Primary amino acid and DNA sequences of gassericin T, a lactacin F-family bacteriocin produced by Lactobacillus gasseri SBT2055.</title>
+      <authorList>
+        <person name="Kawai Y."/>
+        <person name="Saitoh B."/>
+        <person name="Takahashi O."/>
+        <person name="Kitazawa H."/>
+        <person name="Saito T."/>
+      </authorList>
+      <dbReference type="PubMed" id="11129595"/>
+      <dbReference type="DOI" id="10.1271/bbb.64.2201"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="4">SBT2055</strain>
+    </source>
+  </reference>
+  <reference evidence="5" key="2">
+    <citation type="submission" date="2012-04" db="EMBL/GenBank/DDBJ databases">
+      <title>DNA Sequence and HPLC Purification of Gassericin T, a Class IIb Bacteriocin Produced by Lactobacillus gasseri LA158, from Cheese Whey-based Medium.</title>
+      <authorList>
+        <person name="Yasuta N."/>
+        <person name="Chujo T."/>
+        <person name="Nakamura K."/>
+        <person name="Arakawa K."/>
+        <person name="Kawai Y."/>
+        <person name="Ito Y."/>
+        <person name="Ishikawa J."/>
+        <person name="Itoh M."/>
+        <person name="Sakai A."/>
+        <person name="Nishimura J."/>
+        <person name="Makino Y."/>
+        <person name="Shigenobu S."/>
+        <person name="Kitazawa H."/>
+        <person name="Saito T."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="5">LA158</strain>
+    </source>
+  </reference>
+  <reference evidence="2" key="3">
+    <citation type="submission" date="2013-10" db="EMBL/GenBank/DDBJ databases">
+      <authorList>
+        <person name="Stoyancheva G.D."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="2">G7</strain>
+    </source>
+  </reference>
+  <reference evidence="2" key="4">
+    <citation type="journal article" date="2014" name="Arch. Microbiol." volume="196" first="645" last="653">
+      <title>Bacteriocin production and gene sequencing analysis from vaginal Lactobacillus strains.</title>
+      <authorList>
+        <person name="Stoyancheva G."/>
+        <person name="Marzotto M."/>
+        <person name="Dellaglio F."/>
+        <person name="Torriani S."/>
+      </authorList>
+      <dbReference type="PubMed" id="24919535"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="2">G7</strain>
+    </source>
+  </reference>
+  <reference evidence="3" key="5">
+    <citation type="journal article" date="2016" name="BMC Microbiol." volume="16" first="37" last="37">
+      <title>Purification and genetic characterization of gassericin E, a novel co-culture inducible bacteriocin from Lactobacillus gasseri EV1461 isolated from the vagina of a healthy woman.</title>
+      <authorList>
+        <person name="Maldonado-Barragan A."/>
+        <person name="Caballero-Guerrero B."/>
+        <person name="Martin V."/>
+        <person name="Ruiz-Barba J.L."/>
+        <person name="Rodriguez J.M."/>
+      </authorList>
+      <dbReference type="PubMed" id="26969428"/>
+      <dbReference type="DOI" id="10.1186/s12866-016-0663-1"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="3">EV1461</strain>
+    </source>
+  </reference>
+  <reference evidence="6 7" key="6">
+    <citation type="submission" date="2018-02" db="EMBL/GenBank/DDBJ databases">
+      <title>Deletion-based escape of Type II CRISPR-Cas targeting in Lactobacillus gasseri.</title>
+      <authorList>
+        <person name="Stout E."/>
+        <person name="Crawley A."/>
+        <person name="Barrangou R."/>
+        <person name="Goh Y.J."/>
+        <person name="Sanozky-Dawes R."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="6 7">JG141</strain>
+    </source>
+  </reference>
+  <dbReference type="EMBL" id="KF724911">
+    <property type="protein sequence ID" value="AHE41138.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="KR080485">
+    <property type="protein sequence ID" value="ALX37948.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="AB029612">
+    <property type="protein sequence ID" value="BAA82354.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="AB710328">
+    <property type="protein sequence ID" value="BAM09406.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="PQWW01000006">
+    <property type="protein sequence ID" value="RBQ01515.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="WP_003649213.1">
+    <property type="nucleotide sequence ID" value="NZ_SSHO01000001.1"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="Q9XDR6"/>
+  <dbReference type="GeneID" id="66534571"/>
+  <dbReference type="OrthoDB" id="9983410at2"/>
+  <dbReference type="Proteomes" id="UP000253008">
+    <property type="component" value="Unassembled WGS sequence"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0016020">
+    <property type="term" value="C:membrane"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0042742">
+    <property type="term" value="P:defense response to bacterium"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="InterPro"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR019493">
+    <property type="entry name" value="Bacteriocin_IIb_lactacin-rel"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF10439">
+    <property type="entry name" value="Bacteriocin_IIc"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="predicted"/>
+  <keyword evidence="1" id="KW-0472">Membrane</keyword>
+  <keyword evidence="1" id="KW-0812">Transmembrane</keyword>
+  <keyword evidence="1" id="KW-1133">Transmembrane helix</keyword>
+  <feature type="transmembrane region" description="Helical" evidence="1">
+    <location>
+      <begin position="41"/>
+      <end position="62"/>
+    </location>
+  </feature>
+  <evidence type="ECO:0000256" key="1">
+    <source>
+      <dbReference type="SAM" id="Phobius"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="2">
+    <source>
+      <dbReference type="EMBL" id="AHE41138.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="3">
+    <source>
+      <dbReference type="EMBL" id="ALX37948.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="4">
+    <source>
+      <dbReference type="EMBL" id="BAA82354.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="5">
+    <source>
+      <dbReference type="EMBL" id="BAM09406.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="6">
+    <source>
+      <dbReference type="EMBL" id="RBQ01515.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="7">
+    <source>
+      <dbReference type="Proteomes" id="UP000253008"/>
+    </source>
+  </evidence>
+  <sequence length="65" mass="6673" checksum="BE76F9AA7F5B4B8A" modified="1999-11-01" version="1">MALKTLEKHELRNVMGGNKWGNAVIGAATGATRGVSWCRGFGPWGMTACGLGGAAIGGYLGYKSN</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

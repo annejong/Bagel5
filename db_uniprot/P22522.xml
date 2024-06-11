@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="1991-08-01" modified="2023-06-28" version="107" xmlns="http://uniprot.org/uniprot">
+  <accession>P22522</accession>
+  <name>CEAV_ECOLX</name>
+  <protein>
+    <recommendedName>
+      <fullName>Colicin-V</fullName>
+    </recommendedName>
+    <alternativeName>
+      <fullName>Microcin-V bacteriocin</fullName>
+    </alternativeName>
+  </protein>
+  <gene>
+    <name type="primary">cvaC</name>
+  </gene>
+  <organism>
+    <name type="scientific">Escherichia coli</name>
+    <dbReference type="NCBI Taxonomy" id="562"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Pseudomonadota</taxon>
+      <taxon>Gammaproteobacteria</taxon>
+      <taxon>Enterobacterales</taxon>
+      <taxon>Enterobacteriaceae</taxon>
+      <taxon>Escherichia</taxon>
+    </lineage>
+  </organism>
+  <geneLocation type="plasmid">
+    <name>IncFI ColV3-K30</name>
+  </geneLocation>
+  <reference key="1">
+    <citation type="journal article" date="1990" name="EMBO J." volume="9" first="3875" last="3884">
+      <title>Genetic analysis of an MDR-like export system: the secretion of colicin V.</title>
+      <authorList>
+        <person name="Gilson L."/>
+        <person name="Mahanty H.K."/>
+        <person name="Kolter R."/>
+      </authorList>
+      <dbReference type="PubMed" id="2249654"/>
+      <dbReference type="DOI" id="10.1002/j.1460-2075.1990.tb07606.x"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+  </reference>
+  <reference key="2">
+    <citation type="submission" date="1998-05" db="EMBL/GenBank/DDBJ databases">
+      <authorList>
+        <person name="Pinou T."/>
+        <person name="Riley M.A."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+    <source>
+      <strain>Various strains</strain>
+    </source>
+  </reference>
+  <reference key="3">
+    <citation type="journal article" date="1998" name="J. Exp. Med." volume="188" first="1091" last="1103">
+      <title>Characterization of a hemoglobin protease secreted by the pathogenic Escherichia coli strain EB1.</title>
+      <authorList>
+        <person name="Otto B.R."/>
+        <person name="van Dooren S.J.M."/>
+        <person name="Nuijens J.H."/>
+        <person name="Luirink J."/>
+        <person name="Oudega B."/>
+      </authorList>
+      <dbReference type="PubMed" id="9743528"/>
+      <dbReference type="DOI" id="10.1084/jem.188.6.1091"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+  </reference>
+  <reference key="4">
+    <citation type="journal article" date="1994" name="Microbiology" volume="140" first="2383" last="2389">
+      <title>The leader peptide of colicin V shares consensus sequences with leader peptides that are common among peptide bacteriocins produced by Gram-positive bacteria.</title>
+      <authorList>
+        <person name="Havarstein L.S."/>
+        <person name="Holo H."/>
+        <person name="Nes I.F."/>
+      </authorList>
+      <dbReference type="PubMed" id="7952189"/>
+      <dbReference type="DOI" id="10.1099/13500872-140-9-2383"/>
+    </citation>
+    <scope>PROTEIN SEQUENCE OF 16-62</scope>
+    <scope>DISULFIDE BOND</scope>
+  </reference>
+  <reference key="5">
+    <citation type="journal article" date="1994" name="Biochemistry" volume="33" first="6911" last="6917">
+      <title>Purification and characterization of colicin V from Escherichia coli culture supernatants.</title>
+      <authorList>
+        <person name="Fath M.J."/>
+        <person name="Zhang L.H."/>
+        <person name="Rush J."/>
+        <person name="Kolter R."/>
+      </authorList>
+      <dbReference type="PubMed" id="8204625"/>
+      <dbReference type="DOI" id="10.1021/bi00188a021"/>
+    </citation>
+    <scope>PROTEIN SEQUENCE OF 16-28</scope>
+    <scope>SUBCELLULAR LOCATION</scope>
+  </reference>
+  <comment type="function">
+    <text>Colicin V kills sensitive cells by disrupting the membrane potential.</text>
+  </comment>
+  <comment type="function">
+    <text>Colicins are polypeptide toxins produced by, and active against E.coli and closely related bacteria.</text>
+  </comment>
+  <comment type="subcellular location">
+    <subcellularLocation>
+      <location evidence="2">Secreted</location>
+    </subcellularLocation>
+    <text>Secreted by the CvaAB/TolC export system.</text>
+  </comment>
+  <dbReference type="EMBL" id="X57525">
+    <property type="protein sequence ID" value="CAA40746.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="AF062844">
+    <property type="protein sequence ID" value="AAC16351.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="AF062845">
+    <property type="protein sequence ID" value="AAC16353.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="AF062846">
+    <property type="protein sequence ID" value="AAC16355.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="AF062847">
+    <property type="protein sequence ID" value="AAC16357.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="AF062848">
+    <property type="protein sequence ID" value="AAC16359.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="AF062849">
+    <property type="protein sequence ID" value="AAC16361.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="AF062850">
+    <property type="protein sequence ID" value="AAC16363.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="AF062851">
+    <property type="protein sequence ID" value="AAC16365.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="AF062852">
+    <property type="protein sequence ID" value="AAC16367.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="AF062853">
+    <property type="protein sequence ID" value="AAC16369.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="AF062854">
+    <property type="protein sequence ID" value="AAC16371.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="AF062855">
+    <property type="protein sequence ID" value="AAC16373.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="AF062856">
+    <property type="protein sequence ID" value="AAC16375.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="AF062857">
+    <property type="protein sequence ID" value="AAC16377.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="AF062858">
+    <property type="protein sequence ID" value="AAC16379.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="AJ223631">
+    <property type="protein sequence ID" value="CAA11514.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="PIR" id="S12274">
+    <property type="entry name" value="IKECV"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="WP_001259758.1">
+    <property type="nucleotide sequence ID" value="NZ_WXYX01000007.1"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="YP_002527505.1">
+    <property type="nucleotide sequence ID" value="NC_011964.1"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="YP_009070743.1">
+    <property type="nucleotide sequence ID" value="NC_025175.1"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="YP_444120.1">
+    <property type="nucleotide sequence ID" value="NC_007675.1"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="P22522"/>
+  <dbReference type="TCDB" id="1.C.31.1.1">
+    <property type="family name" value="the channel-forming colicin v (colicin v) family"/>
+  </dbReference>
+  <dbReference type="OMA" id="DKVHSWA"/>
+  <dbReference type="GO" id="GO:0005576">
+    <property type="term" value="C:extracellular region"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-SubCell"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0042742">
+    <property type="term" value="P:defense response to bacterium"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0031640">
+    <property type="term" value="P:killing of cells of another organism"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR020280">
+    <property type="entry name" value="MccV"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF17508">
+    <property type="entry name" value="MccV"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="evidence at protein level"/>
+  <keyword id="KW-0044">Antibiotic</keyword>
+  <keyword id="KW-0929">Antimicrobial</keyword>
+  <keyword id="KW-0078">Bacteriocin</keyword>
+  <keyword id="KW-0903">Direct protein sequencing</keyword>
+  <keyword id="KW-1015">Disulfide bond</keyword>
+  <keyword id="KW-0614">Plasmid</keyword>
+  <keyword id="KW-0964">Secreted</keyword>
+  <feature type="propeptide" id="PRO_0000005675" evidence="1 2">
+    <location>
+      <begin position="1"/>
+      <end position="15"/>
+    </location>
+  </feature>
+  <feature type="chain" id="PRO_0000005676" description="Colicin-V">
+    <location>
+      <begin position="16"/>
+      <end position="103"/>
+    </location>
+  </feature>
+  <feature type="disulfide bond" evidence="1">
+    <location>
+      <begin position="91"/>
+      <end position="102"/>
+    </location>
+  </feature>
+  <evidence type="ECO:0000269" key="1">
+    <source>
+      <dbReference type="PubMed" id="7952189"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="2">
+    <source>
+      <dbReference type="PubMed" id="8204625"/>
+    </source>
+  </evidence>
+  <sequence length="103" mass="10311" checksum="E6BA4A98D2AAD649" modified="1991-08-01" version="1" precursor="true">MRTLTLNELDSVSGGASGRDIAMAIGTLSGQFVAGGIGAAAGGVAGGAIYDYASTHKPNPAMSPSGLGGTIKQKPEGIPSEAWNYAAGRLCNWSPNNLSDVCL</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

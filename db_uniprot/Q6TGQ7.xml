@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2004-07-05" modified="2023-09-13" version="44" xmlns="http://uniprot.org/uniprot">
+  <accession>Q6TGQ7</accession>
+  <name>Q6TGQ7_ENTMU</name>
+  <protein>
+    <submittedName>
+      <fullName evidence="5">Enterocin CRL35</fullName>
+    </submittedName>
+  </protein>
+  <gene>
+    <name evidence="5" type="primary">munA</name>
+  </gene>
+  <organism evidence="5">
+    <name type="scientific">Enterococcus mundtii</name>
+    <dbReference type="NCBI Taxonomy" id="53346"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Bacillota</taxon>
+      <taxon>Bacilli</taxon>
+      <taxon>Lactobacillales</taxon>
+      <taxon>Enterococcaceae</taxon>
+      <taxon>Enterococcus</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="5" key="1">
+    <citation type="journal article" date="2004" name="Antimicrob. Agents Chemother." volume="48" first="2778" last="2781">
+      <title>Enhancement of the enterocin CRL35 activity by a synthetic peptide derived from the NH2-terminal sequence.</title>
+      <authorList>
+        <person name="Saavedra L."/>
+        <person name="Minahk C."/>
+        <person name="de Ruiz Holgado A.P."/>
+        <person name="Sesma F."/>
+      </authorList>
+      <dbReference type="PubMed" id="15215149"/>
+      <dbReference type="DOI" id="10.1128/AAC.48.7.2778-2781.2004"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="5">CRL35</strain>
+    </source>
+  </reference>
+  <comment type="similarity">
+    <text evidence="1">Belongs to the bacteriocin class IIA/YGNGV family.</text>
+  </comment>
+  <dbReference type="EMBL" id="AY398693">
+    <property type="protein sequence ID" value="AAQ95741.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="Q6TGQ7"/>
+  <dbReference type="TCDB" id="1.C.24.1.15">
+    <property type="family name" value="the pediocin (pediocin) family"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0005576">
+    <property type="term" value="C:extracellular region"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="InterPro"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0042742">
+    <property type="term" value="P:defense response to bacterium"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0031640">
+    <property type="term" value="P:killing of cells of another organism"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="Gene3D" id="1.20.5.130">
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR002633">
+    <property type="entry name" value="Bacteriocin_IIa"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR023384">
+    <property type="entry name" value="Bacteriocin_IIa_CS"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR023388">
+    <property type="entry name" value="Bacteriocin_IIa_dom_sf"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR010133">
+    <property type="entry name" value="Bacteriocin_signal_seq"/>
+  </dbReference>
+  <dbReference type="NCBIfam" id="TIGR01847">
+    <property type="entry name" value="bacteriocin_sig"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF01721">
+    <property type="entry name" value="Bacteriocin_II"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="PROSITE" id="PS60030">
+    <property type="entry name" value="BACTERIOCIN_IIA"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="inferred from homology"/>
+  <keyword evidence="3" id="KW-0044">Antibiotic</keyword>
+  <keyword evidence="2" id="KW-0929">Antimicrobial</keyword>
+  <keyword evidence="4" id="KW-0078">Bacteriocin</keyword>
+  <evidence type="ECO:0000256" key="1">
+    <source>
+      <dbReference type="ARBA" id="ARBA00007999"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000256" key="2">
+    <source>
+      <dbReference type="ARBA" id="ARBA00022529"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000256" key="3">
+    <source>
+      <dbReference type="ARBA" id="ARBA00023022"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000256" key="4">
+    <source>
+      <dbReference type="ARBA" id="ARBA00023048"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="5">
+    <source>
+      <dbReference type="EMBL" id="AAQ95741.1"/>
+    </source>
+  </evidence>
+  <sequence length="58" mass="5879" checksum="5C9D13AC48419BA7" modified="2004-07-05" version="1">MKKLTSKEMAQVVGGKYYGNGVSCNKKGCSVDWGKAIGIIGNNSAANLATGGAAGWKS</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

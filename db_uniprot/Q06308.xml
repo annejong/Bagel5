@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="1996-11-01" modified="2023-05-03" version="57" xmlns="http://uniprot.org/uniprot">
+  <accession>Q06308</accession>
+  <name>Q06308_SERMA</name>
+  <protein>
+    <submittedName>
+      <fullName evidence="7">Bacteriocin 28b</fullName>
+    </submittedName>
+  </protein>
+  <gene>
+    <name evidence="7" type="primary">bss</name>
+  </gene>
+  <organism evidence="7">
+    <name type="scientific">Serratia marcescens</name>
+    <dbReference type="NCBI Taxonomy" id="615"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Pseudomonadota</taxon>
+      <taxon>Gammaproteobacteria</taxon>
+      <taxon>Enterobacterales</taxon>
+      <taxon>Yersiniaceae</taxon>
+      <taxon>Serratia</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="7" key="1">
+    <citation type="journal article" date="1992" name="J. Gen. Microbiol." volume="138" first="1737" last="1743">
+      <title>Cloning and DNA sequence analysis of a bacteriocin gene of Serratia marcescens.</title>
+      <authorList>
+        <person name="Viejo M.B."/>
+        <person name="Gargallo D."/>
+        <person name="Ferrer S."/>
+        <person name="Enfedaque J."/>
+        <person name="Regue M."/>
+      </authorList>
+      <dbReference type="PubMed" id="1527512"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="7">N28b</strain>
+    </source>
+  </reference>
+  <reference evidence="7" key="2">
+    <citation type="thesis" date="1992" institute="Universitat de Barcelona" country="Barcelona, Spain">
+      <authorList>
+        <person name="Viejo Belon M.B."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="7">N28b</strain>
+    </source>
+  </reference>
+  <reference evidence="7" key="3">
+    <citation type="submission" date="1995-07" db="EMBL/GenBank/DDBJ databases">
+      <authorList>
+        <person name="Regue M."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="7">N28b</strain>
+    </source>
+  </reference>
+  <comment type="function">
+    <text evidence="2">Colicins are polypeptide toxins produced by and active against E.coli and closely related bacteria.</text>
+  </comment>
+  <comment type="function">
+    <text evidence="1">This colicin is a channel-forming colicin. This class of transmembrane toxins depolarize the cytoplasmic membrane, leading to dissipation of cellular energy.</text>
+  </comment>
+  <comment type="similarity">
+    <text evidence="3">Belongs to the channel forming colicin family.</text>
+  </comment>
+  <dbReference type="EMBL" id="X62454">
+    <property type="protein sequence ID" value="CAA44310.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="PIR" id="A47676">
+    <property type="entry name" value="A47676"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="Q06308"/>
+  <dbReference type="GO" id="GO:0016020">
+    <property type="term" value="C:membrane"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0140911">
+    <property type="term" value="F:pore-forming activity"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="InterPro"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0050829">
+    <property type="term" value="P:defense response to Gram-negative bacterium"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="InterPro"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0031640">
+    <property type="term" value="P:killing of cells of another organism"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="InterPro"/>
+  </dbReference>
+  <dbReference type="Gene3D" id="1.10.490.30">
+    <property type="entry name" value="Colicin"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR000293">
+    <property type="entry name" value="Channel_colicin_C"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR038283">
+    <property type="entry name" value="Channel_colicin_C_sf"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF01024">
+    <property type="entry name" value="Colicin"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="PRINTS" id="PR00280">
+    <property type="entry name" value="CHANLCOLICIN"/>
+  </dbReference>
+  <dbReference type="SUPFAM" id="SSF56837">
+    <property type="entry name" value="Colicin"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="inferred from homology"/>
+  <keyword evidence="5" id="KW-0472">Membrane</keyword>
+  <keyword evidence="5" id="KW-0812">Transmembrane</keyword>
+  <keyword evidence="5" id="KW-1133">Transmembrane helix</keyword>
+  <feature type="transmembrane region" description="Helical" evidence="5">
+    <location>
+      <begin position="416"/>
+      <end position="434"/>
+    </location>
+  </feature>
+  <feature type="domain" description="Channel forming colicins" evidence="6">
+    <location>
+      <begin position="258"/>
+      <end position="436"/>
+    </location>
+  </feature>
+  <feature type="region of interest" description="Disordered" evidence="4">
+    <location>
+      <begin position="1"/>
+      <end position="49"/>
+    </location>
+  </feature>
+  <feature type="region of interest" description="Disordered" evidence="4">
+    <location>
+      <begin position="129"/>
+      <end position="181"/>
+    </location>
+  </feature>
+  <feature type="compositionally biased region" description="Polar residues" evidence="4">
+    <location>
+      <begin position="148"/>
+      <end position="162"/>
+    </location>
+  </feature>
+  <evidence type="ECO:0000256" key="1">
+    <source>
+      <dbReference type="ARBA" id="ARBA00002178"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000256" key="2">
+    <source>
+      <dbReference type="ARBA" id="ARBA00003197"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000256" key="3">
+    <source>
+      <dbReference type="ARBA" id="ARBA00007595"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000256" key="4">
+    <source>
+      <dbReference type="SAM" id="MobiDB-lite"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000256" key="5">
+    <source>
+      <dbReference type="SAM" id="Phobius"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000259" key="6">
+    <source>
+      <dbReference type="Pfam" id="PF01024"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="7">
+    <source>
+      <dbReference type="EMBL" id="CAA44310.1"/>
+    </source>
+  </evidence>
+  <sequence length="449" mass="47506" checksum="477B791C7F6959C8" modified="1996-11-01" version="1">MPGFNYGGKGDGTNWSSERGTGPEPGGGDKGHSGDRDRGGAGVGNSPEQQQIAAIQNDPALRMKLEAVIKAARRINPDAKLHIESVSPSGTLSLSATGLTADQAKHIGLGGLVMGVNAKGVTVAIGDIETGHARKPSPPGKGGNNGLNAGQIGASSLGSFVTDSHRDRPVSGWHGNGKTGEFSTTRTTGSYYGFHHLKVEKQDGLATYSLYYKANKNRPAFIAVVRGDNLNAMEVKYANGKPVKSPGSVKTIVKEFVEYQNAELKAIKDGVSLAAGINKDIAEKIGAKYAKLAKDLEAGIQGKYIRNVQDAEKTYEQLTKGLNKKLKAQDKAAIVAWLKMIDAEQYARNARVLGKVFTGVDWAIKGADLVNAAIEGFSTGNWKAFRNQLEALGLSIGAGYTLSAIAAFFAPTLVSSTVGIFAFAYLFGWATSYIDAERAGELEKWVADL</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

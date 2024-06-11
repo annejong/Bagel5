@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2003-06-01" modified="2024-01-24" version="81" xmlns="http://uniprot.org/uniprot">
+  <accession>Q83TS1</accession>
+  <name>Q83TS1_ECOLX</name>
+  <protein>
+    <submittedName>
+      <fullName evidence="2">McmA protein</fullName>
+    </submittedName>
+    <submittedName>
+      <fullName evidence="5">Microcin McmA</fullName>
+    </submittedName>
+  </protein>
+  <gene>
+    <name evidence="2" type="primary">mcmA</name>
+    <name evidence="8" type="ORF">EWK56_12590</name>
+    <name evidence="6" type="ORF">FPI65_28150</name>
+    <name evidence="5" type="ORF">FVB16_03305</name>
+    <name evidence="7" type="ORF">HVV39_14180</name>
+  </gene>
+  <organism evidence="2">
+    <name type="scientific">Escherichia coli</name>
+    <dbReference type="NCBI Taxonomy" id="562"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Pseudomonadota</taxon>
+      <taxon>Gammaproteobacteria</taxon>
+      <taxon>Enterobacterales</taxon>
+      <taxon>Enterobacteriaceae</taxon>
+      <taxon>Escherichia</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="2" key="1">
+    <citation type="journal article" date="2003" name="Microbiology" volume="149" first="2557" last="2570">
+      <title>The colicin G, H and X determinants encode microcins M and H47, which might utilize the catecholate siderophore receptors FepA, Cir, Fiu and IroN.</title>
+      <authorList>
+        <person name="Patzer S.I."/>
+        <person name="Baquero M.R."/>
+        <person name="Bravo D."/>
+        <person name="Moreno F."/>
+        <person name="Hantke K."/>
+      </authorList>
+      <dbReference type="PubMed" id="12949180"/>
+      <dbReference type="DOI" id="10.1099/mic.0.26396-0"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="2">CA46</strain>
+      <strain evidence="3">CA58</strain>
+    </source>
+  </reference>
+  <reference evidence="4" key="2">
+    <citation type="journal article" date="2004" name="J. Bacteriol." volume="186" first="5432" last="5441">
+      <title>Analysis of the genome structure of the nonpathogenic probiotic Escherichia coli strain Nissle 1917.</title>
+      <authorList>
+        <person name="Grozdanov L."/>
+        <person name="Raasch C."/>
+        <person name="Schulze J."/>
+        <person name="Sonnenborn U."/>
+        <person name="Gottschalk G."/>
+        <person name="Hacker J."/>
+        <person name="Dobrindt U."/>
+      </authorList>
+      <dbReference type="PubMed" id="15292145"/>
+      <dbReference type="DOI" id="10.1128/JB.186.16.5432-5441.2004"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="4">Nissle 1917</strain>
+    </source>
+  </reference>
+  <reference evidence="8 9" key="3">
+    <citation type="submission" date="2019-02" db="EMBL/GenBank/DDBJ databases">
+      <authorList>
+        <person name="Slukin P."/>
+        <person name="Fursova N."/>
+        <person name="Ermolenko Z."/>
+        <person name="Mayskaya N."/>
+        <person name="Kislichkina A."/>
+        <person name="Mukhina T."/>
+        <person name="Sizova A."/>
+        <person name="Bogun A."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="8">SCPM-O-B-8431</strain>
+      <strain evidence="9">SCPM-O-B-8431(U15)</strain>
+    </source>
+  </reference>
+  <reference evidence="5 10" key="4">
+    <citation type="submission" date="2019-08" db="EMBL/GenBank/DDBJ databases">
+      <title>Identification of Water Treatment Resistant and Multidrug Resistant Urinary Pathogenic Escherichia coli in Wastewater.</title>
+      <authorList>
+        <person name="Neumann N."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="5 10">WU2356</strain>
+    </source>
+  </reference>
+  <reference evidence="6 11" key="5">
+    <citation type="journal article" date="2020" name="Int J Nanomedicine" volume="15" first="199" last="213">
+      <title>Consequences Of Long-Term Bacteria's Exposure To Silver Nanoformulations With Different PhysicoChemical Properties.</title>
+      <authorList>
+        <person name="Kedziora A."/>
+        <person name="Wernecki M."/>
+        <person name="Korzekwa K."/>
+        <person name="Speruda M."/>
+        <person name="Gerasymchuk Y."/>
+        <person name="Lukowiak A."/>
+        <person name="Bugla-Ploskonska G."/>
+      </authorList>
+      <dbReference type="PubMed" id="32021174"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="6 11">ATCC 11230</strain>
+    </source>
+  </reference>
+  <reference evidence="7 12" key="6">
+    <citation type="submission" date="2020-06" db="EMBL/GenBank/DDBJ databases">
+      <title>REHAB project genomes.</title>
+      <authorList>
+        <person name="Shaw L.P."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="7 12">RHB01-C20</strain>
+    </source>
+  </reference>
+  <dbReference type="EMBL" id="AJ515251">
+    <property type="protein sequence ID" value="CAD56176.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="AJ515252">
+    <property type="protein sequence ID" value="CAD56188.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="AJ586887">
+    <property type="protein sequence ID" value="CAE55705.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="VOTT01000019">
+    <property type="protein sequence ID" value="MPU47894.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="VLTB01000476">
+    <property type="protein sequence ID" value="NDR95049.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="CP055981">
+    <property type="protein sequence ID" value="QMS39099.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="SERV01000008">
+    <property type="protein sequence ID" value="RYL81716.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="WP_001318125.1">
+    <property type="nucleotide sequence ID" value="NZ_WSVO01000039.1"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="Q83TS1"/>
+  <dbReference type="TCDB" id="1.C.31.1.3">
+    <property type="family name" value="the channel-forming colicin v (colicin v) family"/>
+  </dbReference>
+  <dbReference type="Proteomes" id="UP000291778">
+    <property type="component" value="Unassembled WGS sequence"/>
+  </dbReference>
+  <dbReference type="Proteomes" id="UP000392867">
+    <property type="component" value="Unassembled WGS sequence"/>
+  </dbReference>
+  <dbReference type="Proteomes" id="UP000471490">
+    <property type="component" value="Unassembled WGS sequence"/>
+  </dbReference>
+  <dbReference type="Proteomes" id="UP000514533">
+    <property type="component" value="Chromosome"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR020280">
+    <property type="entry name" value="MccV"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF17508">
+    <property type="entry name" value="MccV"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="predicted"/>
+  <feature type="region of interest" description="Disordered" evidence="1">
+    <location>
+      <begin position="1"/>
+      <end position="20"/>
+    </location>
+  </feature>
+  <feature type="region of interest" description="Disordered" evidence="1">
+    <location>
+      <begin position="59"/>
+      <end position="92"/>
+    </location>
+  </feature>
+  <evidence type="ECO:0000256" key="1">
+    <source>
+      <dbReference type="SAM" id="MobiDB-lite"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="2">
+    <source>
+      <dbReference type="EMBL" id="CAD56176.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="3">
+    <source>
+      <dbReference type="EMBL" id="CAD56188.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="4">
+    <source>
+      <dbReference type="EMBL" id="CAE55705.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="5">
+    <source>
+      <dbReference type="EMBL" id="MPU47894.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="6">
+    <source>
+      <dbReference type="EMBL" id="NDR95049.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="7">
+    <source>
+      <dbReference type="EMBL" id="QMS39099.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="8">
+    <source>
+      <dbReference type="EMBL" id="RYL81716.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="9">
+    <source>
+      <dbReference type="Proteomes" id="UP000291778"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="10">
+    <source>
+      <dbReference type="Proteomes" id="UP000392867"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="11">
+    <source>
+      <dbReference type="Proteomes" id="UP000471490"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="12">
+    <source>
+      <dbReference type="Proteomes" id="UP000514533"/>
+    </source>
+  </evidence>
+  <sequence length="92" mass="8955" checksum="B624AB37D11BF63B" modified="2003-06-01" version="1">MRKLSENEIKQISGGDGNDGQAELIAIGSLAGTFISPGFGSIAGAYIGDKVHSWATTATVSPSMSPSGIGLSSQFGSGRGTSSASSSAGSGS</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

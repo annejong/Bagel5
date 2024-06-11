@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2015-04-01" modified="2024-01-24" version="38" xmlns="http://uniprot.org/uniprot">
+  <accession>A0A0B5QT41</accession>
+  <name>A0A0B5QT41_CLOBE</name>
+  <protein>
+    <submittedName>
+      <fullName evidence="1">Fe-S protein</fullName>
+    </submittedName>
+    <submittedName>
+      <fullName evidence="4 6">Ribosomally synthesized six-cysteine peptide SCIFF</fullName>
+    </submittedName>
+    <submittedName>
+      <fullName evidence="3">Six-cysteine peptide SCIFF</fullName>
+    </submittedName>
+  </protein>
+  <gene>
+    <name evidence="3" type="primary">scfA</name>
+    <name evidence="6" type="ORF">B0I49_000768</name>
+    <name evidence="10" type="ORF">CBEIBR21_03705</name>
+    <name evidence="8" type="ORF">CBEIJ_17480</name>
+    <name evidence="2" type="ORF">CIBE_5007</name>
+    <name evidence="9" type="ORF">CLBCK_34720</name>
+    <name evidence="7" type="ORF">CLOBE_24010</name>
+    <name evidence="5" type="ORF">DFH30_002432</name>
+    <name evidence="4" type="ORF">DFH45_002957</name>
+    <name evidence="3" type="ORF">HF849_04960</name>
+    <name evidence="1" type="ORF">LF65_04667</name>
+  </gene>
+  <organism evidence="1 11">
+    <name type="scientific">Clostridium beijerinckii</name>
+    <name type="common">Clostridium MP</name>
+    <dbReference type="NCBI Taxonomy" id="1520"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Bacillota</taxon>
+      <taxon>Clostridia</taxon>
+      <taxon>Eubacteriales</taxon>
+      <taxon>Clostridiaceae</taxon>
+      <taxon>Clostridium</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="11" key="1">
+    <citation type="submission" date="2014-12" db="EMBL/GenBank/DDBJ databases">
+      <title>Genome sequence of Clostridium beijerinckii strain 59B.</title>
+      <authorList>
+        <person name="Little G.T."/>
+        <person name="Minton N.P."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="11">59B</strain>
+    </source>
+  </reference>
+  <reference evidence="2 16" key="2">
+    <citation type="submission" date="2015-11" db="EMBL/GenBank/DDBJ databases">
+      <authorList>
+        <person name="Lopes Ferreira N."/>
+        <person name="Mate de Gerando H."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="2">C. beijerinckii DSM 6423</strain>
+    </source>
+  </reference>
+  <reference evidence="1" key="3">
+    <citation type="submission" date="2016-02" db="EMBL/GenBank/DDBJ databases">
+      <title>Genome sequence of Clostridium beijerinckii strain 59B.</title>
+      <authorList>
+        <person name="Little G.T."/>
+        <person name="Minton N.P."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="1">NCIMB 14988</strain>
+    </source>
+  </reference>
+  <reference evidence="12 14" key="4">
+    <citation type="submission" date="2016-05" db="EMBL/GenBank/DDBJ databases">
+      <title>Microbial solvent formation.</title>
+      <authorList>
+        <person name="Poehlein A."/>
+        <person name="Montoya Solano J.D."/>
+        <person name="Flitsch S."/>
+        <person name="Krabben P."/>
+        <person name="Duerre P."/>
+        <person name="Daniel R."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="8 15">ATCC 39058</strain>
+      <strain evidence="9 14">DSM 53</strain>
+      <strain evidence="7 12">NRRL B-596</strain>
+    </source>
+  </reference>
+  <reference evidence="10 13" key="5">
+    <citation type="submission" date="2017-02" db="EMBL/GenBank/DDBJ databases">
+      <title>Genome sequence of Clostridium beijerinckii Br21.</title>
+      <authorList>
+        <person name="Fonseca B.C."/>
+        <person name="Guazzaroni M.E."/>
+        <person name="Riano-Pachon D.M."/>
+        <person name="Reginatto V."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="10 13">Br21</strain>
+    </source>
+  </reference>
+  <reference evidence="3 18" key="6">
+    <citation type="submission" date="2020-04" db="EMBL/GenBank/DDBJ databases">
+      <authorList>
+        <person name="Hitch T.C.A."/>
+        <person name="Wylensek D."/>
+        <person name="Clavel T."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="3 18">WB01_NA02</strain>
+    </source>
+  </reference>
+  <reference evidence="4" key="7">
+    <citation type="submission" date="2020-05" db="EMBL/GenBank/DDBJ databases">
+      <title>Genomic insights into acetone-butanol-ethanol (ABE) fermentation by sequencing solventogenic clostridia strains.</title>
+      <authorList>
+        <person name="Brown S."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="6 17">DJ055</strain>
+      <strain evidence="5">DJ095</strain>
+      <strain evidence="4">DJ126</strain>
+    </source>
+  </reference>
+  <dbReference type="EMBL" id="CP010086">
+    <property type="protein sequence ID" value="AJH01198.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="LN908213">
+    <property type="protein sequence ID" value="CUU50097.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="JABAGD010000006">
+    <property type="protein sequence ID" value="NMF04111.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="JABSXK010000001">
+    <property type="protein sequence ID" value="NRV09994.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="JABTED010000001">
+    <property type="protein sequence ID" value="NSB57615.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="JACAZL010000001">
+    <property type="protein sequence ID" value="NYC87261.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="LZZB01000039">
+    <property type="protein sequence ID" value="OOM28941.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="LZZF01000021">
+    <property type="protein sequence ID" value="OOM48987.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="LZZI01000074">
+    <property type="protein sequence ID" value="OOM59482.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="MWMH01000001">
+    <property type="protein sequence ID" value="OOP75287.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="WP_003371542.1">
+    <property type="nucleotide sequence ID" value="NZ_WWUK01000009.1"/>
+  </dbReference>
+  <dbReference type="STRING" id="1520.LF65_04667"/>
+  <dbReference type="GeneID" id="83013619"/>
+  <dbReference type="KEGG" id="cbei:LF65_04667"/>
+  <dbReference type="OrthoDB" id="1684200at2"/>
+  <dbReference type="Proteomes" id="UP000031866">
+    <property type="component" value="Chromosome"/>
+  </dbReference>
+  <dbReference type="Proteomes" id="UP000190194">
+    <property type="component" value="Unassembled WGS sequence"/>
+  </dbReference>
+  <dbReference type="Proteomes" id="UP000190959">
+    <property type="component" value="Unassembled WGS sequence"/>
+  </dbReference>
+  <dbReference type="Proteomes" id="UP000190973">
+    <property type="component" value="Unassembled WGS sequence"/>
+  </dbReference>
+  <dbReference type="Proteomes" id="UP000191071">
+    <property type="component" value="Unassembled WGS sequence"/>
+  </dbReference>
+  <dbReference type="Proteomes" id="UP000250158">
+    <property type="component" value="Chromosome i"/>
+  </dbReference>
+  <dbReference type="Proteomes" id="UP000518293">
+    <property type="component" value="Unassembled WGS sequence"/>
+  </dbReference>
+  <dbReference type="Proteomes" id="UP000587880">
+    <property type="component" value="Unassembled WGS sequence"/>
+  </dbReference>
+  <dbReference type="Proteomes" id="UP000753674">
+    <property type="component" value="Unassembled WGS sequence"/>
+  </dbReference>
+  <dbReference type="Proteomes" id="UP000821656">
+    <property type="component" value="Unassembled WGS sequence"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR023975">
+    <property type="entry name" value="Six-Cys_pep_SCIFF"/>
+  </dbReference>
+  <dbReference type="NCBIfam" id="TIGR03973">
+    <property type="entry name" value="six_Cys_in_45"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF13165">
+    <property type="entry name" value="SCIFF"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="predicted"/>
+  <evidence type="ECO:0000313" key="1">
+    <source>
+      <dbReference type="EMBL" id="AJH01198.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="2">
+    <source>
+      <dbReference type="EMBL" id="CUU50097.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="3">
+    <source>
+      <dbReference type="EMBL" id="NMF04111.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="4">
+    <source>
+      <dbReference type="EMBL" id="NRV09994.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="5">
+    <source>
+      <dbReference type="EMBL" id="NSB57615.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="6">
+    <source>
+      <dbReference type="EMBL" id="NYC87261.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="7">
+    <source>
+      <dbReference type="EMBL" id="OOM28941.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="8">
+    <source>
+      <dbReference type="EMBL" id="OOM48987.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="9">
+    <source>
+      <dbReference type="EMBL" id="OOM59482.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="10">
+    <source>
+      <dbReference type="EMBL" id="OOP75287.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="11">
+    <source>
+      <dbReference type="Proteomes" id="UP000031866"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="12">
+    <source>
+      <dbReference type="Proteomes" id="UP000190194"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="13">
+    <source>
+      <dbReference type="Proteomes" id="UP000190959"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="14">
+    <source>
+      <dbReference type="Proteomes" id="UP000190973"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="15">
+    <source>
+      <dbReference type="Proteomes" id="UP000191071"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="16">
+    <source>
+      <dbReference type="Proteomes" id="UP000250158"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="17">
+    <source>
+      <dbReference type="Proteomes" id="UP000518293"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="18">
+    <source>
+      <dbReference type="Proteomes" id="UP000587880"/>
+    </source>
+  </evidence>
+  <sequence length="45" mass="4891" checksum="CABC3EEB994CBD6E" modified="2015-04-01" version="1">MKHIKTINKTNIKNSLCKPGCKECANSCQSACKTSCTVANLECEN</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2006-05-02" modified="2023-11-08" version="48" xmlns="http://uniprot.org/uniprot">
+  <accession>Q1W548</accession>
+  <name>Q1W548_PSEAI</name>
+  <protein>
+    <submittedName>
+      <fullName evidence="1">Uncharacterized protein</fullName>
+    </submittedName>
+  </protein>
+  <gene>
+    <name evidence="1" type="ORF">EXA13</name>
+  </gene>
+  <organism evidence="1">
+    <name type="scientific">Pseudomonas aeruginosa</name>
+    <dbReference type="NCBI Taxonomy" id="287"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Pseudomonadota</taxon>
+      <taxon>Gammaproteobacteria</taxon>
+      <taxon>Pseudomonadales</taxon>
+      <taxon>Pseudomonadaceae</taxon>
+      <taxon>Pseudomonas</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="1" key="1">
+    <citation type="journal article" date="2006" name="J. Bacteriol." volume="188" first="4037" last="4050">
+      <title>Acquisition and evolution of the exoU locus in Pseudomonas aeruginosa.</title>
+      <authorList>
+        <person name="Kulasekara B.R."/>
+        <person name="Kulasekara H.D."/>
+        <person name="Wolfgang M.C."/>
+        <person name="Stevens L."/>
+        <person name="Frank D.W."/>
+        <person name="Lory S."/>
+      </authorList>
+      <dbReference type="PubMed" id="16707695"/>
+      <dbReference type="DOI" id="10.1128/JB.02000-05"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="1">6077</strain>
+    </source>
+  </reference>
+  <reference evidence="2 3" key="2">
+    <citation type="journal article" date="2012" name="J. Biol. Chem." volume="287" first="37395" last="37405">
+      <title>Functional and structural characterization of PaeM, a colicin M-like bacteriocin produced by Pseudomonas aeruginosa.</title>
+      <authorList>
+        <person name="Barreteau H."/>
+        <person name="Tiouajni M."/>
+        <person name="Graille M."/>
+        <person name="Josseaume N."/>
+        <person name="Bouhss A."/>
+        <person name="Patin D."/>
+        <person name="Blanot D."/>
+        <person name="Fourgeaud M."/>
+        <person name="Mainardi J.L."/>
+        <person name="Arthur M."/>
+        <person name="van Tilbeurgh H."/>
+        <person name="Mengin-Lecreulx D."/>
+        <person name="Touze T."/>
+      </authorList>
+      <dbReference type="PubMed" id="22977250"/>
+      <dbReference type="DOI" id="10.1074/jbc.m112.406439"/>
+    </citation>
+    <scope>X-RAY CRYSTALLOGRAPHY (1.70 ANGSTROMS) IN COMPLEX WITH MAGNESIUM</scope>
+  </reference>
+  <dbReference type="EMBL" id="DQ437742">
+    <property type="protein sequence ID" value="ABD94622.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="PDB" id="4G75">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="1.70 A"/>
+    <property type="chains" value="A=1-289"/>
+  </dbReference>
+  <dbReference type="PDB" id="4G76">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="2.38 A"/>
+    <property type="chains" value="A=1-289"/>
+  </dbReference>
+  <dbReference type="PDBsum" id="4G75"/>
+  <dbReference type="PDBsum" id="4G76"/>
+  <dbReference type="AlphaFoldDB" id="Q1W548"/>
+  <dbReference type="SMR" id="Q1W548"/>
+  <dbReference type="GO" id="GO:0046872">
+    <property type="term" value="F:metal ion binding"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0042742">
+    <property type="term" value="P:defense response to bacterium"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="InterPro"/>
+  </dbReference>
+  <dbReference type="Gene3D" id="1.20.1440.280">
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Gene3D" id="3.30.450.400">
+    <property type="entry name" value="Colicin M, catalytic domain"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR028056">
+    <property type="entry name" value="Colicin_M"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF14859">
+    <property type="entry name" value="Colicin_M"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="evidence at protein level"/>
+  <keyword evidence="2 3" id="KW-0002">3D-structure</keyword>
+  <keyword evidence="2" id="KW-0479">Metal-binding</keyword>
+  <feature type="binding site" evidence="2">
+    <location>
+      <position position="211"/>
+    </location>
+    <ligand>
+      <name>Mg(2+)</name>
+      <dbReference type="ChEBI" id="CHEBI:18420"/>
+    </ligand>
+  </feature>
+  <feature type="binding site" evidence="2">
+    <location>
+      <position position="213"/>
+    </location>
+    <ligand>
+      <name>Mg(2+)</name>
+      <dbReference type="ChEBI" id="CHEBI:18420"/>
+    </ligand>
+  </feature>
+  <feature type="binding site" evidence="2">
+    <location>
+      <position position="241"/>
+    </location>
+    <ligand>
+      <name>Mg(2+)</name>
+      <dbReference type="ChEBI" id="CHEBI:18420"/>
+    </ligand>
+  </feature>
+  <evidence type="ECO:0000313" key="1">
+    <source>
+      <dbReference type="EMBL" id="ABD94622.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007829" key="2">
+    <source>
+      <dbReference type="PDB" id="4G75"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007829" key="3">
+    <source>
+      <dbReference type="PDB" id="4G76"/>
+    </source>
+  </evidence>
+  <sequence length="289" mass="32026" checksum="1C49752F3F20F171" modified="2006-05-02" version="1">MVMDLGTTTIVAGQGDFSAYNYGNNGANWPAPSPAQVGYISKGQRDVAYVNGDWEKPLLALWAQWANWGTTLYGYPSLPFPNYEFIWDIFDLPQADYNQFSLGDDRITAMNRAQNHQYPFPNNEGIPSWDRPKIDTFNGGVYTPAAAFAHYLTGKGKKMNFPIERLNIKPNVKAMPQFIGVLTSSPMGQTTVDFNVPYATAKDSWVAGNTVGEITLRIVGILVKSTSGQWSFRGEIRAYDDLYDFNPSNHRTETAEGMTRLGREVGQKFKDTTPYPIGIPGAIPVNISG</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

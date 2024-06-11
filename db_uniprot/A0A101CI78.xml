@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2016-04-13" modified="2024-01-24" version="15" xmlns="http://uniprot.org/uniprot">
+  <accession>A0A101CI78</accession>
+  <name>A0A101CI78_9FLAO</name>
+  <protein>
+    <submittedName>
+      <fullName evidence="1">Uncharacterized protein</fullName>
+    </submittedName>
+  </protein>
+  <gene>
+    <name evidence="1" type="ORF">AR686_09205</name>
+  </gene>
+  <organism evidence="1 2">
+    <name type="scientific">Chryseobacterium aquaticum subsp. greenlandense</name>
+    <dbReference type="NCBI Taxonomy" id="345663"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Bacteroidota</taxon>
+      <taxon>Flavobacteriia</taxon>
+      <taxon>Flavobacteriales</taxon>
+      <taxon>Weeksellaceae</taxon>
+      <taxon>Chryseobacterium group</taxon>
+      <taxon>Chryseobacterium</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="1 2" key="1">
+    <citation type="submission" date="2015-10" db="EMBL/GenBank/DDBJ databases">
+      <title>Genome sequence of Chryseobacterium greenlandense.</title>
+      <authorList>
+        <person name="Newman J."/>
+        <person name="Fischer K."/>
+        <person name="Miller J."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="1 2">UMB34</strain>
+    </source>
+  </reference>
+  <comment type="caution">
+    <text evidence="1">The sequence shown here is derived from an EMBL/GenBank/DDBJ whole genome shotgun (WGS) entry which is preliminary data.</text>
+  </comment>
+  <dbReference type="EMBL" id="LMAI01000004">
+    <property type="protein sequence ID" value="KUJ56721.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="WP_059136628.1">
+    <property type="nucleotide sequence ID" value="NZ_LMAI01000004.1"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="A0A101CI78"/>
+  <dbReference type="Proteomes" id="UP000054388">
+    <property type="component" value="Unassembled WGS sequence"/>
+  </dbReference>
+  <proteinExistence type="predicted"/>
+  <evidence type="ECO:0000313" key="1">
+    <source>
+      <dbReference type="EMBL" id="KUJ56721.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="2">
+    <source>
+      <dbReference type="Proteomes" id="UP000054388"/>
+    </source>
+  </evidence>
+  <sequence length="110" mass="12539" checksum="9D111A8422B2D5B1" modified="2016-04-13" version="1">MRNLVLNYFEEINNTIIENGDLKYCDKLNLTVDKNNEPAISRVNLATQTFTKTYDEASDSDSDRNAVLMSTQTRTFTNTESSDSDRDNRINLLMITSTITESQELTDSDK</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

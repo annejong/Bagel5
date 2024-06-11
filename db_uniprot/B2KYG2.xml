@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2008-06-10" modified="2023-09-13" version="9" xmlns="http://uniprot.org/uniprot">
+  <accession>B2KYG2</accession>
+  <name>B2KYG2_9NOSO</name>
+  <protein>
+    <submittedName>
+      <fullName evidence="1">TenE</fullName>
+    </submittedName>
+  </protein>
+  <gene>
+    <name evidence="1" type="primary">tenE</name>
+  </gene>
+  <organism evidence="1">
+    <name type="scientific">Nostoc spongiaeforme var. tenue str. Carmeli</name>
+    <dbReference type="NCBI Taxonomy" id="503013"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Cyanobacteriota</taxon>
+      <taxon>Cyanophyceae</taxon>
+      <taxon>Nostocales</taxon>
+      <taxon>Nostocaceae</taxon>
+      <taxon>Nostoc</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="1" key="1">
+    <citation type="journal article" date="2008" name="Nat. Chem. Biol.">
+      <title>A global assembly line for cyanobactins.</title>
+      <authorList>
+        <person name="Donia M.S."/>
+        <person name="Ravel J."/>
+        <person name="Schmidt E.W."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="1">Carmeli</strain>
+    </source>
+  </reference>
+  <dbReference type="EMBL" id="EU290741">
+    <property type="protein sequence ID" value="ACA04484.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="B2KYG2"/>
+  <dbReference type="InterPro" id="IPR044050">
+    <property type="entry name" value="DUF5837"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR022264">
+    <property type="entry name" value="Microcy/ptell_bactrcn_lead_pep"/>
+  </dbReference>
+  <dbReference type="NCBIfam" id="TIGR03678">
+    <property type="entry name" value="het_cyc_patell"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF19155">
+    <property type="entry name" value="DUF5837"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="predicted"/>
+  <evidence type="ECO:0000313" key="1">
+    <source>
+      <dbReference type="EMBL" id="ACA04484.1"/>
+    </source>
+  </evidence>
+  <sequence length="93" mass="8997" checksum="790D35E4E29C149E" modified="2008-06-10" version="1">MDKKNILPQQGKPVIRITTGQLPSFLAELSEEALGDAGVGASATGCMCAYDGAGASATGCMCAYDGAGASATACACAYDGAGASATACACAYE</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

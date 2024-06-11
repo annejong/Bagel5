@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2008-09-23" modified="2024-01-24" version="29" xmlns="http://uniprot.org/uniprot">
+  <accession>B4VPV5</accession>
+  <name>B4VPV5_9CYAN</name>
+  <protein>
+    <recommendedName>
+      <fullName evidence="3">Mersacidin/lichenicidin family type 2 lantibiotic</fullName>
+    </recommendedName>
+  </protein>
+  <gene>
+    <name evidence="1" type="ORF">MC7420_5471</name>
+  </gene>
+  <organism evidence="1 2">
+    <name type="scientific">Coleofasciculus chthonoplastes PCC 7420</name>
+    <dbReference type="NCBI Taxonomy" id="118168"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Cyanobacteriota</taxon>
+      <taxon>Cyanophyceae</taxon>
+      <taxon>Coleofasciculales</taxon>
+      <taxon>Coleofasciculaceae</taxon>
+      <taxon>Coleofasciculus</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="1 2" key="1">
+    <citation type="submission" date="2008-07" db="EMBL/GenBank/DDBJ databases">
+      <authorList>
+        <person name="Tandeau de Marsac N."/>
+        <person name="Ferriera S."/>
+        <person name="Johnson J."/>
+        <person name="Kravitz S."/>
+        <person name="Beeson K."/>
+        <person name="Sutton G."/>
+        <person name="Rogers Y.-H."/>
+        <person name="Friedman R."/>
+        <person name="Frazier M."/>
+        <person name="Venter J.C."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="1 2">PCC 7420</strain>
+    </source>
+  </reference>
+  <dbReference type="EMBL" id="DS989847">
+    <property type="protein sequence ID" value="EDX76037.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="WP_006100521.1">
+    <property type="nucleotide sequence ID" value="NZ_DS989847.1"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="B4VPV5"/>
+  <dbReference type="STRING" id="118168.MC7420_5471"/>
+  <dbReference type="eggNOG" id="ENOG50333D4">
+    <property type="taxonomic scope" value="Bacteria"/>
+  </dbReference>
+  <dbReference type="HOGENOM" id="CLU_194381_1_0_3"/>
+  <dbReference type="OrthoDB" id="3539673at2"/>
+  <dbReference type="Proteomes" id="UP000003835">
+    <property type="component" value="Unassembled WGS sequence"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0042742">
+    <property type="term" value="P:defense response to bacterium"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="InterPro"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR027635">
+    <property type="entry name" value="Lantibiotic2_lead_pep_dom"/>
+  </dbReference>
+  <dbReference type="NCBIfam" id="TIGR03898">
+    <property type="entry name" value="lanti_MRSA_kill"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="predicted"/>
+  <keyword evidence="2" id="KW-1185">Reference proteome</keyword>
+  <evidence type="ECO:0000313" key="1">
+    <source>
+      <dbReference type="EMBL" id="EDX76037.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="2">
+    <source>
+      <dbReference type="Proteomes" id="UP000003835"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0008006" key="3">
+    <source>
+      <dbReference type="Google" id="ProtNLM"/>
+    </source>
+  </evidence>
+  <sequence length="82" mass="8754" checksum="EEE3378326276C37" modified="2008-09-23" version="1">MSNLDIIRAWKDEEYRNSLSDEQRAQLPENPAGMIELSDEDMGAISGGFAASRSVSRQGGCSCSCGGNCCSKPQIQNIAALL</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

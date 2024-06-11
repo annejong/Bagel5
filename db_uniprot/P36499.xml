@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="1994-06-01" modified="2023-09-13" version="70" xmlns="http://uniprot.org/uniprot">
+  <accession>P36499</accession>
+  <name>LAN4_LACLL</name>
+  <protein>
+    <recommendedName>
+      <fullName>Lantibiotic lacticin-481</fullName>
+    </recommendedName>
+    <alternativeName>
+      <fullName>Lactococcin-DR</fullName>
+    </alternativeName>
+  </protein>
+  <gene>
+    <name type="primary">lctA</name>
+    <name type="synonym">lcnDR1</name>
+    <name type="synonym">lct</name>
+  </gene>
+  <organism>
+    <name type="scientific">Lactococcus lactis subsp. lactis</name>
+    <name type="common">Streptococcus lactis</name>
+    <dbReference type="NCBI Taxonomy" id="1360"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Bacillota</taxon>
+      <taxon>Bacilli</taxon>
+      <taxon>Lactobacillales</taxon>
+      <taxon>Streptococcaceae</taxon>
+      <taxon>Lactococcus</taxon>
+    </lineage>
+  </organism>
+  <reference key="1">
+    <citation type="journal article" date="1993" name="J. Biol. Chem." volume="268" first="16361" last="16368">
+      <title>Structure, organization, and expression of the lct gene for lacticin 481, a novel lantibiotic produced by Lactococcus lactis.</title>
+      <authorList>
+        <person name="Piard J.-C."/>
+        <person name="Kuipers O.P."/>
+        <person name="Rollema H.S."/>
+        <person name="Desmazeaud M.J."/>
+        <person name="de Vos W.M."/>
+      </authorList>
+      <dbReference type="PubMed" id="8344922"/>
+      <dbReference type="DOI" id="10.1016/s0021-9258(19)85429-7"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+    <scope>STRUCTURE BY NMR</scope>
+    <scope>DEHYDRATION AT THR-48</scope>
+    <scope>LANTHIONINE CROSS-LINKS</scope>
+    <source>
+      <strain>CNRZ 481</strain>
+    </source>
+  </reference>
+  <reference key="2">
+    <citation type="journal article" date="1994" name="Appl. Environ. Microbiol." volume="60" first="1652" last="1657">
+      <title>Cloning, expression, and nucleotide sequence of genes involved in production of lactococcin DR, a bacteriocin from Lactococcus lactis subsp. lactis.</title>
+      <authorList>
+        <person name="Rince A."/>
+        <person name="Dufour A."/>
+        <person name="le Pogam S."/>
+        <person name="Thuault D."/>
+        <person name="Bourgeois C.M."/>
+        <person name="Pennec J.P."/>
+      </authorList>
+      <dbReference type="PubMed" id="8017945"/>
+      <dbReference type="DOI" id="10.1128/aem.60.5.1652-1657.1994"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+    <source>
+      <strain>ADRIA 85LO30</strain>
+    </source>
+  </reference>
+  <reference key="3">
+    <citation type="journal article" date="1992" name="Appl. Environ. Microbiol." volume="58" first="279" last="284">
+      <title>Purification and partial characterization of lacticin 481, a lanthionine-containing bacteriocin produced by Lactococcus lactis subsp. lactis CNRZ 481.</title>
+      <authorList>
+        <person name="Piard J.-C."/>
+        <person name="Muriana P.M."/>
+        <person name="Desmazeaud M.J."/>
+        <person name="Klaenhammer T.R."/>
+      </authorList>
+      <dbReference type="PubMed" id="16348628"/>
+      <dbReference type="DOI" id="10.1128/aem.58.1.279-284.1992"/>
+    </citation>
+    <scope>PROTEIN SEQUENCE OF 25-31</scope>
+    <source>
+      <strain>CNRZ 481</strain>
+    </source>
+  </reference>
+  <reference key="4">
+    <citation type="journal article" date="1996" name="FEBS Lett." volume="391" first="317" last="322">
+      <title>The structure of the lantibiotic lacticin 481 produced by Lactococcus lactis: location of the thioether bridges.</title>
+      <authorList>
+        <person name="van den Hooven H.W."/>
+        <person name="Lagerwerf F.M."/>
+        <person name="Heerma W."/>
+        <person name="Haverkamp J."/>
+        <person name="Piard J.-C."/>
+        <person name="Hilbers C.W."/>
+        <person name="Siezen R.J."/>
+        <person name="Kuipers O.P."/>
+        <person name="Rollema H.S."/>
+      </authorList>
+      <dbReference type="PubMed" id="8764998"/>
+      <dbReference type="DOI" id="10.1016/0014-5793(96)00771-5"/>
+    </citation>
+    <scope>THIOETHER BONDS</scope>
+  </reference>
+  <comment type="function">
+    <text>Lanthionine-containing peptide antibiotic (lantibiotic) active on Gram-positive bacteria. The bactericidal activity of lantibiotics is based on depolarization of energized bacterial cytoplasmic membranes, initiated by the formation of aqueous transmembrane pores. Lacticin 481 is a broad spectrum bacteriocin exhibiting activity against a wide range of lactic acid bacteria and C.tyrobutyricum.</text>
+  </comment>
+  <comment type="subunit">
+    <text>Monomer or homodimer.</text>
+  </comment>
+  <comment type="PTM">
+    <text>Maturation of lantibiotics involves the enzymatic conversion of Thr, and Ser into dehydrated AA and the formation of thioether bonds with cysteine. This is followed by membrane translocation and cleavage of the modified precursor.</text>
+  </comment>
+  <comment type="PTM">
+    <text evidence="2">It is established that the 2,3-didehydrobutyrine is the Z-isomer.</text>
+  </comment>
+  <comment type="similarity">
+    <text evidence="4">Belongs to the type A lantibiotic family.</text>
+  </comment>
+  <dbReference type="EMBL" id="X71410">
+    <property type="protein sequence ID" value="CAA50534.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="U91581">
+    <property type="protein sequence ID" value="AAC72257.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="PIR" id="A47342">
+    <property type="entry name" value="A47342"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="P36499"/>
+  <dbReference type="SMR" id="P36499"/>
+  <dbReference type="TCDB" id="1.C.21.1.1">
+    <property type="family name" value="the lacticin 481 (lacticin 481) family"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0005576">
+    <property type="term" value="C:extracellular region"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="InterPro"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0005102">
+    <property type="term" value="F:signaling receptor binding"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0042742">
+    <property type="term" value="P:defense response to bacterium"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0031640">
+    <property type="term" value="P:killing of cells of another organism"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR007682">
+    <property type="entry name" value="Lantibiotic_typ-A_Lactobact"/>
+  </dbReference>
+  <dbReference type="NCBIfam" id="NF040664">
+    <property type="entry name" value="HEC_x9_TCC_lant"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF04604">
+    <property type="entry name" value="L_biotic_typeA"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="evidence at protein level"/>
+  <keyword id="KW-0044">Antibiotic</keyword>
+  <keyword id="KW-0929">Antimicrobial</keyword>
+  <keyword id="KW-0078">Bacteriocin</keyword>
+  <keyword id="KW-0903">Direct protein sequencing</keyword>
+  <keyword id="KW-0425">Lantibiotic</keyword>
+  <keyword id="KW-0883">Thioether bond</keyword>
+  <feature type="propeptide" id="PRO_0000017120" evidence="1">
+    <location>
+      <begin position="1"/>
+      <end position="24"/>
+    </location>
+  </feature>
+  <feature type="peptide" id="PRO_0000017121" description="Lantibiotic lacticin-481">
+    <location>
+      <begin position="25"/>
+      <end position="51"/>
+    </location>
+  </feature>
+  <feature type="modified residue" description="(Z)-2,3-didehydrobutyrine" evidence="2">
+    <location>
+      <position position="48"/>
+    </location>
+  </feature>
+  <feature type="cross-link" description="Beta-methyllanthionine (Thr-Cys)" evidence="2">
+    <location>
+      <begin position="33"/>
+      <end position="38"/>
+    </location>
+  </feature>
+  <feature type="cross-link" description="Lanthionine (Ser-Cys)" evidence="2 3">
+    <location>
+      <begin position="35"/>
+      <end position="49"/>
+    </location>
+  </feature>
+  <feature type="cross-link" description="Lanthionine (Ser-Cys)" evidence="2 3">
+    <location>
+      <begin position="42"/>
+      <end position="50"/>
+    </location>
+  </feature>
+  <evidence type="ECO:0000269" key="1">
+    <source>
+      <dbReference type="PubMed" id="16348628"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="2">
+    <source>
+      <dbReference type="PubMed" id="8344922"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="3">
+    <source>
+      <dbReference type="PubMed" id="8764998"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000305" key="4"/>
+  <sequence length="51" mass="5677" checksum="44A3951AC2CEAE3D" modified="1994-06-01" version="1" precursor="true">MKEQNSFNLLQEVTESELDLILGAKGGSGVIHTISHECNMNSWQFVFTCCS</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

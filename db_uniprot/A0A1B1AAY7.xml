@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2016-11-02" modified="2024-01-24" version="10" xmlns="http://uniprot.org/uniprot">
+  <accession>A0A1B1AAY7</accession>
+  <name>A0A1B1AAY7_BACTU</name>
+  <protein>
+    <submittedName>
+      <fullName evidence="2">ThsA2</fullName>
+    </submittedName>
+  </protein>
+  <gene>
+    <name evidence="2" type="primary">thsA2'</name>
+  </gene>
+  <organism evidence="2">
+    <name type="scientific">Bacillus thuringiensis serovar rongseni</name>
+    <dbReference type="NCBI Taxonomy" id="180865"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Bacillota</taxon>
+      <taxon>Bacilli</taxon>
+      <taxon>Bacillales</taxon>
+      <taxon>Bacillaceae</taxon>
+      <taxon>Bacillus</taxon>
+      <taxon>Bacillus cereus group</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="2" key="1">
+    <citation type="journal article" date="2016" name="Front. Microbiol." volume="7" first="1115" last="1115">
+      <title>Thusin, a Novel Two-Component Lantibiotic with Potent Antimicrobial Activity against Several Gram-Positive Pathogens.</title>
+      <authorList>
+        <person name="Xin B."/>
+        <person name="Zheng J."/>
+        <person name="Liu H."/>
+        <person name="Sun M."/>
+      </authorList>
+      <dbReference type="PubMed" id="27486447"/>
+      <dbReference type="DOI" id="10.3389/fmicb.2016.01115"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="2">BGSC 4BT1</strain>
+    </source>
+  </reference>
+  <dbReference type="EMBL" id="KT454399">
+    <property type="protein sequence ID" value="ANP43735.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="WP_065211611.1">
+    <property type="nucleotide sequence ID" value="NZ_NFDK01000007.1"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="A0A1B1AAY7"/>
+  <dbReference type="NCBIfam" id="NF038161">
+    <property type="entry name" value="lant_II_LchA2"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="predicted"/>
+  <feature type="region of interest" description="Disordered" evidence="1">
+    <location>
+      <begin position="1"/>
+      <end position="31"/>
+    </location>
+  </feature>
+  <feature type="compositionally biased region" description="Basic and acidic residues" evidence="1">
+    <location>
+      <begin position="1"/>
+      <end position="22"/>
+    </location>
+  </feature>
+  <evidence type="ECO:0000256" key="1">
+    <source>
+      <dbReference type="SAM" id="MobiDB-lite"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="2">
+    <source>
+      <dbReference type="EMBL" id="ANP43735.1"/>
+    </source>
+  </evidence>
+  <sequence length="61" mass="6204" checksum="5C273B960AA34AE6" modified="2016-11-02" version="1">MKEQKLEKITGLIPESELEEHLSGESSGAGTPAITTAISAIIGATAQSPCPTSACSKSCNK</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

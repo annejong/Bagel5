@@ -1,0 +1,603 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2003-07-11" modified="2023-11-08" version="91" xmlns="http://uniprot.org/uniprot">
+  <accession>O31422</accession>
+  <name>SKFA_BACSU</name>
+  <protein>
+    <recommendedName>
+      <fullName evidence="10">Sporulation killing factor</fullName>
+      <shortName evidence="10">SKF</shortName>
+    </recommendedName>
+    <alternativeName>
+      <fullName>Sporulation-killing factor SkfA</fullName>
+    </alternativeName>
+  </protein>
+  <gene>
+    <name evidence="9" type="primary">skfA</name>
+    <name type="synonym">ybcO</name>
+    <name type="ordered locus">BSU01910</name>
+  </gene>
+  <organism>
+    <name type="scientific">Bacillus subtilis (strain 168)</name>
+    <dbReference type="NCBI Taxonomy" id="224308"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Bacillota</taxon>
+      <taxon>Bacilli</taxon>
+      <taxon>Bacillales</taxon>
+      <taxon>Bacillaceae</taxon>
+      <taxon>Bacillus</taxon>
+    </lineage>
+  </organism>
+  <reference key="1">
+    <citation type="submission" date="1997-07" db="EMBL/GenBank/DDBJ databases">
+      <title>Sequence analysis of the 70kb region between 17 and 23 degree of the Bacillus subtilis chromosome.</title>
+      <authorList>
+        <person name="Haga K."/>
+        <person name="Liu H."/>
+        <person name="Yasumoto K."/>
+        <person name="Takahashi H."/>
+        <person name="Yoshikawa H."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+    <source>
+      <strain>168</strain>
+    </source>
+  </reference>
+  <reference key="2">
+    <citation type="journal article" date="1997" name="Nature" volume="390" first="249" last="256">
+      <title>The complete genome sequence of the Gram-positive bacterium Bacillus subtilis.</title>
+      <authorList>
+        <person name="Kunst F."/>
+        <person name="Ogasawara N."/>
+        <person name="Moszer I."/>
+        <person name="Albertini A.M."/>
+        <person name="Alloni G."/>
+        <person name="Azevedo V."/>
+        <person name="Bertero M.G."/>
+        <person name="Bessieres P."/>
+        <person name="Bolotin A."/>
+        <person name="Borchert S."/>
+        <person name="Borriss R."/>
+        <person name="Boursier L."/>
+        <person name="Brans A."/>
+        <person name="Braun M."/>
+        <person name="Brignell S.C."/>
+        <person name="Bron S."/>
+        <person name="Brouillet S."/>
+        <person name="Bruschi C.V."/>
+        <person name="Caldwell B."/>
+        <person name="Capuano V."/>
+        <person name="Carter N.M."/>
+        <person name="Choi S.-K."/>
+        <person name="Codani J.-J."/>
+        <person name="Connerton I.F."/>
+        <person name="Cummings N.J."/>
+        <person name="Daniel R.A."/>
+        <person name="Denizot F."/>
+        <person name="Devine K.M."/>
+        <person name="Duesterhoeft A."/>
+        <person name="Ehrlich S.D."/>
+        <person name="Emmerson P.T."/>
+        <person name="Entian K.-D."/>
+        <person name="Errington J."/>
+        <person name="Fabret C."/>
+        <person name="Ferrari E."/>
+        <person name="Foulger D."/>
+        <person name="Fritz C."/>
+        <person name="Fujita M."/>
+        <person name="Fujita Y."/>
+        <person name="Fuma S."/>
+        <person name="Galizzi A."/>
+        <person name="Galleron N."/>
+        <person name="Ghim S.-Y."/>
+        <person name="Glaser P."/>
+        <person name="Goffeau A."/>
+        <person name="Golightly E.J."/>
+        <person name="Grandi G."/>
+        <person name="Guiseppi G."/>
+        <person name="Guy B.J."/>
+        <person name="Haga K."/>
+        <person name="Haiech J."/>
+        <person name="Harwood C.R."/>
+        <person name="Henaut A."/>
+        <person name="Hilbert H."/>
+        <person name="Holsappel S."/>
+        <person name="Hosono S."/>
+        <person name="Hullo M.-F."/>
+        <person name="Itaya M."/>
+        <person name="Jones L.-M."/>
+        <person name="Joris B."/>
+        <person name="Karamata D."/>
+        <person name="Kasahara Y."/>
+        <person name="Klaerr-Blanchard M."/>
+        <person name="Klein C."/>
+        <person name="Kobayashi Y."/>
+        <person name="Koetter P."/>
+        <person name="Koningstein G."/>
+        <person name="Krogh S."/>
+        <person name="Kumano M."/>
+        <person name="Kurita K."/>
+        <person name="Lapidus A."/>
+        <person name="Lardinois S."/>
+        <person name="Lauber J."/>
+        <person name="Lazarevic V."/>
+        <person name="Lee S.-M."/>
+        <person name="Levine A."/>
+        <person name="Liu H."/>
+        <person name="Masuda S."/>
+        <person name="Mauel C."/>
+        <person name="Medigue C."/>
+        <person name="Medina N."/>
+        <person name="Mellado R.P."/>
+        <person name="Mizuno M."/>
+        <person name="Moestl D."/>
+        <person name="Nakai S."/>
+        <person name="Noback M."/>
+        <person name="Noone D."/>
+        <person name="O'Reilly M."/>
+        <person name="Ogawa K."/>
+        <person name="Ogiwara A."/>
+        <person name="Oudega B."/>
+        <person name="Park S.-H."/>
+        <person name="Parro V."/>
+        <person name="Pohl T.M."/>
+        <person name="Portetelle D."/>
+        <person name="Porwollik S."/>
+        <person name="Prescott A.M."/>
+        <person name="Presecan E."/>
+        <person name="Pujic P."/>
+        <person name="Purnelle B."/>
+        <person name="Rapoport G."/>
+        <person name="Rey M."/>
+        <person name="Reynolds S."/>
+        <person name="Rieger M."/>
+        <person name="Rivolta C."/>
+        <person name="Rocha E."/>
+        <person name="Roche B."/>
+        <person name="Rose M."/>
+        <person name="Sadaie Y."/>
+        <person name="Sato T."/>
+        <person name="Scanlan E."/>
+        <person name="Schleich S."/>
+        <person name="Schroeter R."/>
+        <person name="Scoffone F."/>
+        <person name="Sekiguchi J."/>
+        <person name="Sekowska A."/>
+        <person name="Seror S.J."/>
+        <person name="Serror P."/>
+        <person name="Shin B.-S."/>
+        <person name="Soldo B."/>
+        <person name="Sorokin A."/>
+        <person name="Tacconi E."/>
+        <person name="Takagi T."/>
+        <person name="Takahashi H."/>
+        <person name="Takemaru K."/>
+        <person name="Takeuchi M."/>
+        <person name="Tamakoshi A."/>
+        <person name="Tanaka T."/>
+        <person name="Terpstra P."/>
+        <person name="Tognoni A."/>
+        <person name="Tosato V."/>
+        <person name="Uchiyama S."/>
+        <person name="Vandenbol M."/>
+        <person name="Vannier F."/>
+        <person name="Vassarotti A."/>
+        <person name="Viari A."/>
+        <person name="Wambutt R."/>
+        <person name="Wedler E."/>
+        <person name="Wedler H."/>
+        <person name="Weitzenegger T."/>
+        <person name="Winters P."/>
+        <person name="Wipat A."/>
+        <person name="Yamamoto H."/>
+        <person name="Yamane K."/>
+        <person name="Yasumoto K."/>
+        <person name="Yata K."/>
+        <person name="Yoshida K."/>
+        <person name="Yoshikawa H.-F."/>
+        <person name="Zumstein E."/>
+        <person name="Yoshikawa H."/>
+        <person name="Danchin A."/>
+      </authorList>
+      <dbReference type="PubMed" id="9384377"/>
+      <dbReference type="DOI" id="10.1038/36786"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain>168</strain>
+    </source>
+  </reference>
+  <reference key="3">
+    <citation type="journal article" date="2010" name="Proc. Natl. Acad. Sci. U.S.A." volume="107" first="16286" last="16290">
+      <title>Imaging mass spectrometry of intraspecies metabolic exchange revealed the cannibalistic factors of Bacillus subtilis.</title>
+      <authorList>
+        <person name="Liu W.T."/>
+        <person name="Yang Y.L."/>
+        <person name="Xu Y."/>
+        <person name="Lamsa A."/>
+        <person name="Haste N.M."/>
+        <person name="Yang J.Y."/>
+        <person name="Ng J."/>
+        <person name="Gonzalez D."/>
+        <person name="Ellermeier C.D."/>
+        <person name="Straight P.D."/>
+        <person name="Pevzner P.A."/>
+        <person name="Pogliano J."/>
+        <person name="Nizet V."/>
+        <person name="Pogliano K."/>
+        <person name="Dorrestein P.C."/>
+      </authorList>
+      <dbReference type="PubMed" id="20805502"/>
+      <dbReference type="DOI" id="10.1073/pnas.1008368107"/>
+    </citation>
+    <scope>PROTEIN SEQUENCE OF 30-55</scope>
+    <scope>FUNCTION</scope>
+    <scope>IDENTIFICATION OF ACTIVE PEPTIDE</scope>
+    <scope>SUBCELLULAR LOCATION</scope>
+    <scope>MASS SPECTROMETRY</scope>
+    <scope>DISULFIDE BOND</scope>
+    <scope>THIOETHER BOND</scope>
+    <scope>CROSS-LINK</scope>
+    <scope>DISRUPTION PHENOTYPE</scope>
+    <source>
+      <strain>168 / PY79</strain>
+    </source>
+  </reference>
+  <reference key="4">
+    <citation type="journal article" date="2001" name="J. Appl. Microbiol." volume="91" first="1044" last="1050">
+      <title>A 3.1-kb genomic fragment of Bacillus subtilis encodes the protein inhibiting growth of Xanthomonas oryzae pv. oryzae.</title>
+      <authorList>
+        <person name="Lin D."/>
+        <person name="Qu L.-J."/>
+        <person name="Gu H."/>
+        <person name="Chen Z."/>
+      </authorList>
+      <dbReference type="PubMed" id="11851812"/>
+      <dbReference type="DOI" id="10.1046/j.1365-2672.2001.01475.x"/>
+    </citation>
+    <scope>INHIBITION OF XANTHOMONAS GROWTH</scope>
+    <source>
+      <strain>168 / SO113</strain>
+    </source>
+  </reference>
+  <reference key="5">
+    <citation type="journal article" date="2003" name="Science" volume="301" first="510" last="513">
+      <title>Cannibalism by sporulating bacteria.</title>
+      <authorList>
+        <person name="Gonzalez-Pastor J.E."/>
+        <person name="Hobbs E.C."/>
+        <person name="Losick R."/>
+      </authorList>
+      <dbReference type="PubMed" id="12817086"/>
+      <dbReference type="DOI" id="10.1126/science.1086462"/>
+    </citation>
+    <scope>FUNCTION</scope>
+    <scope>INDUCTION</scope>
+    <scope>DISRUPTION PHENOTYPE</scope>
+    <source>
+      <strain>168 / PY79</strain>
+    </source>
+  </reference>
+  <reference key="6">
+    <citation type="journal article" date="2005" name="Appl. Environ. Microbiol." volume="71" first="1899" last="1908">
+      <title>Genes involved in SkfA killing factor production protect a Bacillus subtilis lipase against proteolysis.</title>
+      <authorList>
+        <person name="Westers H."/>
+        <person name="Braun P.G."/>
+        <person name="Westers L."/>
+        <person name="Antelmann H."/>
+        <person name="Hecker M."/>
+        <person name="Jongbloed J.D.H."/>
+        <person name="Yoshikawa H."/>
+        <person name="Tanaka T."/>
+        <person name="van Dijl J.M."/>
+        <person name="Quax W.J."/>
+      </authorList>
+      <dbReference type="PubMed" id="15812018"/>
+      <dbReference type="DOI" id="10.1128/aem.71.4.1899-1908.2005"/>
+    </citation>
+    <scope>ROLE IN LIPASE PRODUCTION</scope>
+    <source>
+      <strain>168</strain>
+    </source>
+  </reference>
+  <reference key="7">
+    <citation type="journal article" date="2005" name="J. Bacteriol." volume="187" first="1357" last="1368">
+      <title>High- and low-threshold genes in the Spo0A regulon of Bacillus subtilis.</title>
+      <authorList>
+        <person name="Fujita M."/>
+        <person name="Gonzalez-Pastor J.E."/>
+        <person name="Losick R."/>
+      </authorList>
+      <dbReference type="PubMed" id="15687200"/>
+      <dbReference type="DOI" id="10.1128/jb.187.4.1357-1368.2005"/>
+    </citation>
+    <scope>REPRESSION BY ABRB</scope>
+  </reference>
+  <reference key="8">
+    <citation type="journal article" date="2006" name="J. Bacteriol." volume="188" first="5299" last="5303">
+      <title>Phosphate starvation induces the sporulation killing factor of Bacillus subtilis.</title>
+      <authorList>
+        <person name="Allenby N.E.E."/>
+        <person name="Watts C.A."/>
+        <person name="Homuth G."/>
+        <person name="Pragai Z."/>
+        <person name="Wipat A."/>
+        <person name="Ward A.C."/>
+        <person name="Harwood C.R."/>
+      </authorList>
+      <dbReference type="PubMed" id="16816204"/>
+      <dbReference type="DOI" id="10.1128/jb.00084-06"/>
+    </citation>
+    <scope>INDUCTION BY PHOSPHATE STARVATION</scope>
+    <source>
+      <strain>168</strain>
+    </source>
+  </reference>
+  <reference key="9">
+    <citation type="journal article" date="2007" name="J. Bacteriol." volume="189" first="7720" last="7732">
+      <title>Abh and AbrB control of Bacillus subtilis antimicrobial gene expression.</title>
+      <authorList>
+        <person name="Strauch M.A."/>
+        <person name="Bobay B.G."/>
+        <person name="Cavanagh J."/>
+        <person name="Yao F."/>
+        <person name="Wilson A."/>
+        <person name="Le Breton Y."/>
+      </authorList>
+      <dbReference type="PubMed" id="17720793"/>
+      <dbReference type="DOI" id="10.1128/jb.01081-07"/>
+    </citation>
+    <scope>REPRESSION BY ABRB AND ABH</scope>
+  </reference>
+  <reference key="10">
+    <citation type="journal article" date="2013" name="J. Am. Chem. Soc." volume="135" first="959" last="962">
+      <title>Two [4Fe-4S] clusters containing radical SAM enzyme SkfB catalyze thioether bond formation during the maturation of the sporulation killing factor.</title>
+      <authorList>
+        <person name="Fluehe L."/>
+        <person name="Burghaus O."/>
+        <person name="Wieckowski B.M."/>
+        <person name="Giessen T.W."/>
+        <person name="Linne U."/>
+        <person name="Marahiel M.A."/>
+      </authorList>
+      <dbReference type="PubMed" id="23282011"/>
+      <dbReference type="DOI" id="10.1021/ja310542g"/>
+    </citation>
+    <scope>CROSS-LINK</scope>
+    <scope>MUTAGENESIS OF 1-MET--GLY-29; 33-CYS--MET-41; CYS-33 AND MET-41</scope>
+    <source>
+      <strain>168</strain>
+    </source>
+  </reference>
+  <comment type="function">
+    <text evidence="1 2 4 7">Produces a 26-residue extracellular sporulation filling factor (SKF) that induces the lysis of other B.subtilis cells that have not entered the sporulation pathway, providing a source of nutrients to support sporulation, and at the same time delaying commitment to the energetically expensive and irreversible onset of sporulation (PubMed:12817086, PubMed:20805502). Can also inhibit growth of other bacteria at high concentrations (PubMed:11851812). Addition of SKF to solid cultures induces killing, but it is much less effective than SDP (AC O34344) (PubMed:20805502). Has a role in protecting the secreted lipase LipA against proteolysis, either by modulating its folding or by acting as a protease inhibitor (PubMed:15812018).</text>
+  </comment>
+  <comment type="subcellular location">
+    <subcellularLocation>
+      <location evidence="7">Secreted</location>
+    </subcellularLocation>
+    <text evidence="11">Probably secreted by the ABC transporter SkfEF.</text>
+  </comment>
+  <comment type="induction">
+    <text evidence="2 3 5 6">By Spo0A (PubMed:12817086) and PhoP (PubMed:16816204), during nutrient starvation, especially phosphate starvation. Repressed by AbrB during normal growth when nutrients are plentiful, in association with the transcriptional repressor Abh.</text>
+  </comment>
+  <comment type="PTM">
+    <text evidence="7 8">This is a cyclic peptide (PubMed:20805502, PubMed:23282011). The first step in SKF maturation is probably thioether bond formation (PubMed:23282011).</text>
+  </comment>
+  <comment type="mass spectrometry" mass="2781.302" method="MALDI" evidence="7">
+    <text>Cyclic, disulfide-containing sactipeptide with a thioether cross-link of cysteine to methionine.</text>
+  </comment>
+  <comment type="disruption phenotype">
+    <text evidence="2 7">When the skfA-skfB-skfC-skfE-skfF-skfG-skfH operon is deleted, increased rate of spore formation; a double operon deletion (sdpA-sdpC plus skfA-skfH) makes spores even faster (PubMed:12817086). In a single gene deletion no SKP is produced (PubMed:20805502).</text>
+  </comment>
+  <comment type="miscellaneous">
+    <text evidence="2">Accelerated cannibalism by skf- cells is seen on solid media but not in liquid media.</text>
+  </comment>
+  <comment type="online information" name="Protein Spotlight">
+    <link uri="https://web.expasy.org/spotlight/back_issues/090"/>
+    <text>I'll have you for supper - Issue 90 of January 2008</text>
+  </comment>
+  <dbReference type="EMBL" id="AB006424">
+    <property type="protein sequence ID" value="BAA33086.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="AL009126">
+    <property type="protein sequence ID" value="CAB11984.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="PIR" id="C69746">
+    <property type="entry name" value="C69746"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="NP_388072.1">
+    <property type="nucleotide sequence ID" value="NC_000964.3"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="WP_009966416.1">
+    <property type="nucleotide sequence ID" value="NZ_JNCM01000030.1"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="O31422"/>
+  <dbReference type="STRING" id="224308.BSU01910"/>
+  <dbReference type="PaxDb" id="224308-BSU01910"/>
+  <dbReference type="EnsemblBacteria" id="CAB11984">
+    <property type="protein sequence ID" value="CAB11984"/>
+    <property type="gene ID" value="BSU_01910"/>
+  </dbReference>
+  <dbReference type="GeneID" id="938506"/>
+  <dbReference type="KEGG" id="bsu:BSU01910"/>
+  <dbReference type="PATRIC" id="fig|224308.179.peg.198"/>
+  <dbReference type="InParanoid" id="O31422"/>
+  <dbReference type="OrthoDB" id="2895544at2"/>
+  <dbReference type="BioCyc" id="BSUB:BSU01910-MONOMER"/>
+  <dbReference type="Proteomes" id="UP000001570">
+    <property type="component" value="Chromosome"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0005576">
+    <property type="term" value="C:extracellular region"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-SubCell"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0042742">
+    <property type="term" value="P:defense response to bacterium"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0031640">
+    <property type="term" value="P:killing of cells of another organism"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR030919">
+    <property type="entry name" value="RiPP_SkfA"/>
+  </dbReference>
+  <dbReference type="NCBIfam" id="TIGR04404">
+    <property type="entry name" value="RiPP_SkfA"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="evidence at protein level"/>
+  <keyword id="KW-0044">Antibiotic</keyword>
+  <keyword id="KW-0929">Antimicrobial</keyword>
+  <keyword id="KW-0078">Bacteriocin</keyword>
+  <keyword id="KW-0903">Direct protein sequencing</keyword>
+  <keyword id="KW-1015">Disulfide bond</keyword>
+  <keyword id="KW-1185">Reference proteome</keyword>
+  <keyword id="KW-0964">Secreted</keyword>
+  <keyword id="KW-0883">Thioether bond</keyword>
+  <feature type="propeptide" id="PRO_0000435140" evidence="7">
+    <location>
+      <begin position="1"/>
+      <end position="29"/>
+    </location>
+  </feature>
+  <feature type="peptide" id="PRO_0000049459" description="Sporulation killing factor" evidence="7">
+    <location>
+      <begin position="30"/>
+      <end position="55"/>
+    </location>
+  </feature>
+  <feature type="disulfide bond" evidence="7">
+    <location>
+      <begin position="30"/>
+      <end position="45"/>
+    </location>
+  </feature>
+  <feature type="cross-link" description="Cyclopeptide (Cys-Ile)" evidence="7">
+    <location>
+      <begin position="30"/>
+      <end position="55"/>
+    </location>
+  </feature>
+  <feature type="cross-link" description="2-(S-cysteinyl)-methionine (Cys-Met)" evidence="7 8">
+    <location>
+      <begin position="33"/>
+      <end position="41"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Cys-Met cross-link not made." evidence="8">
+    <location>
+      <begin position="1"/>
+      <end position="29"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Cys-Met cross-link not made, suggests relative amino acid positions are important for thioether bond formation." evidence="8">
+    <original>CWASKSIAM</original>
+    <variation>MWASKSIAC</variation>
+    <location>
+      <begin position="33"/>
+      <end position="41"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Cys-thioether cross-link not made." evidence="8">
+    <original>C</original>
+    <variation>A</variation>
+    <variation>S</variation>
+    <location>
+      <position position="33"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Approximately wild-type amounts of Cys-thioether cross-link made." evidence="8">
+    <original>M</original>
+    <variation>A</variation>
+    <variation>F</variation>
+    <variation>L</variation>
+    <variation>Y</variation>
+    <location>
+      <position position="41"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Cys-thioether cross-link not made." evidence="8">
+    <original>M</original>
+    <variation>E</variation>
+    <variation>K</variation>
+    <variation>Q</variation>
+    <location>
+      <position position="41"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="50% wild-type amount of Cys-thioether cross-link made." evidence="8">
+    <original>M</original>
+    <variation>N</variation>
+    <variation>S</variation>
+    <variation>T</variation>
+    <location>
+      <position position="41"/>
+    </location>
+  </feature>
+  <evidence type="ECO:0000269" key="1">
+    <source>
+      <dbReference type="PubMed" id="11851812"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="2">
+    <source>
+      <dbReference type="PubMed" id="12817086"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="3">
+    <source>
+      <dbReference type="PubMed" id="15687200"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="4">
+    <source>
+      <dbReference type="PubMed" id="15812018"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="5">
+    <source>
+      <dbReference type="PubMed" id="16816204"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="6">
+    <source>
+      <dbReference type="PubMed" id="17720793"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="7">
+    <source>
+      <dbReference type="PubMed" id="20805502"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="8">
+    <source>
+      <dbReference type="PubMed" id="23282011"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000303" key="9">
+    <source>
+      <dbReference type="PubMed" id="12817086"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000303" key="10">
+    <source>
+      <dbReference type="PubMed" id="20805502"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000305" key="11"/>
+  <sequence length="55" mass="5934" checksum="F169E627ADBEBB55" modified="1998-01-01" version="1" precursor="true">MKRNQKEWESVSKKGLMKPGGTSIVKAAGCMGCWASKSIAMTRVCALPHPAMRAI</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

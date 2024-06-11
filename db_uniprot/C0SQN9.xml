@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2009-05-26" modified="2023-09-13" version="28" xmlns="http://uniprot.org/uniprot">
+  <accession>C0SQN9</accession>
+  <name>C0SQN9_LEVBR</name>
+  <protein>
+    <submittedName>
+      <fullName evidence="3">Bacteriocin alpha peptide</fullName>
+    </submittedName>
+    <submittedName>
+      <fullName evidence="2">Brevicin 174A-beta</fullName>
+    </submittedName>
+    <submittedName>
+      <fullName evidence="1">Brevicin 925A</fullName>
+    </submittedName>
+  </protein>
+  <gene>
+    <name evidence="1" type="primary">breB</name>
+    <name evidence="3" type="ORF">UCCLBBS449_pA0040</name>
+  </gene>
+  <organism evidence="1">
+    <name type="scientific">Levilactobacillus brevis</name>
+    <name type="common">Lactobacillus brevis</name>
+    <dbReference type="NCBI Taxonomy" id="1580"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Bacillota</taxon>
+      <taxon>Bacilli</taxon>
+      <taxon>Lactobacillales</taxon>
+      <taxon>Lactobacillaceae</taxon>
+      <taxon>Levilactobacillus</taxon>
+    </lineage>
+  </organism>
+  <geneLocation type="plasmid" evidence="2">
+    <name>pLB174A04</name>
+  </geneLocation>
+  <geneLocation type="plasmid" evidence="1">
+    <name>pLB925A04</name>
+  </geneLocation>
+  <geneLocation type="plasmid" evidence="3">
+    <name>pUCCLBBS449_A</name>
+  </geneLocation>
+  <geneLocation type="plasmid" evidence="4">
+    <name>pucclbbs449_a</name>
+  </geneLocation>
+  <reference evidence="1" key="1">
+    <citation type="journal article" date="2009" name="Microbiology" volume="155" first="1726" last="1737">
+      <title>Characterization of four plasmids harboured in a Lactobacillus brevis strain encoding a novel bacteriocin, brevicin 925A, and construction of a shuttle vector for lactic acid bacteria and Escherichia coli.</title>
+      <authorList>
+        <person name="Wada T."/>
+        <person name="Noda M."/>
+        <person name="Kashiwabara F."/>
+        <person name="Jeon H.J."/>
+        <person name="Shirakawa A."/>
+        <person name="Yabu H."/>
+        <person name="Matoba Y."/>
+        <person name="Kumagai T."/>
+        <person name="Sugiyama M."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="1">925A</strain>
+      <plasmid evidence="1">pLB925A04</plasmid>
+    </source>
+  </reference>
+  <reference evidence="2" key="2">
+    <citation type="journal article" date="2015" name="Biol. Pharm. Bull." volume="38" first="1902" last="1909">
+      <title>Characterization and Mutational Analysis of a Two-Polypeptide Bacteriocin Produced by Citrus Iyo-Derived Lactobacillus brevis 174A.</title>
+      <authorList>
+        <person name="Noda M."/>
+        <person name="Miyauchi R."/>
+        <person name="Danshiitsoodol N."/>
+        <person name="Higashikawa F."/>
+        <person name="Kumagai T."/>
+        <person name="Matoba Y."/>
+        <person name="Sugiyama M."/>
+      </authorList>
+      <dbReference type="PubMed" id="26632181"/>
+      <dbReference type="DOI" id="10.1248/bpb.b15-00505"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="2">174A</strain>
+      <plasmid evidence="2">pLB174A04</plasmid>
+    </source>
+  </reference>
+  <reference evidence="3 4" key="3">
+    <citation type="submission" date="2018-07" db="EMBL/GenBank/DDBJ databases">
+      <authorList>
+        <person name="Feyereisen M."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="3 4">UCCLBBS449</strain>
+      <plasmid evidence="3">pUCCLBBS449_A</plasmid>
+      <plasmid evidence="4">pucclbbs449_a</plasmid>
+    </source>
+  </reference>
+  <dbReference type="EMBL" id="AB370337">
+    <property type="protein sequence ID" value="BAH56421.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="LC062087">
+    <property type="protein sequence ID" value="BAU19434.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="CP031199">
+    <property type="protein sequence ID" value="QCZ54446.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="WP_012695402.1">
+    <property type="nucleotide sequence ID" value="NZ_JOKA01000040.1"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="YP_002790978.1">
+    <property type="nucleotide sequence ID" value="NC_012551.1"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="C0SQN9"/>
+  <dbReference type="Proteomes" id="UP000307074">
+    <property type="component" value="Plasmid pucclbbs449_a"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0042742">
+    <property type="term" value="P:defense response to bacterium"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="InterPro"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR019493">
+    <property type="entry name" value="Bacteriocin_IIb_lactacin-rel"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF10439">
+    <property type="entry name" value="Bacteriocin_IIc"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="predicted"/>
+  <keyword evidence="1" id="KW-0614">Plasmid</keyword>
+  <evidence type="ECO:0000313" key="1">
+    <source>
+      <dbReference type="EMBL" id="BAH56421.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="2">
+    <source>
+      <dbReference type="EMBL" id="BAU19434.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="3">
+    <source>
+      <dbReference type="EMBL" id="QCZ54446.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="4">
+    <source>
+      <dbReference type="Proteomes" id="UP000307074"/>
+    </source>
+  </evidence>
+  <sequence length="73" mass="7204" checksum="F20B1198DB04577A" modified="2009-05-26" version="1">MEKFAVLSLSDLVDIQGGKKKKKYTGPNYRCMVKSGGGLVSGAIGGSPFGVGGIVGGGMAGLVGGAISCLNNK</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

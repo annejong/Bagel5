@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2008-07-22" modified="2024-01-24" version="65" xmlns="http://uniprot.org/uniprot">
+  <accession>Q45296</accession>
+  <accession>A0A2H1I3X5</accession>
+  <name>ENCAP_BRELN</name>
+  <protein>
+    <recommendedName>
+      <fullName>Type 1 encapsulin shell protein</fullName>
+    </recommendedName>
+    <alternativeName>
+      <fullName evidence="6">Linocin M18</fullName>
+    </alternativeName>
+    <alternativeName>
+      <fullName evidence="5">M18 encapsulin</fullName>
+    </alternativeName>
+  </protein>
+  <gene>
+    <name evidence="8" type="primary">enc</name>
+    <name evidence="7" type="synonym">lin</name>
+    <name evidence="12" type="ORF">BLIN101_00808</name>
+    <name evidence="11" type="ORF">CXR29_00100</name>
+  </gene>
+  <organism>
+    <name type="scientific">Brevibacterium linens</name>
+    <dbReference type="NCBI Taxonomy" id="1703"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Actinomycetota</taxon>
+      <taxon>Actinomycetes</taxon>
+      <taxon>Micrococcales</taxon>
+      <taxon>Brevibacteriaceae</taxon>
+      <taxon>Brevibacterium</taxon>
+    </lineage>
+  </organism>
+  <reference key="1">
+    <citation type="journal article" date="1996" name="Appl. Environ. Microbiol." volume="62" first="1283" last="1286">
+      <title>Nucleotide sequence and taxonomical distribution of the bacteriocin gene lin cloned from Brevibacterium linens M18.</title>
+      <authorList>
+        <person name="Valdes-Stauber N."/>
+        <person name="Scherer S."/>
+      </authorList>
+      <dbReference type="PubMed" id="8919789"/>
+      <dbReference type="DOI" id="10.1128/aem.62.4.1283-1286.1996"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+    <source>
+      <strain>M18</strain>
+    </source>
+  </reference>
+  <reference key="2">
+    <citation type="submission" date="2017-03" db="EMBL/GenBank/DDBJ databases">
+      <authorList>
+        <person name="Monnet C."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain>Mu101</strain>
+    </source>
+  </reference>
+  <reference key="3">
+    <citation type="journal article" date="2019" name="Front. Microbiol." volume="10" first="1270" last="1270">
+      <title>Mobilome of Brevibacterium aurantiacum Sheds Light on Its Genetic Diversity and Its Adaptation to Smear-Ripened Cheeses.</title>
+      <authorList>
+        <person name="Levesque S."/>
+        <person name="de Melo A.G."/>
+        <person name="Labrie S.J."/>
+        <person name="Moineau S."/>
+      </authorList>
+      <dbReference type="PubMed" id="31244798"/>
+      <dbReference type="DOI" id="10.3389/fmicb.2019.01270"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain>ATCC 19391</strain>
+    </source>
+  </reference>
+  <reference key="4">
+    <citation type="journal article" date="1994" name="Appl. Environ. Microbiol." volume="60" first="3809" last="3814">
+      <title>Isolation and characterization of Linocin M18, a bacteriocin produced by Brevibacterium linens.</title>
+      <authorList>
+        <person name="Valdes-Stauber N."/>
+        <person name="Scherer S."/>
+      </authorList>
+      <dbReference type="PubMed" id="7986050"/>
+      <dbReference type="DOI" id="10.1128/aem.60.10.3809-3814.1994"/>
+    </citation>
+    <scope>PROTEIN SEQUENCE OF 1-19</scope>
+    <scope>FUNCTION AS A BACTERIOCIN</scope>
+    <scope>SUBUNIT</scope>
+    <scope>SUBCELLULAR LOCATION</scope>
+    <source>
+      <strain>M18</strain>
+    </source>
+  </reference>
+  <reference key="5">
+    <citation type="journal article" date="2008" name="Nat. Struct. Mol. Biol." volume="15" first="939" last="947">
+      <title>Structural basis of enzyme encapsulation into a bacterial nanocompartment.</title>
+      <authorList>
+        <person name="Sutter M."/>
+        <person name="Boehringer D."/>
+        <person name="Gutmann S."/>
+        <person name="Gunther S."/>
+        <person name="Prangishvili D."/>
+        <person name="Loessner M.J."/>
+        <person name="Stetter K.O."/>
+        <person name="Weber-Ban E."/>
+        <person name="Ban N."/>
+      </authorList>
+      <dbReference type="PubMed" id="19172747"/>
+      <dbReference type="DOI" id="10.1038/nsmb.1473"/>
+    </citation>
+    <scope>FUNCTION</scope>
+    <scope>NOT A BACTERIOCIN</scope>
+    <scope>SUBUNIT</scope>
+    <scope>SUBCELLULAR LOCATION</scope>
+    <source>
+      <strain>M18</strain>
+    </source>
+  </reference>
+  <reference key="6">
+    <citation type="journal article" date="2016" name="Biomacromolecules" volume="17" first="2522" last="2529">
+      <title>Assembly and Mechanical Properties of the Cargo-Free and Cargo-Loaded Bacterial Nanocompartment Encapsulin.</title>
+      <authorList>
+        <person name="Snijder J."/>
+        <person name="Kononova O."/>
+        <person name="Barbu I.M."/>
+        <person name="Uetrecht C."/>
+        <person name="Rurup W.F."/>
+        <person name="Burnley R.J."/>
+        <person name="Koay M.S."/>
+        <person name="Cornelissen J.J."/>
+        <person name="Roos W.H."/>
+        <person name="Barsegov V."/>
+        <person name="Wuite G.J."/>
+        <person name="Heck A.J."/>
+      </authorList>
+      <dbReference type="PubMed" id="27355101"/>
+      <dbReference type="DOI" id="10.1021/acs.biomac.6b00469"/>
+    </citation>
+    <scope>FUNCTION</scope>
+    <scope>STABILITY</scope>
+    <scope>SUBUNIT</scope>
+    <scope>SUBCELLULAR LOCATION</scope>
+    <scope>MASS SPECTROMETRY</scope>
+  </reference>
+  <reference key="7">
+    <citation type="journal article" date="2017" name="ACS Nano" volume="11" first="12796" last="12804">
+      <title>Structural Characterization of Native and Modified Encapsulins as Nanoplatforms for in Vitro Catalysis and Cellular Uptake.</title>
+      <authorList>
+        <person name="Putri R.M."/>
+        <person name="Allende-Ballestero C."/>
+        <person name="Luque D."/>
+        <person name="Klem R."/>
+        <person name="Rousou K.A."/>
+        <person name="Liu A."/>
+        <person name="Traulsen C.H."/>
+        <person name="Rurup W.F."/>
+        <person name="Koay M.S.T."/>
+        <person name="Caston J.R."/>
+        <person name="Cornelissen J.J.L.M."/>
+      </authorList>
+      <dbReference type="PubMed" id="29166561"/>
+      <dbReference type="DOI" id="10.1021/acsnano.7b07669"/>
+    </citation>
+    <scope>STRUCTURE BY ELECTRON MICROSCOPY (11.4 ANGSTROMS)</scope>
+    <scope>FUNCTION</scope>
+    <scope>STABILITY</scope>
+    <scope>SUBUNIT</scope>
+    <scope>SUBCELLULAR LOCATION</scope>
+    <scope>BIOTECHNOLOGY</scope>
+  </reference>
+  <reference key="8">
+    <citation type="journal article" date="2021" name="Nat. Commun." volume="12" first="4748" last="4748">
+      <title>Large-scale computational discovery and analysis of virus-derived microbial nanocompartments.</title>
+      <authorList>
+        <person name="Andreas M.P."/>
+        <person name="Giessen T.W."/>
+      </authorList>
+      <dbReference type="PubMed" id="34362927"/>
+      <dbReference type="DOI" id="10.1038/s41467-021-25071-y"/>
+    </citation>
+    <scope>CLASSIFICATION</scope>
+  </reference>
+  <reference evidence="13" key="9">
+    <citation type="submission" date="2020-12" db="PDB data bank">
+      <title>Three-dimensional cryoEM structure of Brevibacterium linens encapsulin.</title>
+      <authorList>
+        <person name="Allende-Ballestero C."/>
+        <person name="Luque D."/>
+        <person name="Klem R."/>
+        <person name="Cornelissen J.J.L.M."/>
+        <person name="Caston J.R."/>
+      </authorList>
+    </citation>
+    <scope>STRUCTURE BY ELECTRON MICROSCOPY (2.28 ANGSTROMS) OF 2-266</scope>
+  </reference>
+  <comment type="function">
+    <text evidence="1 2 3 9">Shell component of a type 1 encapsulin nanocompartment. Assembles into proteinaceous shells 23-24 nm in diameter with 2-2.5 nm thick walls. Endogenous cargo protein DyP (dye-decolorizing peroxidase) is targeted to the interior via its C-terminal extension; only 1 DyP hexamer is incorporated into each shell. Empty shells can be isolated in the absence of cargo (PubMed:19172747, PubMed:27355101, PubMed:29166561). Cargo encapsulation probably precedes assembly of the nanocompartment; may assemble or disassemble via dimers, subcomplexes with a distinct preference for even numbers of subunits are detected (PubMed:27355101) (Probable). Nanocompartments are stable against mechanical forces; loaded nanocompartments are less stable than empty ones (PubMed:27355101). Nanocompartments are stable between pH 5-10; they aggregate at pH 9-10 and start to disassemble at pH 11. They are stable in 1M NaCl, 1 M MgCl(2) and 1M CaCl(2), unstable in 20% DMSO (dimethylsulfoxide) and are stable in 20% but not 40% ethanol (PubMed:29166561).</text>
+  </comment>
+  <comment type="subunit">
+    <text evidence="2 3 4">Homomultimeric (PubMed:7986050). This encapsulin nanocompartment is formed by 60 subunits, and encloses one Dyp homohexamer; partially assembled 58-subunit compartments with and without cargo are also purified. May assemble the shell from dimers (PubMed:27355101, PubMed:29166561). Monomers form pentamers, which assemble to form hollow shells with pores 5-8 Angstroms in diameter where 3 pentamers meet (PubMed:29166561).</text>
+  </comment>
+  <comment type="subcellular location">
+    <subcellularLocation>
+      <location evidence="1 2 3 4">Encapsulin nanocompartment</location>
+    </subcellularLocation>
+  </comment>
+  <comment type="mass spectrometry" mass="1718200.0" method="Electrospray" evidence="2">
+    <text>Empty 60-mer.</text>
+  </comment>
+  <comment type="biotechnology">
+    <text evidence="3">Can be used as a bionanoreactor following immobilization on a glass surface. Nanocompartments filled with a fluorescent-labeled protein are stable for 5 years at 4 degrees Celsius and are taken up by mouse macrophages.</text>
+  </comment>
+  <comment type="miscellaneous">
+    <text evidence="2 3">Other cargo proteins can be targeted to this compartment.</text>
+  </comment>
+  <comment type="similarity">
+    <text evidence="10">Belongs to the encapsulin family. Family 1 subfamily.</text>
+  </comment>
+  <comment type="caution">
+    <text evidence="1 4">Was originally thought to be a bacteriocin (PubMed:7986050); it has since been shown this is not the case (PubMed:19172747).</text>
+  </comment>
+  <dbReference type="EMBL" id="X93588">
+    <property type="protein sequence ID" value="CAA63787.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="CP026734">
+    <property type="protein sequence ID" value="AZT99314.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="FXZA01000002">
+    <property type="protein sequence ID" value="SMX69863.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="PDB" id="7BCV">
+    <property type="method" value="EM"/>
+    <property type="resolution" value="2.28 A"/>
+    <property type="chains" value="A=2-266"/>
+  </dbReference>
+  <dbReference type="PDBsum" id="7BCV"/>
+  <dbReference type="AlphaFoldDB" id="Q45296"/>
+  <dbReference type="EMDB" id="EMD-12144"/>
+  <dbReference type="SMR" id="Q45296"/>
+  <dbReference type="IntAct" id="Q45296">
+    <property type="interactions" value="1"/>
+  </dbReference>
+  <dbReference type="STRING" id="1703.BLSMQ_0026"/>
+  <dbReference type="MEROPS" id="U56.001"/>
+  <dbReference type="OrthoDB" id="2922at2"/>
+  <dbReference type="Proteomes" id="UP000234498">
+    <property type="component" value="Unassembled WGS sequence"/>
+  </dbReference>
+  <dbReference type="Proteomes" id="UP000282883">
+    <property type="component" value="Chromosome"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0140737">
+    <property type="term" value="C:encapsulin nanocompartment"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="Gene3D" id="3.30.2400.30">
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Gene3D" id="3.30.2320.10">
+    <property type="entry name" value="hypothetical protein PF0899 domain"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR007544">
+    <property type="entry name" value="ENCAP"/>
+  </dbReference>
+  <dbReference type="NCBIfam" id="NF041155">
+    <property type="entry name" value="encap_f1"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="PANTHER" id="PTHR37165:SF1">
+    <property type="entry name" value="MARITIMACIN"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="PANTHER" id="PTHR37165">
+    <property type="entry name" value="PEPTIDASE U56 FAMILY"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF04454">
+    <property type="entry name" value="Linocin_M18"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="PIRSF" id="PIRSF019254">
+    <property type="entry name" value="CFP29"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="evidence at protein level"/>
+  <keyword id="KW-0002">3D-structure</keyword>
+  <keyword id="KW-0903">Direct protein sequencing</keyword>
+  <keyword id="KW-1284">Encapsulin nanocompartment</keyword>
+  <feature type="chain" id="PRO_0000343953" description="Type 1 encapsulin shell protein">
+    <location>
+      <begin position="1"/>
+      <end position="266"/>
+    </location>
+  </feature>
+  <feature type="sequence conflict" description="In Ref. 4; AA sequence." evidence="8" ref="4">
+    <original>W</original>
+    <variation>A</variation>
+    <location>
+      <position position="16"/>
+    </location>
+  </feature>
+  <evidence type="ECO:0000269" key="1">
+    <source>
+      <dbReference type="PubMed" id="19172747"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="2">
+    <source>
+      <dbReference type="PubMed" id="27355101"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="3">
+    <source>
+      <dbReference type="PubMed" id="29166561"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="4">
+    <source>
+      <dbReference type="PubMed" id="7986050"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000303" key="5">
+    <source>
+      <dbReference type="PubMed" id="19172747"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000303" key="6">
+    <source>
+      <dbReference type="PubMed" id="7986050"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000303" key="7">
+    <source>
+      <dbReference type="PubMed" id="8919789"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000305" key="8"/>
+  <evidence type="ECO:0000305" key="9">
+    <source>
+      <dbReference type="PubMed" id="27355101"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000305" key="10">
+    <source>
+      <dbReference type="PubMed" id="34362927"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000312" key="11">
+    <source>
+      <dbReference type="EMBL" id="AZT99314.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000312" key="12">
+    <source>
+      <dbReference type="EMBL" id="SMX69863.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007744" key="13">
+    <source>
+      <dbReference type="PDB" id="7BCV"/>
+    </source>
+  </evidence>
+  <sequence length="266" mass="28597" checksum="C33D960AC4C0529E" modified="1996-11-01" version="1">MNNLYRELAPIPGPAWAEIEEEARRTFKRNIAGRRIVDVAGPTGFETSAVTTGHIRDVQSETSGLQVKQRIVQEYIELRTPFTVTRQAIDDVARGSGDSDWQPVKDAATTIAMAEDRAILHGLDAAGIGGIVPGSSNAAVAIPDAVEDFADAVAQALSVLRTVGVDGPYSLLLSSAEYTKVSESTDHGYPIREHLSRQLGAGEIIWAPALEGALLVSTRGGDYELHLGQDLSIGYYSHDSETVELYLQETFGFLALTDESSVPLSL</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

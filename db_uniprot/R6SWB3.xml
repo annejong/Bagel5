@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2013-07-24" modified="2024-01-24" version="18" xmlns="http://uniprot.org/uniprot">
+  <accession>R6SWB3</accession>
+  <name>R6SWB3_9LACO</name>
+  <protein>
+    <submittedName>
+      <fullName evidence="8">Prebacteriocin SkgA2</fullName>
+    </submittedName>
+  </protein>
+  <gene>
+    <name evidence="8" type="ORF">BN628_00043</name>
+  </gene>
+  <organism evidence="8 9">
+    <name type="scientific">Ligilactobacillus ruminis CAG:367</name>
+    <dbReference type="NCBI Taxonomy" id="1263085"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Bacillota</taxon>
+      <taxon>Bacilli</taxon>
+      <taxon>Lactobacillales</taxon>
+      <taxon>Lactobacillaceae</taxon>
+      <taxon>Ligilactobacillus</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="8 9" key="1">
+    <citation type="submission" date="2012-11" db="EMBL/GenBank/DDBJ databases">
+      <title>Dependencies among metagenomic species, viruses, plasmids and units of genetic variation.</title>
+      <authorList>
+        <person name="Nielsen H.B."/>
+        <person name="Almeida M."/>
+        <person name="Juncker A.S."/>
+        <person name="Rasmussen S."/>
+        <person name="Li J."/>
+        <person name="Sunagawa S."/>
+        <person name="Plichta D."/>
+        <person name="Gautier L."/>
+        <person name="Le Chatelier E."/>
+        <person name="Peletier E."/>
+        <person name="Bonde I."/>
+        <person name="Nielsen T."/>
+        <person name="Manichanh C."/>
+        <person name="Arumugam M."/>
+        <person name="Batto J."/>
+        <person name="Santos M.B.Q.D."/>
+        <person name="Blom N."/>
+        <person name="Borruel N."/>
+        <person name="Burgdorf K.S."/>
+        <person name="Boumezbeur F."/>
+        <person name="Casellas F."/>
+        <person name="Dore J."/>
+        <person name="Guarner F."/>
+        <person name="Hansen T."/>
+        <person name="Hildebrand F."/>
+        <person name="Kaas R.S."/>
+        <person name="Kennedy S."/>
+        <person name="Kristiansen K."/>
+        <person name="Kultima J.R."/>
+        <person name="Leonard P."/>
+        <person name="Levenez F."/>
+        <person name="Lund O."/>
+        <person name="Moumen B."/>
+        <person name="Le Paslier D."/>
+        <person name="Pons N."/>
+        <person name="Pedersen O."/>
+        <person name="Prifti E."/>
+        <person name="Qin J."/>
+        <person name="Raes J."/>
+        <person name="Tap J."/>
+        <person name="Tims S."/>
+        <person name="Ussery D.W."/>
+        <person name="Yamada T."/>
+        <person name="MetaHit consortium"/>
+        <person name="Renault P."/>
+        <person name="Sicheritz-Ponten T."/>
+        <person name="Bork P."/>
+        <person name="Wang J."/>
+        <person name="Brunak S."/>
+        <person name="Ehrlich S.D."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="9">MGS:367</strain>
+    </source>
+  </reference>
+  <comment type="subcellular location">
+    <subcellularLocation>
+      <location evidence="1">Secreted</location>
+    </subcellularLocation>
+  </comment>
+  <comment type="similarity">
+    <text evidence="2">Belongs to the bacteriocin class IIA/YGNGV family.</text>
+  </comment>
+  <comment type="caution">
+    <text evidence="8">The sequence shown here is derived from an EMBL/GenBank/DDBJ whole genome shotgun (WGS) entry which is preliminary data.</text>
+  </comment>
+  <dbReference type="EMBL" id="CBFO010000149">
+    <property type="protein sequence ID" value="CDC59691.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="R6SWB3"/>
+  <dbReference type="Proteomes" id="UP000018129">
+    <property type="component" value="Unassembled WGS sequence"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0005576">
+    <property type="term" value="C:extracellular region"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-SubCell"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0042742">
+    <property type="term" value="P:defense response to bacterium"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0031640">
+    <property type="term" value="P:killing of cells of another organism"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="Gene3D" id="1.20.5.130">
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR002633">
+    <property type="entry name" value="Bacteriocin_IIa"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR023384">
+    <property type="entry name" value="Bacteriocin_IIa_CS"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR023388">
+    <property type="entry name" value="Bacteriocin_IIa_dom_sf"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF01721">
+    <property type="entry name" value="Bacteriocin_II"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="PROSITE" id="PS60030">
+    <property type="entry name" value="BACTERIOCIN_IIA"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="inferred from homology"/>
+  <keyword evidence="5" id="KW-0044">Antibiotic</keyword>
+  <keyword evidence="4" id="KW-0929">Antimicrobial</keyword>
+  <keyword evidence="6" id="KW-0078">Bacteriocin</keyword>
+  <keyword evidence="7" id="KW-1015">Disulfide bond</keyword>
+  <keyword evidence="3" id="KW-0964">Secreted</keyword>
+  <evidence type="ECO:0000256" key="1">
+    <source>
+      <dbReference type="ARBA" id="ARBA00004613"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000256" key="2">
+    <source>
+      <dbReference type="ARBA" id="ARBA00007999"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000256" key="3">
+    <source>
+      <dbReference type="ARBA" id="ARBA00022525"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000256" key="4">
+    <source>
+      <dbReference type="ARBA" id="ARBA00022529"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000256" key="5">
+    <source>
+      <dbReference type="ARBA" id="ARBA00023022"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000256" key="6">
+    <source>
+      <dbReference type="ARBA" id="ARBA00023048"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000256" key="7">
+    <source>
+      <dbReference type="ARBA" id="ARBA00023157"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="8">
+    <source>
+      <dbReference type="EMBL" id="CDC59691.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="9">
+    <source>
+      <dbReference type="Proteomes" id="UP000018129"/>
+    </source>
+  </evidence>
+  <sequence length="56" mass="6075" checksum="CDE75156D3E44E79" modified="2013-07-24" version="1">MENKKKLTKADLAKVTGGSRYYGNGVTCGKHKCTVNWGQAWTCGVNRLANFGHGNC</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2009-02-10" modified="2024-01-24" version="81" xmlns="http://uniprot.org/uniprot">
+  <accession>Q812G9</accession>
+  <name>THCL_BACCR</name>
+  <protein>
+    <recommendedName>
+      <fullName>Thiocillin</fullName>
+    </recommendedName>
+    <alternativeName>
+      <fullName>Antibiotic YM-266183</fullName>
+    </alternativeName>
+    <alternativeName>
+      <fullName>Antibiotic YM-266184</fullName>
+    </alternativeName>
+    <alternativeName>
+      <fullName>Micrococcin P1</fullName>
+    </alternativeName>
+    <alternativeName>
+      <fullName>Micrococcin P2</fullName>
+    </alternativeName>
+    <alternativeName>
+      <fullName>Thiocillin I</fullName>
+    </alternativeName>
+    <alternativeName>
+      <fullName>Thiocillin II</fullName>
+    </alternativeName>
+    <alternativeName>
+      <fullName>Thiocillin III</fullName>
+    </alternativeName>
+    <alternativeName>
+      <fullName>Thiocillin IV</fullName>
+    </alternativeName>
+  </protein>
+  <gene>
+    <name type="ordered locus">BC_5087</name>
+  </gene>
+  <gene>
+    <name type="ordered locus">BC_5088</name>
+  </gene>
+  <gene>
+    <name type="ordered locus">BC_5089</name>
+  </gene>
+  <gene>
+    <name type="ordered locus">BC_5090</name>
+  </gene>
+  <organism>
+    <name type="scientific">Bacillus cereus (strain ATCC 14579 / DSM 31 / CCUG 7414 / JCM 2152 / NBRC 15305 / NCIMB 9373 / NCTC 2599 / NRRL B-3711)</name>
+    <dbReference type="NCBI Taxonomy" id="226900"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Bacillota</taxon>
+      <taxon>Bacilli</taxon>
+      <taxon>Bacillales</taxon>
+      <taxon>Bacillaceae</taxon>
+      <taxon>Bacillus</taxon>
+      <taxon>Bacillus cereus group</taxon>
+    </lineage>
+  </organism>
+  <reference key="1">
+    <citation type="journal article" date="2003" name="Nature" volume="423" first="87" last="91">
+      <title>Genome sequence of Bacillus cereus and comparative analysis with Bacillus anthracis.</title>
+      <authorList>
+        <person name="Ivanova N."/>
+        <person name="Sorokin A."/>
+        <person name="Anderson I."/>
+        <person name="Galleron N."/>
+        <person name="Candelon B."/>
+        <person name="Kapatral V."/>
+        <person name="Bhattacharyya A."/>
+        <person name="Reznik G."/>
+        <person name="Mikhailova N."/>
+        <person name="Lapidus A."/>
+        <person name="Chu L."/>
+        <person name="Mazur M."/>
+        <person name="Goltsman E."/>
+        <person name="Larsen N."/>
+        <person name="D'Souza M."/>
+        <person name="Walunas T."/>
+        <person name="Grechkin Y."/>
+        <person name="Pusch G."/>
+        <person name="Haselkorn R."/>
+        <person name="Fonstein M."/>
+        <person name="Ehrlich S.D."/>
+        <person name="Overbeek R."/>
+        <person name="Kyrpides N.C."/>
+      </authorList>
+      <dbReference type="PubMed" id="12721630"/>
+      <dbReference type="DOI" id="10.1038/nature01582"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain>ATCC 14579 / DSM 31 / CCUG 7414 / JCM 2152 / NBRC 15305 / NCIMB 9373 / NCTC 2599 / NRRL B-3711</strain>
+    </source>
+  </reference>
+  <reference key="2">
+    <citation type="unpublished observations" date="2008-11">
+      <authorList>
+        <person name="Garavelli J.S."/>
+      </authorList>
+    </citation>
+    <scope>IDENTIFICATION AS THIOCILLIN</scope>
+  </reference>
+  <reference key="3">
+    <citation type="journal article" date="2009" name="Proc. Natl. Acad. Sci. U.S.A." volume="106" first="2549" last="2553">
+      <title>Thirteen posttranslational modifications convert a 14-residue peptide into the antibiotic thiocillin.</title>
+      <authorList>
+        <person name="Brown L.C.W."/>
+        <person name="Acker M.G."/>
+        <person name="Clardy J."/>
+        <person name="Walsh C.T."/>
+        <person name="Fischbach M.A."/>
+      </authorList>
+      <dbReference type="PubMed" id="19196969"/>
+      <dbReference type="DOI" id="10.1073/pnas.0900008106"/>
+    </citation>
+    <scope>DEHYDRATION AT THR-42 AND THR-51</scope>
+    <scope>HYDROXYLATION AT VAL-44</scope>
+    <scope>METHYLATION AT THR-46</scope>
+    <scope>DECARBOXYLATION AT THR-52</scope>
+  </reference>
+  <comment type="function">
+    <text evidence="1">Has bacteriocidal activity against Gram-positive bacteria, but not against Gram-negative bacteria. Inhibits bacterial protein biosynthesis by acting on the elongation factor Tu (EF-Tu) (By similarity).</text>
+  </comment>
+  <comment type="subcellular location">
+    <subcellularLocation>
+      <location evidence="1">Secreted</location>
+    </subcellularLocation>
+  </comment>
+  <comment type="PTM">
+    <text>Maturation of thiazole and oxazole containing antibiotics involves the enzymatic condensation of a Cys, Ser or Thr with the alpha-carbonyl of the preceding amino acid to form a thioether or ether bond, then dehydration to form a double bond with the alpha-amino nitrogen. Thiazoline or oxazoline ring are dehydrogenated to form thiazole or oxazole rings.</text>
+  </comment>
+  <comment type="PTM">
+    <text>Maturation of pyridinyl containing antibiotics involves the cross-linking of a Ser and a Cys-Ser pair usually separated by 7 or 8 residues along the peptide chain. The Ser residues are dehydrated to didehydroalanines, then bonded between their beta carbons. The alpha carbonyl of the Cys condenses with alpha carbon of the first Ser to form a pyridinyl ring. The ring may be multiply dehydrogenated to form a pyridine ring with loss of the amino nitrogen of the first Ser.</text>
+  </comment>
+  <comment type="PTM">
+    <text evidence="2">The 8 possible modification isomers, differing in the presence of modifications at three positions, have been characterized in PubMed:19196969. Val-44 is modified to 3-hydroxyvaline in forms thiocillin I, thiocillin II, YM-266183, and YM-266184. Thr-46 is modified to O-methylthreonine in forms thiocillin II, thiocillin III, thiocillin IV, and YM-266184. Thr-52 is decarboxylated to (R)-1-aminopropan-2-ol in forms micrococcin P1, thiocillin I, thiocillin II, and thiocillin III. Thr-52 is decarboxylated and oxidized to 1-amino-2-propanone in forms micrococcin P2, YM-266183, YM-266184. and thiocillin IV.</text>
+  </comment>
+  <comment type="PTM">
+    <text>The structure of 2,3-didehydrobutyrines is not discussed in PubMed:19196969. However, in Fig. 3 the residues are diagrammed as Z-isomers.</text>
+  </comment>
+  <comment type="similarity">
+    <text evidence="3">Belongs to the thiocillin family.</text>
+  </comment>
+  <dbReference type="EMBL" id="AE016877">
+    <property type="protein sequence ID" value="AAP11956.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="AE016877">
+    <property type="protein sequence ID" value="AAP11957.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="AE016877">
+    <property type="protein sequence ID" value="AAP11958.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="AE016877">
+    <property type="protein sequence ID" value="AAP11959.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="NP_834755.1">
+    <property type="nucleotide sequence ID" value="NC_004722.1"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="NP_834756.1">
+    <property type="nucleotide sequence ID" value="NC_004722.1"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="NP_834757.1">
+    <property type="nucleotide sequence ID" value="NC_004722.1"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="NP_834758.1">
+    <property type="nucleotide sequence ID" value="NC_004722.1"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="WP_001289699.1">
+    <property type="nucleotide sequence ID" value="NZ_CP034551.1"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="Q812G9"/>
+  <dbReference type="SMR" id="Q812G9"/>
+  <dbReference type="STRING" id="226900.BC_5087"/>
+  <dbReference type="iPTMnet" id="Q812G9"/>
+  <dbReference type="KEGG" id="bce:BC5087"/>
+  <dbReference type="KEGG" id="bce:BC5088"/>
+  <dbReference type="KEGG" id="bce:BC5089"/>
+  <dbReference type="KEGG" id="bce:BC5090"/>
+  <dbReference type="PATRIC" id="fig|226900.8.peg.5246"/>
+  <dbReference type="HOGENOM" id="CLU_3076638_0_0_9"/>
+  <dbReference type="Proteomes" id="UP000001417">
+    <property type="component" value="Chromosome"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0005576">
+    <property type="term" value="C:extracellular region"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-SubCell"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0042742">
+    <property type="term" value="P:defense response to bacterium"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0031640">
+    <property type="term" value="P:killing of cells of another organism"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR023895">
+    <property type="entry name" value="Thiopep_bacteriocin_prcur"/>
+  </dbReference>
+  <dbReference type="NCBIfam" id="NF033401">
+    <property type="entry name" value="thiazolyl_BerA"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="NCBIfam" id="TIGR03892">
+    <property type="entry name" value="thiopep_precurs"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="evidence at protein level"/>
+  <keyword id="KW-0044">Antibiotic</keyword>
+  <keyword id="KW-0929">Antimicrobial</keyword>
+  <keyword id="KW-0078">Bacteriocin</keyword>
+  <keyword id="KW-0379">Hydroxylation</keyword>
+  <keyword id="KW-0488">Methylation</keyword>
+  <keyword id="KW-1185">Reference proteome</keyword>
+  <keyword id="KW-0964">Secreted</keyword>
+  <keyword id="KW-0883">Thioether bond</keyword>
+  <feature type="propeptide" id="PRO_0000363165" evidence="1">
+    <location>
+      <begin position="1"/>
+      <end position="38"/>
+    </location>
+  </feature>
+  <feature type="peptide" id="PRO_0000363166" description="Thiocillin">
+    <location>
+      <begin position="39"/>
+      <end position="52"/>
+    </location>
+  </feature>
+  <feature type="modified residue" description="(Z)-2,3-didehydrobutyrine" evidence="2">
+    <location>
+      <position position="42"/>
+    </location>
+  </feature>
+  <feature type="modified residue" description="3-hydroxyvaline (Val); partial" evidence="2">
+    <location>
+      <position position="44"/>
+    </location>
+  </feature>
+  <feature type="modified residue" description="O-methylthreonine; partial" evidence="2">
+    <location>
+      <position position="46"/>
+    </location>
+  </feature>
+  <feature type="modified residue" description="(Z)-2,3-didehydrobutyrine" evidence="2">
+    <location>
+      <position position="51"/>
+    </location>
+  </feature>
+  <feature type="modified residue" description="1-amino-2-propanone; alternate">
+    <location>
+      <position position="52"/>
+    </location>
+  </feature>
+  <feature type="modified residue" description="Decarboxylated threonine; alternate" evidence="2">
+    <location>
+      <position position="52"/>
+    </location>
+  </feature>
+  <feature type="cross-link" description="Pyridine-2,5-dicarboxylic acid (Ser-Ser) (with C-47)">
+    <location>
+      <begin position="39"/>
+      <end position="48"/>
+    </location>
+  </feature>
+  <feature type="cross-link" description="Pyridine-2,5-dicarboxylic acid (Ser-Cys) (with S-48)">
+    <location>
+      <begin position="39"/>
+      <end position="47"/>
+    </location>
+  </feature>
+  <feature type="cross-link" description="Thiazole-4-carboxylic acid (Ser-Cys)">
+    <location>
+      <begin position="39"/>
+      <end position="40"/>
+    </location>
+  </feature>
+  <feature type="cross-link" description="Thiazole-4-carboxylic acid (Thr-Cys)">
+    <location>
+      <begin position="42"/>
+      <end position="43"/>
+    </location>
+  </feature>
+  <feature type="cross-link" description="Thiazole-4-carboxylic acid (Val-Cys)">
+    <location>
+      <begin position="44"/>
+      <end position="45"/>
+    </location>
+  </feature>
+  <feature type="cross-link" description="Thiazole-4-carboxylic acid (Thr-Cys)">
+    <location>
+      <begin position="46"/>
+      <end position="47"/>
+    </location>
+  </feature>
+  <feature type="cross-link" description="Thiazole-4-carboxylic acid (Ser-Cys)">
+    <location>
+      <begin position="48"/>
+      <end position="49"/>
+    </location>
+  </feature>
+  <feature type="cross-link" description="Thiazole-4-carboxylic acid (Cys-Cys)">
+    <location>
+      <begin position="49"/>
+      <end position="50"/>
+    </location>
+  </feature>
+  <evidence type="ECO:0000250" key="1"/>
+  <evidence type="ECO:0000269" key="2">
+    <source>
+      <dbReference type="PubMed" id="19196969"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000305" key="3"/>
+  <sequence length="52" mass="5624" checksum="9F7279622C52DDF0" modified="2003-06-01" version="1" precursor="true">MSEIKKALNTLEIEDFDAIEMVDVDAMPENEALEIMGASCTTCVCTCSCCTT</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

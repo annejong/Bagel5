@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2004-12-07" modified="2023-11-08" version="51" xmlns="http://uniprot.org/uniprot">
+  <accession>P68578</accession>
+  <accession>O34781</accession>
+  <accession>O64033</accession>
+  <name>SUNA_BPSPB</name>
+  <protein>
+    <recommendedName>
+      <fullName>Bacteriocin sublancin-168</fullName>
+    </recommendedName>
+  </protein>
+  <gene>
+    <name type="primary">sunA</name>
+    <name type="ordered locus">SPBc2p020</name>
+  </gene>
+  <organism>
+    <name type="scientific">Bacillus phage SPbeta</name>
+    <name type="common">Bacillus phage SPBc2</name>
+    <name type="synonym">Bacteriophage SP-beta</name>
+    <dbReference type="NCBI Taxonomy" id="2932878"/>
+    <lineage>
+      <taxon>Viruses</taxon>
+      <taxon>Duplodnaviria</taxon>
+      <taxon>Heunggongvirae</taxon>
+      <taxon>Uroviricota</taxon>
+      <taxon>Caudoviricetes</taxon>
+      <taxon>Spbetavirus</taxon>
+      <taxon>Spbetavirus SPbeta</taxon>
+    </lineage>
+  </organism>
+  <organismHost>
+    <name type="scientific">Bacillus pumilus</name>
+    <name type="common">Bacillus mesentericus</name>
+    <dbReference type="NCBI Taxonomy" id="1408"/>
+  </organismHost>
+  <organismHost>
+    <name type="scientific">Bacillus subtilis</name>
+    <dbReference type="NCBI Taxonomy" id="1423"/>
+  </organismHost>
+  <reference key="1">
+    <citation type="journal article" date="1999" name="Microbiology" volume="145" first="1055" last="1067">
+      <title>Nucleotide sequence of the Bacillus subtilis temperate bacteriophage SPbetac2.</title>
+      <authorList>
+        <person name="Lazarevic V."/>
+        <person name="Duesterhoeft A."/>
+        <person name="Soldo B."/>
+        <person name="Hilbert H."/>
+        <person name="Mauel C."/>
+        <person name="Karamata D."/>
+      </authorList>
+      <dbReference type="PubMed" id="10376821"/>
+      <dbReference type="DOI" id="10.1099/13500872-145-5-1055"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+  </reference>
+  <comment type="function">
+    <text evidence="2">Bacteriocin active against Gram-positive bacteria. Inhibits B.cereus spore outgrowth, after the germination stage, approximately 1000-fold better than it inhibits exponential growth of the same cells. Inhibits B.subtilis strain ATCC 6633.</text>
+  </comment>
+  <comment type="subunit">
+    <text evidence="2">Monomer.</text>
+  </comment>
+  <comment type="subcellular location">
+    <subcellularLocation>
+      <location evidence="2">Secreted</location>
+    </subcellularLocation>
+    <text evidence="2">Extracellular region.</text>
+  </comment>
+  <comment type="PTM">
+    <text evidence="2">Production of active sublancin-168 requires at least one thiol-disulfide oxidoreductase (BdbB or, in its absence, BdbC). Membrane translocation and cleavage of the precursor are probably performed by SunT.</text>
+  </comment>
+  <dbReference type="EMBL" id="AF020713">
+    <property type="protein sequence ID" value="AAC12992.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="PIR" id="T12783">
+    <property type="entry name" value="T12783"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="NP_046571.1">
+    <property type="nucleotide sequence ID" value="NC_001884.1"/>
+  </dbReference>
+  <dbReference type="BMRB" id="P68578"/>
+  <dbReference type="SMR" id="P68578"/>
+  <dbReference type="GlyCosmos" id="P68578">
+    <property type="glycosylation" value="1 site, No reported glycans"/>
+  </dbReference>
+  <dbReference type="GeneID" id="1261375"/>
+  <dbReference type="KEGG" id="vg:1261375"/>
+  <dbReference type="Proteomes" id="UP000009091">
+    <property type="component" value="Genome"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0005576">
+    <property type="term" value="C:extracellular region"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-SubCell"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0042742">
+    <property type="term" value="P:defense response to bacterium"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0031640">
+    <property type="term" value="P:killing of cells of another organism"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR026479">
+    <property type="entry name" value="Glycopep_SunS"/>
+  </dbReference>
+  <dbReference type="NCBIfam" id="TIGR04196">
+    <property type="entry name" value="glycopep_SunS"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF19151">
+    <property type="entry name" value="Sublancin"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="inferred from homology"/>
+  <keyword id="KW-0044">Antibiotic</keyword>
+  <keyword id="KW-0929">Antimicrobial</keyword>
+  <keyword id="KW-0078">Bacteriocin</keyword>
+  <keyword id="KW-1015">Disulfide bond</keyword>
+  <keyword id="KW-0325">Glycoprotein</keyword>
+  <keyword id="KW-1185">Reference proteome</keyword>
+  <keyword id="KW-0964">Secreted</keyword>
+  <feature type="propeptide" id="PRO_0000017146" evidence="1">
+    <location>
+      <begin position="1"/>
+      <end position="19"/>
+    </location>
+  </feature>
+  <feature type="peptide" id="PRO_0000017147" description="Bacteriocin sublancin-168">
+    <location>
+      <begin position="20"/>
+      <end position="56"/>
+    </location>
+  </feature>
+  <feature type="glycosylation site" description="S-linked (Glc) cysteine; by host" evidence="2">
+    <location>
+      <position position="41"/>
+    </location>
+  </feature>
+  <feature type="disulfide bond" evidence="2">
+    <location>
+      <begin position="26"/>
+      <end position="55"/>
+    </location>
+  </feature>
+  <feature type="disulfide bond" evidence="2">
+    <location>
+      <begin position="33"/>
+      <end position="48"/>
+    </location>
+  </feature>
+  <evidence type="ECO:0000250" key="1"/>
+  <evidence type="ECO:0000250" key="2">
+    <source>
+      <dbReference type="UniProtKB" id="P68577"/>
+    </source>
+  </evidence>
+  <sequence length="56" mass="5982" checksum="79EC0BF822F9F4C0" modified="2004-12-07" version="1" precursor="true">MEKLFKEVKLEELENQKGSGLGKAQCAALWLQCASGGTIGCGGGAVACQNYRQFCR</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

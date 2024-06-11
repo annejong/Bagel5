@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2016-02-17" modified="2023-09-13" version="15" xmlns="http://uniprot.org/uniprot">
+  <accession>A0A0R8Y1S5</accession>
+  <name>A0A0R8Y1S5_STRC3</name>
+  <protein>
+    <submittedName>
+      <fullName evidence="1">Streptocollin prepeptide</fullName>
+    </submittedName>
+  </protein>
+  <gene>
+    <name evidence="1" type="primary">stcA</name>
+    <name evidence="1" type="ORF">B446_00784</name>
+    <name evidence="2" type="ORF">B446_34506</name>
+  </gene>
+  <organism evidence="1 3">
+    <name type="scientific">Streptomyces collinus (strain DSM 40733 / Tue 365)</name>
+    <dbReference type="NCBI Taxonomy" id="1214242"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Actinomycetota</taxon>
+      <taxon>Actinomycetes</taxon>
+      <taxon>Kitasatosporales</taxon>
+      <taxon>Streptomycetaceae</taxon>
+      <taxon>Streptomyces</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="3" key="1">
+    <citation type="submission" date="2012-10" db="EMBL/GenBank/DDBJ databases">
+      <title>The complete genome sequence of Streptomyces collinus Tu 365.</title>
+      <authorList>
+        <person name="Ruckert C."/>
+        <person name="Szczepanowski R."/>
+        <person name="Goesmann A."/>
+        <person name="Pross E.K."/>
+        <person name="Musiol E.M."/>
+        <person name="Blin K."/>
+        <person name="Wohlleben W."/>
+        <person name="Puhler A."/>
+        <person name="Weber T."/>
+        <person name="Kalinowski J."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="3">DSM 40733 / Tue 365</strain>
+    </source>
+  </reference>
+  <reference evidence="1 3" key="2">
+    <citation type="journal article" date="2013" name="J. Biotechnol." volume="168" first="739" last="740">
+      <title>Complete genome sequence of the kirromycin producer Streptomyces collinus Tu 365 consisting of a linear chromosome and two linear plasmids.</title>
+      <authorList>
+        <person name="Ruckert C."/>
+        <person name="Szczepanowski R."/>
+        <person name="Albersmeier A."/>
+        <person name="Goesmann A."/>
+        <person name="Iftime D."/>
+        <person name="Musiol E.M."/>
+        <person name="Blin K."/>
+        <person name="Wohlleben W."/>
+        <person name="Puhler A."/>
+        <person name="Kalinowski J."/>
+        <person name="Weber T."/>
+      </authorList>
+      <dbReference type="PubMed" id="24140291"/>
+      <dbReference type="DOI" id="10.1016/j.jbiotec.2013.10.004"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="3">DSM 40733 / Tue 365</strain>
+      <strain evidence="1">Tu 365</strain>
+    </source>
+  </reference>
+  <reference evidence="1" key="3">
+    <citation type="submission" date="2015-08" db="EMBL/GenBank/DDBJ databases">
+      <authorList>
+        <person name="Weber T."/>
+        <person name="Iftime D."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="1">Tu 365</strain>
+    </source>
+  </reference>
+  <dbReference type="EMBL" id="CP006259">
+    <property type="protein sequence ID" value="ALA50776.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="CP006259">
+    <property type="protein sequence ID" value="ALA50777.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="A0A0R8Y1S5"/>
+  <dbReference type="OMA" id="FANTCAC"/>
+  <dbReference type="Proteomes" id="UP000015423">
+    <property type="component" value="Chromosome"/>
+  </dbReference>
+  <dbReference type="NCBIfam" id="NF038147">
+    <property type="entry name" value="lanti_IV_venA"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="predicted"/>
+  <keyword evidence="3" id="KW-1185">Reference proteome</keyword>
+  <evidence type="ECO:0000313" key="1">
+    <source>
+      <dbReference type="EMBL" id="ALA50776.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="2">
+    <source>
+      <dbReference type="EMBL" id="ALA50777.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="3">
+    <source>
+      <dbReference type="Proteomes" id="UP000015423"/>
+    </source>
+  </evidence>
+  <sequence length="51" mass="5308" checksum="B3F29B73C71AF3BE" modified="2016-02-17" version="1">MENQTLELLAHLHALPETDPVDFDGASYSGTCACVGLLTLLNTVCVGISCA</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

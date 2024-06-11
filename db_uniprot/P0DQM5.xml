@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2020-08-12" modified="2023-09-13" version="6" xmlns="http://uniprot.org/uniprot">
+  <accession>P0DQM5</accession>
+  <name>CAP_BURTA</name>
+  <protein>
+    <recommendedName>
+      <fullName evidence="7 8 10">Capistruin</fullName>
+      <shortName evidence="10">Cap</shortName>
+    </recommendedName>
+    <alternativeName>
+      <fullName evidence="7 8 10">Class II lasso peptide</fullName>
+    </alternativeName>
+    <alternativeName>
+      <fullName evidence="8 9">Lariat peptide</fullName>
+    </alternativeName>
+    <alternativeName>
+      <fullName evidence="9 10">Ribosomally synthesized and post-translationally modified peptide</fullName>
+      <shortName evidence="9 10">RiPP</shortName>
+    </alternativeName>
+  </protein>
+  <gene>
+    <name evidence="7 8" type="primary">CapA</name>
+    <name evidence="6" type="ordered locus">BTH_I2437.1</name>
+  </gene>
+  <organism>
+    <name type="scientific">Burkholderia thailandensis (strain ATCC 700388 / DSM 13276 / CCUG 48851 / CIP 106301 / E264)</name>
+    <dbReference type="NCBI Taxonomy" id="271848"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Pseudomonadota</taxon>
+      <taxon>Betaproteobacteria</taxon>
+      <taxon>Burkholderiales</taxon>
+      <taxon>Burkholderiaceae</taxon>
+      <taxon>Burkholderia</taxon>
+      <taxon>pseudomallei group</taxon>
+    </lineage>
+  </organism>
+  <reference key="1">
+    <citation type="journal article" date="2005" name="BMC Genomics" volume="6" first="174" last="174">
+      <title>Bacterial genome adaptation to niches: divergence of the potential virulence genes in three Burkholderia species of different survival strategies.</title>
+      <authorList>
+        <person name="Kim H.S."/>
+        <person name="Schell M.A."/>
+        <person name="Yu Y."/>
+        <person name="Ulrich R.L."/>
+        <person name="Sarria S.H."/>
+        <person name="Nierman W.C."/>
+        <person name="DeShazer D."/>
+      </authorList>
+      <dbReference type="PubMed" id="16336651"/>
+      <dbReference type="DOI" id="10.1186/1471-2164-6-174"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain>ATCC 700388 / DSM 13276 / CCUG 48851 / CIP 106301 / E264</strain>
+    </source>
+  </reference>
+  <reference key="2">
+    <citation type="journal article" date="2008" name="J. Am. Chem. Soc." volume="130" first="11446" last="11454">
+      <title>Isolation and structural characterization of capistruin, a lasso peptide predicted from the genome sequence of Burkholderia thailandensis E264.</title>
+      <authorList>
+        <person name="Knappe T.A."/>
+        <person name="Linne U."/>
+        <person name="Zirah S."/>
+        <person name="Rebuffat S."/>
+        <person name="Xie X."/>
+        <person name="Marahiel M.A."/>
+      </authorList>
+      <dbReference type="PubMed" id="18671394"/>
+      <dbReference type="DOI" id="10.1021/ja802966g"/>
+    </citation>
+    <scope>FUNCTION</scope>
+    <scope>MASS SPECTROMETRY</scope>
+    <scope>STRUCTURE BY NMR OF 29-47</scope>
+    <scope>CROSS-LINK</scope>
+    <scope>EXPRESSION IN E.COLI</scope>
+    <source>
+      <strain>ATCC 700388 / DSM 13276 / CCUG 48851 / CIP 106301 / E264</strain>
+    </source>
+  </reference>
+  <reference key="3">
+    <citation type="journal article" date="2009" name="Chem. Biol." volume="16" first="1290" last="1298">
+      <title>Insights into the biosynthesis and stability of the lasso peptide capistruin.</title>
+      <authorList>
+        <person name="Knappe T.A."/>
+        <person name="Linne U."/>
+        <person name="Robbel L."/>
+        <person name="Marahiel M.A."/>
+      </authorList>
+      <dbReference type="PubMed" id="20064439"/>
+      <dbReference type="DOI" id="10.1016/j.chembiol.2009.11.009"/>
+    </citation>
+    <scope>MUTAGENESIS OF ARG-43 AND 43-ARG-PHE-44</scope>
+    <scope>ALANINE-SCANNING MUTAGENESIS</scope>
+    <source>
+      <strain>ATCC 700388 / DSM 13276 / CCUG 48851 / CIP 106301 / E264</strain>
+    </source>
+  </reference>
+  <reference key="4">
+    <citation type="journal article" date="2011" name="J. Mol. Biol." volume="412" first="842" last="848">
+      <title>The antibacterial threaded-lasso peptide capistruin inhibits bacterial RNA polymerase.</title>
+      <authorList>
+        <person name="Kuznedelov K."/>
+        <person name="Semenova E."/>
+        <person name="Knappe T.A."/>
+        <person name="Mukhamedyarov D."/>
+        <person name="Srivastava A."/>
+        <person name="Chatterjee S."/>
+        <person name="Ebright R.H."/>
+        <person name="Marahiel M.A."/>
+        <person name="Severinov K."/>
+      </authorList>
+      <dbReference type="PubMed" id="21396375"/>
+      <dbReference type="DOI" id="10.1016/j.jmb.2011.02.060"/>
+    </citation>
+    <scope>FUNCTION</scope>
+    <source>
+      <strain>ATCC 700388 / DSM 13276 / CCUG 48851 / CIP 106301 / E264</strain>
+    </source>
+  </reference>
+  <reference key="5">
+    <citation type="journal article" date="2019" name="Proc. Natl. Acad. Sci. U.S.A." volume="116" first="1273" last="1278">
+      <title>Structural mechanism of transcription inhibition by lasso peptides microcin J25 and capistruin.</title>
+      <authorList>
+        <person name="Braffman N.R."/>
+        <person name="Piscotta F.J."/>
+        <person name="Hauver J."/>
+        <person name="Campbell E.A."/>
+        <person name="Link A.J."/>
+        <person name="Darst S.A."/>
+      </authorList>
+      <dbReference type="PubMed" id="30626643"/>
+      <dbReference type="DOI" id="10.1073/pnas.1817352116"/>
+    </citation>
+    <scope>X-RAY CRYSTALLOGRAPHY (3.2 ANGSTROMS) OF 29-47 IN COMPLEX WITH E.COLI RNA POLYMERASE</scope>
+    <scope>FUNCTION</scope>
+  </reference>
+  <comment type="function">
+    <text evidence="2 4 5">Peptide antibiotic that functions through inhibition of the bacterial DNA-dependent RNA polymerase (RNAP) (PubMed:21396375, PubMed:30626643). Inhibits transcription by binding in RNAP secondary channel, where it sterically blocks the folding of the trigger loop, which is essential for efficient catalysis (PubMed:21396375, PubMed:30626643). In contrast to MccJ25, does not restrict access of nucleotide substrates to the catalytic center and shows a non-competitive mode of inhibition (PubMed:30626643). Shows activity against closely related Gram-negative Burkholderia and Pseudomonas strains (PubMed:18671394). Is not active against Gram-positive bacteria (PubMed:18671394).</text>
+  </comment>
+  <comment type="biophysicochemical properties">
+    <temperatureDependence>
+      <text evidence="3">Highly thermostable.</text>
+    </temperatureDependence>
+  </comment>
+  <comment type="subcellular location">
+    <subcellularLocation>
+      <location evidence="1 12">Secreted</location>
+    </subcellularLocation>
+  </comment>
+  <comment type="domain">
+    <text evidence="11">Is composed of a ring composed by 9 residues, and a tail of 10 residues (Probable). The peptide is threaded when the C-terminal tail is inserted throught the isopeptide-bonded ring (Probable).</text>
+  </comment>
+  <comment type="PTM">
+    <text evidence="12">It is assumed that the two processing enzymes CapB/CapC convert the precursor protein CapA into the mature lasso peptide capistruin. CapB is assumed to cleave the precursor protein CapA and to set an N-terminal Gly free, whose a-NH2 group acts as the nucleophile in the subsequent cyclization reaction. CapC is most likely involved in the side-chain carboxyl group activation of aspartic acid at position 9 generating the electrophile for the condensation reaction. CapD may export capistruin outside of the producing cells.</text>
+  </comment>
+  <comment type="mass spectrometry" mass="2050.0" method="Electrospray" evidence="2"/>
+  <comment type="online information" name="Biological Magnetic Resonance Data Bank">
+    <link uri="http://www.bmrb.wisc.edu/data_library/summary/index.php?bmrbId=20014"/>
+  </comment>
+  <dbReference type="EMBL" id="CP000086">
+    <property type="status" value="NOT_ANNOTATED_CDS"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="P0DQM5"/>
+  <dbReference type="Proteomes" id="UP000001930">
+    <property type="component" value="Chromosome I"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0005576">
+    <property type="term" value="C:extracellular region"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-SubCell"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0042742">
+    <property type="term" value="P:defense response to bacterium"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0031640">
+    <property type="term" value="P:killing of cells of another organism"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <proteinExistence type="evidence at protein level"/>
+  <keyword id="KW-0044">Antibiotic</keyword>
+  <keyword id="KW-0929">Antimicrobial</keyword>
+  <keyword id="KW-0078">Bacteriocin</keyword>
+  <keyword id="KW-1017">Isopeptide bond</keyword>
+  <keyword id="KW-0964">Secreted</keyword>
+  <feature type="propeptide" id="PRO_0000450653" evidence="2">
+    <location>
+      <begin position="1"/>
+      <end position="28"/>
+    </location>
+  </feature>
+  <feature type="peptide" id="PRO_0000450654" description="Capistruin" evidence="2">
+    <location>
+      <begin position="29"/>
+      <end position="47"/>
+    </location>
+  </feature>
+  <feature type="site" description="Basic bulky residue that acts as a plug entrapping the tail within the macrocyclic ring" evidence="12">
+    <location>
+      <position position="43"/>
+    </location>
+  </feature>
+  <feature type="cross-link" description="Isoaspartyl glycine isopeptide (Gly-Asp)" evidence="2">
+    <location>
+      <begin position="29"/>
+      <end position="37"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Loss of thermostability. Stays resistance to proteolytic cleavage." evidence="3">
+    <original>RF</original>
+    <variation>AA</variation>
+    <location>
+      <begin position="43"/>
+      <end position="44"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="No change in thermostability." evidence="3">
+    <original>R</original>
+    <variation>A</variation>
+    <location>
+      <position position="43"/>
+    </location>
+  </feature>
+  <evidence type="ECO:0000250" key="1">
+    <source>
+      <dbReference type="UniProtKB" id="Q9X2V7"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="2">
+    <source>
+      <dbReference type="PubMed" id="18671394"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="3">
+    <source>
+      <dbReference type="PubMed" id="20064439"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="4">
+    <source>
+      <dbReference type="PubMed" id="21396375"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="5">
+    <source>
+      <dbReference type="PubMed" id="30626643"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000303" key="6">
+    <source>
+      <dbReference type="PubMed" id="16336651"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000303" key="7">
+    <source>
+      <dbReference type="PubMed" id="18671394"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000303" key="8">
+    <source>
+      <dbReference type="PubMed" id="20064439"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000303" key="9">
+    <source>
+      <dbReference type="PubMed" id="21396375"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000303" key="10">
+    <source>
+      <dbReference type="PubMed" id="30626643"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000305" key="11">
+    <source>
+      <dbReference type="PubMed" id="18671394"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000305" key="12">
+    <source>
+      <dbReference type="PubMed" id="20064439"/>
+    </source>
+  </evidence>
+  <sequence length="47" mass="5013" checksum="FF7405A2EE3F6679" modified="2020-08-12" version="1" precursor="true">MVRLLAKLLRSTIHGSNGVSLDAVSSTHGTPGFQTPDARVISRFGFN</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

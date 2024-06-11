@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2006-03-21" modified="2024-01-24" version="66" xmlns="http://uniprot.org/uniprot">
+  <accession>Q2FWM6</accession>
+  <name>Q2FWM6_STAA8</name>
+  <protein>
+    <recommendedName>
+      <fullName evidence="3">AgrD</fullName>
+    </recommendedName>
+  </protein>
+  <gene>
+    <name evidence="1" type="ordered locus">SAOUHSC_02262</name>
+  </gene>
+  <organism evidence="1 2">
+    <name type="scientific">Staphylococcus aureus (strain NCTC 8325 / PS 47)</name>
+    <dbReference type="NCBI Taxonomy" id="93061"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Bacillota</taxon>
+      <taxon>Bacilli</taxon>
+      <taxon>Bacillales</taxon>
+      <taxon>Staphylococcaceae</taxon>
+      <taxon>Staphylococcus</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="2" key="1">
+    <citation type="book" date="2006" name="Gram positive pathogens, 2nd edition" first="381" last="412" publisher="ASM Press" city="Washington D.C">
+      <title>The Staphylococcus aureus NCTC 8325 genome.</title>
+      <editorList>
+        <person name="Fischetti V."/>
+        <person name="Novick R."/>
+        <person name="Ferretti J."/>
+        <person name="Portnoy D."/>
+        <person name="Rood J."/>
+      </editorList>
+      <authorList>
+        <person name="Gillaspy A.F."/>
+        <person name="Worrell V."/>
+        <person name="Orvis J."/>
+        <person name="Roe B.A."/>
+        <person name="Dyer D.W."/>
+        <person name="Iandolo J.J."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="2">NCTC 8325 / PS 47</strain>
+    </source>
+  </reference>
+  <dbReference type="EMBL" id="CP000253">
+    <property type="protein sequence ID" value="ABD31301.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="WP_001093929.1">
+    <property type="nucleotide sequence ID" value="NZ_LS483365.1"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="YP_500744.1">
+    <property type="nucleotide sequence ID" value="NC_007795.1"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="Q2FWM6"/>
+  <dbReference type="SMR" id="Q2FWM6"/>
+  <dbReference type="STRING" id="93061.SAOUHSC_02262"/>
+  <dbReference type="PaxDb" id="1280-SAXN108_2130"/>
+  <dbReference type="GeneID" id="3919138"/>
+  <dbReference type="KEGG" id="sao:SAOUHSC_02262"/>
+  <dbReference type="PATRIC" id="fig|93061.5.peg.2055"/>
+  <dbReference type="HOGENOM" id="CLU_216939_0_0_9"/>
+  <dbReference type="OrthoDB" id="2410452at2"/>
+  <dbReference type="Proteomes" id="UP000008816">
+    <property type="component" value="Chromosome"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR009229">
+    <property type="entry name" value="AgrD"/>
+  </dbReference>
+  <dbReference type="NCBIfam" id="TIGR04223">
+    <property type="entry name" value="quorum_AgrD"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF05931">
+    <property type="entry name" value="AgrD"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="SMART" id="SM00794">
+    <property type="entry name" value="AgrD"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="predicted"/>
+  <keyword evidence="2" id="KW-1185">Reference proteome</keyword>
+  <evidence type="ECO:0000313" key="1">
+    <source>
+      <dbReference type="EMBL" id="ABD31301.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="2">
+    <source>
+      <dbReference type="Proteomes" id="UP000008816"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0008006" key="3">
+    <source>
+      <dbReference type="Google" id="ProtNLM"/>
+    </source>
+  </evidence>
+  <sequence length="46" mass="5297" checksum="8790615FE12EB346" modified="2006-03-21" version="1">MNTLFNLFFDFITGILKNIGNIAAYSTCDFIMDEVEVPKELTQLHE</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

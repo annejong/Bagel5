@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2021-09-29" modified="2023-09-13" version="5" xmlns="http://uniprot.org/uniprot">
+  <accession>A0A7M2GF04</accession>
+  <name>A0A7M2GF04_SPHSA</name>
+  <protein>
+    <submittedName>
+      <fullName evidence="1">Benenodin family lasso peptide</fullName>
+    </submittedName>
+  </protein>
+  <gene>
+    <name evidence="1" type="ORF">H5V43_11305</name>
+  </gene>
+  <organism evidence="1 2">
+    <name type="scientific">Sphingobium fuliginis (strain ATCC 27551)</name>
+    <dbReference type="NCBI Taxonomy" id="336203"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Pseudomonadota</taxon>
+      <taxon>Alphaproteobacteria</taxon>
+      <taxon>Sphingomonadales</taxon>
+      <taxon>Sphingomonadaceae</taxon>
+      <taxon>Sphingobium</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="2" key="1">
+    <citation type="submission" date="2020-08" db="EMBL/GenBank/DDBJ databases">
+      <title>Complete genome sequence of Sphingobium barthaii strain KK22, a high-molecular-weight polycyclic aromatic hydrocarbon-degrading soil bacterium.</title>
+      <authorList>
+        <person name="Mori J.F."/>
+        <person name="Kanaly R.A."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="2">KK22</strain>
+    </source>
+  </reference>
+  <dbReference type="EMBL" id="CP060035">
+    <property type="protein sequence ID" value="QOT70712.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="A0A7M2GF04"/>
+  <dbReference type="KEGG" id="sbar:H5V43_11305"/>
+  <dbReference type="Proteomes" id="UP000593663">
+    <property type="component" value="Chromosome 1"/>
+  </dbReference>
+  <dbReference type="NCBIfam" id="NF033522">
+    <property type="entry name" value="lasso_benenodin"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="predicted"/>
+  <evidence type="ECO:0000313" key="1">
+    <source>
+      <dbReference type="EMBL" id="QOT70712.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="2">
+    <source>
+      <dbReference type="Proteomes" id="UP000593663"/>
+    </source>
+  </evidence>
+  <sequence length="39" mass="3978" checksum="24FE1F5627C27049" modified="2021-09-29" version="1">MERDNDVIELGAVSVETKGPGGITGDVGLGENNFGLSDD</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2014-03-19" modified="2023-06-28" version="8" xmlns="http://uniprot.org/uniprot">
+  <accession>V9PX22</accession>
+  <name>V9PX22_9ACTN</name>
+  <protein>
+    <submittedName>
+      <fullName evidence="1">LabA</fullName>
+    </submittedName>
+  </protein>
+  <gene>
+    <name evidence="1" type="primary">labA</name>
+  </gene>
+  <organism evidence="1">
+    <name type="scientific">Actinoplanes sp. NAI112</name>
+    <dbReference type="NCBI Taxonomy" id="1433141"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Actinomycetota</taxon>
+      <taxon>Actinomycetes</taxon>
+      <taxon>Micromonosporales</taxon>
+      <taxon>Micromonosporaceae</taxon>
+      <taxon>Actinoplanes</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="1" key="1">
+    <citation type="journal article" date="2013" name="ACS Chem. Biol.">
+      <title>A Glycosylated, Labionin-Containing Lanthipeptide with Marked Antinociceptive Activity.</title>
+      <authorList>
+        <person name="Iorio M."/>
+        <person name="Sasso O."/>
+        <person name="Maffioli S.I."/>
+        <person name="Bertorelli R."/>
+        <person name="Monciardini P."/>
+        <person name="Sosio M."/>
+        <person name="Bonezzi F."/>
+        <person name="Summa M."/>
+        <person name="Brunati C."/>
+        <person name="Bordoni R."/>
+        <person name="Corti G."/>
+        <person name="Tarozzo G."/>
+        <person name="Piomelli D."/>
+        <person name="Reggiani A."/>
+        <person name="Donadio S."/>
+      </authorList>
+      <dbReference type="PubMed" id="24191663"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="1">NAI112</strain>
+    </source>
+  </reference>
+  <dbReference type="EMBL" id="KF765778">
+    <property type="protein sequence ID" value="AHB63594.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="V9PX22"/>
+  <proteinExistence type="predicted"/>
+  <evidence type="ECO:0000313" key="1">
+    <source>
+      <dbReference type="EMBL" id="AHB63594.1"/>
+    </source>
+  </evidence>
+  <sequence length="43" mass="4657" checksum="337527D60107FEF4" modified="2014-03-19" version="1">MQEILELQELPSASATEDMPLVSTLSVSSPCPGWPSSFTWSNC</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

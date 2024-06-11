@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="1997-11-01" modified="2023-09-13" version="66" xmlns="http://uniprot.org/uniprot">
+  <accession>Q54957</accession>
+  <name>LANB_STRP9</name>
+  <protein>
+    <recommendedName>
+      <fullName>Lantibiotic streptococcin A-M49</fullName>
+    </recommendedName>
+    <alternativeName>
+      <fullName>Antibacterial peptide A-M49</fullName>
+    </alternativeName>
+  </protein>
+  <gene>
+    <name type="primary">scnA'</name>
+  </gene>
+  <gene>
+    <name type="primary">scnA''</name>
+  </gene>
+  <organism>
+    <name type="scientific">Streptococcus pyogenes serotype M49</name>
+    <dbReference type="NCBI Taxonomy" id="301452"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Bacillota</taxon>
+      <taxon>Bacilli</taxon>
+      <taxon>Lactobacillales</taxon>
+      <taxon>Streptococcaceae</taxon>
+      <taxon>Streptococcus</taxon>
+    </lineage>
+  </organism>
+  <reference key="1">
+    <citation type="journal article" date="1994" name="Appl. Environ. Microbiol." volume="60" first="4207" last="4209">
+      <title>Duplication of the lantibiotic structural gene in M-type 49 group A streptococcus strains producing streptococcin A-M49.</title>
+      <authorList>
+        <person name="Hynes W.L."/>
+        <person name="Friend V.L."/>
+        <person name="Ferretti J.J."/>
+      </authorList>
+      <dbReference type="PubMed" id="7993103"/>
+      <dbReference type="DOI" id="10.1128/aem.60.11.4207-4209.1994"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+    <source>
+      <strain>GT9538 / Serotype M49</strain>
+    </source>
+  </reference>
+  <comment type="function">
+    <text evidence="1">Lanthionine-containing peptide antibiotic (lantibiotic) active on certain Gram-positive bacteria. The bactericidal activity of lantibiotics is based on depolarization of energized bacterial cytoplasmic membranes, initiated by the formation of aqueous transmembrane pores (By similarity).</text>
+  </comment>
+  <comment type="subcellular location">
+    <subcellularLocation>
+      <location evidence="1">Secreted</location>
+    </subcellularLocation>
+    <subcellularLocation>
+      <location evidence="1">Cell surface</location>
+    </subcellularLocation>
+    <text evidence="1">Either cell associated or in a released extracellular form.</text>
+  </comment>
+  <comment type="PTM">
+    <text evidence="1">Maturation of lantibiotics involves the enzymatic conversion of Thr, and Ser into dehydrated AA and the formation of thioether bonds with cysteine. This is followed by membrane translocation and cleavage of the modified precursor (By similarity).</text>
+  </comment>
+  <comment type="miscellaneous">
+    <text>There are two genes coding for lantibiotic streptococcin A-M49, their coding sequences only differ in the propeptide region.</text>
+  </comment>
+  <comment type="similarity">
+    <text evidence="3">Belongs to the type A lantibiotic family.</text>
+  </comment>
+  <dbReference type="EMBL" id="L36235">
+    <property type="protein sequence ID" value="AAA62362.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="L36235">
+    <property type="protein sequence ID" value="AAA62361.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="Q54957"/>
+  <dbReference type="TCDB" id="1.C.21.1.3">
+    <property type="family name" value="the lacticin 481 (lacticin 481) family"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0009986">
+    <property type="term" value="C:cell surface"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-SubCell"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0005576">
+    <property type="term" value="C:extracellular region"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-SubCell"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0005102">
+    <property type="term" value="F:signaling receptor binding"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0042742">
+    <property type="term" value="P:defense response to bacterium"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0031640">
+    <property type="term" value="P:killing of cells of another organism"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR007682">
+    <property type="entry name" value="Lantibiotic_typ-A_Lactobact"/>
+  </dbReference>
+  <dbReference type="NCBIfam" id="NF040664">
+    <property type="entry name" value="HEC_x9_TCC_lant"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF04604">
+    <property type="entry name" value="L_biotic_typeA"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="inferred from homology"/>
+  <keyword id="KW-0044">Antibiotic</keyword>
+  <keyword id="KW-0929">Antimicrobial</keyword>
+  <keyword id="KW-0078">Bacteriocin</keyword>
+  <keyword id="KW-0425">Lantibiotic</keyword>
+  <keyword id="KW-0964">Secreted</keyword>
+  <keyword id="KW-0883">Thioether bond</keyword>
+  <feature type="propeptide" id="PRO_0000017136" evidence="1">
+    <location>
+      <begin position="1"/>
+      <end position="25"/>
+    </location>
+  </feature>
+  <feature type="peptide" id="PRO_0000017137" description="Lantibiotic streptococcin A-M49">
+    <location>
+      <begin position="26"/>
+      <end position="51"/>
+    </location>
+  </feature>
+  <feature type="modified residue" description="2,3-didehydrobutyrine" evidence="2">
+    <location>
+      <position position="48"/>
+    </location>
+  </feature>
+  <feature type="cross-link" description="Beta-methyllanthionine (Thr-Cys)" evidence="2">
+    <location>
+      <begin position="33"/>
+      <end position="38"/>
+    </location>
+  </feature>
+  <feature type="cross-link" description="Lanthionine (Ser-Cys)" evidence="2">
+    <location>
+      <begin position="35"/>
+      <end position="49"/>
+    </location>
+  </feature>
+  <feature type="cross-link" description="Beta-methyllanthionine (Thr-Cys)" evidence="2">
+    <location>
+      <begin position="42"/>
+      <end position="50"/>
+    </location>
+  </feature>
+  <feature type="sequence variant" description="In scnA&quot;.">
+    <original>T</original>
+    <variation>E</variation>
+    <location>
+      <position position="2"/>
+    </location>
+  </feature>
+  <feature type="sequence variant" description="In scnA&quot;.">
+    <original>EH</original>
+    <variation>NN</variation>
+    <location>
+      <begin position="4"/>
+      <end position="5"/>
+    </location>
+  </feature>
+  <feature type="sequence variant" description="In scnA&quot;.">
+    <original>I</original>
+    <variation>V</variation>
+    <location>
+      <position position="7"/>
+    </location>
+  </feature>
+  <evidence type="ECO:0000250" key="1"/>
+  <evidence type="ECO:0000250" key="2">
+    <source>
+      <dbReference type="UniProtKB" id="P36501"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000305" key="3"/>
+  <sequence length="51" mass="5690" checksum="F12124BA13E17FD1" modified="1996-11-01" version="1" precursor="true">MTKEHEIINSIQEVSLEELDQIIGAGKNGVFKTISHECHLNTWAFLATCCS</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2020-12-02" modified="2023-09-13" version="6" xmlns="http://uniprot.org/uniprot">
+  <accession>A0A7D5SLS4</accession>
+  <name>A0A7D5SLS4_MYXXD</name>
+  <protein>
+    <submittedName>
+      <fullName evidence="1">Cittilin peptide</fullName>
+    </submittedName>
+  </protein>
+  <organism evidence="1">
+    <name type="scientific">Myxococcus xanthus (strain DK1622)</name>
+    <dbReference type="NCBI Taxonomy" id="246197"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Myxococcota</taxon>
+      <taxon>Myxococcia</taxon>
+      <taxon>Myxococcales</taxon>
+      <taxon>Cystobacterineae</taxon>
+      <taxon>Myxococcaceae</taxon>
+      <taxon>Myxococcus</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="1" key="1">
+    <citation type="journal article" date="2020" name="ACS Chem. Biol.">
+      <title>Biosynthesis of cittilins, unusual ribosomally synthesized and post-translationally modified peptides from Myxococcus xanthus.</title>
+      <authorList>
+        <person name="Hug J.J."/>
+        <person name="Dastbaz J."/>
+        <person name="Adam S."/>
+        <person name="Revermann O."/>
+        <person name="Koehnke J."/>
+        <person name="Krug D."/>
+        <person name="Muller R."/>
+      </authorList>
+      <dbReference type="PubMed" id="32639716"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="1">DK 1622</strain>
+    </source>
+  </reference>
+  <dbReference type="EMBL" id="MN731368">
+    <property type="protein sequence ID" value="QLH55578.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="A0A7D5SLS4"/>
+  <dbReference type="NCBIfam" id="NF038373">
+    <property type="entry name" value="cittilin_RiPP"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="predicted"/>
+  <evidence type="ECO:0000313" key="1">
+    <source>
+      <dbReference type="EMBL" id="QLH55578.1"/>
+    </source>
+  </evidence>
+  <sequence length="27" mass="3184" checksum="3627D57E631CD89F" modified="2020-12-02" version="1">MKKALYSLAVLMRFARADKLSAPYIYY</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

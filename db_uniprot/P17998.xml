@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="1990-11-01" modified="2023-06-28" version="97" xmlns="http://uniprot.org/uniprot">
+  <accession>P17998</accession>
+  <name>CEAD_ECOLX</name>
+  <protein>
+    <recommendedName>
+      <fullName>Colicin-D</fullName>
+    </recommendedName>
+  </protein>
+  <gene>
+    <name type="primary">cda</name>
+  </gene>
+  <organism>
+    <name type="scientific">Escherichia coli</name>
+    <dbReference type="NCBI Taxonomy" id="562"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Pseudomonadota</taxon>
+      <taxon>Gammaproteobacteria</taxon>
+      <taxon>Enterobacterales</taxon>
+      <taxon>Enterobacteriaceae</taxon>
+      <taxon>Escherichia</taxon>
+    </lineage>
+  </organism>
+  <geneLocation type="plasmid">
+    <name>ColD-CA23</name>
+  </geneLocation>
+  <reference key="1">
+    <citation type="journal article" date="1989" name="Mol. Microbiol." volume="3" first="891" last="902">
+      <title>Assembly of colicin genes from a few DNA fragments. Nucleotide sequence of colicin D.</title>
+      <authorList>
+        <person name="Roos U."/>
+        <person name="Harkness R.E."/>
+        <person name="Braun V."/>
+      </authorList>
+      <dbReference type="PubMed" id="2677603"/>
+      <dbReference type="DOI" id="10.1111/j.1365-2958.1989.tb00238.x"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+  </reference>
+  <comment type="function">
+    <text>Colicins are polypeptide toxins produced by and active against E.coli and closely related bacteria.</text>
+  </comment>
+  <comment type="function">
+    <text>Colicin D inhibits protein synthesis.</text>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-1038167">
+      <id>P17998</id>
+    </interactant>
+    <interactant intactId="EBI-1038162">
+      <id>P11899</id>
+      <label>cdi</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="miscellaneous">
+    <text>This colicin requires TonB for its uptake.</text>
+  </comment>
+  <comment type="similarity">
+    <text evidence="1">Belongs to the cloacin colicin family.</text>
+  </comment>
+  <dbReference type="EMBL" id="X14941">
+    <property type="protein sequence ID" value="CAA33072.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="PIR" id="S09254">
+    <property type="entry name" value="S09254"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="WP_016245160.1">
+    <property type="nucleotide sequence ID" value="NZ_LM996936.1"/>
+  </dbReference>
+  <dbReference type="PDB" id="1TFK">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="2.10 A"/>
+    <property type="chains" value="A=604-697"/>
+  </dbReference>
+  <dbReference type="PDB" id="1TFO">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="2.30 A"/>
+    <property type="chains" value="A=595-697"/>
+  </dbReference>
+  <dbReference type="PDB" id="1V74">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="2.00 A"/>
+    <property type="chains" value="A=591-697"/>
+  </dbReference>
+  <dbReference type="PDB" id="5ZNM">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="1.85 A"/>
+    <property type="chains" value="A/B=313-697"/>
+  </dbReference>
+  <dbReference type="PDBsum" id="1TFK"/>
+  <dbReference type="PDBsum" id="1TFO"/>
+  <dbReference type="PDBsum" id="1V74"/>
+  <dbReference type="PDBsum" id="5ZNM"/>
+  <dbReference type="AlphaFoldDB" id="P17998"/>
+  <dbReference type="SMR" id="P17998"/>
+  <dbReference type="IntAct" id="P17998">
+    <property type="interactions" value="1"/>
+  </dbReference>
+  <dbReference type="EvolutionaryTrace" id="P17998"/>
+  <dbReference type="GO" id="GO:0005727">
+    <property type="term" value="C:extrachromosomal circular DNA"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="InterPro"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0004540">
+    <property type="term" value="F:RNA nuclease activity"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="InterPro"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0042742">
+    <property type="term" value="P:defense response to bacterium"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0031640">
+    <property type="term" value="P:killing of cells of another organism"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="Gene3D" id="3.10.450.200">
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR024575">
+    <property type="entry name" value="Cloacin_colicin_fam"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR038233">
+    <property type="entry name" value="Colicin_D/E5_nuclease"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR024440">
+    <property type="entry name" value="ColicinD_C"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR037178">
+    <property type="entry name" value="ColicinD_C_sf"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR016128">
+    <property type="entry name" value="Pyosin/cloacin_T_dom"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR036302">
+    <property type="entry name" value="Pyosin/cloacin_T_dom_sf"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF03515">
+    <property type="entry name" value="Cloacin"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF11429">
+    <property type="entry name" value="Colicin_D"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF06958">
+    <property type="entry name" value="Pyocin_S"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="PRINTS" id="PR01295">
+    <property type="entry name" value="CLOACIN"/>
+  </dbReference>
+  <dbReference type="SUPFAM" id="SSF69369">
+    <property type="entry name" value="Cloacin translocation domain"/>
+    <property type="match status" value="2"/>
+  </dbReference>
+  <dbReference type="SUPFAM" id="SSF102824">
+    <property type="entry name" value="Colicin D/E5 nuclease domain"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="evidence at protein level"/>
+  <keyword id="KW-0002">3D-structure</keyword>
+  <keyword id="KW-0044">Antibiotic</keyword>
+  <keyword id="KW-0929">Antimicrobial</keyword>
+  <keyword id="KW-0078">Bacteriocin</keyword>
+  <keyword id="KW-0614">Plasmid</keyword>
+  <keyword id="KW-0798">TonB box</keyword>
+  <feature type="chain" id="PRO_0000218688" description="Colicin-D">
+    <location>
+      <begin position="1"/>
+      <end position="697"/>
+    </location>
+  </feature>
+  <feature type="short sequence motif" description="TonB box">
+    <location>
+      <begin position="17"/>
+      <end position="24"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="2">
+    <location>
+      <begin position="313"/>
+      <end position="332"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="2">
+    <location>
+      <begin position="342"/>
+      <end position="352"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="2">
+    <location>
+      <begin position="359"/>
+      <end position="361"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="2">
+    <location>
+      <begin position="366"/>
+      <end position="371"/>
+    </location>
+  </feature>
+  <feature type="turn" evidence="2">
+    <location>
+      <begin position="372"/>
+      <end position="374"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="2">
+    <location>
+      <begin position="375"/>
+      <end position="381"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="2">
+    <location>
+      <begin position="385"/>
+      <end position="388"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="2">
+    <location>
+      <begin position="389"/>
+      <end position="396"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="2">
+    <location>
+      <begin position="406"/>
+      <end position="413"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="2">
+    <location>
+      <begin position="436"/>
+      <end position="442"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="2">
+    <location>
+      <begin position="443"/>
+      <end position="445"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="2">
+    <location>
+      <begin position="457"/>
+      <end position="460"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="2">
+    <location>
+      <begin position="462"/>
+      <end position="470"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="2">
+    <location>
+      <begin position="473"/>
+      <end position="480"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="2">
+    <location>
+      <begin position="482"/>
+      <end position="486"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="2">
+    <location>
+      <begin position="488"/>
+      <end position="492"/>
+    </location>
+  </feature>
+  <feature type="turn" evidence="2">
+    <location>
+      <begin position="499"/>
+      <end position="501"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="2">
+    <location>
+      <begin position="504"/>
+      <end position="508"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="2">
+    <location>
+      <begin position="517"/>
+      <end position="522"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="2">
+    <location>
+      <begin position="566"/>
+      <end position="568"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="2">
+    <location>
+      <begin position="572"/>
+      <end position="577"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="2">
+    <location>
+      <begin position="581"/>
+      <end position="592"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="2">
+    <location>
+      <begin position="597"/>
+      <end position="599"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="2">
+    <location>
+      <begin position="602"/>
+      <end position="607"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="2">
+    <location>
+      <begin position="609"/>
+      <end position="615"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="2">
+    <location>
+      <begin position="624"/>
+      <end position="639"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="2">
+    <location>
+      <begin position="656"/>
+      <end position="659"/>
+    </location>
+  </feature>
+  <feature type="turn" evidence="2">
+    <location>
+      <begin position="661"/>
+      <end position="663"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="2">
+    <location>
+      <begin position="665"/>
+      <end position="669"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="2">
+    <location>
+      <begin position="675"/>
+      <end position="680"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="2">
+    <location>
+      <begin position="686"/>
+      <end position="694"/>
+    </location>
+  </feature>
+  <evidence type="ECO:0000305" key="1"/>
+  <evidence type="ECO:0007829" key="2">
+    <source>
+      <dbReference type="PDB" id="5ZNM"/>
+    </source>
+  </evidence>
+  <sequence length="697" mass="74688" checksum="F468B4A0172ABBB1" modified="1990-11-01" version="1">MSDYEGSGPTEGIDYGHSMVVWPSTGLISGGDVKPGGSSGIAPSMPPGWGDYSPQGIALVQSVLFPGIIRRIILDKELEEGDWSGWSVSVHSPWGNEKVSAARTVLENGLRGGLPEPSRPAAVSFARLEPASGNEQKIIRLMVTQQLEQVTDIPASQLPAAGNNVPVKYRLMDLMQNGTQYMAIIGGIPMTVPVVDAVPVPDRSRPGTNIKDVYSAPVSPNLPDLVLSVGQMNTPVLSNPEIQEEGVIAETGNYVEAGYTMSSNNHDVIVRFPEGSDVSPLYISTVEILDSNGLSQRQEAENKAKDDFRVKKEEAVARAEAEKAKAELFSKAGVNQPPVYTQEMMERANSVMNEQGALVLNNTASSVQLAMTGTGVWTAAGDIAGNISKFFSNALEKVTIPEVSPLLMRISLGALWFHSEEAGAGSDIVPGRNLEAMFSLSAQMLAGQGVVIEPGATSVNLPVRGQLINSNGQLALDLLKTGNESIPAAVPVLNAVRDTATGLDKITLPAVVGAPSRTILVNPVPQPSVPTDTGNHQPVPVTPVHTGTEVKSVEMPVTTITPVSDVGGLRDFIYWRPDAAGTGVEAVYVMLNDPLDSGRFSRKQLDKKYKHAGDFGISDTKKNRETLTKFRDAIEEHLSDKDTVEKGTYRREKGSKVYFNPNTMNVVIIKSNGEFLSGWKINPDADNGRIYLETGEL</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

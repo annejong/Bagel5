@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2001-03-01" modified="2024-01-24" version="88" xmlns="http://uniprot.org/uniprot">
+  <accession>Q9F8B0</accession>
+  <name>Q9F8B0_ENTFL</name>
+  <protein>
+    <submittedName>
+      <fullName evidence="4">Enterolysin A</fullName>
+    </submittedName>
+    <submittedName>
+      <fullName evidence="7">M23 family metallopeptidase</fullName>
+    </submittedName>
+  </protein>
+  <gene>
+    <name evidence="4" type="primary">enlA</name>
+    <name evidence="5" type="synonym">entL</name>
+    <name evidence="9" type="ORF">CGZ46_08510</name>
+    <name evidence="8" type="ORF">FDO46_002942</name>
+    <name evidence="7" type="ORF">IHC34_002027</name>
+    <name evidence="10" type="ORF">NAG05_09070</name>
+  </gene>
+  <organism evidence="4">
+    <name type="scientific">Enterococcus faecalis</name>
+    <name type="common">Streptococcus faecalis</name>
+    <dbReference type="NCBI Taxonomy" id="1351"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Bacillota</taxon>
+      <taxon>Bacilli</taxon>
+      <taxon>Lactobacillales</taxon>
+      <taxon>Enterococcaceae</taxon>
+      <taxon>Enterococcus</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="4" key="1">
+    <citation type="journal article" date="2003" name="Appl. Environ. Microbiol." volume="69" first="2975" last="2984">
+      <title>Enterolysin A, a cell wall-degrading bacteriocin from Enterococcus faecalis LMG 2333.</title>
+      <authorList>
+        <person name="Nilsen T."/>
+        <person name="Nes I.F."/>
+        <person name="Holo H."/>
+      </authorList>
+      <dbReference type="PubMed" id="12732574"/>
+      <dbReference type="DOI" id="10.1128/AEM.69.5.2975-2984.2003"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="4">LMG 2333</strain>
+    </source>
+  </reference>
+  <reference evidence="6" key="2">
+    <citation type="submission" date="2011-08" db="EMBL/GenBank/DDBJ databases">
+      <title>Cloning and expression of enterolysin A gene from Enterococcus faecalis BGPT1-10P.</title>
+      <authorList>
+        <person name="Veljovic K."/>
+        <person name="Topisirovic L."/>
+        <person name="Terzic-Vidojevic A."/>
+        <person name="Kojic M."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="6">BGPT1-10P</strain>
+    </source>
+  </reference>
+  <reference evidence="5" key="3">
+    <citation type="submission" date="2012-12" db="EMBL/GenBank/DDBJ databases">
+      <title>Analysis of the function of enterolysin A and neighbouring gene in Enterococcus faecalis B9510.</title>
+      <authorList>
+        <person name="Khan H."/>
+        <person name="Flint S.H."/>
+        <person name="Yu P.-L."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="5">B9510</strain>
+    </source>
+  </reference>
+  <reference evidence="11" key="4">
+    <citation type="submission" date="2019-07" db="EMBL/GenBank/DDBJ databases">
+      <title>Transferable Resistance Gene optrA in Enterococcus faecalis from Swine in Brazil.</title>
+      <authorList>
+        <person name="Almeida L.M."/>
+        <person name="Lebreton F."/>
+        <person name="Gaca A."/>
+        <person name="Bispo P.M."/>
+        <person name="Saavedra J."/>
+        <person name="Filsner P."/>
+        <person name="Moreno A.M."/>
+        <person name="Mamizuka E.M."/>
+        <person name="Gilmore M.S."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="11">L15</strain>
+    </source>
+  </reference>
+  <reference evidence="7" key="5">
+    <citation type="submission" date="2020-09" db="EMBL/GenBank/DDBJ databases">
+      <authorList>
+        <consortium name="NARMS: The National Antimicrobial Resistance Monitoring System"/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="8">FSIS11920393</strain>
+      <strain evidence="7">FSIS12033580</strain>
+    </source>
+  </reference>
+  <reference evidence="9" key="6">
+    <citation type="submission" date="2021-03" db="EMBL/GenBank/DDBJ databases">
+      <title>Transferable Resistance Gene optrA in Enterococcus faecalis from Swine in Brazil.</title>
+      <authorList>
+        <person name="Almeida L.M."/>
+        <person name="Lebreton F."/>
+        <person name="Gaca A."/>
+        <person name="Bispo P.M."/>
+        <person name="Saavedra J."/>
+        <person name="Filsner P."/>
+        <person name="Moreno A.M."/>
+        <person name="Mamizuka E.M."/>
+        <person name="Gilmore M.S."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="9">L15</strain>
+    </source>
+  </reference>
+  <reference evidence="10" key="7">
+    <citation type="submission" date="2022-05" db="EMBL/GenBank/DDBJ databases">
+      <title>Enterococcus faecalis strain QZ076,complete sequence.</title>
+      <authorList>
+        <person name="Du X."/>
+        <person name="Shan X."/>
+        <person name="Zou C."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="10">QZ076</strain>
+    </source>
+  </reference>
+  <dbReference type="EMBL" id="AF249740">
+    <property type="protein sequence ID" value="AAG29099.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="KC285592">
+    <property type="protein sequence ID" value="AGG79281.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="HE585879">
+    <property type="protein sequence ID" value="CCD31667.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="AAXCBV010000013">
+    <property type="protein sequence ID" value="EGO2601163.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="AAXECX010000027">
+    <property type="protein sequence ID" value="EGO8019828.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="CP042213">
+    <property type="protein sequence ID" value="QFY92753.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="CP098025">
+    <property type="protein sequence ID" value="URQ81908.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="WP_002391269.1">
+    <property type="nucleotide sequence ID" value="NZ_WYAC01000013.1"/>
+  </dbReference>
+  <dbReference type="MEROPS" id="M23.007"/>
+  <dbReference type="PATRIC" id="fig|1351.295.peg.717"/>
+  <dbReference type="Proteomes" id="UP000326366">
+    <property type="component" value="Chromosome"/>
+  </dbReference>
+  <dbReference type="Proteomes" id="UP000614907">
+    <property type="component" value="Unassembled WGS sequence"/>
+  </dbReference>
+  <dbReference type="Proteomes" id="UP000650185">
+    <property type="component" value="Unassembled WGS sequence"/>
+  </dbReference>
+  <dbReference type="Proteomes" id="UP001055686">
+    <property type="component" value="Chromosome"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0008643">
+    <property type="term" value="P:carbohydrate transport"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="CDD" id="cd12797">
+    <property type="entry name" value="M23_peptidase"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Gene3D" id="2.70.70.10">
+    <property type="entry name" value="Glucose Permease (Domain IIA)"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR011055">
+    <property type="entry name" value="Dup_hybrid_motif"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR016047">
+    <property type="entry name" value="Peptidase_M23"/>
+  </dbReference>
+  <dbReference type="PANTHER" id="PTHR21666:SF270">
+    <property type="entry name" value="MUREIN DD-ENDOPEPTIDASE MEPM"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="PANTHER" id="PTHR21666">
+    <property type="entry name" value="PEPTIDASE-RELATED"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF01551">
+    <property type="entry name" value="Peptidase_M23"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="SUPFAM" id="SSF51261">
+    <property type="entry name" value="Duplicated hybrid motif"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="predicted"/>
+  <keyword evidence="2" id="KW-0732">Signal</keyword>
+  <keyword evidence="1" id="KW-0762">Sugar transport</keyword>
+  <keyword evidence="1" id="KW-0813">Transport</keyword>
+  <feature type="signal peptide" evidence="2">
+    <location>
+      <begin position="1"/>
+      <end position="27"/>
+    </location>
+  </feature>
+  <feature type="chain" id="PRO_5015099744" evidence="2">
+    <location>
+      <begin position="28"/>
+      <end position="343"/>
+    </location>
+  </feature>
+  <feature type="domain" description="Peptidase M23" evidence="3">
+    <location>
+      <begin position="62"/>
+      <end position="153"/>
+    </location>
+  </feature>
+  <evidence type="ECO:0000256" key="1">
+    <source>
+      <dbReference type="ARBA" id="ARBA00022597"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000256" key="2">
+    <source>
+      <dbReference type="SAM" id="SignalP"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000259" key="3">
+    <source>
+      <dbReference type="Pfam" id="PF01551"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="4">
+    <source>
+      <dbReference type="EMBL" id="AAG29099.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="5">
+    <source>
+      <dbReference type="EMBL" id="AGG79281.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="6">
+    <source>
+      <dbReference type="EMBL" id="CCD31667.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="7">
+    <source>
+      <dbReference type="EMBL" id="EGO2601163.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="8">
+    <source>
+      <dbReference type="EMBL" id="EGO8019828.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="9">
+    <source>
+      <dbReference type="EMBL" id="QFY92753.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="10">
+    <source>
+      <dbReference type="EMBL" id="URQ81908.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="11">
+    <source>
+      <dbReference type="Proteomes" id="UP000326366"/>
+    </source>
+  </evidence>
+  <sequence length="343" mass="37323" checksum="76A507FF0743B9ED" modified="2001-03-01" version="1">MKNILLSILGVLSIVVSLAFSSYSVNAASNEWSWPLGKPYAGRYEEGQQFGNTAFNRGGTYFHDGFDFGSAIYGNGSVYAVHDGKILYAGWDPVGGGSLGAFIVLQAGNTNVIYQEFSRNVGDIKVSTGQTVKKGQLIGKFTSSHLHLGMTKKEWRSAHSSWNKDDGTWFNPIPILQGGSTPTPPNPGPKNFTTNVRYGLRVLGGSWLPEVTNFNNTNDGFAGYPNRQHDMLYIKVDKGQMKYRVHTAQSGWLPWVSKGDKSDTVNGAAGMPGQAIDGVQLNYITPKGEKLSQAYYRSQTTKRSGWLKVSADNGSIPGLDSYAGIFGEPLDRLQIGISQSNPF</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

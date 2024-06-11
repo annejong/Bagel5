@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2017-10-25" modified="2024-01-24" version="15" xmlns="http://uniprot.org/uniprot">
+  <accession>A0A229S9N6</accession>
+  <name>A0A229S9N6_AMYAL</name>
+  <protein>
+    <recommendedName>
+      <fullName evidence="3">Thiocillin family RiPP</fullName>
+    </recommendedName>
+  </protein>
+  <gene>
+    <name evidence="1" type="ORF">CFP75_00735</name>
+  </gene>
+  <organism evidence="1 2">
+    <name type="scientific">Amycolatopsis alba DSM 44262</name>
+    <dbReference type="NCBI Taxonomy" id="1125972"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Actinomycetota</taxon>
+      <taxon>Actinomycetes</taxon>
+      <taxon>Pseudonocardiales</taxon>
+      <taxon>Pseudonocardiaceae</taxon>
+      <taxon>Amycolatopsis</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="1 2" key="1">
+    <citation type="submission" date="2017-07" db="EMBL/GenBank/DDBJ databases">
+      <title>Amycolatopsis alba DSM 44262 Genome sequencing and assembly.</title>
+      <authorList>
+        <person name="Kaur N."/>
+        <person name="Mayilraj S."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="1 2">DSM 44262</strain>
+    </source>
+  </reference>
+  <comment type="caution">
+    <text evidence="1">The sequence shown here is derived from an EMBL/GenBank/DDBJ whole genome shotgun (WGS) entry which is preliminary data.</text>
+  </comment>
+  <dbReference type="EMBL" id="NMQU01000003">
+    <property type="protein sequence ID" value="OXM55618.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="WP_020634202.1">
+    <property type="nucleotide sequence ID" value="NZ_NMQU01000003.1"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="A0A229S9N6"/>
+  <dbReference type="Proteomes" id="UP000215563">
+    <property type="component" value="Unassembled WGS sequence"/>
+  </dbReference>
+  <dbReference type="NCBIfam" id="NF033415">
+    <property type="entry name" value="thiovirid_RiPP"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="predicted"/>
+  <evidence type="ECO:0000313" key="1">
+    <source>
+      <dbReference type="EMBL" id="OXM55618.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="2">
+    <source>
+      <dbReference type="Proteomes" id="UP000215563"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0008006" key="3">
+    <source>
+      <dbReference type="Google" id="ProtNLM"/>
+    </source>
+  </evidence>
+  <sequence length="80" mass="8368" checksum="C05C25DD23730B99" modified="2017-10-25" version="1">MNSHDDAVAPSISDQDIENLVAQITTAETATTEDGLSLSDVSGFSEEELQRFLEEKAGLTAASGVQQSVIGFAVTIAVHC</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

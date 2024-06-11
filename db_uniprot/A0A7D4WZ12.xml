@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2020-12-02" modified="2023-09-13" version="5" xmlns="http://uniprot.org/uniprot">
+  <accession>A0A7D4WZ12</accession>
+  <name>A0A7D4WZ12_STRRM</name>
+  <protein>
+    <submittedName>
+      <fullName evidence="1">BrtA2</fullName>
+    </submittedName>
+  </protein>
+  <gene>
+    <name evidence="1" type="primary">brtA2</name>
+  </gene>
+  <organism evidence="1">
+    <name type="scientific">Streptomyces rimosus subsp. rimosus</name>
+    <dbReference type="NCBI Taxonomy" id="132474"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Actinomycetota</taxon>
+      <taxon>Actinomycetes</taxon>
+      <taxon>Kitasatosporales</taxon>
+      <taxon>Streptomycetaceae</taxon>
+      <taxon>Streptomyces</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="1" key="1">
+    <citation type="journal article" date="2020" name="BMC Genomics" volume="21" last="387">
+      <title>Precursor peptide-targeted mining of more than one hundred thousand genomes expands the lanthipeptide natural product family.</title>
+      <authorList>
+        <person name="Walker M.C."/>
+        <person name="Eslami S.M."/>
+        <person name="Hetrick K.J."/>
+        <person name="Ackenhusen S.E."/>
+        <person name="Mitchell D.A."/>
+        <person name="van der Donk W.A."/>
+      </authorList>
+      <dbReference type="PubMed" id="32493223"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="1">WC-3908</strain>
+    </source>
+  </reference>
+  <reference evidence="1" key="2">
+    <citation type="submission" date="2020-02" db="EMBL/GenBank/DDBJ databases">
+      <authorList>
+        <person name="Metcalf W.W."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="1">WC-3908</strain>
+    </source>
+  </reference>
+  <dbReference type="EMBL" id="MT037000">
+    <property type="protein sequence ID" value="QKV49894.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="A0A7D4WZ12"/>
+  <dbReference type="NCBIfam" id="NF038161">
+    <property type="entry name" value="lant_II_LchA2"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="predicted"/>
+  <evidence type="ECO:0000313" key="1">
+    <source>
+      <dbReference type="EMBL" id="QKV49894.1"/>
+    </source>
+  </evidence>
+  <sequence length="52" mass="5539" checksum="14AC7CA3407BE441" modified="2020-12-02" version="1">MEQQDFLGAYDELELIELSEEEWHGGTGPLCVAASVAASAAFCPTTKCTSKC</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2011-05-31" modified="2023-09-13" version="18" xmlns="http://uniprot.org/uniprot">
+  <accession>E5KIB6</accession>
+  <name>CYPA_STRSQ</name>
+  <protein>
+    <recommendedName>
+      <fullName evidence="4">Cypemycin</fullName>
+    </recommendedName>
+  </protein>
+  <gene>
+    <name evidence="6" type="primary">cypA</name>
+  </gene>
+  <organism>
+    <name type="scientific">Streptomyces sp</name>
+    <dbReference type="NCBI Taxonomy" id="1931"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Actinomycetota</taxon>
+      <taxon>Actinomycetes</taxon>
+      <taxon>Kitasatosporales</taxon>
+      <taxon>Streptomycetaceae</taxon>
+      <taxon>Streptomyces</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="5 6" key="1">
+    <citation type="journal article" date="2010" name="Proc. Natl. Acad. Sci. U.S.A." volume="107" first="16297" last="16302">
+      <title>Genome mining and genetic analysis of cypemycin biosynthesis reveal an unusual class of posttranslationally modified peptides.</title>
+      <authorList>
+        <person name="Claesen J."/>
+        <person name="Bibb M."/>
+      </authorList>
+      <dbReference type="PubMed" id="20805503"/>
+      <dbReference type="DOI" id="10.1073/pnas.1008608107"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+    <scope>PROTEIN SEQUENCE OF 45-60</scope>
+    <scope>FUNCTION</scope>
+    <scope>MASS SPECTROMETRY</scope>
+    <scope>METHYLATION AT ALA-43</scope>
+    <source>
+      <strain evidence="1">OH-4156</strain>
+    </source>
+  </reference>
+  <reference evidence="5" key="2">
+    <citation type="journal article" date="1993" name="J. Antibiot." volume="46" first="1666" last="1671">
+      <title>A new antibiotic, cypemycin. Taxonomy, fermentation, isolation and biological characteristics.</title>
+      <authorList>
+        <person name="Komiyama K."/>
+        <person name="Otoguro K."/>
+        <person name="Segawa T."/>
+        <person name="Shiomi K."/>
+        <person name="Yang H."/>
+        <person name="Takahashi Y."/>
+        <person name="Hayashi M."/>
+        <person name="Otani T."/>
+        <person name="Omura S."/>
+      </authorList>
+      <dbReference type="PubMed" id="7802859"/>
+      <dbReference type="DOI" id="10.7164/antibiotics.46.1666"/>
+    </citation>
+    <scope>PROTEIN SEQUENCE OF 43-64</scope>
+    <scope>FUNCTION</scope>
+    <scope>SUBCELLULAR LOCATION</scope>
+    <source>
+      <strain evidence="2">OH-4156</strain>
+    </source>
+  </reference>
+  <reference evidence="5" key="3">
+    <citation type="journal article" date="1994" name="Tetrahedron Lett." volume="35" first="8001" last="8004">
+      <title>Structure of cypemycin, a new peptide antibiotic.</title>
+      <authorList>
+        <person name="Minami Y."/>
+        <person name="Yoshida K."/>
+        <person name="Azuma R."/>
+        <person name="Urakawa A."/>
+        <person name="Kawauchi T."/>
+        <person name="Otani T."/>
+        <person name="Komiyama K."/>
+        <person name="Omura S."/>
+      </authorList>
+      <dbReference type="DOI" id="10.1016/0040-4039(94)80033-2"/>
+    </citation>
+    <scope>PROTEIN SEQUENCE OF 43-64</scope>
+    <scope>MASS SPECTROMETRY</scope>
+    <scope>DEHYDRATION AT THR-44; THR-47; THR-49 AND THR-59</scope>
+    <scope>METHYLATION AT ALA-43</scope>
+    <scope>THIOETHER BOND</scope>
+    <scope>STRUCTURE BY NMR</scope>
+    <source>
+      <strain evidence="3">OH-4156</strain>
+    </source>
+  </reference>
+  <comment type="function">
+    <text evidence="1 2">Antibiotic peptide structurally related to lantibiotics. Active against M.luteus (MIC=0.2 ug/ml). Has cytotoxic activity against mouse P388 leukemia cells (IC(50)=1.3 ug/ml).</text>
+  </comment>
+  <comment type="subcellular location">
+    <subcellularLocation>
+      <location evidence="2">Secreted</location>
+    </subcellularLocation>
+  </comment>
+  <comment type="PTM">
+    <text evidence="3">Maturation involves the enzymatic conversion of Cys-61 into 2,3-didehydroalanine followed by formation of a thioether bond with Cys-64. The C-terminal meso-lanthionine then undergoes decarboxylation.</text>
+  </comment>
+  <comment type="PTM">
+    <text evidence="1 3">Dimethylated at the N-terminus. Dimethylation is required for antibiotic activity.</text>
+  </comment>
+  <comment type="PTM">
+    <text evidence="1">The configuration of reformed Cys-61 as the D form was attributed by similarity to related structures.</text>
+  </comment>
+  <comment type="mass spectrometry" mass="2094.0" method="FAB" evidence="1 3"/>
+  <comment type="mass spectrometry" mass="2096.0" method="MALDI" evidence="1 3"/>
+  <comment type="similarity">
+    <text evidence="1">Belongs to the linaridin family.</text>
+  </comment>
+  <dbReference type="EMBL" id="HQ148718">
+    <property type="protein sequence ID" value="ADR72962.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="E5KIB6"/>
+  <dbReference type="iPTMnet" id="E5KIB6"/>
+  <dbReference type="GO" id="GO:0043245">
+    <property type="term" value="C:extraorganismal space"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0050830">
+    <property type="term" value="P:defense response to Gram-positive bacterium"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="NCBIfam" id="NF033752">
+    <property type="entry name" value="linaridin_CypA"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="evidence at protein level"/>
+  <keyword id="KW-0044">Antibiotic</keyword>
+  <keyword id="KW-0929">Antimicrobial</keyword>
+  <keyword id="KW-0208">D-amino acid</keyword>
+  <keyword id="KW-0903">Direct protein sequencing</keyword>
+  <keyword id="KW-0488">Methylation</keyword>
+  <keyword id="KW-0964">Secreted</keyword>
+  <keyword id="KW-0883">Thioether bond</keyword>
+  <feature type="propeptide" id="PRO_0000408757" evidence="2 3">
+    <location>
+      <begin position="1"/>
+      <end position="42"/>
+    </location>
+  </feature>
+  <feature type="peptide" id="PRO_0000408758" description="Cypemycin" evidence="2">
+    <location>
+      <begin position="43"/>
+      <end position="64"/>
+    </location>
+  </feature>
+  <feature type="modified residue" description="N,N-dimethylalanine" evidence="1 3">
+    <location>
+      <position position="43"/>
+    </location>
+  </feature>
+  <feature type="modified residue" description="(E)-2,3-didehydrobutyrine" evidence="3">
+    <location>
+      <position position="44"/>
+    </location>
+  </feature>
+  <feature type="modified residue" description="(E)-2,3-didehydrobutyrine" evidence="3">
+    <location>
+      <position position="47"/>
+    </location>
+  </feature>
+  <feature type="modified residue" description="(E)-2,3-didehydrobutyrine" evidence="3">
+    <location>
+      <position position="49"/>
+    </location>
+  </feature>
+  <feature type="modified residue" description="L-allo-isoleucine" evidence="3">
+    <location>
+      <position position="55"/>
+    </location>
+  </feature>
+  <feature type="modified residue" description="(E)-2,3-didehydrobutyrine" evidence="3">
+    <location>
+      <position position="59"/>
+    </location>
+  </feature>
+  <feature type="modified residue" description="L-allo-isoleucine" evidence="3">
+    <location>
+      <position position="60"/>
+    </location>
+  </feature>
+  <feature type="cross-link" description="S-(2-aminovinyl)-D-cysteine (Cys-Cys)" evidence="3">
+    <location>
+      <begin position="61"/>
+      <end position="64"/>
+    </location>
+  </feature>
+  <evidence type="ECO:0000269" key="1">
+    <source>
+      <dbReference type="PubMed" id="20805503"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="2">
+    <source>
+      <dbReference type="PubMed" id="7802859"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="3">
+    <source ref="3"/>
+  </evidence>
+  <evidence type="ECO:0000303" key="4">
+    <source>
+      <dbReference type="PubMed" id="7802859"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000305" key="5"/>
+  <evidence type="ECO:0000312" key="6">
+    <source>
+      <dbReference type="EMBL" id="ADR72962.1"/>
+    </source>
+  </evidence>
+  <sequence length="64" mass="6533" checksum="C62C08E55FD070E4" modified="2011-02-08" version="1" precursor="true">MRSEMTLTSTNSAEALAAQDFANTVLSAAAPGFHADCETPAMATPATPTVAQFVIQGSTICLVC</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="1998-01-01" modified="2023-05-03" version="45" xmlns="http://uniprot.org/uniprot">
+  <accession>O32830</accession>
+  <name>O32830_LACPN</name>
+  <protein>
+    <submittedName>
+      <fullName evidence="1">Plantaricin S beta protein</fullName>
+    </submittedName>
+  </protein>
+  <gene>
+    <name evidence="1" type="primary">plsB</name>
+  </gene>
+  <organism evidence="1">
+    <name type="scientific">Lactiplantibacillus plantarum</name>
+    <name type="common">Lactobacillus plantarum</name>
+    <dbReference type="NCBI Taxonomy" id="1590"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Bacillota</taxon>
+      <taxon>Bacilli</taxon>
+      <taxon>Lactobacillales</taxon>
+      <taxon>Lactobacillaceae</taxon>
+      <taxon>Lactiplantibacillus</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="1" key="1">
+    <citation type="journal article" date="1998" name="Appl. Environ. Microbiol." volume="64" first="1871" last="1877">
+      <title>Molecular analysis of the locus responsible for production of plantaricin S, a two-peptide bacteriocin produced by Lactobacillus plantarum LPCO10.</title>
+      <authorList>
+        <person name="Stephens S.K."/>
+        <person name="Floriano B."/>
+        <person name="Cathcart D.P."/>
+        <person name="Bayley S.A."/>
+        <person name="Witt V.F."/>
+        <person name="Jimenez-Diaz R."/>
+        <person name="Warner P.J."/>
+        <person name="Ruiz-Barba J.L."/>
+      </authorList>
+      <dbReference type="PubMed" id="9572965"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="1">LPCO10</strain>
+    </source>
+  </reference>
+  <reference evidence="2" key="2">
+    <citation type="journal article" date="2019" name="Sci. Rep." volume="9" first="2333" last="2333">
+      <title>NMR structures and mutational analysis of the two peptides constituting the bacteriocin plantaricin S.</title>
+      <authorList>
+        <person name="Ekblad B."/>
+        <person name="Kristiansen P.E."/>
+      </authorList>
+      <dbReference type="PubMed" id="30787405"/>
+      <dbReference type="DOI" id="10.1038/s41598-019-38518-6"/>
+    </citation>
+    <scope>STRUCTURE BY NMR OF 22-47</scope>
+  </reference>
+  <dbReference type="EMBL" id="Y15127">
+    <property type="protein sequence ID" value="CAA75396.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="PDB" id="6GO0">
+    <property type="method" value="NMR"/>
+    <property type="chains" value="A=22-47"/>
+  </dbReference>
+  <dbReference type="PDBsum" id="6GO0"/>
+  <dbReference type="AlphaFoldDB" id="O32830"/>
+  <dbReference type="BMRB" id="O32830"/>
+  <dbReference type="SMR" id="O32830"/>
+  <dbReference type="TCDB" id="1.C.30.1.2">
+    <property type="family name" value="the plantaricin jk (plantaricin jk) family"/>
+  </dbReference>
+  <proteinExistence type="evidence at protein level"/>
+  <keyword evidence="2" id="KW-0002">3D-structure</keyword>
+  <evidence type="ECO:0000313" key="1">
+    <source>
+      <dbReference type="EMBL" id="CAA75396.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007829" key="2">
+    <source>
+      <dbReference type="PDB" id="6GO0"/>
+    </source>
+  </evidence>
+  <sequence length="47" mass="5118" checksum="B2C34C38EE1379C7" modified="1998-01-01" version="1">MDKIIKFQGISDDQLNAVIGGKKKKQSWYAAAGDAIVSFGEGFLNAW</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

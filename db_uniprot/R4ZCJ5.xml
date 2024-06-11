@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2013-07-24" modified="2024-01-24" version="17" xmlns="http://uniprot.org/uniprot">
+  <accession>R4ZCJ5</accession>
+  <name>R4ZCJ5_9ACTN</name>
+  <protein>
+    <submittedName>
+      <fullName evidence="3">Planosporicin peptide</fullName>
+    </submittedName>
+  </protein>
+  <gene>
+    <name evidence="3" type="primary">pspA</name>
+  </gene>
+  <organism evidence="3">
+    <name type="scientific">Planomonospora alba</name>
+    <dbReference type="NCBI Taxonomy" id="161354"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Actinomycetota</taxon>
+      <taxon>Actinomycetes</taxon>
+      <taxon>Streptosporangiales</taxon>
+      <taxon>Streptosporangiaceae</taxon>
+      <taxon>Planomonospora</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="3" key="1">
+    <citation type="journal article" date="2013" name="J. Bacteriol." volume="195" first="2309" last="2321">
+      <title>Cloning and Analysis of the Planosporicin Lantibiotic Biosynthetic Gene Cluster of Planomonospora alba.</title>
+      <authorList>
+        <person name="Sherwood E.J."/>
+        <person name="Hesketh A.R."/>
+        <person name="Bibb M.J."/>
+      </authorList>
+      <dbReference type="PubMed" id="23475977"/>
+      <dbReference type="DOI" id="10.1128/JB.02291-12"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="3">NRRL 18924</strain>
+    </source>
+  </reference>
+  <reference evidence="3" key="2">
+    <citation type="submission" date="2013-01" db="EMBL/GenBank/DDBJ databases">
+      <authorList>
+        <person name="Bibb M."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="3">NRRL 18924</strain>
+    </source>
+  </reference>
+  <comment type="similarity">
+    <text evidence="1">Belongs to the type A lantibiotic family.</text>
+  </comment>
+  <dbReference type="EMBL" id="HF570921">
+    <property type="protein sequence ID" value="CCQ18695.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="R4ZCJ5"/>
+  <dbReference type="GO" id="GO:0005576">
+    <property type="term" value="C:extracellular region"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="InterPro"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0005102">
+    <property type="term" value="F:signaling receptor binding"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0042742">
+    <property type="term" value="P:defense response to bacterium"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0031640">
+    <property type="term" value="P:killing of cells of another organism"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR006079">
+    <property type="entry name" value="Lantibiotic_typ-A_Bacillales"/>
+  </dbReference>
+  <dbReference type="NCBIfam" id="NF038155">
+    <property type="entry name" value="lanthi_I_FDLD"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="NCBIfam" id="TIGR03731">
+    <property type="entry name" value="lantibio_gallid"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF02052">
+    <property type="entry name" value="Gallidermin"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="inferred from homology"/>
+  <keyword evidence="2" id="KW-0044">Antibiotic</keyword>
+  <keyword evidence="2" id="KW-0929">Antimicrobial</keyword>
+  <keyword evidence="2" id="KW-0078">Bacteriocin</keyword>
+  <keyword evidence="2" id="KW-0425">Lantibiotic</keyword>
+  <evidence type="ECO:0000256" key="1">
+    <source>
+      <dbReference type="ARBA" id="ARBA00009379"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000256" key="2">
+    <source>
+      <dbReference type="ARBA" id="ARBA00022789"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="3">
+    <source>
+      <dbReference type="EMBL" id="CCQ18695.1"/>
+    </source>
+  </evidence>
+  <sequence length="56" mass="5615" checksum="97887B30FFDE0622" modified="2013-07-24" version="1">MGISSPALPQNTADLFQLDLEIGVEQSLASPAITSVSWCTPGCTSEGGGSGCSHCC</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

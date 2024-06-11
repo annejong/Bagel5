@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2005-11-22" modified="2023-09-13" version="59" xmlns="http://uniprot.org/uniprot">
+  <accession>O87236</accession>
+  <name>LANA1_LACLL</name>
+  <protein>
+    <recommendedName>
+      <fullName>Lantibiotic lacticin 3147 A1</fullName>
+    </recommendedName>
+  </protein>
+  <gene>
+    <name evidence="4" type="primary">ltnA1</name>
+    <name evidence="7" type="synonym">ltnA</name>
+    <name type="ORF">ORF00035</name>
+  </gene>
+  <organism>
+    <name type="scientific">Lactococcus lactis subsp. lactis</name>
+    <name type="common">Streptococcus lactis</name>
+    <dbReference type="NCBI Taxonomy" id="1360"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Bacillota</taxon>
+      <taxon>Bacilli</taxon>
+      <taxon>Lactobacillales</taxon>
+      <taxon>Streptococcaceae</taxon>
+      <taxon>Lactococcus</taxon>
+    </lineage>
+  </organism>
+  <geneLocation type="plasmid" evidence="6">
+    <name>pMRC01</name>
+  </geneLocation>
+  <geneLocation type="plasmid" evidence="7">
+    <name>pBAC105</name>
+  </geneLocation>
+  <reference evidence="6" key="1">
+    <citation type="journal article" date="1998" name="Mol. Microbiol." volume="29" first="1029" last="1038">
+      <title>Sequence and analysis of the 60 kb conjugative, bacteriocin-producing plasmid pMRC01 from Lactococcus lactis DPC3147.</title>
+      <authorList>
+        <person name="Dougherty B.A."/>
+        <person name="Hill C."/>
+        <person name="Weidman J.F."/>
+        <person name="Richardson D.R."/>
+        <person name="Venter J.C."/>
+        <person name="Ross R.P."/>
+      </authorList>
+      <dbReference type="PubMed" id="9767571"/>
+      <dbReference type="DOI" id="10.1046/j.1365-2958.1998.00988.x"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="6">DPC3147</strain>
+      <plasmid>pMRC01</plasmid>
+    </source>
+  </reference>
+  <reference evidence="5 7" key="2">
+    <citation type="journal article" date="2000" name="J. Appl. Microbiol." volume="89" first="249" last="260">
+      <title>Biological and molecular characterization of a two-peptide lantibiotic produced by Lactococcus lactis IFPL105.</title>
+      <authorList>
+        <person name="Martinez-Cuesta M.C."/>
+        <person name="Buist G."/>
+        <person name="Kok J."/>
+        <person name="Hauge H.H."/>
+        <person name="Nissen-Meyer J."/>
+        <person name="Pelaez C."/>
+        <person name="Requena T."/>
+      </authorList>
+      <dbReference type="PubMed" id="10971756"/>
+      <dbReference type="DOI" id="10.1046/j.1365-2672.2000.01103.x"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+    <scope>FUNCTION</scope>
+    <scope>SUBCELLULAR LOCATION</scope>
+    <scope>MASS SPECTROMETRY</scope>
+    <source>
+      <strain evidence="7">IFPL105</strain>
+      <plasmid>pBAC105</plasmid>
+    </source>
+  </reference>
+  <reference evidence="5" key="3">
+    <citation type="journal article" date="2004" name="Biochemistry" volume="43" first="3049" last="3056">
+      <title>Structural characterization of lacticin 3147, a two-peptide lantibiotic with synergistic activity.</title>
+      <authorList>
+        <person name="Martin N.I."/>
+        <person name="Sprules T."/>
+        <person name="Carpenter M.R."/>
+        <person name="Cotter P.D."/>
+        <person name="Hill C."/>
+        <person name="Ross R.P."/>
+        <person name="Vederas J.C."/>
+      </authorList>
+      <dbReference type="PubMed" id="15023056"/>
+      <dbReference type="DOI" id="10.1021/bi0362065"/>
+    </citation>
+    <scope>PROTEIN SEQUENCE OF 30-59</scope>
+    <scope>MASS SPECTROMETRY</scope>
+    <scope>THIOETHER BONDS</scope>
+    <scope>DEHYDRATION AT THR-32; THR-34 AND SER-36</scope>
+    <source>
+      <strain evidence="3">DPC3147</strain>
+    </source>
+  </reference>
+  <reference evidence="5" key="4">
+    <citation type="journal article" date="1999" name="J. Biol. Chem." volume="274" first="37544" last="37550">
+      <title>Extensive post-translational modification, including serine to D-alanine conversion, in the two-component lantibiotic, lacticin 3147.</title>
+      <authorList>
+        <person name="Ryan M.P."/>
+        <person name="Jack R.W."/>
+        <person name="Josten M."/>
+        <person name="Sahl H.-G."/>
+        <person name="Jung G."/>
+        <person name="Ross R.P."/>
+        <person name="Hill C."/>
+      </authorList>
+      <dbReference type="PubMed" id="10608807"/>
+      <dbReference type="DOI" id="10.1074/jbc.274.53.37544"/>
+    </citation>
+    <scope>PROTEIN SEQUENCE OF 30-47</scope>
+    <scope>FUNCTION</scope>
+    <scope>SUBCELLULAR LOCATION</scope>
+    <scope>MASS SPECTROMETRY</scope>
+    <source>
+      <strain evidence="1">DPC3147</strain>
+    </source>
+  </reference>
+  <comment type="function">
+    <text evidence="1 2">Lanthionine-containing peptide antibiotic (lantibiotic) active on Gram-positive bacteria. The bactericidal activity of lantibiotics is based on depolarization of energized bacterial cytoplasmic membranes, initiated by the formation of aqueous transmembrane pores. When present individually lacticin 3147 A1 exhibits strong activity towards L.lactis strain AM2, weak activity towards L.lactis strain HP and no activity towards L.lactis strain IFPL359, but when combined with lacticin 3147 A2 it displays strong activity towards all three strains.</text>
+  </comment>
+  <comment type="subcellular location">
+    <subcellularLocation>
+      <location evidence="1 2">Secreted</location>
+    </subcellularLocation>
+  </comment>
+  <comment type="PTM">
+    <text evidence="3">Maturation of lantibiotics involves the enzymatic conversion of Thr, and Ser into dehydrated AA and the formation of thioether bonds with cysteine. This is followed by membrane translocation and cleavage of the modified precursor.</text>
+  </comment>
+  <comment type="PTM">
+    <text>It is not established whether the 2,3-didehydrobutyrines are the E- or Z-isomers (PubMed:15023056, PubMed:10608807). In the NMR model they were assumed to be the Z-isomer.</text>
+  </comment>
+  <comment type="mass spectrometry" mass="3322.0" method="Plasma desorption" evidence="2"/>
+  <comment type="mass spectrometry" mass="3306.69" method="MALDI" evidence="3"/>
+  <comment type="mass spectrometry" mass="3322.34" method="Electrospray" evidence="1"/>
+  <dbReference type="EMBL" id="AE001272">
+    <property type="protein sequence ID" value="AAC56053.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="AF167432">
+    <property type="protein sequence ID" value="AAF32256.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="PIR" id="T43106">
+    <property type="entry name" value="T43106"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="NP_047319.1">
+    <property type="nucleotide sequence ID" value="NC_001949.1"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="O87236"/>
+  <dbReference type="TCDB" id="1.C.21.2.4">
+    <property type="family name" value="the lacticin 481 (lacticin 481) family"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0005576">
+    <property type="term" value="C:extracellular region"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0005102">
+    <property type="term" value="F:signaling receptor binding"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0050830">
+    <property type="term" value="P:defense response to Gram-positive bacterium"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0031640">
+    <property type="term" value="P:killing of cells of another organism"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR029243">
+    <property type="entry name" value="Lantibiotic_alpha"/>
+  </dbReference>
+  <dbReference type="NCBIfam" id="NF000539">
+    <property type="entry name" value="plantaricin"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF14867">
+    <property type="entry name" value="Lantibiotic_a"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="evidence at protein level"/>
+  <keyword id="KW-0044">Antibiotic</keyword>
+  <keyword id="KW-0929">Antimicrobial</keyword>
+  <keyword id="KW-0078">Bacteriocin</keyword>
+  <keyword id="KW-0903">Direct protein sequencing</keyword>
+  <keyword id="KW-0425">Lantibiotic</keyword>
+  <keyword id="KW-0614">Plasmid</keyword>
+  <keyword id="KW-0964">Secreted</keyword>
+  <keyword id="KW-0883">Thioether bond</keyword>
+  <feature type="propeptide" id="PRO_0000042849" evidence="1 3">
+    <location>
+      <begin position="1"/>
+      <end position="29"/>
+    </location>
+  </feature>
+  <feature type="peptide" id="PRO_0000042850" description="Lantibiotic lacticin 3147 A1" evidence="3">
+    <location>
+      <begin position="30"/>
+      <end position="59"/>
+    </location>
+  </feature>
+  <feature type="modified residue" description="2,3-didehydrobutyrine" evidence="3">
+    <location>
+      <position position="32"/>
+    </location>
+  </feature>
+  <feature type="modified residue" description="2,3-didehydrobutyrine" evidence="3">
+    <location>
+      <position position="34"/>
+    </location>
+  </feature>
+  <feature type="modified residue" description="2,3-didehydroalanine (Ser)" evidence="3">
+    <location>
+      <position position="36"/>
+    </location>
+  </feature>
+  <feature type="cross-link" description="Lanthionine (Cys-Ser)" evidence="3">
+    <location>
+      <begin position="30"/>
+      <end position="31"/>
+    </location>
+  </feature>
+  <feature type="cross-link" description="Lanthionine (Ser-Cys)" evidence="3">
+    <location>
+      <begin position="38"/>
+      <end position="48"/>
+    </location>
+  </feature>
+  <feature type="cross-link" description="Beta-methyllanthionine (Thr-Cys)" evidence="3">
+    <location>
+      <begin position="49"/>
+      <end position="54"/>
+    </location>
+  </feature>
+  <feature type="cross-link" description="Beta-methyllanthionine (Thr-Cys)" evidence="3">
+    <location>
+      <begin position="51"/>
+      <end position="58"/>
+    </location>
+  </feature>
+  <evidence type="ECO:0000269" key="1">
+    <source>
+      <dbReference type="PubMed" id="10608807"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="2">
+    <source>
+      <dbReference type="PubMed" id="10971756"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="3">
+    <source>
+      <dbReference type="PubMed" id="15023056"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000303" key="4">
+    <source>
+      <dbReference type="PubMed" id="10608807"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000305" key="5"/>
+  <evidence type="ECO:0000312" key="6">
+    <source>
+      <dbReference type="EMBL" id="AAC56053.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000312" key="7">
+    <source>
+      <dbReference type="EMBL" id="AAF32256.1"/>
+    </source>
+  </evidence>
+  <sequence length="59" mass="6798" checksum="850B313769976D42" modified="1998-11-01" version="1" precursor="true">MNKNEIETQPVTWLEEVSDQNFDEDVFGACSTNTFSLSDYWGNNGAWCTLTHECMAWCK</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

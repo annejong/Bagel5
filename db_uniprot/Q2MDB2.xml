@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2006-02-21" modified="2024-01-24" version="37" xmlns="http://uniprot.org/uniprot">
+  <accession>Q2MDB2</accession>
+  <name>Q2MDB2_BACCE</name>
+  <protein>
+    <submittedName>
+      <fullName evidence="1">Bacteriocin cerein 7B</fullName>
+    </submittedName>
+  </protein>
+  <gene>
+    <name evidence="1" type="primary">cer7B</name>
+    <name evidence="2" type="ORF">AT274_09430</name>
+  </gene>
+  <organism evidence="1">
+    <name type="scientific">Bacillus cereus</name>
+    <dbReference type="NCBI Taxonomy" id="1396"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Bacillota</taxon>
+      <taxon>Bacilli</taxon>
+      <taxon>Bacillales</taxon>
+      <taxon>Bacillaceae</taxon>
+      <taxon>Bacillus</taxon>
+      <taxon>Bacillus cereus group</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="1" key="1">
+    <citation type="journal article" date="2006" name="FEMS Microbiol. Lett." volume="254" first="108" last="115">
+      <title>Purification and sequencing of cerein 7B, a novel bacteriocin produced by Bacillus cereus Bc7.</title>
+      <authorList>
+        <person name="Oscariz J.C."/>
+        <person name="Cintas L."/>
+        <person name="Holo H."/>
+        <person name="Lasa I."/>
+        <person name="Nes I.F."/>
+        <person name="Pisabarro A.G."/>
+      </authorList>
+      <dbReference type="PubMed" id="16451187"/>
+      <dbReference type="DOI" id="10.1111/j.1574-6968.2005.00009.x"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="1">Bc7</strain>
+    </source>
+  </reference>
+  <reference evidence="2 3" key="2">
+    <citation type="submission" date="2015-12" db="EMBL/GenBank/DDBJ databases">
+      <title>Bacillus cereus Group isolate.</title>
+      <authorList>
+        <person name="Kovac J."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="2 3">FSL W8-0275</strain>
+    </source>
+  </reference>
+  <dbReference type="EMBL" id="AM087432">
+    <property type="protein sequence ID" value="CAJ32354.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="LOMT01000130">
+    <property type="protein sequence ID" value="KXX88409.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="WP_017561260.1">
+    <property type="nucleotide sequence ID" value="NZ_VVXM01000004.1"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="Q2MDB2"/>
+  <dbReference type="TCDB" id="1.C.102.1.1">
+    <property type="family name" value="the cerein (cerein) family"/>
+  </dbReference>
+  <dbReference type="PATRIC" id="fig|1396.432.peg.1229"/>
+  <dbReference type="Proteomes" id="UP000075591">
+    <property type="component" value="Unassembled WGS sequence"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0042742">
+    <property type="term" value="P:defense response to bacterium"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="InterPro"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR019493">
+    <property type="entry name" value="Bacteriocin_IIb_lactacin-rel"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR023991">
+    <property type="entry name" value="Bacteriocin_IIb_lactobn/cerein"/>
+  </dbReference>
+  <dbReference type="NCBIfam" id="TIGR03949">
+    <property type="entry name" value="bact_IIb_cerein"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF10439">
+    <property type="entry name" value="Bacteriocin_IIc"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="predicted"/>
+  <evidence type="ECO:0000313" key="1">
+    <source>
+      <dbReference type="EMBL" id="CAJ32354.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="2">
+    <source>
+      <dbReference type="EMBL" id="KXX88409.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="3">
+    <source>
+      <dbReference type="Proteomes" id="UP000075591"/>
+    </source>
+  </evidence>
+  <sequence length="74" mass="6971" checksum="7A7AD6212753B705" modified="2006-02-21" version="1">MENLQMLTEEELMEIEGGGWWNSWGKCVAGTIGGAGTGGLGGAAAGSAVPVIGTGIGGAIGGVSGGLTGAATFC</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

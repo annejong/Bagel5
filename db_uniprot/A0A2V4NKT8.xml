@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2018-09-12" modified="2024-01-24" version="12" xmlns="http://uniprot.org/uniprot">
+  <accession>A0A2V4NKT8</accession>
+  <name>A0A2V4NKT8_9ACTN</name>
+  <protein>
+    <recommendedName>
+      <fullName evidence="3">Thiocillin/thiostrepton family thiazolyl peptide</fullName>
+    </recommendedName>
+  </protein>
+  <gene>
+    <name evidence="1" type="ORF">C7C46_13060</name>
+  </gene>
+  <organism evidence="1 2">
+    <name type="scientific">Streptomyces tateyamensis</name>
+    <dbReference type="NCBI Taxonomy" id="565073"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Actinomycetota</taxon>
+      <taxon>Actinomycetes</taxon>
+      <taxon>Kitasatosporales</taxon>
+      <taxon>Streptomycetaceae</taxon>
+      <taxon>Streptomyces</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="1 2" key="1">
+    <citation type="submission" date="2018-03" db="EMBL/GenBank/DDBJ databases">
+      <title>Bioinformatic expansion and discovery of thiopeptide antibiotics.</title>
+      <authorList>
+        <person name="Schwalen C.J."/>
+        <person name="Hudson G.A."/>
+        <person name="Mitchell D.A."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="1 2">ATCC 21389</strain>
+    </source>
+  </reference>
+  <comment type="caution">
+    <text evidence="1">The sequence shown here is derived from an EMBL/GenBank/DDBJ whole genome shotgun (WGS) entry which is preliminary data.</text>
+  </comment>
+  <dbReference type="EMBL" id="PYBW01000040">
+    <property type="protein sequence ID" value="PYC80213.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="A0A2V4NKT8"/>
+  <dbReference type="OrthoDB" id="4346103at2"/>
+  <dbReference type="Proteomes" id="UP000248039">
+    <property type="component" value="Unassembled WGS sequence"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR023895">
+    <property type="entry name" value="Thiopep_bacteriocin_prcur"/>
+  </dbReference>
+  <dbReference type="NCBIfam" id="NF033401">
+    <property type="entry name" value="thiazolyl_BerA"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="NCBIfam" id="TIGR03892">
+    <property type="entry name" value="thiopep_precurs"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="predicted"/>
+  <keyword evidence="2" id="KW-1185">Reference proteome</keyword>
+  <evidence type="ECO:0000313" key="1">
+    <source>
+      <dbReference type="EMBL" id="PYC80213.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="2">
+    <source>
+      <dbReference type="Proteomes" id="UP000248039"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0008006" key="3">
+    <source>
+      <dbReference type="Google" id="ProtNLM"/>
+    </source>
+  </evidence>
+  <sequence length="60" mass="6275" checksum="2ABC1C5279D1C167" modified="2018-09-12" version="1">MSAPTEIQNLGVVGLTGLDTDTLEISDYLDESLLDEHDLTVTMVASASCTTCICTCSCSS</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2006-11-14" modified="2024-01-24" version="64" xmlns="http://uniprot.org/uniprot">
+  <accession>Q035J6</accession>
+  <name>Q035J6_LACP3</name>
+  <protein>
+    <submittedName>
+      <fullName evidence="1">Uncharacterized protein</fullName>
+    </submittedName>
+  </protein>
+  <gene>
+    <name evidence="1" type="ordered locus">LSEI_2386</name>
+  </gene>
+  <organism evidence="1 2">
+    <name type="scientific">Lacticaseibacillus paracasei (strain ATCC 334 / BCRC 17002 / CCUG 31169 / CIP 107868 / KCTC 3260 / NRRL B-441)</name>
+    <name type="common">Lactobacillus paracasei</name>
+    <dbReference type="NCBI Taxonomy" id="321967"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Bacillota</taxon>
+      <taxon>Bacilli</taxon>
+      <taxon>Lactobacillales</taxon>
+      <taxon>Lactobacillaceae</taxon>
+      <taxon>Lacticaseibacillus</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="1 2" key="1">
+    <citation type="journal article" date="2006" name="Proc. Natl. Acad. Sci. U.S.A." volume="103" first="15611" last="15616">
+      <title>Comparative genomics of the lactic acid bacteria.</title>
+      <authorList>
+        <person name="Makarova K."/>
+        <person name="Slesarev A."/>
+        <person name="Wolf Y."/>
+        <person name="Sorokin A."/>
+        <person name="Mirkin B."/>
+        <person name="Koonin E."/>
+        <person name="Pavlov A."/>
+        <person name="Pavlova N."/>
+        <person name="Karamychev V."/>
+        <person name="Polouchine N."/>
+        <person name="Shakhova V."/>
+        <person name="Grigoriev I."/>
+        <person name="Lou Y."/>
+        <person name="Rohksar D."/>
+        <person name="Lucas S."/>
+        <person name="Huang K."/>
+        <person name="Goodstein D.M."/>
+        <person name="Hawkins T."/>
+        <person name="Plengvidhya V."/>
+        <person name="Welker D."/>
+        <person name="Hughes J."/>
+        <person name="Goh Y."/>
+        <person name="Benson A."/>
+        <person name="Baldwin K."/>
+        <person name="Lee J.H."/>
+        <person name="Diaz-Muniz I."/>
+        <person name="Dosti B."/>
+        <person name="Smeianov V."/>
+        <person name="Wechter W."/>
+        <person name="Barabote R."/>
+        <person name="Lorca G."/>
+        <person name="Altermann E."/>
+        <person name="Barrangou R."/>
+        <person name="Ganesan B."/>
+        <person name="Xie Y."/>
+        <person name="Rawsthorne H."/>
+        <person name="Tamir D."/>
+        <person name="Parker C."/>
+        <person name="Breidt F."/>
+        <person name="Broadbent J."/>
+        <person name="Hutkins R."/>
+        <person name="O'Sullivan D."/>
+        <person name="Steele J."/>
+        <person name="Unlu G."/>
+        <person name="Saier M."/>
+        <person name="Klaenhammer T."/>
+        <person name="Richardson P."/>
+        <person name="Kozyavkin S."/>
+        <person name="Weimer B."/>
+        <person name="Mills D."/>
+      </authorList>
+      <dbReference type="PubMed" id="17030793"/>
+      <dbReference type="DOI" id="10.1073/pnas.0607117103"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="2">ATCC 334 / BCRC 17002 / CCUG 31169 / CIP 107868 / KCTC 3260 / NRRL B-441</strain>
+    </source>
+  </reference>
+  <dbReference type="EMBL" id="CP000423">
+    <property type="protein sequence ID" value="ABJ71126.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="WP_003571414.1">
+    <property type="nucleotide sequence ID" value="NC_008526.1"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="YP_807568.1">
+    <property type="nucleotide sequence ID" value="NC_008526.1"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="Q035J6"/>
+  <dbReference type="STRING" id="321967.LSEI_2386"/>
+  <dbReference type="PaxDb" id="321967-LSEI_2386"/>
+  <dbReference type="GeneID" id="57090981"/>
+  <dbReference type="KEGG" id="lca:LSEI_2386"/>
+  <dbReference type="PATRIC" id="fig|321967.11.peg.2345"/>
+  <dbReference type="HOGENOM" id="CLU_207843_0_0_9"/>
+  <dbReference type="Proteomes" id="UP000001651">
+    <property type="component" value="Chromosome"/>
+  </dbReference>
+  <proteinExistence type="predicted"/>
+  <keyword evidence="2" id="KW-1185">Reference proteome</keyword>
+  <evidence type="ECO:0000313" key="1">
+    <source>
+      <dbReference type="EMBL" id="ABJ71126.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="2">
+    <source>
+      <dbReference type="Proteomes" id="UP000001651"/>
+    </source>
+  </evidence>
+  <sequence length="45" mass="5327" checksum="AF4300E3125509E2" modified="2006-11-14" version="1">MKQFDEQKMVNMSDEELLGFIGGDSIRDVSPTFNKIRRWFDGLFK</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

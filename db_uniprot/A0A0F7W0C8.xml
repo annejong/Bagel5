@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2015-07-22" modified="2023-09-13" version="12" xmlns="http://uniprot.org/uniprot">
+  <accession>A0A0F7W0C8</accession>
+  <name>A0A0F7W0C8_9ACTN</name>
+  <protein>
+    <recommendedName>
+      <fullName evidence="3">Lasso RiPP family leader peptide-containing protein</fullName>
+    </recommendedName>
+  </protein>
+  <gene>
+    <name evidence="1" type="primary">sle_29750</name>
+    <name evidence="1" type="synonym">ls1A</name>
+  </gene>
+  <organism evidence="1 2">
+    <name type="scientific">Streptomyces leeuwenhoekii</name>
+    <dbReference type="NCBI Taxonomy" id="1437453"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Actinomycetota</taxon>
+      <taxon>Actinomycetes</taxon>
+      <taxon>Kitasatosporales</taxon>
+      <taxon>Streptomycetaceae</taxon>
+      <taxon>Streptomyces</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="1 2" key="1">
+    <citation type="submission" date="2015-02" db="EMBL/GenBank/DDBJ databases">
+      <authorList>
+        <person name="Gomez-Escribano P.J."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="2">C34 (DSM 42122 / NRRL B-24963)</strain>
+    </source>
+  </reference>
+  <dbReference type="EMBL" id="LN831790">
+    <property type="protein sequence ID" value="CQR62436.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="A0A0F7W0C8"/>
+  <dbReference type="KEGG" id="sle:sle_29750"/>
+  <dbReference type="Proteomes" id="UP000035016">
+    <property type="component" value="Chromosome Chromosome"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR046015">
+    <property type="entry name" value="DUF5972"/>
+  </dbReference>
+  <dbReference type="NCBIfam" id="NF033521">
+    <property type="entry name" value="lasso_leader_L3"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF19397">
+    <property type="entry name" value="DUF5972"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="predicted"/>
+  <evidence type="ECO:0000313" key="1">
+    <source>
+      <dbReference type="EMBL" id="CQR62436.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="2">
+    <source>
+      <dbReference type="Proteomes" id="UP000035016"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0008006" key="3">
+    <source>
+      <dbReference type="Google" id="ProtNLM"/>
+    </source>
+  </evidence>
+  <sequence length="36" mass="4119" checksum="EB84E5CCB2DFB64B" modified="2015-07-22" version="1">MKKAYEAPTLVRLGSFRRKTGLLQRSGNDRLILSKN</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

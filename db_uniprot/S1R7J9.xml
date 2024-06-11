@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2013-09-18" modified="2024-01-24" version="17" xmlns="http://uniprot.org/uniprot">
+  <accession>S1R7J9</accession>
+  <name>S1R7J9_9ENTE</name>
+  <protein>
+    <submittedName>
+      <fullName evidence="2">Uncharacterized protein</fullName>
+    </submittedName>
+  </protein>
+  <gene>
+    <name evidence="1" type="ORF">I567_00545</name>
+    <name evidence="2" type="ORF">OMO_01540</name>
+  </gene>
+  <organism evidence="2 4">
+    <name type="scientific">Enterococcus cecorum DSM 20682 = ATCC 43198</name>
+    <dbReference type="NCBI Taxonomy" id="1121864"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Bacillota</taxon>
+      <taxon>Bacilli</taxon>
+      <taxon>Lactobacillales</taxon>
+      <taxon>Enterococcaceae</taxon>
+      <taxon>Enterococcus</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="1 3" key="1">
+    <citation type="submission" date="2013-03" db="EMBL/GenBank/DDBJ databases">
+      <title>The Genome Sequence of Enterococcus cecorum ATCC_43198 (PacBio/Illumina hybrid assembly).</title>
+      <authorList>
+        <consortium name="The Broad Institute Genomics Platform"/>
+        <consortium name="The Broad Institute Genome Sequencing Center for Infectious Disease"/>
+        <person name="Earl A."/>
+        <person name="Russ C."/>
+        <person name="Gilmore M."/>
+        <person name="Surin D."/>
+        <person name="Walker B."/>
+        <person name="Young S."/>
+        <person name="Zeng Q."/>
+        <person name="Gargeya S."/>
+        <person name="Fitzgerald M."/>
+        <person name="Haas B."/>
+        <person name="Abouelleil A."/>
+        <person name="Allen A.W."/>
+        <person name="Alvarado L."/>
+        <person name="Arachchi H.M."/>
+        <person name="Berlin A.M."/>
+        <person name="Chapman S.B."/>
+        <person name="Gainer-Dewar J."/>
+        <person name="Goldberg J."/>
+        <person name="Griggs A."/>
+        <person name="Gujja S."/>
+        <person name="Hansen M."/>
+        <person name="Howarth C."/>
+        <person name="Imamovic A."/>
+        <person name="Ireland A."/>
+        <person name="Larimer J."/>
+        <person name="McCowan C."/>
+        <person name="Murphy C."/>
+        <person name="Pearson M."/>
+        <person name="Poon T.W."/>
+        <person name="Priest M."/>
+        <person name="Roberts A."/>
+        <person name="Saif S."/>
+        <person name="Shea T."/>
+        <person name="Sisk P."/>
+        <person name="Sykes S."/>
+        <person name="Wortman J."/>
+        <person name="Nusbaum C."/>
+        <person name="Birren B."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="1 3">ATCC 43198</strain>
+    </source>
+  </reference>
+  <reference evidence="2 4" key="2">
+    <citation type="submission" date="2013-10" db="EMBL/GenBank/DDBJ databases">
+      <title>The Genome Sequence of Enterococcus cecorum DSM 20682 (= ATCC 43198) (Illumina assembly).</title>
+      <authorList>
+        <consortium name="The Broad Institute Genomics Platform"/>
+        <consortium name="The Broad Institute Genome Sequencing Center for Infectious Disease"/>
+        <person name="Earl A."/>
+        <person name="Russ C."/>
+        <person name="Gilmore M."/>
+        <person name="Surin D."/>
+        <person name="Walker B."/>
+        <person name="Young S."/>
+        <person name="Zeng Q."/>
+        <person name="Gargeya S."/>
+        <person name="Fitzgerald M."/>
+        <person name="Haas B."/>
+        <person name="Abouelleil A."/>
+        <person name="Allen A.W."/>
+        <person name="Alvarado L."/>
+        <person name="Arachchi H.M."/>
+        <person name="Berlin A.M."/>
+        <person name="Chapman S.B."/>
+        <person name="Gainer-Dewar J."/>
+        <person name="Goldberg J."/>
+        <person name="Griggs A."/>
+        <person name="Gujja S."/>
+        <person name="Hansen M."/>
+        <person name="Howarth C."/>
+        <person name="Imamovic A."/>
+        <person name="Ireland A."/>
+        <person name="Larimer J."/>
+        <person name="McCowan C."/>
+        <person name="Murphy C."/>
+        <person name="Pearson M."/>
+        <person name="Poon T.W."/>
+        <person name="Priest M."/>
+        <person name="Roberts A."/>
+        <person name="Saif S."/>
+        <person name="Shea T."/>
+        <person name="Sisk P."/>
+        <person name="Sykes S."/>
+        <person name="Wortman J."/>
+        <person name="Nusbaum C."/>
+        <person name="Birren B."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="2 4">ATCC 43198</strain>
+    </source>
+  </reference>
+  <comment type="caution">
+    <text evidence="2">The sequence shown here is derived from an EMBL/GenBank/DDBJ whole genome shotgun (WGS) entry which is preliminary data.</text>
+  </comment>
+  <dbReference type="EMBL" id="ASWI01000003">
+    <property type="protein sequence ID" value="EOX18794.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="AHYS01000006">
+    <property type="protein sequence ID" value="ESK61477.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="S1R7J9"/>
+  <dbReference type="STRING" id="44008.GCA_001318175_01487"/>
+  <dbReference type="PATRIC" id="fig|1121864.4.peg.515"/>
+  <dbReference type="HOGENOM" id="CLU_3007049_0_0_9"/>
+  <dbReference type="Proteomes" id="UP000014156">
+    <property type="component" value="Unassembled WGS sequence"/>
+  </dbReference>
+  <dbReference type="Proteomes" id="UP000017415">
+    <property type="component" value="Unassembled WGS sequence"/>
+  </dbReference>
+  <proteinExistence type="predicted"/>
+  <keyword evidence="4" id="KW-1185">Reference proteome</keyword>
+  <evidence type="ECO:0000313" key="1">
+    <source>
+      <dbReference type="EMBL" id="EOX18794.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="2">
+    <source>
+      <dbReference type="EMBL" id="ESK61477.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="3">
+    <source>
+      <dbReference type="Proteomes" id="UP000014156"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="4">
+    <source>
+      <dbReference type="Proteomes" id="UP000017415"/>
+    </source>
+  </evidence>
+  <sequence length="56" mass="6316" checksum="0821E664A8DF306B" modified="2013-09-18" version="1">METALEEIKLIEKVEEMERKTEILEIVPTSVSEIVDSMKGRCPPSISGLVEIEQDL</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

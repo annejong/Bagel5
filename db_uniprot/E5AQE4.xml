@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2011-02-08" modified="2024-01-24" version="36" xmlns="http://uniprot.org/uniprot">
+  <accession>E5AQE4</accession>
+  <name>E5AQE4_MYCRK</name>
+  <protein>
+    <recommendedName>
+      <fullName evidence="4">Lasso peptide peptide A</fullName>
+    </recommendedName>
+  </protein>
+  <gene>
+    <name evidence="2" type="ordered locus">RBRH_03775</name>
+  </gene>
+  <organism evidence="2 3">
+    <name type="scientific">Mycetohabitans rhizoxinica (strain DSM 19002 / CIP 109453 / HKI 454)</name>
+    <name type="common">Paraburkholderia rhizoxinica</name>
+    <dbReference type="NCBI Taxonomy" id="882378"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Pseudomonadota</taxon>
+      <taxon>Betaproteobacteria</taxon>
+      <taxon>Burkholderiales</taxon>
+      <taxon>Burkholderiaceae</taxon>
+      <taxon>Mycetohabitans</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="2 3" key="1">
+    <citation type="journal article" date="2011" name="J. Bacteriol." volume="193" first="783" last="784">
+      <title>Complete genome sequence of Burkholderia rhizoxinica, an endosymbiont of Rhizopus microsporus.</title>
+      <authorList>
+        <person name="Lackner G."/>
+        <person name="Moebius N."/>
+        <person name="Partida-Martinez L."/>
+        <person name="Hertweck C."/>
+      </authorList>
+      <dbReference type="PubMed" id="21131495"/>
+      <dbReference type="DOI" id="10.1128/JB.01318-10"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="3">DSM 19002 / CIP 109453 / HKI 454</strain>
+    </source>
+  </reference>
+  <dbReference type="EMBL" id="FR687359">
+    <property type="protein sequence ID" value="CBW74826.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="E5AQE4"/>
+  <dbReference type="STRING" id="882378.RBRH_03775"/>
+  <dbReference type="KEGG" id="brh:RBRH_03775"/>
+  <dbReference type="HOGENOM" id="CLU_3115593_0_0_4"/>
+  <dbReference type="Proteomes" id="UP000007437">
+    <property type="component" value="Chromosome"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR046011">
+    <property type="entry name" value="DUF5967"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF19392">
+    <property type="entry name" value="DUF5967"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="predicted"/>
+  <feature type="region of interest" description="Disordered" evidence="1">
+    <location>
+      <begin position="28"/>
+      <end position="50"/>
+    </location>
+  </feature>
+  <evidence type="ECO:0000256" key="1">
+    <source>
+      <dbReference type="SAM" id="MobiDB-lite"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="2">
+    <source>
+      <dbReference type="EMBL" id="CBW74826.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="3">
+    <source>
+      <dbReference type="Proteomes" id="UP000007437"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0008006" key="4">
+    <source>
+      <dbReference type="Google" id="ProtNLM"/>
+    </source>
+  </evidence>
+  <sequence length="50" mass="5506" checksum="E118454D8A1D415C" modified="2011-02-08" version="1">MNKQQQESGLLLAEESLMELCASSETLGGAGQYKEVEAGRWSDRIDSDDE</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

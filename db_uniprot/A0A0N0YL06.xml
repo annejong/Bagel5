@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2015-12-09" modified="2024-01-24" version="20" xmlns="http://uniprot.org/uniprot">
+  <accession>A0A0N0YL06</accession>
+  <name>A0A0N0YL06_9ACTN</name>
+  <protein>
+    <submittedName>
+      <fullName evidence="1">Uncharacterized protein</fullName>
+    </submittedName>
+  </protein>
+  <gene>
+    <name evidence="1" type="ORF">ADK82_11860</name>
+  </gene>
+  <organism evidence="1 2">
+    <name type="scientific">Streptomyces sp. NRRL S-4</name>
+    <dbReference type="NCBI Taxonomy" id="1519471"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Actinomycetota</taxon>
+      <taxon>Actinomycetes</taxon>
+      <taxon>Kitasatosporales</taxon>
+      <taxon>Streptomycetaceae</taxon>
+      <taxon>Streptomyces</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="2" key="1">
+    <citation type="submission" date="2015-07" db="EMBL/GenBank/DDBJ databases">
+      <authorList>
+        <person name="Ju K.-S."/>
+        <person name="Doroghazi J.R."/>
+        <person name="Metcalf W.W."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="2">NRRL S-4</strain>
+    </source>
+  </reference>
+  <comment type="caution">
+    <text evidence="1">The sequence shown here is derived from an EMBL/GenBank/DDBJ whole genome shotgun (WGS) entry which is preliminary data.</text>
+  </comment>
+  <dbReference type="EMBL" id="LGKJ01000112">
+    <property type="protein sequence ID" value="KPC82025.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="A0A0N0YL06"/>
+  <dbReference type="PATRIC" id="fig|1519471.3.peg.2453"/>
+  <dbReference type="Proteomes" id="UP000037987">
+    <property type="component" value="Unassembled WGS sequence"/>
+  </dbReference>
+  <dbReference type="NCBIfam" id="NF033415">
+    <property type="entry name" value="thiovirid_RiPP"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="predicted"/>
+  <evidence type="ECO:0000313" key="1">
+    <source>
+      <dbReference type="EMBL" id="KPC82025.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="2">
+    <source>
+      <dbReference type="Proteomes" id="UP000037987"/>
+    </source>
+  </evidence>
+  <sequence length="79" mass="8352" checksum="B7871F2640EF55F3" modified="2015-12-09" version="1">MDEVAFSDLVSKIKEAELAMTDEQRAVIDPAAGEKALEELAGVSPEDLQAFLEEKAGISPDEEAQGSVMAAIATVAYHC</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

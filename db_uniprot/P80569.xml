@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="1996-02-01" modified="2024-01-24" version="85" xmlns="http://uniprot.org/uniprot">
+  <accession>P80569</accession>
+  <accession>Q934J2</accession>
+  <name>PIS1_CARML</name>
+  <protein>
+    <recommendedName>
+      <fullName>Bacteriocin piscicolin-126</fullName>
+    </recommendedName>
+  </protein>
+  <gene>
+    <name type="primary">pisA</name>
+  </gene>
+  <organism>
+    <name type="scientific">Carnobacterium maltaromaticum</name>
+    <name type="common">Carnobacterium piscicola</name>
+    <dbReference type="NCBI Taxonomy" id="2751"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Bacillota</taxon>
+      <taxon>Bacilli</taxon>
+      <taxon>Lactobacillales</taxon>
+      <taxon>Carnobacteriaceae</taxon>
+      <taxon>Carnobacterium</taxon>
+    </lineage>
+  </organism>
+  <reference key="1">
+    <citation type="submission" date="2000-06" db="EMBL/GenBank/DDBJ databases">
+      <title>Characterization of the genes involved in the production of piscicolin 126, a bacteriocin from Carnobacterium piscicola JG126.</title>
+      <authorList>
+        <person name="Gibbs G.M."/>
+        <person name="Fitzgerald A."/>
+        <person name="Selleck M.L."/>
+        <person name="Harmark K."/>
+        <person name="Hillier A.J."/>
+        <person name="Davidson B.E."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+    <source>
+      <strain>JG126</strain>
+    </source>
+  </reference>
+  <reference key="2">
+    <citation type="journal article" date="1996" name="Appl. Environ. Microbiol." volume="62" first="2897" last="2903">
+      <title>Characterization of the chemical and antimicrobial properties of piscicolin 126, a bacteriocin produced by Carnobacterium piscicola JG126.</title>
+      <authorList>
+        <person name="Jack R.W."/>
+        <person name="Wan J."/>
+        <person name="Gordon J."/>
+        <person name="Harmark K."/>
+        <person name="Davidson B.E."/>
+        <person name="Hillier A.J."/>
+        <person name="Wettenhall R.E.H."/>
+        <person name="Hickey M.W."/>
+        <person name="Coventry J.M."/>
+      </authorList>
+      <dbReference type="PubMed" id="8702282"/>
+      <dbReference type="DOI" id="10.1128/aem.62.8.2897-2903.1996"/>
+    </citation>
+    <scope>PROTEIN SEQUENCE OF 19-62</scope>
+    <scope>MASS SPECTROMETRY</scope>
+    <source>
+      <strain>JG126</strain>
+    </source>
+  </reference>
+  <comment type="function">
+    <text>Inhibits the growth of several Gram-positive bacteria, especially the food-borne pathogen L.monocytogenes, but has no effect on the growth of a number of yeasts and Gram-negative bacteria.</text>
+  </comment>
+  <comment type="subcellular location">
+    <subcellularLocation>
+      <location>Secreted</location>
+    </subcellularLocation>
+  </comment>
+  <comment type="mass spectrometry" mass="4416.6" error="1.9" method="Electrospray" evidence="2"/>
+  <comment type="similarity">
+    <text evidence="3">Belongs to the bacteriocin class IIA/YGNGV family.</text>
+  </comment>
+  <dbReference type="EMBL" id="AF275938">
+    <property type="protein sequence ID" value="AAK69419.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="WP_057000613.1">
+    <property type="nucleotide sequence ID" value="NZ_WNJR01000005.1"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="P80569"/>
+  <dbReference type="SMR" id="P80569"/>
+  <dbReference type="TCDB" id="1.C.24.1.3">
+    <property type="family name" value="the pediocin (pediocin) family"/>
+  </dbReference>
+  <dbReference type="GeneID" id="83606752"/>
+  <dbReference type="GO" id="GO:0005576">
+    <property type="term" value="C:extracellular region"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-SubCell"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0042742">
+    <property type="term" value="P:defense response to bacterium"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0031640">
+    <property type="term" value="P:killing of cells of another organism"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="Gene3D" id="1.20.5.130">
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR002633">
+    <property type="entry name" value="Bacteriocin_IIa"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR023384">
+    <property type="entry name" value="Bacteriocin_IIa_CS"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR023388">
+    <property type="entry name" value="Bacteriocin_IIa_dom_sf"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF01721">
+    <property type="entry name" value="Bacteriocin_II"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="PROSITE" id="PS60030">
+    <property type="entry name" value="BACTERIOCIN_IIA"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="evidence at protein level"/>
+  <keyword id="KW-0044">Antibiotic</keyword>
+  <keyword id="KW-0929">Antimicrobial</keyword>
+  <keyword id="KW-0078">Bacteriocin</keyword>
+  <keyword id="KW-0903">Direct protein sequencing</keyword>
+  <keyword id="KW-1015">Disulfide bond</keyword>
+  <keyword id="KW-0964">Secreted</keyword>
+  <feature type="propeptide" id="PRO_0000002738" evidence="2">
+    <location>
+      <begin position="1"/>
+      <end position="18"/>
+    </location>
+  </feature>
+  <feature type="chain" id="PRO_0000002739" description="Bacteriocin piscicolin-126">
+    <location>
+      <begin position="19"/>
+      <end position="62"/>
+    </location>
+  </feature>
+  <feature type="disulfide bond" evidence="1">
+    <location>
+      <begin position="27"/>
+      <end position="32"/>
+    </location>
+  </feature>
+  <evidence type="ECO:0000250" key="1"/>
+  <evidence type="ECO:0000269" key="2">
+    <source>
+      <dbReference type="PubMed" id="8702282"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000305" key="3"/>
+  <sequence length="62" mass="6380" checksum="A58659284A54E9A3" modified="2004-05-10" version="2" precursor="true">MKTVKELSVKEMQLTTGGKYYGNGVSCNKNGCTVDWSKAIGIIGNNAAANLTTGGAAGWNKG</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

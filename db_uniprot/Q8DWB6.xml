@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2003-03-01" modified="2024-01-24" version="66" xmlns="http://uniprot.org/uniprot">
+  <accession>Q8DWB6</accession>
+  <name>Q8DWB6_STRMU</name>
+  <protein>
+    <recommendedName>
+      <fullName evidence="3">Bacteriocin</fullName>
+    </recommendedName>
+  </protein>
+  <gene>
+    <name evidence="1" type="ordered locus">SMU_151</name>
+  </gene>
+  <organism evidence="1 2">
+    <name type="scientific">Streptococcus mutans serotype c (strain ATCC 700610 / UA159)</name>
+    <dbReference type="NCBI Taxonomy" id="210007"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Bacillota</taxon>
+      <taxon>Bacilli</taxon>
+      <taxon>Lactobacillales</taxon>
+      <taxon>Streptococcaceae</taxon>
+      <taxon>Streptococcus</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="1 2" key="1">
+    <citation type="journal article" date="2002" name="Proc. Natl. Acad. Sci. U.S.A." volume="99" first="14434" last="14439">
+      <title>Genome sequence of Streptococcus mutans UA159, a cariogenic dental pathogen.</title>
+      <authorList>
+        <person name="Ajdic D."/>
+        <person name="McShan W.M."/>
+        <person name="McLaughlin R.E."/>
+        <person name="Savic G."/>
+        <person name="Chang J."/>
+        <person name="Carson M.B."/>
+        <person name="Primeaux C."/>
+        <person name="Tian R."/>
+        <person name="Kenton S."/>
+        <person name="Jia H."/>
+        <person name="Lin S."/>
+        <person name="Qian Y."/>
+        <person name="Li S."/>
+        <person name="Zhu H."/>
+        <person name="Najar F."/>
+        <person name="Lai H."/>
+        <person name="White J."/>
+        <person name="Roe B.A."/>
+        <person name="Ferretti J.J."/>
+      </authorList>
+      <dbReference type="PubMed" id="12397186"/>
+      <dbReference type="DOI" id="10.1073/pnas.172501299"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="2">ATCC 700610 / UA159</strain>
+    </source>
+  </reference>
+  <dbReference type="EMBL" id="AE014133">
+    <property type="protein sequence ID" value="AAN57927.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="NP_720621.1">
+    <property type="nucleotide sequence ID" value="NC_004350.2"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="Q8DWB6"/>
+  <dbReference type="STRING" id="210007.SMU_151"/>
+  <dbReference type="KEGG" id="smu:SMU_151"/>
+  <dbReference type="PATRIC" id="fig|210007.7.peg.129"/>
+  <dbReference type="HOGENOM" id="CLU_201269_0_0_9"/>
+  <dbReference type="OrthoDB" id="2225181at2"/>
+  <dbReference type="Proteomes" id="UP000002512">
+    <property type="component" value="Chromosome"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0042742">
+    <property type="term" value="P:defense response to bacterium"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="InterPro"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR019493">
+    <property type="entry name" value="Bacteriocin_IIb_lactacin-rel"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF10439">
+    <property type="entry name" value="Bacteriocin_IIc"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="predicted"/>
+  <keyword evidence="2" id="KW-1185">Reference proteome</keyword>
+  <evidence type="ECO:0000313" key="1">
+    <source>
+      <dbReference type="EMBL" id="AAN57927.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="2">
+    <source>
+      <dbReference type="Proteomes" id="UP000002512"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0008006" key="3">
+    <source>
+      <dbReference type="Google" id="ProtNLM"/>
+    </source>
+  </evidence>
+  <sequence length="78" mass="8215" checksum="698CC83531AD9B35" modified="2003-03-01" version="1">MEWRINTMELNVNNYKSLTNDELSEVFGGDKQAADTFLSAVGGAASGFTYCASNGVWHPYILAGCAGVGAVGSVVFPH</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

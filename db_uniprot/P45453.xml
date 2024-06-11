@@ -1,0 +1,552 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="1995-11-01" modified="2023-11-08" version="104" xmlns="http://uniprot.org/uniprot">
+  <accession>P45453</accession>
+  <name>COMX_BACSU</name>
+  <protein>
+    <recommendedName>
+      <fullName evidence="7">ComX pheromone</fullName>
+    </recommendedName>
+    <alternativeName>
+      <fullName evidence="8">Competence pheromone</fullName>
+    </alternativeName>
+  </protein>
+  <gene>
+    <name evidence="8" type="primary">comX</name>
+    <name type="ordered locus">BSU31700</name>
+  </gene>
+  <organism>
+    <name type="scientific">Bacillus subtilis (strain 168)</name>
+    <dbReference type="NCBI Taxonomy" id="224308"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Bacillota</taxon>
+      <taxon>Bacilli</taxon>
+      <taxon>Bacillales</taxon>
+      <taxon>Bacillaceae</taxon>
+      <taxon>Bacillus</taxon>
+    </lineage>
+  </organism>
+  <reference key="1">
+    <citation type="journal article" date="1990" name="Genes Dev." volume="4" first="860" last="872">
+      <title>A Bacillus subtilis regulatory gene product for genetic competence and sporulation resembles sensor protein members of the bacterial two-component signal-transduction systems.</title>
+      <authorList>
+        <person name="Weinrauch Y."/>
+        <person name="Penchev R."/>
+        <person name="Dubnau E."/>
+        <person name="Smith I."/>
+        <person name="Dubnau D."/>
+      </authorList>
+      <dbReference type="PubMed" id="2116363"/>
+      <dbReference type="DOI" id="10.1101/gad.4.5.860"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+    <source>
+      <strain>BD630</strain>
+    </source>
+  </reference>
+  <reference key="2">
+    <citation type="journal article" date="1997" name="Nature" volume="390" first="249" last="256">
+      <title>The complete genome sequence of the Gram-positive bacterium Bacillus subtilis.</title>
+      <authorList>
+        <person name="Kunst F."/>
+        <person name="Ogasawara N."/>
+        <person name="Moszer I."/>
+        <person name="Albertini A.M."/>
+        <person name="Alloni G."/>
+        <person name="Azevedo V."/>
+        <person name="Bertero M.G."/>
+        <person name="Bessieres P."/>
+        <person name="Bolotin A."/>
+        <person name="Borchert S."/>
+        <person name="Borriss R."/>
+        <person name="Boursier L."/>
+        <person name="Brans A."/>
+        <person name="Braun M."/>
+        <person name="Brignell S.C."/>
+        <person name="Bron S."/>
+        <person name="Brouillet S."/>
+        <person name="Bruschi C.V."/>
+        <person name="Caldwell B."/>
+        <person name="Capuano V."/>
+        <person name="Carter N.M."/>
+        <person name="Choi S.-K."/>
+        <person name="Codani J.-J."/>
+        <person name="Connerton I.F."/>
+        <person name="Cummings N.J."/>
+        <person name="Daniel R.A."/>
+        <person name="Denizot F."/>
+        <person name="Devine K.M."/>
+        <person name="Duesterhoeft A."/>
+        <person name="Ehrlich S.D."/>
+        <person name="Emmerson P.T."/>
+        <person name="Entian K.-D."/>
+        <person name="Errington J."/>
+        <person name="Fabret C."/>
+        <person name="Ferrari E."/>
+        <person name="Foulger D."/>
+        <person name="Fritz C."/>
+        <person name="Fujita M."/>
+        <person name="Fujita Y."/>
+        <person name="Fuma S."/>
+        <person name="Galizzi A."/>
+        <person name="Galleron N."/>
+        <person name="Ghim S.-Y."/>
+        <person name="Glaser P."/>
+        <person name="Goffeau A."/>
+        <person name="Golightly E.J."/>
+        <person name="Grandi G."/>
+        <person name="Guiseppi G."/>
+        <person name="Guy B.J."/>
+        <person name="Haga K."/>
+        <person name="Haiech J."/>
+        <person name="Harwood C.R."/>
+        <person name="Henaut A."/>
+        <person name="Hilbert H."/>
+        <person name="Holsappel S."/>
+        <person name="Hosono S."/>
+        <person name="Hullo M.-F."/>
+        <person name="Itaya M."/>
+        <person name="Jones L.-M."/>
+        <person name="Joris B."/>
+        <person name="Karamata D."/>
+        <person name="Kasahara Y."/>
+        <person name="Klaerr-Blanchard M."/>
+        <person name="Klein C."/>
+        <person name="Kobayashi Y."/>
+        <person name="Koetter P."/>
+        <person name="Koningstein G."/>
+        <person name="Krogh S."/>
+        <person name="Kumano M."/>
+        <person name="Kurita K."/>
+        <person name="Lapidus A."/>
+        <person name="Lardinois S."/>
+        <person name="Lauber J."/>
+        <person name="Lazarevic V."/>
+        <person name="Lee S.-M."/>
+        <person name="Levine A."/>
+        <person name="Liu H."/>
+        <person name="Masuda S."/>
+        <person name="Mauel C."/>
+        <person name="Medigue C."/>
+        <person name="Medina N."/>
+        <person name="Mellado R.P."/>
+        <person name="Mizuno M."/>
+        <person name="Moestl D."/>
+        <person name="Nakai S."/>
+        <person name="Noback M."/>
+        <person name="Noone D."/>
+        <person name="O'Reilly M."/>
+        <person name="Ogawa K."/>
+        <person name="Ogiwara A."/>
+        <person name="Oudega B."/>
+        <person name="Park S.-H."/>
+        <person name="Parro V."/>
+        <person name="Pohl T.M."/>
+        <person name="Portetelle D."/>
+        <person name="Porwollik S."/>
+        <person name="Prescott A.M."/>
+        <person name="Presecan E."/>
+        <person name="Pujic P."/>
+        <person name="Purnelle B."/>
+        <person name="Rapoport G."/>
+        <person name="Rey M."/>
+        <person name="Reynolds S."/>
+        <person name="Rieger M."/>
+        <person name="Rivolta C."/>
+        <person name="Rocha E."/>
+        <person name="Roche B."/>
+        <person name="Rose M."/>
+        <person name="Sadaie Y."/>
+        <person name="Sato T."/>
+        <person name="Scanlan E."/>
+        <person name="Schleich S."/>
+        <person name="Schroeter R."/>
+        <person name="Scoffone F."/>
+        <person name="Sekiguchi J."/>
+        <person name="Sekowska A."/>
+        <person name="Seror S.J."/>
+        <person name="Serror P."/>
+        <person name="Shin B.-S."/>
+        <person name="Soldo B."/>
+        <person name="Sorokin A."/>
+        <person name="Tacconi E."/>
+        <person name="Takagi T."/>
+        <person name="Takahashi H."/>
+        <person name="Takemaru K."/>
+        <person name="Takeuchi M."/>
+        <person name="Tamakoshi A."/>
+        <person name="Tanaka T."/>
+        <person name="Terpstra P."/>
+        <person name="Tognoni A."/>
+        <person name="Tosato V."/>
+        <person name="Uchiyama S."/>
+        <person name="Vandenbol M."/>
+        <person name="Vannier F."/>
+        <person name="Vassarotti A."/>
+        <person name="Viari A."/>
+        <person name="Wambutt R."/>
+        <person name="Wedler E."/>
+        <person name="Wedler H."/>
+        <person name="Weitzenegger T."/>
+        <person name="Winters P."/>
+        <person name="Wipat A."/>
+        <person name="Yamamoto H."/>
+        <person name="Yamane K."/>
+        <person name="Yasumoto K."/>
+        <person name="Yata K."/>
+        <person name="Yoshida K."/>
+        <person name="Yoshikawa H.-F."/>
+        <person name="Zumstein E."/>
+        <person name="Yoshikawa H."/>
+        <person name="Danchin A."/>
+      </authorList>
+      <dbReference type="PubMed" id="9384377"/>
+      <dbReference type="DOI" id="10.1038/36786"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain>168</strain>
+    </source>
+  </reference>
+  <reference key="3">
+    <citation type="journal article" date="1994" name="Cell" volume="77" first="207" last="216">
+      <title>Biochemical and genetic characterization of a competence pheromone from B. subtilis.</title>
+      <authorList>
+        <person name="Magnuson R."/>
+        <person name="Solomon J."/>
+        <person name="Grossman A.D."/>
+      </authorList>
+      <dbReference type="PubMed" id="8168130"/>
+      <dbReference type="DOI" id="10.1016/0092-8674(94)90313-1"/>
+    </citation>
+    <scope>PROTEIN SEQUENCE OF 46-55</scope>
+    <scope>FUNCTION</scope>
+    <scope>SUBCELLULAR LOCATION</scope>
+    <scope>MODIFICATION AT TRP-53</scope>
+    <source>
+      <strain>168</strain>
+    </source>
+  </reference>
+  <reference key="4">
+    <citation type="journal article" date="2001" name="J. Bacteriol." volume="183" first="451" last="460">
+      <title>Specificity and genetic polymorphism of the Bacillus competence quorum-sensing system.</title>
+      <authorList>
+        <person name="Tortosa P."/>
+        <person name="Logsdon L."/>
+        <person name="Kraigher B."/>
+        <person name="Itoh Y."/>
+        <person name="Mandic-Mulec I."/>
+        <person name="Dubnau D."/>
+      </authorList>
+      <dbReference type="PubMed" id="11133937"/>
+      <dbReference type="DOI" id="10.1128/jb.183.2.451-460.2001"/>
+    </citation>
+    <scope>POLYMORPHISM IN COMX; COMQ AND COMP</scope>
+  </reference>
+  <reference key="5">
+    <citation type="journal article" date="2002" name="J. Bacteriol." volume="184" first="410" last="419">
+      <title>Characterization of comQ and comX, two genes required for production of ComX pheromone in Bacillus subtilis.</title>
+      <authorList>
+        <person name="Bacon Schneider K."/>
+        <person name="Palmer T.M."/>
+        <person name="Grossman A.D."/>
+      </authorList>
+      <dbReference type="PubMed" id="11751817"/>
+      <dbReference type="DOI" id="10.1128/jb.184.2.410-419.2002"/>
+    </citation>
+    <scope>FUNCTION</scope>
+    <scope>MUTAGENESIS OF ASP-47; PRO-48; ILE-49; THR-50; ARG-51; GLN-52; TRP-53; GLY-54 AND ASP-55</scope>
+    <source>
+      <strain>168 / JH642</strain>
+    </source>
+  </reference>
+  <reference key="6">
+    <citation type="journal article" date="2002" name="Mol. Microbiol." volume="44" first="1561" last="1573">
+      <title>Specific activation of the Bacillus quorum-sensing systems by isoprenylated pheromone variants.</title>
+      <authorList>
+        <person name="Ansaldi M."/>
+        <person name="Marolt D."/>
+        <person name="Stebe T."/>
+        <person name="Mandic-Mulec I."/>
+        <person name="Dubnau D."/>
+      </authorList>
+      <dbReference type="PubMed" id="12067344"/>
+      <dbReference type="DOI" id="10.1046/j.1365-2958.2002.02977.x"/>
+    </citation>
+    <scope>FUNCTION</scope>
+    <scope>SUBUNIT</scope>
+    <scope>ISOPRENYLATION AT TRP-53</scope>
+    <scope>IDENTIFICATION BY MASS SPECTROMETRY</scope>
+    <source>
+      <strain>168</strain>
+    </source>
+  </reference>
+  <reference key="7">
+    <citation type="journal article" date="2004" name="J. Bacteriol." volume="186" first="15" last="21">
+      <title>Diversifying selection at the Bacillus quorum-sensing locus and determinants of modification specificity during synthesis of the ComX pheromone.</title>
+      <authorList>
+        <person name="Ansaldi M."/>
+        <person name="Dubnau D."/>
+      </authorList>
+      <dbReference type="PubMed" id="14679219"/>
+      <dbReference type="DOI" id="10.1128/jb.186.1.15-21.2004"/>
+    </citation>
+    <scope>POLYMORPHISM</scope>
+    <scope>DETERMINANTS OF MODIFICATION SPECIFICITY</scope>
+  </reference>
+  <reference key="8">
+    <citation type="journal article" date="2005" name="Mol. Microbiol." volume="57" first="1159" last="1174">
+      <title>Conservation of genes and processes controlled by the quorum response in bacteria: characterization of genes controlled by the quorum-sensing transcription factor ComA in Bacillus subtilis.</title>
+      <authorList>
+        <person name="Comella N."/>
+        <person name="Grossman A.D."/>
+      </authorList>
+      <dbReference type="PubMed" id="16091051"/>
+      <dbReference type="DOI" id="10.1111/j.1365-2958.2005.04749.x"/>
+    </citation>
+    <scope>FUNCTION</scope>
+    <scope>SUBUNIT</scope>
+    <source>
+      <strain>168 / JH642</strain>
+    </source>
+  </reference>
+  <reference key="9">
+    <citation type="journal article" date="2008" name="Biosci. Biotechnol. Biochem." volume="72" first="914" last="918">
+      <title>Chemical structure of posttranslational modification with a farnesyl group on tryptophan.</title>
+      <authorList>
+        <person name="Okada M."/>
+        <person name="Yamaguchi H."/>
+        <person name="Sato I."/>
+        <person name="Tsuji F."/>
+        <person name="Dubnau D."/>
+        <person name="Sakagami Y."/>
+      </authorList>
+      <dbReference type="PubMed" id="18323630"/>
+      <dbReference type="DOI" id="10.1271/bbb.80006"/>
+    </citation>
+    <scope>ISOPRENYLATION AT TRP-53</scope>
+    <source>
+      <strain>168</strain>
+    </source>
+  </reference>
+  <comment type="function">
+    <text evidence="2 3 5 6">Part of a major quorum-sensing system that regulates the development of genetic competence (PubMed:8168130, PubMed:11751817, PubMed:16091051, PubMed:12067344). Acts through the activation of the two-component regulatory system ComP/ComA composed of a sensor histidine kinase, ComP, and a response regulator, ComA (PubMed:8168130, PubMed:16091051). Activation of ComA leads to the direct regulation of over 20 genes and expression of over 150 additional genes, including those involved in competence development, appears to be controlled indirectly (PubMed:16091051). Under certain conditions plays a role in sporulation (PubMed:8168130).</text>
+  </comment>
+  <comment type="subunit">
+    <text evidence="3 5">Interacts directly with the sensor histidine kinase ComP and stimulates its activity.</text>
+  </comment>
+  <comment type="subcellular location">
+    <subcellularLocation>
+      <location evidence="6">Secreted</location>
+    </subcellularLocation>
+  </comment>
+  <comment type="PTM">
+    <text evidence="3 4 6 9 10 11">Trp-53 is modified by farnesylation, which is essential for activity (PubMed:8168130, PubMed:12067344, PubMed:18323630). Modified by the tryptophan prenyltransferase ComQ before export to the extracellular environment (PubMed:8168130, PubMed:12067344). The type of isoprenyl derivative differs among the different pherotypes and depends on ComX primary sequence (PubMed:12067344, PubMed:14679219).</text>
+  </comment>
+  <comment type="miscellaneous">
+    <text evidence="1">The DNA sequences encoding comQ, comX and the N-terminal two-thirds of comP show a striking polymorphism, which determines the specificity of the quorum-sensing system in the different pherotypes of Bacillus. In ComX, the sole conserved residue is the modified tryptophan essential for the activity.</text>
+  </comment>
+  <dbReference type="EMBL" id="M71283">
+    <property type="status" value="NOT_ANNOTATED_CDS"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="AL009126">
+    <property type="protein sequence ID" value="CAB15158.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="PIR" id="B38111">
+    <property type="entry name" value="B38111"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="NP_391048.1">
+    <property type="nucleotide sequence ID" value="NC_000964.3"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="WP_003242801.1">
+    <property type="nucleotide sequence ID" value="NZ_JNCM01000033.1"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="P45453"/>
+  <dbReference type="STRING" id="224308.BSU31700"/>
+  <dbReference type="PaxDb" id="224308-BSU31700"/>
+  <dbReference type="EnsemblBacteria" id="CAB15158">
+    <property type="protein sequence ID" value="CAB15158"/>
+    <property type="gene ID" value="BSU_31700"/>
+  </dbReference>
+  <dbReference type="GeneID" id="938875"/>
+  <dbReference type="KEGG" id="bsu:BSU31700"/>
+  <dbReference type="PATRIC" id="fig|224308.179.peg.3435"/>
+  <dbReference type="InParanoid" id="P45453"/>
+  <dbReference type="OrthoDB" id="2890156at2"/>
+  <dbReference type="BioCyc" id="BSUB:BSU31700-MONOMER"/>
+  <dbReference type="Proteomes" id="UP000001570">
+    <property type="component" value="Chromosome"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0005576">
+    <property type="term" value="C:extracellular region"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-SubCell"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0005186">
+    <property type="term" value="F:pheromone activity"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0030420">
+    <property type="term" value="P:establishment of competence for transformation"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0030435">
+    <property type="term" value="P:sporulation resulting in formation of a cellular spore"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <proteinExistence type="evidence at protein level"/>
+  <keyword id="KW-0178">Competence</keyword>
+  <keyword id="KW-0903">Direct protein sequencing</keyword>
+  <keyword id="KW-0449">Lipoprotein</keyword>
+  <keyword id="KW-0588">Pheromone</keyword>
+  <keyword id="KW-0636">Prenylation</keyword>
+  <keyword id="KW-1185">Reference proteome</keyword>
+  <keyword id="KW-0964">Secreted</keyword>
+  <keyword id="KW-0749">Sporulation</keyword>
+  <feature type="propeptide" id="PRO_0000020977" evidence="6">
+    <location>
+      <begin position="1"/>
+      <end position="45"/>
+    </location>
+  </feature>
+  <feature type="peptide" id="PRO_0000020978" description="ComX pheromone" evidence="6">
+    <location>
+      <begin position="46"/>
+      <end position="55"/>
+    </location>
+  </feature>
+  <feature type="lipid moiety-binding region" description="3'-farnesyl-2',N2-cyclotryptophan" evidence="9 10 11">
+    <location>
+      <position position="53"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Induction of srfA is delayed approximately 1 generation." evidence="2">
+    <original>D</original>
+    <variation>A</variation>
+    <location>
+      <position position="47"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Induction of srfA is delayed by 2 generations or more." evidence="2">
+    <original>P</original>
+    <variation>A</variation>
+    <location>
+      <position position="48"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Induction of srfA is delayed approximately 1 generation." evidence="2">
+    <original>I</original>
+    <variation>A</variation>
+    <location>
+      <position position="49"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="No change in activity." evidence="2">
+    <original>T</original>
+    <variation>A</variation>
+    <location>
+      <position position="50"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Induction of srfA is delayed by 2 generations or more." evidence="2">
+    <original>R</original>
+    <variation>A</variation>
+    <location>
+      <position position="51"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Induction of srfA is delayed approximately 1 generation." evidence="2">
+    <original>Q</original>
+    <variation>A</variation>
+    <location>
+      <position position="52"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Loss of activity." evidence="2">
+    <original>W</original>
+    <variation>A</variation>
+    <location>
+      <position position="53"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="No change in activity." evidence="2">
+    <original>G</original>
+    <variation>A</variation>
+    <location>
+      <position position="54"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="No change in activity." evidence="2">
+    <original>D</original>
+    <variation>A</variation>
+    <location>
+      <position position="55"/>
+    </location>
+  </feature>
+  <evidence type="ECO:0000269" key="1">
+    <source>
+      <dbReference type="PubMed" id="11133937"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="2">
+    <source>
+      <dbReference type="PubMed" id="11751817"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="3">
+    <source>
+      <dbReference type="PubMed" id="12067344"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="4">
+    <source>
+      <dbReference type="PubMed" id="14679219"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="5">
+    <source>
+      <dbReference type="PubMed" id="16091051"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="6">
+    <source>
+      <dbReference type="PubMed" id="8168130"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000303" key="7">
+    <source>
+      <dbReference type="PubMed" id="11751817"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000303" key="8">
+    <source>
+      <dbReference type="PubMed" id="8168130"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000305" key="9">
+    <source>
+      <dbReference type="PubMed" id="12067344"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000305" key="10">
+    <source>
+      <dbReference type="PubMed" id="18323630"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000305" key="11">
+    <source>
+      <dbReference type="PubMed" id="8168130"/>
+    </source>
+  </evidence>
+  <sequence length="55" mass="6518" checksum="942D7E152D1846B3" modified="1995-11-01" version="1" precursor="true">MQDLINYFLNYPEALKKLKNKEACLIGFDVQETETIIKAYNDYYLADPITRQWGD</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

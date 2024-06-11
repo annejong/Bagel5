@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="1999-07-15" modified="2023-06-28" version="60" xmlns="http://uniprot.org/uniprot">
+  <accession>P56650</accession>
+  <accession>C4NFI0</accession>
+  <name>LANA_ACTGA</name>
+  <protein>
+    <recommendedName>
+      <fullName evidence="5 6 7 8">Lantibiotic actagardine</fullName>
+    </recommendedName>
+    <alternativeName>
+      <fullName>Gardimycin</fullName>
+    </alternativeName>
+  </protein>
+  <gene>
+    <name evidence="5" type="primary">garA</name>
+  </gene>
+  <organism>
+    <name type="scientific">Actinoplanes garbadinensis</name>
+    <dbReference type="NCBI Taxonomy" id="69485"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Actinomycetota</taxon>
+      <taxon>Actinomycetes</taxon>
+      <taxon>Micromonosporales</taxon>
+      <taxon>Micromonosporaceae</taxon>
+      <taxon>Actinoplanes</taxon>
+    </lineage>
+  </organism>
+  <reference key="1">
+    <citation type="journal article" date="2009" name="Mol. Microbiol." volume="72" first="1126" last="1136">
+      <title>Organization of the genes encoding the biosynthesis of actagardine and engineering of a variant generation system.</title>
+      <authorList>
+        <person name="Boakes S."/>
+        <person name="Cortes J."/>
+        <person name="Appleyard A.N."/>
+        <person name="Rudd B.A.M."/>
+        <person name="Dawson M.J."/>
+      </authorList>
+      <dbReference type="PubMed" id="19400806"/>
+      <dbReference type="DOI" id="10.1111/j.1365-2958.2009.06708.x"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+    <scope>FUNCTION</scope>
+    <scope>MUTAGENESIS OF SER-47; GLY-48; VAL-50; GLY-58 AND VAL-60</scope>
+    <source>
+      <strain>ATCC 31049 / DSM 44321 / JCM 3248 / KCTC 9533 / NBRC 13995 / NCIMB 12637 / NRRL B-16719 / A/10889</strain>
+    </source>
+  </reference>
+  <reference key="2">
+    <citation type="journal article" date="1990" name="J. Antibiot." volume="43" first="1082" last="1088">
+      <title>Sequence determination of actagardine, a novel lantibiotic, by homonuclear 2D NMR spectroscopy.</title>
+      <authorList>
+        <person name="Kettenring J.K."/>
+        <person name="Malabarba A."/>
+        <person name="Vekey K."/>
+        <person name="Cavalleri B."/>
+      </authorList>
+      <dbReference type="PubMed" id="2211371"/>
+      <dbReference type="DOI" id="10.7164/antibiotics.43.1082"/>
+    </citation>
+    <scope>PRELIMINARY PROTEIN SEQUENCE OF 47-64</scope>
+    <scope>STRUCTURE BY NMR OF 47-64</scope>
+    <source>
+      <strain>ATCC 31049 / DSM 44321 / JCM 3248 / KCTC 9533 / NBRC 13995 / NCIMB 12637 / NRRL B-16719 / A/10889</strain>
+    </source>
+  </reference>
+  <reference key="3">
+    <citation type="journal article" date="1995" name="Eur. J. Biochem." volume="228" first="786" last="797">
+      <title>The tetracyclic lantibiotic actagardine. 1H-NMR and 13C-NMR assignments and revised primary structure.</title>
+      <authorList>
+        <person name="Zimmermann N."/>
+        <person name="Metzger J.W."/>
+        <person name="Jung G."/>
+      </authorList>
+      <dbReference type="PubMed" id="7737178"/>
+      <dbReference type="DOI" id="10.1111/j.1432-1033.1995.tb20324.x"/>
+    </citation>
+    <scope>PROTEIN SEQUENCE OF 47-64</scope>
+    <scope>STRUCTURE BY NMR OF 47-64</scope>
+    <scope>CROSS-LINK</scope>
+    <source>
+      <strain>ATCC 31049 / DSM 44321 / JCM 3248 / KCTC 9533 / NBRC 13995 / NCIMB 12637 / NRRL B-16719 / A/10889</strain>
+    </source>
+  </reference>
+  <reference key="4">
+    <citation type="journal article" date="1998" name="Antimicrob. Agents Chemother." volume="42" first="154" last="160">
+      <title>The lantibiotic mersacidin inhibits peptidoglycan synthesis by targeting lipid II.</title>
+      <authorList>
+        <person name="Broetz H."/>
+        <person name="Bierbaum G."/>
+        <person name="Leopold K."/>
+        <person name="Reynolds P.E."/>
+        <person name="Sahl H.G."/>
+      </authorList>
+      <dbReference type="PubMed" id="9449277"/>
+      <dbReference type="DOI" id="10.1128/aac.42.1.154"/>
+    </citation>
+    <scope>FUNCTION</scope>
+  </reference>
+  <reference key="5">
+    <citation type="journal article" date="1997" name="Eur. J. Biochem." volume="246" first="809" last="819">
+      <title>The three-dimensional solution structure of the lantibiotic murein-biosynthesis-inhibitor actagardine determined by NMR.</title>
+      <authorList>
+        <person name="Zimmermann N."/>
+        <person name="Jung G."/>
+      </authorList>
+      <dbReference type="PubMed" id="9219543"/>
+      <dbReference type="DOI" id="10.1111/j.1432-1033.1997.00809.x"/>
+    </citation>
+    <scope>STRUCTURE BY NMR OF 47-64</scope>
+    <scope>CROSS-LINK</scope>
+  </reference>
+  <comment type="function">
+    <text evidence="1 4">Has potent antibacterial activity against some Gram-positive bacteria (PubMed:19400806). Has good antistreptococcal activity. Inhibits cell wall biosynthesis by binding to lipid II and blocking transglycosylation (PubMed:9449277).</text>
+  </comment>
+  <comment type="PTM">
+    <text evidence="1 10">Maturation of lantibiotics involves the enzymatic conversion of Thr, and Ser into dehydrated AA by the enzyme garM and the formation of thioether bonds with cysteine (Probable). The 59-64 beta-methyllanthionine thioether bond is oxidized to a sulfoxide by the monooxygenase GarO (PubMed:19400806). This is followed by membrane translocation and cleavage of the modified precursor (Probable).</text>
+  </comment>
+  <comment type="PTM">
+    <text evidence="1">The sulfoxide group of the 59-64 beta-methyllanthionine thioether bond is mildly important for activity, since the antibacterial activity of deoxyactagardine is marginally lower compared with oxidized actagardine.</text>
+  </comment>
+  <comment type="similarity">
+    <text evidence="9">Belongs to the type B lantibiotic family.</text>
+  </comment>
+  <dbReference type="EMBL" id="FJ547091">
+    <property type="protein sequence ID" value="ACR33052.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="PIR" id="A58700">
+    <property type="entry name" value="A58700"/>
+  </dbReference>
+  <dbReference type="PDB" id="1AJ1">
+    <property type="method" value="NMR"/>
+    <property type="chains" value="A=47-64"/>
+  </dbReference>
+  <dbReference type="PDBsum" id="1AJ1"/>
+  <dbReference type="AlphaFoldDB" id="P56650"/>
+  <dbReference type="SMR" id="P56650"/>
+  <dbReference type="EvolutionaryTrace" id="P56650"/>
+  <dbReference type="GO" id="GO:0005102">
+    <property type="term" value="F:signaling receptor binding"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0042742">
+    <property type="term" value="P:defense response to bacterium"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0031640">
+    <property type="term" value="P:killing of cells of another organism"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <proteinExistence type="evidence at protein level"/>
+  <keyword id="KW-0002">3D-structure</keyword>
+  <keyword id="KW-0044">Antibiotic</keyword>
+  <keyword id="KW-0929">Antimicrobial</keyword>
+  <keyword id="KW-0078">Bacteriocin</keyword>
+  <keyword id="KW-0903">Direct protein sequencing</keyword>
+  <keyword id="KW-0425">Lantibiotic</keyword>
+  <keyword id="KW-0558">Oxidation</keyword>
+  <keyword id="KW-0883">Thioether bond</keyword>
+  <feature type="propeptide" id="PRO_0000450805" evidence="2">
+    <location>
+      <begin position="1"/>
+      <end position="45"/>
+    </location>
+  </feature>
+  <feature type="peptide" id="PRO_0000043967" description="Lantibiotic actagardine" evidence="2">
+    <location>
+      <begin position="46"/>
+      <end position="64"/>
+    </location>
+  </feature>
+  <feature type="cross-link" description="Lanthionine (Ser-Cys)" evidence="2 3">
+    <location>
+      <begin position="46"/>
+      <end position="51"/>
+    </location>
+  </feature>
+  <feature type="cross-link" description="Beta-methyllanthionine (Thr-Cys)" evidence="2 3">
+    <location>
+      <begin position="52"/>
+      <end position="57"/>
+    </location>
+  </feature>
+  <feature type="cross-link" description="Beta-methyllanthionine (Thr-Cys)" evidence="2 3">
+    <location>
+      <begin position="54"/>
+      <end position="62"/>
+    </location>
+  </feature>
+  <feature type="cross-link" description="Beta-methyllanthionine sulfoxide (Thr-Cys)" evidence="2 3">
+    <location>
+      <begin position="59"/>
+      <end position="64"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Decrease in antibacterial activity." evidence="1">
+    <original>S</original>
+    <variation>A</variation>
+    <location>
+      <position position="47"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Loss of antibacterial activity." evidence="1">
+    <original>G</original>
+    <variation>A</variation>
+    <location>
+      <position position="48"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Loss of antibacterial activity." evidence="1">
+    <original>V</original>
+    <variation>A</variation>
+    <location>
+      <position position="50"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Loss of antibacterial activity." evidence="1">
+    <original>G</original>
+    <variation>A</variation>
+    <location>
+      <position position="58"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Decrease in antibacterial activity." evidence="1">
+    <original>V</original>
+    <variation>A</variation>
+    <location>
+      <position position="60"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="11">
+    <location>
+      <begin position="52"/>
+      <end position="62"/>
+    </location>
+  </feature>
+  <evidence type="ECO:0000269" key="1">
+    <source>
+      <dbReference type="PubMed" id="19400806"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="2">
+    <source>
+      <dbReference type="PubMed" id="7737178"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="3">
+    <source>
+      <dbReference type="PubMed" id="9219543"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="4">
+    <source>
+      <dbReference type="PubMed" id="9449277"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000303" key="5">
+    <source>
+      <dbReference type="PubMed" id="19400806"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000303" key="6">
+    <source>
+      <dbReference type="PubMed" id="2211371"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000303" key="7">
+    <source>
+      <dbReference type="PubMed" id="7737178"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000303" key="8">
+    <source>
+      <dbReference type="PubMed" id="9219543"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000305" key="9"/>
+  <evidence type="ECO:0000305" key="10">
+    <source>
+      <dbReference type="PubMed" id="19400806"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007829" key="11">
+    <source>
+      <dbReference type="PDB" id="1AJ1"/>
+    </source>
+  </evidence>
+  <sequence length="64" mass="6883" checksum="42C3E9945D459B11" modified="2020-10-07" version="3" precursor="true">MSALAIEKSWKDVDLRDGATSHPAGLGFGELTFEDLREDRTIYAASSGWVCTLTIECGTVICAC</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

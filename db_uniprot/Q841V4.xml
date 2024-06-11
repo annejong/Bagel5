@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2003-06-01" modified="2024-01-24" version="62" xmlns="http://uniprot.org/uniprot">
+  <accession>Q841V4</accession>
+  <name>Q841V4_ECOLX</name>
+  <protein>
+    <submittedName>
+      <fullName evidence="1">Microcin L</fullName>
+    </submittedName>
+  </protein>
+  <gene>
+    <name evidence="1" type="primary">mclC</name>
+    <name evidence="5" type="ORF">B6R12_003193</name>
+    <name evidence="4" type="ORF">B6R15_004681</name>
+    <name evidence="3" type="ORF">BR158_004644</name>
+    <name evidence="2" type="ORF">CTR35_005130</name>
+    <name evidence="7" type="ORF">D3C88_10145</name>
+    <name evidence="6" type="ORF">J0541_005199</name>
+  </gene>
+  <organism evidence="1">
+    <name type="scientific">Escherichia coli</name>
+    <dbReference type="NCBI Taxonomy" id="562"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Pseudomonadota</taxon>
+      <taxon>Gammaproteobacteria</taxon>
+      <taxon>Enterobacterales</taxon>
+      <taxon>Enterobacteriaceae</taxon>
+      <taxon>Escherichia</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="1" key="1">
+    <citation type="journal article" date="2003" name="Can. J. Microbiol." volume="49" first="357" last="361">
+      <title>Wild-type Escherichia coli producing microcins B17, D93, J25, and L; cloning of genes for microcin L production and immunity.</title>
+      <authorList>
+        <person name="Sable S."/>
+        <person name="Duarte M."/>
+        <person name="Bravo D."/>
+        <person name="Lanneluc I."/>
+        <person name="Pons A.M."/>
+        <person name="Cottenceau G."/>
+        <person name="Moreno F."/>
+      </authorList>
+      <dbReference type="PubMed" id="12897830"/>
+      <dbReference type="DOI" id="10.1139/w03-047"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="1">LR05</strain>
+    </source>
+  </reference>
+  <reference evidence="1" key="2">
+    <citation type="journal article" date="2004" name="Antimicrob. Agents Chemother." volume="48" first="505" last="513">
+      <title>Genetic analysis and complete primary structure of microcin L.</title>
+      <authorList>
+        <person name="Pons A.M."/>
+        <person name="Delalande F."/>
+        <person name="Duarte M."/>
+        <person name="Benoit S."/>
+        <person name="Lanneluc I."/>
+        <person name="Sable S."/>
+        <person name="Van Dorsselaer A."/>
+        <person name="Cottenceau G."/>
+      </authorList>
+      <dbReference type="PubMed" id="14742202"/>
+      <dbReference type="DOI" id="10.1128/AAC.48.2.505-513.2004"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="1">LR05</strain>
+    </source>
+  </reference>
+  <reference evidence="1" key="3">
+    <citation type="submission" date="2008-07" db="EMBL/GenBank/DDBJ databases">
+      <authorList>
+        <person name="Morin N."/>
+        <person name="Sable S."/>
+        <person name="Pons A.-M."/>
+        <person name="Lanneluc I."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="1">LR05</strain>
+    </source>
+  </reference>
+  <reference evidence="7 8" key="4">
+    <citation type="journal article" date="2018" name="BMC Microbiol.">
+      <title>Genome sequencing of strains of the most prevalent clonal group of O1:K1:H7 Escherichia coli that causes neonatal meningitis in France.</title>
+      <authorList>
+        <person name="Geslain G."/>
+        <person name="Birgy A."/>
+        <person name="Adiba S."/>
+        <person name="Magnan M."/>
+        <person name="Courroux C."/>
+        <person name="Levy C."/>
+        <person name="Cohen R."/>
+        <person name="Bidet P."/>
+        <person name="Bonacorsi S."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="7 8">S308</strain>
+    </source>
+  </reference>
+  <reference evidence="6" key="5">
+    <citation type="journal article" date="2018" name="Genome Biol." volume="19" first="153" last="153">
+      <title>SKESA: strategic k-mer extension for scrupulous assemblies.</title>
+      <authorList>
+        <person name="Souvorov A."/>
+        <person name="Agarwala R."/>
+        <person name="Lipman D.J."/>
+      </authorList>
+      <dbReference type="PubMed" id="30286803"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="6">Escherichia coli</strain>
+    </source>
+  </reference>
+  <reference evidence="10 12" key="6">
+    <citation type="submission" date="2018-08" db="EMBL/GenBank/DDBJ databases">
+      <authorList>
+        <consortium name="GenomeTrakr network: Whole genome sequencing for foodborne pathogen traceback"/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="4 12">NC_STEC194</strain>
+      <strain evidence="5 10">NC_STEC197</strain>
+    </source>
+  </reference>
+  <reference evidence="2 9" key="7">
+    <citation type="submission" date="2018-08" db="EMBL/GenBank/DDBJ databases">
+      <authorList>
+        <consortium name="NARMS: The National Antimicrobial Resistance Monitoring System"/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="2 9">FSIS11705178</strain>
+    </source>
+  </reference>
+  <reference evidence="3 11" key="8">
+    <citation type="submission" date="2020-02" db="EMBL/GenBank/DDBJ databases">
+      <authorList>
+        <person name="Ashton P.M."/>
+        <person name="Dallman T."/>
+        <person name="Nair S."/>
+        <person name="De Pinna E."/>
+        <person name="Peters T."/>
+        <person name="Grant K."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="3 11">147815</strain>
+    </source>
+  </reference>
+  <reference evidence="6" key="9">
+    <citation type="submission" date="2021-03" db="EMBL/GenBank/DDBJ databases">
+      <authorList>
+        <consortium name="NCBI Pathogen Detection Project"/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="6">Escherichia coli</strain>
+    </source>
+  </reference>
+  <dbReference type="EMBL" id="AY237108">
+    <property type="protein sequence ID" value="AAP03989.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="AASHPR010000128">
+    <property type="protein sequence ID" value="EFC3527823.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="AASSAH010000065">
+    <property type="protein sequence ID" value="EFG1409666.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="AATLXB010000091">
+    <property type="protein sequence ID" value="EFM7863316.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="AATLZX010000076">
+    <property type="protein sequence ID" value="EFM8243125.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="DADUEU010000065">
+    <property type="protein sequence ID" value="HBB1576150.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="QXHA01000629">
+    <property type="protein sequence ID" value="RIB42040.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="WP_032144652.1">
+    <property type="nucleotide sequence ID" value="NZ_VTUF01000062.1"/>
+  </dbReference>
+  <dbReference type="TCDB" id="1.C.31.1.2">
+    <property type="family name" value="the channel-forming colicin v (colicin v) family"/>
+  </dbReference>
+  <dbReference type="OrthoDB" id="6469656at2"/>
+  <dbReference type="Proteomes" id="UP000284508">
+    <property type="component" value="Unassembled WGS sequence"/>
+  </dbReference>
+  <dbReference type="Proteomes" id="UP000538406">
+    <property type="component" value="Unassembled WGS sequence"/>
+  </dbReference>
+  <dbReference type="Proteomes" id="UP000577192">
+    <property type="component" value="Unassembled WGS sequence"/>
+  </dbReference>
+  <dbReference type="Proteomes" id="UP000584396">
+    <property type="component" value="Unassembled WGS sequence"/>
+  </dbReference>
+  <dbReference type="Proteomes" id="UP000587626">
+    <property type="component" value="Unassembled WGS sequence"/>
+  </dbReference>
+  <dbReference type="Proteomes" id="UP000870292">
+    <property type="component" value="Unassembled WGS sequence"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR020280">
+    <property type="entry name" value="MccV"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF17508">
+    <property type="entry name" value="MccV"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="predicted"/>
+  <evidence type="ECO:0000313" key="1">
+    <source>
+      <dbReference type="EMBL" id="AAP03989.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="2">
+    <source>
+      <dbReference type="EMBL" id="EFC3527823.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="3">
+    <source>
+      <dbReference type="EMBL" id="EFG1409666.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="4">
+    <source>
+      <dbReference type="EMBL" id="EFM7863316.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="5">
+    <source>
+      <dbReference type="EMBL" id="EFM8243125.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="6">
+    <source>
+      <dbReference type="EMBL" id="HBB1576150.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="7">
+    <source>
+      <dbReference type="EMBL" id="RIB42040.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="8">
+    <source>
+      <dbReference type="Proteomes" id="UP000284508"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="9">
+    <source>
+      <dbReference type="Proteomes" id="UP000538406"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="10">
+    <source>
+      <dbReference type="Proteomes" id="UP000577192"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="11">
+    <source>
+      <dbReference type="Proteomes" id="UP000584396"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="12">
+    <source>
+      <dbReference type="Proteomes" id="UP000587626"/>
+    </source>
+  </evidence>
+  <sequence length="105" mass="10549" checksum="52AC934B80234001" modified="2003-06-01" version="1">MREITLNEMNNVSGAGDVNWVDVGKTVATNGAGVIGGAFGAGLCGPVCAGAFAVGSSAAVAALYDAAGNSNSAKQKPEGLPPEAWNYAEGRMCNWSPNNLSDVCL</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

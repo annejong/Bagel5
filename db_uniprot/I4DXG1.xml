@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2012-09-05" modified="2024-01-24" version="17" xmlns="http://uniprot.org/uniprot">
+  <accession>I4DXG1</accession>
+  <name>I4DXG1_ENTFC</name>
+  <protein>
+    <submittedName>
+      <fullName evidence="1 2">Enterocin NKR-5-3Z</fullName>
+    </submittedName>
+  </protein>
+  <gene>
+    <name evidence="1" type="primary">ent53Z</name>
+    <name evidence="2" type="synonym">enkZ</name>
+  </gene>
+  <organism evidence="1">
+    <name type="scientific">Enterococcus faecium</name>
+    <name type="common">Streptococcus faecium</name>
+    <dbReference type="NCBI Taxonomy" id="1352"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Bacillota</taxon>
+      <taxon>Bacilli</taxon>
+      <taxon>Lactobacillales</taxon>
+      <taxon>Enterococcaceae</taxon>
+      <taxon>Enterococcus</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="1" key="1">
+    <citation type="journal article" date="2012" name="Biosci. Biotechnol. Biochem." volume="76" first="947" last="953">
+      <title>Purification and Characterization of Multiple Bacteriocins and an Inducing Peptide Produced by &lt;i&gt;Enterococcus faecium&lt;/i&gt; NKR-5-3 from Thai Fermented Fish.</title>
+      <authorList>
+        <person name="Ishibashi N."/>
+        <person name="Himeno K."/>
+        <person name="Fujita K."/>
+        <person name="Masuda Y."/>
+        <person name="Perez R.H."/>
+        <person name="Zendo T."/>
+        <person name="Wilaipun P."/>
+        <person name="Leelawatcharamas V."/>
+        <person name="Nakayama J."/>
+        <person name="Sonomoto K."/>
+      </authorList>
+      <dbReference type="PubMed" id="22738965"/>
+      <dbReference type="DOI" id="10.1271/bbb.110972"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="1">NKR-5-3</strain>
+    </source>
+  </reference>
+  <reference evidence="2" key="2">
+    <citation type="journal article" date="2014" name="Appl. Environ. Microbiol.">
+      <title>Gene Cluster Responsible for Secretion of and Immunity to Multiple Bacteriocins, the NKR-5-3 Enterocins.</title>
+      <authorList>
+        <person name="Ishibashi N."/>
+        <person name="Himeno K."/>
+        <person name="Masuda Y."/>
+        <person name="Perez R.H."/>
+        <person name="Iwatani S."/>
+        <person name="Zendo T."/>
+        <person name="Wilaipun P."/>
+        <person name="Leelawatcharamas V."/>
+        <person name="Nakayama J."/>
+        <person name="Sonomoto K."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="2">NKR-5-3</strain>
+    </source>
+  </reference>
+  <dbReference type="EMBL" id="AB627130">
+    <property type="protein sequence ID" value="BAM22601.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="AB908994">
+    <property type="protein sequence ID" value="BAP39817.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="I4DXG1"/>
+  <dbReference type="GO" id="GO:0042742">
+    <property type="term" value="P:defense response to bacterium"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="InterPro"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR019493">
+    <property type="entry name" value="Bacteriocin_IIb_lactacin-rel"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF10439">
+    <property type="entry name" value="Bacteriocin_IIc"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="predicted"/>
+  <evidence type="ECO:0000313" key="1">
+    <source>
+      <dbReference type="EMBL" id="BAM22601.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="2">
+    <source>
+      <dbReference type="EMBL" id="BAP39817.1"/>
+    </source>
+  </evidence>
+  <sequence length="60" mass="5860" checksum="EC31E151141E9B02" modified="2012-09-05" version="1">MKKEILNQEEMLKVIGGKINWGSVGGSCVGGAVIGGALGGLGGAGGGCLTGAIGSIWDQW</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

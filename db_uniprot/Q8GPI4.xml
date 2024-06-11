@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2008-12-16" modified="2023-09-13" version="38" xmlns="http://uniprot.org/uniprot">
+  <accession>Q8GPI4</accession>
+  <name>AUREO_STAAU</name>
+  <protein>
+    <recommendedName>
+      <fullName>Bacteriocin aureocin A53</fullName>
+    </recommendedName>
+  </protein>
+  <gene>
+    <name type="primary">aucA</name>
+  </gene>
+  <organism>
+    <name type="scientific">Staphylococcus aureus</name>
+    <dbReference type="NCBI Taxonomy" id="1280"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Bacillota</taxon>
+      <taxon>Bacilli</taxon>
+      <taxon>Bacillales</taxon>
+      <taxon>Staphylococcaceae</taxon>
+      <taxon>Staphylococcus</taxon>
+    </lineage>
+  </organism>
+  <geneLocation type="plasmid">
+    <name>pRJ9</name>
+  </geneLocation>
+  <reference key="1">
+    <citation type="journal article" date="2002" name="J. Mol. Biol." volume="319" first="745" last="756">
+      <title>Biochemical characterisation and genetic analysis of aureocin A53, a new, atypical bacteriocin from Staphylococcus aureus.</title>
+      <authorList>
+        <person name="Netz D.J."/>
+        <person name="Pohl R."/>
+        <person name="Beck-Sickinger A.G."/>
+        <person name="Selmer T."/>
+        <person name="Pierik A.J."/>
+        <person name="De Freire Bastos M.C."/>
+        <person name="Sahl H.-G."/>
+      </authorList>
+      <dbReference type="PubMed" id="12054867"/>
+      <dbReference type="DOI" id="10.1016/s0022-2836(02)00368-6"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+    <scope>PROTEIN SEQUENCE OF 1-12; 17-23; 28-44 AND 48-51</scope>
+    <scope>FORMYLATION AT MET-1</scope>
+    <scope>MASS SPECTROMETRY</scope>
+    <source>
+      <strain>A53</strain>
+    </source>
+  </reference>
+  <comment type="function">
+    <text>Antibacterial peptide active against a broad range of lactic acid bacteria, L.monocytogenes and many epidemiologically unrelated strains of S.aureus involved in bovine mastitis.</text>
+  </comment>
+  <comment type="subcellular location">
+    <subcellularLocation>
+      <location>Secreted</location>
+    </subcellularLocation>
+  </comment>
+  <comment type="mass spectrometry" mass="6012.5" error="0.5" method="MALDI" evidence="1"/>
+  <dbReference type="EMBL" id="AF447813">
+    <property type="protein sequence ID" value="AAN71834.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="WP_032072954.1">
+    <property type="nucleotide sequence ID" value="NZ_VKLO01000065.1"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="YP_009072012.1">
+    <property type="nucleotide sequence ID" value="NC_025194.1"/>
+  </dbReference>
+  <dbReference type="PDB" id="2N8O">
+    <property type="method" value="NMR"/>
+    <property type="chains" value="A=1-51"/>
+  </dbReference>
+  <dbReference type="PDBsum" id="2N8O"/>
+  <dbReference type="AlphaFoldDB" id="Q8GPI4"/>
+  <dbReference type="BMRB" id="Q8GPI4"/>
+  <dbReference type="SMR" id="Q8GPI4"/>
+  <dbReference type="GO" id="GO:0005576">
+    <property type="term" value="C:extracellular region"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-SubCell"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0042742">
+    <property type="term" value="P:defense response to bacterium"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0031640">
+    <property type="term" value="P:killing of cells of another organism"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR020968">
+    <property type="entry name" value="Bacteriocin_II_aureocin-like"/>
+  </dbReference>
+  <dbReference type="NCBIfam" id="NF033881">
+    <property type="entry name" value="aureocin_A53"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF11758">
+    <property type="entry name" value="Bacteriocin_IIi"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="evidence at protein level"/>
+  <keyword id="KW-0002">3D-structure</keyword>
+  <keyword id="KW-0044">Antibiotic</keyword>
+  <keyword id="KW-0929">Antimicrobial</keyword>
+  <keyword id="KW-0078">Bacteriocin</keyword>
+  <keyword id="KW-0903">Direct protein sequencing</keyword>
+  <keyword id="KW-0291">Formylation</keyword>
+  <keyword id="KW-0614">Plasmid</keyword>
+  <keyword id="KW-0964">Secreted</keyword>
+  <feature type="chain" id="PRO_0000356957" description="Bacteriocin aureocin A53">
+    <location>
+      <begin position="1"/>
+      <end position="51"/>
+    </location>
+  </feature>
+  <feature type="modified residue" description="N-formylmethionine" evidence="1">
+    <location>
+      <position position="1"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="2">
+    <location>
+      <begin position="4"/>
+      <end position="10"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="2">
+    <location>
+      <begin position="11"/>
+      <end position="13"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="2">
+    <location>
+      <begin position="17"/>
+      <end position="23"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="2">
+    <location>
+      <begin position="25"/>
+      <end position="34"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="2">
+    <location>
+      <begin position="35"/>
+      <end position="37"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="2">
+    <location>
+      <begin position="38"/>
+      <end position="49"/>
+    </location>
+  </feature>
+  <evidence type="ECO:0000269" key="1">
+    <source>
+      <dbReference type="PubMed" id="12054867"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007829" key="2">
+    <source>
+      <dbReference type="PDB" id="2N8O"/>
+    </source>
+  </evidence>
+  <sequence length="51" mass="5984" checksum="415A2BBC261319F9" modified="2003-03-01" version="1">MSWLNFLKYIAKYGKKAVSAAWKYKGKVLEWLNVGPTLEWVWQKLKKIAGL</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

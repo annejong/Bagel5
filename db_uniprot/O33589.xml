@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="1998-01-01" modified="2024-01-24" version="103" xmlns="http://uniprot.org/uniprot">
+  <accession>O33589</accession>
+  <name>O33589_STAAU</name>
+  <protein>
+    <submittedName>
+      <fullName evidence="1 10">AgrD</fullName>
+    </submittedName>
+    <submittedName>
+      <fullName evidence="15">Cyclic lactone autoinducer peptide</fullName>
+    </submittedName>
+    <submittedName>
+      <fullName evidence="20">Staphylococcal accessory gene regulator protein D</fullName>
+    </submittedName>
+  </protein>
+  <gene>
+    <name evidence="1" type="primary">agrD</name>
+    <name evidence="16" type="ORF">G0V65_06960</name>
+    <name evidence="15" type="ORF">GZ156_04180</name>
+    <name evidence="19" type="ORF">NCTC7878_02763</name>
+    <name evidence="17" type="ORF">SA0759_03212</name>
+    <name evidence="18" type="ORF">SA950122_03080</name>
+    <name evidence="20" type="ORF">SAMEA1531697_02424</name>
+    <name evidence="10" type="ORF">SAMEA4553026_02357</name>
+  </gene>
+  <organism evidence="1">
+    <name type="scientific">Staphylococcus aureus</name>
+    <dbReference type="NCBI Taxonomy" id="1280"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Bacillota</taxon>
+      <taxon>Bacilli</taxon>
+      <taxon>Bacillales</taxon>
+      <taxon>Staphylococcaceae</taxon>
+      <taxon>Staphylococcus</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="1" key="1">
+    <citation type="journal article" date="1997" name="Science" volume="276" first="2027" last="2030">
+      <title>Bacterial interference caused by autoinducing peptide variants.</title>
+      <authorList>
+        <person name="Ji G."/>
+        <person name="Beavis R."/>
+        <person name="Novick R.P."/>
+      </authorList>
+      <dbReference type="PubMed" id="9197262"/>
+      <dbReference type="DOI" id="10.1126/science.276.5321.2027"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="1">RN8462</strain>
+    </source>
+  </reference>
+  <reference evidence="9" key="2">
+    <citation type="journal article" date="2001" name="Vet. Microbiol." volume="79" first="267" last="274">
+      <title>Variation of the agr locus in Staphylococcus aureus isolates from cows with mastitis.</title>
+      <authorList>
+        <person name="Takeuchi S."/>
+        <person name="Maeda T."/>
+        <person name="Hashimoto N."/>
+        <person name="Imaizumi K."/>
+        <person name="Kaidoh T."/>
+        <person name="Hayakawa Y."/>
+      </authorList>
+      <dbReference type="PubMed" id="11240104"/>
+      <dbReference type="DOI" id="10.1016/S0378-1135(00)00354-0"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+  </reference>
+  <reference evidence="11" key="3">
+    <citation type="journal article" date="2005" name="Int. J. Med. Microbiol." volume="295" first="67" last="75">
+      <title>Staphylococcus aureus strain designation by agr and cap polymorphism typing and delineation of agr diversification by sequence analysis.</title>
+      <authorList>
+        <person name="Goerke C."/>
+        <person name="Esser S."/>
+        <person name="Kuemmel M."/>
+        <person name="Wolz C."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="11">Gt108-cp8</strain>
+      <strain evidence="13">Gt12-cp5</strain>
+      <strain evidence="14">Gt2-cp8</strain>
+      <strain evidence="12">Gt71-cp5</strain>
+    </source>
+  </reference>
+  <reference evidence="2" key="4">
+    <citation type="journal article" date="2005" name="J. Bacteriol." volume="187" first="8312" last="8321">
+      <title>Evolutionary genetics of the accessory gene regulator (agr) locus in Staphylococcus aureus.</title>
+      <authorList>
+        <person name="Robinson D.A."/>
+        <person name="Monk A.B."/>
+        <person name="Cooper J.E."/>
+        <person name="Feil E.J."/>
+        <person name="Enright M.C."/>
+      </authorList>
+      <dbReference type="PubMed" id="16321935"/>
+      <dbReference type="DOI" id="10.1128/JB.187.24.8312-8321.2005"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="6">BK1563</strain>
+      <strain evidence="2">D470</strain>
+      <strain evidence="7">Fin75916</strain>
+      <strain evidence="5">HT2001634</strain>
+      <strain evidence="3">SwedN889099</strain>
+      <strain evidence="4">WBG8343</strain>
+    </source>
+  </reference>
+  <reference evidence="8" key="5">
+    <citation type="submission" date="2006-09" db="EMBL/GenBank/DDBJ databases">
+      <title>Comparison of two Staphylococcus aureus strains (ewe mastitis).</title>
+      <authorList>
+        <person name="Vautor E. III."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="8">O46</strain>
+    </source>
+  </reference>
+  <reference evidence="21 22" key="6">
+    <citation type="submission" date="2018-06" db="EMBL/GenBank/DDBJ databases">
+      <authorList>
+        <consortium name="Pathogen Informatics"/>
+        <person name="Doyle S."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="20 22">EOE163</strain>
+      <strain evidence="19 21">NCTC7878</strain>
+    </source>
+  </reference>
+  <reference evidence="26 27" key="7">
+    <citation type="submission" date="2019-10" db="EMBL/GenBank/DDBJ databases">
+      <authorList>
+        <person name="Cortes M.F."/>
+        <person name="Botelho A.M.N."/>
+        <person name="Bandeira P.T."/>
+        <person name="Mouton W."/>
+        <person name="Badiou C."/>
+        <person name="Bess M."/>
+        <person name="Lima N.C.B."/>
+        <person name="Soares A.E.R."/>
+        <person name="Souza R.C."/>
+        <person name="Almeida L.G.P."/>
+        <person name="Vasconcelos A.T.R."/>
+        <person name="Nicolas M.F."/>
+        <person name="Vandenesch F."/>
+        <person name="Laurent F."/>
+        <person name="Planet P."/>
+        <person name="Figueiredo A.M.S."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="17 27">07-059</strain>
+      <strain evidence="18 26">950122</strain>
+    </source>
+  </reference>
+  <reference evidence="15 23" key="8">
+    <citation type="submission" date="2020-01" db="EMBL/GenBank/DDBJ databases">
+      <title>Analysis of Virulence and Antimicrobial Resistance Gene Carriage in Staphylococcus aureus Infections in Equids Using Whole Genome Sequencing.</title>
+      <authorList>
+        <person name="Little S.V."/>
+        <person name="Hillhouse A.E."/>
+        <person name="Cohen N.D."/>
+        <person name="Lawhon S.D."/>
+        <person name="Bryan L.K."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="15 23">67-013</strain>
+    </source>
+  </reference>
+  <reference evidence="16 24" key="9">
+    <citation type="submission" date="2020-02" db="EMBL/GenBank/DDBJ databases">
+      <title>Novel Insights Into The Classification of Staphylococcal Beta-Lactamases In Relation To The Cefazolin Inoculum Effect.</title>
+      <authorList>
+        <person name="Carvajal L.P."/>
+        <person name="Rincon S."/>
+        <person name="Echeverri A."/>
+        <person name="Porras J."/>
+        <person name="Rios R."/>
+        <person name="Ordonez K."/>
+        <person name="Seas C."/>
+        <person name="Gomez-Villegas S."/>
+        <person name="Diaz L."/>
+        <person name="Arias C.A."/>
+        <person name="Reyes J."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="16 24">UC22</strain>
+    </source>
+  </reference>
+  <reference evidence="10 25" key="10">
+    <citation type="submission" date="2020-06" db="EMBL/GenBank/DDBJ databases">
+      <authorList>
+        <consortium name="Pathogen Informatics"/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="10 25">A79</strain>
+    </source>
+  </reference>
+  <dbReference type="EMBL" id="AF001783">
+    <property type="protein sequence ID" value="AAB63268.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="DQ157974">
+    <property type="protein sequence ID" value="ABB17473.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="DQ157975">
+    <property type="protein sequence ID" value="ABB17480.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="DQ157976">
+    <property type="protein sequence ID" value="ABB17487.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="DQ157977">
+    <property type="protein sequence ID" value="ABB17494.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="DQ157978">
+    <property type="protein sequence ID" value="ABB17501.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="DQ157979">
+    <property type="protein sequence ID" value="ABB17508.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="EF029035">
+    <property type="protein sequence ID" value="ABJ99084.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="AB043555">
+    <property type="protein sequence ID" value="BAB18551.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="CAIHQM010000003">
+    <property type="protein sequence ID" value="CAC7152304.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="AJ617720">
+    <property type="protein sequence ID" value="CAE92760.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="AJ617721">
+    <property type="protein sequence ID" value="CAE92763.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="AJ617722">
+    <property type="protein sequence ID" value="CAE92766.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="AJ617723">
+    <property type="protein sequence ID" value="CAE92769.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="JAAFKS010000005">
+    <property type="protein sequence ID" value="NDQ59734.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="JAAJFC010000015">
+    <property type="protein sequence ID" value="NGB87063.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="CP045439">
+    <property type="protein sequence ID" value="QLH98758.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="CP045441">
+    <property type="protein sequence ID" value="QLI01280.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="UAUX01000010">
+    <property type="protein sequence ID" value="SPZ99624.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="UDNW01000018">
+    <property type="protein sequence ID" value="SRF38113.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="WP_000735197.1">
+    <property type="nucleotide sequence ID" value="NZ_WKIW01000010.1"/>
+  </dbReference>
+  <dbReference type="PATRIC" id="fig|1280.10758.peg.1820"/>
+  <dbReference type="Proteomes" id="UP000249913">
+    <property type="component" value="Unassembled WGS sequence"/>
+  </dbReference>
+  <dbReference type="Proteomes" id="UP000250102">
+    <property type="component" value="Unassembled WGS sequence"/>
+  </dbReference>
+  <dbReference type="Proteomes" id="UP000462022">
+    <property type="component" value="Unassembled WGS sequence"/>
+  </dbReference>
+  <dbReference type="Proteomes" id="UP000481179">
+    <property type="component" value="Unassembled WGS sequence"/>
+  </dbReference>
+  <dbReference type="Proteomes" id="UP000507426">
+    <property type="component" value="Unassembled WGS sequence"/>
+  </dbReference>
+  <dbReference type="Proteomes" id="UP000509140">
+    <property type="component" value="Chromosome"/>
+  </dbReference>
+  <dbReference type="Proteomes" id="UP000510613">
+    <property type="component" value="Chromosome"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR009229">
+    <property type="entry name" value="AgrD"/>
+  </dbReference>
+  <dbReference type="NCBIfam" id="TIGR04223">
+    <property type="entry name" value="quorum_AgrD"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF05931">
+    <property type="entry name" value="AgrD"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="SMART" id="SM00794">
+    <property type="entry name" value="AgrD"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="predicted"/>
+  <evidence type="ECO:0000313" key="1">
+    <source>
+      <dbReference type="EMBL" id="AAB63268.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="2">
+    <source>
+      <dbReference type="EMBL" id="ABB17473.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="3">
+    <source>
+      <dbReference type="EMBL" id="ABB17480.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="4">
+    <source>
+      <dbReference type="EMBL" id="ABB17487.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="5">
+    <source>
+      <dbReference type="EMBL" id="ABB17494.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="6">
+    <source>
+      <dbReference type="EMBL" id="ABB17501.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="7">
+    <source>
+      <dbReference type="EMBL" id="ABB17508.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="8">
+    <source>
+      <dbReference type="EMBL" id="ABJ99084.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="9">
+    <source>
+      <dbReference type="EMBL" id="BAB18551.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="10">
+    <source>
+      <dbReference type="EMBL" id="CAC7152304.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="11">
+    <source>
+      <dbReference type="EMBL" id="CAE92760.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="12">
+    <source>
+      <dbReference type="EMBL" id="CAE92763.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="13">
+    <source>
+      <dbReference type="EMBL" id="CAE92766.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="14">
+    <source>
+      <dbReference type="EMBL" id="CAE92769.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="15">
+    <source>
+      <dbReference type="EMBL" id="NDQ59734.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="16">
+    <source>
+      <dbReference type="EMBL" id="NGB87063.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="17">
+    <source>
+      <dbReference type="EMBL" id="QLH98758.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="18">
+    <source>
+      <dbReference type="EMBL" id="QLI01280.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="19">
+    <source>
+      <dbReference type="EMBL" id="SPZ99624.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="20">
+    <source>
+      <dbReference type="EMBL" id="SRF38113.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="21">
+    <source>
+      <dbReference type="Proteomes" id="UP000249913"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="22">
+    <source>
+      <dbReference type="Proteomes" id="UP000250102"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="23">
+    <source>
+      <dbReference type="Proteomes" id="UP000462022"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="24">
+    <source>
+      <dbReference type="Proteomes" id="UP000481179"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="25">
+    <source>
+      <dbReference type="Proteomes" id="UP000507426"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="26">
+    <source>
+      <dbReference type="Proteomes" id="UP000509140"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="27">
+    <source>
+      <dbReference type="Proteomes" id="UP000510613"/>
+    </source>
+  </evidence>
+  <sequence length="46" mass="5385" checksum="C48A166D0DC46E29" modified="1998-01-01" version="1">MKKLLNKVIELLVDFFNSIGYRAAYINCDFLLDEAEVPKELTQLHE</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

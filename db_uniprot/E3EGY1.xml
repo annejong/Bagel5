@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2011-01-11" modified="2024-01-24" version="41" xmlns="http://uniprot.org/uniprot">
+  <accession>E3EGY1</accession>
+  <name>E3EGY1_PAEPS</name>
+  <protein>
+    <submittedName>
+      <fullName evidence="1">Subtilin lantibiotic</fullName>
+    </submittedName>
+  </protein>
+  <gene>
+    <name evidence="1" type="ORF">PPSC2_07480</name>
+  </gene>
+  <organism evidence="1 2">
+    <name type="scientific">Paenibacillus polymyxa (strain SC2)</name>
+    <name type="common">Bacillus polymyxa</name>
+    <dbReference type="NCBI Taxonomy" id="886882"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Bacillota</taxon>
+      <taxon>Bacilli</taxon>
+      <taxon>Bacillales</taxon>
+      <taxon>Paenibacillaceae</taxon>
+      <taxon>Paenibacillus</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="1 2" key="1">
+    <citation type="journal article" date="2011" name="J. Bacteriol." volume="193" first="311" last="312">
+      <title>Complete genome sequence of Paenibacillus polymyxa SC2, a strain of plant growth-promoting Rhizobacterium with broad-spectrum antimicrobial activity.</title>
+      <authorList>
+        <person name="Ma M."/>
+        <person name="Wang C."/>
+        <person name="Ding Y."/>
+        <person name="Li L."/>
+        <person name="Shen D."/>
+        <person name="Jiang X."/>
+        <person name="Guan D."/>
+        <person name="Cao F."/>
+        <person name="Chen H."/>
+        <person name="Feng R."/>
+        <person name="Wang X."/>
+        <person name="Ge Y."/>
+        <person name="Yao L."/>
+        <person name="Bing X."/>
+        <person name="Yang X."/>
+        <person name="Li J."/>
+        <person name="Du B."/>
+      </authorList>
+      <dbReference type="PubMed" id="21037012"/>
+      <dbReference type="DOI" id="10.1128/JB.01234-10"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="1 2">SC2</strain>
+    </source>
+  </reference>
+  <dbReference type="EMBL" id="CP002213">
+    <property type="protein sequence ID" value="ADO55541.2"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="WP_016820476.1">
+    <property type="nucleotide sequence ID" value="NC_014622.2"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="E3EGY1"/>
+  <dbReference type="STRING" id="1406.LK13_20450"/>
+  <dbReference type="GeneID" id="66573442"/>
+  <dbReference type="KEGG" id="ppm:PPSC2_07480"/>
+  <dbReference type="PATRIC" id="fig|886882.15.peg.1546"/>
+  <dbReference type="HOGENOM" id="CLU_3120694_0_0_9"/>
+  <dbReference type="OrthoDB" id="2644227at2"/>
+  <dbReference type="Proteomes" id="UP000006868">
+    <property type="component" value="Chromosome"/>
+  </dbReference>
+  <dbReference type="NCBIfam" id="NF038155">
+    <property type="entry name" value="lanthi_I_FDLD"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="predicted"/>
+  <keyword evidence="2" id="KW-1185">Reference proteome</keyword>
+  <evidence type="ECO:0000313" key="1">
+    <source>
+      <dbReference type="EMBL" id="ADO55541.2"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="2">
+    <source>
+      <dbReference type="Proteomes" id="UP000006868"/>
+    </source>
+  </evidence>
+  <sequence length="50" mass="5333" checksum="FE22A28A5DEACC1C" modified="2015-05-27" version="2">MKNQFDLDLQVAKNEVAPKEVQPASGLICTPSCATGTLNCQVSLSFCKTC</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

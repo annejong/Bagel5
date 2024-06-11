@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2018-12-05" modified="2024-01-24" version="13" xmlns="http://uniprot.org/uniprot">
+  <accession>A0A387HIR0</accession>
+  <name>A0A387HIR0_9ACTN</name>
+  <protein>
+    <recommendedName>
+      <fullName evidence="3">Thiazolylpeptide-type bacteriocin</fullName>
+    </recommendedName>
+  </protein>
+  <gene>
+    <name evidence="1" type="ORF">DWB77_02878</name>
+  </gene>
+  <organism evidence="1 2">
+    <name type="scientific">Streptomyces hundungensis</name>
+    <dbReference type="NCBI Taxonomy" id="1077946"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Actinomycetota</taxon>
+      <taxon>Actinomycetes</taxon>
+      <taxon>Kitasatosporales</taxon>
+      <taxon>Streptomycetaceae</taxon>
+      <taxon>Streptomyces</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="1 2" key="1">
+    <citation type="submission" date="2018-10" db="EMBL/GenBank/DDBJ databases">
+      <title>Relationship between Morphology and Antimicrobial Activity in Streptomyces.</title>
+      <authorList>
+        <person name="Kang H.J."/>
+        <person name="Kim S.B."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="1 2">BH38</strain>
+    </source>
+  </reference>
+  <dbReference type="EMBL" id="CP032698">
+    <property type="protein sequence ID" value="AYG80740.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="A0A387HIR0"/>
+  <dbReference type="KEGG" id="shun:DWB77_02878"/>
+  <dbReference type="Proteomes" id="UP000271554">
+    <property type="component" value="Chromosome"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR023895">
+    <property type="entry name" value="Thiopep_bacteriocin_prcur"/>
+  </dbReference>
+  <dbReference type="NCBIfam" id="NF033401">
+    <property type="entry name" value="thiazolyl_BerA"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="NCBIfam" id="TIGR03892">
+    <property type="entry name" value="thiopep_precurs"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="predicted"/>
+  <keyword evidence="2" id="KW-1185">Reference proteome</keyword>
+  <evidence type="ECO:0000313" key="1">
+    <source>
+      <dbReference type="EMBL" id="AYG80740.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="2">
+    <source>
+      <dbReference type="Proteomes" id="UP000271554"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0008006" key="3">
+    <source>
+      <dbReference type="Google" id="ProtNLM"/>
+    </source>
+  </evidence>
+  <sequence length="51" mass="5233" checksum="ED34E12BF1FEBC19" modified="2018-12-05" version="1">MNNIEELDLNALEISDLIEDSGNNDESLSQIMAASCTTSGCACSSSSSSSS</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

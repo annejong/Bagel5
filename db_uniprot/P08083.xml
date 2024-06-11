@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="1988-08-01" modified="2023-05-03" version="116" xmlns="http://uniprot.org/uniprot">
+  <accession>P08083</accession>
+  <name>CEAN_ECOLX</name>
+  <protein>
+    <recommendedName>
+      <fullName>Colicin-N</fullName>
+    </recommendedName>
+  </protein>
+  <gene>
+    <name type="primary">cna</name>
+  </gene>
+  <organism>
+    <name type="scientific">Escherichia coli</name>
+    <dbReference type="NCBI Taxonomy" id="562"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Pseudomonadota</taxon>
+      <taxon>Gammaproteobacteria</taxon>
+      <taxon>Enterobacterales</taxon>
+      <taxon>Enterobacteriaceae</taxon>
+      <taxon>Escherichia</taxon>
+    </lineage>
+  </organism>
+  <geneLocation type="plasmid">
+    <name>ColN pCHAP4</name>
+  </geneLocation>
+  <reference key="1">
+    <citation type="journal article" date="1987" name="Mol. Microbiol." volume="1" first="317" last="325">
+      <title>Nucleotide sequencing of the structural gene for colicin N reveals homology between the catalytic, C-terminal domains of colicins A and N.</title>
+      <authorList>
+        <person name="Pugsley A.P."/>
+      </authorList>
+      <dbReference type="PubMed" id="2834623"/>
+      <dbReference type="DOI" id="10.1111/j.1365-2958.1987.tb01938.x"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+  </reference>
+  <reference key="2">
+    <citation type="journal article" date="1988" name="Mol. Gen. Genet." volume="211" first="335" last="341">
+      <title>The immunity and lysis genes of ColN plasmid pCHAP4.</title>
+      <authorList>
+        <person name="Pugsley A.P."/>
+      </authorList>
+      <dbReference type="PubMed" id="3280946"/>
+      <dbReference type="DOI" id="10.1007/bf00330613"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA] OF 372-387</scope>
+  </reference>
+  <reference key="3">
+    <citation type="journal article" date="1998" name="Structure" volume="6" first="863" last="874">
+      <title>Crystal structure of a colicin N fragment suggests a model for toxicity.</title>
+      <authorList>
+        <person name="Vetter I.R."/>
+        <person name="Parker M.W."/>
+        <person name="Tucker A.D."/>
+        <person name="Lakey J.H."/>
+        <person name="Pattus F."/>
+        <person name="Tsernoglou D."/>
+      </authorList>
+      <dbReference type="PubMed" id="9687368"/>
+      <dbReference type="DOI" id="10.1016/s0969-2126(98)00088-4"/>
+    </citation>
+    <scope>X-RAY CRYSTALLOGRAPHY (3.1 ANGSTROMS) OF 91-387</scope>
+  </reference>
+  <comment type="function">
+    <text>This colicin is a channel-forming colicin. This class of transmembrane toxins depolarize the cytoplasmic membrane, leading to dissipation of cellular energy.</text>
+  </comment>
+  <comment type="function">
+    <text>Colicins are polypeptide toxins produced by and active against E.coli and closely related bacteria.</text>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-15691934">
+      <id>P08083</id>
+    </interactant>
+    <interactant intactId="EBI-371336">
+      <id>P02931</id>
+      <label>ompF</label>
+    </interactant>
+    <organismsDiffer>true</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="subcellular location">
+    <subcellularLocation>
+      <location evidence="3">Cell membrane</location>
+      <topology evidence="3">Multi-pass membrane protein</topology>
+    </subcellularLocation>
+  </comment>
+  <comment type="similarity">
+    <text evidence="3">Belongs to the channel forming colicin family.</text>
+  </comment>
+  <dbReference type="EMBL" id="Y00533">
+    <property type="protein sequence ID" value="CAA68592.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="X06933">
+    <property type="protein sequence ID" value="CAA30021.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="PIR" id="S00867">
+    <property type="entry name" value="S00867"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="WP_032488335.1">
+    <property type="nucleotide sequence ID" value="NZ_VTMM01000024.1"/>
+  </dbReference>
+  <dbReference type="PDB" id="1A87">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="3.10 A"/>
+    <property type="chains" value="A=67-387"/>
+  </dbReference>
+  <dbReference type="PDBsum" id="1A87"/>
+  <dbReference type="AlphaFoldDB" id="P08083"/>
+  <dbReference type="BMRB" id="P08083"/>
+  <dbReference type="SASBDB" id="P08083"/>
+  <dbReference type="SMR" id="P08083"/>
+  <dbReference type="DIP" id="DIP-29645N"/>
+  <dbReference type="IntAct" id="P08083">
+    <property type="interactions" value="1"/>
+  </dbReference>
+  <dbReference type="TCDB" id="1.C.1.3.3">
+    <property type="family name" value="the channel-forming colicin (colicin) family"/>
+  </dbReference>
+  <dbReference type="EvolutionaryTrace" id="P08083"/>
+  <dbReference type="GO" id="GO:0005886">
+    <property type="term" value="C:plasma membrane"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-SubCell"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0140911">
+    <property type="term" value="F:pore-forming activity"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="InterPro"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0044325">
+    <property type="term" value="F:transmembrane transporter binding"/>
+    <property type="evidence" value="ECO:0000353"/>
+    <property type="project" value="CAFA"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0050829">
+    <property type="term" value="P:defense response to Gram-negative bacterium"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="InterPro"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0031640">
+    <property type="term" value="P:killing of cells of another organism"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0032413">
+    <property type="term" value="P:negative regulation of ion transmembrane transporter activity"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="CAFA"/>
+  </dbReference>
+  <dbReference type="DisProt" id="DP00461"/>
+  <dbReference type="Gene3D" id="1.10.490.30">
+    <property type="entry name" value="Colicin"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Gene3D" id="3.30.1120.60">
+    <property type="entry name" value="Colicin"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR000293">
+    <property type="entry name" value="Channel_colicin_C"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR038283">
+    <property type="entry name" value="Channel_colicin_C_sf"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF01024">
+    <property type="entry name" value="Colicin"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="PRINTS" id="PR00280">
+    <property type="entry name" value="CHANLCOLICIN"/>
+  </dbReference>
+  <dbReference type="SUPFAM" id="SSF56837">
+    <property type="entry name" value="Colicin"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="PROSITE" id="PS00276">
+    <property type="entry name" value="CHANNEL_COLICIN"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="evidence at protein level"/>
+  <keyword id="KW-0002">3D-structure</keyword>
+  <keyword id="KW-0044">Antibiotic</keyword>
+  <keyword id="KW-0929">Antimicrobial</keyword>
+  <keyword id="KW-0078">Bacteriocin</keyword>
+  <keyword id="KW-1003">Cell membrane</keyword>
+  <keyword id="KW-0472">Membrane</keyword>
+  <keyword id="KW-0614">Plasmid</keyword>
+  <keyword id="KW-0812">Transmembrane</keyword>
+  <keyword id="KW-1133">Transmembrane helix</keyword>
+  <feature type="chain" id="PRO_0000218674" description="Colicin-N">
+    <location>
+      <begin position="1"/>
+      <end position="387"/>
+    </location>
+  </feature>
+  <feature type="transmembrane region" description="Helical" evidence="1">
+    <location>
+      <begin position="325"/>
+      <end position="345"/>
+    </location>
+  </feature>
+  <feature type="transmembrane region" description="Helical" evidence="1">
+    <location>
+      <begin position="350"/>
+      <end position="370"/>
+    </location>
+  </feature>
+  <feature type="region of interest" description="Disordered" evidence="2">
+    <location>
+      <begin position="1"/>
+      <end position="106"/>
+    </location>
+  </feature>
+  <feature type="compositionally biased region" description="Polar residues" evidence="2">
+    <location>
+      <begin position="23"/>
+      <end position="51"/>
+    </location>
+  </feature>
+  <feature type="compositionally biased region" description="Polar residues" evidence="2">
+    <location>
+      <begin position="64"/>
+      <end position="87"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="4">
+    <location>
+      <begin position="97"/>
+      <end position="101"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="4">
+    <location>
+      <begin position="108"/>
+      <end position="112"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="4">
+    <location>
+      <begin position="114"/>
+      <end position="116"/>
+    </location>
+  </feature>
+  <feature type="turn" evidence="4">
+    <location>
+      <begin position="117"/>
+      <end position="119"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="4">
+    <location>
+      <begin position="121"/>
+      <end position="128"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="4">
+    <location>
+      <begin position="131"/>
+      <end position="137"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="4">
+    <location>
+      <begin position="143"/>
+      <end position="148"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="4">
+    <location>
+      <begin position="149"/>
+      <end position="151"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="4">
+    <location>
+      <begin position="153"/>
+      <end position="155"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="4">
+    <location>
+      <begin position="157"/>
+      <end position="162"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="4">
+    <location>
+      <begin position="170"/>
+      <end position="214"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="4">
+    <location>
+      <begin position="216"/>
+      <end position="230"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="4">
+    <location>
+      <begin position="234"/>
+      <end position="236"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="4">
+    <location>
+      <begin position="240"/>
+      <end position="251"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="4">
+    <location>
+      <begin position="260"/>
+      <end position="271"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="4">
+    <location>
+      <begin position="275"/>
+      <end position="283"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="4">
+    <location>
+      <begin position="287"/>
+      <end position="289"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="4">
+    <location>
+      <begin position="294"/>
+      <end position="309"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="4">
+    <location>
+      <begin position="315"/>
+      <end position="326"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="4">
+    <location>
+      <begin position="331"/>
+      <end position="343"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="4">
+    <location>
+      <begin position="352"/>
+      <end position="370"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="4">
+    <location>
+      <begin position="372"/>
+      <end position="385"/>
+    </location>
+  </feature>
+  <evidence type="ECO:0000255" key="1"/>
+  <evidence type="ECO:0000256" key="2">
+    <source>
+      <dbReference type="SAM" id="MobiDB-lite"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000305" key="3"/>
+  <evidence type="ECO:0007829" key="4">
+    <source>
+      <dbReference type="PDB" id="1A87"/>
+    </source>
+  </evidence>
+  <sequence length="387" mass="41743" checksum="1C4342E222F8CECD" modified="1988-08-01" version="1">MGSNGADNAHNNAFGGGKNPGIGNTSGAGSNGSASSNRGNSNGWSWSNKPHKNDGFHSDGSYHITFHGDNNSKPKPGGNSGNRGNNGDGASAKVGEITITPDNSKPGRYISSNPEYSLLAKLIDAESIKGTEVYTFHTRKGQYVKVTVPDSNIDKMRVDYVNWKGPKYNNKLVKRFVSQFLLFRKEEKEKNEKEALLKASELVSGMGDKLGEYLGVKYKNVAKEVANDIKNFHGRNIRSYNEAMASLNKVLANPKMKVNKSDKDAIVNAWKQVNAKDMANKIGNLGKAFKVADLAIKVEKIREKSIEGYNTGNWGPLLLEVESWIIGGVVAGVAISLFGAVLSFLPISGLAVTALGVIGIMTISYLSSFIDANRVSNINNIISSVIR</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

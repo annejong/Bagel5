@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2003-10-31" modified="2023-09-13" version="54" xmlns="http://uniprot.org/uniprot">
+  <accession>P83674</accession>
+  <accession>P83676</accession>
+  <accession>P83677</accession>
+  <accession>Q8VLK0</accession>
+  <accession>Q9K381</accession>
+  <name>LANA_RUMGN</name>
+  <protein>
+    <recommendedName>
+      <fullName>Ruminococcin-A</fullName>
+    </recommendedName>
+    <alternativeName>
+      <fullName>RumA protein 1/2/3</fullName>
+    </alternativeName>
+  </protein>
+  <gene>
+    <name type="primary">rumA1</name>
+  </gene>
+  <gene>
+    <name type="primary">rumA2</name>
+  </gene>
+  <gene>
+    <name type="primary">rumA3</name>
+  </gene>
+  <organism evidence="14">
+    <name type="scientific">Ruminococcus gnavus</name>
+    <dbReference type="NCBI Taxonomy" id="33038"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Bacillota</taxon>
+      <taxon>Clostridia</taxon>
+      <taxon>Eubacteriales</taxon>
+      <taxon>Lachnospiraceae</taxon>
+      <taxon>Mediterraneibacter</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="6" key="1">
+    <citation type="journal article" date="2001" name="Appl. Environ. Microbiol." volume="67" first="4111" last="4118">
+      <title>Ruminococcin A, a new lantibiotic produced by a Ruminococcus gnavus strain isolated from human feces.</title>
+      <authorList>
+        <person name="Dabard J."/>
+        <person name="Bridonneau C."/>
+        <person name="Phillipe C."/>
+        <person name="Anglade P."/>
+        <person name="Molle D."/>
+        <person name="Nardi M."/>
+        <person name="Ladire M."/>
+        <person name="Girardin H."/>
+        <person name="Marcille F."/>
+        <person name="Gomez A."/>
+        <person name="Fons M."/>
+      </authorList>
+      <dbReference type="PubMed" id="11526013"/>
+      <dbReference type="DOI" id="10.1128/aem.67.9.4111-4118.2001"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA] (RUMA1; RUMA2 AND RUMA3)</scope>
+    <scope>PROTEIN SEQUENCE OF 24-44</scope>
+    <scope>DEHYDRATION AT THR-30 AND THR-39</scope>
+    <scope>LANTHIONINE CROSS-LINKS</scope>
+    <scope>FUNCTION</scope>
+    <scope>SUBCELLULAR LOCATION</scope>
+    <scope>MASS SPECTROMETRY</scope>
+    <source>
+      <strain evidence="14">E1</strain>
+    </source>
+  </reference>
+  <reference evidence="6" key="2">
+    <citation type="journal article" date="2002" name="Appl. Environ. Microbiol." volume="68" first="3424" last="3431">
+      <title>Distribution of genes encoding the trypsin-dependent lantibiotic ruminococcin A among bacteria isolated from human fecal microbiota.</title>
+      <authorList>
+        <person name="Marcille F."/>
+        <person name="Gomez A."/>
+        <person name="Joubert P."/>
+        <person name="Ladire M."/>
+        <person name="Veau G."/>
+        <person name="Clara A."/>
+        <person name="Gavini F."/>
+        <person name="Willems A."/>
+        <person name="Fons M."/>
+      </authorList>
+      <dbReference type="PubMed" id="12089024"/>
+      <dbReference type="DOI" id="10.1128/aem.68.7.3424-3431.2002"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA] (RUMA1; RUMA2 AND RUMA3)</scope>
+    <source>
+      <strain evidence="11">LEMB04</strain>
+      <strain evidence="13">LEMB53</strain>
+      <strain evidence="9">LEMV58</strain>
+      <strain evidence="8">LEMV66</strain>
+      <strain evidence="10">LEMV95</strain>
+      <strain evidence="12">LEMV99</strain>
+    </source>
+  </reference>
+  <reference evidence="6" key="3">
+    <citation type="journal article" date="2002" name="J. Bacteriol." volume="184" first="18" last="28">
+      <title>Trypsin mediates growth phase-dependent transcriptional regulation of genes involved in biosynthesis of ruminococcin A, a lantibiotic produced by a Ruminococcus gnavus strain from a human intestinal microbiota.</title>
+      <authorList>
+        <person name="Gomez A."/>
+        <person name="Ladire M."/>
+        <person name="Marcille F."/>
+        <person name="Fons M."/>
+      </authorList>
+      <dbReference type="PubMed" id="11741840"/>
+      <dbReference type="DOI" id="10.1128/jb.184.1.18-28.2002"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA] (RUMA1; RUMA2 AND RUMA3)</scope>
+    <scope>DEVELOPMENTAL STAGE</scope>
+    <scope>INDUCTION</scope>
+    <source>
+      <strain evidence="13">E1</strain>
+    </source>
+  </reference>
+  <comment type="function">
+    <text evidence="1 2">Lanthionine-containing peptide antibiotic (lantibiotic) active on Gram-positive bacteria. The bactericidal activity of lantibiotics is based on depolarization of energized bacterial cytoplasmic membranes, initiated by the formation of aqueous transmembrane pores. Ruminococcin A is a broad spectrum bacteriocin exhibiting activity against a wide range of pathogenic clostridia and B.longum.</text>
+  </comment>
+  <comment type="subcellular location">
+    <subcellularLocation>
+      <location evidence="2">Secreted</location>
+    </subcellularLocation>
+  </comment>
+  <comment type="developmental stage">
+    <text evidence="3">Highest expression in mid to late logarithmic growth phase, after which expression decreases slowly before leveling off in the stationary growth phase.</text>
+  </comment>
+  <comment type="induction">
+    <text evidence="3">By trypsin.</text>
+  </comment>
+  <comment type="PTM">
+    <text evidence="5">Maturation of lantibiotics involves the enzymatic conversion of Thr, and Ser into dehydrated AA and the formation of thioether bonds with cysteine. This is followed by membrane translocation and cleavage of the modified precursor.</text>
+  </comment>
+  <comment type="PTM">
+    <text evidence="2">It is not established whether the 2,3-didehydrobutyrine is the E- or Z-isomer.</text>
+  </comment>
+  <comment type="mass spectrometry" mass="2675.17" error="0.14" method="Electrospray" evidence="2"/>
+  <comment type="similarity">
+    <text evidence="6">Belongs to the type A lantibiotic family.</text>
+  </comment>
+  <dbReference type="EMBL" id="AF320327">
+    <property type="protein sequence ID" value="AAK73193.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="AF320327">
+    <property type="protein sequence ID" value="AAK73194.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="AF320327">
+    <property type="protein sequence ID" value="AAK73195.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="AF439548">
+    <property type="protein sequence ID" value="AAL73922.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="AF439548">
+    <property type="protein sequence ID" value="AAL73923.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="AF439548">
+    <property type="protein sequence ID" value="AAL73924.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="AF439549">
+    <property type="protein sequence ID" value="AAL73925.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="AF439549">
+    <property type="protein sequence ID" value="AAL73926.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="AF439549">
+    <property type="protein sequence ID" value="AAL73927.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="AF439550">
+    <property type="protein sequence ID" value="AAL73928.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="AF439550">
+    <property type="protein sequence ID" value="AAL73929.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="AF439550">
+    <property type="protein sequence ID" value="AAL73930.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="AF439551">
+    <property type="protein sequence ID" value="AAL73931.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="AF439551">
+    <property type="protein sequence ID" value="AAL73932.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="AF439551">
+    <property type="protein sequence ID" value="AAL73933.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="AF439553">
+    <property type="protein sequence ID" value="AAL73937.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="AF439553">
+    <property type="protein sequence ID" value="AAL73938.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="AF439553">
+    <property type="protein sequence ID" value="AAL73939.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="AF439554">
+    <property type="protein sequence ID" value="AAL73943.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="AF439554">
+    <property type="protein sequence ID" value="AAL73944.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="AF439554">
+    <property type="protein sequence ID" value="AAL73945.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="AJ276653">
+    <property type="protein sequence ID" value="CAB93671.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="AJ276653">
+    <property type="protein sequence ID" value="CAB93672.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="AJ276653">
+    <property type="protein sequence ID" value="CAB93673.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="WP_071144043.1">
+    <property type="nucleotide sequence ID" value="NZ_JADMTD010000012.1"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="P83674"/>
+  <dbReference type="GO" id="GO:0005576">
+    <property type="term" value="C:extracellular region"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0005102">
+    <property type="term" value="F:signaling receptor binding"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0050830">
+    <property type="term" value="P:defense response to Gram-positive bacterium"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0031640">
+    <property type="term" value="P:killing of cells of another organism"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0006965">
+    <property type="term" value="P:positive regulation of biosynthetic process of antibacterial peptides active against Gram-positive bacteria"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR007682">
+    <property type="entry name" value="Lantibiotic_typ-A_Lactobact"/>
+  </dbReference>
+  <dbReference type="NCBIfam" id="NF040664">
+    <property type="entry name" value="HEC_x9_TCC_lant"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF04604">
+    <property type="entry name" value="L_biotic_typeA"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="evidence at protein level"/>
+  <keyword id="KW-0044">Antibiotic</keyword>
+  <keyword id="KW-0929">Antimicrobial</keyword>
+  <keyword id="KW-0078">Bacteriocin</keyword>
+  <keyword id="KW-0903">Direct protein sequencing</keyword>
+  <keyword id="KW-0425">Lantibiotic</keyword>
+  <keyword id="KW-0964">Secreted</keyword>
+  <keyword id="KW-0732">Signal</keyword>
+  <keyword id="KW-0883">Thioether bond</keyword>
+  <feature type="signal peptide" evidence="2">
+    <location>
+      <begin position="1"/>
+      <end position="23"/>
+    </location>
+  </feature>
+  <feature type="peptide" id="PRO_0000017127" description="Ruminococcin-A">
+    <location>
+      <begin position="24"/>
+      <end position="47"/>
+    </location>
+  </feature>
+  <feature type="modified residue" description="2,3-didehydrobutyrine" evidence="7">
+    <location>
+      <position position="30"/>
+    </location>
+  </feature>
+  <feature type="modified residue" description="2,3-didehydrobutyrine" evidence="7">
+    <location>
+      <position position="39"/>
+    </location>
+  </feature>
+  <feature type="cross-link" description="Beta-methyllanthionine (Thr-Cys)" evidence="7">
+    <location>
+      <begin position="30"/>
+      <end position="35"/>
+    </location>
+  </feature>
+  <feature type="cross-link" description="Lanthionine (Ser-Cys)" evidence="7">
+    <location>
+      <begin position="32"/>
+      <end position="46"/>
+    </location>
+  </feature>
+  <feature type="cross-link" description="Beta-methyllanthionine (Thr-Cys)" evidence="7">
+    <location>
+      <begin position="45"/>
+      <end position="47"/>
+    </location>
+  </feature>
+  <feature type="sequence variant" description="In strain: LEMB04 and LEMV99." evidence="4">
+    <original>K</original>
+    <variation>N</variation>
+    <location>
+      <position position="15"/>
+    </location>
+  </feature>
+  <evidence type="ECO:0000250" key="1">
+    <source>
+      <dbReference type="UniProtKB" id="P36499"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="2">
+    <source>
+      <dbReference type="PubMed" id="11526013"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="3">
+    <source>
+      <dbReference type="PubMed" id="11741840"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="4">
+    <source>
+      <dbReference type="PubMed" id="12089024"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000303" key="5">
+    <source>
+      <dbReference type="PubMed" id="11526013"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000305" key="6"/>
+  <evidence type="ECO:0000305" key="7">
+    <source>
+      <dbReference type="PubMed" id="11526013"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000312" key="8">
+    <source>
+      <dbReference type="EMBL" id="AAL73924.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000312" key="9">
+    <source>
+      <dbReference type="EMBL" id="AAL73927.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000312" key="10">
+    <source>
+      <dbReference type="EMBL" id="AAL73930.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000312" key="11">
+    <source>
+      <dbReference type="EMBL" id="AAL73933.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000312" key="12">
+    <source>
+      <dbReference type="EMBL" id="AAL73939.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000312" key="13">
+    <source>
+      <dbReference type="EMBL" id="AAL73945.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000312" key="14">
+    <source>
+      <dbReference type="EMBL" id="CAB93673.1"/>
+    </source>
+  </evidence>
+  <sequence length="47" mass="5360" checksum="2D70514404D1FED9" modified="2003-10-31" version="1" precursor="true">MRNDVLTLTNPMEEKELEQILGGGNGVLKTISHECNMNTWQFLFTCC</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

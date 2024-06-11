@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2021-06-02" modified="2023-05-03" version="5" xmlns="http://uniprot.org/uniprot">
+  <accession>A0A7U8DM91</accession>
+  <name>A0A7U8DM91_LISMN</name>
+  <protein>
+    <submittedName>
+      <fullName evidence="1">Uncharacterized protein</fullName>
+    </submittedName>
+  </protein>
+  <gene>
+    <name evidence="1" type="ORF">ARV28_11150</name>
+  </gene>
+  <organism evidence="1">
+    <name type="scientific">Listeria monocytogenes</name>
+    <dbReference type="NCBI Taxonomy" id="1639"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Bacillota</taxon>
+      <taxon>Bacilli</taxon>
+      <taxon>Bacillales</taxon>
+      <taxon>Listeriaceae</taxon>
+      <taxon>Listeria</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="1" key="1">
+    <citation type="submission" date="2020-01" db="EMBL/GenBank/DDBJ databases">
+      <authorList>
+        <consortium name="GenomeTrakr: Next Generation Sequencing Network for Food Pathogen Tracability"/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="1">FDA00006711</strain>
+    </source>
+  </reference>
+  <comment type="caution">
+    <text evidence="1">The sequence shown here is derived from an EMBL/GenBank/DDBJ whole genome shotgun (WGS) entry which is preliminary data.</text>
+  </comment>
+  <dbReference type="EMBL" id="AANCWZ010000004">
+    <property type="protein sequence ID" value="EDN8125683.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="A0A7U8DM91"/>
+  <proteinExistence type="predicted"/>
+  <evidence type="ECO:0000313" key="1">
+    <source>
+      <dbReference type="EMBL" id="EDN8125683.1"/>
+    </source>
+  </evidence>
+  <sequence length="73" mass="8194" checksum="BFC80DFCAACC870C" modified="2021-06-02" version="1">MTKGLDKMLLTKKKKDSMGLLNEIDVTTLDEQLGGKMSKAWCRSMVVSCVYNLVDFSSSSDGKKTCALYRKYC</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

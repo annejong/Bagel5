@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2020-10-07" modified="2023-09-13" version="9" xmlns="http://uniprot.org/uniprot">
+  <accession>A0A6M6A3J1</accession>
+  <name>A0A6M6A3J1_KLEPN</name>
+  <protein>
+    <submittedName>
+      <fullName evidence="3">Uncharacterized protein</fullName>
+    </submittedName>
+  </protein>
+  <organism evidence="3">
+    <name type="scientific">Klebsiella pneumoniae</name>
+    <dbReference type="NCBI Taxonomy" id="573"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Pseudomonadota</taxon>
+      <taxon>Gammaproteobacteria</taxon>
+      <taxon>Enterobacterales</taxon>
+      <taxon>Enterobacteriaceae</taxon>
+      <taxon>Klebsiella/Raoultella group</taxon>
+      <taxon>Klebsiella</taxon>
+    </lineage>
+  </organism>
+  <geneLocation type="plasmid" evidence="4">
+    <name>pPM48TC_140</name>
+  </geneLocation>
+  <geneLocation type="plasmid" evidence="3">
+    <name>pPM48TC_fusion</name>
+  </geneLocation>
+  <geneLocation type="plasmid" evidence="2">
+    <name>pPM48_140</name>
+  </geneLocation>
+  <reference evidence="3" key="1">
+    <citation type="submission" date="2019-10" db="EMBL/GenBank/DDBJ databases">
+      <title>Tracking microevolution events of conjugative virulence plasmid p15WZ-82_Vir during transmission.</title>
+      <authorList>
+        <person name="Yang X."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="2">PM48</strain>
+      <strain evidence="3">PM48TC</strain>
+      <plasmid evidence="2">pPM48_140</plasmid>
+      <plasmid evidence="4">pPM48TC_140</plasmid>
+      <plasmid evidence="3">pPM48TC_fusion</plasmid>
+    </source>
+  </reference>
+  <dbReference type="EMBL" id="MN543579">
+    <property type="protein sequence ID" value="QJX12786.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="MN543581">
+    <property type="protein sequence ID" value="QJX13106.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="MN543582">
+    <property type="protein sequence ID" value="QJX13398.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="A0A6M6A3J1"/>
+  <dbReference type="NCBIfam" id="NF033471">
+    <property type="entry name" value="J25_fam_lasso"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="predicted"/>
+  <keyword evidence="3" id="KW-0614">Plasmid</keyword>
+  <feature type="region of interest" description="Disordered" evidence="1">
+    <location>
+      <begin position="1"/>
+      <end position="30"/>
+    </location>
+  </feature>
+  <feature type="compositionally biased region" description="Basic and acidic residues" evidence="1">
+    <location>
+      <begin position="1"/>
+      <end position="15"/>
+    </location>
+  </feature>
+  <evidence type="ECO:0000256" key="1">
+    <source>
+      <dbReference type="SAM" id="MobiDB-lite"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="2">
+    <source>
+      <dbReference type="EMBL" id="QJX12786.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="3">
+    <source>
+      <dbReference type="EMBL" id="QJX13106.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="4">
+    <source>
+      <dbReference type="EMBL" id="QJX13398.1"/>
+    </source>
+  </evidence>
+  <sequence length="45" mass="5136" checksum="02CA221A5A53B1EA" modified="2020-10-07" version="1">MMQQKKNDQKKVTLKKLNKKASKVTRGSDGPIIEFFNPNGVMHYG</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

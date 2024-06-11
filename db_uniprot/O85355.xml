@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="1998-11-01" modified="2024-01-24" version="39" xmlns="http://uniprot.org/uniprot">
+  <accession>O85355</accession>
+  <name>O85355_BUTFI</name>
+  <protein>
+    <submittedName>
+      <fullName evidence="7 8">Butyrivibriocin</fullName>
+    </submittedName>
+  </protein>
+  <gene>
+    <name evidence="7" type="primary">bvi79</name>
+    <name evidence="8" type="synonym">bviA</name>
+  </gene>
+  <organism evidence="7">
+    <name type="scientific">Butyrivibrio fibrisolvens</name>
+    <dbReference type="NCBI Taxonomy" id="831"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Bacillota</taxon>
+      <taxon>Clostridia</taxon>
+      <taxon>Eubacteriales</taxon>
+      <taxon>Lachnospiraceae</taxon>
+      <taxon>Butyrivibrio</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="7" key="1">
+    <citation type="journal article" date="1999" name="Appl. Environ. Microbiol." volume="65" first="2128" last="2135">
+      <title>Evidence for production of a new lantibiotic (butyrivibriocin OR79A) by the ruminal anaerobe Butyrivibrio fibrisolvens OR79: characterization of the structural gene encoding butyrivibriocin OR79A.</title>
+      <authorList>
+        <person name="Kalmokoff M.L."/>
+        <person name="Lu D."/>
+        <person name="Whitford M.F."/>
+        <person name="Teather R.M."/>
+      </authorList>
+      <dbReference type="PubMed" id="10224011"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+  </reference>
+  <reference evidence="8" key="2">
+    <citation type="submission" date="2001-02" db="EMBL/GenBank/DDBJ databases">
+      <title>Determination of the structure and distribution of bacteriocin OR79A gene homologs in Butyrivibrio strains.</title>
+      <authorList>
+        <person name="Whitford M.F."/>
+        <person name="McPherson M.A."/>
+        <person name="Forster R.J."/>
+        <person name="Teather R.M."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="8">OB236</strain>
+    </source>
+  </reference>
+  <comment type="similarity">
+    <text evidence="1">Belongs to the type A lantibiotic family.</text>
+  </comment>
+  <dbReference type="EMBL" id="AF062647">
+    <property type="protein sequence ID" value="AAC19355.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="AF349666">
+    <property type="protein sequence ID" value="AAK32694.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="O85355"/>
+  <dbReference type="GO" id="GO:0005576">
+    <property type="term" value="C:extracellular region"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="InterPro"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0005102">
+    <property type="term" value="F:signaling receptor binding"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0042742">
+    <property type="term" value="P:defense response to bacterium"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0031640">
+    <property type="term" value="P:killing of cells of another organism"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR007682">
+    <property type="entry name" value="Lantibiotic_typ-A_Lactobact"/>
+  </dbReference>
+  <dbReference type="NCBIfam" id="NF040664">
+    <property type="entry name" value="HEC_x9_TCC_lant"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF04604">
+    <property type="entry name" value="L_biotic_typeA"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="inferred from homology"/>
+  <keyword evidence="5" id="KW-0044">Antibiotic</keyword>
+  <keyword evidence="2" id="KW-0929">Antimicrobial</keyword>
+  <keyword evidence="6" id="KW-0078">Bacteriocin</keyword>
+  <keyword evidence="4" id="KW-0425">Lantibiotic</keyword>
+  <keyword evidence="3" id="KW-0883">Thioether bond</keyword>
+  <evidence type="ECO:0000256" key="1">
+    <source>
+      <dbReference type="ARBA" id="ARBA00009379"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000256" key="2">
+    <source>
+      <dbReference type="ARBA" id="ARBA00022529"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000256" key="3">
+    <source>
+      <dbReference type="ARBA" id="ARBA00022784"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000256" key="4">
+    <source>
+      <dbReference type="ARBA" id="ARBA00022789"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000256" key="5">
+    <source>
+      <dbReference type="ARBA" id="ARBA00023022"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000256" key="6">
+    <source>
+      <dbReference type="ARBA" id="ARBA00023048"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="7">
+    <source>
+      <dbReference type="EMBL" id="AAC19355.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="8">
+    <source>
+      <dbReference type="EMBL" id="AAK32694.1"/>
+    </source>
+  </evidence>
+  <sequence length="48" mass="5409" checksum="EB7932EF4E1152A1" modified="1998-11-01" version="1">MNKELNALTNPIDEKELEQILGGGNGVIKTISHECHMNTWQFIFTCCS</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

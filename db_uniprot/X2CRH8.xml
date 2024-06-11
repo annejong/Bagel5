@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2014-06-11" modified="2023-09-13" version="8" xmlns="http://uniprot.org/uniprot">
+  <accession>X2CRH8</accession>
+  <name>X2CRH8_9BACI</name>
+  <protein>
+    <submittedName>
+      <fullName evidence="1">Bacteriocin</fullName>
+    </submittedName>
+  </protein>
+  <organism evidence="1">
+    <name type="scientific">Bacillus sonorensis</name>
+    <dbReference type="NCBI Taxonomy" id="119858"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Bacillota</taxon>
+      <taxon>Bacilli</taxon>
+      <taxon>Bacillales</taxon>
+      <taxon>Bacillaceae</taxon>
+      <taxon>Bacillus</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="1" key="1">
+    <citation type="journal article" date="2014" name="Appl. Environ. Microbiol." volume="80" first="2981" last="2990">
+      <title>Sonorensin: an Antimicrobial Peptide, Belonging to the Heterocycloanthracin Subfamily of Bacteriocins, from a New Marine Isolate, Bacillus sonorensis MT93.</title>
+      <authorList>
+        <person name="Chopra L."/>
+        <person name="Singh G."/>
+        <person name="Choudhary V."/>
+        <person name="Sahoo D.K."/>
+      </authorList>
+      <dbReference type="PubMed" id="24610839"/>
+      <dbReference type="DOI" id="10.1128/AEM.04259-13"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="1">MT 93</strain>
+    </source>
+  </reference>
+  <dbReference type="EMBL" id="KF493891">
+    <property type="protein sequence ID" value="AGU38829.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="X2CRH8"/>
+  <dbReference type="InterPro" id="IPR019890">
+    <property type="entry name" value="Bacteriocin/sonorensin"/>
+  </dbReference>
+  <dbReference type="NCBIfam" id="TIGR03601">
+    <property type="entry name" value="B_an_ocin"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="predicted"/>
+  <evidence type="ECO:0000313" key="1">
+    <source>
+      <dbReference type="EMBL" id="AGU38829.1"/>
+    </source>
+  </evidence>
+  <sequence length="110" mass="12150" checksum="6241AE392F77C491" modified="2014-06-11" version="1">MKGDIKMQPFHDEPQSLEMDQFQADDMTLWDAGRHHANVKHCASCWSCGSCASCWSCMGHSCWSCMGHSCWSCAGHSCWSCMGHSCWSCMGHSCWSCAGHCCGSCWHGGM</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

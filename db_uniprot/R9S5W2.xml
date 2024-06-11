@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2013-09-18" modified="2023-09-13" version="8" xmlns="http://uniprot.org/uniprot">
+  <accession>R9S5W2</accession>
+  <name>R9S5W2_9ACTN</name>
+  <protein>
+    <submittedName>
+      <fullName evidence="1">BerA</fullName>
+    </submittedName>
+  </protein>
+  <gene>
+    <name evidence="1" type="primary">berA</name>
+  </gene>
+  <organism evidence="1">
+    <name type="scientific">Streptomyces bernensis</name>
+    <dbReference type="NCBI Taxonomy" id="1337893"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Actinomycetota</taxon>
+      <taxon>Actinomycetes</taxon>
+      <taxon>Kitasatosporales</taxon>
+      <taxon>Streptomycetaceae</taxon>
+      <taxon>Streptomyces</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="1" key="1">
+    <citation type="journal article" date="2013" name="Proc. Natl. Acad. Sci. U.S.A." volume="110" first="8483" last="8488">
+      <title>The posttranslational modification cascade to the thiopeptide berninamycin generates linear forms and altered macrocyclic scaffolds.</title>
+      <authorList>
+        <person name="Malcolmson S.J."/>
+        <person name="Young T.S."/>
+        <person name="Ruby J.G."/>
+        <person name="Skewes-Cox P."/>
+        <person name="Walsh C.T."/>
+      </authorList>
+      <dbReference type="PubMed" id="23650400"/>
+      <dbReference type="DOI" id="10.1073/pnas.1307111110"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="1">UC 5144</strain>
+    </source>
+  </reference>
+  <dbReference type="EMBL" id="KC894738">
+    <property type="protein sequence ID" value="AGN11670.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="R9S5W2"/>
+  <dbReference type="NCBIfam" id="NF033401">
+    <property type="entry name" value="thiazolyl_BerA"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="predicted"/>
+  <evidence type="ECO:0000313" key="1">
+    <source>
+      <dbReference type="EMBL" id="AGN11670.1"/>
+    </source>
+  </evidence>
+  <sequence length="47" mass="4780" checksum="62BCB925E29D7B31" modified="2013-09-18" version="1">MEQQIELDVLEISDLIAGAGENDDLAQVMAASCTTTSVSTSSSSSSS</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

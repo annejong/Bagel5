@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2011-06-28" modified="2023-05-03" version="9" xmlns="http://uniprot.org/uniprot">
+  <accession>F5AT06</accession>
+  <name>F5AT06_BACTU</name>
+  <protein>
+    <submittedName>
+      <fullName evidence="1">Trn-beta</fullName>
+    </submittedName>
+  </protein>
+  <organism evidence="1">
+    <name type="scientific">Bacillus thuringiensis</name>
+    <dbReference type="NCBI Taxonomy" id="1428"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Bacillota</taxon>
+      <taxon>Bacilli</taxon>
+      <taxon>Bacillales</taxon>
+      <taxon>Bacillaceae</taxon>
+      <taxon>Bacillus</taxon>
+      <taxon>Bacillus cereus group</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="1" key="1">
+    <citation type="journal article" date="2010" name="Proc. Natl. Acad. Sci. U.S.A." volume="107" first="9352" last="9357">
+      <title>Thuricin CD, a posttranslationally modified bacteriocin with a narrow spectrum of activity against Clostridium difficile.</title>
+      <authorList>
+        <person name="Rea M.C."/>
+        <person name="Sit C.S."/>
+        <person name="Clayton E."/>
+        <person name="O'Connor P.M."/>
+        <person name="Whittal R.M."/>
+        <person name="Zheng J."/>
+        <person name="Vederas J.C."/>
+        <person name="Ross R.P."/>
+        <person name="Hill C."/>
+      </authorList>
+      <dbReference type="PubMed" id="20435915"/>
+      <dbReference type="DOI" id="10.1073/pnas.0913554107"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="1">DPC6431</strain>
+    </source>
+  </reference>
+  <dbReference type="EMBL" id="HQ446454">
+    <property type="protein sequence ID" value="AED99782.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="F5AT06"/>
+  <dbReference type="SMR" id="F5AT06"/>
+  <proteinExistence type="predicted"/>
+  <evidence type="ECO:0000313" key="1">
+    <source>
+      <dbReference type="EMBL" id="AED99782.1"/>
+    </source>
+  </evidence>
+  <sequence length="49" mass="4993" checksum="5ED0A96938A45E8B" modified="2011-06-28" version="1">MEVLNKQNVNIIPESEEVGGWVACVGACGTVCLASGGVGTEFAAASYFL</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

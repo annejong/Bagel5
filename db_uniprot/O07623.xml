@@ -1,0 +1,646 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2003-01-10" modified="2024-01-24" version="123" xmlns="http://uniprot.org/uniprot">
+  <accession>O07623</accession>
+  <name>SBOA_BACSU</name>
+  <protein>
+    <recommendedName>
+      <fullName>Subtilosin-A</fullName>
+    </recommendedName>
+    <alternativeName>
+      <fullName>Antilisterial bacteriocin subtilosin</fullName>
+    </alternativeName>
+  </protein>
+  <gene>
+    <name type="primary">sboA</name>
+    <name type="synonym">sbo</name>
+    <name type="ordered locus">BSU37350</name>
+  </gene>
+  <organism>
+    <name type="scientific">Bacillus subtilis (strain 168)</name>
+    <dbReference type="NCBI Taxonomy" id="224308"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Bacillota</taxon>
+      <taxon>Bacilli</taxon>
+      <taxon>Bacillales</taxon>
+      <taxon>Bacillaceae</taxon>
+      <taxon>Bacillus</taxon>
+    </lineage>
+  </organism>
+  <reference key="1">
+    <citation type="submission" date="2002-02" db="EMBL/GenBank/DDBJ databases">
+      <title>Subtilosin A biosynthesis is conserved among two different classes of Bacillus subtilis strains.</title>
+      <authorList>
+        <person name="Stein T."/>
+        <person name="Duesterhus S."/>
+        <person name="Entian K.-D."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+    <source>
+      <strain>ATCC 6633 / PCI 219 / NRS 231</strain>
+    </source>
+  </reference>
+  <reference key="2">
+    <citation type="journal article" date="1997" name="Microbiology" volume="143" first="3313" last="3328">
+      <title>The Bacillus subtilis genome from gerBC (311 degrees) to licR (334 degrees).</title>
+      <authorList>
+        <person name="Presecan E."/>
+        <person name="Moszer I."/>
+        <person name="Boursier L."/>
+        <person name="Cruz Ramos H."/>
+        <person name="De La Fuente V."/>
+        <person name="Hullo M.-F."/>
+        <person name="Lelong C."/>
+        <person name="Schleich S."/>
+        <person name="Sekowska A."/>
+        <person name="Song B.H."/>
+        <person name="Villani G."/>
+        <person name="Kunst F."/>
+        <person name="Danchin A."/>
+        <person name="Glaser P."/>
+      </authorList>
+      <dbReference type="PubMed" id="9353933"/>
+      <dbReference type="DOI" id="10.1099/00221287-143-10-3313"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+    <source>
+      <strain>168</strain>
+    </source>
+  </reference>
+  <reference key="3">
+    <citation type="journal article" date="1997" name="Nature" volume="390" first="249" last="256">
+      <title>The complete genome sequence of the Gram-positive bacterium Bacillus subtilis.</title>
+      <authorList>
+        <person name="Kunst F."/>
+        <person name="Ogasawara N."/>
+        <person name="Moszer I."/>
+        <person name="Albertini A.M."/>
+        <person name="Alloni G."/>
+        <person name="Azevedo V."/>
+        <person name="Bertero M.G."/>
+        <person name="Bessieres P."/>
+        <person name="Bolotin A."/>
+        <person name="Borchert S."/>
+        <person name="Borriss R."/>
+        <person name="Boursier L."/>
+        <person name="Brans A."/>
+        <person name="Braun M."/>
+        <person name="Brignell S.C."/>
+        <person name="Bron S."/>
+        <person name="Brouillet S."/>
+        <person name="Bruschi C.V."/>
+        <person name="Caldwell B."/>
+        <person name="Capuano V."/>
+        <person name="Carter N.M."/>
+        <person name="Choi S.-K."/>
+        <person name="Codani J.-J."/>
+        <person name="Connerton I.F."/>
+        <person name="Cummings N.J."/>
+        <person name="Daniel R.A."/>
+        <person name="Denizot F."/>
+        <person name="Devine K.M."/>
+        <person name="Duesterhoeft A."/>
+        <person name="Ehrlich S.D."/>
+        <person name="Emmerson P.T."/>
+        <person name="Entian K.-D."/>
+        <person name="Errington J."/>
+        <person name="Fabret C."/>
+        <person name="Ferrari E."/>
+        <person name="Foulger D."/>
+        <person name="Fritz C."/>
+        <person name="Fujita M."/>
+        <person name="Fujita Y."/>
+        <person name="Fuma S."/>
+        <person name="Galizzi A."/>
+        <person name="Galleron N."/>
+        <person name="Ghim S.-Y."/>
+        <person name="Glaser P."/>
+        <person name="Goffeau A."/>
+        <person name="Golightly E.J."/>
+        <person name="Grandi G."/>
+        <person name="Guiseppi G."/>
+        <person name="Guy B.J."/>
+        <person name="Haga K."/>
+        <person name="Haiech J."/>
+        <person name="Harwood C.R."/>
+        <person name="Henaut A."/>
+        <person name="Hilbert H."/>
+        <person name="Holsappel S."/>
+        <person name="Hosono S."/>
+        <person name="Hullo M.-F."/>
+        <person name="Itaya M."/>
+        <person name="Jones L.-M."/>
+        <person name="Joris B."/>
+        <person name="Karamata D."/>
+        <person name="Kasahara Y."/>
+        <person name="Klaerr-Blanchard M."/>
+        <person name="Klein C."/>
+        <person name="Kobayashi Y."/>
+        <person name="Koetter P."/>
+        <person name="Koningstein G."/>
+        <person name="Krogh S."/>
+        <person name="Kumano M."/>
+        <person name="Kurita K."/>
+        <person name="Lapidus A."/>
+        <person name="Lardinois S."/>
+        <person name="Lauber J."/>
+        <person name="Lazarevic V."/>
+        <person name="Lee S.-M."/>
+        <person name="Levine A."/>
+        <person name="Liu H."/>
+        <person name="Masuda S."/>
+        <person name="Mauel C."/>
+        <person name="Medigue C."/>
+        <person name="Medina N."/>
+        <person name="Mellado R.P."/>
+        <person name="Mizuno M."/>
+        <person name="Moestl D."/>
+        <person name="Nakai S."/>
+        <person name="Noback M."/>
+        <person name="Noone D."/>
+        <person name="O'Reilly M."/>
+        <person name="Ogawa K."/>
+        <person name="Ogiwara A."/>
+        <person name="Oudega B."/>
+        <person name="Park S.-H."/>
+        <person name="Parro V."/>
+        <person name="Pohl T.M."/>
+        <person name="Portetelle D."/>
+        <person name="Porwollik S."/>
+        <person name="Prescott A.M."/>
+        <person name="Presecan E."/>
+        <person name="Pujic P."/>
+        <person name="Purnelle B."/>
+        <person name="Rapoport G."/>
+        <person name="Rey M."/>
+        <person name="Reynolds S."/>
+        <person name="Rieger M."/>
+        <person name="Rivolta C."/>
+        <person name="Rocha E."/>
+        <person name="Roche B."/>
+        <person name="Rose M."/>
+        <person name="Sadaie Y."/>
+        <person name="Sato T."/>
+        <person name="Scanlan E."/>
+        <person name="Schleich S."/>
+        <person name="Schroeter R."/>
+        <person name="Scoffone F."/>
+        <person name="Sekiguchi J."/>
+        <person name="Sekowska A."/>
+        <person name="Seror S.J."/>
+        <person name="Serror P."/>
+        <person name="Shin B.-S."/>
+        <person name="Soldo B."/>
+        <person name="Sorokin A."/>
+        <person name="Tacconi E."/>
+        <person name="Takagi T."/>
+        <person name="Takahashi H."/>
+        <person name="Takemaru K."/>
+        <person name="Takeuchi M."/>
+        <person name="Tamakoshi A."/>
+        <person name="Tanaka T."/>
+        <person name="Terpstra P."/>
+        <person name="Tognoni A."/>
+        <person name="Tosato V."/>
+        <person name="Uchiyama S."/>
+        <person name="Vandenbol M."/>
+        <person name="Vannier F."/>
+        <person name="Vassarotti A."/>
+        <person name="Viari A."/>
+        <person name="Wambutt R."/>
+        <person name="Wedler E."/>
+        <person name="Wedler H."/>
+        <person name="Weitzenegger T."/>
+        <person name="Winters P."/>
+        <person name="Wipat A."/>
+        <person name="Yamamoto H."/>
+        <person name="Yamane K."/>
+        <person name="Yasumoto K."/>
+        <person name="Yata K."/>
+        <person name="Yoshida K."/>
+        <person name="Yoshikawa H.-F."/>
+        <person name="Zumstein E."/>
+        <person name="Yoshikawa H."/>
+        <person name="Danchin A."/>
+      </authorList>
+      <dbReference type="PubMed" id="9384377"/>
+      <dbReference type="DOI" id="10.1038/36786"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain>168</strain>
+    </source>
+  </reference>
+  <reference key="4">
+    <citation type="journal article" date="1985" name="J. Biochem." volume="98" first="585" last="603">
+      <title>Subtilosin A, a new antibiotic peptide produced by Bacillus subtilis 168: isolation, structural analysis, and biogenesis.</title>
+      <authorList>
+        <person name="Babasaki K."/>
+        <person name="Takao T."/>
+        <person name="Shimonishi Y."/>
+        <person name="Kurahashi K."/>
+      </authorList>
+      <dbReference type="PubMed" id="3936839"/>
+      <dbReference type="DOI" id="10.1093/oxfordjournals.jbchem.a135315"/>
+    </citation>
+    <scope>PROTEIN SEQUENCE OF 9-43</scope>
+    <scope>FUNCTION</scope>
+    <scope>SUBCELLULAR LOCATION</scope>
+    <scope>DEVELOPMENTAL STAGE</scope>
+    <scope>MASS SPECTROMETRY</scope>
+    <source>
+      <strain>168</strain>
+    </source>
+  </reference>
+  <reference key="5">
+    <citation type="journal article" date="1999" name="J. Bacteriol." volume="181" first="7346" last="7355">
+      <title>Genes of the sbo-alb locus of Bacillus subtilis are required for production of the antilisterial bacteriocin subtilosin.</title>
+      <authorList>
+        <person name="Zheng G."/>
+        <person name="Yan L.Z."/>
+        <person name="Vederas J.C."/>
+        <person name="Zuber P."/>
+      </authorList>
+      <dbReference type="PubMed" id="10572140"/>
+      <dbReference type="DOI" id="10.1128/jb.181.23.7346-7355.1999"/>
+    </citation>
+    <scope>FUNCTION</scope>
+    <source>
+      <strain>168 / JH642</strain>
+      <strain>22a</strain>
+    </source>
+  </reference>
+  <reference key="6">
+    <citation type="journal article" date="2000" name="J. Bacteriol." volume="182" first="3274" last="3277">
+      <title>Dual control of sbo-alb operon expression by the Spo0 and ResDE systems of signal transduction under anaerobic conditions in Bacillus subtilis.</title>
+      <authorList>
+        <person name="Nakano M.M."/>
+        <person name="Zheng G."/>
+        <person name="Zuber P."/>
+      </authorList>
+      <dbReference type="PubMed" id="10809710"/>
+      <dbReference type="DOI" id="10.1128/jb.182.11.3274-3277.2000"/>
+    </citation>
+    <scope>TRANSCRIPTIONAL REGULATION</scope>
+    <source>
+      <strain>168 / JH642</strain>
+    </source>
+  </reference>
+  <reference key="7">
+    <citation type="journal article" date="2009" name="J. Bacteriol." volume="191" first="5690" last="5696">
+      <title>Isolation of a variant of subtilosin A with hemolytic activity.</title>
+      <authorList>
+        <person name="Huang T."/>
+        <person name="Geng H."/>
+        <person name="Miyyapuram V.R."/>
+        <person name="Sit C.S."/>
+        <person name="Vederas J.C."/>
+        <person name="Nakano M.M."/>
+      </authorList>
+      <dbReference type="PubMed" id="19633086"/>
+      <dbReference type="DOI" id="10.1128/jb.00541-09"/>
+    </citation>
+    <scope>FUNCTION</scope>
+    <scope>MASS SPECTROMETRY</scope>
+    <scope>MUTAGENESIS OF THR-14</scope>
+    <source>
+      <strain>168 / JH642</strain>
+    </source>
+  </reference>
+  <reference key="8">
+    <citation type="journal article" date="2012" name="Nat. Chem. Biol." volume="8" first="350" last="357">
+      <title>The radical SAM enzyme AlbA catalyzes thioether bond formation in subtilosin A.</title>
+      <authorList>
+        <person name="Fluehe L."/>
+        <person name="Knappe T.A."/>
+        <person name="Gattner M.J."/>
+        <person name="Schaefer A."/>
+        <person name="Burghaus O."/>
+        <person name="Linne U."/>
+        <person name="Marahiel M.A."/>
+      </authorList>
+      <dbReference type="PubMed" id="22366720"/>
+      <dbReference type="DOI" id="10.1038/nchembio.798"/>
+    </citation>
+    <scope>CROSS-LINKS CYS-PHE AND CYS-THR</scope>
+    <scope>MUTAGENESIS OF 1-MET--GLU-8; CYS-12; CYS-15; CYS-21; PHE-30; THR-36 AND PHE-39</scope>
+    <source>
+      <strain>168</strain>
+    </source>
+  </reference>
+  <reference key="9">
+    <citation type="journal article" date="2003" name="J. Am. Chem. Soc." volume="125" first="4726" last="4727">
+      <title>Structure of subtilosin A, an antimicrobial peptide from Bacillus subtilis with unusual posttranslational modifications linking cysteine sulfurs to alpha-carbons of phenylalanine and threonine.</title>
+      <authorList>
+        <person name="Kawulka K."/>
+        <person name="Sprules T."/>
+        <person name="McKay R.T."/>
+        <person name="Mercier P."/>
+        <person name="Diaper C.M."/>
+        <person name="Zuber P."/>
+        <person name="Vederas J.C."/>
+      </authorList>
+      <dbReference type="PubMed" id="12696888"/>
+      <dbReference type="DOI" id="10.1021/ja029654t"/>
+    </citation>
+    <scope>STRUCTURE BY NMR</scope>
+    <scope>CROSS-LINKS CYS-PHE AND CYS-THR</scope>
+  </reference>
+  <reference key="10">
+    <citation type="unpublished observations" date="2003-05">
+      <authorList>
+        <person name="Vederas J.C."/>
+      </authorList>
+    </citation>
+    <scope>STEREOCHEMISTRY OF D-ALLO-THR-36</scope>
+  </reference>
+  <comment type="function">
+    <text evidence="1 4 6">Has bacteriocidal activity against some Gram-positive bacteria such as Listeria, some species of Bacillus and E.faecium (PubMed:10572140, PubMed:19633086, PubMed:3936839). A single mutation (Thr-14-Ile) confers hemolytic activity against rabbit and human blood (PubMed:19633086).</text>
+  </comment>
+  <comment type="subcellular location">
+    <subcellularLocation>
+      <location evidence="6">Secreted</location>
+    </subcellularLocation>
+  </comment>
+  <comment type="developmental stage">
+    <text evidence="6">The production of subtilosin A begins at the end of vegetative growth and finishes before spore formation.</text>
+  </comment>
+  <comment type="induction">
+    <text evidence="2">Transcription is highly induced by oxygen limitation and is under dual and independent control of Spo0A-AbrB and ResDE.</text>
+  </comment>
+  <comment type="PTM">
+    <text evidence="3 5">This sactipeptide undergoes unique processing steps that include proteolytic cleavage after Glu-8, and covalent linkage of the alpha-amino of Asn-9 with the carboxyl of Gly-43 to form a cyclopeptide (PubMed:12696888, PubMed:22366720). Thioether cross-links are formed between cysteines and the alpha-carbons of other amino acids, Cys-12 to Phe-39, Cys-15 to Thr-36, and Cys-21 to Phe-30 (PubMed:12696888, PubMed:22366720). In forming these cross-links, Thr-36 and Phe-39 are converted to D-amino acids (PubMed:12696888). Propeptide cleavage and cyclopeptide formation only occur after all 3 thioether cross-links are formed (PubMed:22366720).</text>
+  </comment>
+  <comment type="mass spectrometry" mass="3398.9" method="FAB" evidence="6"/>
+  <comment type="mass spectrometry" mass="3412.5" method="MALDI" evidence="4">
+    <text>The Thr-14-Ile mutant.</text>
+  </comment>
+  <comment type="similarity">
+    <text evidence="7">Belongs to the bacteriocin class V family.</text>
+  </comment>
+  <comment type="caution">
+    <text evidence="7">PubMed:3936839 sequence does not report residues in positions 30 and 39 probably due to their modification, and reports a cyclic permutation of the peptide sequence.</text>
+  </comment>
+  <dbReference type="EMBL" id="AJ430547">
+    <property type="protein sequence ID" value="CAD23198.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="Z97024">
+    <property type="protein sequence ID" value="CAB09701.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="AL009126">
+    <property type="protein sequence ID" value="CAB15763.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="PIR" id="A69704">
+    <property type="entry name" value="A69704"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="NP_391616.1">
+    <property type="nucleotide sequence ID" value="NC_000964.3"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="WP_003222002.1">
+    <property type="nucleotide sequence ID" value="NZ_JNCM01000034.1"/>
+  </dbReference>
+  <dbReference type="PDB" id="1PXQ">
+    <property type="method" value="NMR"/>
+    <property type="chains" value="A=9-43"/>
+  </dbReference>
+  <dbReference type="PDBsum" id="1PXQ"/>
+  <dbReference type="AlphaFoldDB" id="O07623"/>
+  <dbReference type="BMRB" id="O07623"/>
+  <dbReference type="SMR" id="O07623"/>
+  <dbReference type="STRING" id="224308.BSU37350"/>
+  <dbReference type="TCDB" id="1.C.84.1.1">
+    <property type="family name" value="the subtilosin (subtilosin) family"/>
+  </dbReference>
+  <dbReference type="PaxDb" id="224308-BSU37350"/>
+  <dbReference type="EnsemblBacteria" id="CAB15763">
+    <property type="protein sequence ID" value="CAB15763"/>
+    <property type="gene ID" value="BSU_37350"/>
+  </dbReference>
+  <dbReference type="GeneID" id="83887635"/>
+  <dbReference type="GeneID" id="938512"/>
+  <dbReference type="KEGG" id="bsu:BSU37350"/>
+  <dbReference type="PATRIC" id="fig|224308.179.peg.4046"/>
+  <dbReference type="InParanoid" id="O07623"/>
+  <dbReference type="OrthoDB" id="2401484at2"/>
+  <dbReference type="BioCyc" id="BSUB:BSU37350-MONOMER"/>
+  <dbReference type="EvolutionaryTrace" id="O07623"/>
+  <dbReference type="PRO" id="PR:O07623"/>
+  <dbReference type="Proteomes" id="UP000001570">
+    <property type="component" value="Chromosome"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0005576">
+    <property type="term" value="C:extracellular region"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-SubCell"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0042742">
+    <property type="term" value="P:defense response to bacterium"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0031640">
+    <property type="term" value="P:killing of cells of another organism"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR021539">
+    <property type="entry name" value="Subtilosin_A"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF11420">
+    <property type="entry name" value="Subtilosin_A"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="evidence at protein level"/>
+  <keyword id="KW-0002">3D-structure</keyword>
+  <keyword id="KW-0044">Antibiotic</keyword>
+  <keyword id="KW-0929">Antimicrobial</keyword>
+  <keyword id="KW-0078">Bacteriocin</keyword>
+  <keyword id="KW-0208">D-amino acid</keyword>
+  <keyword id="KW-0903">Direct protein sequencing</keyword>
+  <keyword id="KW-1185">Reference proteome</keyword>
+  <keyword id="KW-0964">Secreted</keyword>
+  <keyword id="KW-0883">Thioether bond</keyword>
+  <feature type="propeptide" id="PRO_0000002780" evidence="6">
+    <location>
+      <begin position="1"/>
+      <end position="8"/>
+    </location>
+  </feature>
+  <feature type="peptide" id="PRO_0000002781" description="Subtilosin-A" evidence="6">
+    <location>
+      <begin position="9"/>
+      <end position="43"/>
+    </location>
+  </feature>
+  <feature type="cross-link" description="Cyclopeptide (Asn-Gly)" evidence="3">
+    <location>
+      <begin position="9"/>
+      <end position="43"/>
+    </location>
+  </feature>
+  <feature type="cross-link" description="2-cysteinyl-D-phenylalanine (Cys-Phe)" evidence="3 5">
+    <location>
+      <begin position="12"/>
+      <end position="39"/>
+    </location>
+  </feature>
+  <feature type="cross-link" description="2-cysteinyl-D-allo-threonine (Cys-Thr)" evidence="3 5">
+    <location>
+      <begin position="15"/>
+      <end position="36"/>
+    </location>
+  </feature>
+  <feature type="cross-link" description="2-cysteinyl-L-phenylalanine (Cys-Phe)" evidence="3 5">
+    <location>
+      <begin position="21"/>
+      <end position="30"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="No thioether bonds formed." evidence="5">
+    <location>
+      <begin position="1"/>
+      <end position="8"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="In vitro no longer makes the first thioether cross-link, in vivo no cyclopeptide formed." evidence="5">
+    <original>C</original>
+    <variation>A</variation>
+    <location>
+      <position position="12"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="In vivo forms 2 thioether cross-links, no cyclopeptide formed." evidence="5">
+    <original>C</original>
+    <variation>S</variation>
+    <location>
+      <position position="12"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="In sboA1; protein has acquired hemolytic activity and is more effective against tested Gram-positive bacteria." evidence="4">
+    <original>T</original>
+    <variation>I</variation>
+    <location>
+      <position position="14"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="In vitro can no longer make the Cys-thioether cross-link, variable loss of the other 2 thioether cross-links, in vivo no cyclopeptide formed." evidence="5">
+    <original>C</original>
+    <variation>A</variation>
+    <location>
+      <position position="15"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="In vivo forms 2 thioether cross-links, no cyclopeptide formed." evidence="5">
+    <original>C</original>
+    <variation>S</variation>
+    <location>
+      <position position="15"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="In vitro no longer makes the second thioether cross-link, in vivo no cyclopeptide formed." evidence="5">
+    <original>C</original>
+    <variation>A</variation>
+    <location>
+      <position position="21"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="In vivo forms 2 thioether cross-links, no cyclopeptide formed." evidence="5">
+    <original>C</original>
+    <variation>S</variation>
+    <location>
+      <position position="21"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="In vivo forms 2 thioether cross-links, no cyclopeptide formed." evidence="5">
+    <original>F</original>
+    <variation>S</variation>
+    <location>
+      <position position="30"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="In vivo forms 2 thioether cross-links, no cyclopeptide formed." evidence="5">
+    <original>T</original>
+    <variation>S</variation>
+    <location>
+      <position position="36"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="In vivo forms 2 thioether cross-links, no cyclopeptide formed." evidence="5">
+    <original>F</original>
+    <variation>S</variation>
+    <location>
+      <position position="39"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="In vivo forms 3 thioether cross-links, forms the cyclopeptide." evidence="5">
+    <original>F</original>
+    <variation>Y</variation>
+    <location>
+      <position position="39"/>
+    </location>
+  </feature>
+  <feature type="turn" evidence="8">
+    <location>
+      <begin position="12"/>
+      <end position="15"/>
+    </location>
+  </feature>
+  <feature type="turn" evidence="8">
+    <location>
+      <begin position="23"/>
+      <end position="26"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="8">
+    <location>
+      <begin position="37"/>
+      <end position="42"/>
+    </location>
+  </feature>
+  <evidence type="ECO:0000269" key="1">
+    <source>
+      <dbReference type="PubMed" id="10572140"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="2">
+    <source>
+      <dbReference type="PubMed" id="10809710"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="3">
+    <source>
+      <dbReference type="PubMed" id="12696888"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="4">
+    <source>
+      <dbReference type="PubMed" id="19633086"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="5">
+    <source>
+      <dbReference type="PubMed" id="22366720"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="6">
+    <source>
+      <dbReference type="PubMed" id="3936839"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000305" key="7"/>
+  <evidence type="ECO:0007829" key="8">
+    <source>
+      <dbReference type="PDB" id="1PXQ"/>
+    </source>
+  </evidence>
+  <sequence length="43" mass="4325" checksum="055A81DA0D378794" modified="1997-07-01" version="1" precursor="true">MKKAVIVENKGCATCSIGAACLVDGPIPDFEIAGATGLFGLWG</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

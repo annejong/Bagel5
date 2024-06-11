@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2009-06-16" modified="2024-01-24" version="24" xmlns="http://uniprot.org/uniprot">
+  <accession>C2NCP7</accession>
+  <name>C2NCP7_BACCE</name>
+  <protein>
+    <recommendedName>
+      <fullName evidence="2">Lantibiotic</fullName>
+    </recommendedName>
+  </protein>
+  <gene>
+    <name evidence="1" type="ORF">bcere0004_4460</name>
+  </gene>
+  <organism evidence="1">
+    <name type="scientific">Bacillus cereus BGSC 6E1</name>
+    <dbReference type="NCBI Taxonomy" id="526970"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Bacillota</taxon>
+      <taxon>Bacilli</taxon>
+      <taxon>Bacillales</taxon>
+      <taxon>Bacillaceae</taxon>
+      <taxon>Bacillus</taxon>
+      <taxon>Bacillus cereus group</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="1" key="1">
+    <citation type="journal article" date="2012" name="Genome Res." volume="22" first="1512" last="1524">
+      <title>Genomic characterization of the Bacillus cereus sensu lato species: Backdrop to the evolution of Bacillus anthracis.</title>
+      <authorList>
+        <person name="Zwick M.E."/>
+        <person name="Joseph S.J."/>
+        <person name="Didelot X."/>
+        <person name="Chen P.E."/>
+        <person name="Bishop-Lilly K.A."/>
+        <person name="Stewart A.C."/>
+        <person name="Willner K."/>
+        <person name="Nolan N."/>
+        <person name="Lentz S."/>
+        <person name="Thomason M.K."/>
+        <person name="Sozhamannan S."/>
+        <person name="Mateczun A.J."/>
+        <person name="Du L."/>
+        <person name="Read T.D."/>
+      </authorList>
+      <dbReference type="PubMed" id="22645259"/>
+      <dbReference type="DOI" id="10.1101/gr.134437.111"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="1">BGSC 6E1</strain>
+    </source>
+  </reference>
+  <comment type="caution">
+    <text evidence="1">The sequence shown here is derived from an EMBL/GenBank/DDBJ whole genome shotgun (WGS) entry which is preliminary data.</text>
+  </comment>
+  <dbReference type="EMBL" id="ACLU01000020">
+    <property type="protein sequence ID" value="EEK58188.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="C2NCP7"/>
+  <dbReference type="HOGENOM" id="CLU_200943_0_0_9"/>
+  <dbReference type="Proteomes" id="UP000000284">
+    <property type="component" value="Chromosome"/>
+  </dbReference>
+  <proteinExistence type="predicted"/>
+  <evidence type="ECO:0000313" key="1">
+    <source>
+      <dbReference type="EMBL" id="EEK58188.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0008006" key="2">
+    <source>
+      <dbReference type="Google" id="ProtNLM"/>
+    </source>
+  </evidence>
+  <sequence length="54" mass="5744" checksum="69DD8D380EF1C35D" modified="2009-06-16" version="1">MEQKKSLDIKLTESGKIDYAHKPDDSGCAACIGTTSCGGVDPTKPGIWKRCSSK</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

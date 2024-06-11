@@ -1,0 +1,731 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2012-01-25" modified="2023-09-13" version="28" xmlns="http://uniprot.org/uniprot">
+  <accession>E3YBA4</accession>
+  <name>MBCTN_METTR</name>
+  <protein>
+    <recommendedName>
+      <fullName evidence="16 19">Methanobactin mb-OB3b</fullName>
+    </recommendedName>
+    <alternativeName>
+      <fullName evidence="16">Copper-binding compound</fullName>
+      <shortName evidence="16">CBC</shortName>
+    </alternativeName>
+    <alternativeName>
+      <fullName evidence="17">Hydrogen peroxide reductase</fullName>
+      <ecNumber evidence="8">1.11.1.-</ecNumber>
+    </alternativeName>
+    <alternativeName>
+      <fullName evidence="17">Superoxide dismutase</fullName>
+      <ecNumber evidence="8">1.15.1.1</ecNumber>
+    </alternativeName>
+  </protein>
+  <gene>
+    <name evidence="19" type="primary">mbnA</name>
+    <name type="ORF">MettrDRAFT_4473</name>
+  </gene>
+  <organism>
+    <name type="scientific">Methylosinus trichosporium</name>
+    <dbReference type="NCBI Taxonomy" id="426"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Pseudomonadota</taxon>
+      <taxon>Alphaproteobacteria</taxon>
+      <taxon>Hyphomicrobiales</taxon>
+      <taxon>Methylocystaceae</taxon>
+      <taxon>Methylosinus</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="19" key="1">
+    <citation type="journal article" date="2010" name="J. Bacteriol." volume="192" first="6497" last="6498">
+      <title>Genome sequence of the obligate methanotroph Methylosinus trichosporium strain OB3b.</title>
+      <authorList>
+        <person name="Stein L.Y."/>
+        <person name="Yoon S."/>
+        <person name="Semrau J.D."/>
+        <person name="Dispirito A.A."/>
+        <person name="Murrell J.C."/>
+        <person name="Vuilleumier S."/>
+        <person name="Kalyuzhnaya M.G."/>
+        <person name="Op den Camp H.J."/>
+        <person name="Bringel F."/>
+        <person name="Bruce D."/>
+        <person name="Cheng J.F."/>
+        <person name="Copeland A."/>
+        <person name="Goodwin L."/>
+        <person name="Han S."/>
+        <person name="Hauser L."/>
+        <person name="Jetten M.S."/>
+        <person name="Lajus A."/>
+        <person name="Land M.L."/>
+        <person name="Lapidus A."/>
+        <person name="Lucas S."/>
+        <person name="Medigue C."/>
+        <person name="Pitluck S."/>
+        <person name="Woyke T."/>
+        <person name="Zeytun A."/>
+        <person name="Klotz M.G."/>
+      </authorList>
+      <dbReference type="PubMed" id="20952571"/>
+      <dbReference type="DOI" id="10.1128/jb.01144-10"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="19">ATCC 35070 / NCIMB 11131 / ACM 3311 / OB3b</strain>
+    </source>
+  </reference>
+  <reference evidence="18" key="2">
+    <citation type="journal article" date="2004" name="Science" volume="305" first="1612" last="1615">
+      <title>Methanobactin, a copper-acquisition compound from methane-oxidizing bacteria.</title>
+      <authorList>
+        <person name="Kim H.J."/>
+        <person name="Graham D.W."/>
+        <person name="DiSpirito A.A."/>
+        <person name="Alterman M.A."/>
+        <person name="Galeva N."/>
+        <person name="Larive C.K."/>
+        <person name="Asunskis D."/>
+        <person name="Sherwood P.M."/>
+      </authorList>
+      <dbReference type="PubMed" id="15361623"/>
+      <dbReference type="DOI" id="10.1126/science.1098322"/>
+    </citation>
+    <scope>PARTIAL PROTEIN SEQUENCE</scope>
+    <scope>FUNCTION</scope>
+    <scope>SUBCELLULAR LOCATION</scope>
+    <scope>MASS SPECTROMETRY</scope>
+    <scope>X-RAY CRYSTALLOGRAPHY (1.15 ANGSTROMS) OF 20-30 IN COMPLEX WITH COPPER</scope>
+    <scope>DISULFIDE BOND</scope>
+    <scope>METAL-BINDING</scope>
+    <scope>CROSS-LINKS</scope>
+    <source>
+      <strain evidence="1">ATCC 35070 / NCIMB 11131 / ACM 3311 / OB3b</strain>
+    </source>
+  </reference>
+  <reference evidence="18" key="3">
+    <citation type="journal article" date="2005" name="Biochemistry" volume="44" first="5140" last="5148">
+      <title>Purification and physical-chemical properties of methanobactin: a chalkophore from Methylosinus trichosporium OB3b.</title>
+      <authorList>
+        <person name="Kim H.J."/>
+        <person name="Galeva N."/>
+        <person name="Larive C.K."/>
+        <person name="Alterman M."/>
+        <person name="Graham D.W."/>
+      </authorList>
+      <dbReference type="PubMed" id="15794651"/>
+      <dbReference type="DOI" id="10.1021/bi047367r"/>
+    </citation>
+    <scope>FUNCTION</scope>
+    <scope>SUBUNIT</scope>
+    <scope>SUBCELLULAR LOCATION</scope>
+    <scope>INDUCTION</scope>
+    <scope>MASS SPECTROMETRY</scope>
+    <source>
+      <strain evidence="2">ATCC 35070 / NCIMB 11131 / ACM 3311 / OB3b</strain>
+    </source>
+  </reference>
+  <reference evidence="18" key="4">
+    <citation type="journal article" date="2005" name="J. Am. Chem. Soc." volume="127" first="17142" last="17143">
+      <title>The copper chelator methanobactin from Methylosinus trichosporium OB3b binds copper(I).</title>
+      <authorList>
+        <person name="Hakemian A.S."/>
+        <person name="Tinberg C.E."/>
+        <person name="Kondapalli K.C."/>
+        <person name="Telser J."/>
+        <person name="Hoffman B.M."/>
+        <person name="Stemmler T.L."/>
+        <person name="Rosenzweig A.C."/>
+      </authorList>
+      <dbReference type="PubMed" id="16332035"/>
+      <dbReference type="DOI" id="10.1021/ja0558140"/>
+    </citation>
+    <scope>FUNCTION</scope>
+    <scope>SUBUNIT</scope>
+    <scope>SUBCELLULAR LOCATION</scope>
+    <scope>MASS SPECTROMETRY</scope>
+    <source>
+      <strain evidence="4">ATCC 35070 / NCIMB 11131 / ACM 3311 / OB3b</strain>
+    </source>
+  </reference>
+  <reference evidence="18" key="5">
+    <citation type="journal article" date="2005" name="Microbiology" volume="151" first="3417" last="3426">
+      <title>Effect of methanobactin on the activity and electron paramagnetic resonance spectra of the membrane-associated methane monooxygenase in Methylococcus capsulatus Bath.</title>
+      <authorList>
+        <person name="Choi D.W."/>
+        <person name="Antholine W.E."/>
+        <person name="Do Y.S."/>
+        <person name="Semrau J.D."/>
+        <person name="Kisting C.J."/>
+        <person name="Kunz R.C."/>
+        <person name="Campbell D."/>
+        <person name="Rao V."/>
+        <person name="Hartsel S.C."/>
+        <person name="DiSpirito A.A."/>
+      </authorList>
+      <dbReference type="PubMed" id="16207923"/>
+      <dbReference type="DOI" id="10.1099/mic.0.28169-0"/>
+    </citation>
+    <scope>FUNCTION</scope>
+    <scope>SUBUNIT</scope>
+    <scope>SUBCELLULAR LOCATION</scope>
+    <source>
+      <strain evidence="3">ATCC 35070 / NCIMB 11131 / ACM 3311 / OB3b</strain>
+    </source>
+  </reference>
+  <reference evidence="18" key="6">
+    <citation type="journal article" date="2006" name="Biochemistry" volume="45" first="1442" last="1453">
+      <title>Spectral, kinetic, and thermodynamic properties of Cu(I) and Cu(II) binding by methanobactin from Methylosinus trichosporium OB3b.</title>
+      <authorList>
+        <person name="Choi D.W."/>
+        <person name="Zea C.J."/>
+        <person name="Do Y.S."/>
+        <person name="Semrau J.D."/>
+        <person name="Antholine W.E."/>
+        <person name="Hargrove M.S."/>
+        <person name="Pohl N.L."/>
+        <person name="Boyd E.S."/>
+        <person name="Geesey G.G."/>
+        <person name="Hartsel S.C."/>
+        <person name="Shafe P.H."/>
+        <person name="McEllistrem M.T."/>
+        <person name="Kisting C.J."/>
+        <person name="Campbell D."/>
+        <person name="Rao V."/>
+        <person name="de la Mora A.M."/>
+        <person name="Dispirito A.A."/>
+      </authorList>
+      <dbReference type="PubMed" id="16445286"/>
+      <dbReference type="DOI" id="10.1021/bi051815t"/>
+    </citation>
+    <scope>FUNCTION</scope>
+    <scope>SUBCELLULAR LOCATION</scope>
+    <source>
+      <strain evidence="5">ATCC 35070 / NCIMB 11131 / ACM 3311 / OB3b</strain>
+    </source>
+  </reference>
+  <reference evidence="18" key="7">
+    <citation type="journal article" date="2006" name="J. Inorg. Biochem." volume="100" first="2150" last="2161">
+      <title>Spectral and thermodynamic properties of Ag(I), Au(III), Cd(II), Co(II), Fe(III), Hg(II), Mn(II), Ni(II), Pb(II), U(IV), and Zn(II) binding by methanobactin from Methylosinus trichosporium OB3b.</title>
+      <authorList>
+        <person name="Choi D.W."/>
+        <person name="Do Y.S."/>
+        <person name="Zea C.J."/>
+        <person name="McEllistrem M.T."/>
+        <person name="Lee S.W."/>
+        <person name="Semrau J.D."/>
+        <person name="Pohl N.L."/>
+        <person name="Kisting C.J."/>
+        <person name="Scardino L.L."/>
+        <person name="Hartsel S.C."/>
+        <person name="Boyd E.S."/>
+        <person name="Geesey G.G."/>
+        <person name="Riedel T.P."/>
+        <person name="Shafe P.H."/>
+        <person name="Kranski K.A."/>
+        <person name="Tritsch J.R."/>
+        <person name="Antholine W.E."/>
+        <person name="DiSpirito A.A."/>
+      </authorList>
+      <dbReference type="PubMed" id="17070918"/>
+      <dbReference type="DOI" id="10.1016/j.jinorgbio.2006.08.017"/>
+    </citation>
+    <scope>FUNCTION</scope>
+    <scope>SUBCELLULAR LOCATION</scope>
+    <source>
+      <strain evidence="6">ATCC 35070 / NCIMB 11131 / ACM 3311 / OB3b</strain>
+    </source>
+  </reference>
+  <reference evidence="18" key="8">
+    <citation type="journal article" date="2007" name="Proc. Natl. Acad. Sci. U.S.A." volume="104" first="12040" last="12045">
+      <title>Methane monooxygenase gene expression mediated by methanobactin in the presence of mineral copper sources.</title>
+      <authorList>
+        <person name="Knapp C.W."/>
+        <person name="Fowle D.A."/>
+        <person name="Kulczycki E."/>
+        <person name="Roberts J.A."/>
+        <person name="Graham D.W."/>
+      </authorList>
+      <dbReference type="PubMed" id="17615240"/>
+      <dbReference type="DOI" id="10.1073/pnas.0702879104"/>
+    </citation>
+    <scope>FUNCTION</scope>
+    <scope>SUBCELLULAR LOCATION</scope>
+    <source>
+      <strain evidence="7">ATCC 35070 / NCIMB 11131 / ACM 3311 / OB3b</strain>
+    </source>
+  </reference>
+  <reference evidence="18" key="9">
+    <citation type="journal article" date="2008" name="J. Inorg. Biochem." volume="102" first="1571" last="1580">
+      <title>Oxidase, superoxide dismutase, and hydrogen peroxide reductase activities of methanobactin from types I and II methanotrophs.</title>
+      <authorList>
+        <person name="Choi D.W."/>
+        <person name="Semrau J.D."/>
+        <person name="Antholine W.E."/>
+        <person name="Hartsel S.C."/>
+        <person name="Anderson R.C."/>
+        <person name="Carey J.N."/>
+        <person name="Dreis A.M."/>
+        <person name="Kenseth E.M."/>
+        <person name="Renstrom J.M."/>
+        <person name="Scardino L.L."/>
+        <person name="Van Gorden G.S."/>
+        <person name="Volkert A.A."/>
+        <person name="Wingad A.D."/>
+        <person name="Yanzer P.J."/>
+        <person name="McEllistrem M.T."/>
+        <person name="de la Mora A.M."/>
+        <person name="DiSpirito A.A."/>
+      </authorList>
+      <dbReference type="PubMed" id="18372044"/>
+      <dbReference type="DOI" id="10.1016/j.jinorgbio.2008.02.003"/>
+    </citation>
+    <scope>FUNCTION</scope>
+    <scope>CATALYTIC ACTIVITY</scope>
+    <scope>SUBCELLULAR LOCATION</scope>
+    <source>
+      <strain evidence="8">ATCC 35070 / NCIMB 11131 / ACM 3311 / OB3b</strain>
+    </source>
+  </reference>
+  <reference evidence="18" key="10">
+    <citation type="journal article" date="2010" name="Biochemistry" volume="49" first="10117" last="10130">
+      <title>A comparison of methanobactins from Methylosinus trichosporium OB3b and Methylocystis strain Sb2 predicts methanobactins are synthesized from diverse peptide precursors modified to create a common core for binding and reducing copper ions.</title>
+      <authorList>
+        <person name="Krentz B.D."/>
+        <person name="Mulheron H.J."/>
+        <person name="Semrau J.D."/>
+        <person name="Dispirito A.A."/>
+        <person name="Bandow N.L."/>
+        <person name="Haft D.H."/>
+        <person name="Vuilleumier S."/>
+        <person name="Murrell J.C."/>
+        <person name="McEllistrem M.T."/>
+        <person name="Hartsel S.C."/>
+        <person name="Gallagher W.H."/>
+      </authorList>
+      <dbReference type="PubMed" id="20961038"/>
+      <dbReference type="DOI" id="10.1021/bi1014375"/>
+    </citation>
+    <scope>IDENTIFICATION</scope>
+    <scope>FUNCTION</scope>
+    <scope>SUBCELLULAR LOCATION</scope>
+    <source>
+      <strain evidence="11">ATCC 35070 / NCIMB 11131 / ACM 3311 / OB3b</strain>
+    </source>
+  </reference>
+  <reference evidence="18" key="11">
+    <citation type="journal article" date="2010" name="J. Inorg. Biochem." volume="104" first="1240" last="1247">
+      <title>Spectral and thermodynamic properties of methanobactin from gamma-proteobacterial methane oxidizing bacteria: a case for copper competition on a molecular level.</title>
+      <authorList>
+        <person name="Choi D.W."/>
+        <person name="Bandow N.L."/>
+        <person name="McEllistrem M.T."/>
+        <person name="Semrau J.D."/>
+        <person name="Antholine W.E."/>
+        <person name="Hartsel S.C."/>
+        <person name="Gallagher W."/>
+        <person name="Zea C.J."/>
+        <person name="Pohl N.L."/>
+        <person name="Zahn J.A."/>
+        <person name="DiSpirito A.A."/>
+      </authorList>
+      <dbReference type="PubMed" id="20817303"/>
+      <dbReference type="DOI" id="10.1016/j.jinorgbio.2010.08.002"/>
+    </citation>
+    <scope>FUNCTION</scope>
+    <scope>INDUCTION</scope>
+    <scope>SUBCELLULAR LOCATION</scope>
+    <source>
+      <strain evidence="10">ATCC 35070 / NCIMB 11131 / ACM 3311 / OB3b</strain>
+    </source>
+  </reference>
+  <reference evidence="18" key="12">
+    <citation type="journal article" date="2011" name="Geochem. Trans." volume="12" first="2" last="2">
+      <title>Isolation and purification of Cu-free methanobactin from Methylosinus trichosporium OB3b.</title>
+      <authorList>
+        <person name="Pesch M.L."/>
+        <person name="Christl I."/>
+        <person name="Barmettler K."/>
+        <person name="Kraemer S.M."/>
+        <person name="Kretzschmar R."/>
+      </authorList>
+      <dbReference type="PubMed" id="21299876"/>
+      <dbReference type="DOI" id="10.1186/1467-4866-12-2"/>
+    </citation>
+    <scope>SUBCELLULAR LOCATION</scope>
+    <scope>MASS SPECTROMETRY</scope>
+    <source>
+      <strain evidence="14">ATCC 35070 / NCIMB 11131 / ACM 3311 / OB3b</strain>
+    </source>
+  </reference>
+  <reference evidence="20 21" key="13">
+    <citation type="journal article" date="2011" name="Inorg. Chem." volume="50" first="1378" last="1391">
+      <title>Copper-binding properties and structures of methanobactins from Methylosinus trichosporium OB3b.</title>
+      <authorList>
+        <person name="El Ghazouani A."/>
+        <person name="Basle A."/>
+        <person name="Firbank S.J."/>
+        <person name="Knapp C.W."/>
+        <person name="Gray J."/>
+        <person name="Graham D.W."/>
+        <person name="Dennison C."/>
+      </authorList>
+      <dbReference type="PubMed" id="21254756"/>
+      <dbReference type="DOI" id="10.1021/ic101965j"/>
+    </citation>
+    <scope>FUNCTION</scope>
+    <scope>SUBCELLULAR LOCATION</scope>
+    <scope>MASS SPECTROMETRY</scope>
+    <scope>X-RAY CRYSTALLOGRAPHY (0.9 ANGSTROMS) OF 20-30 IN COMPLEX WITH COPPER</scope>
+    <scope>DISULFIDE BOND</scope>
+    <scope>METAL-BINDING</scope>
+    <scope>CROSS-LINKS</scope>
+    <source>
+      <strain evidence="13">ATCC 35070 / NCIMB 11131 / ACM 3311 / OB3b</strain>
+    </source>
+  </reference>
+  <reference evidence="18" key="14">
+    <citation type="journal article" date="2011" name="J. Biol. Chem." volume="286" first="37313" last="37319">
+      <title>Dual pathways for copper uptake by methanotrophic bacteria.</title>
+      <authorList>
+        <person name="Balasubramanian R."/>
+        <person name="Kenney G.E."/>
+        <person name="Rosenzweig A.C."/>
+      </authorList>
+      <dbReference type="PubMed" id="21900235"/>
+      <dbReference type="DOI" id="10.1074/jbc.m111.284984"/>
+    </citation>
+    <scope>FUNCTION</scope>
+    <scope>SUBCELLULAR LOCATION</scope>
+    <scope>MASS SPECTROMETRY</scope>
+    <source>
+      <strain evidence="15">ATCC 35070 / NCIMB 11131 / ACM 3311 / OB3b</strain>
+    </source>
+  </reference>
+  <reference evidence="18" key="15">
+    <citation type="journal article" date="2011" name="J. Trace Elem. Med. Biol." volume="25" first="36" last="41">
+      <title>The biogenic methanobactin is an effective chelator for copper in a rat model for Wilson disease.</title>
+      <authorList>
+        <person name="Summer K.H."/>
+        <person name="Lichtmannegger J."/>
+        <person name="Bandow N."/>
+        <person name="Choi D.W."/>
+        <person name="DiSpirito A.A."/>
+        <person name="Michalke B."/>
+      </authorList>
+      <dbReference type="PubMed" id="21242075"/>
+      <dbReference type="DOI" id="10.1016/j.jtemb.2010.12.002"/>
+    </citation>
+    <scope>FUNCTION</scope>
+    <scope>SUBCELLULAR LOCATION</scope>
+    <source>
+      <strain evidence="12">ATCC 35070 / NCIMB 11131 / ACM 3311 / OB3b</strain>
+    </source>
+  </reference>
+  <reference evidence="18" key="16">
+    <citation type="journal article" date="2008" name="J. Am. Chem. Soc." volume="130" first="12604" last="12605">
+      <title>NMR, mass spectrometry and chemical evidence reveal a different chemical structure for methanobactin that contains oxazolone rings.</title>
+      <authorList>
+        <person name="Behling L.A."/>
+        <person name="Hartsel S.C."/>
+        <person name="Lewis D.E."/>
+        <person name="DiSpirito A.A."/>
+        <person name="Choi D.W."/>
+        <person name="Masterson L.R."/>
+        <person name="Veglia G."/>
+        <person name="Gallagher W.H."/>
+      </authorList>
+      <dbReference type="PubMed" id="18729522"/>
+      <dbReference type="DOI" id="10.1021/ja804747d"/>
+    </citation>
+    <scope>STRUCTURE BY NMR OF 20-30 IN COMPLEX WITH COPPER</scope>
+    <scope>DISULFIDE BOND</scope>
+    <scope>METAL-BINDING</scope>
+    <scope>CROSS-LINKS</scope>
+    <source>
+      <strain evidence="9">ATCC 35070 / NCIMB 11131 / ACM 3311 / OB3b</strain>
+    </source>
+  </reference>
+  <comment type="function">
+    <text evidence="1 2 3 4 5 6 7 8 10 11 12 13 15">Chalkophore involved in scavenging, uptake and suppression of toxicity of copper. Each apo-methanobactin (apo-mb) complexes 1 Cu(2+) or Cu(1+) ion to form Cu(1+)-mb (Cu-mb) which is then taken up by the cell. Enhances growth rate in the presence of copper and reduces growth lag upon exposition to elevated levels of copper. Cu-mb contributes to the switchover from soluble methane monooxygenase (sMMO) to the membrane-bound particulate MMO (pMMO) by inducing transcription of pMMO subunit A. It also stimulates the enzymatic activity of pMMO. In the absence of copper, binds other metal ions, like Zn(2+), Ag(1+), Au(3+), Co(2+), Cd(2+), Fe(3+), Hg(2+), Mn(2+), Ni(2+), Pb(2+) or U(6+), but not Ba(2+), Ca(2+), La(2+), Mg(2+) or Sr(2+). Uptake is an active process, which may involve TonB-dependent transporters, and as such does not involve porins. Cu-Mb can be taken up by other methanotrophic bacteria but not by E.coli. Has Cu-dependent superoxide dismutase-like activity. Shows reductant-dependent oxidase and hydrogen peroxide reductase activities. Reduces copper-levels in liver in a rat model of Wilson disease.</text>
+  </comment>
+  <comment type="catalytic activity">
+    <reaction evidence="8">
+      <text>2 H(+) + 2 superoxide = H2O2 + O2</text>
+      <dbReference type="Rhea" id="RHEA:20696"/>
+      <dbReference type="ChEBI" id="CHEBI:15378"/>
+      <dbReference type="ChEBI" id="CHEBI:15379"/>
+      <dbReference type="ChEBI" id="CHEBI:16240"/>
+      <dbReference type="ChEBI" id="CHEBI:18421"/>
+      <dbReference type="EC" id="1.15.1.1"/>
+    </reaction>
+  </comment>
+  <comment type="subunit">
+    <text evidence="1 2 3 4 9 13">Monomer. In the absence of copper, may exist as a dimer or an oligomer.</text>
+  </comment>
+  <comment type="subcellular location">
+    <subcellularLocation>
+      <location>Secreted</location>
+    </subcellularLocation>
+    <subcellularLocation>
+      <location>Cytoplasm</location>
+    </subcellularLocation>
+    <text>Secreted as apo-mb, uptake into the cytoplasm in complex with copper as Cu-mb. In the cytoplasm, Cu-mb is associated with the cell membrane.</text>
+  </comment>
+  <comment type="induction">
+    <text evidence="2 10">By low copper concentrations.</text>
+  </comment>
+  <comment type="mass spectrometry" mass="1217.0" method="MALDI" evidence="1 2 4 9 13 14 15">
+    <text>In complex with copper.</text>
+  </comment>
+  <comment type="mass spectrometry" mass="1217.46" method="MALDI" evidence="1 2 4 9 13 14 15">
+    <text>In complex with copper.</text>
+  </comment>
+  <comment type="mass spectrometry" mass="1217.2" method="MALDI" evidence="1 2 4 9 13 14 15">
+    <text>In complex with copper.</text>
+  </comment>
+  <comment type="mass spectrometry" mass="1217.0" method="Electrospray" evidence="1 2 4 9 13 14 15">
+    <text>In complex with copper.</text>
+  </comment>
+  <comment type="mass spectrometry" mass="1217.18" method="Electrospray" evidence="1 2 4 9 13 14 15">
+    <text>In complex with copper.</text>
+  </comment>
+  <comment type="mass spectrometry" mass="1154.0" method="Electrospray" evidence="1 2 4 13">
+    <text>Without copper.</text>
+  </comment>
+  <comment type="mass spectrometry" mass="1154.46" method="MALDI" evidence="1 2 4 13">
+    <text>Without copper.</text>
+  </comment>
+  <comment type="mass spectrometry" mass="1154.0" method="MALDI" evidence="1 2 4 13">
+    <text>Without copper.</text>
+  </comment>
+  <comment type="mass spectrometry" mass="1154.24" method="Electrospray" evidence="1 2 4 13">
+    <text>Without copper.</text>
+  </comment>
+  <comment type="caution">
+    <text evidence="18">The rearrangement modifications of the Cys residues involved in the cross-links has not been described and the structure may be subject to revision.</text>
+  </comment>
+  <dbReference type="EC" id="1.11.1.-" evidence="8"/>
+  <dbReference type="EC" id="1.15.1.1" evidence="8"/>
+  <dbReference type="EMBL" id="ADVE01000073">
+    <property type="protein sequence ID" value="EFS20503.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="PDB" id="2XJH">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="0.92 A"/>
+    <property type="chains" value="A/B=21-30"/>
+  </dbReference>
+  <dbReference type="PDB" id="2XJI">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="1.00 A"/>
+    <property type="chains" value="A/B/C/D/E/F=21-30"/>
+  </dbReference>
+  <dbReference type="PDBsum" id="2XJH"/>
+  <dbReference type="PDBsum" id="2XJI"/>
+  <dbReference type="AlphaFoldDB" id="E3YBA4"/>
+  <dbReference type="SMR" id="E3YBA4"/>
+  <dbReference type="GO" id="GO:0005737">
+    <property type="term" value="C:cytoplasm"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-SubCell"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0005576">
+    <property type="term" value="C:extracellular region"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-SubCell"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0046872">
+    <property type="term" value="F:metal ion binding"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0004601">
+    <property type="term" value="F:peroxidase activity"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0004784">
+    <property type="term" value="F:superoxide dismutase activity"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-EC"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0006825">
+    <property type="term" value="P:copper ion transport"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR023963">
+    <property type="entry name" value="Methanobactin_OB3b"/>
+  </dbReference>
+  <dbReference type="NCBIfam" id="TIGR04071">
+    <property type="entry name" value="methanobac_OB3b"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="evidence at protein level"/>
+  <keyword id="KW-0002">3D-structure</keyword>
+  <keyword id="KW-0186">Copper</keyword>
+  <keyword id="KW-0187">Copper transport</keyword>
+  <keyword id="KW-0963">Cytoplasm</keyword>
+  <keyword id="KW-0903">Direct protein sequencing</keyword>
+  <keyword id="KW-1015">Disulfide bond</keyword>
+  <keyword id="KW-0406">Ion transport</keyword>
+  <keyword id="KW-0479">Metal-binding</keyword>
+  <keyword id="KW-0560">Oxidoreductase</keyword>
+  <keyword id="KW-0575">Peroxidase</keyword>
+  <keyword id="KW-0964">Secreted</keyword>
+  <keyword id="KW-0813">Transport</keyword>
+  <feature type="propeptide" id="PRO_0000415151" evidence="11">
+    <location>
+      <begin position="1"/>
+      <end position="19"/>
+    </location>
+  </feature>
+  <feature type="peptide" id="PRO_0000415152" description="Methanobactin mb-OB3b" evidence="11">
+    <location>
+      <begin position="20"/>
+      <end position="30"/>
+    </location>
+  </feature>
+  <feature type="binding site" evidence="1 9 13 20 21">
+    <location>
+      <position position="21"/>
+    </location>
+    <ligand>
+      <name>Cu(2+)</name>
+      <dbReference type="ChEBI" id="CHEBI:29036"/>
+    </ligand>
+  </feature>
+  <feature type="binding site" evidence="1 9 13 20 21">
+    <location>
+      <position position="27"/>
+    </location>
+    <ligand>
+      <name>Cu(2+)</name>
+      <dbReference type="ChEBI" id="CHEBI:29036"/>
+    </ligand>
+  </feature>
+  <feature type="disulfide bond" evidence="1 9 13">
+    <location>
+      <begin position="24"/>
+      <end position="29"/>
+    </location>
+  </feature>
+  <feature type="cross-link" description="2-(3-methylbutanoyl)-5-hydroxyoxazole-4-carbothionic acid (Leu-Cys)" evidence="1 9 13">
+    <location>
+      <begin position="20"/>
+      <end position="21"/>
+    </location>
+  </feature>
+  <feature type="cross-link" description="Proline 5-hydroxy-oxazole-4-carbothionic acid (Pro-Cys)">
+    <location>
+      <begin position="26"/>
+      <end position="27"/>
+    </location>
+  </feature>
+  <evidence type="ECO:0000269" key="1">
+    <source>
+      <dbReference type="PubMed" id="15361623"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="2">
+    <source>
+      <dbReference type="PubMed" id="15794651"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="3">
+    <source>
+      <dbReference type="PubMed" id="16207923"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="4">
+    <source>
+      <dbReference type="PubMed" id="16332035"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="5">
+    <source>
+      <dbReference type="PubMed" id="16445286"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="6">
+    <source>
+      <dbReference type="PubMed" id="17070918"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="7">
+    <source>
+      <dbReference type="PubMed" id="17615240"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="8">
+    <source>
+      <dbReference type="PubMed" id="18372044"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="9">
+    <source>
+      <dbReference type="PubMed" id="18729522"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="10">
+    <source>
+      <dbReference type="PubMed" id="20817303"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="11">
+    <source>
+      <dbReference type="PubMed" id="20961038"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="12">
+    <source>
+      <dbReference type="PubMed" id="21242075"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="13">
+    <source>
+      <dbReference type="PubMed" id="21254756"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="14">
+    <source>
+      <dbReference type="PubMed" id="21299876"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="15">
+    <source>
+      <dbReference type="PubMed" id="21900235"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000303" key="16">
+    <source>
+      <dbReference type="PubMed" id="15361623"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000303" key="17">
+    <source>
+      <dbReference type="PubMed" id="18372044"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000305" key="18"/>
+  <evidence type="ECO:0000312" key="19">
+    <source>
+      <dbReference type="EMBL" id="EFS20503.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007744" key="20">
+    <source>
+      <dbReference type="PDB" id="2XJH"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007744" key="21">
+    <source>
+      <dbReference type="PDB" id="2XJI"/>
+    </source>
+  </evidence>
+  <sequence length="30" mass="3143" checksum="80ACD598389EECE5" modified="2011-02-08" version="1" precursor="true">MTVKIAQKKVLPVIGRAAALCGSCYPCSCM</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

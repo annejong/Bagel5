@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2016-11-02" modified="2024-01-24" version="16" xmlns="http://uniprot.org/uniprot">
+  <accession>A0A1C2XRB7</accession>
+  <name>A0A1C2XRB7_9FIRM</name>
+  <protein>
+    <submittedName>
+      <fullName evidence="2">Uncharacterized protein</fullName>
+    </submittedName>
+  </protein>
+  <gene>
+    <name evidence="2" type="ORF">A7D23_00805</name>
+  </gene>
+  <organism evidence="2 3">
+    <name type="scientific">Dehalobacter sp. TeCB1</name>
+    <dbReference type="NCBI Taxonomy" id="1843715"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Bacillota</taxon>
+      <taxon>Clostridia</taxon>
+      <taxon>Eubacteriales</taxon>
+      <taxon>Desulfitobacteriaceae</taxon>
+      <taxon>Dehalobacter</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="2 3" key="1">
+    <citation type="submission" date="2016-05" db="EMBL/GenBank/DDBJ databases">
+      <title>Genome sequence of Dehalobacter sp. TeCB1, a 1,2,4,5-tetrachlorobenzene dechlorinating bacterium.</title>
+      <authorList>
+        <person name="Alfan-Guzman R."/>
+        <person name="Manefield M."/>
+        <person name="Ertan H."/>
+        <person name="Lee M."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="2 3">TeCB1</strain>
+    </source>
+  </reference>
+  <comment type="caution">
+    <text evidence="2">The sequence shown here is derived from an EMBL/GenBank/DDBJ whole genome shotgun (WGS) entry which is preliminary data.</text>
+  </comment>
+  <dbReference type="EMBL" id="MCHF01000056">
+    <property type="protein sequence ID" value="OCZ49919.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="WP_068884044.1">
+    <property type="nucleotide sequence ID" value="NZ_MCHF01000056.1"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="A0A1C2XRB7"/>
+  <dbReference type="OrthoDB" id="2972348at2"/>
+  <dbReference type="Proteomes" id="UP000094425">
+    <property type="component" value="Unassembled WGS sequence"/>
+  </dbReference>
+  <proteinExistence type="predicted"/>
+  <feature type="region of interest" description="Disordered" evidence="1">
+    <location>
+      <begin position="88"/>
+      <end position="146"/>
+    </location>
+  </feature>
+  <evidence type="ECO:0000256" key="1">
+    <source>
+      <dbReference type="SAM" id="MobiDB-lite"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="2">
+    <source>
+      <dbReference type="EMBL" id="OCZ49919.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="3">
+    <source>
+      <dbReference type="Proteomes" id="UP000094425"/>
+    </source>
+  </evidence>
+  <sequence length="146" mass="16739" checksum="054A786919C8BA90" modified="2016-11-02" version="1">MREPYLANYVEEHDFDHNNRLFYDGRTQLSYVDPEKKVRAIDRCLVGPTYITKAAESSDPDEFQAIGPTRLTETIENSDPDEFFALSPTQKTATDESADPDEFYAIGPTRETFSNEGSDPDEFYLLGPSRETRSNECSDPDEFYLR</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

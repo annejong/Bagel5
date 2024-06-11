@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2020-06-17" modified="2023-09-13" version="6" xmlns="http://uniprot.org/uniprot">
+  <accession>A0A6C0QLR4</accession>
+  <name>A0A6C0QLR4_9ACTN</name>
+  <protein>
+    <submittedName>
+      <fullName evidence="1">Humidimycin peptide</fullName>
+    </submittedName>
+  </protein>
+  <gene>
+    <name evidence="1" type="primary">humA</name>
+  </gene>
+  <organism evidence="1">
+    <name type="scientific">Streptomyces humidus</name>
+    <dbReference type="NCBI Taxonomy" id="52259"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Actinomycetota</taxon>
+      <taxon>Actinomycetes</taxon>
+      <taxon>Kitasatosporales</taxon>
+      <taxon>Streptomycetaceae</taxon>
+      <taxon>Streptomyces</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="1" key="1">
+    <citation type="journal article" date="2020" name="Antibiotics" volume="9" last="67">
+      <title>Identification and Heterologous Expression of the Biosynthetic Gene Cluster Encoding the Lasso Peptide Humidimycin, a Caspofungin Activity Potentiator.</title>
+      <authorList>
+        <person name="Sanchez-Hidalgo M."/>
+        <person name="Martin J."/>
+        <person name="Genilloud O."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="1">CA-100629</strain>
+    </source>
+  </reference>
+  <dbReference type="EMBL" id="MN956991">
+    <property type="protein sequence ID" value="QHZ32192.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="A0A6C0QLR4"/>
+  <dbReference type="NCBIfam" id="NF033521">
+    <property type="entry name" value="lasso_leader_L3"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="predicted"/>
+  <evidence type="ECO:0000313" key="1">
+    <source>
+      <dbReference type="EMBL" id="QHZ32192.1"/>
+    </source>
+  </evidence>
+  <sequence length="42" mass="4550" checksum="48291660215187C7" modified="2020-06-17" version="1">MSAIYEPPALQEIGDFDELTKCLGIGSCDDFAGCGYAIVCFW</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

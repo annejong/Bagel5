@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2019-01-16" modified="2023-09-13" version="11" xmlns="http://uniprot.org/uniprot">
+  <accession>A0A3D0LE39</accession>
+  <name>A0A3D0LE39_9FIRM</name>
+  <protein>
+    <recommendedName>
+      <fullName evidence="3">Nif11 domain-containing protein</fullName>
+    </recommendedName>
+  </protein>
+  <gene>
+    <name evidence="1" type="ORF">DEO87_04700</name>
+  </gene>
+  <organism evidence="1 2">
+    <name type="scientific">Lachnospiraceae bacterium</name>
+    <dbReference type="NCBI Taxonomy" id="1898203"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Bacillota</taxon>
+      <taxon>Clostridia</taxon>
+      <taxon>Eubacteriales</taxon>
+      <taxon>Lachnospiraceae</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="1 2" key="1">
+    <citation type="journal article" date="2018" name="Nat. Biotechnol." volume="36" first="996" last="1004">
+      <title>A standardized bacterial taxonomy based on genome phylogeny substantially revises the tree of life.</title>
+      <authorList>
+        <person name="Parks D.H."/>
+        <person name="Chuvochina M."/>
+        <person name="Waite D.W."/>
+        <person name="Rinke C."/>
+        <person name="Skarshewski A."/>
+        <person name="Chaumeil P.A."/>
+        <person name="Hugenholtz P."/>
+      </authorList>
+      <dbReference type="PubMed" id="30148503"/>
+      <dbReference type="DOI" id=".1038/nbt.4229"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="1">UBA9790</strain>
+    </source>
+  </reference>
+  <comment type="caution">
+    <text evidence="1">The sequence shown here is derived from an EMBL/GenBank/DDBJ whole genome shotgun (WGS) entry which is preliminary data.</text>
+  </comment>
+  <dbReference type="EMBL" id="DOVL01000169">
+    <property type="protein sequence ID" value="HCA21658.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="A0A3D0LE39"/>
+  <dbReference type="Proteomes" id="UP000263149">
+    <property type="component" value="Unassembled WGS sequence"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR022516">
+    <property type="entry name" value="CHP03798_Ocin"/>
+  </dbReference>
+  <dbReference type="NCBIfam" id="TIGR03798">
+    <property type="entry name" value="leader_Nif11"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="predicted"/>
+  <evidence type="ECO:0000313" key="1">
+    <source>
+      <dbReference type="EMBL" id="HCA21658.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="2">
+    <source>
+      <dbReference type="Proteomes" id="UP000263149"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0008006" key="3">
+    <source>
+      <dbReference type="Google" id="ProtNLM"/>
+    </source>
+  </evidence>
+  <sequence length="116" mass="12531" checksum="92983FF30996AF2E" modified="2019-01-16" version="1">MVYSWSNISQGGINMNENLKMFLQKVAADEKIQAKMKSFTDIDEAYEYAVSIQDGYSKEEFEAVMAKSAKGSTINDEISDTDLESVAGGTITEGAGGFRASDGDEVDYSLFAATAI</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

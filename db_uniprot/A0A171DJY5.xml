@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2016-07-06" modified="2024-01-24" version="19" xmlns="http://uniprot.org/uniprot">
+  <accession>A0A171DJY5</accession>
+  <name>A0A171DJY5_9ACTN</name>
+  <protein>
+    <submittedName>
+      <fullName evidence="1">Putative lasso peptide</fullName>
+    </submittedName>
+  </protein>
+  <gene>
+    <name evidence="1" type="primary">sphA</name>
+    <name evidence="1" type="ORF">PS9374_04799</name>
+  </gene>
+  <organism evidence="1 2">
+    <name type="scientific">Planomonospora sphaerica</name>
+    <dbReference type="NCBI Taxonomy" id="161355"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Actinomycetota</taxon>
+      <taxon>Actinomycetes</taxon>
+      <taxon>Streptosporangiales</taxon>
+      <taxon>Streptosporangiaceae</taxon>
+      <taxon>Planomonospora</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="1 2" key="1">
+    <citation type="journal article" date="2016" name="Genome Announc." volume="4" first="e00779" last="16">
+      <title>Draft Genome Sequence of Planomonospora sphaerica JCM9374, a Rare Actinomycete.</title>
+      <authorList>
+        <person name="Dohra H."/>
+        <person name="Suzuki T."/>
+        <person name="Inoue Y."/>
+        <person name="Kodani S."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="1 2">JCM 9374</strain>
+    </source>
+  </reference>
+  <reference evidence="2" key="2">
+    <citation type="submission" date="2016-04" db="EMBL/GenBank/DDBJ databases">
+      <title>Planomonospora sphaerica JCM9374 whole genome shotgun sequence.</title>
+      <authorList>
+        <person name="Suzuki T."/>
+        <person name="Dohra H."/>
+        <person name="Kodani S."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="2">JCM 9374</strain>
+    </source>
+  </reference>
+  <reference evidence="3" key="3">
+    <citation type="journal article" date="2017" name="Eur. J. Org. Chem." first="1177" last="1183">
+      <title>Sphaericin, a Lasso Peptide from the Rare Actinomycete Planomonospora sphaerica.</title>
+      <authorList>
+        <person name="Kodani S."/>
+        <person name="Inoue Y."/>
+        <person name="Suzuki M."/>
+        <person name="Dohra H."/>
+        <person name="Suzuki T."/>
+        <person name="Hemmi H."/>
+        <person name="Ohnishi-Kameyama M."/>
+      </authorList>
+      <dbReference type="DOI" id="10.1002/ejoc.201601334"/>
+    </citation>
+    <scope>STRUCTURE BY NMR OF 22-39</scope>
+  </reference>
+  <comment type="caution">
+    <text evidence="1">The sequence shown here is derived from an EMBL/GenBank/DDBJ whole genome shotgun (WGS) entry which is preliminary data.</text>
+  </comment>
+  <dbReference type="EMBL" id="BDCX01000012">
+    <property type="protein sequence ID" value="GAT69128.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="PDB" id="5GVO">
+    <property type="method" value="NMR"/>
+    <property type="chains" value="A=22-39"/>
+  </dbReference>
+  <dbReference type="PDBsum" id="5GVO"/>
+  <dbReference type="AlphaFoldDB" id="A0A171DJY5"/>
+  <dbReference type="BMRB" id="A0A171DJY5"/>
+  <dbReference type="SMR" id="A0A171DJY5"/>
+  <dbReference type="Proteomes" id="UP000077701">
+    <property type="component" value="Unassembled WGS sequence"/>
+  </dbReference>
+  <proteinExistence type="evidence at protein level"/>
+  <keyword evidence="3" id="KW-0002">3D-structure</keyword>
+  <keyword evidence="2" id="KW-1185">Reference proteome</keyword>
+  <evidence type="ECO:0000313" key="1">
+    <source>
+      <dbReference type="EMBL" id="GAT69128.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="2">
+    <source>
+      <dbReference type="Proteomes" id="UP000077701"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007829" key="3">
+    <source>
+      <dbReference type="PDB" id="5GVO"/>
+    </source>
+  </evidence>
+  <sequence length="39" mass="4679" checksum="7548703C2B524E3C" modified="2016-07-06" version="1">MRKRYESPALTCEGTFFEKTKGLPIGWWIERPSGWYFPI</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

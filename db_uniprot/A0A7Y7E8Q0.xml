@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2021-06-02" modified="2023-11-08" version="8" xmlns="http://uniprot.org/uniprot">
+  <accession>A0A7Y7E8Q0</accession>
+  <name>A0A7Y7E8Q0_STRMO</name>
+  <protein>
+    <submittedName>
+      <fullName evidence="1">Uncharacterized protein</fullName>
+    </submittedName>
+  </protein>
+  <gene>
+    <name evidence="1" type="ORF">HG542_21850</name>
+  </gene>
+  <organism evidence="1 2">
+    <name type="scientific">Streptomyces morookaense</name>
+    <name type="common">Streptoverticillium morookaense</name>
+    <dbReference type="NCBI Taxonomy" id="1970"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Actinomycetota</taxon>
+      <taxon>Actinomycetes</taxon>
+      <taxon>Kitasatosporales</taxon>
+      <taxon>Streptomycetaceae</taxon>
+      <taxon>Streptomyces</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="1 2" key="1">
+    <citation type="submission" date="2020-04" db="EMBL/GenBank/DDBJ databases">
+      <title>Draft Genome Sequence of Streptomyces morookaense DSM 40503, an 8-azaguanine-producing strain.</title>
+      <authorList>
+        <person name="Qi J."/>
+        <person name="Gao J.-M."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="1 2">DSM 40503</strain>
+    </source>
+  </reference>
+  <reference evidence="3" key="2">
+    <citation type="journal article" date="2022" name="J. Am. Chem. Soc." volume="144" first="17549" last="17557">
+      <title>Class V Lanthipeptide Cyclase Directs the Biosynthesis of a Stapled Peptide Natural Product.</title>
+      <authorList>
+        <person name="Pei Z.F."/>
+        <person name="Zhu L."/>
+        <person name="Sarksian R."/>
+        <person name="van der Donk W.A."/>
+        <person name="Nair S.K."/>
+      </authorList>
+      <dbReference type="PubMed" id="36107785"/>
+      <dbReference type="DOI" id="10.1021/jacs.2c06808"/>
+    </citation>
+    <scope>STRUCTURE BY NMR OF 19-46</scope>
+  </reference>
+  <comment type="caution">
+    <text evidence="1">The sequence shown here is derived from an EMBL/GenBank/DDBJ whole genome shotgun (WGS) entry which is preliminary data.</text>
+  </comment>
+  <dbReference type="EMBL" id="JABBXF010000049">
+    <property type="protein sequence ID" value="NVK80280.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="PDB" id="8CWX">
+    <property type="method" value="NMR"/>
+    <property type="chains" value="A=19-46"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="A0A7Y7E8Q0"/>
+  <dbReference type="SMR" id="A0A7Y7E8Q0"/>
+  <dbReference type="Proteomes" id="UP000587462">
+    <property type="component" value="Unassembled WGS sequence"/>
+  </dbReference>
+  <proteinExistence type="evidence at protein level"/>
+  <keyword evidence="3" id="KW-0002">3D-structure</keyword>
+  <keyword evidence="2" id="KW-1185">Reference proteome</keyword>
+  <evidence type="ECO:0000313" key="1">
+    <source>
+      <dbReference type="EMBL" id="NVK80280.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="2">
+    <source>
+      <dbReference type="Proteomes" id="UP000587462"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007829" key="3">
+    <source>
+      <dbReference type="PDB" id="8CWX"/>
+    </source>
+  </evidence>
+  <sequence length="46" mass="4881" checksum="1BF3FA0F4BF694F9" modified="2021-06-02" version="1">MSTEDLMSGFSFHVDAEEFAADAWAAQDMASGNPLTTTFCCSVQCG</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

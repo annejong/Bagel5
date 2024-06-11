@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="1998-11-01" modified="2023-09-13" version="68" xmlns="http://uniprot.org/uniprot">
+  <accession>O86283</accession>
+  <name>O86283_LACLL</name>
+  <protein>
+    <submittedName>
+      <fullName evidence="3">Lactococcin 972</fullName>
+    </submittedName>
+  </protein>
+  <gene>
+    <name evidence="3" type="primary">lcn972</name>
+    <name evidence="2" type="synonym">lclA</name>
+  </gene>
+  <organism evidence="3">
+    <name type="scientific">Lactococcus lactis subsp. lactis</name>
+    <name type="common">Streptococcus lactis</name>
+    <dbReference type="NCBI Taxonomy" id="1360"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Bacillota</taxon>
+      <taxon>Bacilli</taxon>
+      <taxon>Lactobacillales</taxon>
+      <taxon>Streptococcaceae</taxon>
+      <taxon>Lactococcus</taxon>
+    </lineage>
+  </organism>
+  <geneLocation type="plasmid" evidence="3">
+    <name>pBL1</name>
+  </geneLocation>
+  <reference evidence="3" key="1">
+    <citation type="journal article" date="1999" name="Microbiology" volume="145" first="3155" last="3161">
+      <title>Synthesis of lactococcin 972, a bacteriocin produced by Lactococcus lactis IPLA 972, depends on the expression of a plasmid-encoded bicistronic operon.</title>
+      <authorList>
+        <person name="Martinez B."/>
+        <person name="Fernandez M."/>
+        <person name="Rodriguez A."/>
+        <person name="Suarez J.E."/>
+      </authorList>
+      <dbReference type="PubMed" id="10589723"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="3">IPLA 972</strain>
+      <plasmid evidence="3">pBL1</plasmid>
+    </source>
+  </reference>
+  <reference evidence="2" key="2">
+    <citation type="journal article" date="2000" name="Plasmid" volume="44" first="239" last="249">
+      <title>Nucleotide sequence and analysis of pBL1, a bacteriocin-producing plasmid from Lactococcus lactis IPLA 972.</title>
+      <authorList>
+        <person name="Sanchez C."/>
+        <person name="Hernandez de Rojas A."/>
+        <person name="Martinez B."/>
+        <person name="Arguelles M.E."/>
+        <person name="Suarez J.E."/>
+        <person name="Rodriguez A."/>
+        <person name="Mayo B."/>
+      </authorList>
+      <dbReference type="PubMed" id="11078650"/>
+      <dbReference type="DOI" id="10.1006/plas.2000.1482"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="2">IPLA 972</strain>
+      <plasmid evidence="2">pBL1</plasmid>
+    </source>
+  </reference>
+  <reference evidence="3" key="3">
+    <citation type="submission" date="2000-08" db="EMBL/GenBank/DDBJ databases">
+      <authorList>
+        <person name="Martinez B."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="3">IPLA 972</strain>
+      <plasmid evidence="3">pBL1</plasmid>
+    </source>
+  </reference>
+  <reference evidence="4" key="4">
+    <citation type="submission" date="2011-07" db="PDB data bank">
+      <title>Structure and properties of lactococcin 972 from Lactococcus lactis.</title>
+      <authorList>
+        <person name="Turner D.L."/>
+        <person name="Lamosa P."/>
+        <person name="Martinez B."/>
+      </authorList>
+    </citation>
+    <scope>STRUCTURE BY NMR OF 26-91</scope>
+  </reference>
+  <dbReference type="EMBL" id="AF242367">
+    <property type="protein sequence ID" value="AAF64054.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="AJ002203">
+    <property type="protein sequence ID" value="CAA05247.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="NP_862432.1">
+    <property type="nucleotide sequence ID" value="NC_004955.1"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="WP_011117133.1">
+    <property type="nucleotide sequence ID" value="NC_004955.1"/>
+  </dbReference>
+  <dbReference type="PDB" id="2LGN">
+    <property type="method" value="NMR"/>
+    <property type="chains" value="A=26-91"/>
+  </dbReference>
+  <dbReference type="PDBsum" id="2LGN"/>
+  <dbReference type="AlphaFoldDB" id="O86283"/>
+  <dbReference type="SMR" id="O86283"/>
+  <dbReference type="TCDB" id="1.C.37.1.1">
+    <property type="family name" value="the lactococcin 972 (lactococcin 972) family"/>
+  </dbReference>
+  <dbReference type="Gene3D" id="2.60.40.2850">
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR006540">
+    <property type="entry name" value="Lactococcin_972"/>
+  </dbReference>
+  <dbReference type="NCBIfam" id="TIGR01653">
+    <property type="entry name" value="lactococcin_972"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF09683">
+    <property type="entry name" value="Lactococcin_972"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="evidence at protein level"/>
+  <keyword evidence="4" id="KW-0002">3D-structure</keyword>
+  <keyword evidence="3" id="KW-0614">Plasmid</keyword>
+  <keyword evidence="1" id="KW-0732">Signal</keyword>
+  <feature type="signal peptide" evidence="1">
+    <location>
+      <begin position="1"/>
+      <end position="25"/>
+    </location>
+  </feature>
+  <feature type="chain" id="PRO_5007697201" evidence="1">
+    <location>
+      <begin position="26"/>
+      <end position="91"/>
+    </location>
+  </feature>
+  <evidence type="ECO:0000256" key="1">
+    <source>
+      <dbReference type="SAM" id="SignalP"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="2">
+    <source>
+      <dbReference type="EMBL" id="AAF64054.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="3">
+    <source>
+      <dbReference type="EMBL" id="CAA05247.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007829" key="4">
+    <source>
+      <dbReference type="PDB" id="2LGN"/>
+    </source>
+  </evidence>
+  <sequence length="91" mass="9840" checksum="D065E19698F6BFE9" modified="1998-11-01" version="1">MKTKSLVLALSAVTLFSAGGIVAQAEGTWQHGYGVSSAYSNYHHGSKTHSATVVNNNTGRQGKDTQRAGVWAKATVGRNLTEKASFYYNFW</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

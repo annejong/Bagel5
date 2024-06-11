@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2021-09-29" modified="2023-05-03" version="3" xmlns="http://uniprot.org/uniprot">
+  <accession>A0A8A5XDN2</accession>
+  <name>A0A8A5XDN2_9BACI</name>
+  <protein>
+    <submittedName>
+      <fullName evidence="1">Toyonsin</fullName>
+    </submittedName>
+  </protein>
+  <organism evidence="1">
+    <name type="scientific">Bacillus toyonensis</name>
+    <dbReference type="NCBI Taxonomy" id="155322"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Bacillota</taxon>
+      <taxon>Bacilli</taxon>
+      <taxon>Bacillales</taxon>
+      <taxon>Bacillaceae</taxon>
+      <taxon>Bacillus</taxon>
+      <taxon>Bacillus cereus group</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="1" key="1">
+    <citation type="journal article" date="2021" name="Appl. Environ. Microbiol.">
+      <title>Toyoncin-a novel leaderless bacteriocin produced by Bacillus toyonensis XIN-YC13 that specifically targets B. cereus and Listeria monocytogenes.</title>
+      <authorList>
+        <person name="Xin B."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="1">XIN-YC13</strain>
+    </source>
+  </reference>
+  <dbReference type="EMBL" id="MT795152">
+    <property type="protein sequence ID" value="QTH19314.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="A0A8A5XDN2"/>
+  <proteinExistence type="predicted"/>
+  <evidence type="ECO:0000313" key="1">
+    <source>
+      <dbReference type="EMBL" id="QTH19314.1"/>
+    </source>
+  </evidence>
+  <sequence length="70" mass="7794" checksum="4D18056C04659CCB" modified="2021-09-29" version="1">MINTAWKIIKALQKYGTKAYNVIKKGGQAMYDSFMAAKAKGWTHAAWWLVEHGSTLGTFYDLLKAAGLID</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

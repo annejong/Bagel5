@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2012-06-13" modified="2024-01-24" version="37" xmlns="http://uniprot.org/uniprot">
+  <accession>I0HM07</accession>
+  <name>I0HM07_RUBGI</name>
+  <protein>
+    <submittedName>
+      <fullName evidence="1">Uncharacterized protein</fullName>
+    </submittedName>
+  </protein>
+  <gene>
+    <name evidence="1" type="ordered locus">RGE_06990</name>
+  </gene>
+  <organism evidence="1 2">
+    <name type="scientific">Rubrivivax gelatinosus (strain NBRC 100245 / IL144)</name>
+    <dbReference type="NCBI Taxonomy" id="983917"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Pseudomonadota</taxon>
+      <taxon>Betaproteobacteria</taxon>
+      <taxon>Burkholderiales</taxon>
+      <taxon>Sphaerotilaceae</taxon>
+      <taxon>Rubrivivax</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="1 2" key="1">
+    <citation type="journal article" date="2012" name="J. Bacteriol." volume="194" first="3541" last="3542">
+      <title>Complete genome sequence of phototrophic betaproteobacterium Rubrivivax gelatinosus IL144.</title>
+      <authorList>
+        <person name="Nagashima S."/>
+        <person name="Kamimura A."/>
+        <person name="Shimizu T."/>
+        <person name="Nakamura-isaki S."/>
+        <person name="Aono E."/>
+        <person name="Sakamoto K."/>
+        <person name="Ichikawa N."/>
+        <person name="Nakazawa H."/>
+        <person name="Sekine M."/>
+        <person name="Yamazaki S."/>
+        <person name="Fujita N."/>
+        <person name="Shimada K."/>
+        <person name="Hanada S."/>
+        <person name="Nagashima K.V.P."/>
+      </authorList>
+      <dbReference type="PubMed" id="22689232"/>
+      <dbReference type="DOI" id="10.1128/JB.00511-12"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="2">NBRC 100245 / IL144</strain>
+    </source>
+  </reference>
+  <reference evidence="3" key="2">
+    <citation type="journal article" date="2018" name="Analyst" volume="143" first="1157" last="1170">
+      <title>General rules of fragmentation evidencing lasso structures in CID and ETD.</title>
+      <authorList>
+        <person name="Jeanne Dit Fouque K."/>
+        <person name="Lavanant H."/>
+        <person name="Zirah S."/>
+        <person name="Hegemann J.D."/>
+        <person name="Fage C.D."/>
+        <person name="Marahiel M.A."/>
+        <person name="Rebuffat S."/>
+        <person name="Afonso C."/>
+      </authorList>
+      <dbReference type="PubMed" id="29404537"/>
+      <dbReference type="DOI" id="10.1039/c7an02052j"/>
+    </citation>
+    <scope>X-RAY CRYSTALLOGRAPHY (0.81 ANGSTROMS) OF 21-38</scope>
+  </reference>
+  <dbReference type="EMBL" id="AP012320">
+    <property type="protein sequence ID" value="BAL94044.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="PDB" id="5OQZ">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="0.81 A"/>
+    <property type="chains" value="A=21-38"/>
+  </dbReference>
+  <dbReference type="PDBsum" id="5OQZ"/>
+  <dbReference type="AlphaFoldDB" id="I0HM07"/>
+  <dbReference type="SMR" id="I0HM07"/>
+  <dbReference type="STRING" id="983917.RGE_06990"/>
+  <dbReference type="KEGG" id="rge:RGE_06990"/>
+  <dbReference type="PATRIC" id="fig|983917.3.peg.682"/>
+  <dbReference type="HOGENOM" id="CLU_3332536_0_0_4"/>
+  <dbReference type="Proteomes" id="UP000007883">
+    <property type="component" value="Chromosome"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR046017">
+    <property type="entry name" value="DUF5974"/>
+  </dbReference>
+  <dbReference type="NCBIfam" id="NF033522">
+    <property type="entry name" value="lasso_benenodin"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF19399">
+    <property type="entry name" value="DUF5974"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="evidence at protein level"/>
+  <keyword evidence="3" id="KW-0002">3D-structure</keyword>
+  <keyword evidence="2" id="KW-1185">Reference proteome</keyword>
+  <evidence type="ECO:0000313" key="1">
+    <source>
+      <dbReference type="EMBL" id="BAL94044.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="2">
+    <source>
+      <dbReference type="Proteomes" id="UP000007883"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007829" key="3">
+    <source>
+      <dbReference type="PDB" id="5OQZ"/>
+    </source>
+  </evidence>
+  <sequence length="38" mass="4185" checksum="79347CB466EE615F" modified="2012-06-13" version="1">MDEELELEIVDLGDAKELTQGAPSLINSEDNPAFPQRV</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

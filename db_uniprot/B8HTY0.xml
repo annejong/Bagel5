@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2009-03-03" modified="2024-01-24" version="45" xmlns="http://uniprot.org/uniprot">
+  <accession>B8HTY0</accession>
+  <name>B8HTY0_CYAP4</name>
+  <protein>
+    <submittedName>
+      <fullName evidence="1">Uncharacterized protein</fullName>
+    </submittedName>
+  </protein>
+  <gene>
+    <name evidence="1" type="ordered locus">Cyan7425_0509</name>
+  </gene>
+  <organism evidence="1">
+    <name type="scientific">Cyanothece sp. (strain PCC 7425 / ATCC 29141)</name>
+    <dbReference type="NCBI Taxonomy" id="395961"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Cyanobacteriota</taxon>
+      <taxon>Cyanophyceae</taxon>
+      <taxon>Gomontiellales</taxon>
+      <taxon>Cyanothecaceae</taxon>
+      <taxon>Cyanothece</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="1" key="1">
+    <citation type="submission" date="2009-01" db="EMBL/GenBank/DDBJ databases">
+      <title>Complete sequence of chromosome Cyanothece sp. PCC 7425.</title>
+      <authorList>
+        <consortium name="US DOE Joint Genome Institute"/>
+        <person name="Lucas S."/>
+        <person name="Copeland A."/>
+        <person name="Lapidus A."/>
+        <person name="Glavina del Rio T."/>
+        <person name="Dalin E."/>
+        <person name="Tice H."/>
+        <person name="Bruce D."/>
+        <person name="Goodwin L."/>
+        <person name="Pitluck S."/>
+        <person name="Sims D."/>
+        <person name="Meineke L."/>
+        <person name="Brettin T."/>
+        <person name="Detter J.C."/>
+        <person name="Han C."/>
+        <person name="Larimer F."/>
+        <person name="Land M."/>
+        <person name="Hauser L."/>
+        <person name="Kyrpides N."/>
+        <person name="Ovchinnikova G."/>
+        <person name="Liberton M."/>
+        <person name="Stoeckel J."/>
+        <person name="Banerjee A."/>
+        <person name="Singh A."/>
+        <person name="Page L."/>
+        <person name="Sato H."/>
+        <person name="Zhao L."/>
+        <person name="Sherman L."/>
+        <person name="Pakrasi H."/>
+        <person name="Richardson P."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="1">PCC 7425</strain>
+    </source>
+  </reference>
+  <dbReference type="EMBL" id="CP001344">
+    <property type="protein sequence ID" value="ACL42900.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="B8HTY0"/>
+  <dbReference type="STRING" id="395961.Cyan7425_0509"/>
+  <dbReference type="KEGG" id="cyn:Cyan7425_0509"/>
+  <dbReference type="HOGENOM" id="CLU_193731_1_0_3"/>
+  <dbReference type="OrthoDB" id="463756at2"/>
+  <dbReference type="InterPro" id="IPR044050">
+    <property type="entry name" value="DUF5837"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR022264">
+    <property type="entry name" value="Microcy/ptell_bactrcn_lead_pep"/>
+  </dbReference>
+  <dbReference type="NCBIfam" id="TIGR03678">
+    <property type="entry name" value="het_cyc_patell"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF19155">
+    <property type="entry name" value="DUF5837"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="predicted"/>
+  <evidence type="ECO:0000313" key="1">
+    <source>
+      <dbReference type="EMBL" id="ACL42900.1"/>
+    </source>
+  </evidence>
+  <sequence length="62" mass="6735" checksum="98CA7400AF04712D" modified="2009-03-03" version="1">MDLQNLLPQQANPIHRTTTGQLPAELAELSDETLCNSGVLPSGFEAPVLYKDQCSYEGDDAE</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

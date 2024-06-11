@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2011-12-14" modified="2023-09-13" version="25" xmlns="http://uniprot.org/uniprot">
+  <accession>C6FX52</accession>
+  <name>NOSM_STRAS</name>
+  <protein>
+    <recommendedName>
+      <fullName evidence="13">Nosiheptide precursor</fullName>
+    </recommendedName>
+    <component>
+      <recommendedName>
+        <fullName evidence="13">Nosiheptide</fullName>
+        <shortName evidence="13">NOS</shortName>
+      </recommendedName>
+      <alternativeName>
+        <fullName evidence="16">Antibiotic 9671-RP</fullName>
+      </alternativeName>
+      <alternativeName>
+        <fullName evidence="15">Multhiomycin</fullName>
+      </alternativeName>
+    </component>
+  </protein>
+  <gene>
+    <name evidence="18" type="primary">nosM</name>
+  </gene>
+  <organism>
+    <name type="scientific">Streptomyces actuosus</name>
+    <dbReference type="NCBI Taxonomy" id="1885"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Actinomycetota</taxon>
+      <taxon>Actinomycetes</taxon>
+      <taxon>Kitasatosporales</taxon>
+      <taxon>Streptomycetaceae</taxon>
+      <taxon>Streptomyces</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="17 18" key="1">
+    <citation type="journal article" date="2009" name="ACS Chem. Biol." volume="4" first="855" last="864">
+      <title>Nosiheptide biosynthesis featuring a unique indole side ring formation on the characteristic thiopeptide framework.</title>
+      <authorList>
+        <person name="Yu Y."/>
+        <person name="Duan L."/>
+        <person name="Zhang Q."/>
+        <person name="Liao R."/>
+        <person name="Ding Y."/>
+        <person name="Pan H."/>
+        <person name="Wendt-Pienkowski E."/>
+        <person name="Tang G."/>
+        <person name="Shen B."/>
+        <person name="Liu W."/>
+      </authorList>
+      <dbReference type="PubMed" id="19678698"/>
+      <dbReference type="DOI" id="10.1021/cb900133x"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+    <scope>HYDROXYLATION AT GLU-43</scope>
+    <scope>MASS SPECTROMETRY</scope>
+    <source>
+      <strain evidence="5">ATCC 25421 / DSM 40337 / JCM 4445 / NBRC 13009 / NRRL 2954 / VKM Ac-1274</strain>
+    </source>
+  </reference>
+  <reference evidence="17" key="2">
+    <citation type="journal article" date="1980" name="Experientia" volume="36" first="414" last="416">
+      <title>Nosiheptide, a sulfur-containing peptide antibiotic isolated from Streptomyces actuosus 40037.</title>
+      <authorList>
+        <person name="Benazet F."/>
+        <person name="Cartier M."/>
+        <person name="Florent J."/>
+        <person name="Godard C."/>
+        <person name="Jung G."/>
+        <person name="Lunel J."/>
+        <person name="Mancy D."/>
+        <person name="Pascal C."/>
+        <person name="Renaut J."/>
+        <person name="Tarridec P."/>
+        <person name="Theilleux J."/>
+        <person name="Tissier R."/>
+        <person name="Dubost M."/>
+        <person name="Ninet L."/>
+      </authorList>
+      <dbReference type="PubMed" id="7379912"/>
+      <dbReference type="DOI" id="10.1007/bf01975121"/>
+    </citation>
+    <scope>FUNCTION</scope>
+    <source>
+      <strain evidence="11">ATCC 25421 / DSM 40337 / JCM 4445 / NBRC 13009 / NRRL 2954 / VKM Ac-1274</strain>
+    </source>
+  </reference>
+  <reference evidence="17" key="3">
+    <citation type="journal article" date="1981" name="J. Gen. Microbiol." volume="126" first="185" last="192">
+      <title>The mode of action of nosiheptide (multhiomycin) and the mechanism of resistance in the producing organism.</title>
+      <authorList>
+        <person name="Cundliffe E."/>
+        <person name="Thompson J."/>
+      </authorList>
+      <dbReference type="PubMed" id="7038038"/>
+      <dbReference type="DOI" id="10.1099/00221287-126-1-185"/>
+    </citation>
+    <scope>FUNCTION</scope>
+    <source>
+      <strain evidence="10">ATCC 25421 / DSM 40337 / JCM 4445 / NBRC 13009 / NRRL 2954 / VKM Ac-1274</strain>
+    </source>
+  </reference>
+  <reference evidence="17" key="4">
+    <citation type="journal article" date="2003" name="Chem. Biol." volume="10" first="769" last="778">
+      <title>Structural basis for contrasting activities of ribosome binding thiazole antibiotics.</title>
+      <authorList>
+        <person name="Lentzen G."/>
+        <person name="Klinck R."/>
+        <person name="Matassova N."/>
+        <person name="Aboul-ela F."/>
+        <person name="Murchie A.I."/>
+      </authorList>
+      <dbReference type="PubMed" id="12954336"/>
+      <dbReference type="DOI" id="10.1016/s1074-5521(03)00173-x"/>
+    </citation>
+    <scope>FUNCTION</scope>
+  </reference>
+  <reference evidence="17" key="5">
+    <citation type="journal article" date="2008" name="J. Am. Chem. Soc." volume="130" first="5664" last="5666">
+      <title>Mapping the binding site of thiopeptide antibiotics by proximity-induced covalent capture.</title>
+      <authorList>
+        <person name="Baumann S."/>
+        <person name="Schoof S."/>
+        <person name="Harkal S.D."/>
+        <person name="Arndt H.D."/>
+      </authorList>
+      <dbReference type="PubMed" id="18380436"/>
+      <dbReference type="DOI" id="10.1021/ja710608w"/>
+    </citation>
+    <scope>FUNCTION</scope>
+  </reference>
+  <reference evidence="17" key="6">
+    <citation type="journal article" date="2010" name="J. Am. Chem. Soc." volume="132" first="6973" last="6981">
+      <title>Molecular determinants of microbial resistance to thiopeptide antibiotics.</title>
+      <authorList>
+        <person name="Baumann S."/>
+        <person name="Schoof S."/>
+        <person name="Bolten M."/>
+        <person name="Haering C."/>
+        <person name="Takagi M."/>
+        <person name="Shin-ya K."/>
+        <person name="Arndt H.D."/>
+      </authorList>
+      <dbReference type="PubMed" id="20441189"/>
+      <dbReference type="DOI" id="10.1021/ja909317n"/>
+    </citation>
+    <scope>FUNCTION</scope>
+  </reference>
+  <reference evidence="17" key="7">
+    <citation type="journal article" date="2011" name="J. Vet. Med. Sci." volume="73" first="1681" last="1684">
+      <title>Antimicrobial susceptibilities of Listeria monocytogenes isolated in Japan.</title>
+      <authorList>
+        <person name="Okada Y."/>
+        <person name="Okutani A."/>
+        <person name="Suzuki H."/>
+        <person name="Asakura H."/>
+        <person name="Monden S."/>
+        <person name="Nakama A."/>
+        <person name="Maruyama T."/>
+        <person name="Igimi S."/>
+      </authorList>
+      <dbReference type="PubMed" id="21836384"/>
+      <dbReference type="DOI" id="10.1292/jvms.11-0051"/>
+    </citation>
+    <scope>FUNCTION</scope>
+  </reference>
+  <reference evidence="17" key="8">
+    <citation type="journal article" date="2010" name="J. Am. Chem. Soc." volume="132" first="16324" last="16326">
+      <title>NosA catalyzing carboxyl-terminal amide formation in nosiheptide maturation via an enamine dealkylation on the serine-extended precursor peptide.</title>
+      <authorList>
+        <person name="Yu Y."/>
+        <person name="Guo H."/>
+        <person name="Zhang Q."/>
+        <person name="Duan L."/>
+        <person name="Ding Y."/>
+        <person name="Liao R."/>
+        <person name="Lei C."/>
+        <person name="Shen B."/>
+        <person name="Liu W."/>
+      </authorList>
+      <dbReference type="PubMed" id="21047073"/>
+      <dbReference type="DOI" id="10.1021/ja106571g"/>
+    </citation>
+    <scope>MASS SPECTROMETRY</scope>
+    <scope>AMIDATION AT SER-49</scope>
+    <source>
+      <strain evidence="7">ATCC 25421 / DSM 40337 / JCM 4445 / NBRC 13009 / NRRL 2954 / VKM Ac-1274</strain>
+    </source>
+  </reference>
+  <reference evidence="17" key="9">
+    <citation type="journal article" date="1977" name="J. Am. Chem. Soc." volume="99" first="6418" last="6423">
+      <title>Highly modified cysteine-containing antibiotics. Chemical structure and configuration of nosiheptide.</title>
+      <authorList>
+        <person name="Pascard C."/>
+        <person name="Ducruix A."/>
+        <person name="Lunel J."/>
+        <person name="Prange T."/>
+      </authorList>
+      <dbReference type="PubMed" id="893891"/>
+      <dbReference type="DOI" id="10.1021/ja00461a039"/>
+    </citation>
+    <scope>X-RAY CRYSTALLOGRAPHY OF 38-49</scope>
+    <scope>DEHYDRATION AT SER-49</scope>
+  </reference>
+  <reference evidence="17" key="10">
+    <citation type="journal article" date="1989" name="J. Antibiot." volume="42" first="1643" last="1648">
+      <title>1H and 13C NMR assignments of the thiopeptide antibiotic nosiheptide.</title>
+      <authorList>
+        <person name="Mocek U."/>
+        <person name="Chen L.C."/>
+        <person name="Keller P.J."/>
+        <person name="Houck D.R."/>
+        <person name="Beale J.M."/>
+        <person name="Floss H.G."/>
+      </authorList>
+      <dbReference type="PubMed" id="2584148"/>
+      <dbReference type="DOI" id="10.7164/antibiotics.42.1643"/>
+    </citation>
+    <scope>STRUCTURE BY NMR</scope>
+    <scope>DEHYDRATION AT SER-49</scope>
+  </reference>
+  <reference evidence="17" key="11">
+    <citation type="journal article" date="2008" name="Mol. Cell" volume="30" first="26" last="38">
+      <title>Translational regulation via L11: molecular switches on the ribosome turned on and off by thiostrepton and micrococcin.</title>
+      <authorList>
+        <person name="Harms J.M."/>
+        <person name="Wilson D.N."/>
+        <person name="Schluenzen F."/>
+        <person name="Connell S.R."/>
+        <person name="Stachelhaus T."/>
+        <person name="Zaborowska Z."/>
+        <person name="Spahn C.M."/>
+        <person name="Fucini P."/>
+      </authorList>
+      <dbReference type="PubMed" id="18406324"/>
+      <dbReference type="DOI" id="10.1016/j.molcel.2008.01.009"/>
+    </citation>
+    <scope>X-RAY CRYSTALLOGRAPHY (3.7 ANGSTROMS) OF 38-49</scope>
+    <scope>DEHYDRATION AT SER-49</scope>
+  </reference>
+  <comment type="function">
+    <text evidence="2 3 4 6 8 10 11">Inhibits bacterial protein biosynthesis by binding to ribosomes. Specifically, binds to the complex of 23S rRNA and ribosomal protein L11 (RPLK) in the 50S ribosomal subunit. While allowing a weak binding of elongation factor G (EF-G) to the ribosome and subsequent GTP-hydrolysis, probably impairs conformational changes in both the ribosome and EF-G which are necessary for translocation. In vitro, inhibits Gram-positive bacteria S.aureus strain 209P (MIC=0.0009 ug/ml), S.aureus strain 133 (MIC=0.0019 ug/ml), S.aureus strain B3 (MIC=0.003 ug/ml), S.aureus strain Hb (MIC=0.003 ug/ml), M.citreus strain ATCC 8411 (MIC=0.0038 ug/ml), M.lysodeikticus strain ATCC 4698 (MIC=0.003 ug/ml), S.lutea strain ATCC 9341 (MIC=0.0011 ug/ml), S.faecalis strain ATCC 9790 (MIC=0.0007 ug/ml), S.viridans (MIC=0.0065 ug/ml), S.pyogenes hemolyticus strain Dig7 (MIC=0.00028 ug/ml), D.pneumoniae strain Til (MIC=0.00015 ug/ml), N.catrrhalis (MIC=0.0017 ug/ml), L.casei strain ATCC 6633 (MIC=0.003 ug/ml), B.cereus strain ATCC 6630 (MIC=0.0071 ug/ml) and various isolates of L.monocytogenes. In vitro, inhibits Gram-negative bacterium P.multocida strain A125 (MIC=0.0024 ug/ml) but not M.smegmatis strain ATCC 6630, S.typhimurium, A.aerogenes strain ATCC 8308, P.vulgaris, K.pneumoniae strain ATCC 10031, S.marcescens strain A476, P.aeruginosa strain Bass or B.bronchiseptica strain CN387. Does not inhibit Gram-negative bacterium E.coli strain ATCC 9637 but does inhibit purified ribosomes from E.coli. In vivo, has no systemic effect in mice infected with staphylococci or streptococci when applied orally or subcutaneously. Has a local effect in mice infected subcutaneously or intraperitoneally with staphylococci when applied immediately afterwards. Is not toxic to mice.</text>
+  </comment>
+  <comment type="PTM">
+    <text evidence="7">The amidation of Ser-49 is produced by the oxidative cleavage of Ser-50 rather than of a glycine, as in eukaryotes.</text>
+  </comment>
+  <comment type="mass spectrometry" mass="1269.74" method="Unknown" evidence="5 7">
+    <molecule>Nosiheptide</molecule>
+  </comment>
+  <comment type="mass spectrometry" mass="1314.1467" method="Electrospray" evidence="5 7">
+    <molecule>Nosiheptide</molecule>
+  </comment>
+  <comment type="miscellaneous">
+    <text evidence="17">The mature peptide is identical to multhiomycin from S.antibioticus strain 8446CC1 (PMID 681244).</text>
+  </comment>
+  <comment type="miscellaneous">
+    <text evidence="14">Used as an antibiotic growth promotant in poultry and pig farming in parts of Asia.</text>
+  </comment>
+  <comment type="similarity">
+    <text evidence="1">Belongs to the thiocillin family.</text>
+  </comment>
+  <dbReference type="EMBL" id="FJ438820">
+    <property type="protein sequence ID" value="ACR48342.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="PDB" id="2ZJP">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="3.70 A"/>
+    <property type="chains" value="5=38-50"/>
+  </dbReference>
+  <dbReference type="PDBsum" id="2ZJP"/>
+  <dbReference type="AlphaFoldDB" id="C6FX52"/>
+  <dbReference type="SMR" id="C6FX52"/>
+  <dbReference type="EvolutionaryTrace" id="C6FX52"/>
+  <dbReference type="GO" id="GO:0070180">
+    <property type="term" value="F:large ribosomal subunit rRNA binding"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0050829">
+    <property type="term" value="P:defense response to Gram-negative bacterium"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0050830">
+    <property type="term" value="P:defense response to Gram-positive bacterium"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0045900">
+    <property type="term" value="P:negative regulation of translational elongation"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR023895">
+    <property type="entry name" value="Thiopep_bacteriocin_prcur"/>
+  </dbReference>
+  <dbReference type="NCBIfam" id="NF033401">
+    <property type="entry name" value="thiazolyl_BerA"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="NCBIfam" id="TIGR03892">
+    <property type="entry name" value="thiopep_precurs"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="evidence at protein level"/>
+  <keyword id="KW-0002">3D-structure</keyword>
+  <keyword id="KW-0027">Amidation</keyword>
+  <keyword id="KW-0044">Antibiotic</keyword>
+  <keyword id="KW-0929">Antimicrobial</keyword>
+  <keyword id="KW-0379">Hydroxylation</keyword>
+  <keyword id="KW-0883">Thioether bond</keyword>
+  <feature type="chain" id="PRO_0000414621" description="Nosiheptide precursor">
+    <location>
+      <begin position="1"/>
+      <end position="50"/>
+    </location>
+  </feature>
+  <feature type="peptide" id="PRO_0000414622" description="Nosiheptide" evidence="5">
+    <location>
+      <begin position="38"/>
+      <end position="49"/>
+    </location>
+  </feature>
+  <feature type="modified residue" description="4-hydroxyglutamate" evidence="4 5 9 12">
+    <location>
+      <position position="43"/>
+    </location>
+  </feature>
+  <feature type="modified residue" description="2,3-didehydroalanine (Ser)" evidence="4 9 12">
+    <location>
+      <position position="49"/>
+    </location>
+  </feature>
+  <feature type="modified residue" description="Serine amide; atypical" evidence="4 7 9 12">
+    <location>
+      <position position="49"/>
+    </location>
+  </feature>
+  <feature type="cross-link" description="3-hydroxypyridine-2,5-dicarboxylic acid (Ser-Ser) (with C-46)" evidence="4 9 12">
+    <location>
+      <begin position="38"/>
+      <end position="47"/>
+    </location>
+  </feature>
+  <feature type="cross-link" description="3-hydroxypyridine-2,5-dicarboxylic acid (Ser-Cys) (with S-47)" evidence="4 9 12">
+    <location>
+      <begin position="38"/>
+      <end position="46"/>
+    </location>
+  </feature>
+  <feature type="cross-link" description="Thiazole-4-carboxylic acid (Ser-Cys)" evidence="4 9 12">
+    <location>
+      <begin position="38"/>
+      <end position="39"/>
+    </location>
+  </feature>
+  <feature type="cross-link" description="Thiazole-4-carboxylic acid (Thr-Cys)" evidence="4 9 12">
+    <location>
+      <begin position="41"/>
+      <end position="42"/>
+    </location>
+  </feature>
+  <feature type="cross-link" description="2-(cystein-S-ylcarbonyl)-3-methyl-4-(glutam-5-yloxy)methylindole (Glu-Cys)" evidence="4 9 12">
+    <location>
+      <begin position="43"/>
+      <end position="45"/>
+    </location>
+  </feature>
+  <feature type="cross-link" description="Thiazole-4-carboxylic acid (Glu-Cys)" evidence="4 9 12">
+    <location>
+      <begin position="43"/>
+      <end position="44"/>
+    </location>
+  </feature>
+  <feature type="cross-link" description="Thiazole-4-carboxylic acid (Cys-Cys)" evidence="4 9 12">
+    <location>
+      <begin position="45"/>
+      <end position="46"/>
+    </location>
+  </feature>
+  <feature type="cross-link" description="Thiazole-4-carboxylic acid (Ser-Cys)" evidence="4 9 12">
+    <location>
+      <begin position="47"/>
+      <end position="48"/>
+    </location>
+  </feature>
+  <evidence type="ECO:0000255" key="1"/>
+  <evidence type="ECO:0000269" key="2">
+    <source>
+      <dbReference type="PubMed" id="12954336"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="3">
+    <source>
+      <dbReference type="PubMed" id="18380436"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="4">
+    <source>
+      <dbReference type="PubMed" id="18406324"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="5">
+    <source>
+      <dbReference type="PubMed" id="19678698"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="6">
+    <source>
+      <dbReference type="PubMed" id="20441189"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="7">
+    <source>
+      <dbReference type="PubMed" id="21047073"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="8">
+    <source>
+      <dbReference type="PubMed" id="21836384"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="9">
+    <source>
+      <dbReference type="PubMed" id="2584148"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="10">
+    <source>
+      <dbReference type="PubMed" id="7038038"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="11">
+    <source>
+      <dbReference type="PubMed" id="7379912"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="12">
+    <source>
+      <dbReference type="PubMed" id="893891"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000303" key="13">
+    <source>
+      <dbReference type="PubMed" id="19678698"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000303" key="14">
+    <source>
+      <dbReference type="PubMed" id="21836384"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000303" key="15">
+    <source>
+      <dbReference type="PubMed" id="7038038"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000303" key="16">
+    <source>
+      <dbReference type="PubMed" id="7379912"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000305" key="17"/>
+  <evidence type="ECO:0000312" key="18">
+    <source>
+      <dbReference type="EMBL" id="ACR48342.1"/>
+    </source>
+  </evidence>
+  <sequence length="50" mass="5364" checksum="7ADF5924AF2C7D00" modified="2009-09-01" version="1">MDAAHLSDLDIDALEISEFLDESRLEDSEVVAKVMSASCTTCECCCSCSS</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

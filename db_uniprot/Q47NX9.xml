@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2005-09-13" modified="2024-01-24" version="83" xmlns="http://uniprot.org/uniprot">
+  <accession>Q47NX9</accession>
+  <name>Q47NX9_THEFY</name>
+  <protein>
+    <recommendedName>
+      <fullName evidence="5">ATP-grasp target RiPP</fullName>
+    </recommendedName>
+  </protein>
+  <gene>
+    <name evidence="2" type="ordered locus">Tfu_1807</name>
+  </gene>
+  <organism evidence="2">
+    <name type="scientific">Thermobifida fusca (strain YX)</name>
+    <dbReference type="NCBI Taxonomy" id="269800"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Actinomycetota</taxon>
+      <taxon>Actinomycetes</taxon>
+      <taxon>Streptosporangiales</taxon>
+      <taxon>Nocardiopsaceae</taxon>
+      <taxon>Thermobifida</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="2" key="1">
+    <citation type="submission" date="2005-07" db="EMBL/GenBank/DDBJ databases">
+      <title>Complete sequence of Thermobifida fusca YX.</title>
+      <authorList>
+        <consortium name="US DOE Joint Genome Institute"/>
+        <person name="Copeland A."/>
+        <person name="Lucas S."/>
+        <person name="Lapidus A."/>
+        <person name="Barry K."/>
+        <person name="Detter J.C."/>
+        <person name="Glavina T."/>
+        <person name="Hammon N."/>
+        <person name="Israni S."/>
+        <person name="Pitluck S."/>
+        <person name="Di Bartolo G."/>
+        <person name="Chain P."/>
+        <person name="Schmutz J."/>
+        <person name="Larimer F."/>
+        <person name="Land M."/>
+        <person name="Lykidis A."/>
+        <person name="Richardson P."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="2">YX</strain>
+    </source>
+  </reference>
+  <reference evidence="3 4" key="2">
+    <citation type="journal article" date="2022" name="Nat. Chem.">
+      <title>Biosynthesis and characterization of fuscimiditide, an aspartimidylated graspetide.</title>
+      <authorList>
+        <person name="Elashal H.E."/>
+        <person name="Koos J.D."/>
+        <person name="Cheung-Lee W.L."/>
+        <person name="Choi B."/>
+        <person name="Cao L."/>
+        <person name="Richardson M.A."/>
+        <person name="White H.L."/>
+        <person name="Link A.J."/>
+      </authorList>
+      <dbReference type="PubMed" id="35982233"/>
+      <dbReference type="DOI" id="10.1038/s41557-022-01022-y"/>
+    </citation>
+    <scope>STRUCTURE BY NMR OF 68-89</scope>
+  </reference>
+  <dbReference type="EMBL" id="CP000088">
+    <property type="protein sequence ID" value="AAZ55840.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="PDB" id="7LI2">
+    <property type="method" value="NMR"/>
+    <property type="chains" value="A=68-89"/>
+  </dbReference>
+  <dbReference type="PDB" id="7LIF">
+    <property type="method" value="NMR"/>
+    <property type="chains" value="A=68-89"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="Q47NX9"/>
+  <dbReference type="SMR" id="Q47NX9"/>
+  <dbReference type="STRING" id="269800.Tfu_1807"/>
+  <dbReference type="KEGG" id="tfu:Tfu_1807"/>
+  <dbReference type="HOGENOM" id="CLU_2453624_0_0_11"/>
+  <dbReference type="InterPro" id="IPR026496">
+    <property type="entry name" value="GRASP_targ"/>
+  </dbReference>
+  <dbReference type="NCBIfam" id="TIGR04186">
+    <property type="entry name" value="GRASP_targ"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="evidence at protein level"/>
+  <keyword evidence="3 4" id="KW-0002">3D-structure</keyword>
+  <feature type="region of interest" description="Disordered" evidence="1">
+    <location>
+      <begin position="1"/>
+      <end position="20"/>
+    </location>
+  </feature>
+  <evidence type="ECO:0000256" key="1">
+    <source>
+      <dbReference type="SAM" id="MobiDB-lite"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="2">
+    <source>
+      <dbReference type="EMBL" id="AAZ55840.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007829" key="3">
+    <source>
+      <dbReference type="PDB" id="7LI2"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007829" key="4">
+    <source>
+      <dbReference type="PDB" id="7LIF"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0008006" key="5">
+    <source>
+      <dbReference type="Google" id="ProtNLM"/>
+    </source>
+  </evidence>
+  <sequence length="89" mass="9880" checksum="6C702A55336C9E1A" modified="2005-09-13" version="1">MSTAVTDAFPLGRDENRNDQVTEWRPFGMRYGVQPTPIPVPLSDTKYDPDQQVLVVADGQPCAKIERAGTMRVTYPDGQKPGQSDVEKD</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

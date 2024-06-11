@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2013-03-06" modified="2024-01-24" version="36" xmlns="http://uniprot.org/uniprot">
+  <accession>K9VJ62</accession>
+  <name>K9VJ62_9CYAN</name>
+  <protein>
+    <submittedName>
+      <fullName evidence="1">Bacteriocin leader peptide, microcyclamide/patellamide family</fullName>
+    </submittedName>
+  </protein>
+  <gene>
+    <name evidence="1" type="ORF">Osc7112_3652</name>
+  </gene>
+  <organism evidence="1 2">
+    <name type="scientific">Oscillatoria nigro-viridis PCC 7112</name>
+    <dbReference type="NCBI Taxonomy" id="179408"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Cyanobacteriota</taxon>
+      <taxon>Cyanophyceae</taxon>
+      <taxon>Oscillatoriophycideae</taxon>
+      <taxon>Oscillatoriales</taxon>
+      <taxon>Oscillatoriaceae</taxon>
+      <taxon>Oscillatoria</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="1 2" key="1">
+    <citation type="submission" date="2012-05" db="EMBL/GenBank/DDBJ databases">
+      <title>Finished chromosome of genome of Oscillatoria sp. PCC 7112.</title>
+      <authorList>
+        <consortium name="US DOE Joint Genome Institute"/>
+        <person name="Gugger M."/>
+        <person name="Coursin T."/>
+        <person name="Rippka R."/>
+        <person name="Tandeau De Marsac N."/>
+        <person name="Huntemann M."/>
+        <person name="Wei C.-L."/>
+        <person name="Han J."/>
+        <person name="Detter J.C."/>
+        <person name="Han C."/>
+        <person name="Tapia R."/>
+        <person name="Davenport K."/>
+        <person name="Daligault H."/>
+        <person name="Erkkila T."/>
+        <person name="Gu W."/>
+        <person name="Munk A.C.C."/>
+        <person name="Teshima H."/>
+        <person name="Xu Y."/>
+        <person name="Chain P."/>
+        <person name="Chen A."/>
+        <person name="Krypides N."/>
+        <person name="Mavromatis K."/>
+        <person name="Markowitz V."/>
+        <person name="Szeto E."/>
+        <person name="Ivanova N."/>
+        <person name="Mikhailova N."/>
+        <person name="Ovchinnikova G."/>
+        <person name="Pagani I."/>
+        <person name="Pati A."/>
+        <person name="Goodwin L."/>
+        <person name="Peters L."/>
+        <person name="Pitluck S."/>
+        <person name="Woyke T."/>
+        <person name="Kerfeld C."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="1 2">PCC 7112</strain>
+    </source>
+  </reference>
+  <dbReference type="EMBL" id="CP003614">
+    <property type="protein sequence ID" value="AFZ08006.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="WP_015177264.1">
+    <property type="nucleotide sequence ID" value="NC_019729.1"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="K9VJ62"/>
+  <dbReference type="STRING" id="179408.Osc7112_3652"/>
+  <dbReference type="KEGG" id="oni:Osc7112_3652"/>
+  <dbReference type="HOGENOM" id="CLU_193731_0_0_3"/>
+  <dbReference type="OrthoDB" id="463756at2"/>
+  <dbReference type="Proteomes" id="UP000010478">
+    <property type="component" value="Chromosome"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR044050">
+    <property type="entry name" value="DUF5837"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR022264">
+    <property type="entry name" value="Microcy/ptell_bactrcn_lead_pep"/>
+  </dbReference>
+  <dbReference type="NCBIfam" id="TIGR03678">
+    <property type="entry name" value="het_cyc_patell"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF19155">
+    <property type="entry name" value="DUF5837"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="predicted"/>
+  <keyword evidence="2" id="KW-1185">Reference proteome</keyword>
+  <evidence type="ECO:0000313" key="1">
+    <source>
+      <dbReference type="EMBL" id="AFZ08006.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="2">
+    <source>
+      <dbReference type="Proteomes" id="UP000010478"/>
+    </source>
+  </evidence>
+  <sequence length="75" mass="7700" checksum="18CD0330FF3087EC" modified="2013-03-06" version="1">MNKKNILPNPGKPVIRGISGKLPSYLAELSEEALGDAGADASFICSVDASFICSVDASFICSVDASFICSVDGDA</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

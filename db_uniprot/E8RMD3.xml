@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2020-08-12" modified="2024-01-24" version="45" xmlns="http://uniprot.org/uniprot">
+  <accession>E8RMD3</accession>
+  <name>ASTX1_ASTEC</name>
+  <protein>
+    <recommendedName>
+      <fullName evidence="4 5 6">Astexin-1</fullName>
+    </recommendedName>
+    <alternativeName>
+      <fullName evidence="4 5 6">Class II lasso peptide</fullName>
+    </alternativeName>
+    <alternativeName>
+      <fullName evidence="4 6">Ribosomally synthesized and post-translationally modified peptide</fullName>
+      <shortName evidence="6">RiPP</shortName>
+    </alternativeName>
+  </protein>
+  <gene>
+    <name evidence="4 6" type="primary">AtxA1</name>
+    <name evidence="10" type="ordered locus">Astex_2228</name>
+  </gene>
+  <organism>
+    <name type="scientific">Asticcacaulis excentricus (strain ATCC 15261 / DSM 4724 / KCTC 12464 / NCIMB 9791 / VKM B-1370 / CB 48)</name>
+    <dbReference type="NCBI Taxonomy" id="573065"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Pseudomonadota</taxon>
+      <taxon>Alphaproteobacteria</taxon>
+      <taxon>Caulobacterales</taxon>
+      <taxon>Caulobacteraceae</taxon>
+      <taxon>Asticcacaulis</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="11" key="1">
+    <citation type="submission" date="2010-12" db="EMBL/GenBank/DDBJ databases">
+      <title>Complete sequence of chromosome 1 of Asticcacaulis excentricus CB 48.</title>
+      <authorList>
+        <consortium name="US DOE Joint Genome Institute"/>
+        <person name="Lucas S."/>
+        <person name="Copeland A."/>
+        <person name="Lapidus A."/>
+        <person name="Cheng J.-F."/>
+        <person name="Bruce D."/>
+        <person name="Goodwin L."/>
+        <person name="Pitluck S."/>
+        <person name="Teshima H."/>
+        <person name="Davenport K."/>
+        <person name="Detter J.C."/>
+        <person name="Han C."/>
+        <person name="Tapia R."/>
+        <person name="Land M."/>
+        <person name="Hauser L."/>
+        <person name="Jeffries C."/>
+        <person name="Kyrpides N."/>
+        <person name="Ivanova N."/>
+        <person name="Ovchinnikova G."/>
+        <person name="Brun Y.V."/>
+        <person name="Woyke T."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain>ATCC 15261 / DSM 4724 / KCTC 12464 / NCIMB 9791 / VKM B-1370 / CB 48</strain>
+    </source>
+  </reference>
+  <reference key="2">
+    <citation type="journal article" date="2013" name="J. Am. Chem. Soc." volume="135" first="12038" last="12047">
+      <title>Discovery and characterization of an isopeptidase that linearizes lasso peptides.</title>
+      <authorList>
+        <person name="Maksimov M.O."/>
+        <person name="Link A.J."/>
+      </authorList>
+      <dbReference type="PubMed" id="23862624"/>
+      <dbReference type="DOI" id="10.1021/ja4054256"/>
+    </citation>
+    <scope>EXPRESSION IN E.COLI</scope>
+  </reference>
+  <reference evidence="7 12" key="3">
+    <citation type="journal article" date="2012" name="Proc. Natl. Acad. Sci. U.S.A." volume="109" first="15223" last="15228">
+      <title>Precursor-centric genome-mining approach for lasso peptide discovery.</title>
+      <authorList>
+        <person name="Maksimov M.O."/>
+        <person name="Pelczer I."/>
+        <person name="Link A.J."/>
+      </authorList>
+      <dbReference type="PubMed" id="22949633"/>
+      <dbReference type="DOI" id="10.1073/pnas.1208978109"/>
+    </citation>
+    <scope>STRUCTURE BY NMR OF 29-51</scope>
+    <scope>FUNCTION</scope>
+    <scope>CROSS-LINK</scope>
+    <scope>EXPRESSION IN E.COLI</scope>
+    <scope>MASS SPECTROMETRY</scope>
+    <source>
+      <strain>ATCC 15261 / DSM 4724 / KCTC 12464 / NCIMB 9791 / VKM B-1370 / CB 48</strain>
+    </source>
+  </reference>
+  <reference evidence="7 13" key="4">
+    <citation type="journal article" date="2013" name="Chem. Biol." volume="20" first="558" last="569">
+      <title>The astexin-1 lasso peptides: biosynthesis, stability, and structural studies.</title>
+      <authorList>
+        <person name="Zimmermann M."/>
+        <person name="Hegemann J.D."/>
+        <person name="Xie X."/>
+        <person name="Marahiel M.A."/>
+      </authorList>
+      <dbReference type="PubMed" id="23601645"/>
+      <dbReference type="DOI" id="10.1016/j.chembiol.2013.03.013"/>
+    </citation>
+    <scope>STRUCTURE BY NMR OF 29-47</scope>
+    <scope>FUNCTION</scope>
+    <scope>BIOPHYSICOCHEMICAL PROPERTIES</scope>
+    <scope>CROSS-LINK</scope>
+    <scope>EXPRESSION IN E.COLI</scope>
+    <scope>MUTAGENESIS OF TYR-42; PHE-43 AND ARG-47</scope>
+  </reference>
+  <reference evidence="14" key="5">
+    <citation type="journal article" date="2016" name="ACS Chem. Biol." volume="11" first="61" last="68">
+      <title>Construction of lasso peptide fusion proteins.</title>
+      <authorList>
+        <person name="Zong C."/>
+        <person name="Maksimov M.O."/>
+        <person name="Link A.J."/>
+      </authorList>
+      <dbReference type="PubMed" id="26492187"/>
+      <dbReference type="DOI" id="10.1021/acschembio.5b00745"/>
+    </citation>
+    <scope>STRUCTURE BY NMR OF 29-51</scope>
+  </reference>
+  <comment type="function">
+    <text evidence="1">Shows weak antimicrobial activity against its phylogenetic relative Caulobacter crescentus. Does not show activity against other bacteria tested (E.coli, Vibrio sp, Burkhoderia thailandensis, and Salmonella newport).</text>
+  </comment>
+  <comment type="biophysicochemical properties">
+    <temperatureDependence>
+      <text evidence="2">Irreversibly unfolds upon heat treatment (PubMed:23601645). Between 50 and 65 degrees Celsius, the protein shows an intermediate fold (PubMed:23601645). At more than 65 degrees Celsius, the protein is completely unfolded (PubMed:23601645).</text>
+    </temperatureDependence>
+  </comment>
+  <comment type="domain">
+    <text evidence="2 7">Is composed of a ring composed by 9 residues, a loop and a C-terminal tail (PubMed:23601645). The peptide is threaded when the C-terminal tail is inserted throught the isopeptide-bonded ring (Probable).</text>
+  </comment>
+  <comment type="PTM">
+    <text evidence="3">This lasso peptide is probably hydrolyzed to a linear form by the isopeptidase AtxE1, in vivo.</text>
+  </comment>
+  <comment type="mass spectrometry" mass="2563.96" method="MALDI" evidence="1">
+    <text>when expressed in E.coli.</text>
+  </comment>
+  <dbReference type="EMBL" id="CP002395">
+    <property type="protein sequence ID" value="ADU13884.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="PDB" id="2LTI">
+    <property type="method" value="NMR"/>
+    <property type="chains" value="A=29-51"/>
+  </dbReference>
+  <dbReference type="PDB" id="2M37">
+    <property type="method" value="NMR"/>
+    <property type="chains" value="A=29-47"/>
+  </dbReference>
+  <dbReference type="PDB" id="2N68">
+    <property type="method" value="NMR"/>
+    <property type="chains" value="A=29-51"/>
+  </dbReference>
+  <dbReference type="PDBsum" id="2LTI"/>
+  <dbReference type="PDBsum" id="2M37"/>
+  <dbReference type="PDBsum" id="2N68"/>
+  <dbReference type="AlphaFoldDB" id="E8RMD3"/>
+  <dbReference type="BMRB" id="E8RMD3"/>
+  <dbReference type="SMR" id="E8RMD3"/>
+  <dbReference type="STRING" id="573065.Astex_2228"/>
+  <dbReference type="KEGG" id="aex:Astex_2228"/>
+  <dbReference type="HOGENOM" id="CLU_3095092_0_0_5"/>
+  <dbReference type="Proteomes" id="UP000001492">
+    <property type="component" value="Chromosome 1"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0042742">
+    <property type="term" value="P:defense response to bacterium"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <proteinExistence type="evidence at protein level"/>
+  <keyword id="KW-0002">3D-structure</keyword>
+  <keyword id="KW-0044">Antibiotic</keyword>
+  <keyword id="KW-0929">Antimicrobial</keyword>
+  <keyword id="KW-1017">Isopeptide bond</keyword>
+  <keyword id="KW-1185">Reference proteome</keyword>
+  <feature type="propeptide" id="PRO_0000450588" evidence="7">
+    <location>
+      <begin position="1"/>
+      <end position="28"/>
+    </location>
+  </feature>
+  <feature type="peptide" id="PRO_0000450589" description="Astexin-1" evidence="8 9">
+    <location>
+      <begin position="29"/>
+      <end position="51"/>
+    </location>
+  </feature>
+  <feature type="site" description="Important for stabilization of the lasso structure" evidence="9">
+    <location>
+      <position position="42"/>
+    </location>
+  </feature>
+  <feature type="site" description="Important for stabilization of the lasso structure" evidence="9">
+    <location>
+      <position position="43"/>
+    </location>
+  </feature>
+  <feature type="cross-link" description="Isoaspartyl glycine isopeptide (Gly-Asp)" evidence="1 2">
+    <location>
+      <begin position="29"/>
+      <end position="37"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Almost complete loss of Astexin-1 production. Is unfolded." evidence="2">
+    <original>Y</original>
+    <variation>A</variation>
+    <location>
+      <position position="42"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="No change in thermostability." evidence="2">
+    <original>Y</original>
+    <variation>W</variation>
+    <location>
+      <position position="42"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Loss of Astexin-1 production. No change in thermostability." evidence="2">
+    <original>F</original>
+    <variation>A</variation>
+    <location>
+      <position position="43"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Gain in thermostability." evidence="2">
+    <original>F</original>
+    <variation>W</variation>
+    <location>
+      <position position="43"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="No change in thermostability." evidence="2">
+    <original>R</original>
+    <variation>W</variation>
+    <location>
+      <position position="47"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="15">
+    <location>
+      <begin position="31"/>
+      <end position="35"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="16">
+    <location>
+      <begin position="38"/>
+      <end position="40"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="15">
+    <location>
+      <begin position="42"/>
+      <end position="46"/>
+    </location>
+  </feature>
+  <evidence type="ECO:0000269" key="1">
+    <source>
+      <dbReference type="PubMed" id="22949633"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="2">
+    <source>
+      <dbReference type="PubMed" id="23601645"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="3">
+    <source>
+      <dbReference type="PubMed" id="23862624"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000303" key="4">
+    <source>
+      <dbReference type="PubMed" id="22949633"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000303" key="5">
+    <source>
+      <dbReference type="PubMed" id="23601645"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000303" key="6">
+    <source>
+      <dbReference type="PubMed" id="23862624"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000305" key="7"/>
+  <evidence type="ECO:0000305" key="8">
+    <source>
+      <dbReference type="PubMed" id="22949633"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000305" key="9">
+    <source>
+      <dbReference type="PubMed" id="23601645"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000312" key="10">
+    <source>
+      <dbReference type="EMBL" id="ADU13884.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000312" key="11">
+    <source>
+      <dbReference type="Proteomes" id="UP000001492"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007744" key="12">
+    <source>
+      <dbReference type="PDB" id="2LTI"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007744" key="13">
+    <source>
+      <dbReference type="PDB" id="2M37"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007744" key="14">
+    <source>
+      <dbReference type="PDB" id="2N68"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007829" key="15">
+    <source>
+      <dbReference type="PDB" id="2LTI"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007829" key="16">
+    <source>
+      <dbReference type="PDB" id="2M37"/>
+    </source>
+  </evidence>
+  <sequence length="51" mass="5514" checksum="111DA6B651CCCA3B" modified="2011-04-05" version="1" precursor="true">MHTPIISETVQPKTAGLIVLGKASAETRGLSQGVEPDIGQTYFEESRINQD</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

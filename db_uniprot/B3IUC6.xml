@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2008-09-02" modified="2023-09-13" version="16" xmlns="http://uniprot.org/uniprot">
+  <accession>B3IUC6</accession>
+  <name>B3IUC6_9ENTE</name>
+  <protein>
+    <submittedName>
+      <fullName evidence="2">Precursor of durancin TW-49M</fullName>
+    </submittedName>
+    <submittedName>
+      <fullName evidence="1">Prepeptide of durancin TW-49M</fullName>
+    </submittedName>
+  </protein>
+  <gene>
+    <name evidence="1" type="primary">durM</name>
+  </gene>
+  <organism evidence="1">
+    <name type="scientific">Enterococcus durans</name>
+    <dbReference type="NCBI Taxonomy" id="53345"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Bacillota</taxon>
+      <taxon>Bacilli</taxon>
+      <taxon>Lactobacillales</taxon>
+      <taxon>Enterococcaceae</taxon>
+      <taxon>Enterococcus</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="2" key="1">
+    <citation type="submission" date="2006-11" db="EMBL/GenBank/DDBJ databases">
+      <title>Characterization of durancin TW-49M and its atypical genetic locus: a novel bacteriocin produced by carrot-isolated Enterococcus durans QU 49.</title>
+      <authorList>
+        <person name="Hu C."/>
+        <person name="Zendo T."/>
+        <person name="Nakayama J."/>
+        <person name="Sonomoto K."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="2">QU 49</strain>
+    </source>
+  </reference>
+  <reference evidence="1" key="2">
+    <citation type="journal article" date="2008" name="J. Appl. Microbiol." volume="105" first="681" last="690">
+      <title>Description of durancin TW-49M, a novel enterocin B-homologous bacteriocin in carrot-isolated Enterococcus durans QU 49.</title>
+      <authorList>
+        <person name="Hu C.-B."/>
+        <person name="Zendo T."/>
+        <person name="Nakayama J."/>
+        <person name="Sonomoto K."/>
+      </authorList>
+      <dbReference type="PubMed" id="18397254"/>
+      <dbReference type="DOI" id="10.1111/j.1365-2672.2008.03798.x"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="1">QU 49</strain>
+    </source>
+  </reference>
+  <dbReference type="EMBL" id="AB296366">
+    <property type="protein sequence ID" value="BAG49735.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="AB284368">
+    <property type="protein sequence ID" value="BAK55662.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="B3IUC6"/>
+  <dbReference type="InterPro" id="IPR010133">
+    <property type="entry name" value="Bacteriocin_signal_seq"/>
+  </dbReference>
+  <dbReference type="NCBIfam" id="TIGR01847">
+    <property type="entry name" value="bacteriocin_sig"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="predicted"/>
+  <evidence type="ECO:0000313" key="1">
+    <source>
+      <dbReference type="EMBL" id="BAG49735.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="2">
+    <source>
+      <dbReference type="EMBL" id="BAK55662.1"/>
+    </source>
+  </evidence>
+  <sequence length="72" mass="7257" checksum="73618839C649C514" modified="2008-09-02" version="1">MQTIKELNTMELQKIIGGENDHRMPYELNRPNNLSKGGAKCAAGILGAGLGAVGGGPGGFISAGISAVLGCM</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

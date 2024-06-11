@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2013-09-18" modified="2023-09-13" version="19" xmlns="http://uniprot.org/uniprot">
+  <accession>R9R876</accession>
+  <name>R9R876_BACIU</name>
+  <protein>
+    <submittedName>
+      <fullName evidence="1">Lantibiotic peptide</fullName>
+    </submittedName>
+  </protein>
+  <gene>
+    <name evidence="1" type="primary">subA</name>
+  </gene>
+  <organism evidence="1">
+    <name type="scientific">Bacillus subtilis</name>
+    <dbReference type="NCBI Taxonomy" id="1423"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Bacillota</taxon>
+      <taxon>Bacilli</taxon>
+      <taxon>Bacillales</taxon>
+      <taxon>Bacillaceae</taxon>
+      <taxon>Bacillus</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="1" key="1">
+    <citation type="journal article" date="2012" name="J. Appl. Microbiol." volume="112" first="65" last="78">
+      <title>Diversity and bioactive potential of endospore-forming bacteria cultured from the marine sponge Haliclona simulans.</title>
+      <authorList>
+        <person name="Phelan R.W."/>
+        <person name="O'Halloran J.A."/>
+        <person name="Kennedy J."/>
+        <person name="Morrissey J.P."/>
+        <person name="Dobson A.D."/>
+        <person name="O'Gara F."/>
+        <person name="Barbosa T.M."/>
+      </authorList>
+      <dbReference type="PubMed" id="21985154"/>
+      <dbReference type="DOI" id="10.1111/j.1365-2672.2011.05173.x"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="1">MMA7</strain>
+    </source>
+  </reference>
+  <reference evidence="1" key="2">
+    <citation type="journal article" date="2013" name="Mar. Drugs" volume="11" first="1878" last="1898">
+      <title>Subtilomycin: A New Lantibiotic from Bacillus subtilis Strain MMA7 Isolated from the Marine Sponge Haliclona simulans.</title>
+      <authorList>
+        <person name="Phelan R.W."/>
+        <person name="Barret M."/>
+        <person name="Cotter P.D."/>
+        <person name="O'Connor P.M."/>
+        <person name="Chen R."/>
+        <person name="Morrissey J.P."/>
+        <person name="Dobson A.D."/>
+        <person name="O'Gara F."/>
+        <person name="Barbosa T.M."/>
+      </authorList>
+      <dbReference type="PubMed" id="23736764"/>
+      <dbReference type="DOI" id="10.3390/md11061878"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="1">MMA7</strain>
+    </source>
+  </reference>
+  <dbReference type="EMBL" id="JX912247">
+    <property type="protein sequence ID" value="AGL93171.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="WP_015715148.1">
+    <property type="nucleotide sequence ID" value="NZ_VRTW01000007.1"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="R9R876"/>
+  <dbReference type="PATRIC" id="fig|1423.287.peg.3969"/>
+  <dbReference type="NCBIfam" id="NF038155">
+    <property type="entry name" value="lanthi_I_FDLD"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="predicted"/>
+  <evidence type="ECO:0000313" key="1">
+    <source>
+      <dbReference type="EMBL" id="AGL93171.1"/>
+    </source>
+  </evidence>
+  <sequence length="56" mass="6152" checksum="45978A674BCCC531" modified="2013-09-18" version="1">MEKNNIFDLDINKKMESTSEVSAQTWATIGKTIVQSVKKCRTFTCGCSLGSCSNCN</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

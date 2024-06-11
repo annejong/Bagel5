@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2012-10-03" modified="2023-09-13" version="31" xmlns="http://uniprot.org/uniprot">
+  <accession>I6ZU90</accession>
+  <name>I6ZU90_ECOLX</name>
+  <protein>
+    <submittedName>
+      <fullName evidence="3">McpM</fullName>
+    </submittedName>
+    <submittedName>
+      <fullName evidence="7">Microcin M protein</fullName>
+    </submittedName>
+    <submittedName>
+      <fullName evidence="2">Microcin protein</fullName>
+    </submittedName>
+  </protein>
+  <gene>
+    <name evidence="2" type="primary">mcpM</name>
+    <name evidence="2" type="ORF">EC25_Plm00113</name>
+    <name evidence="6" type="ORF">PECOH8_0065</name>
+    <name evidence="7" type="ORF">RCS73_P0048</name>
+  </gene>
+  <organism evidence="2">
+    <name type="scientific">Escherichia coli</name>
+    <dbReference type="NCBI Taxonomy" id="562"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Pseudomonadota</taxon>
+      <taxon>Gammaproteobacteria</taxon>
+      <taxon>Enterobacterales</taxon>
+      <taxon>Enterobacteriaceae</taxon>
+      <taxon>Escherichia</taxon>
+    </lineage>
+  </organism>
+  <geneLocation type="plasmid" evidence="2">
+    <name>Plm</name>
+  </geneLocation>
+  <geneLocation type="plasmid" evidence="7">
+    <name>RCS73_p</name>
+  </geneLocation>
+  <geneLocation type="plasmid" evidence="6">
+    <name>pECOH8</name>
+  </geneLocation>
+  <geneLocation type="plasmid" evidence="5">
+    <name>pH06TF</name>
+  </geneLocation>
+  <geneLocation type="plasmid" evidence="3">
+    <name>pTF2</name>
+  </geneLocation>
+  <geneLocation type="plasmid" evidence="4">
+    <name>pTF_H18 Hel20 TF1</name>
+  </geneLocation>
+  <reference evidence="2" key="1">
+    <citation type="journal article" date="2012" name="Appl. Environ. Microbiol." volume="78" first="6592" last="6599">
+      <title>Characterization of a novel microcin that kills enterohemorrhagic E. coli O157:H7 and O26.</title>
+      <authorList>
+        <person name="Eberhart L."/>
+        <person name="Deringer J.R."/>
+        <person name="Brayton K.A."/>
+        <person name="Sawant A."/>
+        <person name="Besser T.E."/>
+        <person name="Call D.R."/>
+      </authorList>
+      <dbReference type="PubMed" id="22773653"/>
+      <dbReference type="DOI" id="10.1128/AEM.01067-12"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="2">EC25</strain>
+      <plasmid evidence="2">Plm</plasmid>
+    </source>
+  </reference>
+  <reference evidence="6" key="2">
+    <citation type="submission" date="2013-10" db="EMBL/GenBank/DDBJ databases">
+      <authorList>
+        <person name="Falgenhauer L."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="6">H8</strain>
+      <plasmid evidence="6">pECOH8</plasmid>
+    </source>
+  </reference>
+  <reference evidence="3" key="3">
+    <citation type="submission" date="2014-03" db="EMBL/GenBank/DDBJ databases">
+      <title>Characterisation of blaCTX-M-1 IncI1 and IncN plasmids in Escherichia coli from humans, pigs, cattle, organic poultry layers, and horses in Denmark.</title>
+      <authorList>
+        <person name="Jakobsen L."/>
+        <person name="Bortolaia V."/>
+        <person name="Moodley A."/>
+        <person name="Bielak E."/>
+        <person name="Olsen S.S."/>
+        <person name="Hansen D.S."/>
+        <person name="Frimodt-Moeller N."/>
+        <person name="Guardabassi L."/>
+        <person name="Hasman H."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="3">TF_2007-10-2348-1</strain>
+      <plasmid evidence="3">pTF2</plasmid>
+    </source>
+  </reference>
+  <reference evidence="4" key="4">
+    <citation type="submission" date="2014-06" db="EMBL/GenBank/DDBJ databases">
+      <title>Limited similarity between plasmids encoding CTX-M-1 beta-lactamase in Escherichia coli from humans, pigs, cattle, organic poultry layers, and horses in Denmark.</title>
+      <authorList>
+        <person name="Jakobsen L."/>
+        <person name="Bortolaia V."/>
+        <person name="Moodley A."/>
+        <person name="Bielak E."/>
+        <person name="Olsen S.S."/>
+        <person name="Hansen D.S."/>
+        <person name="Frimodt-Moeller N."/>
+        <person name="Guardabassi L."/>
+        <person name="Hasman H."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="5">H06 TF</strain>
+      <strain evidence="4">H18 Hel20 TF1</strain>
+      <plasmid evidence="5">pH06TF</plasmid>
+      <plasmid evidence="4">pTF_H18 Hel20 TF1</plasmid>
+    </source>
+  </reference>
+  <reference evidence="7" key="5">
+    <citation type="submission" date="2018-02" db="EMBL/GenBank/DDBJ databases">
+      <authorList>
+        <person name="Cohen D.B."/>
+        <person name="Kent A.D."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="7">03-237</strain>
+      <plasmid evidence="7">RCS73_p</plasmid>
+    </source>
+  </reference>
+  <reference evidence="6" key="6">
+    <citation type="submission" date="2021-06" db="EMBL/GenBank/DDBJ databases">
+      <title>Complete genome sequence of a IncI1 plasmid encoding microcin and CTX-M-1.</title>
+      <authorList>
+        <person name="Falgenhauer L.F."/>
+        <person name="Schmiedel J.S."/>
+        <person name="Fritzenwanker M.F."/>
+        <person name="Yao Y.Y."/>
+        <person name="Imirzalioglu C.I."/>
+        <person name="Chakraborty T.C."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="6">H8</strain>
+      <plasmid evidence="6">pECOH8</plasmid>
+    </source>
+  </reference>
+  <dbReference type="EMBL" id="JQ901381">
+    <property type="protein sequence ID" value="AFN88382.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="KJ563250">
+    <property type="protein sequence ID" value="AIU94005.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="KM052220">
+    <property type="protein sequence ID" value="AKI06795.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="KM052221">
+    <property type="protein sequence ID" value="AKI06862.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="HG739083">
+    <property type="protein sequence ID" value="CDJ79603.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="LT985288">
+    <property type="protein sequence ID" value="SPE02370.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="YP_006954414.1">
+    <property type="nucleotide sequence ID" value="NC_019097.1"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="YP_009328550.1">
+    <property type="nucleotide sequence ID" value="NC_032100.1"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="I6ZU90"/>
+  <proteinExistence type="predicted"/>
+  <keyword evidence="2" id="KW-0614">Plasmid</keyword>
+  <feature type="region of interest" description="Disordered" evidence="1">
+    <location>
+      <begin position="17"/>
+      <end position="48"/>
+    </location>
+  </feature>
+  <feature type="region of interest" description="Disordered" evidence="1">
+    <location>
+      <begin position="93"/>
+      <end position="120"/>
+    </location>
+  </feature>
+  <evidence type="ECO:0000256" key="1">
+    <source>
+      <dbReference type="SAM" id="MobiDB-lite"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="2">
+    <source>
+      <dbReference type="EMBL" id="AFN88382.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="3">
+    <source>
+      <dbReference type="EMBL" id="AIU94005.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="4">
+    <source>
+      <dbReference type="EMBL" id="AKI06795.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="5">
+    <source>
+      <dbReference type="EMBL" id="AKI06862.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="6">
+    <source>
+      <dbReference type="EMBL" id="CDJ79603.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="7">
+    <source>
+      <dbReference type="EMBL" id="SPE02370.1"/>
+    </source>
+  </evidence>
+  <sequence length="120" mass="11871" checksum="2D2D5914FA8830C9" modified="2012-10-03" version="1">MANIRELTLDEITLVSGGNANSNFEGGPRNDRSSGARNSLGRNAPTHIYSDPSTVKCANAVFSGMIGGAIKGGPIGMARGTIGGAVVGQCLSDHGSGNGSGNRGSSSSCSGNNVGGTCNR</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

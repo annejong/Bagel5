@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2014-01-22" modified="2024-01-24" version="29" xmlns="http://uniprot.org/uniprot">
+  <accession>V4RMX4</accession>
+  <name>V4RMX4_9CAUL</name>
+  <protein>
+    <recommendedName>
+      <fullName evidence="6">Benenodin family lasso peptide</fullName>
+    </recommendedName>
+  </protein>
+  <gene>
+    <name evidence="2" type="ORF">ABENE_08090</name>
+  </gene>
+  <organism evidence="2 3">
+    <name type="scientific">Asticcacaulis benevestitus DSM 16100 = ATCC BAA-896</name>
+    <dbReference type="NCBI Taxonomy" id="1121022"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Pseudomonadota</taxon>
+      <taxon>Alphaproteobacteria</taxon>
+      <taxon>Caulobacterales</taxon>
+      <taxon>Caulobacteraceae</taxon>
+      <taxon>Asticcacaulis</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="2 3" key="1">
+    <citation type="journal article" date="2014" name="Nature" volume="506" first="489" last="493">
+      <title>Sequential evolution of bacterial morphology by co-option of a developmental regulator.</title>
+      <authorList>
+        <person name="Jiang C."/>
+        <person name="Brown P.J."/>
+        <person name="Ducret A."/>
+        <person name="Brun Y.V."/>
+      </authorList>
+      <dbReference type="PubMed" id="24463524"/>
+      <dbReference type="DOI" id="10.1038/nature12900"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="2 3">DSM 16100</strain>
+    </source>
+  </reference>
+  <reference evidence="4 5" key="2">
+    <citation type="journal article" date="2017" name="J. Am. Chem. Soc." volume="139" first="10403" last="10409">
+      <title>Lasso Peptide Benenodin-1 Is a Thermally Actuated [1]Rotaxane Switch.</title>
+      <authorList>
+        <person name="Zong C."/>
+        <person name="Wu M.J."/>
+        <person name="Qin J.Z."/>
+        <person name="Link A.J."/>
+      </authorList>
+      <dbReference type="PubMed" id="28696674"/>
+      <dbReference type="DOI" id="10.1021/jacs.7b04830"/>
+    </citation>
+    <scope>STRUCTURE BY NMR OF 22-40</scope>
+  </reference>
+  <comment type="caution">
+    <text evidence="2">The sequence shown here is derived from an EMBL/GenBank/DDBJ whole genome shotgun (WGS) entry which is preliminary data.</text>
+  </comment>
+  <dbReference type="EMBL" id="AWGB01000012">
+    <property type="protein sequence ID" value="ESQ92588.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="PDB" id="5TJ1">
+    <property type="method" value="NMR"/>
+    <property type="chains" value="A=22-40"/>
+  </dbReference>
+  <dbReference type="PDB" id="6B5W">
+    <property type="method" value="NMR"/>
+    <property type="chains" value="A=22-40"/>
+  </dbReference>
+  <dbReference type="PDBsum" id="5TJ1"/>
+  <dbReference type="PDBsum" id="6B5W"/>
+  <dbReference type="AlphaFoldDB" id="V4RMX4"/>
+  <dbReference type="BMRB" id="V4RMX4"/>
+  <dbReference type="SMR" id="V4RMX4"/>
+  <dbReference type="STRING" id="1121022.GCA_000376105_02668"/>
+  <dbReference type="PATRIC" id="fig|1121022.4.peg.1627"/>
+  <dbReference type="Proteomes" id="UP000017837">
+    <property type="component" value="Unassembled WGS sequence"/>
+  </dbReference>
+  <dbReference type="NCBIfam" id="NF033522">
+    <property type="entry name" value="lasso_benenodin"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="evidence at protein level"/>
+  <keyword evidence="4 5" id="KW-0002">3D-structure</keyword>
+  <keyword evidence="3" id="KW-1185">Reference proteome</keyword>
+  <feature type="region of interest" description="Disordered" evidence="1">
+    <location>
+      <begin position="1"/>
+      <end position="45"/>
+    </location>
+  </feature>
+  <evidence type="ECO:0000256" key="1">
+    <source>
+      <dbReference type="SAM" id="MobiDB-lite"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="2">
+    <source>
+      <dbReference type="EMBL" id="ESQ92588.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="3">
+    <source>
+      <dbReference type="Proteomes" id="UP000017837"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007829" key="4">
+    <source>
+      <dbReference type="PDB" id="5TJ1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007829" key="5">
+    <source>
+      <dbReference type="PDB" id="6B5W"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0008006" key="6">
+    <source>
+      <dbReference type="Google" id="ProtNLM"/>
+    </source>
+  </evidence>
+  <sequence length="45" mass="4887" checksum="EB98BEC9B8331DC0" modified="2014-01-22" version="1">MEKIETHEDLIDLGAASSETKGVGFGRPDSILTQEQAKPMGLDRD</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

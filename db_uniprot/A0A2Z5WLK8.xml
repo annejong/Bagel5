@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2018-10-10" modified="2023-09-13" version="6" xmlns="http://uniprot.org/uniprot">
+  <accession>A0A2Z5WLK8</accession>
+  <name>A0A2Z5WLK8_STRSQ</name>
+  <protein>
+    <submittedName>
+      <fullName evidence="1">Precursor peptide</fullName>
+    </submittedName>
+  </protein>
+  <gene>
+    <name evidence="1" type="primary">ntvA</name>
+  </gene>
+  <organism evidence="1">
+    <name type="scientific">Streptomyces sp</name>
+    <dbReference type="NCBI Taxonomy" id="1931"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Actinomycetota</taxon>
+      <taxon>Actinomycetes</taxon>
+      <taxon>Kitasatosporales</taxon>
+      <taxon>Streptomycetaceae</taxon>
+      <taxon>Streptomyces</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="1" key="1">
+    <citation type="submission" date="2017-07" db="EMBL/GenBank/DDBJ databases">
+      <title>Deorphanizing RiPPs biosynthetic cluster in Streptomyces sp. MSB090213SC12 by heterologous expression to produce novel compound, neothioviridamide.</title>
+      <authorList>
+        <person name="Kawahara T."/>
+        <person name="Izumikawa M."/>
+        <person name="Kozone I."/>
+        <person name="Hashimoto J."/>
+        <person name="Kagaya N."/>
+        <person name="Koiwai H."/>
+        <person name="Komatsu M."/>
+        <person name="Fujie M."/>
+        <person name="Sato N."/>
+        <person name="Ikeda H."/>
+        <person name="Shin-ya K."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="1">MSB090213SC12</strain>
+    </source>
+  </reference>
+  <dbReference type="EMBL" id="LC310987">
+    <property type="protein sequence ID" value="BBC15198.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="A0A2Z5WLK8"/>
+  <dbReference type="NCBIfam" id="NF033415">
+    <property type="entry name" value="thiovirid_RiPP"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="predicted"/>
+  <evidence type="ECO:0000313" key="1">
+    <source>
+      <dbReference type="EMBL" id="BBC15198.1"/>
+    </source>
+  </evidence>
+  <sequence length="87" mass="8999" checksum="655F8679F897B4C7" modified="2018-10-10" version="1">MSEAMVSAVDEAAFADLVSKIQDAEASMTDEQRAVIDPAAGEKALEELAGVSPEELQAFLEEKAGISPDEEAQGSVMAAAATVAFHC</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

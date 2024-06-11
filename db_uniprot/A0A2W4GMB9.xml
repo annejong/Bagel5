@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2018-09-12" modified="2024-01-24" version="13" xmlns="http://uniprot.org/uniprot">
+  <accession>A0A2W4GMB9</accession>
+  <name>A0A2W4GMB9_9BACL</name>
+  <protein>
+    <submittedName>
+      <fullName evidence="2">Paeninodin family lasso peptide</fullName>
+    </submittedName>
+  </protein>
+  <gene>
+    <name evidence="2" type="ORF">DOE73_21140</name>
+    <name evidence="3" type="ORF">E2R60_16285</name>
+  </gene>
+  <organism evidence="2 4">
+    <name type="scientific">Paenibacillus dendritiformis</name>
+    <dbReference type="NCBI Taxonomy" id="130049"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Bacillota</taxon>
+      <taxon>Bacilli</taxon>
+      <taxon>Bacillales</taxon>
+      <taxon>Paenibacillaceae</taxon>
+      <taxon>Paenibacillus</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="2 4" key="1">
+    <citation type="submission" date="2018-06" db="EMBL/GenBank/DDBJ databases">
+      <title>Draft genome sequence of Paenibacillus dendritiformis, PV3-16.</title>
+      <authorList>
+        <person name="Nandanwar H.S."/>
+        <person name="Jangra M."/>
+        <person name="Patil P.B."/>
+        <person name="Patil P."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="2 4">PV3-16</strain>
+    </source>
+  </reference>
+  <reference evidence="3 5" key="2">
+    <citation type="submission" date="2019-03" db="EMBL/GenBank/DDBJ databases">
+      <title>Genome Sequencing and Assembly of Various Microbes Isolated from Partially Reclaimed Soil and Acid Mine Drainage (AMD) Site.</title>
+      <authorList>
+        <person name="Steinbock B."/>
+        <person name="Bechtold R."/>
+        <person name="Sevigny J.L."/>
+        <person name="Thomas D."/>
+        <person name="Cuthill L.R."/>
+        <person name="Aveiro Johannsen E.J."/>
+        <person name="Thomas K."/>
+        <person name="Ghosh A."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="3 5">F-A1</strain>
+    </source>
+  </reference>
+  <comment type="caution">
+    <text evidence="2">The sequence shown here is derived from an EMBL/GenBank/DDBJ whole genome shotgun (WGS) entry which is preliminary data.</text>
+  </comment>
+  <dbReference type="EMBL" id="QKVW01000096">
+    <property type="protein sequence ID" value="PZM63628.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="SMZW01000004">
+    <property type="protein sequence ID" value="TDL52781.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="WP_040732785.1">
+    <property type="nucleotide sequence ID" value="NZ_SMZW01000004.1"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="A0A2W4GMB9"/>
+  <dbReference type="Proteomes" id="UP000249319">
+    <property type="component" value="Unassembled WGS sequence"/>
+  </dbReference>
+  <dbReference type="Proteomes" id="UP000294774">
+    <property type="component" value="Unassembled WGS sequence"/>
+  </dbReference>
+  <dbReference type="NCBIfam" id="NF033524">
+    <property type="entry name" value="lasso_PadeA_fam"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="predicted"/>
+  <feature type="region of interest" description="Disordered" evidence="1">
+    <location>
+      <begin position="1"/>
+      <end position="42"/>
+    </location>
+  </feature>
+  <evidence type="ECO:0000256" key="1">
+    <source>
+      <dbReference type="SAM" id="MobiDB-lite"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="2">
+    <source>
+      <dbReference type="EMBL" id="PZM63628.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="3">
+    <source>
+      <dbReference type="EMBL" id="TDL52781.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="4">
+    <source>
+      <dbReference type="Proteomes" id="UP000249319"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="5">
+    <source>
+      <dbReference type="Proteomes" id="UP000294774"/>
+    </source>
+  </evidence>
+  <sequence length="42" mass="4663" checksum="16F46EE704964F2B" modified="2018-09-12" version="1">MKKQYSKPSLEVLDVHQTMAGPGTSTPDAFQPDPDEDVHYDS</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

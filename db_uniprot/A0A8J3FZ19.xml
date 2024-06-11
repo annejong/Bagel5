@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2022-05-25" modified="2023-09-13" version="6" xmlns="http://uniprot.org/uniprot">
+  <accession>A0A8J3FZ19</accession>
+  <name>A0A8J3FZ19_9PSEU</name>
+  <protein>
+    <recommendedName>
+      <fullName evidence="3">Lasso RiPP family leader peptide-containing protein</fullName>
+    </recommendedName>
+  </protein>
+  <gene>
+    <name evidence="1" type="ORF">GCM10012275_59210</name>
+  </gene>
+  <organism evidence="1 2">
+    <name type="scientific">Longimycelium tulufanense</name>
+    <dbReference type="NCBI Taxonomy" id="907463"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Actinomycetota</taxon>
+      <taxon>Actinomycetes</taxon>
+      <taxon>Pseudonocardiales</taxon>
+      <taxon>Pseudonocardiaceae</taxon>
+      <taxon>Longimycelium</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="1" key="1">
+    <citation type="journal article" date="2019" name="Int. J. Syst. Evol. Microbiol." volume="69" first="895" last="898">
+      <title>The Global Catalogue of Microorganisms (GCM) 10K type strain sequencing project: providing services to taxonomists for standard genome sequencing and annotation.</title>
+      <authorList>
+        <person name="Wu L."/>
+        <person name="Ma J."/>
+      </authorList>
+      <dbReference type="PubMed" id="30832757"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="1">CGMCC 4.5737</strain>
+    </source>
+  </reference>
+  <reference evidence="1" key="2">
+    <citation type="submission" date="2020-09" db="EMBL/GenBank/DDBJ databases">
+      <authorList>
+        <person name="Sun Q."/>
+        <person name="Zhou Y."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="1">CGMCC 4.5737</strain>
+    </source>
+  </reference>
+  <comment type="caution">
+    <text evidence="1">The sequence shown here is derived from an EMBL/GenBank/DDBJ whole genome shotgun (WGS) entry which is preliminary data.</text>
+  </comment>
+  <dbReference type="EMBL" id="BMMK01000049">
+    <property type="protein sequence ID" value="GGM80696.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="Proteomes" id="UP000637578">
+    <property type="component" value="Unassembled WGS sequence"/>
+  </dbReference>
+  <dbReference type="NCBIfam" id="NF033521">
+    <property type="entry name" value="lasso_leader_L3"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="predicted"/>
+  <keyword evidence="2" id="KW-1185">Reference proteome</keyword>
+  <evidence type="ECO:0000313" key="1">
+    <source>
+      <dbReference type="EMBL" id="GGM80696.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="2">
+    <source>
+      <dbReference type="Proteomes" id="UP000637578"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0008006" key="3">
+    <source>
+      <dbReference type="Google" id="ProtNLM"/>
+    </source>
+  </evidence>
+  <sequence length="41" mass="4540" checksum="14F7A2B995261A1B" modified="2022-05-25" version="1">MSAMQEQTAYESPALVEVGTFECDTQGWWGANWDGPSGMRD</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

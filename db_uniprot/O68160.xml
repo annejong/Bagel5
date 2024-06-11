@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="1998-08-01" modified="2023-09-13" version="30" xmlns="http://uniprot.org/uniprot">
+  <accession>O68160</accession>
+  <name>O68160_STAEP</name>
+  <protein>
+    <submittedName>
+      <fullName evidence="1">AgrD</fullName>
+    </submittedName>
+  </protein>
+  <gene>
+    <name evidence="1" type="primary">agrD</name>
+  </gene>
+  <organism evidence="1">
+    <name type="scientific">Staphylococcus epidermidis</name>
+    <dbReference type="NCBI Taxonomy" id="1282"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Bacillota</taxon>
+      <taxon>Bacilli</taxon>
+      <taxon>Bacillales</taxon>
+      <taxon>Staphylococcaceae</taxon>
+      <taxon>Staphylococcus</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="1" key="1">
+    <citation type="journal article" date="1998" name="FEBS Lett." volume="424" first="89" last="94">
+      <title>Structure of the pheromone peptide of the Staphylococcus epidermidis agr system.</title>
+      <authorList>
+        <person name="Otto M."/>
+        <person name="Suszmuth R."/>
+        <person name="Jung G."/>
+        <person name="Goetz F."/>
+      </authorList>
+      <dbReference type="PubMed" id="9537521"/>
+      <dbReference type="DOI" id="10.1016/S0014-5793(98)00145-8"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="1">ATCC 14990</strain>
+    </source>
+  </reference>
+  <dbReference type="EMBL" id="AF012132">
+    <property type="protein sequence ID" value="AAC38294.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="O68160"/>
+  <dbReference type="InterPro" id="IPR009229">
+    <property type="entry name" value="AgrD"/>
+  </dbReference>
+  <dbReference type="NCBIfam" id="TIGR04223">
+    <property type="entry name" value="quorum_AgrD"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF05931">
+    <property type="entry name" value="AgrD"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="SMART" id="SM00794">
+    <property type="entry name" value="AgrD"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="predicted"/>
+  <evidence type="ECO:0000313" key="1">
+    <source>
+      <dbReference type="EMBL" id="AAC38294.1"/>
+    </source>
+  </evidence>
+  <sequence length="46" mass="5311" checksum="2E2B10926AD5CB2F" modified="1998-08-01" version="1">MEIIFNLFIKFFTTILEFIGTVAGDSVCASYFDEPEVPEELTKLYE</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

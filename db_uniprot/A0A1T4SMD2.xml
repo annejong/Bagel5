@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2017-05-10" modified="2024-01-24" version="15" xmlns="http://uniprot.org/uniprot">
+  <accession>A0A1T4SMD2</accession>
+  <name>A0A1T4SMD2_9ACTN</name>
+  <protein>
+    <recommendedName>
+      <fullName evidence="3">Cinnamycin family lantibiotic</fullName>
+    </recommendedName>
+  </protein>
+  <gene>
+    <name evidence="1" type="ORF">SAMN02745673_03640</name>
+  </gene>
+  <organism evidence="1 2">
+    <name type="scientific">Marinactinospora thermotolerans DSM 45154</name>
+    <dbReference type="NCBI Taxonomy" id="1122192"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Actinomycetota</taxon>
+      <taxon>Actinomycetes</taxon>
+      <taxon>Streptosporangiales</taxon>
+      <taxon>Nocardiopsaceae</taxon>
+      <taxon>Marinactinospora</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="1 2" key="1">
+    <citation type="submission" date="2017-02" db="EMBL/GenBank/DDBJ databases">
+      <authorList>
+        <person name="Peterson S.W."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="1 2">DSM 45154</strain>
+    </source>
+  </reference>
+  <dbReference type="EMBL" id="FUWS01000010">
+    <property type="protein sequence ID" value="SKA29021.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="A0A1T4SMD2"/>
+  <dbReference type="STRING" id="1122192.SAMN02745673_03640"/>
+  <dbReference type="OrthoDB" id="3482080at2"/>
+  <dbReference type="Proteomes" id="UP000190637">
+    <property type="component" value="Unassembled WGS sequence"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR048275">
+    <property type="entry name" value="Cinnamycin_RiPP"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR046016">
+    <property type="entry name" value="Dur/DurB-like"/>
+  </dbReference>
+  <dbReference type="NCBIfam" id="NF033431">
+    <property type="entry name" value="cinnamycin_RiPP"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF19398">
+    <property type="entry name" value="DUF5973"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="predicted"/>
+  <keyword evidence="2" id="KW-1185">Reference proteome</keyword>
+  <evidence type="ECO:0000313" key="1">
+    <source>
+      <dbReference type="EMBL" id="SKA29021.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="2">
+    <source>
+      <dbReference type="Proteomes" id="UP000190637"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0008006" key="3">
+    <source>
+      <dbReference type="Google" id="ProtNLM"/>
+    </source>
+  </evidence>
+  <sequence length="79" mass="8350" checksum="86C2158FF57A1972" modified="2017-05-10" version="1">MSMTMTLQQAVVDDEFRSVLLADPAAFGLSVESLPGAVERQDHEAIEAFTEAVVASEIYACASTCSFGPFTIACDGTTK</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

@@ -1,0 +1,508 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2004-09-27" modified="2023-09-13" version="63" xmlns="http://uniprot.org/uniprot">
+  <accession>O54329</accession>
+  <accession>P84110</accession>
+  <name>LANA_STRMG</name>
+  <protein>
+    <recommendedName>
+      <fullName>Lantibiotic mutacin-2</fullName>
+    </recommendedName>
+    <alternativeName>
+      <fullName>Lantibiotic mutacin H-29B</fullName>
+    </alternativeName>
+    <alternativeName>
+      <fullName>Mutacin II</fullName>
+    </alternativeName>
+  </protein>
+  <gene>
+    <name evidence="10" type="primary">mutA</name>
+  </gene>
+  <organism>
+    <name type="scientific">Streptococcus mutans</name>
+    <dbReference type="NCBI Taxonomy" id="1309"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Bacillota</taxon>
+      <taxon>Bacilli</taxon>
+      <taxon>Lactobacillales</taxon>
+      <taxon>Streptococcaceae</taxon>
+      <taxon>Streptococcus</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="10" key="1">
+    <citation type="journal article" date="1998" name="Gene" volume="206" first="37" last="43">
+      <title>Sequence analysis of mutA and mutM genes involved in the biosynthesis of the lantibiotic mutacin II in Streptococcus mutans.</title>
+      <authorList>
+        <person name="Woodruff W.A."/>
+        <person name="Novak J."/>
+        <person name="Caufield P.W."/>
+      </authorList>
+      <dbReference type="PubMed" id="9461412"/>
+      <dbReference type="DOI" id="10.1016/s0378-1119(97)00578-7"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="10">T8</strain>
+    </source>
+  </reference>
+  <reference evidence="9" key="2">
+    <citation type="journal article" date="2000" name="J. Biol. Chem." volume="275" first="15845" last="15850">
+      <title>Biochemical structural analysis of the lantibiotic mutacin II.</title>
+      <authorList>
+        <person name="Krull R.E."/>
+        <person name="Chen P."/>
+        <person name="Novak J."/>
+        <person name="Kirk M."/>
+        <person name="Barnes S."/>
+        <person name="Baker J."/>
+        <person name="Krishna N.R."/>
+        <person name="Caufield P.W."/>
+      </authorList>
+      <dbReference type="PubMed" id="10821848"/>
+      <dbReference type="DOI" id="10.1074/jbc.275.21.15845"/>
+    </citation>
+    <scope>PROTEIN SEQUENCE OF 27-50</scope>
+    <scope>DEHYDRATION AT THR-51</scope>
+    <scope>LANTHIONINE CROSS-LINKS</scope>
+    <scope>MUTAGENESIS OF CYS-41 AND CYS-52</scope>
+    <source>
+      <strain evidence="2">T8</strain>
+    </source>
+  </reference>
+  <reference key="3">
+    <citation type="journal article" date="2006" name="BMC Microbiol." volume="6" first="36" last="36">
+      <title>Mutacin H-29B is identical to mutacin II (J-T8).</title>
+      <authorList>
+        <person name="Nicolas G."/>
+        <person name="Morency H."/>
+        <person name="LaPointe G."/>
+        <person name="Lavoie M.C."/>
+      </authorList>
+      <dbReference type="PubMed" id="16626493"/>
+      <dbReference type="DOI" id="10.1186/1471-2180-6-36"/>
+    </citation>
+    <scope>PROTEIN SEQUENCE OF 27-50</scope>
+    <scope>FUNCTION</scope>
+    <scope>BIOPHYSICOCHEMICAL PROPERTIES</scope>
+    <scope>MASS SPECTROMETRY</scope>
+    <scope>POST-TRANSLATIONAL MODIFICATIONS</scope>
+    <source>
+      <strain>29B</strain>
+    </source>
+  </reference>
+  <reference evidence="9" key="4">
+    <citation type="journal article" date="1998" name="Appl. Environ. Microbiol." volume="64" first="2335" last="2340">
+      <title>Structure-activity study of the lantibiotic mutacin II from Streptococcus mutans T8 by a gene replacement strategy.</title>
+      <authorList>
+        <person name="Chen P."/>
+        <person name="Novak J."/>
+        <person name="Kirk M."/>
+        <person name="Barnes S."/>
+        <person name="Qi F."/>
+        <person name="Caufield P.W."/>
+      </authorList>
+      <dbReference type="PubMed" id="9647795"/>
+      <dbReference type="DOI" id="10.1128/aem.64.7.2335-2340.1998"/>
+    </citation>
+    <scope>PROTEIN SEQUENCE OF 27-37</scope>
+    <scope>POST-TRANSLATIONAL MODIFICATIONS</scope>
+    <scope>MUTAGENESIS OF ASN-27; VAL-33; PRO-35; THR-36; CYS-41; CYS-52 AND CYS-53</scope>
+    <source>
+      <strain evidence="8">T8</strain>
+    </source>
+  </reference>
+  <reference evidence="9" key="5">
+    <citation type="journal article" date="1994" name="J. Bacteriol." volume="176" first="4316" last="4320">
+      <title>Isolation and biochemical characterization of a novel lantibiotic mutacin from Streptococcus mutans.</title>
+      <authorList>
+        <person name="Novak J."/>
+        <person name="Caufield P.W."/>
+        <person name="Miller E.J."/>
+      </authorList>
+      <dbReference type="PubMed" id="8021218"/>
+      <dbReference type="DOI" id="10.1128/jb.176.14.4316-4320.1994"/>
+    </citation>
+    <scope>PROTEIN SEQUENCE OF 27-34</scope>
+    <scope>FUNCTION</scope>
+    <scope>POST-TRANSLATIONAL MODIFICATIONS</scope>
+    <scope>MASS SPECTROMETRY</scope>
+    <scope>BIOPHYSICOCHEMICAL PROPERTIES</scope>
+    <source>
+      <strain evidence="5">T8</strain>
+    </source>
+  </reference>
+  <reference evidence="9" key="6">
+    <citation type="journal article" date="1995" name="Antimicrob. Agents Chemother." volume="39" first="2656" last="2660">
+      <title>Mutacin II, a bactericidal lantibiotic from Streptococcus mutans.</title>
+      <authorList>
+        <person name="Chikindas M.L."/>
+        <person name="Novak J."/>
+        <person name="Driessen A.J.M."/>
+        <person name="Konings W.N."/>
+        <person name="Schilling K.M."/>
+        <person name="Caufield P.W."/>
+      </authorList>
+      <dbReference type="PubMed" id="8592997"/>
+      <dbReference type="DOI" id="10.1128/aac.39.12.2656"/>
+    </citation>
+    <scope>FUNCTION</scope>
+    <source>
+      <strain evidence="6">T8</strain>
+    </source>
+  </reference>
+  <reference evidence="9" key="7">
+    <citation type="journal article" date="1996" name="Anal. Biochem." volume="236" first="358" last="360">
+      <title>Detection of modified amino acids in lantibiotic peptide mutacin II by chemical derivation and electrospray ionization-mass spectroscopic analysis.</title>
+      <authorList>
+        <person name="Novak J."/>
+        <person name="Kirk M."/>
+        <person name="Caufield P.W."/>
+        <person name="Barnes S."/>
+        <person name="Morrison K."/>
+        <person name="Baker J."/>
+      </authorList>
+      <dbReference type="PubMed" id="8660519"/>
+      <dbReference type="DOI" id="10.1006/abio.1996.0181"/>
+    </citation>
+    <scope>POST-TRANSLATIONAL MODIFICATIONS</scope>
+    <scope>MASS SPECTROMETRY</scope>
+    <source>
+      <strain evidence="7">T8</strain>
+    </source>
+  </reference>
+  <reference evidence="9" key="8">
+    <citation type="journal article" date="2001" name="FEMS Microbiol. Lett." volume="195" first="139" last="144">
+      <title>Effect of amino acid substitutions in conserved residues in the leader peptide on biosynthesis of the lantibiotic mutacin II.</title>
+      <authorList>
+        <person name="Chen P."/>
+        <person name="Qi F."/>
+        <person name="Novak J."/>
+        <person name="Krull R.E."/>
+        <person name="Caufield P.W."/>
+      </authorList>
+      <dbReference type="PubMed" id="11179642"/>
+      <dbReference type="DOI" id="10.1111/j.1574-6968.2001.tb10511.x"/>
+    </citation>
+    <scope>MUTAGENESIS OF GLU-14; VAL-15; SER-16; GLU-19; LEU-20; ILE-23; GLY-25 AND GLY-26</scope>
+    <source>
+      <strain evidence="3">T8</strain>
+    </source>
+  </reference>
+  <comment type="function">
+    <text evidence="4 5 6">Lanthionine-containing peptide antibiotic (lantibiotic) active on Gram-positive bacteria including M.luteus, S.aureus, Streptococcus, P.micros, P.acidilactici, C.sporogenes, C.diphtheriae, A.viscosus, G.vaginalis, P.acnes, L.monocytogenes and M.smegmatis, and Gram-negative bacteria including C.jejuni, H.pylori and N.gonorrhoeae. Transiently and partially depolarizes the transmembrane electrical potential and pH gradient of susceptible cells, inhibits the uptake of amino acids and depletes the intracellular ATP pool.</text>
+  </comment>
+  <comment type="biophysicochemical properties">
+    <phDependence>
+      <text evidence="4 5">Stable from pH 2.0 to 4.0. Activity decreases gradually with increasing pH.</text>
+    </phDependence>
+    <temperatureDependence>
+      <text evidence="4 5">Thermostable.</text>
+    </temperatureDependence>
+  </comment>
+  <comment type="PTM">
+    <text evidence="9">Maturation of lantibiotics involves the enzymatic conversion of Thr, and Ser into dehydrated AA and the formation of thioether bonds with cysteine. This is followed by membrane translocation and cleavage of the modified precursor.</text>
+  </comment>
+  <comment type="PTM">
+    <text>It is not established whether the 2,3-didehydrobutyrine is the E- or Z-isomer (PubMed:10821848, PubMed:16626493, PubMed:9647795, PubMed:8021218, PubMed:8660519).</text>
+  </comment>
+  <comment type="mass spectrometry" mass="3244.64" error="1.15" method="Electrospray" evidence="5"/>
+  <comment type="mass spectrometry" mass="3245.4" error="0.58" method="Electrospray" evidence="7"/>
+  <comment type="mass spectrometry" mass="3246.08" error="0.1" method="MALDI" evidence="4"/>
+  <comment type="similarity">
+    <text evidence="1">Belongs to the type A lantibiotic family.</text>
+  </comment>
+  <dbReference type="EMBL" id="U40620">
+    <property type="protein sequence ID" value="AAC38144.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="PIR" id="JC6526">
+    <property type="entry name" value="JC6526"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="O54329"/>
+  <dbReference type="TCDB" id="1.C.21.1.10">
+    <property type="family name" value="the lacticin 481 (lacticin 481) family"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0005576">
+    <property type="term" value="C:extracellular region"/>
+    <property type="evidence" value="ECO:0000305"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0005102">
+    <property type="term" value="F:signaling receptor binding"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0006865">
+    <property type="term" value="P:amino acid transport"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0050829">
+    <property type="term" value="P:defense response to Gram-negative bacterium"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0050830">
+    <property type="term" value="P:defense response to Gram-positive bacterium"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0031640">
+    <property type="term" value="P:killing of cells of another organism"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0042391">
+    <property type="term" value="P:regulation of membrane potential"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR007682">
+    <property type="entry name" value="Lantibiotic_typ-A_Lactobact"/>
+  </dbReference>
+  <dbReference type="NCBIfam" id="NF040664">
+    <property type="entry name" value="HEC_x9_TCC_lant"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF04604">
+    <property type="entry name" value="L_biotic_typeA"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="evidence at protein level"/>
+  <keyword id="KW-0044">Antibiotic</keyword>
+  <keyword id="KW-0929">Antimicrobial</keyword>
+  <keyword id="KW-0078">Bacteriocin</keyword>
+  <keyword id="KW-0903">Direct protein sequencing</keyword>
+  <keyword id="KW-0425">Lantibiotic</keyword>
+  <keyword id="KW-0883">Thioether bond</keyword>
+  <feature type="propeptide" id="PRO_0000017128" evidence="2 4 5 8">
+    <location>
+      <begin position="1"/>
+      <end position="26"/>
+    </location>
+  </feature>
+  <feature type="peptide" id="PRO_0000017129" description="Lantibiotic mutacin-2">
+    <location>
+      <begin position="27"/>
+      <end position="53"/>
+    </location>
+  </feature>
+  <feature type="modified residue" description="2,3-didehydrobutyrine" evidence="2">
+    <location>
+      <position position="51"/>
+    </location>
+  </feature>
+  <feature type="cross-link" description="Beta-methyllanthionine (Thr-Cys)" evidence="2">
+    <location>
+      <begin position="36"/>
+      <end position="41"/>
+    </location>
+  </feature>
+  <feature type="cross-link" description="Lanthionine (Ser-Cys)" evidence="2">
+    <location>
+      <begin position="38"/>
+      <end position="52"/>
+    </location>
+  </feature>
+  <feature type="cross-link" description="Lanthionine (Ser-Cys)" evidence="2">
+    <location>
+      <begin position="45"/>
+      <end position="53"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="No loss of activity or protein production." evidence="3">
+    <original>E</original>
+    <variation>D</variation>
+    <location>
+      <position position="14"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Reduced protein production to about 10% of wild-type level." evidence="3">
+    <original>E</original>
+    <variation>K</variation>
+    <location>
+      <position position="14"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="No loss of activity or protein production." evidence="3">
+    <original>V</original>
+    <variation>I</variation>
+    <variation>A</variation>
+    <location>
+      <position position="15"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Reduced protein production to about 50% of wild-type level." evidence="3">
+    <original>V</original>
+    <variation>L</variation>
+    <location>
+      <position position="15"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="No loss of activity or protein production." evidence="3">
+    <original>S</original>
+    <variation>T</variation>
+    <variation>A</variation>
+    <location>
+      <position position="16"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="No loss of activity or protein production." evidence="3">
+    <original>E</original>
+    <variation>D</variation>
+    <location>
+      <position position="19"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Reduced protein production to about 75% of wild-type level." evidence="3">
+    <original>E</original>
+    <variation>K</variation>
+    <location>
+      <position position="19"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="No mature protein is produced." evidence="3">
+    <original>L</original>
+    <variation>K</variation>
+    <location>
+      <position position="20"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="No loss of activity or protein production." evidence="3">
+    <original>L</original>
+    <variation>M</variation>
+    <location>
+      <position position="20"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="No mature protein is produced." evidence="3">
+    <original>I</original>
+    <variation>D</variation>
+    <location>
+      <position position="23"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="No loss of activity or protein production." evidence="3">
+    <original>I</original>
+    <variation>V</variation>
+    <location>
+      <position position="23"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="No mature protein is produced." evidence="3">
+    <original>G</original>
+    <variation>A</variation>
+    <location>
+      <position position="25"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="No mature protein is produced." evidence="3">
+    <original>G</original>
+    <variation>A</variation>
+    <location>
+      <position position="26"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="No protein is secreted." evidence="8">
+    <location>
+      <position position="27"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="No loss of activity." evidence="8">
+    <original>V</original>
+    <variation>A</variation>
+    <location>
+      <position position="33"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Low activity, less than 10% of wild-type." evidence="8">
+    <original>P</original>
+    <variation>A</variation>
+    <location>
+      <position position="35"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Loss of secretion." evidence="8">
+    <original>T</original>
+    <variation>A</variation>
+    <location>
+      <position position="36"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="No loss of activity." evidence="8">
+    <original>T</original>
+    <variation>S</variation>
+    <location>
+      <position position="36"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Loss of activity." evidence="2 8">
+    <original>C</original>
+    <variation>A</variation>
+    <location>
+      <position position="41"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Loss of activity." evidence="2 8">
+    <original>C</original>
+    <variation>A</variation>
+    <location>
+      <position position="52"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Low activity, less than 10% of wild-type level." evidence="8">
+    <original>C</original>
+    <variation>A</variation>
+    <location>
+      <position position="53"/>
+    </location>
+  </feature>
+  <evidence type="ECO:0000255" key="1"/>
+  <evidence type="ECO:0000269" key="2">
+    <source>
+      <dbReference type="PubMed" id="10821848"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="3">
+    <source>
+      <dbReference type="PubMed" id="11179642"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="4">
+    <source>
+      <dbReference type="PubMed" id="16626493"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="5">
+    <source>
+      <dbReference type="PubMed" id="8021218"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="6">
+    <source>
+      <dbReference type="PubMed" id="8592997"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="7">
+    <source>
+      <dbReference type="PubMed" id="8660519"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="8">
+    <source>
+      <dbReference type="PubMed" id="9647795"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000305" key="9"/>
+  <evidence type="ECO:0000312" key="10">
+    <source>
+      <dbReference type="EMBL" id="AAC38144.1"/>
+    </source>
+  </evidence>
+  <sequence length="53" mass="6020" checksum="6C3788E2C9EC6525" modified="1998-06-01" version="1" precursor="true">MNKLNSNAVVSLNEVSDSELDTILGGNRWWQGVVPTVSYECRMNSWQHVFTCC</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

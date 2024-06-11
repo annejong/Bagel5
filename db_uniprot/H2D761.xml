@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2012-03-21" modified="2024-01-24" version="19" xmlns="http://uniprot.org/uniprot">
+  <accession>H2D761</accession>
+  <name>H2D761_STRSL</name>
+  <protein>
+    <recommendedName>
+      <fullName evidence="3">Lantibiotic</fullName>
+    </recommendedName>
+  </protein>
+  <gene>
+    <name evidence="4" type="primary">slvD</name>
+  </gene>
+  <organism evidence="4">
+    <name type="scientific">Streptococcus salivarius</name>
+    <dbReference type="NCBI Taxonomy" id="1304"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Bacillota</taxon>
+      <taxon>Bacilli</taxon>
+      <taxon>Lactobacillales</taxon>
+      <taxon>Streptococcaceae</taxon>
+      <taxon>Streptococcus</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="4" key="1">
+    <citation type="journal article" date="2012" name="Appl. Environ. Microbiol." volume="78" first="402" last="410">
+      <title>Salivaricin D, a Novel Intrinsically Trypsin-Resistant Lantibiotic from Streptococcus salivarius 5M6c Isolated from a Healthy Infant.</title>
+      <authorList>
+        <person name="Birri D.J."/>
+        <person name="Brede D.A."/>
+        <person name="Nes I.F."/>
+      </authorList>
+      <dbReference type="PubMed" id="22101034"/>
+      <dbReference type="DOI" id="10.1128/AEM.06588-11"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="4">5M6c</strain>
+    </source>
+  </reference>
+  <comment type="function">
+    <text evidence="3">Lanthionine-containing peptide antibiotic (lantibiotic) active on Gram-positive bacteria. The bactericidal activity of lantibiotics is based on depolarization of energized bacterial cytoplasmic membranes, initiated by the formation of aqueous transmembrane pores.</text>
+  </comment>
+  <comment type="PTM">
+    <text evidence="3">Maturation of lantibiotics involves the enzymatic conversion of Thr, and Ser into dehydrated AA and the formation of thioether bonds with cysteine. This is followed by membrane translocation and cleavage of the modified precursor.</text>
+  </comment>
+  <comment type="similarity">
+    <text evidence="1 3">Belongs to the type A lantibiotic family.</text>
+  </comment>
+  <dbReference type="EMBL" id="JN564797">
+    <property type="protein sequence ID" value="AEX55166.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="H2D761"/>
+  <dbReference type="SMR" id="H2D761"/>
+  <dbReference type="GO" id="GO:0005576">
+    <property type="term" value="C:extracellular region"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="InterPro"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0005102">
+    <property type="term" value="F:signaling receptor binding"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0042742">
+    <property type="term" value="P:defense response to bacterium"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-UniRule"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0031640">
+    <property type="term" value="P:killing of cells of another organism"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-UniRule"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR006079">
+    <property type="entry name" value="Lantibiotic_typ-A_Bacillales"/>
+  </dbReference>
+  <dbReference type="NCBIfam" id="TIGR03731">
+    <property type="entry name" value="lantibio_gallid"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF02052">
+    <property type="entry name" value="Gallidermin"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="PRINTS" id="PR00324">
+    <property type="entry name" value="NISIN"/>
+  </dbReference>
+  <proteinExistence type="inferred from homology"/>
+  <keyword evidence="3" id="KW-0044">Antibiotic</keyword>
+  <keyword evidence="3" id="KW-0929">Antimicrobial</keyword>
+  <keyword evidence="3" id="KW-0078">Bacteriocin</keyword>
+  <keyword evidence="2 3" id="KW-0425">Lantibiotic</keyword>
+  <evidence type="ECO:0000256" key="1">
+    <source>
+      <dbReference type="ARBA" id="ARBA00009379"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000256" key="2">
+    <source>
+      <dbReference type="ARBA" id="ARBA00022789"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000256" key="3">
+    <source>
+      <dbReference type="RuleBase" id="RU362078"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="4">
+    <source>
+      <dbReference type="EMBL" id="AEX55166.1"/>
+    </source>
+  </evidence>
+  <sequence length="57" mass="6048" checksum="073C9DFEAE60A16C" modified="2012-03-21" version="1">MSTKDFNLDLVEVSKSNTGASARFTSHSLCTPGCITGVLMGCHIQSIGCNVHIHISK</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

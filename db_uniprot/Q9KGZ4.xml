@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2000-10-01" modified="2023-09-13" version="34" xmlns="http://uniprot.org/uniprot">
+  <accession>Q9KGZ4</accession>
+  <name>Q9KGZ4_CLOBO</name>
+  <protein>
+    <submittedName>
+      <fullName evidence="1">Bacteriocin boticin B</fullName>
+    </submittedName>
+  </protein>
+  <gene>
+    <name evidence="1" type="primary">btcB</name>
+  </gene>
+  <organism evidence="1">
+    <name type="scientific">Clostridium botulinum</name>
+    <dbReference type="NCBI Taxonomy" id="1491"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Bacillota</taxon>
+      <taxon>Clostridia</taxon>
+      <taxon>Eubacteriales</taxon>
+      <taxon>Clostridiaceae</taxon>
+      <taxon>Clostridium</taxon>
+    </lineage>
+  </organism>
+  <geneLocation type="plasmid" evidence="1">
+    <name>18.8 kb plasmid</name>
+  </geneLocation>
+  <geneLocation type="plasmid" evidence="2">
+    <name>pMI06</name>
+  </geneLocation>
+  <geneLocation type="plasmid" evidence="3">
+    <name>pMI06-01</name>
+  </geneLocation>
+  <geneLocation type="plasmid" evidence="4">
+    <name>pTO08</name>
+  </geneLocation>
+  <reference evidence="1" key="1">
+    <citation type="journal article" date="2000" name="Appl. Environ. Microbiol." volume="66" first="5480" last="5483">
+      <title>Cloning, nucleotide sequence, and expression of the gene encoding the bacteriocin boticin B from Clostridium botulinum strain 213B.</title>
+      <authorList>
+        <person name="Dineen S.S."/>
+        <person name="Bradshaw M."/>
+        <person name="Johnson E.A."/>
+      </authorList>
+      <dbReference type="PubMed" id="11097932"/>
+      <dbReference type="DOI" id="10.1128/AEM.66.12.5480-5483.2000"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="1">213B</strain>
+      <plasmid evidence="1">18.8 kb plasmid</plasmid>
+    </source>
+  </reference>
+  <reference evidence="2" key="2">
+    <citation type="journal article" date="2014" name="Appl. Environ. Microbiol." volume="80" first="6954" last="6964">
+      <title>Genetic characterization and comparison of Clostridium botulinum isolates from botulism cases in Japan between 2006 and 2011.</title>
+      <authorList>
+        <person name="Kenri T."/>
+        <person name="Sekizuka T."/>
+        <person name="Yamamoto A."/>
+        <person name="Iwaki M."/>
+        <person name="Komiya T."/>
+        <person name="Hatakeyama T."/>
+        <person name="Nakajima H."/>
+        <person name="Takahashi M."/>
+        <person name="Kuroda M."/>
+        <person name="Shibayama K."/>
+      </authorList>
+      <dbReference type="PubMed" id="25192986"/>
+      <dbReference type="DOI" id="10.1128/AEM.02134-14"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="2">Miyagi2006</strain>
+      <strain evidence="3">Miyagi2006-01</strain>
+      <strain evidence="4">Tochigi2008</strain>
+      <plasmid evidence="2">pMI06</plasmid>
+      <plasmid evidence="3">pMI06-01</plasmid>
+      <plasmid evidence="4">pTO08</plasmid>
+    </source>
+  </reference>
+  <dbReference type="EMBL" id="AF278540">
+    <property type="protein sequence ID" value="AAF87749.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="AB910391">
+    <property type="protein sequence ID" value="BAP28089.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="AB910519">
+    <property type="protein sequence ID" value="BAP28757.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="AB910520">
+    <property type="protein sequence ID" value="BAP28774.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="WP_031942513.1">
+    <property type="nucleotide sequence ID" value="NZ_QRDB01000008.1"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="YP_009062185.1">
+    <property type="nucleotide sequence ID" value="NC_024989.1"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="YP_009062800.1">
+    <property type="nucleotide sequence ID" value="NC_025002.1"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="Q9KGZ4"/>
+  <proteinExistence type="predicted"/>
+  <keyword evidence="1" id="KW-0614">Plasmid</keyword>
+  <evidence type="ECO:0000313" key="1">
+    <source>
+      <dbReference type="EMBL" id="AAF87749.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="2">
+    <source>
+      <dbReference type="EMBL" id="BAP28089.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="3">
+    <source>
+      <dbReference type="EMBL" id="BAP28757.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="4">
+    <source>
+      <dbReference type="EMBL" id="BAP28774.1"/>
+    </source>
+  </evidence>
+  <sequence length="50" mass="5138" checksum="FD376132CFDBAEAA" modified="2000-10-01" version="1">MQKPEIISADLGLCAVNEFVALAAIPGGAATFAVCQMPNLDEIVSNAAYV</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

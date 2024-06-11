@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2021-06-02" modified="2023-09-13" version="5" xmlns="http://uniprot.org/uniprot">
+  <accession>A0A7X3M5Y2</accession>
+  <name>A0A7X3M5Y2_9GAMM</name>
+  <protein>
+    <submittedName>
+      <fullName evidence="1">Pantocin A family RiPP</fullName>
+    </submittedName>
+  </protein>
+  <gene>
+    <name evidence="1" type="ORF">FD744_12415</name>
+  </gene>
+  <organism evidence="1 2">
+    <name type="scientific">Pantoea sp. Taur</name>
+    <dbReference type="NCBI Taxonomy" id="2576757"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Pseudomonadota</taxon>
+      <taxon>Gammaproteobacteria</taxon>
+      <taxon>Enterobacterales</taxon>
+      <taxon>Erwiniaceae</taxon>
+      <taxon>Pantoea</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="1 2" key="1">
+    <citation type="submission" date="2019-05" db="EMBL/GenBank/DDBJ databases">
+      <title>Diversity of bacterial symbionts of stink bugs.</title>
+      <authorList>
+        <person name="Otero-Bravo A."/>
+        <person name="Sabree Z.L."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="1 2">Taur</strain>
+    </source>
+  </reference>
+  <comment type="caution">
+    <text evidence="1">The sequence shown here is derived from an EMBL/GenBank/DDBJ whole genome shotgun (WGS) entry which is preliminary data.</text>
+  </comment>
+  <dbReference type="EMBL" id="SZZZ01000007">
+    <property type="protein sequence ID" value="MXP59208.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="WP_012770338.1">
+    <property type="nucleotide sequence ID" value="NZ_SZZZ01000007.1"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="A0A7X3M5Y2"/>
+  <dbReference type="Proteomes" id="UP000441639">
+    <property type="component" value="Unassembled WGS sequence"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR027585">
+    <property type="entry name" value="Pantocin_A_RiPP_pre"/>
+  </dbReference>
+  <dbReference type="NCBIfam" id="TIGR04310">
+    <property type="entry name" value="pantocin_A_pre"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="predicted"/>
+  <evidence type="ECO:0000313" key="1">
+    <source>
+      <dbReference type="EMBL" id="MXP59208.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="2">
+    <source>
+      <dbReference type="Proteomes" id="UP000441639"/>
+    </source>
+  </evidence>
+  <sequence length="30" mass="3360" checksum="FB09EDEEE014A8B6" modified="2021-06-02" version="1">MIKFSTLSQRISAITEENAMYTKGQVIVLS</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

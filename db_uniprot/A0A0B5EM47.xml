@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2015-04-01" modified="2024-01-24" version="16" xmlns="http://uniprot.org/uniprot">
+  <accession>A0A0B5EM47</accession>
+  <name>A0A0B5EM47_STRA4</name>
+  <protein>
+    <recommendedName>
+      <fullName evidence="4">Albusnodin family lasso peptide</fullName>
+    </recommendedName>
+  </protein>
+  <gene>
+    <name evidence="2" type="ORF">SLNWT_2268</name>
+  </gene>
+  <organism evidence="2 3">
+    <name type="scientific">Streptomyces albus (strain ATCC 21838 / DSM 41398 / FERM P-419 / JCM 4703 / NBRC 107858)</name>
+    <dbReference type="NCBI Taxonomy" id="1081613"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Actinomycetota</taxon>
+      <taxon>Actinomycetes</taxon>
+      <taxon>Kitasatosporales</taxon>
+      <taxon>Streptomycetaceae</taxon>
+      <taxon>Streptomyces</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="2 3" key="1">
+    <citation type="submission" date="2015-01" db="EMBL/GenBank/DDBJ databases">
+      <title>Enhanced salinomycin production by adjusting the supply of polyketide extender units in Streptomyce albus DSM 41398.</title>
+      <authorList>
+        <person name="Lu C."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="3">ATCC 21838 / DSM 41398 / FERM P-419 / JCM 4703 / NBRC 107858</strain>
+    </source>
+  </reference>
+  <dbReference type="EMBL" id="CP010519">
+    <property type="protein sequence ID" value="AJE82644.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="A0A0B5EM47"/>
+  <dbReference type="KEGG" id="sals:SLNWT_2268"/>
+  <dbReference type="Proteomes" id="UP000031523">
+    <property type="component" value="Chromosome"/>
+  </dbReference>
+  <dbReference type="NCBIfam" id="NF033525">
+    <property type="entry name" value="lasso_albusnod"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="predicted"/>
+  <keyword evidence="3" id="KW-1185">Reference proteome</keyword>
+  <feature type="region of interest" description="Disordered" evidence="1">
+    <location>
+      <begin position="21"/>
+      <end position="45"/>
+    </location>
+  </feature>
+  <evidence type="ECO:0000256" key="1">
+    <source>
+      <dbReference type="SAM" id="MobiDB-lite"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="2">
+    <source>
+      <dbReference type="EMBL" id="AJE82644.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="3">
+    <source>
+      <dbReference type="Proteomes" id="UP000031523"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0008006" key="4">
+    <source>
+      <dbReference type="Google" id="ProtNLM"/>
+    </source>
+  </evidence>
+  <sequence length="45" mass="4786" checksum="355246DBA0B082D3" modified="2015-04-01" version="1">MDSLLSTETVISDDELLPIEVGGTAELTEGQGGGQSEDKRRAYNC</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

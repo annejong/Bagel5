@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2010-10-05" modified="2023-09-13" version="43" xmlns="http://uniprot.org/uniprot">
+  <accession>P86475</accession>
+  <accession>E0YCK1</accession>
+  <name>LANLA_BACLI</name>
+  <protein>
+    <recommendedName>
+      <fullName evidence="3">Lantibiotic lichenicidin VK21 A1</fullName>
+      <shortName evidence="3">LchA1</shortName>
+    </recommendedName>
+  </protein>
+  <gene>
+    <name evidence="3" type="primary">lchA1</name>
+  </gene>
+  <organism>
+    <name type="scientific">Bacillus licheniformis</name>
+    <dbReference type="NCBI Taxonomy" id="1402"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Bacillota</taxon>
+      <taxon>Bacilli</taxon>
+      <taxon>Bacillales</taxon>
+      <taxon>Bacillaceae</taxon>
+      <taxon>Bacillus</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="4" key="1">
+    <citation type="journal article" date="2010" name="Biochemistry" volume="49" first="6462" last="6472">
+      <title>Isolation, structure elucidation, and synergistic antibacterial activity of a novel two-component lantibiotic Lichenicidin from Bacillus licheniformis VK21.</title>
+      <authorList>
+        <person name="Shenkarev Z.O."/>
+        <person name="Finkina E.I."/>
+        <person name="Nurmukhamedova E.K."/>
+        <person name="Balandin S.V."/>
+        <person name="Mineev K.S."/>
+        <person name="Nadezhdin K.D."/>
+        <person name="Yakimenko Z.A."/>
+        <person name="Tagaev A.A."/>
+        <person name="Temirov Y.V."/>
+        <person name="Arseniev A.S."/>
+        <person name="Ovchinnikova T.V."/>
+      </authorList>
+      <dbReference type="PubMed" id="20578714"/>
+      <dbReference type="DOI" id="10.1021/bi100871b"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+    <scope>PROTEIN SEQUENCE OF 43-74</scope>
+    <scope>FUNCTION</scope>
+    <scope>MASS SPECTROMETRY</scope>
+    <scope>STRUCTURE BY NMR OF 43-74</scope>
+    <scope>OXOBUTANOIC ACID FORMATION AT THR-43</scope>
+    <scope>DEHYDRATION AT SER-47 AND THR-48</scope>
+    <scope>LANTHIONINE CROSS-LINKS</scope>
+    <source>
+      <strain evidence="2">VK21</strain>
+    </source>
+  </reference>
+  <comment type="function">
+    <text evidence="2">Lanthionine-containing peptide antibiotic (lantibiotic) active on Gram-positive bacteria. The bactericidal activity of lantibiotics is based on depolarization of energized bacterial cytoplasmic membranes, initiated by the formation of aqueous transmembrane pores. When present individually, LchA1 exhibits activity towards B.subtilis L1 (IC(50)=9 uM), Rhodococcus sp. SS2 (IC(50)=9 uM), M.luteus B1314 (IC(50)=1.2 uM), B.megaterium VKM41 (IC(50)=1.8 uM), S.aureus 209p (IC(50)=3.1 uM), B.pumilus 2001, B.globigii I, B.amyloliquefaciens I, M.smegmatis 1171 and M.phlei 1291. However, when combined with LchA2, it displays much stronger activity against B.subtilis L1 (IC(50)=0.64 uM), Rhodococcus sp. SS2 (IC(50)=0.64 uM), M.luteus B1314 (IC(50)=0.09 uM), B.megaterium VKM41 (IC(50)=0.12 uM) and S.aureus 209p (IC(50)=0.64 uM). The activity of the combined LchA1 and LchA2 peptides is strongest at a molar ratio of 1. Even when applied at 17-fold concentration of the highest IC(50) values for Gram-positive bacteria, neither the individual nor the combined peptides display activity against Gram-negative bacteria P.aeruginosa PAO1, P.putida I-97 or E.coli C600.</text>
+  </comment>
+  <comment type="subcellular location">
+    <subcellularLocation>
+      <location evidence="2 4">Secreted</location>
+    </subcellularLocation>
+  </comment>
+  <comment type="PTM">
+    <text evidence="1 2">Maturation of lantibiotics involves the enzymatic conversion of Thr, and Ser into dehydrated AA and the formation of thioether bonds with cysteine. This is followed by membrane translocation and cleavage of the modified precursor.</text>
+  </comment>
+  <comment type="PTM">
+    <text evidence="2">The 2,3-didehydrobutyrine is determined to be the Z-isomer.</text>
+  </comment>
+  <comment type="mass spectrometry" mass="3249.51" method="Electrospray" evidence="2"/>
+  <dbReference type="EMBL" id="GU949560">
+    <property type="protein sequence ID" value="ADM36018.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="WP_003186381.1">
+    <property type="nucleotide sequence ID" value="NZ_VEGU01000003.1"/>
+  </dbReference>
+  <dbReference type="PDB" id="8C5J">
+    <property type="method" value="NMR"/>
+    <property type="chains" value="A=44-74"/>
+  </dbReference>
+  <dbReference type="PDBsum" id="8C5J"/>
+  <dbReference type="AlphaFoldDB" id="P86475"/>
+  <dbReference type="SMR" id="P86475"/>
+  <dbReference type="GeneID" id="66213935"/>
+  <dbReference type="PATRIC" id="fig|1402.62.peg.575"/>
+  <dbReference type="EvolutionaryTrace" id="P86475"/>
+  <dbReference type="GO" id="GO:0005615">
+    <property type="term" value="C:extracellular space"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0005102">
+    <property type="term" value="F:signaling receptor binding"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0050830">
+    <property type="term" value="P:defense response to Gram-positive bacterium"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0031640">
+    <property type="term" value="P:killing of cells of another organism"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR029243">
+    <property type="entry name" value="Lantibiotic_alpha"/>
+  </dbReference>
+  <dbReference type="NCBIfam" id="NF000539">
+    <property type="entry name" value="plantaricin"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF14867">
+    <property type="entry name" value="Lantibiotic_a"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="evidence at protein level"/>
+  <keyword id="KW-0002">3D-structure</keyword>
+  <keyword id="KW-0044">Antibiotic</keyword>
+  <keyword id="KW-0929">Antimicrobial</keyword>
+  <keyword id="KW-0078">Bacteriocin</keyword>
+  <keyword id="KW-0903">Direct protein sequencing</keyword>
+  <keyword id="KW-0425">Lantibiotic</keyword>
+  <keyword id="KW-0964">Secreted</keyword>
+  <keyword id="KW-0883">Thioether bond</keyword>
+  <feature type="propeptide" id="PRO_0000399042" evidence="2">
+    <location>
+      <begin position="1"/>
+      <end position="42"/>
+    </location>
+  </feature>
+  <feature type="peptide" id="PRO_0000399043" description="Lantibiotic lichenicidin VK21 A1" evidence="2">
+    <location>
+      <begin position="43"/>
+      <end position="74"/>
+    </location>
+  </feature>
+  <feature type="modified residue" description="2-oxobutanoic acid" evidence="2">
+    <location>
+      <position position="43"/>
+    </location>
+  </feature>
+  <feature type="modified residue" description="2,3-didehydroalanine (Ser)" evidence="2">
+    <location>
+      <position position="47"/>
+    </location>
+  </feature>
+  <feature type="modified residue" description="(Z)-2,3-didehydrobutyrine" evidence="2">
+    <location>
+      <position position="48"/>
+    </location>
+  </feature>
+  <feature type="cross-link" description="Beta-methyllanthionine (Thr-Cys)" evidence="2">
+    <location>
+      <begin position="45"/>
+      <end position="49"/>
+    </location>
+  </feature>
+  <feature type="cross-link" description="Lanthionine (Ser-Cys)" evidence="2">
+    <location>
+      <begin position="53"/>
+      <end position="63"/>
+    </location>
+  </feature>
+  <feature type="cross-link" description="Beta-methyllanthionine (Thr-Cys)" evidence="2">
+    <location>
+      <begin position="64"/>
+      <end position="69"/>
+    </location>
+  </feature>
+  <feature type="cross-link" description="Beta-methyllanthionine (Thr-Cys)" evidence="2">
+    <location>
+      <begin position="66"/>
+      <end position="73"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="5">
+    <location>
+      <begin position="55"/>
+      <end position="58"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="5">
+    <location>
+      <begin position="66"/>
+      <end position="68"/>
+    </location>
+  </feature>
+  <evidence type="ECO:0000250" key="1">
+    <source>
+      <dbReference type="UniProtKB" id="O87236"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="2">
+    <source>
+      <dbReference type="PubMed" id="20578714"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000303" key="3">
+    <source>
+      <dbReference type="PubMed" id="20578714"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000305" key="4"/>
+  <evidence type="ECO:0007829" key="5">
+    <source>
+      <dbReference type="PDB" id="8C5J"/>
+    </source>
+  </evidence>
+  <sequence length="74" mass="8208" checksum="A9B07B85B9118C56" modified="2010-10-05" version="1" precursor="true">MSKKEMILSWKNPMYRTESSYHPAGNILKELQEEEQHSIAGGTITLSTCAILSKPLGNNGYLCTVTKECMPSCN</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

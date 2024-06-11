@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2004-10-25" modified="2024-01-24" version="53" xmlns="http://uniprot.org/uniprot">
+  <accession>Q64SU4</accession>
+  <name>Q64SU4_BACFR</name>
+  <protein>
+    <recommendedName>
+      <fullName evidence="1">MACPF domain-containing protein</fullName>
+    </recommendedName>
+  </protein>
+  <gene>
+    <name evidence="2" type="ordered locus">BF2685</name>
+  </gene>
+  <organism evidence="2 3">
+    <name type="scientific">Bacteroides fragilis (strain YCH46)</name>
+    <dbReference type="NCBI Taxonomy" id="295405"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Bacteroidota</taxon>
+      <taxon>Bacteroidia</taxon>
+      <taxon>Bacteroidales</taxon>
+      <taxon>Bacteroidaceae</taxon>
+      <taxon>Bacteroides</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="2 3" key="1">
+    <citation type="journal article" date="2004" name="Proc. Natl. Acad. Sci. U.S.A." volume="101" first="14919" last="14924">
+      <title>Genomic analysis of Bacteroides fragilis reveals extensive DNA inversions regulating cell surface adaptation.</title>
+      <authorList>
+        <person name="Kuwahara T."/>
+        <person name="Yamashita A."/>
+        <person name="Hirakawa H."/>
+        <person name="Nakayama H."/>
+        <person name="Toh H."/>
+        <person name="Okada N."/>
+        <person name="Kuhara S."/>
+        <person name="Hattori M."/>
+        <person name="Hayashi T."/>
+        <person name="Ohnishi Y."/>
+      </authorList>
+      <dbReference type="PubMed" id="15466707"/>
+      <dbReference type="DOI" id="10.1073/pnas.0404172101"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="2 3">YCH46</strain>
+    </source>
+  </reference>
+  <dbReference type="EMBL" id="AP006841">
+    <property type="protein sequence ID" value="BAD49435.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="WP_005793337.1">
+    <property type="nucleotide sequence ID" value="NZ_UYXF01000003.1"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="YP_099969.1">
+    <property type="nucleotide sequence ID" value="NC_006347.1"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="Q64SU4"/>
+  <dbReference type="STRING" id="295405.BF2685"/>
+  <dbReference type="GeneID" id="66328261"/>
+  <dbReference type="KEGG" id="bfr:BF2685"/>
+  <dbReference type="PATRIC" id="fig|295405.11.peg.2597"/>
+  <dbReference type="HOGENOM" id="CLU_612019_0_0_10"/>
+  <dbReference type="OrthoDB" id="1038436at2"/>
+  <dbReference type="Proteomes" id="UP000002197">
+    <property type="component" value="Chromosome"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR020864">
+    <property type="entry name" value="MACPF"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF01823">
+    <property type="entry name" value="MACPF"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="PROSITE" id="PS51412">
+    <property type="entry name" value="MACPF_2"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="PROSITE" id="PS51257">
+    <property type="entry name" value="PROKAR_LIPOPROTEIN"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="predicted"/>
+  <feature type="domain" description="MACPF" evidence="1">
+    <location>
+      <begin position="59"/>
+      <end position="380"/>
+    </location>
+  </feature>
+  <evidence type="ECO:0000259" key="1">
+    <source>
+      <dbReference type="PROSITE" id="PS51412"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="2">
+    <source>
+      <dbReference type="EMBL" id="BAD49435.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="3">
+    <source>
+      <dbReference type="Proteomes" id="UP000002197"/>
+    </source>
+  </evidence>
+  <sequence length="506" mass="57127" checksum="661CE41D3BDFEF16" modified="2004-10-25" version="1">MKREEISYKNYSKLLIKLSLLGISFIIVSCNKTDLITDNPNNELGQLPQENGITIKTITYSPQITRSSGDGANDLIGYGYNCLYATGDNPNGAANKVIDLKRFESGVGIDPMTGEKKIFPKGIIEESIMHGDVTATEIFEKSKKEFKKSISAKGKLKLGFLPWGGIQFSAEYDSNFETKDEYSFYKMDIIRNVRRLYLSSSSIERLKYFLTDEFRYALKHASGTEIINDYGTHVLVDFVLGGKLSVVTSAIDHSDNKDELFKFSTKIFKIISASASSSISKSNYLKNTSLTILQAGGSEIQAVKRYIEEDGTINSDIFNYKEWIKSINKETSVLVASDTKKMIGIWELTDDPKIKTKILAELEKRGNNLGIIGSKSGEIVTGKSTPMYKLQNEKTGELAKAPNDRGYKFPLYCQGEYGKEMTGIGFMNYLLSYRDFQPYQSAPASNDEKSWSIKFTPDGYITVLNKHLNKFLCTDYKFRTISEDDTNSRLWIPRYTLNMWDDDTIQ</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="1992-03-01" modified="2024-01-24" version="122" xmlns="http://uniprot.org/uniprot">
+  <accession>P24022</accession>
+  <name>LAFA_LACJO</name>
+  <protein>
+    <recommendedName>
+      <fullName>Bacteriocin lactacin-F subunit LafA</fullName>
+    </recommendedName>
+  </protein>
+  <gene>
+    <name type="primary">lafA</name>
+    <name type="synonym">laf</name>
+    <name type="ordered locus">LJ_0769</name>
+  </gene>
+  <organism>
+    <name type="scientific">Lactobacillus johnsonii (strain CNCM I-12250 / La1 / NCC 533)</name>
+    <dbReference type="NCBI Taxonomy" id="257314"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Bacillota</taxon>
+      <taxon>Bacilli</taxon>
+      <taxon>Lactobacillales</taxon>
+      <taxon>Lactobacillaceae</taxon>
+      <taxon>Lactobacillus</taxon>
+    </lineage>
+  </organism>
+  <reference key="1">
+    <citation type="journal article" date="1991" name="J. Bacteriol." volume="173" first="1779" last="1788">
+      <title>Cloning, phenotypic expression, and DNA sequence of the gene for lactacin F, an antimicrobial peptide produced by Lactobacillus spp.</title>
+      <authorList>
+        <person name="Muriana P.M."/>
+        <person name="Klaenhammer T.R."/>
+      </authorList>
+      <dbReference type="PubMed" id="1900281"/>
+      <dbReference type="DOI" id="10.1128/jb.173.5.1779-1788.1991"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+    <scope>PARTIAL PROTEIN SEQUENCE</scope>
+    <source>
+      <strain>ATCC 11506 / JCM 1101 / NBRC 13952 / NCIMB 8795 / R-26 / VPI 11088</strain>
+    </source>
+  </reference>
+  <reference key="2">
+    <citation type="journal article" date="1993" name="Appl. Environ. Microbiol." volume="59" first="3906" last="3915">
+      <title>Molecular analysis of the lactacin F operon.</title>
+      <authorList>
+        <person name="Fremaux C."/>
+        <person name="Ahn C."/>
+        <person name="Klaenhammer T.R."/>
+      </authorList>
+      <dbReference type="PubMed" id="8285694"/>
+      <dbReference type="DOI" id="10.1128/aem.59.11.3906-3915.1993"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+    <source>
+      <strain>ATCC 11506 / JCM 1101 / NBRC 13952 / NCIMB 8795 / R-26 / VPI 11088</strain>
+    </source>
+  </reference>
+  <reference key="3">
+    <citation type="journal article" date="2004" name="Proc. Natl. Acad. Sci. U.S.A." volume="101" first="2512" last="2517">
+      <title>The genome sequence of the probiotic intestinal bacterium Lactobacillus johnsonii NCC 533.</title>
+      <authorList>
+        <person name="Pridmore R.D."/>
+        <person name="Berger B."/>
+        <person name="Desiere F."/>
+        <person name="Vilanova D."/>
+        <person name="Barretto C."/>
+        <person name="Pittet A.-C."/>
+        <person name="Zwahlen M.-C."/>
+        <person name="Rouvet M."/>
+        <person name="Altermann E."/>
+        <person name="Barrangou R."/>
+        <person name="Mollet B."/>
+        <person name="Mercenier A."/>
+        <person name="Klaenhammer T."/>
+        <person name="Arigoni F."/>
+        <person name="Schell M.A."/>
+      </authorList>
+      <dbReference type="PubMed" id="14983040"/>
+      <dbReference type="DOI" id="10.1073/pnas.0307327101"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain>CNCM I-1225 / La1 / NCC 533</strain>
+    </source>
+  </reference>
+  <reference key="4">
+    <citation type="journal article" date="1991" name="Appl. Environ. Microbiol." volume="57" first="114" last="121">
+      <title>Purification and partial characterization of lactacin F, a bacteriocin produced by Lactobacillus acidophilus 11088.</title>
+      <authorList>
+        <person name="Muriana P.M."/>
+        <person name="Klaenhammer T.R."/>
+      </authorList>
+      <dbReference type="PubMed" id="1903624"/>
+      <dbReference type="DOI" id="10.1128/aem.57.1.114-121.1991"/>
+    </citation>
+    <scope>PROTEIN SEQUENCE OF 19-43</scope>
+    <source>
+      <strain>ATCC 11506 / JCM 1101 / NBRC 13952 / NCIMB 8795 / R-26 / VPI 11088</strain>
+    </source>
+  </reference>
+  <comment type="function">
+    <text>Heat stable bacteriocin active against Enterococcus faecalis and other Lactobacilli.</text>
+  </comment>
+  <comment type="subunit">
+    <text>This bacteriocin depends upon the complementation of two peptides for activity: LafA and LafX. Associated with a 180 kDa bacteriocin complex.</text>
+  </comment>
+  <comment type="similarity">
+    <text evidence="2">Belongs to the bacteriocin class IIB family.</text>
+  </comment>
+  <dbReference type="EMBL" id="M57961">
+    <property type="protein sequence ID" value="AAA16636.1"/>
+    <property type="molecule type" value="Unassigned_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="AE017198">
+    <property type="protein sequence ID" value="AAS08588.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="WP_011161711.1">
+    <property type="nucleotide sequence ID" value="NC_005362.1"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="P24022"/>
+  <dbReference type="TCDB" id="1.C.26.1.1">
+    <property type="family name" value="the lactacin x (lactacin x) family"/>
+  </dbReference>
+  <dbReference type="KEGG" id="ljo:LJ_0769"/>
+  <dbReference type="PATRIC" id="fig|257314.6.peg.625"/>
+  <dbReference type="eggNOG" id="ENOG50304YT">
+    <property type="taxonomic scope" value="Bacteria"/>
+  </dbReference>
+  <dbReference type="HOGENOM" id="CLU_188490_0_0_9"/>
+  <dbReference type="OMA" id="NNWAANV"/>
+  <dbReference type="Proteomes" id="UP000000581">
+    <property type="component" value="Chromosome"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0042742">
+    <property type="term" value="P:defense response to bacterium"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0031640">
+    <property type="term" value="P:killing of cells of another organism"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR019493">
+    <property type="entry name" value="Bacteriocin_IIb_lactacin-rel"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF10439">
+    <property type="entry name" value="Bacteriocin_IIc"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="evidence at protein level"/>
+  <keyword id="KW-0044">Antibiotic</keyword>
+  <keyword id="KW-0929">Antimicrobial</keyword>
+  <keyword id="KW-0078">Bacteriocin</keyword>
+  <keyword id="KW-0903">Direct protein sequencing</keyword>
+  <feature type="propeptide" id="PRO_0000002753" evidence="1">
+    <location>
+      <begin position="1"/>
+      <end position="18"/>
+    </location>
+  </feature>
+  <feature type="chain" id="PRO_0000002754" description="Bacteriocin lactacin-F subunit LafA">
+    <location>
+      <begin position="19"/>
+      <end position="75"/>
+    </location>
+  </feature>
+  <feature type="sequence conflict" description="In Ref. 1; no nucleotide entry and 2; AAA16636." evidence="2" ref="1 2">
+    <original>A</original>
+    <variation>G</variation>
+    <location>
+      <position position="62"/>
+    </location>
+  </feature>
+  <evidence type="ECO:0000269" key="1">
+    <source>
+      <dbReference type="PubMed" id="1903624"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000305" key="2"/>
+  <sequence length="75" mass="7604" checksum="5A9234FC33434489" modified="2004-03-15" version="2" precursor="true">MKQFNYLSHKDLAVVVGGRNNWQTNVGGAVGSAMIGATVGGTICGPACAVAGAHYLPILWTAVTAATGGFGKIRK</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

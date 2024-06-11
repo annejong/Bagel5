@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2015-07-22" modified="2023-09-13" version="26" xmlns="http://uniprot.org/uniprot">
+  <accession>A0A0F7VRL1</accession>
+  <name>A0A0F7VRL1_9ACTN</name>
+  <protein>
+    <submittedName>
+      <fullName evidence="2">Ls3A-pre-pro-peptide</fullName>
+    </submittedName>
+    <submittedName>
+      <fullName evidence="1">Precursor peptide</fullName>
+    </submittedName>
+  </protein>
+  <gene>
+    <name evidence="2" type="primary">ls3A</name>
+    <name evidence="1" type="synonym">cptA</name>
+    <name evidence="2" type="synonym">sle2_130</name>
+  </gene>
+  <organism evidence="2 3">
+    <name type="scientific">Streptomyces leeuwenhoekii</name>
+    <dbReference type="NCBI Taxonomy" id="1437453"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Actinomycetota</taxon>
+      <taxon>Actinomycetes</taxon>
+      <taxon>Kitasatosporales</taxon>
+      <taxon>Streptomycetaceae</taxon>
+      <taxon>Streptomyces</taxon>
+    </lineage>
+  </organism>
+  <geneLocation type="plasmid" evidence="3">
+    <name>pSLE2</name>
+  </geneLocation>
+  <reference evidence="4" key="1">
+    <citation type="journal article" date="2015" name="J. Org. Chem." volume="80" first="10252" last="10260">
+      <title>Chaxapeptin, a Lasso Peptide from Extremotolerant Streptomyces leeuwenhoekii Strain C58 from the Hyperarid Atacama Desert.</title>
+      <authorList>
+        <person name="Elsayed S.S."/>
+        <person name="Trusch F."/>
+        <person name="Deng H."/>
+        <person name="Raab A."/>
+        <person name="Prokes I."/>
+        <person name="Busarakam K."/>
+        <person name="Asenjo J.A."/>
+        <person name="Andrews B.A."/>
+        <person name="van West P."/>
+        <person name="Bull A.T."/>
+        <person name="Goodfellow M."/>
+        <person name="Yi Y."/>
+        <person name="Ebel R."/>
+        <person name="Jaspars M."/>
+        <person name="Rateb M.E."/>
+      </authorList>
+      <dbReference type="PubMed" id="26402731"/>
+      <dbReference type="DOI" id="10.1021/acs.joc.5b01878"/>
+    </citation>
+    <scope>STRUCTURE BY NMR OF 30-44</scope>
+  </reference>
+  <reference evidence="2" key="2">
+    <citation type="submission" date="2015-02" db="EMBL/GenBank/DDBJ databases">
+      <authorList>
+        <person name="Torres C."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="2">C34</strain>
+    </source>
+  </reference>
+  <reference evidence="3" key="3">
+    <citation type="submission" date="2015-02" db="EMBL/GenBank/DDBJ databases">
+      <authorList>
+        <person name="Gomez-Escribano P.J."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="3">C34 (DSM 42122 / NRRL B-24963)</strain>
+      <plasmid evidence="3">pSLE2</plasmid>
+    </source>
+  </reference>
+  <reference evidence="1" key="4">
+    <citation type="submission" date="2015-07" db="EMBL/GenBank/DDBJ databases">
+      <authorList>
+        <person name="Cajimat M.N.B."/>
+        <person name="Milazzo M.L."/>
+        <person name="Fulhorst C.F."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="1">C58</strain>
+    </source>
+  </reference>
+  <dbReference type="EMBL" id="KT305743">
+    <property type="protein sequence ID" value="ALT06552.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="LN831789">
+    <property type="protein sequence ID" value="CQR59431.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="PDB" id="2N5C">
+    <property type="method" value="NMR"/>
+    <property type="chains" value="A=30-44"/>
+  </dbReference>
+  <dbReference type="PDBsum" id="2N5C"/>
+  <dbReference type="AlphaFoldDB" id="A0A0F7VRL1"/>
+  <dbReference type="BMRB" id="A0A0F7VRL1"/>
+  <dbReference type="SMR" id="A0A0F7VRL1"/>
+  <dbReference type="KEGG" id="sle:sle2_130"/>
+  <dbReference type="Proteomes" id="UP000035016">
+    <property type="component" value="Plasmid pSLE2"/>
+  </dbReference>
+  <dbReference type="NCBIfam" id="NF033521">
+    <property type="entry name" value="lasso_leader_L3"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="evidence at protein level"/>
+  <keyword evidence="4" id="KW-0002">3D-structure</keyword>
+  <evidence type="ECO:0000313" key="1">
+    <source>
+      <dbReference type="EMBL" id="ALT06552.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="2">
+    <source>
+      <dbReference type="EMBL" id="CQR59431.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="3">
+    <source>
+      <dbReference type="Proteomes" id="UP000035016"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007829" key="4">
+    <source>
+      <dbReference type="PDB" id="2N5C"/>
+    </source>
+  </evidence>
+  <sequence length="44" mass="4899" checksum="4B7D9E4A890FDD02" modified="2015-07-22" version="1">MEPQMTELQPEAYEAPSLIEVGEFSEDTLGFGSKPLDSFGLNFF</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

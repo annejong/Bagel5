@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2005-11-22" modified="2023-06-28" version="18" xmlns="http://uniprot.org/uniprot">
+  <accession>Q3C2G0</accession>
+  <name>Q3C2G0_9ACTN</name>
+  <protein>
+    <submittedName>
+      <fullName evidence="1">Goadsporin structure protein</fullName>
+    </submittedName>
+  </protein>
+  <gene>
+    <name evidence="1" type="primary">godA</name>
+  </gene>
+  <organism evidence="1">
+    <name type="scientific">Streptomyces sp. TP-A0584</name>
+    <dbReference type="NCBI Taxonomy" id="314563"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Actinomycetota</taxon>
+      <taxon>Actinomycetes</taxon>
+      <taxon>Kitasatosporales</taxon>
+      <taxon>Streptomycetaceae</taxon>
+      <taxon>Streptomyces</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="1" key="1">
+    <citation type="journal article" date="2005" name="Microbiology (Mosc.)" volume="151" first="3923" last="3933">
+      <title>Cloning and characterization of goadsporin biosynthetic gene cluster from Streptomyces sp. TP-A0584.</title>
+      <authorList>
+        <person name="Onaka H."/>
+        <person name="Nakaho M."/>
+        <person name="Hayashi K."/>
+        <person name="Igarashi Y."/>
+        <person name="Furumai T."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="1">TP-A0584</strain>
+    </source>
+  </reference>
+  <reference evidence="1" key="2">
+    <citation type="journal article" date="2006" name="Nihon Hosenkin Gakkaishi" volume="20" first="62" last="71">
+      <title>Biosynthesis of heterocyclic antibiotics in actinomycetes and an approach to synthesize the natural compounds.</title>
+      <authorList>
+        <person name="Onaka H."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="1">TP-A0584</strain>
+    </source>
+  </reference>
+  <dbReference type="EMBL" id="AB205012">
+    <property type="protein sequence ID" value="BAE46916.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="Q3C2G0"/>
+  <proteinExistence type="predicted"/>
+  <evidence type="ECO:0000313" key="1">
+    <source>
+      <dbReference type="EMBL" id="BAE46916.1"/>
+    </source>
+  </evidence>
+  <sequence length="49" mass="4944" checksum="C1B1A8CDEADCBE7A" modified="2005-11-22" version="1">MENVQTLAIDDIENIDAEVTIEELSSTNGAATVSTILCSGGTLSSAGCV</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

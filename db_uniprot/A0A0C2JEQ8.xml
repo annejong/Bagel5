@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2015-04-01" modified="2024-01-24" version="30" xmlns="http://uniprot.org/uniprot">
+  <accession>A0A0C2JEQ8</accession>
+  <name>A0A0C2JEQ8_9ACTN</name>
+  <protein>
+    <submittedName>
+      <fullName evidence="1">Streptomonomicin peptide protein</fullName>
+    </submittedName>
+  </protein>
+  <gene>
+    <name evidence="1" type="ORF">LP52_05076</name>
+  </gene>
+  <organism evidence="1 2">
+    <name type="scientific">Streptomonospora alba</name>
+    <dbReference type="NCBI Taxonomy" id="183763"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Actinomycetota</taxon>
+      <taxon>Actinomycetes</taxon>
+      <taxon>Streptosporangiales</taxon>
+      <taxon>Nocardiopsaceae</taxon>
+      <taxon>Streptomonospora</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="2 3" key="1">
+    <citation type="journal article" date="2015" name="Chem. Biol." volume="22" first="241" last="250">
+      <title>Structure, bioactivity, and resistance mechanism of streptomonomicin, an unusual lasso Peptide from an understudied halophilic actinomycete.</title>
+      <authorList>
+        <person name="Metelev M."/>
+        <person name="Tietz J.I."/>
+        <person name="Melby J.O."/>
+        <person name="Blair P.M."/>
+        <person name="Zhu L."/>
+        <person name="Livnat I."/>
+        <person name="Severinov K."/>
+        <person name="Mitchell D.A."/>
+      </authorList>
+      <dbReference type="PubMed" id="25601074"/>
+      <dbReference type="DOI" id="10.1016/j.chembiol.2014.11.017"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="2">YIM 90003</strain>
+    </source>
+  </reference>
+  <comment type="caution">
+    <text evidence="1">The sequence shown here is derived from an EMBL/GenBank/DDBJ whole genome shotgun (WGS) entry which is preliminary data.</text>
+  </comment>
+  <dbReference type="EMBL" id="JROO01000009">
+    <property type="protein sequence ID" value="KIH99826.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="PDB" id="2MW3">
+    <property type="method" value="NMR"/>
+    <property type="chains" value="A=21-41"/>
+  </dbReference>
+  <dbReference type="PDBsum" id="2MW3"/>
+  <dbReference type="AlphaFoldDB" id="A0A0C2JEQ8"/>
+  <dbReference type="SMR" id="A0A0C2JEQ8"/>
+  <dbReference type="OrthoDB" id="5195428at2"/>
+  <dbReference type="Proteomes" id="UP000031675">
+    <property type="component" value="Unassembled WGS sequence"/>
+  </dbReference>
+  <dbReference type="NCBIfam" id="NF033521">
+    <property type="entry name" value="lasso_leader_L3"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="evidence at protein level"/>
+  <keyword evidence="3" id="KW-0002">3D-structure</keyword>
+  <keyword evidence="2" id="KW-1185">Reference proteome</keyword>
+  <evidence type="ECO:0000313" key="1">
+    <source>
+      <dbReference type="EMBL" id="KIH99826.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="2">
+    <source>
+      <dbReference type="Proteomes" id="UP000031675"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007829" key="3">
+    <source>
+      <dbReference type="PDB" id="2MW3"/>
+    </source>
+  </evidence>
+  <sequence length="41" mass="4533" checksum="530BE912A47FF48C" modified="2015-04-01" version="1">MSAYEIPTLTRIGKFKDVTKSLGSSPYNDILGYPALIVIYP</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

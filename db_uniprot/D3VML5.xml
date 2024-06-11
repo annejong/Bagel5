@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2012-01-25" modified="2023-09-13" version="33" xmlns="http://uniprot.org/uniprot">
+  <accession>D3VML5</accession>
+  <name>PZNA_BACVZ</name>
+  <protein>
+    <recommendedName>
+      <fullName evidence="4">Plantazolicin</fullName>
+      <shortName evidence="4">PZN</shortName>
+    </recommendedName>
+    <alternativeName>
+      <fullName evidence="5">Plantazolicin A</fullName>
+    </alternativeName>
+    <alternativeName>
+      <fullName evidence="5">Plantazolicin B</fullName>
+    </alternativeName>
+    <alternativeName>
+      <fullName evidence="4">cpd1335</fullName>
+    </alternativeName>
+  </protein>
+  <gene>
+    <name evidence="4" type="primary">pznA</name>
+    <name evidence="7" type="synonym">ptnA</name>
+    <name type="ordered locus">RBAM_007445</name>
+  </gene>
+  <organism>
+    <name type="scientific">Bacillus velezensis (strain DSM 23117 / BGSC 10A6 / LMG 26770 / FZB42)</name>
+    <name type="common">Bacillus amyloliquefaciens subsp. plantarum</name>
+    <dbReference type="NCBI Taxonomy" id="326423"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Bacillota</taxon>
+      <taxon>Bacilli</taxon>
+      <taxon>Bacillales</taxon>
+      <taxon>Bacillaceae</taxon>
+      <taxon>Bacillus</taxon>
+      <taxon>Bacillus amyloliquefaciens group</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="6" key="1">
+    <citation type="journal article" date="2011" name="J. Bacteriol." volume="193" first="215" last="224">
+      <title>Plantazolicin, a novel microcin B17/streptolysin S-like natural product from Bacillus amyloliquefaciens FZB42.</title>
+      <authorList>
+        <person name="Scholz R."/>
+        <person name="Molohon K.J."/>
+        <person name="Nachtigall J."/>
+        <person name="Vater J."/>
+        <person name="Markley A.L."/>
+        <person name="Sussmuth R.D."/>
+        <person name="Mitchell D.A."/>
+        <person name="Borriss R."/>
+      </authorList>
+      <dbReference type="PubMed" id="20971906"/>
+      <dbReference type="DOI" id="10.1128/jb.00784-10"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+    <scope>FUNCTION</scope>
+    <scope>SUBCELLULAR LOCATION</scope>
+    <scope>MASS SPECTROMETRY</scope>
+    <source>
+      <strain>DSM 23117 / BGSC 10A6 / LMG 26770 / FZB42</strain>
+    </source>
+  </reference>
+  <reference evidence="6" key="2">
+    <citation type="journal article" date="2007" name="Nat. Biotechnol." volume="25" first="1007" last="1014">
+      <title>Comparative analysis of the complete genome sequence of the plant growth-promoting bacterium Bacillus amyloliquefaciens FZB42.</title>
+      <authorList>
+        <person name="Chen X.H."/>
+        <person name="Koumoutsi A."/>
+        <person name="Scholz R."/>
+        <person name="Eisenreich A."/>
+        <person name="Schneider K."/>
+        <person name="Heinemeyer I."/>
+        <person name="Morgenstern B."/>
+        <person name="Voss B."/>
+        <person name="Hess W.R."/>
+        <person name="Reva O."/>
+        <person name="Junge H."/>
+        <person name="Voigt B."/>
+        <person name="Jungblut P.R."/>
+        <person name="Vater J."/>
+        <person name="Suessmuth R."/>
+        <person name="Liesegang H."/>
+        <person name="Strittmatter A."/>
+        <person name="Gottschalk G."/>
+        <person name="Borriss R."/>
+      </authorList>
+      <dbReference type="PubMed" id="17704766"/>
+      <dbReference type="DOI" id="10.1038/nbt1325"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain>DSM 23117 / BGSC 10A6 / LMG 26770 / FZB42</strain>
+    </source>
+  </reference>
+  <reference evidence="6" key="3">
+    <citation type="journal article" date="2011" name="ACS Chem. Biol." volume="6" first="1307" last="1313">
+      <title>Structure determination and interception of biosynthetic intermediates for the plantazolicin class of highly discriminating antibiotics.</title>
+      <authorList>
+        <person name="Molohon K.J."/>
+        <person name="Melby J.O."/>
+        <person name="Lee J."/>
+        <person name="Evans B.S."/>
+        <person name="Dunbar K.L."/>
+        <person name="Bumpus S.B."/>
+        <person name="Kelleher N.L."/>
+        <person name="Mitchell D.A."/>
+      </authorList>
+      <dbReference type="PubMed" id="21950656"/>
+      <dbReference type="DOI" id="10.1021/cb200339d"/>
+    </citation>
+    <scope>PROTEIN SEQUENCE OF 28-41</scope>
+    <scope>FUNCTION</scope>
+    <scope>SUBCELLULAR LOCATION</scope>
+    <scope>MASS SPECTROMETRY</scope>
+    <scope>METHYLATION AT ARG-28</scope>
+    <scope>STRUCTURE</scope>
+    <source>
+      <strain>DSM 23117 / BGSC 10A6 / LMG 26770 / FZB42</strain>
+    </source>
+  </reference>
+  <reference evidence="6" key="4">
+    <citation type="journal article" date="2011" name="Org. Lett." volume="13" first="2996" last="2999">
+      <title>Plantazolicin A and B: structure elucidation of ribosomally synthesized thiazole/oxazole peptides from Bacillus amyloliquefaciens FZB42.</title>
+      <authorList>
+        <person name="Kalyon B."/>
+        <person name="Helaly S.E."/>
+        <person name="Scholz R."/>
+        <person name="Nachtigall J."/>
+        <person name="Vater J."/>
+        <person name="Borriss R."/>
+        <person name="Sussmuth R.D."/>
+      </authorList>
+      <dbReference type="PubMed" id="21568297"/>
+      <dbReference type="DOI" id="10.1021/ol200809m"/>
+    </citation>
+    <scope>STRUCTURE BY NMR</scope>
+    <scope>MASS SPECTROMETRY</scope>
+    <source>
+      <strain>DSM 23117 / BGSC 10A6 / LMG 26770 / FZB42</strain>
+    </source>
+  </reference>
+  <comment type="function">
+    <text evidence="1 3">Peptide antibiotic inhibiting growth of Gram-positive bacteria in the dimethylated form plantazolicin A. The desmethyl form plantazolicin B has no antibiotic activity. The mode of action appears to be disruption of cell walls and lysis of cells. Inhibits B.subtilis strain HB0042, B.megaterium strain 7A1 and B.anthracis (MIC=2-4 ug/ml). Weakly inhibits Gram-positive bacteria B.brevis strain ATCC 8246, B.subtilis strain 168, B.cereus strain ATCC 14579 and strain CU1065, B.licheniformis strain ATCC 9789, M.luteus, B.sphaericus, P.granivorans and S.pyogenes (MIC=128 ug/ml). Does not inhibit B.pumilus, P.polymyxa, Arthrobacter sp., S.aureus, vancomycin-resistant E.faecalis, L.monocytogenes, methicillin-resistant S.aureus or Gram-negative bacteria E.coli strain K12, K.terrigena, Pseudomonas sp. and E.carotovora.</text>
+  </comment>
+  <comment type="subcellular location">
+    <subcellularLocation>
+      <location evidence="1 3">Secreted</location>
+      <location evidence="1 3">Cell wall</location>
+    </subcellularLocation>
+  </comment>
+  <comment type="PTM">
+    <text evidence="6">Maturation of thiazole and oxazole containing antibiotics involves the enzymatic condensation of a Cys, Ser or Thr with the alpha-carbonyl of the preceding amino acid to form a thioether or ether bond, then dehydration to form a double bond with the alpha-amino nitrogen. Thiazoline or oxazoline ring are dehydrogenated to form thiazole or oxazole rings.</text>
+  </comment>
+  <comment type="PTM">
+    <text evidence="2">2 forms exist: plantazolicin A and plantazolicin B. The structural difference between them is a dimethylation at Arg-28 in plantazolicin A.</text>
+  </comment>
+  <comment type="mass spectrometry" mass="1336.6" method="Electrospray" evidence="1 2">
+    <text>Plantazolicin A.</text>
+  </comment>
+  <comment type="mass spectrometry" mass="1308.5" method="Electrospray" evidence="1 2">
+    <text>Plantazolicin B.</text>
+  </comment>
+  <comment type="mass spectrometry" mass="1336.4783" method="MALDI" evidence="3"/>
+  <comment type="mass spectrometry" mass="1336.48" method="Electrospray" evidence="1 2">
+    <text>Plantazolicin A.</text>
+  </comment>
+  <comment type="mass spectrometry" mass="1308.44" method="Electrospray" evidence="1 2">
+    <text>Plantazolicin B.</text>
+  </comment>
+  <dbReference type="EMBL" id="FN668567">
+    <property type="protein sequence ID" value="CBJ61635.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="CP000560">
+    <property type="status" value="NOT_ANNOTATED_CDS"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="D3VML5"/>
+  <dbReference type="iPTMnet" id="D3VML5"/>
+  <dbReference type="Proteomes" id="UP000001120">
+    <property type="component" value="Chromosome"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0005576">
+    <property type="term" value="C:extracellular region"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0009275">
+    <property type="term" value="C:Gram-positive-bacterium-type cell wall"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0001897">
+    <property type="term" value="P:cytolysis by symbiont of host cells"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0050830">
+    <property type="term" value="P:defense response to Gram-positive bacterium"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR026474">
+    <property type="entry name" value="Plantazolicin"/>
+  </dbReference>
+  <dbReference type="NCBIfam" id="TIGR04218">
+    <property type="entry name" value="TOMM_plantaz"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="evidence at protein level"/>
+  <keyword id="KW-0044">Antibiotic</keyword>
+  <keyword id="KW-0929">Antimicrobial</keyword>
+  <keyword id="KW-0078">Bacteriocin</keyword>
+  <keyword id="KW-0134">Cell wall</keyword>
+  <keyword id="KW-0903">Direct protein sequencing</keyword>
+  <keyword id="KW-0488">Methylation</keyword>
+  <keyword id="KW-0964">Secreted</keyword>
+  <keyword id="KW-0883">Thioether bond</keyword>
+  <feature type="propeptide" id="PRO_0000415155" evidence="1 3">
+    <location>
+      <begin position="1"/>
+      <end position="27"/>
+    </location>
+  </feature>
+  <feature type="peptide" id="PRO_0000415156" description="Plantazolicin" evidence="3">
+    <location>
+      <begin position="28"/>
+      <end position="41"/>
+    </location>
+  </feature>
+  <feature type="modified residue" description="N2,N2-dimethylarginine" evidence="2 3">
+    <location>
+      <position position="28"/>
+    </location>
+  </feature>
+  <feature type="cross-link" description="Thiazole-4-carboxylic acid (Arg-Cys)" evidence="2 3">
+    <location>
+      <begin position="28"/>
+      <end position="29"/>
+    </location>
+  </feature>
+  <feature type="cross-link" description="5-methyloxazole-4-carboxylic acid (Cys-Thr)" evidence="2 3">
+    <location>
+      <begin position="29"/>
+      <end position="30"/>
+    </location>
+  </feature>
+  <feature type="cross-link" description="Thiazole-4-carboxylic acid (Thr-Cys)" evidence="2 3">
+    <location>
+      <begin position="30"/>
+      <end position="31"/>
+    </location>
+  </feature>
+  <feature type="cross-link" description="5-methyloxazole-4-carboxylic acid (Cys-Thr)" evidence="2 3">
+    <location>
+      <begin position="31"/>
+      <end position="32"/>
+    </location>
+  </feature>
+  <feature type="cross-link" description="5-methyloxazole-4-carboxylic acid (Thr-Thr)" evidence="2 3">
+    <location>
+      <begin position="32"/>
+      <end position="33"/>
+    </location>
+  </feature>
+  <feature type="cross-link" description="Oxazole-4-carboxylic acid (Ile-Ser)" evidence="2 3">
+    <location>
+      <begin position="35"/>
+      <end position="36"/>
+    </location>
+  </feature>
+  <feature type="cross-link" description="Oxazole-4-carboxylic acid (Ser-Ser)" evidence="2 3">
+    <location>
+      <begin position="36"/>
+      <end position="37"/>
+    </location>
+  </feature>
+  <feature type="cross-link" description="Oxazole-4-carboxylic acid (Ser-Ser)" evidence="2 3">
+    <location>
+      <begin position="37"/>
+      <end position="38"/>
+    </location>
+  </feature>
+  <feature type="cross-link" description="Oxazole-4-carboxylic acid (Ser-Ser)" evidence="2 3">
+    <location>
+      <begin position="38"/>
+      <end position="39"/>
+    </location>
+  </feature>
+  <feature type="cross-link" description="5-methyloxazoline-4-carboxylic acid (Ser-Thr)" evidence="2 3">
+    <location>
+      <begin position="39"/>
+      <end position="40"/>
+    </location>
+  </feature>
+  <evidence type="ECO:0000269" key="1">
+    <source>
+      <dbReference type="PubMed" id="20971906"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="2">
+    <source>
+      <dbReference type="PubMed" id="21568297"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="3">
+    <source>
+      <dbReference type="PubMed" id="21950656"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000303" key="4">
+    <source>
+      <dbReference type="PubMed" id="20971906"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000303" key="5">
+    <source>
+      <dbReference type="PubMed" id="21568297"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000305" key="6"/>
+  <evidence type="ECO:0000312" key="7">
+    <source>
+      <dbReference type="EMBL" id="CBJ61635.1"/>
+    </source>
+  </evidence>
+  <sequence length="41" mass="4366" checksum="65EDC0E4EF44DF52" modified="2010-04-20" version="1" precursor="true">MTQIKVPTALIASVHGEGQHLFEPMAARCTCTTIISSSSTF</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

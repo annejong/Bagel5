@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="1998-06-01" modified="2024-01-24" version="94" xmlns="http://uniprot.org/uniprot">
+  <accession>O54308</accession>
+  <name>O54308_STRSZ</name>
+  <protein>
+    <submittedName>
+      <fullName evidence="7">Peptidase, M23/M37 family</fullName>
+      <ecNumber evidence="7">3.4.24.75</ecNumber>
+    </submittedName>
+    <submittedName>
+      <fullName evidence="5">Zoocin A endopeptidase</fullName>
+    </submittedName>
+  </protein>
+  <gene>
+    <name evidence="5" type="primary">zooA</name>
+    <name evidence="7" type="ORF">NCTC6180_02077</name>
+  </gene>
+  <organism evidence="5">
+    <name type="scientific">Streptococcus equi subsp. zooepidemicus</name>
+    <dbReference type="NCBI Taxonomy" id="40041"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Bacillota</taxon>
+      <taxon>Bacilli</taxon>
+      <taxon>Lactobacillales</taxon>
+      <taxon>Streptococcaceae</taxon>
+      <taxon>Streptococcus</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="5" key="1">
+    <citation type="journal article" date="1997" name="Gene" volume="189" first="255" last="261">
+      <title>Cloning and sequence analysis of zooA, a Streptococcus zooepidemicus gene encoding a bacteriocin-like inhibitory substance having a domain structure similar to that of lysostaphin.</title>
+      <authorList>
+        <person name="Simmonds R.S."/>
+        <person name="Simpson W.J."/>
+        <person name="Tagg J.R."/>
+      </authorList>
+      <dbReference type="PubMed" id="9168135"/>
+      <dbReference type="DOI" id="10.1016/S0378-1119(96)00859-1"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="5">4881</strain>
+    </source>
+  </reference>
+  <reference evidence="5" key="2">
+    <citation type="submission" date="2008-04" db="EMBL/GenBank/DDBJ databases">
+      <authorList>
+        <person name="Gargis A.S."/>
+        <person name="O'Rourke A.-L.D."/>
+        <person name="Sloan G.L."/>
+        <person name="Simmonds R.S."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="5">4881</strain>
+    </source>
+  </reference>
+  <reference evidence="6" key="3">
+    <citation type="journal article" date="2009" name="J. Mol. Evol." volume="68" first="498" last="505">
+      <title>Prevalence and acquisition of the genes for zoocin A and zoocin A resistance in Streptococcus equi subsp. zooepidemicus.</title>
+      <authorList>
+        <person name="Gargis A.S."/>
+        <person name="O'Rourke A.L."/>
+        <person name="Sloan G.L."/>
+        <person name="Simmonds R.S."/>
+      </authorList>
+      <dbReference type="PubMed" id="19357799"/>
+      <dbReference type="DOI" id="10.1007/s00239-009-9221-x"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="6">9g</strain>
+    </source>
+  </reference>
+  <reference evidence="9" key="4">
+    <citation type="journal article" date="2013" name="Proteins" volume="81" first="722" last="727">
+      <title>Solution structure of the recombinant target recognition domain of zoocin A.</title>
+      <authorList>
+        <person name="Chen Y."/>
+        <person name="Simmonds R.S."/>
+        <person name="Young J.K."/>
+        <person name="Timkovich R."/>
+      </authorList>
+      <dbReference type="PubMed" id="23184858"/>
+      <dbReference type="DOI" id="10.1002/prot.24224"/>
+    </citation>
+    <scope>STRUCTURE BY NMR OF 170-285</scope>
+  </reference>
+  <reference evidence="10" key="5">
+    <citation type="journal article" date="2017" name="Proteins" volume="85" first="177" last="181">
+      <title>Solution structure of the Cys74 to Ala74 mutant of the recombinant catalytic domain of Zoocin A.</title>
+      <authorList>
+        <person name="Xing M."/>
+        <person name="Simmonds R.S."/>
+        <person name="Timkovich R."/>
+      </authorList>
+      <dbReference type="PubMed" id="27699884"/>
+      <dbReference type="DOI" id="10.1002/prot.25178"/>
+    </citation>
+    <scope>STRUCTURE BY NMR OF 24-170 IN COMPLEX WITH ZINC</scope>
+  </reference>
+  <reference evidence="7 8" key="6">
+    <citation type="submission" date="2018-12" db="EMBL/GenBank/DDBJ databases">
+      <authorList>
+        <consortium name="Pathogen Informatics"/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="7 8">NCTC6180</strain>
+    </source>
+  </reference>
+  <dbReference type="EC" id="3.4.24.75" evidence="7"/>
+  <dbReference type="EMBL" id="U50357">
+    <property type="protein sequence ID" value="AAC46072.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="EU636005">
+    <property type="protein sequence ID" value="ACF59750.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="LR134317">
+    <property type="protein sequence ID" value="VEF09690.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="WP_043039484.1">
+    <property type="nucleotide sequence ID" value="NZ_LR134317.1"/>
+  </dbReference>
+  <dbReference type="PDB" id="2LS0">
+    <property type="method" value="NMR"/>
+    <property type="chains" value="1=170-285"/>
+  </dbReference>
+  <dbReference type="PDB" id="5KVP">
+    <property type="method" value="NMR"/>
+    <property type="chains" value="A=24-170"/>
+  </dbReference>
+  <dbReference type="PDBsum" id="2LS0"/>
+  <dbReference type="PDBsum" id="5KVP"/>
+  <dbReference type="AlphaFoldDB" id="O54308"/>
+  <dbReference type="SMR" id="O54308"/>
+  <dbReference type="MEROPS" id="M23.005"/>
+  <dbReference type="Proteomes" id="UP000269903">
+    <property type="component" value="Chromosome 1"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0016787">
+    <property type="term" value="F:hydrolase activity"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0008643">
+    <property type="term" value="P:carbohydrate transport"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="CDD" id="cd12797">
+    <property type="entry name" value="M23_peptidase"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Gene3D" id="2.40.50.670">
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Gene3D" id="2.70.70.10">
+    <property type="entry name" value="Glucose Permease (Domain IIA)"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR011055">
+    <property type="entry name" value="Dup_hybrid_motif"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR038263">
+    <property type="entry name" value="Lytic_exo_TRD_sf"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR016047">
+    <property type="entry name" value="Peptidase_M23"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR031898">
+    <property type="entry name" value="ZoocinA_TRD"/>
+  </dbReference>
+  <dbReference type="PANTHER" id="PTHR21666:SF270">
+    <property type="entry name" value="MUREIN DD-ENDOPEPTIDASE MEPM"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="PANTHER" id="PTHR21666">
+    <property type="entry name" value="PEPTIDASE-RELATED"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF01551">
+    <property type="entry name" value="Peptidase_M23"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF16775">
+    <property type="entry name" value="ZoocinA_TRD"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="SUPFAM" id="SSF51261">
+    <property type="entry name" value="Duplicated hybrid motif"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="evidence at protein level"/>
+  <keyword evidence="9 10" id="KW-0002">3D-structure</keyword>
+  <keyword evidence="7" id="KW-0378">Hydrolase</keyword>
+  <keyword evidence="2" id="KW-0732">Signal</keyword>
+  <keyword evidence="1" id="KW-0762">Sugar transport</keyword>
+  <keyword evidence="1" id="KW-0813">Transport</keyword>
+  <feature type="signal peptide" evidence="2">
+    <location>
+      <begin position="1"/>
+      <end position="23"/>
+    </location>
+  </feature>
+  <feature type="chain" id="PRO_5015096790" evidence="2">
+    <location>
+      <begin position="24"/>
+      <end position="285"/>
+    </location>
+  </feature>
+  <feature type="domain" description="Peptidase M23" evidence="3">
+    <location>
+      <begin position="45"/>
+      <end position="137"/>
+    </location>
+  </feature>
+  <feature type="domain" description="Lytic exoenzyme target recognition" evidence="4">
+    <location>
+      <begin position="179"/>
+      <end position="283"/>
+    </location>
+  </feature>
+  <evidence type="ECO:0000256" key="1">
+    <source>
+      <dbReference type="ARBA" id="ARBA00022597"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000256" key="2">
+    <source>
+      <dbReference type="SAM" id="SignalP"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000259" key="3">
+    <source>
+      <dbReference type="Pfam" id="PF01551"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000259" key="4">
+    <source>
+      <dbReference type="Pfam" id="PF16775"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="5">
+    <source>
+      <dbReference type="EMBL" id="AAC46072.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="6">
+    <source>
+      <dbReference type="EMBL" id="ACF59750.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="7">
+    <source>
+      <dbReference type="EMBL" id="VEF09690.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="8">
+    <source>
+      <dbReference type="Proteomes" id="UP000269903"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007829" key="9">
+    <source>
+      <dbReference type="PDB" id="2LS0"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007829" key="10">
+    <source>
+      <dbReference type="PDB" id="5KVP"/>
+    </source>
+  </evidence>
+  <sequence length="285" mass="30618" checksum="8B7F09C542C1E38E" modified="1998-06-01" version="1">MKRIFFAFLSLCLFIFGTQTVSAATYTRPLDTGNITTGFNGYPGHVGVDYAVPVGTPVRAVANGTVKFAGNGANHPWMLWMAGNCVLIQHADGMHTGYAHLSKISVSTDSTVKQGQIIGYTGATGQVTGPHLHFEMLPANPNWQNGFSGRIDPTGYIANAPVFNGTTPTEPTTPTTNLKIYKVDDLQKINGIWQVRNNILVPTDFTWVDNGIAADDVIEVTSNGTRTSDQVLQKGGYFVINPNNVKSVGTPMKGSGGLSWAQVNFTTGGNVWLNTTSKDNLLYGK</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

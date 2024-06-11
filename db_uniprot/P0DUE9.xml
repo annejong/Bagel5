@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2021-02-10" modified="2023-09-13" version="9" xmlns="http://uniprot.org/uniprot">
+  <accession>P0DUE9</accession>
+  <name>MFTA_MYCUA</name>
+  <protein>
+    <recommendedName>
+      <fullName evidence="4">Mycofactocin precursor peptide</fullName>
+    </recommendedName>
+  </protein>
+  <gene>
+    <name evidence="4 5" type="primary">mftA</name>
+    <name evidence="6" type="ordered locus">MUL_0771.1</name>
+  </gene>
+  <organism>
+    <name type="scientific">Mycobacterium ulcerans (strain Agy99)</name>
+    <dbReference type="NCBI Taxonomy" id="362242"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Actinomycetota</taxon>
+      <taxon>Actinomycetes</taxon>
+      <taxon>Mycobacteriales</taxon>
+      <taxon>Mycobacteriaceae</taxon>
+      <taxon>Mycobacterium</taxon>
+      <taxon>Mycobacterium ulcerans group</taxon>
+    </lineage>
+  </organism>
+  <reference key="1">
+    <citation type="journal article" date="2007" name="Genome Res." volume="17" first="192" last="200">
+      <title>Reductive evolution and niche adaptation inferred from the genome of Mycobacterium ulcerans, the causative agent of Buruli ulcer.</title>
+      <authorList>
+        <person name="Stinear T.P."/>
+        <person name="Seemann T."/>
+        <person name="Pidot S."/>
+        <person name="Frigui W."/>
+        <person name="Reysset G."/>
+        <person name="Garnier T."/>
+        <person name="Meurice G."/>
+        <person name="Simon D."/>
+        <person name="Bouchier C."/>
+        <person name="Ma L."/>
+        <person name="Tichit M."/>
+        <person name="Porter J.L."/>
+        <person name="Ryan J."/>
+        <person name="Johnson P.D.R."/>
+        <person name="Davies J.K."/>
+        <person name="Jenkin G.A."/>
+        <person name="Small P.L.C."/>
+        <person name="Jones L.M."/>
+        <person name="Tekaia F."/>
+        <person name="Laval F."/>
+        <person name="Daffe M."/>
+        <person name="Parkhill J."/>
+        <person name="Cole S.T."/>
+      </authorList>
+      <dbReference type="PubMed" id="17210928"/>
+      <dbReference type="DOI" id="10.1101/gr.5942807"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain>Agy99</strain>
+    </source>
+  </reference>
+  <reference key="2">
+    <citation type="journal article" date="2016" name="FEBS Lett." volume="590" first="2538" last="2548">
+      <title>Mycofactocin biosynthesis: modification of the peptide MftA by the radical S-adenosylmethionine protein MftC.</title>
+      <authorList>
+        <person name="Khaliullin B."/>
+        <person name="Aggarwal P."/>
+        <person name="Bubas M."/>
+        <person name="Eaton G.R."/>
+        <person name="Eaton S.S."/>
+        <person name="Latham J.A."/>
+      </authorList>
+      <dbReference type="PubMed" id="27312813"/>
+      <dbReference type="DOI" id="10.1002/1873-3468.12249"/>
+    </citation>
+    <scope>FUNCTION</scope>
+    <scope>INTERACTION WITH MFTB</scope>
+    <scope>DECARBOXYLATION</scope>
+    <source>
+      <strain>Agy99</strain>
+    </source>
+  </reference>
+  <reference key="3">
+    <citation type="journal article" date="2017" name="J. Biol. Chem." volume="292" first="13022" last="13033">
+      <title>Mechanistic elucidation of the mycofactocin-biosynthetic radical S-adenosylmethionine protein, MftC.</title>
+      <authorList>
+        <person name="Khaliullin B."/>
+        <person name="Ayikpoe R."/>
+        <person name="Tuttle M."/>
+        <person name="Latham J.A."/>
+      </authorList>
+      <dbReference type="PubMed" id="28634235"/>
+      <dbReference type="DOI" id="10.1074/jbc.m117.795682"/>
+    </citation>
+    <scope>FUNCTION</scope>
+    <scope>MUTAGENESIS OF VAL-29 AND TYR-30</scope>
+    <scope>DECARBOXYLATION</scope>
+    <scope>TYRAMINE-VALINE CROSS-LINK</scope>
+    <source>
+      <strain>Agy99</strain>
+    </source>
+  </reference>
+  <reference key="4">
+    <citation type="journal article" date="2018" name="Biochemistry" volume="57" first="5379" last="5383">
+      <title>Mycofactocin Biosynthesis Proceeds through 3-Amino-5-[(p-hydroxyphenyl)methyl]-4,4-dimethyl-2-pyrrolidinone (AHDP); Direct Observation of MftE Specificity toward MftA.</title>
+      <authorList>
+        <person name="Ayikpoe R."/>
+        <person name="Salazar J."/>
+        <person name="Majestic B."/>
+        <person name="Latham J.A."/>
+      </authorList>
+      <dbReference type="PubMed" id="30183269"/>
+      <dbReference type="DOI" id="10.1021/acs.biochem.8b00816"/>
+    </citation>
+    <scope>CLEAVAGE</scope>
+    <source>
+      <strain>Agy99</strain>
+    </source>
+  </reference>
+  <comment type="function">
+    <text evidence="1 2">Precursor peptide that leads to mycofactocin (MFT) after extensive post-translational modifications by enzymes encoded by adjacent genes. Mycofactocin acts as a redox cofactor of nicotinamide-dependent oxidoreductases encoded in the same locus.</text>
+  </comment>
+  <comment type="subunit">
+    <text evidence="1">Interacts with MftB.</text>
+  </comment>
+  <comment type="PTM">
+    <text evidence="1 2 3">The post-translational modifications that lead to mycofactocin involve oxidative decarboxylation of the C-terminal tyrosine residue catalyzed by MftC, introduction of a tyramine-valine cross-link, removal of the modified C-terminal dipeptide by MftE. The released dipeptide then undergoes oxidative deamination by MftD, glycosylation by MftF and methylation by an unknown enzyme.</text>
+  </comment>
+  <comment type="miscellaneous">
+    <text evidence="6">Mycofactocin is classified as a ribosomally synthesized and post-translationally modified peptide (RiPP).</text>
+  </comment>
+  <comment type="similarity">
+    <text evidence="6">Belongs to the mycofactocin precursor peptide family.</text>
+  </comment>
+  <dbReference type="EMBL" id="CP000325">
+    <property type="status" value="NOT_ANNOTATED_CDS"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="WP_071498352.1">
+    <property type="nucleotide sequence ID" value="NC_008611.1"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="P0DUE9"/>
+  <dbReference type="GeneID" id="72436014"/>
+  <dbReference type="Proteomes" id="UP000000765">
+    <property type="component" value="Chromosome"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR023988">
+    <property type="entry name" value="MftA"/>
+  </dbReference>
+  <dbReference type="NCBIfam" id="TIGR03969">
+    <property type="entry name" value="mycofactocin"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="evidence at protein level"/>
+  <feature type="chain" id="PRO_0000452057" description="Mycofactocin precursor peptide">
+    <location>
+      <begin position="1"/>
+      <end position="30"/>
+    </location>
+  </feature>
+  <feature type="site" description="Cleavage; by MftE" evidence="3">
+    <location>
+      <begin position="28"/>
+      <end position="29"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Accumulation of decarboxylated tyrosine intermediate." evidence="2">
+    <original>V</original>
+    <variation>A</variation>
+    <location>
+      <position position="29"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Loss of MftA decarboxylation by MftC." evidence="2">
+    <original>Y</original>
+    <variation>F</variation>
+    <location>
+      <position position="30"/>
+    </location>
+  </feature>
+  <evidence type="ECO:0000269" key="1">
+    <source>
+      <dbReference type="PubMed" id="27312813"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="2">
+    <source>
+      <dbReference type="PubMed" id="28634235"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="3">
+    <source>
+      <dbReference type="PubMed" id="30183269"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000303" key="4">
+    <source>
+      <dbReference type="PubMed" id="27312813"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000303" key="5">
+    <source>
+      <dbReference type="PubMed" id="28634235"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000305" key="6"/>
+  <sequence length="30" mass="3307" checksum="D6520D17C8EC966A" modified="2021-02-10" version="1">MDRETEAETAELVTESLVEEVSIDGMCGVY</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

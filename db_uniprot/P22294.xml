@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="1991-08-01" modified="2023-06-28" version="39" xmlns="http://uniprot.org/uniprot">
+  <accession>P22294</accession>
+  <name>HVTJ_LACHE</name>
+  <protein>
+    <recommendedName>
+      <fullName>Bacteriocin helveticin-J</fullName>
+    </recommendedName>
+  </protein>
+  <gene>
+    <name type="primary">hlv</name>
+  </gene>
+  <organism>
+    <name type="scientific">Lactobacillus helveticus</name>
+    <name type="common">Lactobacillus suntoryeus</name>
+    <dbReference type="NCBI Taxonomy" id="1587"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Bacillota</taxon>
+      <taxon>Bacilli</taxon>
+      <taxon>Lactobacillales</taxon>
+      <taxon>Lactobacillaceae</taxon>
+      <taxon>Lactobacillus</taxon>
+    </lineage>
+  </organism>
+  <reference key="1">
+    <citation type="journal article" date="1990" name="J. Bacteriol." volume="172" first="6339" last="6347">
+      <title>Cloning, expression, and nucleotide sequence of the Lactobacillus helveticus 481 gene encoding the bacteriocin helveticin J.</title>
+      <authorList>
+        <person name="Joerger M.C."/>
+        <person name="Klaenhammer T.R."/>
+      </authorList>
+      <dbReference type="PubMed" id="2228964"/>
+      <dbReference type="DOI" id="10.1128/jb.172.11.6339-6347.1990"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+    <source>
+      <strain>481</strain>
+    </source>
+  </reference>
+  <comment type="function">
+    <text>This heat-sensitive bacteriocin inhibits the growth of closely related Lactobacillus species.</text>
+  </comment>
+  <dbReference type="EMBL" id="M59360">
+    <property type="protein sequence ID" value="AAA63274.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="PIR" id="C37145">
+    <property type="entry name" value="C37145"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="WP_025006474.1">
+    <property type="nucleotide sequence ID" value="NZ_RIQF01000232.1"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="P22294"/>
+  <dbReference type="GO" id="GO:0042742">
+    <property type="term" value="P:defense response to bacterium"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0031640">
+    <property type="term" value="P:killing of cells of another organism"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR035280">
+    <property type="entry name" value="Helveticin_J"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF17312">
+    <property type="entry name" value="Helveticin_J"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="predicted"/>
+  <keyword id="KW-0044">Antibiotic</keyword>
+  <keyword id="KW-0929">Antimicrobial</keyword>
+  <keyword id="KW-0078">Bacteriocin</keyword>
+  <feature type="chain" id="PRO_0000110580" description="Bacteriocin helveticin-J">
+    <location>
+      <begin position="1"/>
+      <end position="333"/>
+    </location>
+  </feature>
+  <sequence length="333" mass="37512" checksum="D7CE335BBB96D74F" modified="1991-08-01" version="1">MKHLNETTNVRILSQFDMDTGYQAVVQKGNVGSKYVYGLQLRKGATTILRGYRGSKINNPILELSGQAGGHTQTWEFAGDRKDINGEERAGQWFIGVKPSKIEGSKIIWAKQIARVDLRNQMGPHYSNTDFPRLSYLNRAGSNPFAGNKMTHAEAAVSPDYTKFLIATVENNCIGHFTIYNLDTINEKLDEKGNSEDVNLETVKYEDSFIIDNLYGDDNNSIVNSIQGYDLDNDGNIYISSQKAPDFDGSYYAHHKQIVKIPYYARSKESEDQWRAVNLSEFGGLDIPGKHSEVESIQIIGENHCYLTVAYHSKNKAGENKTTLNEIYELSWN</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

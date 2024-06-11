@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2012-01-25" modified="2024-01-24" version="30" xmlns="http://uniprot.org/uniprot">
+  <accession>G7D1Q5</accession>
+  <name>G7D1Q5_CLAMS</name>
+  <protein>
+    <submittedName>
+      <fullName evidence="1">Plantazolicin</fullName>
+    </submittedName>
+  </protein>
+  <gene>
+    <name evidence="1" type="primary">pznA</name>
+    <name evidence="1" type="ORF">CMS2969a</name>
+  </gene>
+  <organism evidence="1 2">
+    <name type="scientific">Clavibacter michiganensis subsp. sepedonicus (strain ATCC 33113 / DSM 20744 / JCM 9667 / LMG 2889 / C-1)</name>
+    <name type="common">Corynebacterium sepedonicum</name>
+    <dbReference type="NCBI Taxonomy" id="31964"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Actinomycetota</taxon>
+      <taxon>Actinomycetes</taxon>
+      <taxon>Micrococcales</taxon>
+      <taxon>Microbacteriaceae</taxon>
+      <taxon>Clavibacter</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="1 2" key="1">
+    <citation type="journal article" date="2008" name="J. Bacteriol." volume="190" first="2150" last="2160">
+      <title>Genome of the actinomycete plant pathogen Clavibacter michiganensis subsp. sepedonicus suggests recent niche adaptation.</title>
+      <authorList>
+        <person name="Bentley S.D."/>
+        <person name="Corton C."/>
+        <person name="Brown S.E."/>
+        <person name="Barron A."/>
+        <person name="Clark L."/>
+        <person name="Doggett J."/>
+        <person name="Harris B."/>
+        <person name="Ormond D."/>
+        <person name="Quail M.A."/>
+        <person name="May G."/>
+        <person name="Francis D."/>
+        <person name="Knudson D."/>
+        <person name="Parkhill J."/>
+        <person name="Ishimaru C.A."/>
+      </authorList>
+      <dbReference type="PubMed" id="18192393"/>
+      <dbReference type="DOI" id="10.1128/JB.01598-07"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="2">ATCC 33113 / DSM 20744 / JCM 9667 / LMG 2889 / C-1</strain>
+    </source>
+  </reference>
+  <dbReference type="EMBL" id="AM849034">
+    <property type="protein sequence ID" value="CCE46146.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="G7D1Q5"/>
+  <dbReference type="STRING" id="31964.CMS2969a"/>
+  <dbReference type="KEGG" id="cms:CMS2969a"/>
+  <dbReference type="HOGENOM" id="CLU_3197861_0_0_11"/>
+  <dbReference type="Proteomes" id="UP000001318">
+    <property type="component" value="Chromosome"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR026474">
+    <property type="entry name" value="Plantazolicin"/>
+  </dbReference>
+  <dbReference type="NCBIfam" id="TIGR04218">
+    <property type="entry name" value="TOMM_plantaz"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="predicted"/>
+  <evidence type="ECO:0000313" key="1">
+    <source>
+      <dbReference type="EMBL" id="CCE46146.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="2">
+    <source>
+      <dbReference type="Proteomes" id="UP000001318"/>
+    </source>
+  </evidence>
+  <sequence length="45" mass="4735" checksum="B6AE263E0B2638D5" modified="2012-01-25" version="1">MITTTALPRAAAVTTTVYGEGLHLFEPMAARCTCSTVISTTCTWG</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

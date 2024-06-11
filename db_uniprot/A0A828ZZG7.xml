@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2021-09-29" modified="2023-09-13" version="9" xmlns="http://uniprot.org/uniprot">
+  <accession>A0A828ZZG7</accession>
+  <name>A0A828ZZG7_ENTFC</name>
+  <protein>
+    <submittedName>
+      <fullName evidence="1">Uncharacterized protein</fullName>
+    </submittedName>
+  </protein>
+  <gene>
+    <name evidence="1" type="ORF">OKA_05812</name>
+  </gene>
+  <organism evidence="1 2">
+    <name type="scientific">Enterococcus faecium EnGen0026</name>
+    <dbReference type="NCBI Taxonomy" id="1138917"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Bacillota</taxon>
+      <taxon>Bacilli</taxon>
+      <taxon>Lactobacillales</taxon>
+      <taxon>Enterococcaceae</taxon>
+      <taxon>Enterococcus</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="1 2" key="1">
+    <citation type="submission" date="2012-12" db="EMBL/GenBank/DDBJ databases">
+      <title>The Genome Sequence of Enterococcus faecium E2039.</title>
+      <authorList>
+        <consortium name="The Broad Institute Genome Sequencing Platform"/>
+        <consortium name="The Broad Institute Genome Sequencing Center for Infectious Disease"/>
+        <person name="Earl A.M."/>
+        <person name="Gilmore M.S."/>
+        <person name="van Schaik W."/>
+        <person name="Lebreton F."/>
+        <person name="Willems R.J."/>
+        <person name="Walker B."/>
+        <person name="Young S.K."/>
+        <person name="Zeng Q."/>
+        <person name="Gargeya S."/>
+        <person name="Fitzgerald M."/>
+        <person name="Haas B."/>
+        <person name="Abouelleil A."/>
+        <person name="Alvarado L."/>
+        <person name="Arachchi H.M."/>
+        <person name="Berlin A.M."/>
+        <person name="Chapman S.B."/>
+        <person name="Dewar J."/>
+        <person name="Goldberg J."/>
+        <person name="Griggs A."/>
+        <person name="Gujja S."/>
+        <person name="Hansen M."/>
+        <person name="Howarth C."/>
+        <person name="Imamovic A."/>
+        <person name="Larimer J."/>
+        <person name="McCowan C."/>
+        <person name="Murphy C."/>
+        <person name="Neiman D."/>
+        <person name="Pearson M."/>
+        <person name="Priest M."/>
+        <person name="Roberts A."/>
+        <person name="Saif S."/>
+        <person name="Shea T."/>
+        <person name="Sisk P."/>
+        <person name="Sykes S."/>
+        <person name="Wortman J."/>
+        <person name="Nusbaum C."/>
+        <person name="Birren B."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="1 2">E2039</strain>
+    </source>
+  </reference>
+  <comment type="caution">
+    <text evidence="1">The sequence shown here is derived from an EMBL/GenBank/DDBJ whole genome shotgun (WGS) entry which is preliminary data.</text>
+  </comment>
+  <dbReference type="EMBL" id="AHXS01000032">
+    <property type="protein sequence ID" value="ELB37787.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="WP_002339170.1">
+    <property type="nucleotide sequence ID" value="NZ_KB029922.1"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="A0A828ZZG7"/>
+  <dbReference type="SMR" id="A0A828ZZG7"/>
+  <dbReference type="Proteomes" id="UP000010504">
+    <property type="component" value="Unassembled WGS sequence"/>
+  </dbReference>
+  <dbReference type="NCBIfam" id="NF033385">
+    <property type="entry name" value="enterocin_LsbB"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="predicted"/>
+  <evidence type="ECO:0000313" key="1">
+    <source>
+      <dbReference type="EMBL" id="ELB37787.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="2">
+    <source>
+      <dbReference type="Proteomes" id="UP000010504"/>
+    </source>
+  </evidence>
+  <sequence length="37" mass="4564" checksum="2AC307F26EDFE19D" modified="2021-09-29" version="1">MKFKFNPTGTIVKKLTQYEIAWFKNKHGYYPWEIPRC</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

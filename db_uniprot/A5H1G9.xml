@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2008-03-18" modified="2023-09-13" version="38" xmlns="http://uniprot.org/uniprot">
+  <accession>A5H1G9</accession>
+  <name>UBLA_STRUB</name>
+  <protein>
+    <recommendedName>
+      <fullName>Bacteriocin uberolysin</fullName>
+    </recommendedName>
+  </protein>
+  <gene>
+    <name type="primary">ublA</name>
+  </gene>
+  <organism>
+    <name type="scientific">Streptococcus uberis</name>
+    <dbReference type="NCBI Taxonomy" id="1349"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Bacillota</taxon>
+      <taxon>Bacilli</taxon>
+      <taxon>Lactobacillales</taxon>
+      <taxon>Streptococcaceae</taxon>
+      <taxon>Streptococcus</taxon>
+    </lineage>
+  </organism>
+  <reference key="1">
+    <citation type="journal article" date="2007" name="Microbiology" volume="153" first="1619" last="1630">
+      <title>Uberolysin: a novel cyclic bacteriocin produced by Streptococcus uberis.</title>
+      <authorList>
+        <person name="Wirawan R.E."/>
+        <person name="Swanson K.M."/>
+        <person name="Kleffmann T."/>
+        <person name="Jack R.W."/>
+        <person name="Tagg J.R."/>
+      </authorList>
+      <dbReference type="PubMed" id="17464077"/>
+      <dbReference type="DOI" id="10.1099/mic.0.2006/005967-0"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+    <scope>FUNCTION</scope>
+    <scope>MASS SPECTROMETRY</scope>
+  </reference>
+  <comment type="function">
+    <text evidence="1">Cyclopeptide antibiotic with bacteriolytic activity against most streptococci (except S.rattus and S.mutans), Listeria spp., enterococci and staphylococci.</text>
+  </comment>
+  <comment type="subcellular location">
+    <subcellularLocation>
+      <location>Secreted</location>
+    </subcellularLocation>
+  </comment>
+  <comment type="mass spectrometry" mass="7047.97" error="0.09" method="Electrospray" evidence="1"/>
+  <comment type="mass spectrometry" mass="7043.94" method="MALDI" evidence="1">
+    <text>Monoisotopic mass.</text>
+  </comment>
+  <comment type="similarity">
+    <text evidence="2">Belongs to the bacteriocin class V family.</text>
+  </comment>
+  <dbReference type="EMBL" id="DQ650653">
+    <property type="protein sequence ID" value="ABG48503.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="WP_012657601.1">
+    <property type="nucleotide sequence ID" value="NZ_WUBX01000003.1"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="A5H1G9"/>
+  <dbReference type="SMR" id="A5H1G9"/>
+  <dbReference type="TCDB" id="1.C.90.1.3">
+    <property type="family name" value="the carnocyclin a (carnocyclin) family"/>
+  </dbReference>
+  <dbReference type="GeneID" id="58022494"/>
+  <dbReference type="GO" id="GO:0005576">
+    <property type="term" value="C:extracellular region"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-SubCell"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0042742">
+    <property type="term" value="P:defense response to bacterium"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0031640">
+    <property type="term" value="P:killing of cells of another organism"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="Gene3D" id="1.20.225.10">
+    <property type="entry name" value="Bacteriocin AS-48"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR009086">
+    <property type="entry name" value="Bacteriocin_AS48"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR020038">
+    <property type="entry name" value="Circ_bacteriocin"/>
+  </dbReference>
+  <dbReference type="NCBIfam" id="TIGR03651">
+    <property type="entry name" value="circ_ocin_uber"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF09221">
+    <property type="entry name" value="Bacteriocin_IId"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="evidence at protein level"/>
+  <keyword id="KW-0044">Antibiotic</keyword>
+  <keyword id="KW-0929">Antimicrobial</keyword>
+  <keyword id="KW-0078">Bacteriocin</keyword>
+  <keyword id="KW-0964">Secreted</keyword>
+  <feature type="propeptide" id="PRO_0000326412">
+    <location>
+      <begin position="1"/>
+      <end position="6"/>
+    </location>
+  </feature>
+  <feature type="peptide" id="PRO_0000326413" description="Bacteriocin uberolysin">
+    <location>
+      <begin position="7"/>
+      <end position="76"/>
+    </location>
+  </feature>
+  <feature type="cross-link" description="Cyclopeptide (Leu-Trp)">
+    <location>
+      <begin position="7"/>
+      <end position="76"/>
+    </location>
+  </feature>
+  <evidence type="ECO:0000269" key="1">
+    <source>
+      <dbReference type="PubMed" id="17464077"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000305" key="2"/>
+  <sequence length="76" mass="7781" checksum="BEED2156D42A9155" modified="2007-06-12" version="1" precursor="true">MDILLELAGYTGIASGTAKKVVDAIDKGAAAFVIISIISTVISAGALGAVSASADFIILTVKNYISRNLKAQAVIW</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2023-02-22" modified="2023-06-28" version="3" xmlns="http://uniprot.org/uniprot">
+  <accession>A0A939FR99</accession>
+  <name>A0A939FR99_9ACTN</name>
+  <protein>
+    <submittedName>
+      <fullName evidence="2">Uncharacterized protein</fullName>
+    </submittedName>
+  </protein>
+  <gene>
+    <name evidence="2" type="ORF">J1792_17935</name>
+  </gene>
+  <organism evidence="2 3">
+    <name type="scientific">Streptomyces triculaminicus</name>
+    <dbReference type="NCBI Taxonomy" id="2816232"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Actinomycetota</taxon>
+      <taxon>Actinomycetes</taxon>
+      <taxon>Kitasatosporales</taxon>
+      <taxon>Streptomycetaceae</taxon>
+      <taxon>Streptomyces</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="2" key="1">
+    <citation type="submission" date="2021-03" db="EMBL/GenBank/DDBJ databases">
+      <title>Streptomyces strains.</title>
+      <authorList>
+        <person name="Lund M.B."/>
+        <person name="Toerring T."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="2">JCM 4242</strain>
+    </source>
+  </reference>
+  <comment type="caution">
+    <text evidence="2">The sequence shown here is derived from an EMBL/GenBank/DDBJ whole genome shotgun (WGS) entry which is preliminary data.</text>
+  </comment>
+  <dbReference type="EMBL" id="JAFMOF010000002">
+    <property type="protein sequence ID" value="MBO0654592.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="Proteomes" id="UP000664781">
+    <property type="component" value="Unassembled WGS sequence"/>
+  </dbReference>
+  <proteinExistence type="predicted"/>
+  <keyword evidence="3" id="KW-1185">Reference proteome</keyword>
+  <feature type="region of interest" description="Disordered" evidence="1">
+    <location>
+      <begin position="1"/>
+      <end position="52"/>
+    </location>
+  </feature>
+  <feature type="compositionally biased region" description="Basic and acidic residues" evidence="1">
+    <location>
+      <begin position="1"/>
+      <end position="24"/>
+    </location>
+  </feature>
+  <evidence type="ECO:0000256" key="1">
+    <source>
+      <dbReference type="SAM" id="MobiDB-lite"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="2">
+    <source>
+      <dbReference type="EMBL" id="MBO0654592.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="3">
+    <source>
+      <dbReference type="Proteomes" id="UP000664781"/>
+    </source>
+  </evidence>
+  <sequence length="52" mass="5702" checksum="483BD530859D6246" modified="2023-02-22" version="1">MSKKSKPGDGIRGKGVRGRFMFMDETPEAEATTSIRDSLADLAETLESEARK</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

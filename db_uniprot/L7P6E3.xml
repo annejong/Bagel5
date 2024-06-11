@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2013-04-03" modified="2024-01-24" version="11" xmlns="http://uniprot.org/uniprot">
+  <accession>L7P6E3</accession>
+  <name>L7P6E3_STRAP</name>
+  <protein>
+    <submittedName>
+      <fullName evidence="4">SagA protein</fullName>
+    </submittedName>
+    <submittedName>
+      <fullName evidence="2">Streptolysin S-like prepropeptide</fullName>
+    </submittedName>
+  </protein>
+  <gene>
+    <name evidence="2" type="primary">sagA1</name>
+    <name evidence="4" type="synonym">sagA</name>
+    <name evidence="4" type="ORF">NCTC10713_01181</name>
+  </gene>
+  <organism evidence="2">
+    <name type="scientific">Streptococcus anginosus</name>
+    <dbReference type="NCBI Taxonomy" id="1328"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Bacillota</taxon>
+      <taxon>Bacilli</taxon>
+      <taxon>Lactobacillales</taxon>
+      <taxon>Streptococcaceae</taxon>
+      <taxon>Streptococcus</taxon>
+      <taxon>Streptococcus anginosus group</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="2" key="1">
+    <citation type="journal article" date="2013" name="J. Bacteriol." volume="195" first="1090" last="1099">
+      <title>Novel Twin Streptolysin S-Like Peptides Encoded in the sag Operon Homologue of Beta-Hemolytic Streptococcus anginosus.</title>
+      <authorList>
+        <person name="Tabata A."/>
+        <person name="Nakano K."/>
+        <person name="Ohkura K."/>
+        <person name="Tomoyasu T."/>
+        <person name="Kikuchi K."/>
+        <person name="Whiley R.A."/>
+        <person name="Nagamune H."/>
+      </authorList>
+      <dbReference type="PubMed" id="23292771"/>
+      <dbReference type="DOI" id="10.1128/JB.01344-12"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="1">NCTC 10713</strain>
+      <strain evidence="2">R84/4972</strain>
+      <strain evidence="3">R87/1657</strain>
+    </source>
+  </reference>
+  <reference evidence="4 5" key="2">
+    <citation type="submission" date="2018-12" db="EMBL/GenBank/DDBJ databases">
+      <authorList>
+        <consortium name="Pathogen Informatics"/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="4 5">NCTC10713</strain>
+    </source>
+  </reference>
+  <dbReference type="EMBL" id="JN619420">
+    <property type="protein sequence ID" value="AFO85435.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="JN619421">
+    <property type="protein sequence ID" value="AFO85445.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="JN619422">
+    <property type="protein sequence ID" value="AFO85447.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="LR134283">
+    <property type="protein sequence ID" value="VED98229.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="L7P6E3"/>
+  <dbReference type="Proteomes" id="UP000278419">
+    <property type="component" value="Chromosome 1"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR019891">
+    <property type="entry name" value="Bacteriocin_streptolysin_S_pre"/>
+  </dbReference>
+  <dbReference type="NCBIfam" id="TIGR03602">
+    <property type="entry name" value="streptolysinS"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="predicted"/>
+  <evidence type="ECO:0000313" key="1">
+    <source>
+      <dbReference type="EMBL" id="AFO85435.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="2">
+    <source>
+      <dbReference type="EMBL" id="AFO85445.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="3">
+    <source>
+      <dbReference type="EMBL" id="AFO85447.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="4">
+    <source>
+      <dbReference type="EMBL" id="VED98229.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="5">
+    <source>
+      <dbReference type="Proteomes" id="UP000278419"/>
+    </source>
+  </evidence>
+  <sequence length="54" mass="5169" checksum="21E70D59568955F4" modified="2013-04-03" version="1">MLKFSSNVLATSVADTTQVAPGGCCCCCCTCCFSVAVGGNATGGSTTGSVAPTK</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

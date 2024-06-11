@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2001-06-01" modified="2023-09-13" version="29" xmlns="http://uniprot.org/uniprot">
+  <accession>Q9AF68</accession>
+  <name>Q9AF68_LACPN</name>
+  <protein>
+    <submittedName>
+      <fullName evidence="1">Plantaricin W beta</fullName>
+    </submittedName>
+  </protein>
+  <gene>
+    <name evidence="2" type="primary">plWbeta</name>
+  </gene>
+  <organism evidence="1">
+    <name type="scientific">Lactiplantibacillus plantarum</name>
+    <name type="common">Lactobacillus plantarum</name>
+    <dbReference type="NCBI Taxonomy" id="1590"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Bacillota</taxon>
+      <taxon>Bacilli</taxon>
+      <taxon>Lactobacillales</taxon>
+      <taxon>Lactobacillaceae</taxon>
+      <taxon>Lactiplantibacillus</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="1" key="1">
+    <citation type="journal article" date="2001" name="Microbiology" volume="147" first="643" last="651">
+      <title>Plantaricin W from Lactobacillus plantarum belongs to a new family of two-peptide lantibiotics.</title>
+      <authorList>
+        <person name="Holo H."/>
+        <person name="Jeknic Z."/>
+        <person name="Daeschel M."/>
+        <person name="Stevanovic S."/>
+        <person name="Nes I.F."/>
+      </authorList>
+      <dbReference type="PubMed" id="11238971"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+  </reference>
+  <reference evidence="2" key="2">
+    <citation type="journal article" date="2010" name="Food Technol. Biotechnol." volume="48" first="476" last="483">
+      <title>Novel bacteriocinogenic Lactobacillus plantarum strains and their differentiation by sequence analysis of 16S rDNA, 16S-23S and 23S-5S intergenic spacer regions and randomly amplified polymorphic DNA analysis.</title>
+      <authorList>
+        <person name="Moghadam M.S."/>
+        <person name="Foo H.L."/>
+        <person name="Leow T.C."/>
+        <person name="Rahim R.A."/>
+        <person name="Loh T.C."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="5">RG11</strain>
+      <strain evidence="4">RG14</strain>
+      <strain evidence="6">RI11</strain>
+      <strain evidence="7">RS5</strain>
+      <strain evidence="3">TL1</strain>
+      <strain evidence="2">UL4</strain>
+    </source>
+  </reference>
+  <reference evidence="3" key="3">
+    <citation type="submission" date="2012-12" db="EMBL/GenBank/DDBJ databases">
+      <title>plW locus of Lactobacillus plantarum strains.</title>
+      <authorList>
+        <person name="Tai H.F."/>
+        <person name="Foo H.L."/>
+        <person name="Rahim R.A."/>
+        <person name="Puad A.M."/>
+        <person name="Loh T.C."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="5">RG11</strain>
+      <strain evidence="4">RG14</strain>
+      <strain evidence="6">RI11</strain>
+      <strain evidence="7">RS5</strain>
+      <strain evidence="3">TL1</strain>
+    </source>
+  </reference>
+  <reference evidence="2" key="4">
+    <citation type="journal article" date="2015" name="Microb. Cell Fact." volume="14" first="89" last="89">
+      <title>Molecular characterisation of new organisation of plnEF and plw loci of bacteriocin genes harbour concomitantly in Lactobacillus plantarum I-UL4.</title>
+      <authorList>
+        <person name="Tai H.F."/>
+        <person name="Foo H.L."/>
+        <person name="Abdul Rahim R."/>
+        <person name="Loh T.C."/>
+        <person name="Abdullah M.P."/>
+        <person name="Yoshinobu K."/>
+      </authorList>
+      <dbReference type="PubMed" id="26077560"/>
+      <dbReference type="DOI" id="10.1186/s12934-015-0280-y"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="2">UL4</strain>
+    </source>
+  </reference>
+  <dbReference type="EMBL" id="AY007251">
+    <property type="protein sequence ID" value="AAG02566.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="GU322921">
+    <property type="protein sequence ID" value="AGA35574.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="GU322922">
+    <property type="protein sequence ID" value="AGA35576.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="GU322923">
+    <property type="protein sequence ID" value="AGA35578.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="GU322924">
+    <property type="protein sequence ID" value="AGA35580.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="GU322925">
+    <property type="protein sequence ID" value="AGA35582.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="GU322926">
+    <property type="protein sequence ID" value="AGA35584.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="Q9AF68"/>
+  <dbReference type="SMR" id="Q9AF68"/>
+  <dbReference type="NCBIfam" id="NF038161">
+    <property type="entry name" value="lant_II_LchA2"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="predicted"/>
+  <evidence type="ECO:0000313" key="1">
+    <source>
+      <dbReference type="EMBL" id="AAG02566.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="2">
+    <source>
+      <dbReference type="EMBL" id="AGA35574.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="3">
+    <source>
+      <dbReference type="EMBL" id="AGA35576.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="4">
+    <source>
+      <dbReference type="EMBL" id="AGA35578.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="5">
+    <source>
+      <dbReference type="EMBL" id="AGA35580.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="6">
+    <source>
+      <dbReference type="EMBL" id="AGA35582.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="7">
+    <source>
+      <dbReference type="EMBL" id="AGA35584.1"/>
+    </source>
+  </evidence>
+  <sequence length="67" mass="7085" checksum="4CAB447EA9B2178A" modified="2001-06-01" version="1">MTKTSRRKNAIANYLEPVDEKSINESFGAGDPEARSGIPCTIGAAVAASIAVCPTTKCSKRCGKRKK</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

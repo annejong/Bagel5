@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="1994-06-01" modified="2023-09-13" version="70" xmlns="http://uniprot.org/uniprot">
+  <accession>P35518</accession>
+  <name>LCNB_LACLC</name>
+  <protein>
+    <recommendedName>
+      <fullName>Bacteriocin lactococcin-B</fullName>
+      <shortName>LCN-B</shortName>
+    </recommendedName>
+  </protein>
+  <gene>
+    <name type="primary">lcnB</name>
+  </gene>
+  <organism>
+    <name type="scientific">Lactococcus lactis subsp. cremoris</name>
+    <name type="common">Streptococcus cremoris</name>
+    <dbReference type="NCBI Taxonomy" id="1359"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Bacillota</taxon>
+      <taxon>Bacilli</taxon>
+      <taxon>Lactobacillales</taxon>
+      <taxon>Streptococcaceae</taxon>
+      <taxon>Lactococcus</taxon>
+    </lineage>
+  </organism>
+  <geneLocation type="plasmid">
+    <name>p9B4-6</name>
+  </geneLocation>
+  <reference key="1">
+    <citation type="journal article" date="1992" name="Appl. Environ. Microbiol." volume="58" first="572" last="577">
+      <title>Cloning, sequencing, and expression in Escherichia coli of lcnB, a third bacteriocin determinant from the lactococcal bacteriocin plasmid p9B4-6.</title>
+      <authorList>
+        <person name="van Belkum M.J."/>
+        <person name="Kok J."/>
+        <person name="Venema G."/>
+      </authorList>
+      <dbReference type="PubMed" id="1610182"/>
+      <dbReference type="DOI" id="10.1128/aem.58.2.572-577.1992"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+    <source>
+      <strain>9B4</strain>
+    </source>
+  </reference>
+  <reference key="2">
+    <citation type="journal article" date="1996" name="Microbiology" volume="142" first="2825" last="2830">
+      <title>Mutational analysis and chemical modification of Cys24 of lactococcin B, a bacteriocin produced by Lactococcus lactis.</title>
+      <authorList>
+        <person name="Venema K."/>
+        <person name="Dost M.H."/>
+        <person name="Venema G."/>
+        <person name="Kok J."/>
+      </authorList>
+      <dbReference type="PubMed" id="8885398"/>
+      <dbReference type="DOI" id="10.1099/13500872-142-10-2825"/>
+    </citation>
+    <scope>MUTAGENESIS OF CYS-45</scope>
+  </reference>
+  <comment type="function">
+    <text>Kills Lactococci by dissipating the membrane potential of the cells.</text>
+  </comment>
+  <comment type="subcellular location">
+    <subcellularLocation>
+      <location>Secreted</location>
+    </subcellularLocation>
+  </comment>
+  <dbReference type="EMBL" id="S38128">
+    <property type="protein sequence ID" value="AAB22372.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="PIR" id="B43940">
+    <property type="entry name" value="B43940"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="WP_015081788.1">
+    <property type="nucleotide sequence ID" value="NZ_WJUX01000070.1"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="P35518"/>
+  <dbReference type="SMR" id="P35518"/>
+  <dbReference type="TCDB" id="1.C.22.1.2">
+    <property type="family name" value="the lactococcin a (lactococcin a) family"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0005576">
+    <property type="term" value="C:extracellular region"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-SubCell"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0042742">
+    <property type="term" value="P:defense response to bacterium"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0031640">
+    <property type="term" value="P:killing of cells of another organism"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR007464">
+    <property type="entry name" value="Bacteriocin_IId"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR010133">
+    <property type="entry name" value="Bacteriocin_signal_seq"/>
+  </dbReference>
+  <dbReference type="NCBIfam" id="TIGR01847">
+    <property type="entry name" value="bacteriocin_sig"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF04369">
+    <property type="entry name" value="Lactococcin"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="evidence at protein level"/>
+  <keyword id="KW-0044">Antibiotic</keyword>
+  <keyword id="KW-0929">Antimicrobial</keyword>
+  <keyword id="KW-0078">Bacteriocin</keyword>
+  <keyword id="KW-0614">Plasmid</keyword>
+  <keyword id="KW-0964">Secreted</keyword>
+  <feature type="propeptide" id="PRO_0000002770">
+    <location>
+      <begin position="1"/>
+      <end position="21"/>
+    </location>
+  </feature>
+  <feature type="chain" id="PRO_0000002771" description="Bacteriocin lactococcin-B">
+    <location>
+      <begin position="22"/>
+      <end position="68"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="No loss of activity." evidence="1">
+    <original>C</original>
+    <variation>A</variation>
+    <variation>D</variation>
+    <variation>E</variation>
+    <variation>F</variation>
+    <variation>G</variation>
+    <variation>I</variation>
+    <variation>L</variation>
+    <variation>M</variation>
+    <variation>N</variation>
+    <variation>P</variation>
+    <variation>Q</variation>
+    <variation>S</variation>
+    <variation>T</variation>
+    <variation>V</variation>
+    <variation>Y</variation>
+    <variation>W</variation>
+    <location>
+      <position position="45"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Loss of activity." evidence="1">
+    <original>C</original>
+    <variation>R</variation>
+    <variation>K</variation>
+    <location>
+      <position position="45"/>
+    </location>
+  </feature>
+  <evidence type="ECO:0000269" key="1">
+    <source>
+      <dbReference type="PubMed" id="8885398"/>
+    </source>
+  </evidence>
+  <sequence length="68" mass="7632" checksum="18382310AC880678" modified="1994-06-01" version="1" precursor="true">MKNQLNFNIVSDEELAEVNGGSLQYVMSAGPYTWYKDTRTGKTICKQTIDTASYTFGVMAEGWGKTFH</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

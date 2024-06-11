@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="1999-11-01" modified="2024-01-24" version="58" xmlns="http://uniprot.org/uniprot">
+  <accession>Q9XDR7</accession>
+  <name>Q9XDR7_LACGS</name>
+  <protein>
+    <submittedName>
+      <fullName evidence="4">Bacteriocin</fullName>
+    </submittedName>
+    <submittedName>
+      <fullName evidence="3">Gassericin T</fullName>
+    </submittedName>
+    <submittedName>
+      <fullName evidence="1">Putative complement factor</fullName>
+    </submittedName>
+    <submittedName>
+      <fullName evidence="2">Putative gassericin K7 B complemental factor</fullName>
+    </submittedName>
+  </protein>
+  <gene>
+    <name evidence="3" type="primary">gatA</name>
+    <name evidence="5" type="ORF">C3745_03220</name>
+  </gene>
+  <organism evidence="3">
+    <name type="scientific">Lactobacillus gasseri</name>
+    <dbReference type="NCBI Taxonomy" id="1596"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Bacillota</taxon>
+      <taxon>Bacilli</taxon>
+      <taxon>Lactobacillales</taxon>
+      <taxon>Lactobacillaceae</taxon>
+      <taxon>Lactobacillus</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="3" key="1">
+    <citation type="journal article" date="2000" name="Biosci. Biotechnol. Biochem." volume="64" first="2201" last="2208">
+      <title>Primary amino acid and DNA sequences of gassericin T, a lactacin F-family bacteriocin produced by Lactobacillus gasseri SBT2055.</title>
+      <authorList>
+        <person name="Kawai Y."/>
+        <person name="Saitoh B."/>
+        <person name="Takahashi O."/>
+        <person name="Kitazawa H."/>
+        <person name="Saito T."/>
+      </authorList>
+      <dbReference type="PubMed" id="11129595"/>
+      <dbReference type="DOI" id="10.1271/bbb.64.2201"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="3">SBT2055</strain>
+    </source>
+  </reference>
+  <reference evidence="2" key="2">
+    <citation type="submission" date="2003-05" db="EMBL/GenBank/DDBJ databases">
+      <title>Comparative study of bacteriocin production of two Lactobacillus gasseri probiotic strains.</title>
+      <authorList>
+        <person name="Zoric M."/>
+        <person name="Holo H."/>
+        <person name="Nes I.F."/>
+        <person name="Canzek Majhenic A."/>
+        <person name="Rogelj I."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+  </reference>
+  <reference evidence="1" key="3">
+    <citation type="submission" date="2003-05" db="EMBL/GenBank/DDBJ databases">
+      <authorList>
+        <person name="Canzek Majhenic A."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+  </reference>
+  <reference evidence="1" key="4">
+    <citation type="journal article" date="2004" name="Appl. Microbiol. Biotechnol." volume="63" first="705" last="714">
+      <title>DNA analysis of the genes encoding acidocin LF221 A and acidocin LF221 B, two bacteriocins produced by Lactobacillus gasseri LF221.</title>
+      <authorList>
+        <person name="Majhenic A.C."/>
+        <person name="Venema K."/>
+        <person name="Allison G.E."/>
+        <person name="Matijasic B.B."/>
+        <person name="Rogelj I."/>
+        <person name="Klaenhammer T.R."/>
+      </authorList>
+      <dbReference type="PubMed" id="14504837"/>
+      <dbReference type="DOI" id="10.1007/s00253-003-1424-2"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+  </reference>
+  <reference evidence="4" key="5">
+    <citation type="submission" date="2012-04" db="EMBL/GenBank/DDBJ databases">
+      <title>DNA Sequence and HPLC Purification of Gassericin T, a Class IIb Bacteriocin Produced by Lactobacillus gasseri LA158, from Cheese Whey-based Medium.</title>
+      <authorList>
+        <person name="Yasuta N."/>
+        <person name="Chujo T."/>
+        <person name="Nakamura K."/>
+        <person name="Arakawa K."/>
+        <person name="Kawai Y."/>
+        <person name="Ito Y."/>
+        <person name="Ishikawa J."/>
+        <person name="Itoh M."/>
+        <person name="Sakai A."/>
+        <person name="Nishimura J."/>
+        <person name="Makino Y."/>
+        <person name="Shigenobu S."/>
+        <person name="Kitazawa H."/>
+        <person name="Saito T."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="4">LA158</strain>
+    </source>
+  </reference>
+  <reference evidence="5 6" key="6">
+    <citation type="submission" date="2018-02" db="EMBL/GenBank/DDBJ databases">
+      <title>Deletion-based escape of Type II CRISPR-Cas targeting in Lactobacillus gasseri.</title>
+      <authorList>
+        <person name="Stout E."/>
+        <person name="Crawley A."/>
+        <person name="Barrangou R."/>
+        <person name="Goh Y.J."/>
+        <person name="Sanozky-Dawes R."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="5 6">JG141</strain>
+    </source>
+  </reference>
+  <dbReference type="EMBL" id="AY297947">
+    <property type="protein sequence ID" value="AAP56344.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="AY307382">
+    <property type="protein sequence ID" value="AAP73780.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="AB029612">
+    <property type="protein sequence ID" value="BAA82353.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="AB710328">
+    <property type="protein sequence ID" value="BAM09405.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="PQWW01000006">
+    <property type="protein sequence ID" value="RBQ01516.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="WP_049159833.1">
+    <property type="nucleotide sequence ID" value="NZ_SSHO01000001.1"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="Q9XDR7"/>
+  <dbReference type="OrthoDB" id="2328947at2"/>
+  <dbReference type="Proteomes" id="UP000253008">
+    <property type="component" value="Unassembled WGS sequence"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0042742">
+    <property type="term" value="P:defense response to bacterium"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="InterPro"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR019493">
+    <property type="entry name" value="Bacteriocin_IIb_lactacin-rel"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF10439">
+    <property type="entry name" value="Bacteriocin_IIc"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="predicted"/>
+  <evidence type="ECO:0000313" key="1">
+    <source>
+      <dbReference type="EMBL" id="AAP56344.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="2">
+    <source>
+      <dbReference type="EMBL" id="AAP73780.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="3">
+    <source>
+      <dbReference type="EMBL" id="BAA82353.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="4">
+    <source>
+      <dbReference type="EMBL" id="BAM09405.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="5">
+    <source>
+      <dbReference type="EMBL" id="RBQ01516.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="6">
+    <source>
+      <dbReference type="Proteomes" id="UP000253008"/>
+    </source>
+  </evidence>
+  <sequence length="75" mass="7481" checksum="37FE9051CF5B42F6" modified="1999-11-01" version="1">MKNFNTLSFETLANIVGGRNNWAANIGGVGGATVAGWALGNAVCGPACGFVGAHYVPIAWAGVTAATGGFGKIRK</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

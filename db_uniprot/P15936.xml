@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="1990-04-01" modified="2023-05-03" version="65" xmlns="http://uniprot.org/uniprot">
+  <accession>P15936</accession>
+  <name>BCNB_CLOPF</name>
+  <protein>
+    <recommendedName>
+      <fullName>Bacteriocin UviB</fullName>
+    </recommendedName>
+  </protein>
+  <gene>
+    <name type="primary">uviB</name>
+  </gene>
+  <organism>
+    <name type="scientific">Clostridium perfringens</name>
+    <dbReference type="NCBI Taxonomy" id="1502"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Bacillota</taxon>
+      <taxon>Clostridia</taxon>
+      <taxon>Eubacteriales</taxon>
+      <taxon>Clostridiaceae</taxon>
+      <taxon>Clostridium</taxon>
+    </lineage>
+  </organism>
+  <geneLocation type="plasmid">
+    <name>pIP404</name>
+  </geneLocation>
+  <reference key="1">
+    <citation type="journal article" date="1988" name="Plasmid" volume="19" first="134" last="150">
+      <title>Complete nucleotide sequence and genetic organization of the bacteriocinogenic plasmid, pIP404, from Clostridium perfringens.</title>
+      <authorList>
+        <person name="Garnier T."/>
+        <person name="Cole S.T."/>
+      </authorList>
+      <dbReference type="PubMed" id="2901768"/>
+      <dbReference type="DOI" id="10.1016/0147-619x(88)90052-2"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+    <source>
+      <strain>CPN50</strain>
+    </source>
+  </reference>
+  <reference key="2">
+    <citation type="journal article" date="1988" name="Mol. Microbiol." volume="2" first="607" last="614">
+      <title>Studies of UV-inducible promoters from Clostridium perfringens in vivo and in vitro.</title>
+      <authorList>
+        <person name="Garnier T."/>
+        <person name="Cole S.T."/>
+      </authorList>
+      <dbReference type="PubMed" id="2460717"/>
+      <dbReference type="DOI" id="10.1111/j.1365-2958.1988.tb00069.x"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+    <source>
+      <strain>CPN50</strain>
+    </source>
+  </reference>
+  <comment type="function">
+    <text>May have a role in bacteriocin secretion or immunity.</text>
+  </comment>
+  <comment type="induction">
+    <text>By UV irradiation.</text>
+  </comment>
+  <dbReference type="EMBL" id="M32882">
+    <property type="protein sequence ID" value="AAA98258.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="PIR" id="S03778">
+    <property type="entry name" value="S03778"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="NP_040460.1">
+    <property type="nucleotide sequence ID" value="NC_001388.1"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="WP_003448518.1">
+    <property type="nucleotide sequence ID" value="NZ_UFXI01000004.1"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="YP_209683.1">
+    <property type="nucleotide sequence ID" value="NC_006872.1"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="P15936"/>
+  <dbReference type="SMR" id="P15936"/>
+  <dbReference type="GeneID" id="69450676"/>
+  <dbReference type="GO" id="GO:0042742">
+    <property type="term" value="P:defense response to bacterium"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0031640">
+    <property type="term" value="P:killing of cells of another organism"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR024405">
+    <property type="entry name" value="Phage_BhlA/UviB"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF10960">
+    <property type="entry name" value="Holin_BhlA"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="evidence at transcript level"/>
+  <keyword id="KW-0044">Antibiotic</keyword>
+  <keyword id="KW-0929">Antimicrobial</keyword>
+  <keyword id="KW-0078">Bacteriocin</keyword>
+  <keyword id="KW-0614">Plasmid</keyword>
+  <keyword id="KW-0732">Signal</keyword>
+  <feature type="signal peptide" evidence="1">
+    <location>
+      <begin position="1"/>
+      <end position="16"/>
+    </location>
+  </feature>
+  <feature type="chain" id="PRO_0000002759" description="Bacteriocin UviB">
+    <location>
+      <begin position="17"/>
+      <end position="64"/>
+    </location>
+  </feature>
+  <evidence type="ECO:0000255" key="1"/>
+  <sequence length="64" mass="7616" checksum="BBB1DDB81A306975" modified="1990-04-01" version="1" precursor="true">MDSELFKLMATQGAFAILFSYLLFYVLKENSKREDKYQNIIEELTELLPKIKEDVEDIKEKLNK</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

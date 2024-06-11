@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2010-07-13" modified="2024-01-24" version="36" xmlns="http://uniprot.org/uniprot">
+  <accession>D5VKJ7</accession>
+  <name>D5VKJ7_CAUST</name>
+  <protein>
+    <submittedName>
+      <fullName evidence="1">Uncharacterized protein</fullName>
+    </submittedName>
+  </protein>
+  <gene>
+    <name evidence="1" type="ordered locus">Cseg_2566</name>
+  </gene>
+  <organism evidence="1 2">
+    <name type="scientific">Caulobacter segnis (strain ATCC 21756 / DSM 7131 / JCM 7823 / NBRC 15250 / LMG 17158 / TK0059)</name>
+    <name type="common">Mycoplana segnis</name>
+    <dbReference type="NCBI Taxonomy" id="509190"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Pseudomonadota</taxon>
+      <taxon>Alphaproteobacteria</taxon>
+      <taxon>Caulobacterales</taxon>
+      <taxon>Caulobacteraceae</taxon>
+      <taxon>Caulobacter</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="2" key="1">
+    <citation type="journal article" date="2011" name="J. Bacteriol." volume="193" first="4567" last="4568">
+      <title>Genome sequences of eight morphologically diverse alphaproteobacteria.</title>
+      <authorList>
+        <consortium name="US DOE Joint Genome Institute"/>
+        <person name="Brown P.J."/>
+        <person name="Kysela D.T."/>
+        <person name="Buechlein A."/>
+        <person name="Hemmerich C."/>
+        <person name="Brun Y.V."/>
+      </authorList>
+      <dbReference type="PubMed" id="21705585"/>
+      <dbReference type="DOI" id="10.1128/JB.05453-11"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="2">ATCC 21756 / DSM 7131 / JCM 7823 / NBRC 15250 / LMG 17158 / TK0059</strain>
+    </source>
+  </reference>
+  <dbReference type="EMBL" id="CP002008">
+    <property type="protein sequence ID" value="ADG11020.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="D5VKJ7"/>
+  <dbReference type="STRING" id="509190.Cseg_2566"/>
+  <dbReference type="KEGG" id="cse:Cseg_2566"/>
+  <dbReference type="HOGENOM" id="CLU_3341860_0_0_5"/>
+  <dbReference type="Proteomes" id="UP000002629">
+    <property type="component" value="Chromosome"/>
+  </dbReference>
+  <proteinExistence type="predicted"/>
+  <evidence type="ECO:0000313" key="1">
+    <source>
+      <dbReference type="EMBL" id="ADG11020.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="2">
+    <source>
+      <dbReference type="Proteomes" id="UP000002629"/>
+    </source>
+  </evidence>
+  <sequence length="37" mass="4191" checksum="B48EE999D0731C08" modified="2010-07-13" version="1">MTSRFQLLRLGKADRLTRGALVGLLLEDITVARYDPM</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

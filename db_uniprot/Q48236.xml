@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2001-09-26" modified="2024-01-24" version="69" xmlns="http://uniprot.org/uniprot">
+  <accession>Q48236</accession>
+  <accession>I3RA36</accession>
+  <name>HAH4_HALMT</name>
+  <protein>
+    <recommendedName>
+      <fullName>Halocin-H4</fullName>
+    </recommendedName>
+  </protein>
+  <gene>
+    <name type="primary">halH4</name>
+    <name type="ordered locus">HFX_5264</name>
+  </gene>
+  <organism>
+    <name type="scientific">Haloferax mediterranei (strain ATCC 33500 / DSM 1411 / JCM 8866 / NBRC 14739 / NCIMB 2177 / R-4)</name>
+    <name type="common">Halobacterium mediterranei</name>
+    <dbReference type="NCBI Taxonomy" id="523841"/>
+    <lineage>
+      <taxon>Archaea</taxon>
+      <taxon>Euryarchaeota</taxon>
+      <taxon>Stenosarchaea group</taxon>
+      <taxon>Halobacteria</taxon>
+      <taxon>Haloferacales</taxon>
+      <taxon>Haloferacaceae</taxon>
+      <taxon>Haloferax</taxon>
+    </lineage>
+  </organism>
+  <geneLocation type="plasmid">
+    <name>pHM300</name>
+  </geneLocation>
+  <reference key="1">
+    <citation type="journal article" date="1997" name="J. Bacteriol." volume="179" first="548" last="551">
+      <title>Isolation, sequence, and expression of the gene encoding halocin H4, a bacteriocin from the halophilic archaeon Haloferax mediterranei R4.</title>
+      <authorList>
+        <person name="Cheung J."/>
+        <person name="Danna K.J."/>
+        <person name="O'Connor E.M."/>
+        <person name="Price L.B."/>
+        <person name="Shand R.F."/>
+      </authorList>
+      <dbReference type="PubMed" id="8990311"/>
+      <dbReference type="DOI" id="10.1128/jb.179.2.548-551.1997"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+    <scope>PARTIAL PROTEIN SEQUENCE</scope>
+    <source>
+      <strain>ATCC 33500 / DSM 1411 / JCM 8866 / NBRC 14739 / NCIMB 2177 / R-4</strain>
+    </source>
+  </reference>
+  <reference key="2">
+    <citation type="journal article" date="2012" name="J. Bacteriol." volume="194" first="4463" last="4464">
+      <title>Complete genome sequence of the metabolically versatile halophilic archaeon Haloferax mediterranei, a poly(3-hydroxybutyrate-co-3-hydroxyvalerate) producer.</title>
+      <authorList>
+        <person name="Han J."/>
+        <person name="Zhang F."/>
+        <person name="Hou J."/>
+        <person name="Liu X."/>
+        <person name="Li M."/>
+        <person name="Liu H."/>
+        <person name="Cai L."/>
+        <person name="Zhang B."/>
+        <person name="Chen Y."/>
+        <person name="Zhou J."/>
+        <person name="Hu S."/>
+        <person name="Xiang H."/>
+      </authorList>
+      <dbReference type="PubMed" id="22843593"/>
+      <dbReference type="DOI" id="10.1128/jb.00880-12"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain>ATCC 33500 / DSM 1411 / JCM 8866 / NBRC 14739 / NCIMB 2177 / R-4</strain>
+    </source>
+  </reference>
+  <reference key="3">
+    <citation type="journal article" date="1985" name="FEMS Microbiol. Lett." volume="28" first="177" last="182">
+      <title>Production and purification of halocin H4.</title>
+      <authorList>
+        <person name="Meseguer I."/>
+        <person name="Rodriguez-Valera F."/>
+      </authorList>
+    </citation>
+    <scope>CHARACTERIZATION</scope>
+  </reference>
+  <reference key="4">
+    <citation type="journal article" date="1986" name="J. Gen. Microbiol." volume="132" first="3061" last="3068">
+      <title>Effect of halocin H4 on cells of Halobacterium halobium.</title>
+      <authorList>
+        <person name="Meseguer I."/>
+        <person name="Rodriguez-Valera F."/>
+      </authorList>
+    </citation>
+    <scope>CHARACTERIZATION</scope>
+  </reference>
+  <comment type="function">
+    <text>Has antibacterial activity against other haloarchaeons. Interacts with the membrane of the target cells where it causes permeability changes that result in an ionic imbalance leading to cell lysis and death.</text>
+  </comment>
+  <comment type="subcellular location">
+    <subcellularLocation>
+      <location>Secreted</location>
+    </subcellularLocation>
+  </comment>
+  <dbReference type="EMBL" id="U16389">
+    <property type="protein sequence ID" value="AAB58316.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="CP001870">
+    <property type="protein sequence ID" value="AFK21096.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="Q48236"/>
+  <dbReference type="TCDB" id="9.A.44.1.1">
+    <property type="family name" value="the archaeocin/halocin h4 (halh4) family"/>
+  </dbReference>
+  <dbReference type="KEGG" id="hme:HFX_5264"/>
+  <dbReference type="HOGENOM" id="CLU_770753_0_0_2"/>
+  <dbReference type="OrthoDB" id="351082at2157"/>
+  <dbReference type="Proteomes" id="UP000006469">
+    <property type="component" value="Plasmid pHM300"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0005576">
+    <property type="term" value="C:extracellular region"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-SubCell"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0042742">
+    <property type="term" value="P:defense response to bacterium"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0031640">
+    <property type="term" value="P:killing of cells of another organism"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <proteinExistence type="evidence at protein level"/>
+  <keyword id="KW-0044">Antibiotic</keyword>
+  <keyword id="KW-0929">Antimicrobial</keyword>
+  <keyword id="KW-0078">Bacteriocin</keyword>
+  <keyword id="KW-0903">Direct protein sequencing</keyword>
+  <keyword id="KW-0614">Plasmid</keyword>
+  <keyword id="KW-0964">Secreted</keyword>
+  <keyword id="KW-0732">Signal</keyword>
+  <feature type="signal peptide">
+    <location>
+      <begin position="1"/>
+      <end position="46"/>
+    </location>
+  </feature>
+  <feature type="chain" id="PRO_0000013169" description="Halocin-H4">
+    <location>
+      <begin position="47"/>
+      <end position="359"/>
+    </location>
+  </feature>
+  <feature type="region of interest" description="Disordered" evidence="1">
+    <location>
+      <begin position="40"/>
+      <end position="59"/>
+    </location>
+  </feature>
+  <feature type="region of interest" description="Disordered" evidence="1">
+    <location>
+      <begin position="340"/>
+      <end position="359"/>
+    </location>
+  </feature>
+  <feature type="sequence conflict" description="In Ref. 1; AAB58316." evidence="2" ref="1">
+    <original>E</original>
+    <variation>D</variation>
+    <location>
+      <position position="171"/>
+    </location>
+  </feature>
+  <evidence type="ECO:0000256" key="1">
+    <source>
+      <dbReference type="SAM" id="MobiDB-lite"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000305" key="2"/>
+  <sequence length="359" mass="39639" checksum="61B4D0B564409B3A" modified="2012-10-31" version="3" precursor="true">MSKDRDGRRTSRRGTLKKIGGFSLGALSFGAVGRTQAATGSSVTTADIAPPGPNGDPKSVQIDDKYTGAEMYGEGDFRVGLGTDLTMYPPVYRESLGNGSGGWEFDFTVCGSTACRFVDSNGDVKEDDKAKEMWWQEINFNDINQDLYSRNDSDWVGSTPADTQPEFDYTEFALARDGVTLALTALNPAMGSLALGATYFLSDMVNWIASQHEDDSSLKRKWDYDGLSGPLYADSSTYLLARDEMTSNSYESFTIDNIAVAFPEFPVRTKYYVTFTAPDDPSTQSISTLEEEGIYRVPATEVAAARPPGSRRSKSAADEMVYVADPKKFIEVEPVKNPSIPDRIYEEIEQKKKQRSRKQ</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

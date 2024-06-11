@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2015-09-16" modified="2024-01-24" version="17" xmlns="http://uniprot.org/uniprot">
+  <accession>A0A0H3NT27</accession>
+  <name>A0A0H3NT27_YERE1</name>
+  <protein>
+    <submittedName>
+      <fullName evidence="1">No significant database hits</fullName>
+    </submittedName>
+  </protein>
+  <gene>
+    <name evidence="1" type="ordered locus">Y11_17261</name>
+  </gene>
+  <organism evidence="1 2">
+    <name type="scientific">Yersinia enterocolitica subsp. palearctica serotype O:3 (strain DSM 13030 / CIP 106945 / Y11)</name>
+    <dbReference type="NCBI Taxonomy" id="930944"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Pseudomonadota</taxon>
+      <taxon>Gammaproteobacteria</taxon>
+      <taxon>Enterobacterales</taxon>
+      <taxon>Yersiniaceae</taxon>
+      <taxon>Yersinia</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="1 2" key="1">
+    <citation type="journal article" date="2011" name="J. Bacteriol." volume="193" first="2067" last="2067">
+      <title>Complete genome sequence of Yersinia enterocolitica subsp. palearctica serogroup O:3.</title>
+      <authorList>
+        <person name="Batzilla J."/>
+        <person name="Hoper D."/>
+        <person name="Antonenka U."/>
+        <person name="Heesemann J."/>
+        <person name="Rakin A."/>
+      </authorList>
+      <dbReference type="PubMed" id="21296963"/>
+      <dbReference type="DOI" id="10.1128/JB.01484-10"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="2">DSM 13030 / CIP 106945 / Y11</strain>
+    </source>
+  </reference>
+  <dbReference type="EMBL" id="FR729477">
+    <property type="protein sequence ID" value="CBY26455.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="A0A0H3NT27"/>
+  <dbReference type="KEGG" id="yey:Y11_17261"/>
+  <dbReference type="PATRIC" id="fig|930944.6.peg.1716"/>
+  <dbReference type="HOGENOM" id="CLU_2830395_0_0_6"/>
+  <dbReference type="OMA" id="ENNMNPS"/>
+  <dbReference type="Proteomes" id="UP000008084">
+    <property type="component" value="Chromosome"/>
+  </dbReference>
+  <dbReference type="NCBIfam" id="NF038004">
+    <property type="entry name" value="darobactin_RiPP"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="predicted"/>
+  <evidence type="ECO:0000313" key="1">
+    <source>
+      <dbReference type="EMBL" id="CBY26455.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="2">
+    <source>
+      <dbReference type="Proteomes" id="UP000008084"/>
+    </source>
+  </evidence>
+  <sequence length="66" mass="7647" checksum="D43E22163C0C1FF1" modified="2015-09-16" version="1">MYTSHQSDLNTNNGKLIALKTKLEALDESFENNSLHISYDEIEKIKNNSLKSKITAWNWSRSFAEE</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

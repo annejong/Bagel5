@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2011-09-21" modified="2023-09-13" version="11" xmlns="http://uniprot.org/uniprot">
+  <accession>F8QV09</accession>
+  <name>F8QV09_RUMGN</name>
+  <protein>
+    <submittedName>
+      <fullName evidence="1">Ruminococcin C</fullName>
+    </submittedName>
+  </protein>
+  <gene>
+    <name evidence="1" type="primary">rumC3</name>
+  </gene>
+  <organism evidence="1">
+    <name type="scientific">[Ruminococcus] gnavus E1</name>
+    <dbReference type="NCBI Taxonomy" id="935582"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Bacillota</taxon>
+      <taxon>Clostridia</taxon>
+      <taxon>Eubacteriales</taxon>
+      <taxon>Lachnospiraceae</taxon>
+      <taxon>Mediterraneibacter</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="1" key="1">
+    <citation type="journal article" date="2011" name="Biochimie" volume="93" first="1487" last="1494">
+      <title>Ruminococcin C, a new anti-Clostridium perfringens bacteriocin produced in the gut by the commensal bacterium Ruminococcus gnavus E1.</title>
+      <authorList>
+        <person name="Crost E.H."/>
+        <person name="Ajandouz E.H."/>
+        <person name="Villard C."/>
+        <person name="Geraert P.A."/>
+        <person name="Puigserver A."/>
+        <person name="Fons M."/>
+      </authorList>
+      <dbReference type="PubMed" id="21586310"/>
+      <dbReference type="DOI" id="10.1016/j.biochi.2011.05.001"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="1">E1</strain>
+    </source>
+  </reference>
+  <dbReference type="EMBL" id="HM060268">
+    <property type="protein sequence ID" value="AEC03335.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="F8QV09"/>
+  <dbReference type="NCBIfam" id="NF035950">
+    <property type="entry name" value="RumC_sactiRiPP"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="predicted"/>
+  <evidence type="ECO:0000313" key="1">
+    <source>
+      <dbReference type="EMBL" id="AEC03335.1"/>
+    </source>
+  </evidence>
+  <sequence length="63" mass="6379" checksum="079AE06095C08CBA" modified="2011-09-21" version="1">MKLVETKTTKTGTNFEGNRAGCICNGTVAVANSHNAGPAYCVGYCGNSGVVTRNANANVAKTA</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

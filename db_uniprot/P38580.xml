@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="1994-10-01" modified="2024-01-24" version="97" xmlns="http://uniprot.org/uniprot">
+  <accession>P38580</accession>
+  <name>CBB2_CARML</name>
+  <protein>
+    <recommendedName>
+      <fullName>Bacteriocin carnobacteriocin B2</fullName>
+    </recommendedName>
+    <alternativeName>
+      <fullName>Carnocin CP52</fullName>
+    </alternativeName>
+  </protein>
+  <gene>
+    <name type="primary">cbnB2</name>
+    <name type="synonym">canCP52</name>
+  </gene>
+  <organism>
+    <name type="scientific">Carnobacterium maltaromaticum</name>
+    <name type="common">Carnobacterium piscicola</name>
+    <dbReference type="NCBI Taxonomy" id="2751"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Bacillota</taxon>
+      <taxon>Bacilli</taxon>
+      <taxon>Lactobacillales</taxon>
+      <taxon>Carnobacteriaceae</taxon>
+      <taxon>Carnobacterium</taxon>
+    </lineage>
+  </organism>
+  <geneLocation type="plasmid">
+    <name>61 kb</name>
+  </geneLocation>
+  <reference key="1">
+    <citation type="journal article" date="1994" name="J. Biol. Chem." volume="269" first="12204" last="12211">
+      <title>Chemical and genetic characterization of bacteriocins produced by Carnobacterium piscicola LV17B.</title>
+      <authorList>
+        <person name="Quadri L.E.N."/>
+        <person name="Sailer M."/>
+        <person name="Roy K.L."/>
+        <person name="Vederas J.C."/>
+        <person name="Stiles M.E."/>
+      </authorList>
+      <dbReference type="PubMed" id="8163526"/>
+      <dbReference type="DOI" id="10.1016/s0021-9258(17)32702-3"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+    <scope>PROTEIN SEQUENCE OF 19-53</scope>
+    <source>
+      <strain>LV17B</strain>
+    </source>
+  </reference>
+  <reference key="2">
+    <citation type="journal article" date="1997" name="Curr. Microbiol." volume="35" first="319" last="326">
+      <title>Characteristics and genetic determinants of bacteriocin activities produced by Carnobacterium piscicola CP5 isolated from cheese.</title>
+      <authorList>
+        <person name="Herbin S."/>
+        <person name="Mathieu F."/>
+        <person name="Brule F."/>
+        <person name="Branlant C."/>
+        <person name="Lefebvre G."/>
+        <person name="Lebrihi A."/>
+      </authorList>
+      <dbReference type="PubMed" id="9353214"/>
+      <dbReference type="DOI" id="10.1007/s002849900262"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+    <source>
+      <strain>CP5</strain>
+    </source>
+  </reference>
+  <reference key="3">
+    <citation type="journal article" date="1999" name="Biochemistry" volume="38" first="15438" last="15447">
+      <title>Solution structure of carnobacteriocin B2 and implications for structure-activity relationships among type IIa bacteriocins from lactic acid bacteria.</title>
+      <authorList>
+        <person name="Wang Y."/>
+        <person name="Henz M.E."/>
+        <person name="Gallagher N.L.F."/>
+        <person name="Chai S."/>
+        <person name="Gibbs A.C."/>
+        <person name="Yan L.Z."/>
+        <person name="Stiles M.E."/>
+        <person name="Wishart D.S."/>
+        <person name="Vederas J.C."/>
+      </authorList>
+      <dbReference type="PubMed" id="10569926"/>
+      <dbReference type="DOI" id="10.1021/bi991351x"/>
+    </citation>
+    <scope>STRUCTURE BY NMR OF 19-66</scope>
+  </reference>
+  <comment type="function">
+    <text>Has antibacterial activity against Listeria and Enterococcus.</text>
+  </comment>
+  <comment type="subcellular location">
+    <subcellularLocation>
+      <location>Secreted</location>
+    </subcellularLocation>
+  </comment>
+  <comment type="similarity">
+    <text evidence="2">Belongs to the bacteriocin class IIA/YGNGV family.</text>
+  </comment>
+  <dbReference type="EMBL" id="L29059">
+    <property type="protein sequence ID" value="AAA72431.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="L47121">
+    <property type="protein sequence ID" value="AAB81310.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="U76763">
+    <property type="protein sequence ID" value="AAB18989.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="PIR" id="C53589">
+    <property type="entry name" value="C53589"/>
+  </dbReference>
+  <dbReference type="PDB" id="1CW5">
+    <property type="method" value="NMR"/>
+    <property type="chains" value="A=19-66"/>
+  </dbReference>
+  <dbReference type="PDB" id="1RY3">
+    <property type="method" value="NMR"/>
+    <property type="chains" value="A=1-63"/>
+  </dbReference>
+  <dbReference type="PDBsum" id="1CW5"/>
+  <dbReference type="PDBsum" id="1RY3"/>
+  <dbReference type="AlphaFoldDB" id="P38580"/>
+  <dbReference type="BMRB" id="P38580"/>
+  <dbReference type="SMR" id="P38580"/>
+  <dbReference type="TCDB" id="1.C.24.1.7">
+    <property type="family name" value="the pediocin (pediocin) family"/>
+  </dbReference>
+  <dbReference type="EvolutionaryTrace" id="P38580"/>
+  <dbReference type="GO" id="GO:0005576">
+    <property type="term" value="C:extracellular region"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="CAFA"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0001897">
+    <property type="term" value="P:cytolysis by symbiont of host cells"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="CAFA"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0042742">
+    <property type="term" value="P:defense response to bacterium"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="Gene3D" id="1.20.5.130">
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR002633">
+    <property type="entry name" value="Bacteriocin_IIa"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR023384">
+    <property type="entry name" value="Bacteriocin_IIa_CS"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR023388">
+    <property type="entry name" value="Bacteriocin_IIa_dom_sf"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF01721">
+    <property type="entry name" value="Bacteriocin_II"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="PROSITE" id="PS60030">
+    <property type="entry name" value="BACTERIOCIN_IIA"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="evidence at protein level"/>
+  <keyword id="KW-0002">3D-structure</keyword>
+  <keyword id="KW-0044">Antibiotic</keyword>
+  <keyword id="KW-0929">Antimicrobial</keyword>
+  <keyword id="KW-0078">Bacteriocin</keyword>
+  <keyword id="KW-0903">Direct protein sequencing</keyword>
+  <keyword id="KW-1015">Disulfide bond</keyword>
+  <keyword id="KW-0614">Plasmid</keyword>
+  <keyword id="KW-0964">Secreted</keyword>
+  <feature type="propeptide" id="PRO_0000002736" evidence="1">
+    <location>
+      <begin position="1"/>
+      <end position="18"/>
+    </location>
+  </feature>
+  <feature type="chain" id="PRO_0000002737" description="Bacteriocin carnobacteriocin B2">
+    <location>
+      <begin position="19"/>
+      <end position="66"/>
+    </location>
+  </feature>
+  <feature type="disulfide bond">
+    <location>
+      <begin position="27"/>
+      <end position="32"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="4">
+    <location>
+      <begin position="4"/>
+      <end position="13"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="3">
+    <location>
+      <begin position="22"/>
+      <end position="26"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="4">
+    <location>
+      <begin position="28"/>
+      <end position="30"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="3">
+    <location>
+      <begin position="36"/>
+      <end position="59"/>
+    </location>
+  </feature>
+  <evidence type="ECO:0000269" key="1">
+    <source>
+      <dbReference type="PubMed" id="8163526"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000305" key="2"/>
+  <evidence type="ECO:0007829" key="3">
+    <source>
+      <dbReference type="PDB" id="1CW5"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007829" key="4">
+    <source>
+      <dbReference type="PDB" id="1RY3"/>
+    </source>
+  </evidence>
+  <sequence length="66" mass="6994" checksum="6207236A146B168E" modified="1994-10-01" version="1" precursor="true">MNSVKELNVKEMKQLHGGVNYGNGVSCSKTKCSVNWGQAFQERYTAGINSFVSGVASGAGSIGRRP</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

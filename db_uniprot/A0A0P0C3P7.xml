@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2016-11-30" modified="2023-09-13" version="17" xmlns="http://uniprot.org/uniprot">
+  <accession>A0A0P0C3P7</accession>
+  <accession>C0HJT1</accession>
+  <name>BS222_STAPS</name>
+  <protein>
+    <recommendedName>
+      <fullName evidence="2">Bacteriocin BacSp222</fullName>
+    </recommendedName>
+  </protein>
+  <organism evidence="2">
+    <name type="scientific">Staphylococcus pseudintermedius</name>
+    <dbReference type="NCBI Taxonomy" id="283734"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Bacillota</taxon>
+      <taxon>Bacilli</taxon>
+      <taxon>Bacillales</taxon>
+      <taxon>Staphylococcaceae</taxon>
+      <taxon>Staphylococcus</taxon>
+      <taxon>Staphylococcus intermedius group</taxon>
+    </lineage>
+  </organism>
+  <geneLocation type="plasmid" evidence="2">
+    <name>p222</name>
+  </geneLocation>
+  <reference evidence="2" key="1">
+    <citation type="journal article" date="2015" name="Sci. Rep." volume="5" first="14569" last="14569">
+      <title>A peptide factor secreted by Staphylococcus pseudintermedius exhibits properties of both bacteriocins and virulence factors.</title>
+      <authorList>
+        <person name="Wladyka B."/>
+        <person name="Piejko M."/>
+        <person name="Bzowska M."/>
+        <person name="Pieta P."/>
+        <person name="Krzysik M."/>
+        <person name="Mazurek L."/>
+        <person name="Guevara-Lora I."/>
+        <person name="Bukowski M."/>
+        <person name="Sabat A.J."/>
+        <person name="Friedrich A.W."/>
+        <person name="Bonar E."/>
+        <person name="Miedzobrodzki J."/>
+        <person name="Dubin A."/>
+        <person name="Mak P."/>
+      </authorList>
+      <dbReference type="PubMed" id="26411997"/>
+      <dbReference type="DOI" id="10.1038/srep14569"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <scope>PROTEIN SEQUENCE</scope>
+    <scope>FUNCTION</scope>
+    <scope>BIOPHYSICOCHEMICAL PROPERTIES</scope>
+    <scope>SUBCELLULAR LOCATION</scope>
+    <scope>INDUCTION</scope>
+    <scope>FORMYLATION AT MET-1</scope>
+    <scope>MASS SPECTROMETRY</scope>
+    <source>
+      <strain evidence="2">222</strain>
+      <plasmid evidence="2">p222</plasmid>
+    </source>
+  </reference>
+  <comment type="function">
+    <text evidence="1">Has bacteriolytic activity against Gram-positive bacteria B.subtilis, L.lactis and M.luteus and several species from genus Staphylococcus including methicillin-resistant S.aureus, with MIC values ranging from 0.11 uM to 7.8 uM. Has no activity against Gram-negative bacteria or fungi. In vitro, has a dose-dependent cytolytic effect on eukaryotic cells.</text>
+  </comment>
+  <comment type="biophysicochemical properties">
+    <temperatureDependence>
+      <text evidence="1">Thermostable. Retains virtually all of its activity after incubation at 100 degress Celsius for 3 hours.</text>
+    </temperatureDependence>
+  </comment>
+  <comment type="subcellular location">
+    <subcellularLocation>
+      <location evidence="1">Secreted</location>
+    </subcellularLocation>
+  </comment>
+  <comment type="induction">
+    <text evidence="1">Mainly expressed during the logarithmic phase.</text>
+  </comment>
+  <comment type="mass spectrometry" mass="5921.92" method="MALDI" evidence="1"/>
+  <comment type="miscellaneous">
+    <text evidence="1">Highly resistant to proteases.</text>
+  </comment>
+  <dbReference type="EMBL" id="CP011490">
+    <property type="protein sequence ID" value="ALI97662.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="PDB" id="5LWC">
+    <property type="method" value="NMR"/>
+    <property type="chains" value="A=1-50"/>
+  </dbReference>
+  <dbReference type="PDB" id="7NYI">
+    <property type="method" value="NMR"/>
+    <property type="chains" value="A=1-50"/>
+  </dbReference>
+  <dbReference type="PDBsum" id="5LWC"/>
+  <dbReference type="PDBsum" id="7NYI"/>
+  <dbReference type="AlphaFoldDB" id="A0A0P0C3P7"/>
+  <dbReference type="SMR" id="A0A0P0C3P7"/>
+  <dbReference type="GO" id="GO:0005576">
+    <property type="term" value="C:extracellular region"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-SubCell"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0042742">
+    <property type="term" value="P:defense response to bacterium"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0031640">
+    <property type="term" value="P:killing of cells of another organism"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="NCBIfam" id="NF033881">
+    <property type="entry name" value="aureocin_A53"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="evidence at protein level"/>
+  <keyword id="KW-0002">3D-structure</keyword>
+  <keyword id="KW-0044">Antibiotic</keyword>
+  <keyword id="KW-0929">Antimicrobial</keyword>
+  <keyword id="KW-0078">Bacteriocin</keyword>
+  <keyword id="KW-0204">Cytolysis</keyword>
+  <keyword id="KW-0903">Direct protein sequencing</keyword>
+  <keyword id="KW-0291">Formylation</keyword>
+  <keyword id="KW-0614">Plasmid</keyword>
+  <keyword id="KW-0964">Secreted</keyword>
+  <feature type="peptide" id="PRO_0000438329" description="Bacteriocin BacSp222" evidence="1">
+    <location>
+      <begin position="1"/>
+      <end position="50"/>
+    </location>
+  </feature>
+  <feature type="modified residue" description="N-formylmethionine" evidence="1">
+    <location>
+      <position position="1"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="3">
+    <location>
+      <begin position="2"/>
+      <end position="11"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="3">
+    <location>
+      <begin position="13"/>
+      <end position="21"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="3">
+    <location>
+      <begin position="23"/>
+      <end position="32"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="3">
+    <location>
+      <begin position="36"/>
+      <end position="49"/>
+    </location>
+  </feature>
+  <evidence type="ECO:0000269" key="1">
+    <source>
+      <dbReference type="PubMed" id="26411997"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000312" key="2">
+    <source>
+      <dbReference type="EMBL" id="ALI97662.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007829" key="3">
+    <source>
+      <dbReference type="PDB" id="5LWC"/>
+    </source>
+  </evidence>
+  <sequence length="50" mass="5893" checksum="ECAE12A48CF22114" modified="2016-01-20" version="1">MAGLLRFLLSKGRALYNWAKSHVGKVWEWLKSGATYEQIKEWIENALGWR</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

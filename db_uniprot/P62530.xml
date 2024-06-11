@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2004-07-19" modified="2023-06-28" version="62" xmlns="http://uniprot.org/uniprot">
+  <accession>P62530</accession>
+  <accession>Q9RM53</accession>
+  <name>MCHB_ECOLX</name>
+  <protein>
+    <recommendedName>
+      <fullName>Microcin H47</fullName>
+      <shortName>MccH47</shortName>
+    </recommendedName>
+  </protein>
+  <gene>
+    <name type="primary">mchB</name>
+  </gene>
+  <organism>
+    <name type="scientific">Escherichia coli</name>
+    <dbReference type="NCBI Taxonomy" id="562"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Pseudomonadota</taxon>
+      <taxon>Gammaproteobacteria</taxon>
+      <taxon>Enterobacterales</taxon>
+      <taxon>Enterobacteriaceae</taxon>
+      <taxon>Escherichia</taxon>
+    </lineage>
+  </organism>
+  <reference key="1">
+    <citation type="journal article" date="1999" name="Antimicrob. Agents Chemother." volume="43" first="2176" last="2182">
+      <title>The structural gene for microcin H47 encodes a peptide precursor with antibiotic activity.</title>
+      <authorList>
+        <person name="Rodriguez E."/>
+        <person name="Gaggero C."/>
+        <person name="Lavina M."/>
+      </authorList>
+      <dbReference type="PubMed" id="10471561"/>
+      <dbReference type="DOI" id="10.1128/aac.43.9.2176"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+    <source>
+      <strain>H47</strain>
+    </source>
+  </reference>
+  <reference key="2">
+    <citation type="journal article" date="2001" name="Antimicrob. Agents Chemother." volume="45" first="969" last="972">
+      <title>The structure, function, and origin of the microcin H47 ATP-binding cassette exporter indicate its relatedness to that of colicin V.</title>
+      <authorList>
+        <person name="Azpiroz M.F."/>
+        <person name="Rodriguez E."/>
+        <person name="Lavina M."/>
+      </authorList>
+      <dbReference type="PubMed" id="11181394"/>
+      <dbReference type="DOI" id="10.1128/aac.45.3.969-972.2001"/>
+    </citation>
+    <scope>CHARACTERIZATION</scope>
+    <source>
+      <strain>H47</strain>
+    </source>
+  </reference>
+  <comment type="function">
+    <text>Bactericidal antibiotic. Active on bacteria phylogenetically related to the producing strain.</text>
+  </comment>
+  <comment type="subcellular location">
+    <subcellularLocation>
+      <location>Secreted</location>
+    </subcellularLocation>
+    <subcellularLocation>
+      <location evidence="2">Host cell membrane</location>
+      <topology evidence="2">Single-pass membrane protein</topology>
+    </subcellularLocation>
+    <text>Probably through the MchEF ABC transporter system.</text>
+  </comment>
+  <dbReference type="EMBL" id="AJ009631">
+    <property type="protein sequence ID" value="CAB54534.2"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="WP_001375214.1">
+    <property type="nucleotide sequence ID" value="NZ_WXYY01000001.1"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="P62530"/>
+  <dbReference type="OMA" id="PANQIGA"/>
+  <dbReference type="GO" id="GO:0005576">
+    <property type="term" value="C:extracellular region"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-SubCell"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0020002">
+    <property type="term" value="C:host cell plasma membrane"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-SubCell"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0016020">
+    <property type="term" value="C:membrane"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0042742">
+    <property type="term" value="P:defense response to bacterium"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0031640">
+    <property type="term" value="P:killing of cells of another organism"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <proteinExistence type="evidence at protein level"/>
+  <keyword id="KW-0044">Antibiotic</keyword>
+  <keyword id="KW-0929">Antimicrobial</keyword>
+  <keyword id="KW-0078">Bacteriocin</keyword>
+  <keyword id="KW-1032">Host cell membrane</keyword>
+  <keyword id="KW-1043">Host membrane</keyword>
+  <keyword id="KW-0472">Membrane</keyword>
+  <keyword id="KW-0964">Secreted</keyword>
+  <keyword id="KW-0812">Transmembrane</keyword>
+  <keyword id="KW-1133">Transmembrane helix</keyword>
+  <feature type="propeptide" id="PRO_0000021660" evidence="1">
+    <location>
+      <begin position="1"/>
+      <end position="15"/>
+    </location>
+  </feature>
+  <feature type="chain" id="PRO_0000021661" description="Microcin H47">
+    <location>
+      <begin position="16"/>
+      <end position="75"/>
+    </location>
+  </feature>
+  <feature type="transmembrane region" description="Helical" evidence="1">
+    <location>
+      <begin position="30"/>
+      <end position="50"/>
+    </location>
+  </feature>
+  <evidence type="ECO:0000255" key="1"/>
+  <evidence type="ECO:0000305" key="2"/>
+  <sequence length="75" mass="6600" checksum="1AD5EE9F1B58123C" modified="2004-07-19" version="1" precursor="true">MREITESQLRYISGAGGAPATSANAAGAAAIVGALAGIPGGPLGVVVGAVSAGLTTAIGSTVGSGSASSSAGGGS</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

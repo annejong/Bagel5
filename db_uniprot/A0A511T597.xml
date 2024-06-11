@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2019-11-13" modified="2023-09-13" version="8" xmlns="http://uniprot.org/uniprot">
+  <accession>A0A511T597</accession>
+  <name>A0A511T597_MYXFU</name>
+  <protein>
+    <recommendedName>
+      <fullName evidence="3">Thiazolylpeptide-type bacteriocin</fullName>
+    </recommendedName>
+  </protein>
+  <gene>
+    <name evidence="1" type="ORF">MFU01_41140</name>
+  </gene>
+  <organism evidence="1 2">
+    <name type="scientific">Myxococcus fulvus</name>
+    <dbReference type="NCBI Taxonomy" id="33"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Myxococcota</taxon>
+      <taxon>Myxococcia</taxon>
+      <taxon>Myxococcales</taxon>
+      <taxon>Cystobacterineae</taxon>
+      <taxon>Myxococcaceae</taxon>
+      <taxon>Myxococcus</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="1 2" key="1">
+    <citation type="submission" date="2019-07" db="EMBL/GenBank/DDBJ databases">
+      <title>Whole genome shotgun sequence of Myxococcus fulvus NBRC 100333.</title>
+      <authorList>
+        <person name="Hosoyama A."/>
+        <person name="Uohara A."/>
+        <person name="Ohji S."/>
+        <person name="Ichikawa N."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="1 2">NBRC 100333</strain>
+    </source>
+  </reference>
+  <comment type="caution">
+    <text evidence="1">The sequence shown here is derived from an EMBL/GenBank/DDBJ whole genome shotgun (WGS) entry which is preliminary data.</text>
+  </comment>
+  <dbReference type="EMBL" id="BJXR01000031">
+    <property type="protein sequence ID" value="GEN09077.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="WP_046714561.1">
+    <property type="nucleotide sequence ID" value="NZ_FOIB01000005.1"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="A0A511T597"/>
+  <dbReference type="Proteomes" id="UP000321514">
+    <property type="component" value="Unassembled WGS sequence"/>
+  </dbReference>
+  <proteinExistence type="predicted"/>
+  <evidence type="ECO:0000313" key="1">
+    <source>
+      <dbReference type="EMBL" id="GEN09077.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="2">
+    <source>
+      <dbReference type="Proteomes" id="UP000321514"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0008006" key="3">
+    <source>
+      <dbReference type="Google" id="ProtNLM"/>
+    </source>
+  </evidence>
+  <sequence length="66" mass="6713" checksum="5186132DFB7A8980" modified="2019-11-13" version="1">MSNKPTHVDVELNDAQLDQVVGGQEVLSLQMMDVGQAEVPNCVSSVSCNSSASCESSASAVVSAAT</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

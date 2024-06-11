@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2009-05-05" modified="2023-09-13" version="9" xmlns="http://uniprot.org/uniprot">
+  <accession>C0MP60</accession>
+  <name>C0MP60_ACTNM</name>
+  <protein>
+    <submittedName>
+      <fullName evidence="1">Labyrinthopeptin A2 prepropeptide</fullName>
+    </submittedName>
+  </protein>
+  <gene>
+    <name evidence="1" type="primary">labA2</name>
+  </gene>
+  <organism evidence="1">
+    <name type="scientific">Actinomadura namibiensis</name>
+    <dbReference type="NCBI Taxonomy" id="182080"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Actinomycetota</taxon>
+      <taxon>Actinomycetes</taxon>
+      <taxon>Streptosporangiales</taxon>
+      <taxon>Thermomonosporaceae</taxon>
+      <taxon>Actinomadura</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="1" key="1">
+    <citation type="submission" date="2009-02" db="EMBL/GenBank/DDBJ databases">
+      <authorList>
+        <person name="Suessmuth R."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+  </reference>
+  <dbReference type="EMBL" id="FN178622">
+    <property type="protein sequence ID" value="CAX48973.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="C0MP60"/>
+  <dbReference type="InterPro" id="IPR045825">
+    <property type="entry name" value="RamS"/>
+  </dbReference>
+  <dbReference type="NCBIfam" id="NF033212">
+    <property type="entry name" value="SapB_AmfS_lanti"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF19402">
+    <property type="entry name" value="RamS"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="predicted"/>
+  <evidence type="ECO:0000313" key="1">
+    <source>
+      <dbReference type="EMBL" id="CAX48973.1"/>
+    </source>
+  </evidence>
+  <sequence length="38" mass="4276" checksum="B72CC9262186454D" modified="2009-05-05" version="1">MASILELQNLDVEHARGENRSDWSLWECCSTGSLFACC</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

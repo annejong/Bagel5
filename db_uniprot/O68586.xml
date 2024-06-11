@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2002-01-23" modified="2023-09-13" version="64" xmlns="http://uniprot.org/uniprot">
+  <accession>O68586</accession>
+  <name>LANN_STRMG</name>
+  <protein>
+    <recommendedName>
+      <fullName>Lantibiotic mutacin-1140</fullName>
+    </recommendedName>
+    <alternativeName>
+      <fullName>Mutacin III</fullName>
+    </alternativeName>
+  </protein>
+  <gene>
+    <name type="primary">lanA</name>
+    <name type="synonym">mutA</name>
+  </gene>
+  <organism>
+    <name type="scientific">Streptococcus mutans</name>
+    <dbReference type="NCBI Taxonomy" id="1309"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Bacillota</taxon>
+      <taxon>Bacilli</taxon>
+      <taxon>Lactobacillales</taxon>
+      <taxon>Streptococcaceae</taxon>
+      <taxon>Streptococcus</taxon>
+    </lineage>
+  </organism>
+  <reference key="1">
+    <citation type="journal article" date="1998" name="Infect. Immun." volume="66" first="2743" last="2749">
+      <title>Genetic and biochemical analysis of mutacin 1140, a lantibiotic from Streptococcus mutans.</title>
+      <authorList>
+        <person name="Hillman J.D."/>
+        <person name="Novak J."/>
+        <person name="Sagura E."/>
+        <person name="Gutierrez J.A."/>
+        <person name="Brooks T.A."/>
+        <person name="Crowley P.J."/>
+        <person name="Hess M."/>
+        <person name="Azizi A."/>
+        <person name="Leung K.-P."/>
+        <person name="Cvitkovitch D."/>
+        <person name="Bleiweis A.S."/>
+      </authorList>
+      <dbReference type="PubMed" id="9596742"/>
+      <dbReference type="DOI" id="10.1128/iai.66.6.2743-2749.1998"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+    <source>
+      <strain>JH1005</strain>
+    </source>
+  </reference>
+  <reference key="2">
+    <citation type="journal article" date="1999" name="Appl. Environ. Microbiol." volume="65" first="3880" last="3887">
+      <title>Purification of mutacin III from group III Streptococcus mutans UA787 and genetic analyses of mutacin III biosynthesis genes.</title>
+      <authorList>
+        <person name="Qi F."/>
+        <person name="Chen P."/>
+        <person name="Caufield P.W."/>
+      </authorList>
+      <dbReference type="PubMed" id="10473390"/>
+      <dbReference type="DOI" id="10.1128/aem.65.9.3880-3887.1999"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+    <source>
+      <strain>UA787</strain>
+    </source>
+  </reference>
+  <reference key="3">
+    <citation type="journal article" date="2000" name="Eur. J. Biochem." volume="267" first="6810" last="6816">
+      <title>Covalent structure of mutacin 1140 and a novel method for the rapid identification of lantibiotics.</title>
+      <authorList>
+        <person name="Smith L."/>
+        <person name="Novak J."/>
+        <person name="Rocca J."/>
+        <person name="McClung S."/>
+        <person name="Hillman J.D."/>
+        <person name="Edison A.S."/>
+      </authorList>
+      <dbReference type="PubMed" id="11082191"/>
+      <dbReference type="DOI" id="10.1046/j.1432-1033.2000.01777.x"/>
+    </citation>
+    <scope>PROTEIN SEQUENCE OF 42-63</scope>
+    <scope>IDENTIFICATION BY MASS SPECTROMETRY</scope>
+    <scope>STRUCTURE BY NMR</scope>
+    <scope>DEHYDRATION AT SER-46 AND THR-55</scope>
+    <scope>LANTHIONINE CROSS-LINKS</scope>
+  </reference>
+  <comment type="function">
+    <text>Lanthionine-containing peptide antibiotic (lantibiotic) active on Gram-positive bacteria. The bactericidal activity of lantibiotics is based on depolarization of energized bacterial cytoplasmic membranes, initiated by the formation of aqueous transmembrane pores.</text>
+  </comment>
+  <comment type="PTM">
+    <text>Maturation of lantibiotics involves the enzymatic conversion of Thr, and Ser into dehydrated AA and the formation of thioether bonds with cysteine. The C-terminal lanthionine undergoes decarboxylation. This is followed by membrane translocation and cleavage of the modified precursor.</text>
+  </comment>
+  <comment type="PTM">
+    <text>The structure of the 2,3-didehydrobutyrine is not discussed in PubMed:11082191.</text>
+  </comment>
+  <comment type="similarity">
+    <text evidence="2">Belongs to the type A lantibiotic family.</text>
+  </comment>
+  <dbReference type="EMBL" id="AF051560">
+    <property type="protein sequence ID" value="AAC18827.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="AF154675">
+    <property type="protein sequence ID" value="AAD56142.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="WP_002268802.1">
+    <property type="nucleotide sequence ID" value="NZ_LTAK01000001.1"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="O68586"/>
+  <dbReference type="TCDB" id="1.C.20.1.8">
+    <property type="family name" value="the nisin (nisin) family"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0005576">
+    <property type="term" value="C:extracellular region"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="InterPro"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0005102">
+    <property type="term" value="F:signaling receptor binding"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0042742">
+    <property type="term" value="P:defense response to bacterium"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0031640">
+    <property type="term" value="P:killing of cells of another organism"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR006079">
+    <property type="entry name" value="Lantibiotic_typ-A_Bacillales"/>
+  </dbReference>
+  <dbReference type="NCBIfam" id="TIGR03731">
+    <property type="entry name" value="lantibio_gallid"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="NCBIfam" id="NF037999">
+    <property type="entry name" value="mutacin"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF02052">
+    <property type="entry name" value="Gallidermin"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="PRINTS" id="PR00323">
+    <property type="entry name" value="GALLIDERMIN"/>
+  </dbReference>
+  <proteinExistence type="evidence at protein level"/>
+  <keyword id="KW-0044">Antibiotic</keyword>
+  <keyword id="KW-0929">Antimicrobial</keyword>
+  <keyword id="KW-0078">Bacteriocin</keyword>
+  <keyword id="KW-0208">D-amino acid</keyword>
+  <keyword id="KW-0903">Direct protein sequencing</keyword>
+  <keyword id="KW-0425">Lantibiotic</keyword>
+  <keyword id="KW-0883">Thioether bond</keyword>
+  <feature type="propeptide" id="PRO_0000017130" evidence="1">
+    <location>
+      <begin position="1"/>
+      <end position="41"/>
+    </location>
+  </feature>
+  <feature type="peptide" id="PRO_0000017131" description="Lantibiotic mutacin-1140">
+    <location>
+      <begin position="42"/>
+      <end position="63"/>
+    </location>
+  </feature>
+  <feature type="modified residue" description="2,3-didehydroalanine (Ser)" evidence="1">
+    <location>
+      <position position="46"/>
+    </location>
+  </feature>
+  <feature type="modified residue" description="2,3-didehydrobutyrine" evidence="1">
+    <location>
+      <position position="55"/>
+    </location>
+  </feature>
+  <feature type="cross-link" description="Lanthionine (Ser-Cys)" evidence="1">
+    <location>
+      <begin position="44"/>
+      <end position="48"/>
+    </location>
+  </feature>
+  <feature type="cross-link" description="Beta-methyllanthionine (Thr-Cys)" evidence="1">
+    <location>
+      <begin position="49"/>
+      <end position="52"/>
+    </location>
+  </feature>
+  <feature type="cross-link" description="Lanthionine (Ser-Cys)" evidence="1">
+    <location>
+      <begin position="57"/>
+      <end position="62"/>
+    </location>
+  </feature>
+  <feature type="cross-link" description="S-(2-aminovinyl)-D-cysteine (Ser-Cys)" evidence="1">
+    <location>
+      <begin position="60"/>
+      <end position="63"/>
+    </location>
+  </feature>
+  <evidence type="ECO:0000269" key="1">
+    <source>
+      <dbReference type="PubMed" id="11082191"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000305" key="2"/>
+  <sequence length="63" mass="6968" checksum="ED9BC73771758489" modified="1998-08-01" version="1" precursor="true">MSNTQLLEVLGTETFDVQEDLFAFDTTDTTIVASNDDPDTRFKSWSLCTPGCARTGSFNSYCC</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

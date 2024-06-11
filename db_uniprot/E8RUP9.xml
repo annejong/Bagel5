@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2020-08-12" modified="2024-01-24" version="38" xmlns="http://uniprot.org/uniprot">
+  <accession>E8RUP9</accession>
+  <name>ASTX2_ASTEC</name>
+  <protein>
+    <recommendedName>
+      <fullName evidence="4 5">Astexin-2</fullName>
+    </recommendedName>
+    <alternativeName>
+      <fullName evidence="4 5">Class II lasso peptide</fullName>
+    </alternativeName>
+    <alternativeName>
+      <fullName evidence="4">Ribosomally synthesized and post-translationally modified peptide</fullName>
+      <shortName evidence="4">RiPP</shortName>
+    </alternativeName>
+  </protein>
+  <gene>
+    <name evidence="4" type="primary">AtxA2</name>
+    <name evidence="8" type="ordered locus">Astex_2448</name>
+  </gene>
+  <organism>
+    <name type="scientific">Asticcacaulis excentricus (strain ATCC 15261 / DSM 4724 / KCTC 12464 / NCIMB 9791 / VKM B-1370 / CB 48)</name>
+    <dbReference type="NCBI Taxonomy" id="573065"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Pseudomonadota</taxon>
+      <taxon>Alphaproteobacteria</taxon>
+      <taxon>Caulobacterales</taxon>
+      <taxon>Caulobacteraceae</taxon>
+      <taxon>Asticcacaulis</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="9" key="1">
+    <citation type="submission" date="2010-12" db="EMBL/GenBank/DDBJ databases">
+      <title>Complete sequence of chromosome 2 of Asticcacaulis excentricus CB 48.</title>
+      <authorList>
+        <consortium name="US DOE Joint Genome Institute"/>
+        <person name="Lucas S."/>
+        <person name="Copeland A."/>
+        <person name="Lapidus A."/>
+        <person name="Cheng J.-F."/>
+        <person name="Bruce D."/>
+        <person name="Goodwin L."/>
+        <person name="Pitluck S."/>
+        <person name="Teshima H."/>
+        <person name="Davenport K."/>
+        <person name="Detter J.C."/>
+        <person name="Han C."/>
+        <person name="Tapia R."/>
+        <person name="Land M."/>
+        <person name="Hauser L."/>
+        <person name="Jeffries C."/>
+        <person name="Kyrpides N."/>
+        <person name="Ivanova N."/>
+        <person name="Ovchinnikova G."/>
+        <person name="Brun Y.V."/>
+        <person name="Woyke T."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain>ATCC 15261 / DSM 4724 / KCTC 12464 / NCIMB 9791 / VKM B-1370 / CB 48</strain>
+    </source>
+  </reference>
+  <reference key="2">
+    <citation type="journal article" date="2013" name="J. Am. Chem. Soc." volume="135" first="12038" last="12047">
+      <title>Discovery and characterization of an isopeptidase that linearizes lasso peptides.</title>
+      <authorList>
+        <person name="Maksimov M.O."/>
+        <person name="Link A.J."/>
+      </authorList>
+      <dbReference type="PubMed" id="23862624"/>
+      <dbReference type="DOI" id="10.1021/ja4054256"/>
+    </citation>
+    <scope>EXPRESSION IN E.COLI</scope>
+    <scope>CROSS-LINK</scope>
+    <scope>BIOPHYSICOCHEMICAL PROPERTIES</scope>
+    <scope>SUBCELLULAR LOCATION</scope>
+  </reference>
+  <reference evidence="10" key="3">
+    <citation type="journal article" date="2015" name="J. Biol. Chem." volume="290" first="30806" last="30812">
+      <title>Elucidating the specificity determinants of the AtxE2 lasso peptide isopeptidase.</title>
+      <authorList>
+        <person name="Maksimov M.O."/>
+        <person name="Koos J.D."/>
+        <person name="Zong C."/>
+        <person name="Lisko B."/>
+        <person name="Link A.J."/>
+      </authorList>
+      <dbReference type="PubMed" id="26534965"/>
+      <dbReference type="DOI" id="10.1074/jbc.m115.694083"/>
+    </citation>
+    <scope>EXPRESSION IN E.COLI</scope>
+    <scope>STRUCTURE BY NMR OF THE VARIANT ASTEXIN-2 DELTA-C4</scope>
+    <scope>MUTAGENESIS OF VAL-36; GLY-38 AND GLN-39</scope>
+  </reference>
+  <comment type="function">
+    <text evidence="1">Shows weak antimicrobial activity against its phylogenetic relative Caulobacter crescentus. Does not show activity against other bacteria tested (E.coli, Vibrio sp, Burkhoderia thailandensis, and Salmonella newport).</text>
+  </comment>
+  <comment type="biophysicochemical properties">
+    <temperatureDependence>
+      <text evidence="2">Unthreads upon heat treatment.</text>
+    </temperatureDependence>
+  </comment>
+  <comment type="subcellular location">
+    <subcellularLocation>
+      <location evidence="6">Cytoplasm</location>
+    </subcellularLocation>
+    <subcellularLocation>
+      <location evidence="6">Secreted</location>
+    </subcellularLocation>
+    <text evidence="6 7">Intracellular, when expressed in E.coli. The gene cluster lacks the ABC transporter usually responsible for export of the mature peptide (Probable). May be secreted in vivo (Probable).</text>
+  </comment>
+  <comment type="domain">
+    <text evidence="3 6 7">Is composed of a ring composed by 9 residues, a 5 residue-loop (SVSGQ) and a C-terminal tail (PubMed:26534965). The peptide is threaded when the C-terminal tail is inserted throught the isopeptide-bonded ring. The loop region serves as a recognition element for the isopeptidase AtxE2 (Probable).</text>
+  </comment>
+  <comment type="PTM">
+    <text evidence="2">This lasso peptide is hydrolyzed to a linear form by the isopeptidase AtxE2, in vitro. The isopeptidase AtxE2 only recognizes the threaded form (but not the unthreaded form).</text>
+  </comment>
+  <dbReference type="EMBL" id="CP002396">
+    <property type="protein sequence ID" value="ADU14099.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="PDB" id="2N6U">
+    <property type="method" value="NMR"/>
+    <property type="chains" value="A=26-45"/>
+  </dbReference>
+  <dbReference type="PDBsum" id="2N6U"/>
+  <dbReference type="AlphaFoldDB" id="E8RUP9"/>
+  <dbReference type="BMRB" id="E8RUP9"/>
+  <dbReference type="SMR" id="E8RUP9"/>
+  <dbReference type="STRING" id="573065.Astex_2448"/>
+  <dbReference type="KEGG" id="aex:Astex_2448"/>
+  <dbReference type="HOGENOM" id="CLU_3131826_0_0_5"/>
+  <dbReference type="Proteomes" id="UP000001492">
+    <property type="component" value="Chromosome 2"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0005737">
+    <property type="term" value="C:cytoplasm"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-SubCell"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0005576">
+    <property type="term" value="C:extracellular region"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-SubCell"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0042742">
+    <property type="term" value="P:defense response to bacterium"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <proteinExistence type="evidence at protein level"/>
+  <keyword id="KW-0002">3D-structure</keyword>
+  <keyword id="KW-0044">Antibiotic</keyword>
+  <keyword id="KW-0929">Antimicrobial</keyword>
+  <keyword id="KW-0963">Cytoplasm</keyword>
+  <keyword id="KW-1017">Isopeptide bond</keyword>
+  <keyword id="KW-1185">Reference proteome</keyword>
+  <keyword id="KW-0964">Secreted</keyword>
+  <feature type="propeptide" id="PRO_0000450590" evidence="6 7">
+    <location>
+      <begin position="1"/>
+      <end position="25"/>
+    </location>
+  </feature>
+  <feature type="peptide" id="PRO_0000450591" description="Astexin-2" evidence="6 7">
+    <location>
+      <begin position="26"/>
+      <end position="49"/>
+    </location>
+  </feature>
+  <feature type="cross-link" description="Isoaspartyl glycine isopeptide (Gly-Asp)" evidence="3">
+    <location>
+      <begin position="26"/>
+      <end position="34"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Decrease in cleavage by the isopeptidase AtxE2." evidence="3">
+    <original>V</original>
+    <variation>A</variation>
+    <location>
+      <position position="36"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Decrease in cleavage by the isopeptidase AtxE2." evidence="3">
+    <original>G</original>
+    <variation>A</variation>
+    <location>
+      <position position="38"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Decrease in cleavage by the isopeptidase AtxE2." evidence="3">
+    <original>Q</original>
+    <variation>A</variation>
+    <location>
+      <position position="39"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="11">
+    <location>
+      <begin position="28"/>
+      <end position="32"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="11">
+    <location>
+      <begin position="35"/>
+      <end position="40"/>
+    </location>
+  </feature>
+  <evidence type="ECO:0000250" key="1">
+    <source>
+      <dbReference type="UniProtKB" id="E8RMD3"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="2">
+    <source>
+      <dbReference type="PubMed" id="23862624"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="3">
+    <source>
+      <dbReference type="PubMed" id="26534965"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000303" key="4">
+    <source>
+      <dbReference type="PubMed" id="23862624"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000303" key="5">
+    <source>
+      <dbReference type="PubMed" id="26534965"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000305" key="6">
+    <source>
+      <dbReference type="PubMed" id="23862624"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000305" key="7">
+    <source>
+      <dbReference type="PubMed" id="26534965"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000312" key="8">
+    <source>
+      <dbReference type="EMBL" id="ADU14099.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000312" key="9">
+    <source>
+      <dbReference type="Proteomes" id="UP000001492"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007744" key="10">
+    <source>
+      <dbReference type="PDB" id="2N6U"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007829" key="11">
+    <source>
+      <dbReference type="PDB" id="2N6U"/>
+    </source>
+  </evidence>
+  <sequence length="49" mass="5288" checksum="B50E3E71F0CB1182" modified="2011-04-05" version="1" precursor="true">MTKRTTIAARRVGLIDLGKATRQTKGLTQIQALDSVSGQFRDQLGLSAD</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2011-05-31" modified="2023-09-13" version="22" xmlns="http://uniprot.org/uniprot">
+  <accession>E0WX65</accession>
+  <name>LANNA_STASI</name>
+  <protein>
+    <recommendedName>
+      <fullName evidence="1">Lantibiotic nukacin</fullName>
+    </recommendedName>
+    <alternativeName>
+      <fullName evidence="4">Nukacin 3299</fullName>
+    </alternativeName>
+    <alternativeName>
+      <fullName evidence="4 6">Simulancin 3299</fullName>
+    </alternativeName>
+  </protein>
+  <gene>
+    <name evidence="1" type="primary">nukA</name>
+  </gene>
+  <organism>
+    <name type="scientific">Staphylococcus simulans</name>
+    <dbReference type="NCBI Taxonomy" id="1286"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Bacillota</taxon>
+      <taxon>Bacilli</taxon>
+      <taxon>Bacillales</taxon>
+      <taxon>Staphylococcaceae</taxon>
+      <taxon>Staphylococcus</taxon>
+    </lineage>
+  </organism>
+  <geneLocation type="plasmid" evidence="3">
+    <name>pRJ97</name>
+  </geneLocation>
+  <reference evidence="5 6" key="1">
+    <citation type="journal article" date="2010" name="Vet. Microbiol." volume="146" first="124" last="131">
+      <title>Nukacin 3299, a lantibiotic produced by Staphylococcus simulans 3299 identical to nukacin ISK-1.</title>
+      <authorList>
+        <person name="Ceotto H."/>
+        <person name="Holo H."/>
+        <person name="da Costa K.F.S."/>
+        <person name="Nascimento J.S."/>
+        <person name="Salehian Z."/>
+        <person name="Nes I."/>
+        <person name="Bastos M.C.F."/>
+      </authorList>
+      <dbReference type="PubMed" id="20627619"/>
+      <dbReference type="DOI" id="10.1016/j.vetmic.2010.04.032"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+    <scope>PROTEIN SEQUENCE OF 31-37</scope>
+    <scope>BIOPHYSICOCHEMICAL PROPERTIES</scope>
+    <scope>MASS SPECTROMETRY</scope>
+    <source>
+      <strain evidence="3">3299</strain>
+    </source>
+  </reference>
+  <comment type="function">
+    <text evidence="1">Lanthionine-containing peptide antibiotic (lantibiotic) active on Gram-positive bacteria. The bactericidal activity of lantibiotics is based on depolarization of energized bacterial cytoplasmic membranes, initiated by the formation of aqueous transmembrane pores (By similarity).</text>
+  </comment>
+  <comment type="biophysicochemical properties">
+    <phDependence>
+      <text evidence="3">Optimum pHs for antimicrobial activity are 3.0 and 6.0. Activity is reduced by 50% at alkaline pHs 9.0 and 11.0.</text>
+    </phDependence>
+    <temperatureDependence>
+      <text evidence="3">No change in antimicrobial activity between 80 or 100 degrees Celsius after 15 minutes, but reduction in 50% antimicrobial activity at 121 degrees Celsius after 15 minutes.</text>
+    </temperatureDependence>
+  </comment>
+  <comment type="subcellular location">
+    <subcellularLocation>
+      <location evidence="1">Secreted</location>
+    </subcellularLocation>
+    <text evidence="1">Through the specific ABC transporter nukT.</text>
+  </comment>
+  <comment type="PTM">
+    <text evidence="1">Maturation of lantibiotics involves the enzymatic conversion of Thr, and Ser into dehydrated AA and the formation of thioether bonds with cysteine. This is followed by membrane translocation and cleavage of the modified precursor (By similarity).</text>
+  </comment>
+  <comment type="mass spectrometry" mass="2957.3" method="MALDI" evidence="3"/>
+  <comment type="similarity">
+    <text evidence="2">Belongs to the type A lantibiotic family.</text>
+  </comment>
+  <dbReference type="EMBL" id="GQ380548">
+    <property type="protein sequence ID" value="ACU82391.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="WP_011152951.1">
+    <property type="nucleotide sequence ID" value="NZ_QXVW01000024.1"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="E0WX65"/>
+  <dbReference type="SMR" id="E0WX65"/>
+  <dbReference type="GO" id="GO:0005576">
+    <property type="term" value="C:extracellular region"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-SubCell"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0005102">
+    <property type="term" value="F:signaling receptor binding"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0042742">
+    <property type="term" value="P:defense response to bacterium"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0031640">
+    <property type="term" value="P:killing of cells of another organism"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR007682">
+    <property type="entry name" value="Lantibiotic_typ-A_Lactobact"/>
+  </dbReference>
+  <dbReference type="NCBIfam" id="NF040664">
+    <property type="entry name" value="HEC_x9_TCC_lant"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF04604">
+    <property type="entry name" value="L_biotic_typeA"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="evidence at protein level"/>
+  <keyword id="KW-0044">Antibiotic</keyword>
+  <keyword id="KW-0929">Antimicrobial</keyword>
+  <keyword id="KW-0078">Bacteriocin</keyword>
+  <keyword id="KW-0903">Direct protein sequencing</keyword>
+  <keyword id="KW-0425">Lantibiotic</keyword>
+  <keyword id="KW-0614">Plasmid</keyword>
+  <keyword id="KW-0964">Secreted</keyword>
+  <keyword id="KW-0883">Thioether bond</keyword>
+  <feature type="propeptide" id="PRO_0000408771" evidence="3">
+    <location>
+      <begin position="1"/>
+      <end position="30"/>
+    </location>
+  </feature>
+  <feature type="peptide" id="PRO_0000408772" description="Lantibiotic nukacin" evidence="3">
+    <location>
+      <begin position="31"/>
+      <end position="57"/>
+    </location>
+  </feature>
+  <feature type="modified residue" description="2,3-didehydrobutyrine" evidence="1">
+    <location>
+      <position position="54"/>
+    </location>
+  </feature>
+  <feature type="cross-link" description="Beta-methyllanthionine (Thr-Cys)" evidence="1">
+    <location>
+      <begin position="39"/>
+      <end position="44"/>
+    </location>
+  </feature>
+  <feature type="cross-link" description="Lanthionine (Ser-Cys)" evidence="1">
+    <location>
+      <begin position="41"/>
+      <end position="55"/>
+    </location>
+  </feature>
+  <feature type="cross-link" description="Lanthionine (Ser-Cys)" evidence="1">
+    <location>
+      <begin position="48"/>
+      <end position="56"/>
+    </location>
+  </feature>
+  <evidence type="ECO:0000250" key="1">
+    <source>
+      <dbReference type="UniProtKB" id="Q9KWM4"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000255" key="2"/>
+  <evidence type="ECO:0000269" key="3">
+    <source>
+      <dbReference type="PubMed" id="20627619"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000303" key="4">
+    <source>
+      <dbReference type="PubMed" id="20627619"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000305" key="5"/>
+  <evidence type="ECO:0000312" key="6">
+    <source>
+      <dbReference type="EMBL" id="ACU82391.1"/>
+    </source>
+  </evidence>
+  <sequence length="57" mass="6403" checksum="9BF0046242995426" modified="2010-11-02" version="1" precursor="true">MENSKVMKDIEVANLLEEVQEDELNEVLGAKKKSGVIPTVSHDCHMNSFQFVFTCCS</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2011-09-21" modified="2024-01-24" version="25" xmlns="http://uniprot.org/uniprot">
+  <accession>F8LYX0</accession>
+  <name>F8LYX0_STRTR</name>
+  <protein>
+    <submittedName>
+      <fullName evidence="1">Uncharacterized protein</fullName>
+    </submittedName>
+  </protein>
+  <gene>
+    <name evidence="1" type="ORF">STH8232_1793</name>
+  </gene>
+  <organism evidence="1 2">
+    <name type="scientific">Streptococcus thermophilus JIM 8232</name>
+    <dbReference type="NCBI Taxonomy" id="1051074"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Bacillota</taxon>
+      <taxon>Bacilli</taxon>
+      <taxon>Lactobacillales</taxon>
+      <taxon>Streptococcaceae</taxon>
+      <taxon>Streptococcus</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="1 2" key="1">
+    <citation type="submission" date="2011-06" db="EMBL/GenBank/DDBJ databases">
+      <title>Complete genome sequence of Streptococcus thermophilus strain JIM8232.</title>
+      <authorList>
+        <person name="Renault P."/>
+        <person name="Loux V."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="1 2">JIM 8232</strain>
+    </source>
+  </reference>
+  <dbReference type="EMBL" id="FR875178">
+    <property type="protein sequence ID" value="CCC20457.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="F8LYX0"/>
+  <dbReference type="KEGG" id="stu:STH8232_1793"/>
+  <dbReference type="PATRIC" id="fig|1051074.3.peg.1567"/>
+  <dbReference type="HOGENOM" id="CLU_3277584_0_0_9"/>
+  <dbReference type="Proteomes" id="UP000000300">
+    <property type="component" value="Chromosome"/>
+  </dbReference>
+  <proteinExistence type="predicted"/>
+  <evidence type="ECO:0000313" key="1">
+    <source>
+      <dbReference type="EMBL" id="CCC20457.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="2">
+    <source>
+      <dbReference type="Proteomes" id="UP000000300"/>
+    </source>
+  </evidence>
+  <sequence length="41" mass="4722" checksum="EC91EA1688C639B5" modified="2011-09-21" version="1">MSSLEKRELMETKLTAIDLSVEKIDCGKIKLYKSWSKSHGH</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

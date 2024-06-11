@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2011-02-08" modified="2023-09-13" version="10" xmlns="http://uniprot.org/uniprot">
+  <accession>E5DUI4</accession>
+  <name>E5DUI4_9NOCA</name>
+  <protein>
+    <submittedName>
+      <fullName evidence="1">NocM</fullName>
+    </submittedName>
+  </protein>
+  <gene>
+    <name evidence="1" type="primary">nocM</name>
+  </gene>
+  <organism evidence="1">
+    <name type="scientific">Nocardia sp. ATCC 202099</name>
+    <dbReference type="NCBI Taxonomy" id="930400"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Actinomycetota</taxon>
+      <taxon>Actinomycetes</taxon>
+      <taxon>Mycobacteriales</taxon>
+      <taxon>Nocardiaceae</taxon>
+      <taxon>Nocardia</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="1" key="1">
+    <citation type="journal article" date="2010" name="Mol. Biosyst." volume="6" first="1180" last="1185">
+      <title>Moving posttranslational modifications forward to biosynthesize the glycosylated thiopeptide nocathiacin I in Nocardia sp. ATCC202099.</title>
+      <authorList>
+        <person name="Ding Y."/>
+        <person name="Yu Y."/>
+        <person name="Pan H."/>
+        <person name="Guo H."/>
+        <person name="Li Y."/>
+        <person name="Liu W."/>
+      </authorList>
+      <dbReference type="PubMed" id="20473441"/>
+      <dbReference type="DOI" id="10.1039/c005121g"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="1">ATCC 202099</strain>
+    </source>
+  </reference>
+  <dbReference type="EMBL" id="GU564398">
+    <property type="protein sequence ID" value="ADR01088.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="E5DUI4"/>
+  <dbReference type="InterPro" id="IPR023895">
+    <property type="entry name" value="Thiopep_bacteriocin_prcur"/>
+  </dbReference>
+  <dbReference type="NCBIfam" id="NF033401">
+    <property type="entry name" value="thiazolyl_BerA"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="NCBIfam" id="TIGR03892">
+    <property type="entry name" value="thiopep_precurs"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="predicted"/>
+  <evidence type="ECO:0000313" key="1">
+    <source>
+      <dbReference type="EMBL" id="ADR01088.1"/>
+    </source>
+  </evidence>
+  <sequence length="49" mass="5184" checksum="453EBDEBAD4044B5" modified="2011-02-08" version="1">MSADLSALNIDSLEISEFLDDSRLEDSEVVAKVMSASCTTCECSCSCSS</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

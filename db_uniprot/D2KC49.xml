@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2010-02-09" modified="2023-05-03" version="20" xmlns="http://uniprot.org/uniprot">
+  <accession>D2KC49</accession>
+  <name>D2KC49_9LACT</name>
+  <protein>
+    <submittedName>
+      <fullName evidence="2">Garvicin ML</fullName>
+    </submittedName>
+  </protein>
+  <gene>
+    <name evidence="2" type="primary">garML</name>
+  </gene>
+  <organism evidence="2">
+    <name type="scientific">Lactococcus garvieae</name>
+    <dbReference type="NCBI Taxonomy" id="1363"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Bacillota</taxon>
+      <taxon>Bacilli</taxon>
+      <taxon>Lactobacillales</taxon>
+      <taxon>Streptococcaceae</taxon>
+      <taxon>Lactococcus</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="2" key="1">
+    <citation type="journal article" date="2011" name="Appl. Environ. Microbiol." volume="77" first="369" last="373">
+      <title>Characterization of garvicin ML, a novel circular bacteriocin produced by Lactococcus garvieae DCC43, isolated from mallard ducks (Anas platyrhynchos).</title>
+      <authorList>
+        <person name="Borrero J."/>
+        <person name="Brede D.A."/>
+        <person name="Skaugen M."/>
+        <person name="Diep D.B."/>
+        <person name="Herranz C."/>
+        <person name="Nes I.F."/>
+        <person name="Cintas L.M."/>
+        <person name="Hernandez P.E."/>
+      </authorList>
+      <dbReference type="PubMed" id="21057028"/>
+      <dbReference type="DOI" id="10.1128/AEM.01173-10"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="2">DCC43</strain>
+    </source>
+  </reference>
+  <dbReference type="EMBL" id="GU205098">
+    <property type="protein sequence ID" value="ACZ98827.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="D2KC49"/>
+  <dbReference type="SMR" id="D2KC49"/>
+  <dbReference type="TCDB" id="1.C.90.1.2">
+    <property type="family name" value="the carnocyclin a (carnocyclin) family"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0016020">
+    <property type="term" value="C:membrane"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR020038">
+    <property type="entry name" value="Circ_bacteriocin"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF09221">
+    <property type="entry name" value="Bacteriocin_IId"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="predicted"/>
+  <keyword evidence="1" id="KW-0472">Membrane</keyword>
+  <keyword evidence="1" id="KW-0812">Transmembrane</keyword>
+  <keyword evidence="1" id="KW-1133">Transmembrane helix</keyword>
+  <feature type="transmembrane region" description="Helical" evidence="1">
+    <location>
+      <begin position="30"/>
+      <end position="48"/>
+    </location>
+  </feature>
+  <evidence type="ECO:0000256" key="1">
+    <source>
+      <dbReference type="SAM" id="Phobius"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="2">
+    <source>
+      <dbReference type="EMBL" id="ACZ98827.1"/>
+    </source>
+  </evidence>
+  <sequence length="63" mass="6419" checksum="8823F96FE6DECB81" modified="2010-02-09" version="1">MFDLVATGMAAGVAKTIVNAVSAGMDIATALSLFSGAFTAAGGIMALIKKYAQKKLWKQLIAA</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

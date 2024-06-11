@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2009-07-07" modified="2024-01-24" version="29" xmlns="http://uniprot.org/uniprot">
+  <accession>C4RR76</accession>
+  <name>C4RR76_MICS3</name>
+  <protein>
+    <recommendedName>
+      <fullName evidence="3">Thiazolylpeptide-type bacteriocin</fullName>
+    </recommendedName>
+  </protein>
+  <gene>
+    <name evidence="1" type="ORF">MCAG_03948</name>
+  </gene>
+  <organism evidence="1 2">
+    <name type="scientific">Micromonospora sp. (strain ATCC 39149 / NRRL 15099 / SCC 1413)</name>
+    <dbReference type="NCBI Taxonomy" id="219305"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Actinomycetota</taxon>
+      <taxon>Actinomycetes</taxon>
+      <taxon>Micromonosporales</taxon>
+      <taxon>Micromonosporaceae</taxon>
+      <taxon>Micromonospora</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="2" key="1">
+    <citation type="submission" date="2009-02" db="EMBL/GenBank/DDBJ databases">
+      <title>The genome sequence of Micromonospora carbonacea var. africana strain ATCC 39149.</title>
+      <authorList>
+        <consortium name="The Broad Institute Genome Sequencing Platform"/>
+        <consortium name="Broad Institute Microbial Sequencing Center"/>
+        <person name="Fischbach M."/>
+        <person name="Godfrey P."/>
+        <person name="Ward D."/>
+        <person name="Young S."/>
+        <person name="Kodira C.D."/>
+        <person name="Zeng Q."/>
+        <person name="Koehrsen M."/>
+        <person name="Alvarado L."/>
+        <person name="Berlin A.M."/>
+        <person name="Borenstein D."/>
+        <person name="Chen Z."/>
+        <person name="Engels R."/>
+        <person name="Freedman E."/>
+        <person name="Gellesch M."/>
+        <person name="Goldberg J."/>
+        <person name="Griggs A."/>
+        <person name="Gujja S."/>
+        <person name="Heiman D.I."/>
+        <person name="Hepburn T.A."/>
+        <person name="Howarth C."/>
+        <person name="Jen D."/>
+        <person name="Larson L."/>
+        <person name="Lewis B."/>
+        <person name="Mehta T."/>
+        <person name="Park D."/>
+        <person name="Pearson M."/>
+        <person name="Roberts A."/>
+        <person name="Saif S."/>
+        <person name="Shea T.D."/>
+        <person name="Shenoy N."/>
+        <person name="Sisk P."/>
+        <person name="Stolte C."/>
+        <person name="Sykes S.N."/>
+        <person name="Walk T."/>
+        <person name="White J."/>
+        <person name="Yandava C."/>
+        <person name="Straight P."/>
+        <person name="Clardy J."/>
+        <person name="Hung D."/>
+        <person name="Kolter R."/>
+        <person name="Mekalanos J."/>
+        <person name="Walker S."/>
+        <person name="Walsh C.T."/>
+        <person name="Wieland-Brown L.C."/>
+        <person name="Galagan J."/>
+        <person name="Nusbaum C."/>
+        <person name="Birren B."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="2">ATCC 39149 / NRRL 15099 / SCC 1413</strain>
+    </source>
+  </reference>
+  <dbReference type="EMBL" id="GG657738">
+    <property type="protein sequence ID" value="EEP73621.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="C4RR76"/>
+  <dbReference type="STRING" id="219305.MCAG_03948"/>
+  <dbReference type="HOGENOM" id="CLU_2494427_0_0_11"/>
+  <dbReference type="Proteomes" id="UP000010307">
+    <property type="component" value="Unassembled WGS sequence"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR023895">
+    <property type="entry name" value="Thiopep_bacteriocin_prcur"/>
+  </dbReference>
+  <dbReference type="NCBIfam" id="NF033401">
+    <property type="entry name" value="thiazolyl_BerA"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="NCBIfam" id="TIGR03892">
+    <property type="entry name" value="thiopep_precurs"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="predicted"/>
+  <keyword evidence="2" id="KW-1185">Reference proteome</keyword>
+  <evidence type="ECO:0000313" key="1">
+    <source>
+      <dbReference type="EMBL" id="EEP73621.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="2">
+    <source>
+      <dbReference type="Proteomes" id="UP000010307"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0008006" key="3">
+    <source>
+      <dbReference type="Google" id="ProtNLM"/>
+    </source>
+  </evidence>
+  <sequence length="86" mass="9390" checksum="DD90353B11805AFD" modified="2009-07-07" version="1">MPPTHPDTALCGWRAIHRKRIEQRKEERMDANATTVGVDGLTGLDIDTFEIGDYLDETVLDTADLTETMTSSSSCTTCICTCSCSS</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

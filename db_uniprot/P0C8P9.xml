@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2009-02-10" modified="2023-09-13" version="23" xmlns="http://uniprot.org/uniprot">
+  <accession>P0C8P9</accession>
+  <accession>G1ECL0</accession>
+  <name>THCL_STRSQ</name>
+  <protein>
+    <recommendedName>
+      <fullName>Thiocillin GE37468</fullName>
+    </recommendedName>
+    <alternativeName>
+      <fullName>Antibiotic GE37468</fullName>
+    </alternativeName>
+  </protein>
+  <gene>
+    <name type="primary">getA</name>
+  </gene>
+  <organism>
+    <name type="scientific">Streptomyces sp</name>
+    <dbReference type="NCBI Taxonomy" id="1931"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Actinomycetota</taxon>
+      <taxon>Actinomycetes</taxon>
+      <taxon>Kitasatosporales</taxon>
+      <taxon>Streptomycetaceae</taxon>
+      <taxon>Streptomyces</taxon>
+    </lineage>
+  </organism>
+  <reference key="1">
+    <citation type="journal article" date="2011" name="Proc. Natl. Acad. Sci. U.S.A." volume="108" first="13053" last="13058">
+      <title>Identification of the thiazolyl peptide GE37468 gene cluster from Streptomyces ATCC 55365 and heterologous expression in Streptomyces lividans.</title>
+      <authorList>
+        <person name="Young T.S."/>
+        <person name="Walsh C.T."/>
+      </authorList>
+      <dbReference type="PubMed" id="21788474"/>
+      <dbReference type="DOI" id="10.1073/pnas.1110435108"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+    <scope>FUNCTION</scope>
+    <scope>MASS SPECTROMETRY</scope>
+    <scope>METHYLHYDROXYLATION AT ILE-50</scope>
+    <scope>MUTAGENESIS OF ILE-50</scope>
+    <source>
+      <strain>ATCC 55365</strain>
+    </source>
+  </reference>
+  <reference key="2">
+    <citation type="journal article" date="1995" name="J. Antibiot." volume="48" first="780" last="786">
+      <title>Antibiotic GE37468 A: a new inhibitor of bacterial protein synthesis. I. Isolation and characterization.</title>
+      <authorList>
+        <person name="Stella S."/>
+        <person name="Montanini N."/>
+        <person name="Le Monnier F."/>
+        <person name="Ferrari P."/>
+        <person name="Colombo L."/>
+        <person name="Landini P."/>
+        <person name="Ciciliato I."/>
+        <person name="Goldstein B.P."/>
+        <person name="Selva E."/>
+        <person name="Denaro M."/>
+      </authorList>
+      <dbReference type="PubMed" id="7592021"/>
+      <dbReference type="DOI" id="10.7164/antibiotics.48.780"/>
+    </citation>
+    <scope>CHARACTERIZATION</scope>
+    <scope>SUBCELLULAR LOCATION</scope>
+    <scope>IDENTIFICATION BY MASS SPECTROMETRY</scope>
+    <source>
+      <strain>ATCC 55365</strain>
+    </source>
+  </reference>
+  <reference key="3">
+    <citation type="journal article" date="1995" name="J. Antibiot." volume="48" first="1304" last="1311">
+      <title>Antibiotic GE37468 A: a novel inhibitor of bacterial protein synthesis. II. Structure elucidation.</title>
+      <authorList>
+        <person name="Ferrari P."/>
+        <person name="Colombo L."/>
+        <person name="Stella S."/>
+        <person name="Selva E."/>
+        <person name="Zerilli L.F."/>
+      </authorList>
+      <dbReference type="PubMed" id="8557573"/>
+      <dbReference type="DOI" id="10.7164/antibiotics.48.1304"/>
+    </citation>
+    <scope>STRUCTURE BY NMR</scope>
+    <scope>MASS SPECTROMETRY</scope>
+    <scope>DEHYDRATION AT SER-55 AND SER-56</scope>
+    <source>
+      <strain>ATCC 55365</strain>
+    </source>
+  </reference>
+  <comment type="function">
+    <text evidence="1">Has bacteriocidal activity against both aerobic and anaerobic Gram-positive bacteria. Inhibits growth of B.subtilis (MIC=0.047 ug/ml) and methicillin-resistant S.aureus (MRSA) (MIC=0.047 ug/ml). Has poor activity against Gram-negative bacteria, with the exception of B.fragilis. Inhibits bacterial protein biosynthesis by acting on elongation factor Tu (EF-Tu). Full antibiotic activity depends on the presence of the modified residue Ile-50.</text>
+  </comment>
+  <comment type="subcellular location">
+    <subcellularLocation>
+      <location evidence="2">Secreted</location>
+    </subcellularLocation>
+  </comment>
+  <comment type="PTM">
+    <text>Maturation of thiazole and oxazole containing antibiotics involves the enzymatic condensation of a Cys, Ser or Thr with the alpha-carbonyl of the preceding amino acid to form a thioether or ether bond, then dehydration to form a double bond with the alpha-amino nitrogen. Thiazoline or oxazoline ring are dehydrogenated to form thiazole or oxazole rings.</text>
+  </comment>
+  <comment type="PTM">
+    <text>Maturation of pyridinyl containing antibiotics involves the cross-linking of a Ser and a Cys-Ser pair usually separated by 7 or 8 residues along the peptide chain. The Ser residues are dehydrated to didehydroalanines, then bonded between their beta carbons. The alpha carbonyl of the Cys condenses with alpha carbon of the first Ser to form a pyridinyl ring. The ring may be multiply dehydrogenated to form a pyridine ring with loss of the amino nitrogen of the first Ser.</text>
+  </comment>
+  <comment type="mass spectrometry" mass="1309.48" method="FAB" evidence="3"/>
+  <comment type="mass spectrometry" mass="1308.247" method="Electrospray" evidence="1"/>
+  <comment type="similarity">
+    <text evidence="4">Belongs to the thiocillin family.</text>
+  </comment>
+  <dbReference type="EMBL" id="JN052143">
+    <property type="protein sequence ID" value="AEM00614.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="P0C8P9"/>
+  <dbReference type="GO" id="GO:0005576">
+    <property type="term" value="C:extracellular region"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-SubCell"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0030371">
+    <property type="term" value="F:translation repressor activity"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0050829">
+    <property type="term" value="P:defense response to Gram-negative bacterium"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0050830">
+    <property type="term" value="P:defense response to Gram-positive bacterium"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0031640">
+    <property type="term" value="P:killing of cells of another organism"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0017148">
+    <property type="term" value="P:negative regulation of translation"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="NCBIfam" id="NF033399">
+    <property type="entry name" value="thiazolyl_GetA"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF19409">
+    <property type="entry name" value="Thiopep_pre"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="evidence at protein level"/>
+  <keyword id="KW-0044">Antibiotic</keyword>
+  <keyword id="KW-0929">Antimicrobial</keyword>
+  <keyword id="KW-0078">Bacteriocin</keyword>
+  <keyword id="KW-0379">Hydroxylation</keyword>
+  <keyword id="KW-0488">Methylation</keyword>
+  <keyword id="KW-0964">Secreted</keyword>
+  <keyword id="KW-0883">Thioether bond</keyword>
+  <feature type="propeptide" id="PRO_0000414924" description="Removed in mature form">
+    <location>
+      <begin position="1"/>
+      <end position="42"/>
+    </location>
+  </feature>
+  <feature type="peptide" id="PRO_0000363171" description="Thiocillin GE37468">
+    <location>
+      <begin position="43"/>
+      <end position="56"/>
+    </location>
+  </feature>
+  <feature type="propeptide" id="PRO_0000414925" description="Removed in mature form">
+    <location>
+      <position position="57"/>
+    </location>
+  </feature>
+  <feature type="modified residue" description="5-hydroxy-3-methylproline (Ile)" evidence="1">
+    <location>
+      <position position="50"/>
+    </location>
+  </feature>
+  <feature type="modified residue" description="2,3-didehydroalanine (Ser)" evidence="3">
+    <location>
+      <position position="55"/>
+    </location>
+  </feature>
+  <feature type="modified residue" description="2,3-didehydroalanine (Ser)" evidence="3">
+    <location>
+      <position position="56"/>
+    </location>
+  </feature>
+  <feature type="cross-link" description="Pyridine-2,5-dicarboxylic acid (Ser-Ser) (with C-52)">
+    <location>
+      <begin position="43"/>
+      <end position="53"/>
+    </location>
+  </feature>
+  <feature type="cross-link" description="Pyridine-2,5-dicarboxylic acid (Ser-Cys) (with S-53)">
+    <location>
+      <begin position="43"/>
+      <end position="52"/>
+    </location>
+  </feature>
+  <feature type="cross-link" description="5-methyloxazole-4-carboxylic acid (Ser-Thr)">
+    <location>
+      <begin position="43"/>
+      <end position="44"/>
+    </location>
+  </feature>
+  <feature type="cross-link" description="Thiazole-4-carboxylic acid (Asn-Cys)">
+    <location>
+      <begin position="45"/>
+      <end position="46"/>
+    </location>
+  </feature>
+  <feature type="cross-link" description="Thiazoline-4-carboxylic acid (Phe-Cys)">
+    <location>
+      <begin position="47"/>
+      <end position="48"/>
+    </location>
+  </feature>
+  <feature type="cross-link" description="Thiazole-4-carboxylic acid (Ile-Cys)">
+    <location>
+      <begin position="50"/>
+      <end position="51"/>
+    </location>
+  </feature>
+  <feature type="cross-link" description="Thiazole-4-carboxylic acid (Cys-Cys)">
+    <location>
+      <begin position="51"/>
+      <end position="52"/>
+    </location>
+  </feature>
+  <feature type="cross-link" description="Thiazole-4-carboxylic acid (Ser-Cys)">
+    <location>
+      <begin position="53"/>
+      <end position="54"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Two-fold decrease in antibiotic activity." evidence="1">
+    <original>I</original>
+    <variation>A</variation>
+    <location>
+      <position position="50"/>
+    </location>
+  </feature>
+  <evidence type="ECO:0000269" key="1">
+    <source>
+      <dbReference type="PubMed" id="21788474"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="2">
+    <source>
+      <dbReference type="PubMed" id="7592021"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="3">
+    <source>
+      <dbReference type="PubMed" id="8557573"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000305" key="4"/>
+  <sequence length="57" mass="6058" checksum="1B62126BDED6078B" modified="2012-01-25" version="2" precursor="true">MGNNEEYFIDVNDLSIDVFDVVEQGGAVTALTADHGMPEVGASTNCFCYICCSCSSN</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

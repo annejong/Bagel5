@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2007-04-17" modified="2023-06-28" version="28" xmlns="http://uniprot.org/uniprot">
+  <accession>Q09T02</accession>
+  <name>MICA_CLAMM</name>
+  <protein>
+    <recommendedName>
+      <fullName>Lantibiotic michiganin-A</fullName>
+    </recommendedName>
+  </protein>
+  <gene>
+    <name evidence="4" type="primary">micA</name>
+  </gene>
+  <organism>
+    <name type="scientific">Clavibacter michiganensis subsp. michiganensis</name>
+    <dbReference type="NCBI Taxonomy" id="33013"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Actinomycetota</taxon>
+      <taxon>Actinomycetes</taxon>
+      <taxon>Micrococcales</taxon>
+      <taxon>Microbacteriaceae</taxon>
+      <taxon>Clavibacter</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="3 4" key="1">
+    <citation type="journal article" date="2006" name="Appl. Environ. Microbiol." volume="72" first="5814" last="5821">
+      <title>Purification, characterization, and gene sequence of michiganin A, an actagardine-like lantibiotic produced by the tomato pathogen Clavibacter michiganensis subsp. michiganensis.</title>
+      <authorList>
+        <person name="Holtsmark I."/>
+        <person name="Mantzilas D."/>
+        <person name="Eijsink V.G."/>
+        <person name="Brurberg M.B."/>
+      </authorList>
+      <dbReference type="PubMed" id="16957199"/>
+      <dbReference type="DOI" id="10.1128/aem.00639-06"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+    <scope>PROTEIN SEQUENCE OF 48-68</scope>
+    <scope>FUNCTION</scope>
+    <scope>DEHYDRATION AT THR-55</scope>
+    <scope>LANTHIONINE CROSS-LINKS</scope>
+    <scope>MASS SPECTROMETRY</scope>
+    <source>
+      <strain evidence="4">NCPPB 1468 / LMG3690 / ICMP 2541</strain>
+    </source>
+  </reference>
+  <comment type="function">
+    <text evidence="2">Lanthionine-containing peptide antibiotic (lantibiotic) active against S.michiganensis subspecies sepedonicus strain 2136 (MIC=30 pmol/ml). The bactericidal activity of lantibiotics is based on depolarization of energized bacterial cytoplasmic membranes, initiated by the formation of aqueous transmembrane pores.</text>
+  </comment>
+  <comment type="subcellular location">
+    <subcellularLocation>
+      <location>Secreted</location>
+    </subcellularLocation>
+  </comment>
+  <comment type="PTM">
+    <text evidence="3">Maturation of lantibiotics involves the enzymatic conversion of Thr, and Ser into dehydrated AA and the formation of thioether bonds with cysteine. The 62-67 beta-methyllanthionine thioether bond is oxidized to a sulfoxide. This is followed by membrane translocation and cleavage of the modified precursor.</text>
+  </comment>
+  <comment type="mass spectrometry" mass="2145.0" method="MALDI" evidence="2"/>
+  <comment type="similarity">
+    <text evidence="1">Belongs to the type B lantibiotic family.</text>
+  </comment>
+  <dbReference type="EMBL" id="DQ458780">
+    <property type="protein sequence ID" value="ABE60717.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="WP_012038654.1">
+    <property type="nucleotide sequence ID" value="NZ_SISU01000002.1"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="Q09T02"/>
+  <dbReference type="GO" id="GO:0005576">
+    <property type="term" value="C:extracellular region"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0005102">
+    <property type="term" value="F:signaling receptor binding"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0050830">
+    <property type="term" value="P:defense response to Gram-positive bacterium"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0031640">
+    <property type="term" value="P:killing of cells of another organism"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0046931">
+    <property type="term" value="P:pore complex assembly"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <proteinExistence type="evidence at protein level"/>
+  <keyword id="KW-0044">Antibiotic</keyword>
+  <keyword id="KW-0929">Antimicrobial</keyword>
+  <keyword id="KW-0078">Bacteriocin</keyword>
+  <keyword id="KW-0903">Direct protein sequencing</keyword>
+  <keyword id="KW-0425">Lantibiotic</keyword>
+  <keyword id="KW-0558">Oxidation</keyword>
+  <keyword id="KW-0964">Secreted</keyword>
+  <keyword id="KW-0883">Thioether bond</keyword>
+  <feature type="propeptide" id="PRO_0000283821" evidence="2">
+    <location>
+      <begin position="1"/>
+      <end position="47"/>
+    </location>
+  </feature>
+  <feature type="peptide" id="PRO_5000141526" description="Lantibiotic michiganin-A">
+    <location>
+      <begin position="48"/>
+      <end position="68"/>
+    </location>
+  </feature>
+  <feature type="modified residue" description="2,3-didehydrobutyrine" evidence="2">
+    <location>
+      <position position="55"/>
+    </location>
+  </feature>
+  <feature type="cross-link" description="Lanthionine (Ser-Cys)" evidence="2">
+    <location>
+      <begin position="49"/>
+      <end position="54"/>
+    </location>
+  </feature>
+  <feature type="cross-link" description="Beta-methyllanthionine (Thr-Cys)" evidence="2">
+    <location>
+      <begin position="57"/>
+      <end position="65"/>
+    </location>
+  </feature>
+  <feature type="cross-link" description="Beta-methyllanthionine (Thr-Cys)" evidence="2">
+    <location>
+      <begin position="62"/>
+      <end position="67"/>
+    </location>
+  </feature>
+  <evidence type="ECO:0000255" key="1"/>
+  <evidence type="ECO:0000269" key="2">
+    <source>
+      <dbReference type="PubMed" id="16957199"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000305" key="3"/>
+  <evidence type="ECO:0000312" key="4">
+    <source>
+      <dbReference type="EMBL" id="ABE60717.1"/>
+    </source>
+  </evidence>
+  <sequence length="68" mass="7572" checksum="0423E7DDA3856F61" modified="2006-10-17" version="1" precursor="true">MNDILETETPVMVSPRWDMLLDAGEDTSPSVQTQIDAEFRRVVSPYMSSSGWLCTLTIECGTIICACR</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

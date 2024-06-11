@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2015-04-01" modified="2023-05-03" version="5" xmlns="http://uniprot.org/uniprot">
+  <accession>A0A0B6VH20</accession>
+  <name>A0A0B6VH20_9LACO</name>
+  <protein>
+    <submittedName>
+      <fullName evidence="1">Weissellicin 110</fullName>
+    </submittedName>
+  </protein>
+  <organism evidence="1">
+    <name type="scientific">Weissella cibaria</name>
+    <dbReference type="NCBI Taxonomy" id="137591"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Bacillota</taxon>
+      <taxon>Bacilli</taxon>
+      <taxon>Lactobacillales</taxon>
+      <taxon>Lactobacillaceae</taxon>
+      <taxon>Weissella</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="1" key="1">
+    <citation type="submission" date="2014-11" db="EMBL/GenBank/DDBJ databases">
+      <title>Purification and characterization of bacteriocin produced by Weissella cibaria 860106.</title>
+      <authorList>
+        <person name="Chen Y.S."/>
+        <person name="Tsai S.H."/>
+        <person name="Chang T.Y."/>
+        <person name="Wen H.L."/>
+        <person name="Liao C.C."/>
+        <person name="Pan S.F."/>
+        <person name="Chiu C.M."/>
+        <person name="Wu W.C."/>
+        <person name="Yanagida F."/>
+        <person name="Srionnual S."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="1">860106</strain>
+    </source>
+  </reference>
+  <dbReference type="EMBL" id="LC010242">
+    <property type="protein sequence ID" value="BAP84580.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="A0A0B6VH20"/>
+  <proteinExistence type="predicted"/>
+  <evidence type="ECO:0000313" key="1">
+    <source>
+      <dbReference type="EMBL" id="BAP84580.1"/>
+    </source>
+  </evidence>
+  <sequence length="52" mass="5685" checksum="481DD3ED1E00163F" modified="2015-04-01" version="1">MDKLSKFESLSDANLSTIVGGSDKNNVFFQIGKRYVAPVLYWFGKGAEGIKG</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

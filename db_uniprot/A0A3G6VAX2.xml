@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2019-02-13" modified="2023-09-13" version="12" xmlns="http://uniprot.org/uniprot">
+  <accession>A0A3G6VAX2</accession>
+  <name>A0A3G6VAX2_9NOST</name>
+  <protein>
+    <submittedName>
+      <fullName evidence="2">AcyE</fullName>
+    </submittedName>
+  </protein>
+  <gene>
+    <name evidence="2" type="primary">acyE</name>
+  </gene>
+  <organism evidence="2">
+    <name type="scientific">Anabaena sp. UHCC-0232</name>
+    <dbReference type="NCBI Taxonomy" id="2491342"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Cyanobacteriota</taxon>
+      <taxon>Cyanophyceae</taxon>
+      <taxon>Nostocales</taxon>
+      <taxon>Nostocaceae</taxon>
+      <taxon>Anabaena</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="2" key="1">
+    <citation type="journal article" date="2018" name="Biochemistry" volume="57" first="6860" last="6867">
+      <title>N-Prenylation of Tryptophan by an Aromatic Prenyltransferase from the Cyanobactin Biosynthetic Pathway.</title>
+      <authorList>
+        <person name="Dalponte L."/>
+        <person name="Parajuli A."/>
+        <person name="Younger E."/>
+        <person name="Mattila A."/>
+        <person name="Jokela J."/>
+        <person name="Wahlsten M."/>
+        <person name="Leikoski N."/>
+        <person name="Jarmusch S.A."/>
+        <person name="Sivonen K."/>
+        <person name="Houssen W.E."/>
+        <person name="Fewer D.P."/>
+      </authorList>
+      <dbReference type="PubMed" id="30452235"/>
+      <dbReference type="DOI" id="10.1021/acs.biochem.8b00879"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="2">UHCC-0232</strain>
+    </source>
+  </reference>
+  <dbReference type="EMBL" id="MH559352">
+    <property type="protein sequence ID" value="AZB51086.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="A0A3G6VAX2"/>
+  <dbReference type="InterPro" id="IPR031036">
+    <property type="entry name" value="Pren_cyc_PirE"/>
+  </dbReference>
+  <dbReference type="NCBIfam" id="TIGR04446">
+    <property type="entry name" value="pren_cyc_PirE"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF19158">
+    <property type="entry name" value="DUF5840"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="predicted"/>
+  <feature type="region of interest" description="Disordered" evidence="1">
+    <location>
+      <begin position="1"/>
+      <end position="47"/>
+    </location>
+  </feature>
+  <feature type="compositionally biased region" description="Polar residues" evidence="1">
+    <location>
+      <begin position="1"/>
+      <end position="32"/>
+    </location>
+  </feature>
+  <evidence type="ECO:0000256" key="1">
+    <source>
+      <dbReference type="SAM" id="MobiDB-lite"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="2">
+    <source>
+      <dbReference type="EMBL" id="AZB51086.1"/>
+    </source>
+  </evidence>
+  <sequence length="47" mass="5219" checksum="0F1AA5FFD7585CAB" modified="2019-02-13" version="1">MTKKNIRPQQVAPVQRETISNAKDQSGQVTPHHQPWHAAPFAGDDAE</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="1994-06-01" modified="2023-05-03" version="55" xmlns="http://uniprot.org/uniprot">
+  <accession>P36500</accession>
+  <name>LANA_STRSL</name>
+  <protein>
+    <recommendedName>
+      <fullName>Lantibiotic salivaricin-A</fullName>
+    </recommendedName>
+  </protein>
+  <gene>
+    <name type="primary">salA</name>
+  </gene>
+  <organism>
+    <name type="scientific">Streptococcus salivarius</name>
+    <dbReference type="NCBI Taxonomy" id="1304"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Bacillota</taxon>
+      <taxon>Bacilli</taxon>
+      <taxon>Lactobacillales</taxon>
+      <taxon>Streptococcaceae</taxon>
+      <taxon>Streptococcus</taxon>
+    </lineage>
+  </organism>
+  <reference key="1">
+    <citation type="journal article" date="1993" name="Appl. Environ. Microbiol." volume="59" first="2014" last="2021">
+      <title>Isolation and characterization of the lantibiotic salivaricin A and its structural gene salA from Streptococcus salivarius 20P3.</title>
+      <authorList>
+        <person name="Ross K.F."/>
+        <person name="Ronson C.W."/>
+        <person name="Tagg J.R."/>
+      </authorList>
+      <dbReference type="PubMed" id="8357242"/>
+      <dbReference type="DOI" id="10.1128/aem.59.7.2014-2021.1993"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+    <scope>PROTEIN SEQUENCE OF 27-42</scope>
+    <source>
+      <strain>20P3</strain>
+    </source>
+  </reference>
+  <reference key="2">
+    <citation type="submission" date="2000-11" db="EMBL/GenBank/DDBJ databases">
+      <title>Salivaricin A gene cluster from Streptococcus salivarius.</title>
+      <authorList>
+        <person name="Upton M."/>
+        <person name="Tagg J.R."/>
+        <person name="Jenkinson H.F."/>
+      </authorList>
+    </citation>
+    <scope>SEQUENCE REVISION TO N-TERMINUS</scope>
+    <source>
+      <strain>20P3</strain>
+    </source>
+  </reference>
+  <comment type="function">
+    <text>Lanthionine-containing peptide antibiotic (lantibiotic) active on Gram-positive bacteria. The bactericidal activity of lantibiotics is based on depolarization of energized bacterial cytoplasmic membranes, initiated by the formation of aqueous transmembrane pores.</text>
+  </comment>
+  <comment type="PTM">
+    <text>Maturation of lantibiotics involves the enzymatic conversion of Thr, and Ser into dehydrated AA and the formation of thioether bonds with cysteine. This is followed by membrane translocation and cleavage of the modified precursor.</text>
+  </comment>
+  <comment type="similarity">
+    <text evidence="3">Belongs to the type A lantibiotic family.</text>
+  </comment>
+  <dbReference type="EMBL" id="AY005472">
+    <property type="protein sequence ID" value="AAA02867.2"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="P36500"/>
+  <dbReference type="SMR" id="P36500"/>
+  <dbReference type="TCDB" id="1.C.21.1.4">
+    <property type="family name" value="the lacticin 481 (lacticin 481) family"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0005576">
+    <property type="term" value="C:extracellular region"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="InterPro"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0005102">
+    <property type="term" value="F:signaling receptor binding"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0042742">
+    <property type="term" value="P:defense response to bacterium"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0031640">
+    <property type="term" value="P:killing of cells of another organism"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR007682">
+    <property type="entry name" value="Lantibiotic_typ-A_Lactobact"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF04604">
+    <property type="entry name" value="L_biotic_typeA"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="evidence at protein level"/>
+  <keyword id="KW-0044">Antibiotic</keyword>
+  <keyword id="KW-0929">Antimicrobial</keyword>
+  <keyword id="KW-0078">Bacteriocin</keyword>
+  <keyword id="KW-0903">Direct protein sequencing</keyword>
+  <keyword id="KW-0425">Lantibiotic</keyword>
+  <keyword id="KW-0883">Thioether bond</keyword>
+  <feature type="propeptide" id="PRO_0000017132" evidence="2">
+    <location>
+      <begin position="1"/>
+      <end position="26"/>
+    </location>
+  </feature>
+  <feature type="peptide" id="PRO_0000017133" description="Lantibiotic salivaricin-A">
+    <location>
+      <begin position="27"/>
+      <end position="48"/>
+    </location>
+  </feature>
+  <feature type="cross-link" description="Beta-methyllanthionine (Thr-Cys)" evidence="1">
+    <location>
+      <begin position="35"/>
+      <end position="40"/>
+    </location>
+  </feature>
+  <feature type="cross-link" description="Beta-methyllanthionine (Thr-Cys)" evidence="1">
+    <location>
+      <begin position="37"/>
+      <end position="47"/>
+    </location>
+  </feature>
+  <feature type="cross-link" description="Lanthionine (Ser-Cys)" evidence="1">
+    <location>
+      <begin position="43"/>
+      <end position="48"/>
+    </location>
+  </feature>
+  <evidence type="ECO:0000250" key="1"/>
+  <evidence type="ECO:0000269" key="2">
+    <source>
+      <dbReference type="PubMed" id="8357242"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000305" key="3"/>
+  <sequence length="48" mass="5204" checksum="3AF70C1A3CFCFF79" modified="2001-07-11" version="2" precursor="true">MKNSKDILNNAIEEVSEKELMEVAGGKRGSGWIATITDDCPNSVFVCC</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

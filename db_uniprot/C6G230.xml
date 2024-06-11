@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2009-09-01" modified="2023-09-13" version="9" xmlns="http://uniprot.org/uniprot">
+  <accession>C6G230</accession>
+  <name>C6G230_9ACTN</name>
+  <protein>
+    <submittedName>
+      <fullName evidence="1">Thiomuracin prepropeptide</fullName>
+    </submittedName>
+  </protein>
+  <gene>
+    <name evidence="1" type="primary">tpdA</name>
+  </gene>
+  <organism evidence="1">
+    <name type="scientific">Nonomuraea sp. Bp3714-39</name>
+    <dbReference type="NCBI Taxonomy" id="653921"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Actinomycetota</taxon>
+      <taxon>Actinomycetes</taxon>
+      <taxon>Streptosporangiales</taxon>
+      <taxon>Streptosporangiaceae</taxon>
+      <taxon>Nonomuraea</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="1" key="1">
+    <citation type="journal article" date="2009" name="J. Am. Chem. Soc." volume="131" first="5946" last="5955">
+      <title>Ribosomally synthesized thiopeptide antibiotics targeting elongation factor Tu.</title>
+      <authorList>
+        <person name="Morris R.P."/>
+        <person name="Leeds J.A."/>
+        <person name="Naegeli H.U."/>
+        <person name="Oberer L."/>
+        <person name="Memmert K."/>
+        <person name="Weber E."/>
+        <person name="LaMarche M.J."/>
+        <person name="Parker C.N."/>
+        <person name="Burrer N."/>
+        <person name="Esterow S."/>
+        <person name="Hein A.E."/>
+        <person name="Schmitt E.K."/>
+        <person name="Krastel P."/>
+      </authorList>
+      <dbReference type="PubMed" id="19338336"/>
+      <dbReference type="DOI" id="10.1021/ja900488a"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="1">Bp3714-39</strain>
+    </source>
+  </reference>
+  <dbReference type="EMBL" id="FJ461360">
+    <property type="protein sequence ID" value="ACS83781.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="C6G230"/>
+  <dbReference type="NCBIfam" id="NF033399">
+    <property type="entry name" value="thiazolyl_GetA"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF19409">
+    <property type="entry name" value="Thiopep_pre"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="predicted"/>
+  <evidence type="ECO:0000313" key="1">
+    <source>
+      <dbReference type="EMBL" id="ACS83781.1"/>
+    </source>
+  </evidence>
+  <sequence length="49" mass="5070" checksum="490715110E6ADBBF" modified="2009-09-01" version="1">MDLSDLPMDVFELADDGVAVESLTAGHGMTEVGASCNCFCYICCSCSSA</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

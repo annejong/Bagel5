@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2020-08-12" modified="2023-06-28" version="10" xmlns="http://uniprot.org/uniprot">
+  <accession>H7C8I3</accession>
+  <name>LARIA_RHOJO</name>
+  <protein>
+    <recommendedName>
+      <fullName evidence="5">Lariatin</fullName>
+    </recommendedName>
+    <alternativeName>
+      <fullName evidence="5">Class II lasso peptide</fullName>
+    </alternativeName>
+    <alternativeName>
+      <fullName evidence="1">Lariat peptide</fullName>
+    </alternativeName>
+    <alternativeName>
+      <fullName evidence="1">Ribosomally synthesized and post-translationally modified peptide</fullName>
+      <shortName evidence="1">RiPP</shortName>
+    </alternativeName>
+    <component>
+      <recommendedName>
+        <fullName evidence="5">Lariatin-A</fullName>
+      </recommendedName>
+    </component>
+    <component>
+      <recommendedName>
+        <fullName evidence="5">Lariatin-B</fullName>
+      </recommendedName>
+    </component>
+  </protein>
+  <gene>
+    <name evidence="6" type="primary">larA</name>
+  </gene>
+  <organism>
+    <name type="scientific">Rhodococcus jostii</name>
+    <dbReference type="NCBI Taxonomy" id="132919"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Actinomycetota</taxon>
+      <taxon>Actinomycetes</taxon>
+      <taxon>Mycobacteriales</taxon>
+      <taxon>Nocardiaceae</taxon>
+      <taxon>Rhodococcus</taxon>
+    </lineage>
+  </organism>
+  <reference key="1">
+    <citation type="journal article" date="2012" name="Appl. Microbiol. Biotechnol." volume="95" first="451" last="460">
+      <title>Molecular cloning of the gene cluster for lariatin biosynthesis of Rhodococcus jostii K01-B0171.</title>
+      <authorList>
+        <person name="Inokoshi J."/>
+        <person name="Matsuhama M."/>
+        <person name="Miyake M."/>
+        <person name="Ikeda H."/>
+        <person name="Tomoda H."/>
+      </authorList>
+      <dbReference type="PubMed" id="22388571"/>
+      <dbReference type="DOI" id="10.1007/s00253-012-3973-8"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+    <source>
+      <strain>K01-B0171</strain>
+    </source>
+  </reference>
+  <reference key="2">
+    <citation type="journal article" date="2007" name="J. Antibiot." volume="60" first="357" last="363">
+      <title>Lariatins, novel anti-mycobacterial peptides with a lasso structure, produced by Rhodococcus jostii K01-B0171.</title>
+      <authorList>
+        <person name="Iwatsuki M."/>
+        <person name="Uchida R."/>
+        <person name="Takakusagi Y."/>
+        <person name="Matsumoto A."/>
+        <person name="Jiang C.L."/>
+        <person name="Takahashi Y."/>
+        <person name="Arai M."/>
+        <person name="Kobayashi S."/>
+        <person name="Matsumoto M."/>
+        <person name="Inokoshi J."/>
+        <person name="Tomoda H."/>
+        <person name="Omura S."/>
+      </authorList>
+      <dbReference type="PubMed" id="17617692"/>
+      <dbReference type="DOI" id="10.1038/ja.2007.48"/>
+    </citation>
+    <scope>FUNCTION</scope>
+    <scope>MASS SPECTROMETRY</scope>
+    <source>
+      <strain>K01-B0171</strain>
+    </source>
+  </reference>
+  <reference key="3">
+    <citation type="journal article" date="2009" name="Bioorg. Med. Chem. Lett." volume="19" first="2888" last="2890">
+      <title>Lys17 in the 'lasso' peptide lariatin A is responsible for anti-mycobacterial activity.</title>
+      <authorList>
+        <person name="Iwatsuki M."/>
+        <person name="Koizumi Y."/>
+        <person name="Gouda H."/>
+        <person name="Hirono S."/>
+        <person name="Tomoda H."/>
+        <person name="Omura S."/>
+      </authorList>
+      <dbReference type="PubMed" id="19362475"/>
+      <dbReference type="DOI" id="10.1016/j.bmcl.2009.03.033"/>
+    </citation>
+    <scope>MUTAGENESIS OF 43-LYS--PRO-46 AND 44-PRO--PRO-46</scope>
+  </reference>
+  <reference key="4">
+    <citation type="journal article" date="2006" name="J. Am. Chem. Soc." volume="128" first="7486" last="7491">
+      <title>Lariatins, antimycobacterial peptides produced by Rhodococcus sp. K01-B0171, have a lasso structure.</title>
+      <authorList>
+        <person name="Iwatsuki M."/>
+        <person name="Tomoda H."/>
+        <person name="Uchida R."/>
+        <person name="Gouda H."/>
+        <person name="Hirono S."/>
+        <person name="Omura S."/>
+      </authorList>
+      <dbReference type="PubMed" id="16756302"/>
+      <dbReference type="DOI" id="10.1021/ja056780z"/>
+    </citation>
+    <scope>STRUCTURE BY NMR OF 27-44</scope>
+    <scope>PRELIMINARY PROTEIN SEQUENCE OF 27-44</scope>
+    <scope>CROSS-LINK</scope>
+    <source>
+      <strain>K01-B0171</strain>
+    </source>
+  </reference>
+  <comment type="function">
+    <molecule>Lariatin-A</molecule>
+    <text evidence="3">Peptide antibiotic with selective activity against Mycobacterium species (M.smegmatis, MIC=3.13 ug/ml and M.tuberculosis, MIC=0.39 ug/ml). it is plausible that the target of lariatins lies within the cell wall in mycobacteria.</text>
+  </comment>
+  <comment type="function">
+    <molecule>Lariatin-B</molecule>
+    <text evidence="3">Peptide antibiotic with selective activity against Mycobacterium species (M.smegmatis, MIC=6.25 ug/ml).</text>
+  </comment>
+  <comment type="domain">
+    <text evidence="7">Is composed of a ring composed by 8 residues, and a tail of 10 or 12 residues (Probable). The peptide is threaded when the C-terminal tail is inserted throught the isopeptide-bonded ring (Probable).</text>
+  </comment>
+  <comment type="PTM">
+    <text evidence="9">The linear precursor LarA is probably cleaved by the putative peptidase LarD, generating linear 18-residue Lariatin-A or 20-residue Lariatin-B. These linear peptides are probably cross-linked by LarB. Finally, lariatins A and B may be exported by ABC transporter LarE.</text>
+  </comment>
+  <comment type="mass spectrometry" mass="2051.0" method="FAB" evidence="3">
+    <molecule>Lariatin-A</molecule>
+  </comment>
+  <comment type="mass spectrometry" mass="2205.0" method="FAB" evidence="3">
+    <molecule>Lariatin-B</molecule>
+  </comment>
+  <dbReference type="EMBL" id="AB593691">
+    <property type="protein sequence ID" value="BAL72546.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="H7C8I3"/>
+  <dbReference type="GO" id="GO:0042742">
+    <property type="term" value="P:defense response to bacterium"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0031640">
+    <property type="term" value="P:killing of cells of another organism"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <proteinExistence type="evidence at protein level"/>
+  <keyword id="KW-0044">Antibiotic</keyword>
+  <keyword id="KW-0929">Antimicrobial</keyword>
+  <keyword id="KW-0078">Bacteriocin</keyword>
+  <keyword id="KW-0903">Direct protein sequencing</keyword>
+  <keyword id="KW-1017">Isopeptide bond</keyword>
+  <feature type="propeptide" id="PRO_0000450655" evidence="9">
+    <location>
+      <begin position="1"/>
+      <end position="26"/>
+    </location>
+  </feature>
+  <feature type="peptide" id="PRO_0000450656" description="Lariatin-B" evidence="3">
+    <location>
+      <begin position="27"/>
+      <end position="46"/>
+    </location>
+  </feature>
+  <feature type="peptide" id="PRO_0000450657" description="Lariatin-A" evidence="2 3">
+    <location>
+      <begin position="27"/>
+      <end position="44"/>
+    </location>
+  </feature>
+  <feature type="site" description="Important in resistance to hydrolysis" evidence="8">
+    <location>
+      <begin position="43"/>
+      <end position="44"/>
+    </location>
+  </feature>
+  <feature type="cross-link" description="Isoglutamyl glycine isopeptide (Gly-Glu)" evidence="2">
+    <location>
+      <begin position="27"/>
+      <end position="34"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Loss of antibacterial activity." evidence="4">
+    <location>
+      <begin position="43"/>
+      <end position="46"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="No change in antibacterial activity." evidence="4">
+    <location>
+      <begin position="44"/>
+      <end position="46"/>
+    </location>
+  </feature>
+  <evidence type="ECO:0000250" key="1">
+    <source>
+      <dbReference type="UniProtKB" id="P0DQM5"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="2">
+    <source>
+      <dbReference type="PubMed" id="16756302"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="3">
+    <source>
+      <dbReference type="PubMed" id="17617692"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="4">
+    <source>
+      <dbReference type="PubMed" id="19362475"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000303" key="5">
+    <source>
+      <dbReference type="PubMed" id="16756302"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000303" key="6">
+    <source>
+      <dbReference type="PubMed" id="22388571"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000305" key="7">
+    <source>
+      <dbReference type="PubMed" id="16756302"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000305" key="8">
+    <source>
+      <dbReference type="PubMed" id="19362475"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000305" key="9">
+    <source>
+      <dbReference type="PubMed" id="22388571"/>
+    </source>
+  </evidence>
+  <sequence length="46" mass="5075" checksum="AEA820CF5089888B" modified="2012-05-16" version="1">MTSQPSKKTYNAPSLVQRGKFARTTAGSQLVYREWVGHSNVIKPGP</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

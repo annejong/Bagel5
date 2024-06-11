@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="1994-10-01" modified="2023-06-28" version="84" xmlns="http://uniprot.org/uniprot">
+  <accession>P38577</accession>
+  <name>MTCY_LEUME</name>
+  <protein>
+    <recommendedName>
+      <fullName>Bacteriocin mesentericin Y105</fullName>
+    </recommendedName>
+  </protein>
+  <gene>
+    <name type="primary">mesY</name>
+  </gene>
+  <organism>
+    <name type="scientific">Leuconostoc mesenteroides</name>
+    <dbReference type="NCBI Taxonomy" id="1245"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Bacillota</taxon>
+      <taxon>Bacilli</taxon>
+      <taxon>Lactobacillales</taxon>
+      <taxon>Lactobacillaceae</taxon>
+      <taxon>Leuconostoc</taxon>
+    </lineage>
+  </organism>
+  <geneLocation type="plasmid">
+    <name>pHY30</name>
+  </geneLocation>
+  <reference key="1">
+    <citation type="journal article" date="1995" name="Microbiology" volume="141" first="1637" last="1645">
+      <title>Mesentericin Y105 gene clusters in Leuconostoc mesenteroides Y105.</title>
+      <authorList>
+        <person name="Fremaux C."/>
+        <person name="Hechard A."/>
+        <person name="Cenatiempo Y."/>
+      </authorList>
+      <dbReference type="PubMed" id="7551032"/>
+      <dbReference type="DOI" id="10.1099/13500872-141-7-1637"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+    <source>
+      <strain>Y105</strain>
+    </source>
+  </reference>
+  <reference key="2">
+    <citation type="journal article" date="1992" name="J. Gen. Microbiol." volume="138" first="2725" last="2731">
+      <title>Characterization and purification of mesentericin Y105, an anti-Listeria bacteriocin from Leuconostoc mesenteroides.</title>
+      <authorList>
+        <person name="Hechard Y."/>
+        <person name="Derijard B."/>
+        <person name="Letellier F."/>
+        <person name="Cenatiempo Y."/>
+      </authorList>
+      <dbReference type="PubMed" id="1487737"/>
+      <dbReference type="DOI" id="10.1099/00221287-138-12-2725"/>
+    </citation>
+    <scope>PROTEIN SEQUENCE OF 25-60</scope>
+    <source>
+      <strain>Y105</strain>
+    </source>
+  </reference>
+  <comment type="function">
+    <text>Bacteriocin active against Listeria monocytogenes.</text>
+  </comment>
+  <comment type="subcellular location">
+    <subcellularLocation>
+      <location>Secreted</location>
+    </subcellularLocation>
+  </comment>
+  <comment type="similarity">
+    <text evidence="2">Belongs to the bacteriocin class IIA/YGNGV family.</text>
+  </comment>
+  <dbReference type="EMBL" id="X81803">
+    <property type="protein sequence ID" value="CAA57405.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="PIR" id="S52208">
+    <property type="entry name" value="S52208"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="WP_032490739.1">
+    <property type="nucleotide sequence ID" value="NZ_JAMRWD010000004.1"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="P38577"/>
+  <dbReference type="TCDB" id="1.C.24.1.5">
+    <property type="family name" value="the pediocin (pediocin) family"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0005576">
+    <property type="term" value="C:extracellular region"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-SubCell"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0042742">
+    <property type="term" value="P:defense response to bacterium"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0031640">
+    <property type="term" value="P:killing of cells of another organism"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="Gene3D" id="1.20.5.130">
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR002633">
+    <property type="entry name" value="Bacteriocin_IIa"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR023384">
+    <property type="entry name" value="Bacteriocin_IIa_CS"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR023388">
+    <property type="entry name" value="Bacteriocin_IIa_dom_sf"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF01721">
+    <property type="entry name" value="Bacteriocin_II"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="PROSITE" id="PS60030">
+    <property type="entry name" value="BACTERIOCIN_IIA"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="evidence at protein level"/>
+  <keyword id="KW-0044">Antibiotic</keyword>
+  <keyword id="KW-0929">Antimicrobial</keyword>
+  <keyword id="KW-0078">Bacteriocin</keyword>
+  <keyword id="KW-0903">Direct protein sequencing</keyword>
+  <keyword id="KW-1015">Disulfide bond</keyword>
+  <keyword id="KW-0614">Plasmid</keyword>
+  <keyword id="KW-0964">Secreted</keyword>
+  <keyword id="KW-0732">Signal</keyword>
+  <feature type="signal peptide" evidence="1">
+    <location>
+      <begin position="1"/>
+      <end position="24"/>
+    </location>
+  </feature>
+  <feature type="chain" id="PRO_0000002744" description="Bacteriocin mesentericin Y105">
+    <location>
+      <begin position="25"/>
+      <end position="61"/>
+    </location>
+  </feature>
+  <feature type="disulfide bond" evidence="2">
+    <location>
+      <begin position="33"/>
+      <end position="38"/>
+    </location>
+  </feature>
+  <evidence type="ECO:0000269" key="1">
+    <source>
+      <dbReference type="PubMed" id="1487737"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000305" key="2"/>
+  <sequence length="61" mass="6548" checksum="C3CB768902F8CB59" modified="1996-10-01" version="2" precursor="true">MTNMKSVEAYQQLDNQNLKKVVGGKYYGNGVHCTKSGCSVNWGEAASAGIHRLANGGNGFW</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

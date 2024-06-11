@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2008-06-10" modified="2023-09-13" version="30" xmlns="http://uniprot.org/uniprot">
+  <accession>B2G3C8</accession>
+  <name>B2G3C8_MICAE</name>
+  <protein>
+    <submittedName>
+      <fullName evidence="2">Microviridin</fullName>
+    </submittedName>
+  </protein>
+  <gene>
+    <name evidence="2" type="primary">mdnA</name>
+  </gene>
+  <organism evidence="2">
+    <name type="scientific">Microcystis aeruginosa MRC</name>
+    <dbReference type="NCBI Taxonomy" id="507735"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Cyanobacteriota</taxon>
+      <taxon>Cyanophyceae</taxon>
+      <taxon>Oscillatoriophycideae</taxon>
+      <taxon>Chroococcales</taxon>
+      <taxon>Microcystaceae</taxon>
+      <taxon>Microcystis</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="2" key="1">
+    <citation type="submission" date="2008-02" db="EMBL/GenBank/DDBJ databases">
+      <title>Ribosomal synthesis of Tricyclic Depsipeptides in Bloom-forming Cyanobacteria.</title>
+      <authorList>
+        <person name="Ziemert N."/>
+        <person name="Ishida K."/>
+        <person name="Liaimer A."/>
+        <person name="Hertweck C."/>
+        <person name="Dittmann E."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="2">MRC</strain>
+    </source>
+  </reference>
+  <reference evidence="3 4" key="2">
+    <citation type="journal article" date="2014" name="Angew. Chem. Int. Ed." volume="53" first="3735" last="3738">
+      <title>Harnessing the evolvability of tricyclic microviridins to dissect protease-inhibitor interactions.</title>
+      <authorList>
+        <person name="Weiz A.R."/>
+        <person name="Ishida K."/>
+        <person name="Quitterer F."/>
+        <person name="Meyer S."/>
+        <person name="Kehr J.C."/>
+        <person name="Muller K.M."/>
+        <person name="Groll M."/>
+        <person name="Hertweck C."/>
+        <person name="Dittmann E."/>
+      </authorList>
+      <dbReference type="PubMed" id="24591244"/>
+      <dbReference type="DOI" id="10.1002/anie.201309721"/>
+    </citation>
+    <scope>X-RAY CRYSTALLOGRAPHY (1.30 ANGSTROMS) OF 37-49</scope>
+  </reference>
+  <reference evidence="5" key="3">
+    <citation type="journal article" date="2016" name="Nat. Chem. Biol." volume="12" first="973" last="979">
+      <title>Structural basis for precursor protein-directed ribosomal peptide macrocyclization.</title>
+      <authorList>
+        <person name="Li K."/>
+        <person name="Condurso H.L."/>
+        <person name="Li G."/>
+        <person name="Ding Y."/>
+        <person name="Bruner S.D."/>
+      </authorList>
+      <dbReference type="PubMed" id="27669417"/>
+      <dbReference type="DOI" id="10.1038/nchembio.2200"/>
+    </citation>
+    <scope>X-RAY CRYSTALLOGRAPHY (2.67 ANGSTROMS)</scope>
+  </reference>
+  <dbReference type="EMBL" id="AM943878">
+    <property type="protein sequence ID" value="CAQ16121.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="PDB" id="4KTS">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="1.30 A"/>
+    <property type="chains" value="B=37-49"/>
+  </dbReference>
+  <dbReference type="PDB" id="4KTU">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="1.35 A"/>
+    <property type="chains" value="B=37-49"/>
+  </dbReference>
+  <dbReference type="PDB" id="5IG9">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="2.67 A"/>
+    <property type="chains" value="I/J/K/L/M/N/O/P=1-49"/>
+  </dbReference>
+  <dbReference type="PDBsum" id="4KTS"/>
+  <dbReference type="PDBsum" id="4KTU"/>
+  <dbReference type="PDBsum" id="5IG9"/>
+  <dbReference type="AlphaFoldDB" id="B2G3C8"/>
+  <dbReference type="SMR" id="B2G3C8"/>
+  <dbReference type="InterPro" id="IPR022217">
+    <property type="entry name" value="Prot_inh_I10_marinostatin"/>
+  </dbReference>
+  <dbReference type="NCBIfam" id="NF033738">
+    <property type="entry name" value="microvirid_RiPP"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF12559">
+    <property type="entry name" value="Inhibitor_I10"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="evidence at protein level"/>
+  <keyword evidence="3 4" id="KW-0002">3D-structure</keyword>
+  <feature type="region of interest" description="Disordered" evidence="1">
+    <location>
+      <begin position="25"/>
+      <end position="49"/>
+    </location>
+  </feature>
+  <feature type="compositionally biased region" description="Basic and acidic residues" evidence="1">
+    <location>
+      <begin position="28"/>
+      <end position="49"/>
+    </location>
+  </feature>
+  <evidence type="ECO:0000256" key="1">
+    <source>
+      <dbReference type="SAM" id="MobiDB-lite"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="2">
+    <source>
+      <dbReference type="EMBL" id="CAQ16121.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007829" key="3">
+    <source>
+      <dbReference type="PDB" id="4KTS"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007829" key="4">
+    <source>
+      <dbReference type="PDB" id="4KTU"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007829" key="5">
+    <source>
+      <dbReference type="PDB" id="5IG9"/>
+    </source>
+  </evidence>
+  <sequence length="49" mass="5718" checksum="DE0F194C3872156F" modified="2008-06-10" version="1">MAYPNDQQGKALPFFARFLSVSKEESSIKSPSPDHEISTRKYPSDWEEW</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

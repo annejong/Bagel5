@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2021-06-02" modified="2023-09-13" version="6" xmlns="http://uniprot.org/uniprot">
+  <accession>A0A7U1BAR4</accession>
+  <name>A0A7U1BAR4_BACTU</name>
+  <protein>
+    <submittedName>
+      <fullName evidence="4">Class III lanthipeptide</fullName>
+    </submittedName>
+  </protein>
+  <gene>
+    <name evidence="1" type="ORF">EVG22_32215</name>
+    <name evidence="2" type="ORF">EVG22_32220</name>
+    <name evidence="3" type="ORF">EVG22_32230</name>
+    <name evidence="4" type="ORF">EVG22_32235</name>
+    <name evidence="5" type="ORF">EVG22_32240</name>
+  </gene>
+  <organism evidence="4">
+    <name type="scientific">Bacillus thuringiensis serovar andalousiensis</name>
+    <dbReference type="NCBI Taxonomy" id="257985"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Bacillota</taxon>
+      <taxon>Bacilli</taxon>
+      <taxon>Bacillales</taxon>
+      <taxon>Bacillaceae</taxon>
+      <taxon>Bacillus</taxon>
+      <taxon>Bacillus cereus group</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="4" key="1">
+    <citation type="submission" date="2020-12" db="EMBL/GenBank/DDBJ databases">
+      <title>Identification and Characterization of Andalusicin N terminally Dimethylated Class III Lantibiotic from Bacillus thuringiensis sv. andalusiensis.</title>
+      <authorList>
+        <person name="Grigoreva A."/>
+        <person name="Andreeva J."/>
+        <person name="Serebryakova M."/>
+        <person name="Garcia A.H."/>
+        <person name="Slonova D."/>
+        <person name="Nair S.K."/>
+        <person name="Lippens G."/>
+        <person name="Severinov K."/>
+        <person name="Dubiley S."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="4">NRRL B-23139</strain>
+    </source>
+  </reference>
+  <dbReference type="EMBL" id="CP035727">
+    <property type="protein sequence ID" value="QQY95970.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="CP035727">
+    <property type="protein sequence ID" value="QQY95971.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="CP035727">
+    <property type="protein sequence ID" value="QQY95973.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="CP035727">
+    <property type="protein sequence ID" value="QQY95974.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="CP035727">
+    <property type="protein sequence ID" value="QQY95975.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="A0A7U1BAR4"/>
+  <dbReference type="Proteomes" id="UP000501374">
+    <property type="component" value="Chromosome"/>
+  </dbReference>
+  <dbReference type="NCBIfam" id="NF038154">
+    <property type="entry name" value="lanthi_III_a"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="predicted"/>
+  <evidence type="ECO:0000313" key="1">
+    <source>
+      <dbReference type="EMBL" id="QQY95970.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="2">
+    <source>
+      <dbReference type="EMBL" id="QQY95971.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="3">
+    <source>
+      <dbReference type="EMBL" id="QQY95973.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="4">
+    <source>
+      <dbReference type="EMBL" id="QQY95974.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="5">
+    <source>
+      <dbReference type="EMBL" id="QQY95975.1"/>
+    </source>
+  </evidence>
+  <sequence length="45" mass="4795" checksum="F9DEDBF9587CBD4D" modified="2021-06-02" version="1">MNTVLELQKLAHDTEGKGQAAEATITTTWTVTTTGVWASTISNNC</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

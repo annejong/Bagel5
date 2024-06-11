@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2001-04-27" modified="2023-05-03" version="37" xmlns="http://uniprot.org/uniprot">
+  <accession>P82907</accession>
+  <name>LICH_BACLI</name>
+  <protein>
+    <recommendedName>
+      <fullName>Lichenin</fullName>
+    </recommendedName>
+  </protein>
+  <organism>
+    <name type="scientific">Bacillus licheniformis</name>
+    <dbReference type="NCBI Taxonomy" id="1402"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Bacillota</taxon>
+      <taxon>Bacilli</taxon>
+      <taxon>Bacillales</taxon>
+      <taxon>Bacillaceae</taxon>
+      <taxon>Bacillus</taxon>
+    </lineage>
+  </organism>
+  <reference key="1">
+    <citation type="journal article" date="2001" name="J. Appl. Microbiol." volume="91" first="636" last="645">
+      <title>Purification and characterization of a bacteriocin-like compound (Lichenin) produced anaerobically by Bacillus licheniformis isolated from water buffalo.</title>
+      <authorList>
+        <person name="Pattnaik P."/>
+        <person name="Kaushik J.K."/>
+        <person name="Grover S."/>
+        <person name="Batish V.K."/>
+      </authorList>
+      <dbReference type="PubMed" id="11576300"/>
+      <dbReference type="DOI" id="10.1046/j.1365-2672.2001.01429.x"/>
+    </citation>
+    <scope>PROTEIN SEQUENCE</scope>
+    <source>
+      <strain>26L-10/3RA</strain>
+    </source>
+  </reference>
+  <reference key="2">
+    <citation type="thesis" date="1999" institute="National Dairy Research Institute / Karnal" country="India">
+      <title>Biochemical characterization and molecular genetics of bacteriocin produced by a selected rumen bacterial isolate.</title>
+      <authorList>
+        <person name="Pattnaik P."/>
+      </authorList>
+    </citation>
+    <scope>PROTEIN SEQUENCE</scope>
+    <source>
+      <strain>26L-10/3RA</strain>
+    </source>
+  </reference>
+  <reference key="3">
+    <citation type="journal article" date="2005" name="Microbiol. Res." volume="160" first="213" last="218">
+      <title>Effect of environmental factors on production of lichenin, a chromosomally encoded bacteriocin-like compound produced by Bacillus licheniformis 26L-10/3RA.</title>
+      <authorList>
+        <person name="Pattnaik P."/>
+        <person name="Grover S."/>
+        <person name="Batish V.K."/>
+      </authorList>
+      <dbReference type="PubMed" id="15881839"/>
+      <dbReference type="DOI" id="10.1016/j.micres.2005.01.006"/>
+    </citation>
+    <scope>EXPRESSION</scope>
+    <source>
+      <strain>26L-10/3RA</strain>
+    </source>
+  </reference>
+  <comment type="function">
+    <text>Oxygen labile bacteriocin-like. Has antibacterial activity only against strictly anaerobic rumen bacteria.</text>
+  </comment>
+  <comment type="biophysicochemical properties">
+    <phDependence>
+      <text>Optimum pH is 6.8.</text>
+    </phDependence>
+    <temperatureDependence>
+      <text>Optimum temperature is 39 degrees Celsius.</text>
+    </temperatureDependence>
+  </comment>
+  <comment type="subcellular location">
+    <subcellularLocation>
+      <location>Secreted</location>
+    </subcellularLocation>
+  </comment>
+  <comment type="miscellaneous">
+    <text>Maximum production was recorded in L-10 broth after 72-96 hours of incubation.</text>
+  </comment>
+  <dbReference type="GO" id="GO:0005576">
+    <property type="term" value="C:extracellular region"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-SubCell"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0042742">
+    <property type="term" value="P:defense response to bacterium"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0031640">
+    <property type="term" value="P:killing of cells of another organism"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <proteinExistence type="evidence at protein level"/>
+  <keyword id="KW-0044">Antibiotic</keyword>
+  <keyword id="KW-0929">Antimicrobial</keyword>
+  <keyword id="KW-0078">Bacteriocin</keyword>
+  <keyword id="KW-0903">Direct protein sequencing</keyword>
+  <keyword id="KW-0964">Secreted</keyword>
+  <feature type="peptide" id="PRO_0000044154" description="Lichenin">
+    <location>
+      <begin position="1"/>
+      <end position="12"/>
+    </location>
+  </feature>
+  <sequence length="12" mass="1415" checksum="1C059B6CED4AEEB0" modified="2001-03-01" version="1">ISLEICXIFHDN</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

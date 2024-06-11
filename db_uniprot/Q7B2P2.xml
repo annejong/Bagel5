@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2007-05-01" modified="2024-01-24" version="55" xmlns="http://uniprot.org/uniprot">
+  <accession>Q7B2P2</accession>
+  <name>Q7B2P2_ENTFC</name>
+  <protein>
+    <submittedName>
+      <fullName evidence="2">Enterocin 62-6B</fullName>
+    </submittedName>
+    <submittedName>
+      <fullName evidence="1">Enterocin J</fullName>
+    </submittedName>
+    <submittedName>
+      <fullName evidence="5">Enterocin L50 family leaderless bacteriocin</fullName>
+    </submittedName>
+    <submittedName>
+      <fullName evidence="4">Enterocin L50B</fullName>
+    </submittedName>
+  </protein>
+  <gene>
+    <name evidence="4" type="primary">entL50B</name>
+    <name evidence="2" type="synonym">ent626B</name>
+    <name evidence="1" type="synonym">entJ</name>
+    <name evidence="6" type="ORF">EQI29_13260</name>
+    <name evidence="5" type="ORF">HV425_11625</name>
+  </gene>
+  <organism evidence="4">
+    <name type="scientific">Enterococcus faecium</name>
+    <name type="common">Streptococcus faecium</name>
+    <dbReference type="NCBI Taxonomy" id="1352"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Bacillota</taxon>
+      <taxon>Bacilli</taxon>
+      <taxon>Lactobacillales</taxon>
+      <taxon>Enterococcaceae</taxon>
+      <taxon>Enterococcus</taxon>
+    </lineage>
+  </organism>
+  <geneLocation type="plasmid" evidence="1">
+    <name>pEF1</name>
+  </geneLocation>
+  <geneLocation type="plasmid" evidence="3">
+    <name>pTAB1</name>
+  </geneLocation>
+  <geneLocation type="plasmid" evidence="6 7">
+    <name>unnamed1</name>
+  </geneLocation>
+  <reference evidence="1" key="1">
+    <citation type="journal article" date="1998" name="Appl. Environ. Microbiol." volume="64" first="4883" last="4890">
+      <title>Purification and genetic characterization of enterocin I from Enterococcus faecium 6T1a, a novel antilisterial plasmid-encoded bacteriocin which does not belong to the pediocin family of bacteriocins.</title>
+      <authorList>
+        <person name="Floriano B."/>
+        <person name="Ruiz-Barba J.L."/>
+        <person name="Jimenez-Diaz R."/>
+      </authorList>
+      <dbReference type="PubMed" id="9835578"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="1">6T1a</strain>
+      <plasmid evidence="1">pEF1</plasmid>
+    </source>
+  </reference>
+  <reference evidence="4" key="2">
+    <citation type="journal article" date="1998" name="J. Bacteriol." volume="180" first="1988" last="1994">
+      <title>Enterocins L50A and L50B, two novel bacteriocins from Enterococcus faecium L50, are related to staphylococcal hemolysins.</title>
+      <authorList>
+        <person name="Cintas L.M."/>
+        <person name="Casaus P."/>
+        <person name="Holo H."/>
+        <person name="Hernandez P.E."/>
+        <person name="Nes I.F."/>
+        <person name="Havarstein L.S."/>
+      </authorList>
+      <dbReference type="PubMed" id="9555877"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="4">L50</strain>
+    </source>
+  </reference>
+  <reference evidence="2" key="3">
+    <citation type="journal article" date="2007" name="Microb. Ecol. Health Dis." volume="19" first="241" last="250">
+      <title>Purification and characterization of enterocin 62-6, a two peptide bacteriocin produced by a vaginal strain of Enterococcus faecium: Potential significance in bacterial vaginosis.</title>
+      <authorList>
+        <person name="DeZwaan D.C."/>
+        <person name="Mequio M.J."/>
+        <person name="Littell J.S."/>
+        <person name="Allen J.P."/>
+        <person name="Rossbach S."/>
+        <person name="Pybus V."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="2">62-6</strain>
+    </source>
+  </reference>
+  <reference evidence="1" key="4">
+    <citation type="journal article" date="2007" name="Plasmid" volume="57" first="175" last="181">
+      <title>Molecular analysis of the 21-kb bacteriocin-encoding plasmid pEF1 from Enterococcus faecium 6T1a.</title>
+      <authorList>
+        <person name="Ruiz-Barba J.L."/>
+        <person name="Floriano B."/>
+        <person name="Maldonado-Barragan A."/>
+        <person name="Jimenez-Diaz R."/>
+      </authorList>
+      <dbReference type="PubMed" id="16893567"/>
+      <dbReference type="DOI" id="10.1016/j.plasmid.2006.06.003"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="1">6T1a</strain>
+      <plasmid evidence="1">pEF1</plasmid>
+    </source>
+  </reference>
+  <reference evidence="3" key="5">
+    <citation type="journal article" date="2009" name="Antimicrob. Agents Chemother." volume="53" first="1907" last="1911">
+      <title>Genetic identification of the bacteriocins produced by Enterococcus faecium IT62 and evidence that bacteriocin 32 is identical to enterocin IT.</title>
+      <authorList>
+        <person name="Izquierdo E."/>
+        <person name="Cai Y."/>
+        <person name="Marchioni E."/>
+        <person name="Ennahar S."/>
+      </authorList>
+      <dbReference type="PubMed" id="19273675"/>
+      <dbReference type="DOI" id="10.1128/AAC.00052-09"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="3">IT62</strain>
+      <plasmid evidence="3">pTAB1</plasmid>
+    </source>
+  </reference>
+  <reference evidence="6 7" key="6">
+    <citation type="submission" date="2019-01" db="EMBL/GenBank/DDBJ databases">
+      <title>Genome sequence of Enterococcus faecium SRCM103341.</title>
+      <authorList>
+        <person name="Cho M.S."/>
+        <person name="Jeong S.-Y."/>
+        <person name="Jeong D.-Y."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="6 7">SRCM103341</strain>
+      <plasmid evidence="6 7">unnamed1</plasmid>
+    </source>
+  </reference>
+  <reference evidence="5 8" key="7">
+    <citation type="submission" date="2020-06" db="EMBL/GenBank/DDBJ databases">
+      <authorList>
+        <person name="Khan S.A."/>
+        <person name="Jeon C.O."/>
+        <person name="Chun B.H."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="5 8">M1126</strain>
+    </source>
+  </reference>
+  <reference evidence="5 8" key="8">
+    <citation type="submission" date="2020-07" db="EMBL/GenBank/DDBJ databases">
+      <title>Genomic Epidemiology of Vancomycin-Resistant Enterococcus faecium (VREfm) in Latin America: Revisiting The Global VRE Population Structure.</title>
+      <authorList>
+        <person name="Rios R."/>
+        <person name="Reyes J."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="5 8">M1126</strain>
+    </source>
+  </reference>
+  <dbReference type="EMBL" id="DQ198088">
+    <property type="protein sequence ID" value="ABB46251.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="EF112398">
+    <property type="protein sequence ID" value="ABL11218.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="FJ618564">
+    <property type="protein sequence ID" value="ACM68961.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="AJ223633">
+    <property type="protein sequence ID" value="CAA11521.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="JABWVJ010000009">
+    <property type="protein sequence ID" value="NVD83237.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="CP035137">
+    <property type="protein sequence ID" value="QAR74427.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="WP_002293183.1">
+    <property type="nucleotide sequence ID" value="NZ_SWMT01000048.1"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="YP_001966102.1">
+    <property type="nucleotide sequence ID" value="NC_010880.1"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="Q7B2P2"/>
+  <dbReference type="SMR" id="Q7B2P2"/>
+  <dbReference type="GeneID" id="66498810"/>
+  <dbReference type="Proteomes" id="UP000287961">
+    <property type="component" value="Plasmid unnamed1"/>
+  </dbReference>
+  <dbReference type="Proteomes" id="UP000577261">
+    <property type="component" value="Unassembled WGS sequence"/>
+  </dbReference>
+  <dbReference type="Gene3D" id="1.10.8.860">
+    <property type="entry name" value="Enterocin 7a-like"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="NCBIfam" id="NF033384">
+    <property type="entry name" value="enterocin_MR10"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="predicted"/>
+  <keyword evidence="1" id="KW-0614">Plasmid</keyword>
+  <evidence type="ECO:0000313" key="1">
+    <source>
+      <dbReference type="EMBL" id="ABB46251.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="2">
+    <source>
+      <dbReference type="EMBL" id="ABL11218.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="3">
+    <source>
+      <dbReference type="EMBL" id="ACM68961.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="4">
+    <source>
+      <dbReference type="EMBL" id="CAA11521.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="5">
+    <source>
+      <dbReference type="EMBL" id="NVD83237.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="6">
+    <source>
+      <dbReference type="EMBL" id="QAR74427.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="7">
+    <source>
+      <dbReference type="Proteomes" id="UP000287961"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="8">
+    <source>
+      <dbReference type="Proteomes" id="UP000577261"/>
+    </source>
+  </evidence>
+  <sequence length="43" mass="5178" checksum="5366FBEA2D47BE17" modified="2007-05-01" version="1">MGAIAKLVTKFGWPLIKKFYKQIMQFIGQGWTIDQIEKWLKRH</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

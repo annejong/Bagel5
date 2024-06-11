@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2016-04-13" modified="2024-01-24" version="9" xmlns="http://uniprot.org/uniprot">
+  <accession>A0A120AG21</accession>
+  <name>A0A120AG21_9GAMM</name>
+  <protein>
+    <submittedName>
+      <fullName evidence="1">Uncharacterized protein</fullName>
+    </submittedName>
+  </protein>
+  <gene>
+    <name evidence="1" type="ORF">AZ78_1454</name>
+  </gene>
+  <organism evidence="1 2">
+    <name type="scientific">Lysobacter capsici AZ78</name>
+    <dbReference type="NCBI Taxonomy" id="1444315"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Pseudomonadota</taxon>
+      <taxon>Gammaproteobacteria</taxon>
+      <taxon>Xanthomonadales</taxon>
+      <taxon>Xanthomonadaceae</taxon>
+      <taxon>Lysobacter</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="1 2" key="1">
+    <citation type="journal article" date="2014" name="Genome Announc." volume="2">
+      <title>Draft Genome Sequence of Lysobacter capsici AZ78, a Bacterium Antagonistic to Plant-Pathogenic Oomycetes.</title>
+      <authorList>
+        <person name="Puopolo G."/>
+        <person name="Sonego P."/>
+        <person name="Engelen K."/>
+        <person name="Pertot I."/>
+      </authorList>
+      <dbReference type="PubMed" id="24762937"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="1 2">AZ78</strain>
+    </source>
+  </reference>
+  <comment type="caution">
+    <text evidence="1">The sequence shown here is derived from an EMBL/GenBank/DDBJ whole genome shotgun (WGS) entry which is preliminary data.</text>
+  </comment>
+  <dbReference type="EMBL" id="JAJA02000001">
+    <property type="protein sequence ID" value="KWS03905.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="A0A120AG21"/>
+  <dbReference type="OrthoDB" id="6026388at2"/>
+  <dbReference type="Proteomes" id="UP000023435">
+    <property type="component" value="Unassembled WGS sequence"/>
+  </dbReference>
+  <proteinExistence type="predicted"/>
+  <evidence type="ECO:0000313" key="1">
+    <source>
+      <dbReference type="EMBL" id="KWS03905.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="2">
+    <source>
+      <dbReference type="Proteomes" id="UP000023435"/>
+    </source>
+  </evidence>
+  <sequence length="55" mass="6062" checksum="7F715D49DD026627" modified="2016-04-13" version="1">MSQNEQTRLIGRMVAIEVSMSEDGGNEVSFAAASTFVRTQPFNEIDRTDNGDQIP</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

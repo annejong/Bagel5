@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2021-09-29" modified="2023-09-13" version="7" xmlns="http://uniprot.org/uniprot">
+  <accession>A0A829HK39</accession>
+  <name>A0A829HK39_9GAMM</name>
+  <protein>
+    <submittedName>
+      <fullName evidence="1">Uncharacterized protein</fullName>
+    </submittedName>
+  </protein>
+  <gene>
+    <name evidence="1" type="ORF">F957_01368</name>
+  </gene>
+  <organism evidence="1 2">
+    <name type="scientific">Acinetobacter gyllenbergii CIP 110306 = MTCC 11365</name>
+    <dbReference type="NCBI Taxonomy" id="1217657"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Pseudomonadota</taxon>
+      <taxon>Gammaproteobacteria</taxon>
+      <taxon>Moraxellales</taxon>
+      <taxon>Moraxellaceae</taxon>
+      <taxon>Acinetobacter</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="1 2" key="1">
+    <citation type="submission" date="2013-06" db="EMBL/GenBank/DDBJ databases">
+      <title>The Genome Sequence of Acinetobacter gyllenbergii CIP 110306.</title>
+      <authorList>
+        <consortium name="The Broad Institute Genome Sequencing Platform"/>
+        <consortium name="The Broad Institute Genome Sequencing Center for Infectious Disease"/>
+        <person name="Cerqueira G."/>
+        <person name="Feldgarden M."/>
+        <person name="Courvalin P."/>
+        <person name="Perichon B."/>
+        <person name="Grillot-Courvalin C."/>
+        <person name="Clermont D."/>
+        <person name="Rocha E."/>
+        <person name="Yoon E.-J."/>
+        <person name="Nemec A."/>
+        <person name="Young S.K."/>
+        <person name="Zeng Q."/>
+        <person name="Gargeya S."/>
+        <person name="Fitzgerald M."/>
+        <person name="Abouelleil A."/>
+        <person name="Alvarado L."/>
+        <person name="Berlin A.M."/>
+        <person name="Chapman S.B."/>
+        <person name="Dewar J."/>
+        <person name="Goldberg J."/>
+        <person name="Griggs A."/>
+        <person name="Gujja S."/>
+        <person name="Hansen M."/>
+        <person name="Howarth C."/>
+        <person name="Imamovic A."/>
+        <person name="Larimer J."/>
+        <person name="McCowan C."/>
+        <person name="Murphy C."/>
+        <person name="Pearson M."/>
+        <person name="Priest M."/>
+        <person name="Roberts A."/>
+        <person name="Saif S."/>
+        <person name="Shea T."/>
+        <person name="Sykes S."/>
+        <person name="Wortman J."/>
+        <person name="Nusbaum C."/>
+        <person name="Birren B."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="1 2">CIP 110306</strain>
+    </source>
+  </reference>
+  <comment type="caution">
+    <text evidence="1">The sequence shown here is derived from an EMBL/GenBank/DDBJ whole genome shotgun (WGS) entry which is preliminary data.</text>
+  </comment>
+  <dbReference type="EMBL" id="ATGG01000011">
+    <property type="protein sequence ID" value="EPF88081.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="A0A829HK39"/>
+  <dbReference type="Proteomes" id="UP000014523">
+    <property type="component" value="Unassembled WGS sequence"/>
+  </dbReference>
+  <dbReference type="NCBIfam" id="NF033471">
+    <property type="entry name" value="J25_fam_lasso"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="predicted"/>
+  <evidence type="ECO:0000313" key="1">
+    <source>
+      <dbReference type="EMBL" id="EPF88081.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="2">
+    <source>
+      <dbReference type="Proteomes" id="UP000014523"/>
+    </source>
+  </evidence>
+  <sequence length="50" mass="5725" checksum="29AEF58814DDE7D7" modified="2021-09-29" version="1">MKNLNKMFKKEQKYHKQLKVISVKGSASKMTLGGKGPIFETWVTEGNYYG</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

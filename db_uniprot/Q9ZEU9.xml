@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="1999-05-01" modified="2023-05-03" version="32" xmlns="http://uniprot.org/uniprot">
+  <accession>Q9ZEU9</accession>
+  <name>Q9ZEU9_LACPN</name>
+  <protein>
+    <submittedName>
+      <fullName evidence="1">Plantaricin 1.25 beta</fullName>
+    </submittedName>
+  </protein>
+  <gene>
+    <name evidence="1" type="primary">plnB</name>
+  </gene>
+  <organism evidence="1">
+    <name type="scientific">Lactiplantibacillus plantarum</name>
+    <name type="common">Lactobacillus plantarum</name>
+    <dbReference type="NCBI Taxonomy" id="1590"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Bacillota</taxon>
+      <taxon>Bacilli</taxon>
+      <taxon>Lactobacillales</taxon>
+      <taxon>Lactobacillaceae</taxon>
+      <taxon>Lactiplantibacillus</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="1" key="1">
+    <citation type="journal article" date="2000" name="Biochim. Biophys. Acta" volume="1490" first="355" last="361">
+      <title>A gene cluster encoding plantaricin 1.25beta and other bacteriocin-like peptides in Lactobacillus plantarum TMW1.25.</title>
+      <authorList>
+        <person name="Ehrmann M.A."/>
+        <person name="Remiger A."/>
+        <person name="Eijsink V.G."/>
+        <person name="Vogel R.F."/>
+      </authorList>
+      <dbReference type="PubMed" id="10684981"/>
+      <dbReference type="DOI" id="10.1016/S0167-4781(00)00003-8"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="1">TMW1.25</strain>
+    </source>
+  </reference>
+  <dbReference type="EMBL" id="AJ011094">
+    <property type="protein sequence ID" value="CAA09476.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0042742">
+    <property type="term" value="P:defense response to bacterium"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="InterPro"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR019493">
+    <property type="entry name" value="Bacteriocin_IIb_lactacin-rel"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF10439">
+    <property type="entry name" value="Bacteriocin_IIc"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="predicted"/>
+  <evidence type="ECO:0000313" key="1">
+    <source>
+      <dbReference type="EMBL" id="CAA09476.1"/>
+    </source>
+  </evidence>
+  <sequence length="69" mass="6922" checksum="7C9B583B623370BC" modified="1999-05-01" version="1">MYKELTVDELALIDGGKKKKKKVACTWGNAATAAASGAVXGILGGPTGALAGAIWGVSQCASNNLHGMH</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

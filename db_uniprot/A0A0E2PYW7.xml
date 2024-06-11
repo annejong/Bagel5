@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2015-05-27" modified="2024-01-24" version="13" xmlns="http://uniprot.org/uniprot">
+  <accession>A0A0E2PYW7</accession>
+  <name>A0A0E2PYW7_STRTR</name>
+  <protein>
+    <recommendedName>
+      <fullName evidence="3">Bacteriocin</fullName>
+    </recommendedName>
+  </protein>
+  <gene>
+    <name evidence="1" type="ORF">X841_11205</name>
+  </gene>
+  <organism evidence="1 2">
+    <name type="scientific">Streptococcus thermophilus M17PTZA496</name>
+    <dbReference type="NCBI Taxonomy" id="1433289"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Bacillota</taxon>
+      <taxon>Bacilli</taxon>
+      <taxon>Lactobacillales</taxon>
+      <taxon>Streptococcaceae</taxon>
+      <taxon>Streptococcus</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="2" key="1">
+    <citation type="submission" date="2013-12" db="EMBL/GenBank/DDBJ databases">
+      <title>Genome sequences of Streptococcus thermophilus strains MTH17CL396 and M17PTZA496 isolated from Fontina cheese in Valle d'Aosta region (Italy).</title>
+      <authorList>
+        <person name="Treu L."/>
+        <person name="Giacomini A."/>
+        <person name="Corich V."/>
+        <person name="Vendramin V."/>
+        <person name="Bovo B."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="2">M17PTZA496</strain>
+    </source>
+  </reference>
+  <comment type="caution">
+    <text evidence="1">The sequence shown here is derived from an EMBL/GenBank/DDBJ whole genome shotgun (WGS) entry which is preliminary data.</text>
+  </comment>
+  <dbReference type="EMBL" id="AZJT01000073">
+    <property type="protein sequence ID" value="ETW87976.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="A0A0E2PYW7"/>
+  <dbReference type="PATRIC" id="fig|1433289.7.peg.2301"/>
+  <dbReference type="HOGENOM" id="CLU_3367757_0_0_9"/>
+  <dbReference type="Proteomes" id="UP000024559">
+    <property type="component" value="Chromosome"/>
+  </dbReference>
+  <proteinExistence type="predicted"/>
+  <evidence type="ECO:0000313" key="1">
+    <source>
+      <dbReference type="EMBL" id="ETW87976.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="2">
+    <source>
+      <dbReference type="Proteomes" id="UP000024559"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0008006" key="3">
+    <source>
+      <dbReference type="Google" id="ProtNLM"/>
+    </source>
+  </evidence>
+  <sequence length="35" mass="3796" checksum="E94349A4BE78C054" modified="2015-05-27" version="1">MEKLQVIDLEELLEFDQGYVINASCGPSHSCGGGR</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

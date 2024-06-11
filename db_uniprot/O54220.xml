@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="1998-06-01" modified="2023-05-03" version="35" xmlns="http://uniprot.org/uniprot">
+  <accession>O54220</accession>
+  <name>O54220_STAEP</name>
+  <protein>
+    <submittedName>
+      <fullName evidence="1">Epicidin 280</fullName>
+    </submittedName>
+  </protein>
+  <gene>
+    <name evidence="1" type="primary">eciA</name>
+  </gene>
+  <organism evidence="1">
+    <name type="scientific">Staphylococcus epidermidis</name>
+    <dbReference type="NCBI Taxonomy" id="1282"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Bacillota</taxon>
+      <taxon>Bacilli</taxon>
+      <taxon>Bacillales</taxon>
+      <taxon>Staphylococcaceae</taxon>
+      <taxon>Staphylococcus</taxon>
+    </lineage>
+  </organism>
+  <geneLocation type="plasmid" evidence="1">
+    <name>pCH01</name>
+  </geneLocation>
+  <reference evidence="1" key="1">
+    <citation type="journal article" date="1998" name="Appl. Environ. Microbiol." volume="64" first="3140" last="3146">
+      <title>Isolation, characterization, and heterologous expression of the novel lantibiotic epicidin 280 and analysis of its biosynthetic gene cluster.</title>
+      <authorList>
+        <person name="Heidrich C."/>
+        <person name="Pag U."/>
+        <person name="Josten M."/>
+        <person name="Metzger J."/>
+        <person name="Jack R.W."/>
+        <person name="Bierbaum G."/>
+        <person name="Jung G."/>
+        <person name="Sahl H.G."/>
+      </authorList>
+      <dbReference type="PubMed" id="9726851"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="1">BN 280</strain>
+      <plasmid evidence="1">pCH01</plasmid>
+    </source>
+  </reference>
+  <dbReference type="EMBL" id="Y14023">
+    <property type="protein sequence ID" value="CAA74348.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="O54220"/>
+  <dbReference type="InterPro" id="IPR012519">
+    <property type="entry name" value="Lantibiotic_typ-A_Pep5"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF08130">
+    <property type="entry name" value="Antimicrobial18"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="predicted"/>
+  <keyword evidence="1" id="KW-0614">Plasmid</keyword>
+  <evidence type="ECO:0000313" key="1">
+    <source>
+      <dbReference type="EMBL" id="CAA74348.1"/>
+    </source>
+  </evidence>
+  <sequence length="56" mass="6359" checksum="575892070B42FFE5" modified="1998-06-01" version="1">MENKKDLFDLEIKKDNMENNNELEAQSLGPAIKATRQVCPKATRFVTVSCKKSDCQ</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

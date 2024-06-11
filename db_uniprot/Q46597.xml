@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="1996-11-01" modified="2023-09-13" version="39" xmlns="http://uniprot.org/uniprot">
+  <accession>Q46597</accession>
+  <name>Q46597_CARDV</name>
+  <protein>
+    <submittedName>
+      <fullName evidence="1">Divergicin 750</fullName>
+    </submittedName>
+  </protein>
+  <gene>
+    <name evidence="1" type="primary">dvn750</name>
+  </gene>
+  <organism evidence="1">
+    <name type="scientific">Carnobacterium divergens</name>
+    <name type="common">Lactobacillus divergens</name>
+    <dbReference type="NCBI Taxonomy" id="2748"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Bacillota</taxon>
+      <taxon>Bacilli</taxon>
+      <taxon>Lactobacillales</taxon>
+      <taxon>Carnobacteriaceae</taxon>
+      <taxon>Carnobacterium</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="1" key="1">
+    <citation type="journal article" date="1996" name="FEMS Microbiol. Lett." volume="136" first="163" last="168">
+      <title>Divergicin 750, a novel bacteriocin produced by Carnobacterium divergens 750.</title>
+      <authorList>
+        <person name="Holck A."/>
+        <person name="Axelsson L."/>
+        <person name="Schillinger U."/>
+      </authorList>
+      <dbReference type="PubMed" id="8869500"/>
+      <dbReference type="DOI" id="10.1016/0378-1097(95)00500-5"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="1">750</strain>
+    </source>
+  </reference>
+  <dbReference type="EMBL" id="Z54201">
+    <property type="protein sequence ID" value="CAA90906.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="Q46597"/>
+  <dbReference type="InterPro" id="IPR010133">
+    <property type="entry name" value="Bacteriocin_signal_seq"/>
+  </dbReference>
+  <dbReference type="NCBIfam" id="TIGR01847">
+    <property type="entry name" value="bacteriocin_sig"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="predicted"/>
+  <evidence type="ECO:0000313" key="1">
+    <source>
+      <dbReference type="EMBL" id="CAA90906.1"/>
+    </source>
+  </evidence>
+  <sequence length="63" mass="6790" checksum="A8A81AD49F502A30" modified="1996-11-01" version="1">MIKREKNRTISSLGYEEISNHKLQEIQGGKGILGKLGVVQAGVDFVSGVWAGIKQSAKDHPNA</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

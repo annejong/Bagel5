@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2005-07-19" modified="2023-05-03" version="12" xmlns="http://uniprot.org/uniprot">
+  <accession>Q4U1B0</accession>
+  <name>Q4U1B0_LATSK</name>
+  <protein>
+    <submittedName>
+      <fullName evidence="1">Sakacin Q bacteriocin</fullName>
+    </submittedName>
+  </protein>
+  <organism evidence="1">
+    <name type="scientific">Latilactobacillus sakei</name>
+    <name type="common">Lactobacillus sakei</name>
+    <dbReference type="NCBI Taxonomy" id="1599"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Bacillota</taxon>
+      <taxon>Bacilli</taxon>
+      <taxon>Lactobacillales</taxon>
+      <taxon>Lactobacillaceae</taxon>
+      <taxon>Latilactobacillus</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="1" key="1">
+    <citation type="journal article" date="2007" name="Appl. Microbiol. Biotechnol." volume="76" first="1403" last="1411">
+      <title>Sequencing and expression analysis of sakacin genes in Lactobacillus curvatus strains.</title>
+      <authorList>
+        <person name="Cocolin L."/>
+        <person name="Rantsiou K."/>
+      </authorList>
+      <dbReference type="PubMed" id="17690878"/>
+      <dbReference type="DOI" id="10.1007/s00253-007-1120-8"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="1">I151</strain>
+    </source>
+  </reference>
+  <dbReference type="EMBL" id="DQ019417">
+    <property type="protein sequence ID" value="AAY44084.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="Q4U1B0"/>
+  <proteinExistence type="predicted"/>
+  <evidence type="ECO:0000313" key="1">
+    <source>
+      <dbReference type="EMBL" id="AAY44084.1"/>
+    </source>
+  </evidence>
+  <sequence length="67" mass="6555" checksum="58A81F92771EAE87" modified="2005-07-19" version="1">MQNTKELSVVELQQILGGKRASFGKCVVGAWGAGAAGLGAGVSGGLWGMAAGGIGRELAYMGANGCL</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="1994-06-01" modified="2023-05-03" version="95" xmlns="http://uniprot.org/uniprot">
+  <accession>P35618</accession>
+  <accession>Q57121</accession>
+  <name>SAKP_LATSK</name>
+  <protein>
+    <recommendedName>
+      <fullName>Bacteriocin sakacin-P</fullName>
+    </recommendedName>
+    <alternativeName>
+      <fullName>Sakacin 674</fullName>
+    </alternativeName>
+  </protein>
+  <gene>
+    <name type="primary">sakP</name>
+    <name type="synonym">sakR</name>
+    <name type="synonym">sppA</name>
+  </gene>
+  <organism>
+    <name type="scientific">Latilactobacillus sakei</name>
+    <name type="common">Lactobacillus sakei</name>
+    <dbReference type="NCBI Taxonomy" id="1599"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Bacillota</taxon>
+      <taxon>Bacilli</taxon>
+      <taxon>Lactobacillales</taxon>
+      <taxon>Lactobacillaceae</taxon>
+      <taxon>Latilactobacillus</taxon>
+    </lineage>
+  </organism>
+  <reference key="1">
+    <citation type="journal article" date="1994" name="Microbiology" volume="140" first="361" last="367">
+      <title>Cloning and sequencing of sakP encoding sakacin P, the bacteriocin produced by Lactobacillus sake LTH 673.</title>
+      <authorList>
+        <person name="Tichaczek P.S."/>
+        <person name="Vogel R.F."/>
+        <person name="Hammes W.P."/>
+      </authorList>
+      <dbReference type="PubMed" id="8180701"/>
+      <dbReference type="DOI" id="10.1099/13500872-140-2-361"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+    <source>
+      <strain>LTH673</strain>
+    </source>
+  </reference>
+  <reference key="2">
+    <citation type="journal article" date="1994" name="FEMS Microbiol. Lett." volume="115" first="143" last="150">
+      <title>Purification and cloning of sakacin 674, a bacteriocin from Lactobacillus sake Lb674.</title>
+      <authorList>
+        <person name="Holck A.L."/>
+        <person name="Axelsson L."/>
+        <person name="Huehne K."/>
+        <person name="Kroeckel L."/>
+      </authorList>
+      <dbReference type="PubMed" id="8138128"/>
+      <dbReference type="DOI" id="10.1111/j.1574-6968.1994.tb06629.x"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+    <scope>PROTEIN SEQUENCE OF 19-61</scope>
+    <scope>CHARACTERIZATION</scope>
+    <source>
+      <strain>Lb674</strain>
+    </source>
+  </reference>
+  <reference key="3">
+    <citation type="journal article" date="1996" name="Microbiology" volume="142" first="1437" last="1448">
+      <title>Analysis of the sakacin P gene cluster from Lactobacillus sake Lb674 and its expression in sakacin-negative Lb. sake strains.</title>
+      <authorList>
+        <person name="Huehne K."/>
+        <person name="Axelsson L."/>
+        <person name="Holck A."/>
+        <person name="Kroeckel L."/>
+      </authorList>
+      <dbReference type="PubMed" id="8704983"/>
+      <dbReference type="DOI" id="10.1099/13500872-142-6-1437"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+    <source>
+      <strain>Lb674</strain>
+    </source>
+  </reference>
+  <reference key="4">
+    <citation type="journal article" date="1992" name="Syst. Appl. Microbiol." volume="15" first="460" last="465">
+      <title>Characterization of the bacteriocins curvacin A from Lactobacillus curvatus LTH1174 and sakacin P from L. sake LTH673.</title>
+      <authorList>
+        <person name="Tichaczek P.S."/>
+        <person name="Nissen-Meyer J."/>
+        <person name="Nes I.F."/>
+        <person name="Vogel R.F."/>
+        <person name="Hammes W.P."/>
+      </authorList>
+    </citation>
+    <scope>PROTEIN SEQUENCE OF 19-59</scope>
+    <scope>CHARACTERIZATION</scope>
+    <source>
+      <strain>LTH673</strain>
+    </source>
+  </reference>
+  <reference key="5">
+    <citation type="journal article" date="2003" name="Biochemistry" volume="42" first="11417" last="11426">
+      <title>Three-dimensional structure in lipid micelles of the pediocin-like antimicrobial peptide sakacin P and a sakacin P variant that is structurally stabilized by an inserted C-terminal disulfide bridge.</title>
+      <authorList>
+        <person name="Uteng M."/>
+        <person name="Hauge H.H."/>
+        <person name="Markwick P.R."/>
+        <person name="Fimland G."/>
+        <person name="Mantzilas D."/>
+        <person name="Nissen-Meyer J."/>
+        <person name="Muhle-Goll C."/>
+      </authorList>
+      <dbReference type="PubMed" id="14516192"/>
+      <dbReference type="DOI" id="10.1021/bi034572i"/>
+    </citation>
+    <scope>STRUCTURE BY NMR OF 19-61</scope>
+    <scope>DISULFIDE BOND</scope>
+  </reference>
+  <comment type="function">
+    <text>Bactericidal activity; inhibits closely related Lactobacilli, Listeria monocytogenes and ivanovvi, Enterococcus faecalis, Carnobacterium sp and Brocothrix thermosphacta.</text>
+  </comment>
+  <comment type="subcellular location">
+    <subcellularLocation>
+      <location>Secreted</location>
+    </subcellularLocation>
+  </comment>
+  <comment type="similarity">
+    <text evidence="4">Belongs to the bacteriocin class IIA/YGNGV family.</text>
+  </comment>
+  <dbReference type="EMBL" id="X75081">
+    <property type="protein sequence ID" value="CAA52974.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="Z25816">
+    <property type="protein sequence ID" value="CAA81064.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="Z48542">
+    <property type="protein sequence ID" value="CAA88428.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="AF002276">
+    <property type="protein sequence ID" value="AAB93970.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="PIR" id="S57911">
+    <property type="entry name" value="S38508"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="WP_004271264.1">
+    <property type="nucleotide sequence ID" value="NZ_LT960790.1"/>
+  </dbReference>
+  <dbReference type="PDB" id="1OG7">
+    <property type="method" value="NMR"/>
+    <property type="chains" value="A=19-61"/>
+  </dbReference>
+  <dbReference type="PDB" id="1OHM">
+    <property type="method" value="NMR"/>
+    <property type="chains" value="A=19-61"/>
+  </dbReference>
+  <dbReference type="PDB" id="1OHN">
+    <property type="method" value="NMR"/>
+    <property type="chains" value="A=19-61"/>
+  </dbReference>
+  <dbReference type="PDBsum" id="1OG7"/>
+  <dbReference type="PDBsum" id="1OHM"/>
+  <dbReference type="PDBsum" id="1OHN"/>
+  <dbReference type="AlphaFoldDB" id="P35618"/>
+  <dbReference type="SMR" id="P35618"/>
+  <dbReference type="TCDB" id="1.C.24.1.2">
+    <property type="family name" value="the pediocin (pediocin) family"/>
+  </dbReference>
+  <dbReference type="EvolutionaryTrace" id="P35618"/>
+  <dbReference type="GO" id="GO:0005576">
+    <property type="term" value="C:extracellular region"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-SubCell"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0042742">
+    <property type="term" value="P:defense response to bacterium"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0031640">
+    <property type="term" value="P:killing of cells of another organism"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="Gene3D" id="1.20.5.130">
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR002633">
+    <property type="entry name" value="Bacteriocin_IIa"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR023384">
+    <property type="entry name" value="Bacteriocin_IIa_CS"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR023388">
+    <property type="entry name" value="Bacteriocin_IIa_dom_sf"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF01721">
+    <property type="entry name" value="Bacteriocin_II"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="PROSITE" id="PS60030">
+    <property type="entry name" value="BACTERIOCIN_IIA"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="evidence at protein level"/>
+  <keyword id="KW-0002">3D-structure</keyword>
+  <keyword id="KW-0044">Antibiotic</keyword>
+  <keyword id="KW-0929">Antimicrobial</keyword>
+  <keyword id="KW-0078">Bacteriocin</keyword>
+  <keyword id="KW-0903">Direct protein sequencing</keyword>
+  <keyword id="KW-1015">Disulfide bond</keyword>
+  <keyword id="KW-0964">Secreted</keyword>
+  <feature type="propeptide" id="PRO_0000002751" evidence="2 3">
+    <location>
+      <begin position="1"/>
+      <end position="18"/>
+    </location>
+  </feature>
+  <feature type="chain" id="PRO_0000002752" description="Bacteriocin sakacin-P">
+    <location>
+      <begin position="19"/>
+      <end position="61"/>
+    </location>
+  </feature>
+  <feature type="disulfide bond" evidence="1">
+    <location>
+      <begin position="27"/>
+      <end position="32"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="5">
+    <location>
+      <begin position="20"/>
+      <end position="22"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="5">
+    <location>
+      <begin position="28"/>
+      <end position="30"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="5">
+    <location>
+      <begin position="37"/>
+      <end position="50"/>
+    </location>
+  </feature>
+  <feature type="turn" evidence="5">
+    <location>
+      <begin position="53"/>
+      <end position="59"/>
+    </location>
+  </feature>
+  <evidence type="ECO:0000269" key="1">
+    <source>
+      <dbReference type="PubMed" id="14516192"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="2">
+    <source>
+      <dbReference type="PubMed" id="8138128"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="3">
+    <source ref="4"/>
+  </evidence>
+  <evidence type="ECO:0000305" key="4"/>
+  <evidence type="ECO:0007829" key="5">
+    <source>
+      <dbReference type="PDB" id="1OG7"/>
+    </source>
+  </evidence>
+  <sequence length="61" mass="6385" checksum="B7BF14DCDD28A73D" modified="2001-08-29" version="2" precursor="true">MEKFIELSLKEVTAITGGKYYGNGVHCGKHSCTVDWGTAIGNIGNNAAANWATGGNAGWNK</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

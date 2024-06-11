@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="1995-11-01" modified="2023-09-13" version="72" xmlns="http://uniprot.org/uniprot">
+  <accession>P43683</accession>
+  <name>MRSA_BACSY</name>
+  <protein>
+    <recommendedName>
+      <fullName>Lantibiotic mersacidin</fullName>
+    </recommendedName>
+  </protein>
+  <gene>
+    <name type="primary">mrsA</name>
+  </gene>
+  <organism>
+    <name type="scientific">Bacillus sp. (strain HIL-Y85/54728)</name>
+    <dbReference type="NCBI Taxonomy" id="69002"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Bacillota</taxon>
+      <taxon>Bacilli</taxon>
+      <taxon>Bacillales</taxon>
+      <taxon>Bacillaceae</taxon>
+      <taxon>Bacillus</taxon>
+    </lineage>
+  </organism>
+  <reference key="1">
+    <citation type="journal article" date="1995" name="FEMS Microbiol. Lett." volume="127" first="121" last="126">
+      <title>Cloning, sequencing and production of the lantibiotic mersacidin.</title>
+      <authorList>
+        <person name="Bierbaum G."/>
+        <person name="Broetz H."/>
+        <person name="Koller K.-P."/>
+        <person name="Sahl H.-G."/>
+      </authorList>
+      <dbReference type="PubMed" id="7737474"/>
+      <dbReference type="DOI" id="10.1111/j.1574-6968.1995.tb07460.x"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+  </reference>
+  <reference key="2">
+    <citation type="journal article" date="2000" name="Appl. Environ. Microbiol." volume="66" first="2565" last="2571">
+      <title>Biosynthesis of the lantibiotic mersacidin: organization of a type B lantibiotic gene cluster.</title>
+      <authorList>
+        <person name="Altena K."/>
+        <person name="Guder A."/>
+        <person name="Cramer C."/>
+        <person name="Bierbaum G."/>
+      </authorList>
+      <dbReference type="PubMed" id="10831439"/>
+      <dbReference type="DOI" id="10.1128/aem.66.6.2565-2571.2000"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+  </reference>
+  <reference key="3">
+    <citation type="journal article" date="1997" name="Eur. J. Biochem." volume="246" first="193" last="199">
+      <title>The lantibiotic mersacidin inhibits peptidoglycan biosynthesis at the level of transglycosylation.</title>
+      <authorList>
+        <person name="Broetz H."/>
+        <person name="Bierbaum G."/>
+        <person name="Reynolds P.E."/>
+        <person name="Sahl H.-G."/>
+      </authorList>
+      <dbReference type="PubMed" id="9210483"/>
+      <dbReference type="DOI" id="10.1111/j.1432-1033.1997.t01-1-00193.x"/>
+    </citation>
+    <scope>CHARACTERIZATION</scope>
+  </reference>
+  <reference key="4">
+    <citation type="journal article" date="1997" name="Eur. J. Biochem." volume="244" first="501" last="512">
+      <title>Constitution and solution conformation of the antibiotic mersacidin determined by NMR and molecular dynamics.</title>
+      <authorList>
+        <person name="Prasch T."/>
+        <person name="Naumann T."/>
+        <person name="Markert R.L.M."/>
+        <person name="Sattler M."/>
+        <person name="Schubert W."/>
+        <person name="Schaal S."/>
+        <person name="Bauch M."/>
+        <person name="Kogler H."/>
+        <person name="Gresinger C."/>
+      </authorList>
+      <dbReference type="PubMed" id="9119018"/>
+      <dbReference type="DOI" id="10.1111/j.1432-1033.1997.00501.x"/>
+    </citation>
+    <scope>STRUCTURE BY NMR</scope>
+    <scope>DEHYDRATION AT SER-64</scope>
+    <scope>LANTHIONINE CROSS-LINKS</scope>
+  </reference>
+  <reference key="5">
+    <citation type="journal article" date="2000" name="Acta Crystallogr. D" volume="56" first="705" last="713">
+      <title>Ab initio structure determination of the lantibiotic mersacidin.</title>
+      <authorList>
+        <person name="Schneider T.R."/>
+        <person name="Karcher J."/>
+        <person name="Pohl E."/>
+        <person name="Lubini P."/>
+        <person name="Sheldrick G.M."/>
+      </authorList>
+      <dbReference type="PubMed" id="10818347"/>
+      <dbReference type="DOI" id="10.1107/s0907444900003711"/>
+    </citation>
+    <scope>X-RAY CRYSTALLOGRAPHY (1.06 ANGSTROMS)</scope>
+  </reference>
+  <comment type="function">
+    <text>Kills a number of Gram-positive bacteria. Acts at the level of cell wall biosynthesis by interfering with bacterial peptidoglycan biosynthesis. Specifically inhibits the conversion of the lipid II intermediate into polymeric nascent glycan strands by transglycosylation. May interact with the peptidoglycan precursor rather than with the enzyme.</text>
+  </comment>
+  <comment type="PTM">
+    <text>Maturation of lantibiotics involves the enzymatic conversion of Thr, and Ser into dehydrated AA and the formation of thioether bonds with cysteine. The carboxy-terminal beta-methyllanthionine undergoes decarboxylation. This is followed by membrane translocation and cleavage of the modified precursor.</text>
+  </comment>
+  <comment type="similarity">
+    <text evidence="3">Belongs to the type B lantibiotic family.</text>
+  </comment>
+  <dbReference type="EMBL" id="Z47559">
+    <property type="protein sequence ID" value="CAA87640.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="AJ250862">
+    <property type="protein sequence ID" value="CAB60258.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="PDB" id="1MQX">
+    <property type="method" value="NMR"/>
+    <property type="chains" value="A=49-67"/>
+  </dbReference>
+  <dbReference type="PDB" id="1MQY">
+    <property type="method" value="NMR"/>
+    <property type="chains" value="A=49-67"/>
+  </dbReference>
+  <dbReference type="PDB" id="1MQZ">
+    <property type="method" value="NMR"/>
+    <property type="chains" value="A=49-67"/>
+  </dbReference>
+  <dbReference type="PDB" id="1QOW">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="1.06 A"/>
+    <property type="chains" value="A/B/C/D/E/F=49-67"/>
+  </dbReference>
+  <dbReference type="PDBsum" id="1MQX"/>
+  <dbReference type="PDBsum" id="1MQY"/>
+  <dbReference type="PDBsum" id="1MQZ"/>
+  <dbReference type="PDBsum" id="1QOW"/>
+  <dbReference type="AlphaFoldDB" id="P43683"/>
+  <dbReference type="SMR" id="P43683"/>
+  <dbReference type="DrugBank" id="DB02688">
+    <property type="generic name" value="2,3-Didehydroalanine"/>
+  </dbReference>
+  <dbReference type="DrugBank" id="DB01968">
+    <property type="generic name" value="2-Thioethenamine"/>
+  </dbReference>
+  <dbReference type="DrugBank" id="DB04454">
+    <property type="generic name" value="Alpha-Aminobutyric Acid"/>
+  </dbReference>
+  <dbReference type="EvolutionaryTrace" id="P43683"/>
+  <dbReference type="GO" id="GO:0005102">
+    <property type="term" value="F:signaling receptor binding"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0042742">
+    <property type="term" value="P:defense response to bacterium"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0031640">
+    <property type="term" value="P:killing of cells of another organism"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR027635">
+    <property type="entry name" value="Lantibiotic2_lead_pep_dom"/>
+  </dbReference>
+  <dbReference type="NCBIfam" id="TIGR03898">
+    <property type="entry name" value="lanti_MRSA_kill"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="NCBIfam" id="NF000539">
+    <property type="entry name" value="plantaricin"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="evidence at protein level"/>
+  <keyword id="KW-0002">3D-structure</keyword>
+  <keyword id="KW-0044">Antibiotic</keyword>
+  <keyword id="KW-0929">Antimicrobial</keyword>
+  <keyword id="KW-0078">Bacteriocin</keyword>
+  <keyword id="KW-0208">D-amino acid</keyword>
+  <keyword id="KW-0425">Lantibiotic</keyword>
+  <keyword id="KW-0883">Thioether bond</keyword>
+  <feature type="propeptide" id="PRO_0000017150">
+    <location>
+      <begin position="1"/>
+      <end position="48"/>
+    </location>
+  </feature>
+  <feature type="peptide" id="PRO_0000017151" description="Lantibiotic mersacidin">
+    <location>
+      <begin position="49"/>
+      <end position="68"/>
+    </location>
+  </feature>
+  <feature type="region of interest" description="Disordered" evidence="1">
+    <location>
+      <begin position="1"/>
+      <end position="28"/>
+    </location>
+  </feature>
+  <feature type="compositionally biased region" description="Polar residues" evidence="1">
+    <location>
+      <begin position="13"/>
+      <end position="28"/>
+    </location>
+  </feature>
+  <feature type="modified residue" description="2,3-didehydroalanine (Ser)" evidence="2">
+    <location>
+      <position position="64"/>
+    </location>
+  </feature>
+  <feature type="cross-link" description="Beta-methyllanthionine (Cys-Thr)" evidence="2">
+    <location>
+      <begin position="49"/>
+      <end position="50"/>
+    </location>
+  </feature>
+  <feature type="cross-link" description="Beta-methyllanthionine (Thr-Cys)" evidence="2">
+    <location>
+      <begin position="52"/>
+      <end position="60"/>
+    </location>
+  </feature>
+  <feature type="cross-link" description="Beta-methyllanthionine (Thr-Cys)" evidence="2">
+    <location>
+      <begin position="61"/>
+      <end position="66"/>
+    </location>
+  </feature>
+  <feature type="cross-link" description="S-(2-aminovinyl)-3-methyl-D-cysteine (Thr-Cys)" evidence="2">
+    <location>
+      <begin position="63"/>
+      <end position="68"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="4">
+    <location>
+      <begin position="51"/>
+      <end position="53"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="5">
+    <location>
+      <begin position="56"/>
+      <end position="58"/>
+    </location>
+  </feature>
+  <evidence type="ECO:0000256" key="1">
+    <source>
+      <dbReference type="SAM" id="MobiDB-lite"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="2">
+    <source>
+      <dbReference type="PubMed" id="9119018"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000305" key="3"/>
+  <evidence type="ECO:0007829" key="4">
+    <source>
+      <dbReference type="PDB" id="1MQY"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007829" key="5">
+    <source>
+      <dbReference type="PDB" id="1MQZ"/>
+    </source>
+  </evidence>
+  <sequence length="68" mass="7228" checksum="7718B772AE56A51F" modified="1995-11-01" version="1" precursor="true">MSQEAIIRSWKDPFSRENSTQNPAGNPFSELKEAQMDKLVGAGDMEAACTFTLPGGGGVCTLTSECIC</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

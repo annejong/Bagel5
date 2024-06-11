@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2007-10-02" modified="2023-09-13" version="15" xmlns="http://uniprot.org/uniprot">
+  <accession>A7M6Q0</accession>
+  <name>A7M6Q0_9LACT</name>
+  <protein>
+    <submittedName>
+      <fullName evidence="1">Lacticin Z</fullName>
+    </submittedName>
+  </protein>
+  <gene>
+    <name evidence="1" type="primary">lnqZ</name>
+  </gene>
+  <organism evidence="1">
+    <name type="scientific">Lactococcus lactis</name>
+    <dbReference type="NCBI Taxonomy" id="1358"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Bacillota</taxon>
+      <taxon>Bacilli</taxon>
+      <taxon>Lactobacillales</taxon>
+      <taxon>Streptococcaceae</taxon>
+      <taxon>Lactococcus</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="1" key="1">
+    <citation type="journal article" date="2007" name="Biosci. Biotechnol. Biochem." volume="71" first="1984" last="1992">
+      <title>Characterization and structure analysis of a novel bacteriocin, lacticin Z, produced by Lactococcus lactis QU 14.</title>
+      <authorList>
+        <person name="Iwatani S."/>
+        <person name="Zendo T."/>
+        <person name="Yoneyama F."/>
+        <person name="Nakayama J."/>
+        <person name="Sonomoto K."/>
+      </authorList>
+      <dbReference type="PubMed" id="17690480"/>
+      <dbReference type="DOI" id="10.1271/bbb.70169"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="1">QU 14</strain>
+    </source>
+  </reference>
+  <reference evidence="2" key="2">
+    <citation type="journal article" date="2012" name="Microbiology" volume="158" first="2927" last="2935">
+      <title>Identification of the genes involved in the secretion and self-immunity of lacticin Q, an unmodified leaderless bacteriocin from Lactococcus lactis QU 5.</title>
+      <authorList>
+        <person name="Iwatani S."/>
+        <person name="Yoneyama F."/>
+        <person name="Miyashita S."/>
+        <person name="Zendo T."/>
+        <person name="Nakayama J."/>
+        <person name="Sonomoto K."/>
+      </authorList>
+      <dbReference type="PubMed" id="23103973"/>
+      <dbReference type="DOI" id="10.1099/mic.0.062943-0"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="2">QU 14</strain>
+    </source>
+  </reference>
+  <dbReference type="EMBL" id="AB298287">
+    <property type="protein sequence ID" value="BAF75975.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="AB740019">
+    <property type="protein sequence ID" value="BAM73616.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="A7M6Q0"/>
+  <dbReference type="SMR" id="A7M6Q0"/>
+  <dbReference type="InterPro" id="IPR020968">
+    <property type="entry name" value="Bacteriocin_II_aureocin-like"/>
+  </dbReference>
+  <dbReference type="NCBIfam" id="NF033881">
+    <property type="entry name" value="aureocin_A53"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF11758">
+    <property type="entry name" value="Bacteriocin_IIi"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="predicted"/>
+  <evidence type="ECO:0000313" key="1">
+    <source>
+      <dbReference type="EMBL" id="BAF75975.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="2">
+    <source>
+      <dbReference type="EMBL" id="BAM73616.1"/>
+    </source>
+  </evidence>
+  <sequence length="53" mass="5940" checksum="C5E923E510340383" modified="2007-10-02" version="1">MAGFLKVVQILAKYGSKAVQWAWANKGKILDWINAGQAIDWVVEKIKQILGIK</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

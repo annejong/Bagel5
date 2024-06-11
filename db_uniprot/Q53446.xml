@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="1998-12-15" modified="2023-05-03" version="86" xmlns="http://uniprot.org/uniprot">
+  <accession>Q53446</accession>
+  <name>LCCB_LEUCA</name>
+  <protein>
+    <recommendedName>
+      <fullName>Bacteriocin leucocin-B</fullName>
+    </recommendedName>
+    <alternativeName>
+      <fullName>Leucocin B-Ta11a</fullName>
+    </alternativeName>
+  </protein>
+  <organism>
+    <name type="scientific">Leuconostoc carnosum</name>
+    <dbReference type="NCBI Taxonomy" id="1252"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Bacillota</taxon>
+      <taxon>Bacilli</taxon>
+      <taxon>Lactobacillales</taxon>
+      <taxon>Lactobacillaceae</taxon>
+      <taxon>Leuconostoc</taxon>
+    </lineage>
+  </organism>
+  <geneLocation type="plasmid">
+    <name>8.9-MDa</name>
+  </geneLocation>
+  <reference key="1">
+    <citation type="journal article" date="1994" name="Curr. Microbiol." volume="29" first="207" last="212">
+      <title>Characterization of leucocin B-Ta11a: a bacteriocin from Leuconostoc carnosum Ta11a isolated from meat.</title>
+      <authorList>
+        <person name="Felix J.V."/>
+        <person name="Papathanasopoulos M.A."/>
+        <person name="Smith A.A."/>
+        <person name="von Holy A."/>
+        <person name="Hastings J.W."/>
+      </authorList>
+      <dbReference type="PubMed" id="7765496"/>
+      <dbReference type="DOI" id="10.1007/bf01570155"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+    <source>
+      <strain>Ta11a</strain>
+    </source>
+  </reference>
+  <comment type="function">
+    <text>Active against L.monocytogenes and several lactic acid bacteria.</text>
+  </comment>
+  <comment type="subcellular location">
+    <subcellularLocation>
+      <location>Secreted</location>
+    </subcellularLocation>
+  </comment>
+  <comment type="similarity">
+    <text evidence="2">Belongs to the bacteriocin class IIA/YGNGV family.</text>
+  </comment>
+  <dbReference type="EMBL" id="S72922">
+    <property type="protein sequence ID" value="AAC60488.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="Q53446"/>
+  <dbReference type="SMR" id="Q53446"/>
+  <dbReference type="GO" id="GO:0005576">
+    <property type="term" value="C:extracellular region"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-SubCell"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0005186">
+    <property type="term" value="F:pheromone activity"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="InterPro"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0042742">
+    <property type="term" value="P:defense response to bacterium"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0031640">
+    <property type="term" value="P:killing of cells of another organism"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="Gene3D" id="1.20.5.130">
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR002633">
+    <property type="entry name" value="Bacteriocin_IIa"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR023384">
+    <property type="entry name" value="Bacteriocin_IIa_CS"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR023388">
+    <property type="entry name" value="Bacteriocin_IIa_dom_sf"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR004288">
+    <property type="entry name" value="Competence_ComC"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF01721">
+    <property type="entry name" value="Bacteriocin_II"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF03047">
+    <property type="entry name" value="ComC"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="PROSITE" id="PS60030">
+    <property type="entry name" value="BACTERIOCIN_IIA"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="inferred from homology"/>
+  <keyword id="KW-0044">Antibiotic</keyword>
+  <keyword id="KW-0929">Antimicrobial</keyword>
+  <keyword id="KW-0078">Bacteriocin</keyword>
+  <keyword id="KW-1015">Disulfide bond</keyword>
+  <keyword id="KW-0614">Plasmid</keyword>
+  <keyword id="KW-0964">Secreted</keyword>
+  <feature type="propeptide" id="PRO_0000002740" evidence="1">
+    <location>
+      <begin position="1"/>
+      <end position="24"/>
+    </location>
+  </feature>
+  <feature type="chain" id="PRO_0000002741" description="Bacteriocin leucocin-B">
+    <location>
+      <begin position="25"/>
+      <end position="61"/>
+    </location>
+  </feature>
+  <feature type="disulfide bond" evidence="1">
+    <location>
+      <begin position="33"/>
+      <end position="38"/>
+    </location>
+  </feature>
+  <evidence type="ECO:0000250" key="1"/>
+  <evidence type="ECO:0000305" key="2"/>
+  <sequence length="61" mass="6568" checksum="AC405015D86C0EA4" modified="1996-11-01" version="1" precursor="true">MNNMKSADNYQQLDNNALEQVVGGKYYGNGVHCTKSGCSVNWGEAFSAGVHRLANGGNGFW</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

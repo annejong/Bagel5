@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2020-12-02" modified="2023-09-13" version="6" xmlns="http://uniprot.org/uniprot">
+  <accession>A0A6S4QIZ3</accession>
+  <name>A0A6S4QIZ3_9ACTN</name>
+  <protein>
+    <submittedName>
+      <fullName evidence="2">Structure protein</fullName>
+    </submittedName>
+  </protein>
+  <gene>
+    <name evidence="2" type="primary">gdvA</name>
+  </gene>
+  <organism evidence="2">
+    <name type="scientific">Streptomyces sp. TP-A0584</name>
+    <dbReference type="NCBI Taxonomy" id="314563"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Actinomycetota</taxon>
+      <taxon>Actinomycetes</taxon>
+      <taxon>Kitasatosporales</taxon>
+      <taxon>Streptomycetaceae</taxon>
+      <taxon>Streptomyces</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="2" key="1">
+    <citation type="journal article" date="2020" name="Nat. Chem.">
+      <title>Acyltransferase that catalyses the condensation of polyketide and peptide moieties of goadvionin hybrid lipopeptides.</title>
+      <authorList>
+        <person name="Kozakai R."/>
+        <person name="Ono T."/>
+        <person name="Hoshino S."/>
+        <person name="Takahashi H."/>
+        <person name="Katsuyama Y."/>
+        <person name="Sugai Y."/>
+        <person name="Ozaki T."/>
+        <person name="Teramoto K."/>
+        <person name="Teramoto K."/>
+        <person name="Tanaka K."/>
+        <person name="Abe I."/>
+        <person name="Asamizu S."/>
+        <person name="Onaka H."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="2">TP-A0584</strain>
+    </source>
+  </reference>
+  <dbReference type="EMBL" id="LC481990">
+    <property type="protein sequence ID" value="BBK07997.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="A0A6S4QIZ3"/>
+  <dbReference type="NCBIfam" id="NF038154">
+    <property type="entry name" value="lanthi_III_a"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="predicted"/>
+  <feature type="region of interest" description="Disordered" evidence="1">
+    <location>
+      <begin position="1"/>
+      <end position="29"/>
+    </location>
+  </feature>
+  <evidence type="ECO:0000256" key="1">
+    <source>
+      <dbReference type="SAM" id="MobiDB-lite"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="2">
+    <source>
+      <dbReference type="EMBL" id="BBK07997.1"/>
+    </source>
+  </evidence>
+  <sequence length="29" mass="3145" checksum="68B98B0135DA1392" modified="2020-12-02" version="1">MESILDLQELETSEEESALMAASTVSNNC</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="1998-12-15" modified="2023-06-28" version="80" xmlns="http://uniprot.org/uniprot">
+  <accession>Q47502</accession>
+  <accession>P75615</accession>
+  <name>CEAK_ECOLX</name>
+  <protein>
+    <recommendedName>
+      <fullName>Colicin-K</fullName>
+    </recommendedName>
+  </protein>
+  <gene>
+    <name type="primary">cka</name>
+  </gene>
+  <organism>
+    <name type="scientific">Escherichia coli</name>
+    <dbReference type="NCBI Taxonomy" id="562"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Pseudomonadota</taxon>
+      <taxon>Gammaproteobacteria</taxon>
+      <taxon>Enterobacterales</taxon>
+      <taxon>Enterobacteriaceae</taxon>
+      <taxon>Escherichia</taxon>
+    </lineage>
+  </organism>
+  <geneLocation type="plasmid">
+    <name>ColK-K235</name>
+  </geneLocation>
+  <reference key="1">
+    <citation type="journal article" date="1995" name="J. Bacteriol." volume="177" first="6973" last="6977">
+      <title>Strong function-related homology between the pore-forming colicins K and 5.</title>
+      <authorList>
+        <person name="Pilsl H."/>
+        <person name="Braun V."/>
+      </authorList>
+      <dbReference type="PubMed" id="7592493"/>
+      <dbReference type="DOI" id="10.1128/jb.177.23.6973-6977.1995"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+    <source>
+      <strain>K49</strain>
+    </source>
+  </reference>
+  <reference key="2">
+    <citation type="submission" date="1995-05" db="EMBL/GenBank/DDBJ databases">
+      <authorList>
+        <person name="Izard J."/>
+        <person name="Chartier M."/>
+        <person name="Baty D."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+  </reference>
+  <comment type="function">
+    <text>This colicin is a channel-forming colicin. This class of transmembrane toxins depolarize the cytoplasmic membrane, leading to dissipation of cellular energy.</text>
+  </comment>
+  <comment type="function">
+    <text>Colicins are polypeptide toxins produced by and active against E.coli and closely related bacteria.</text>
+  </comment>
+  <comment type="subcellular location">
+    <subcellularLocation>
+      <location evidence="3">Host membrane</location>
+    </subcellularLocation>
+  </comment>
+  <comment type="similarity">
+    <text evidence="3">Belongs to the channel forming colicin family.</text>
+  </comment>
+  <dbReference type="EMBL" id="X87834">
+    <property type="protein sequence ID" value="CAA61099.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="U27452">
+    <property type="protein sequence ID" value="AAB41288.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="WP_011264160.1">
+    <property type="nucleotide sequence ID" value="NZ_VOUK01000061.1"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="YP_214172.1">
+    <property type="nucleotide sequence ID" value="NC_006881.1"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="Q47502"/>
+  <dbReference type="SMR" id="Q47502"/>
+  <dbReference type="TCDB" id="1.C.1.2.1">
+    <property type="family name" value="the channel-forming colicin (colicin) family"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0033644">
+    <property type="term" value="C:host cell membrane"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-SubCell"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0016020">
+    <property type="term" value="C:membrane"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0140911">
+    <property type="term" value="F:pore-forming activity"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="InterPro"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0050829">
+    <property type="term" value="P:defense response to Gram-negative bacterium"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="InterPro"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0031640">
+    <property type="term" value="P:killing of cells of another organism"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="Gene3D" id="2.30.30.970">
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Gene3D" id="1.10.490.30">
+    <property type="entry name" value="Colicin"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR000293">
+    <property type="entry name" value="Channel_colicin_C"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR038283">
+    <property type="entry name" value="Channel_colicin_C_sf"/>
+  </dbReference>
+  <dbReference type="PANTHER" id="PTHR23159:SF53">
+    <property type="entry name" value="CENTROSOMAL PROTEIN 135KDA, ISOFORM B"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="PANTHER" id="PTHR23159">
+    <property type="entry name" value="CENTROSOMAL PROTEIN 2"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF01024">
+    <property type="entry name" value="Colicin"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="PRINTS" id="PR00280">
+    <property type="entry name" value="CHANLCOLICIN"/>
+  </dbReference>
+  <dbReference type="SUPFAM" id="SSF56837">
+    <property type="entry name" value="Colicin"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="PROSITE" id="PS00276">
+    <property type="entry name" value="CHANNEL_COLICIN"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="inferred from homology"/>
+  <keyword id="KW-0044">Antibiotic</keyword>
+  <keyword id="KW-0929">Antimicrobial</keyword>
+  <keyword id="KW-0078">Bacteriocin</keyword>
+  <keyword id="KW-1043">Host membrane</keyword>
+  <keyword id="KW-0472">Membrane</keyword>
+  <keyword id="KW-0614">Plasmid</keyword>
+  <keyword id="KW-0812">Transmembrane</keyword>
+  <keyword id="KW-1133">Transmembrane helix</keyword>
+  <feature type="chain" id="PRO_0000218671" description="Colicin-K">
+    <location>
+      <begin position="1"/>
+      <end position="548"/>
+    </location>
+  </feature>
+  <feature type="transmembrane region" description="Helical" evidence="1">
+    <location>
+      <begin position="505"/>
+      <end position="525"/>
+    </location>
+  </feature>
+  <feature type="region of interest" description="Disordered" evidence="2">
+    <location>
+      <begin position="1"/>
+      <end position="63"/>
+    </location>
+  </feature>
+  <feature type="compositionally biased region" description="Polar residues" evidence="2">
+    <location>
+      <begin position="17"/>
+      <end position="63"/>
+    </location>
+  </feature>
+  <feature type="sequence conflict" description="In Ref. 2; AAB41288." evidence="3" ref="2">
+    <original>S</original>
+    <variation>G</variation>
+    <location>
+      <position position="155"/>
+    </location>
+  </feature>
+  <evidence type="ECO:0000255" key="1"/>
+  <evidence type="ECO:0000256" key="2">
+    <source>
+      <dbReference type="SAM" id="MobiDB-lite"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000305" key="3"/>
+  <sequence length="548" mass="59662" checksum="2E67689D088CCF86" modified="1996-11-01" version="1">MAKELSGYGPTAGESMGGTGANLNQQGGNNNSNSGVHWGGGSGHGNNGGQGNSNSSGSTSTVMKTGESYLTPWGDVVINNDGLPVMNGIVMTEENSTLVDNPFGGVSRVLNSLISDMPSLFAESSGNNNNNTASVNTAPTNAQVSDMDKSSKVVSNVINEKQKQKNKIATQISEKQKKIEEMKKVFKHHSYHGITDLERDVDELQKKSNQLDADISKLNSYKNTLQSKIGDVNKQKEAEEKARENAEVAEHETLNEEKQAVAEAEKRLAEAKAELAKAESDVQSKQATVSRVAGELENAQKSVDVKVTGFPGWRDVQKKLQRQLEAKQAEYSAVENELKNAVSFRDGKAAEVKEAEQKLKEAQDALEKSQIKDAVDTMVGFYQYITEQYGEKYAKIAQDLAEKSKGKKIQGVDEALAAFEKYKNVLDKKFSKVDRDAIFNALESVNYDELSKNLTKISKSLKITSRVSFLYDVGSDFKNAIETGNWRPLFVTLEKSAVDVGVAKIVALMFSFIVGVPLGFWGIAIVTGIVSSYIGDDELSKLNELLGI</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

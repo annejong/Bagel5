@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2015-05-27" modified="2024-01-24" version="51" xmlns="http://uniprot.org/uniprot">
+  <accession>A0A0E1QJL3</accession>
+  <name>A0A0E1QJL3_CLOBO</name>
+  <protein>
+    <submittedName>
+      <fullName evidence="2">Clostridiolysin S</fullName>
+    </submittedName>
+  </protein>
+  <gene>
+    <name evidence="2" type="primary">closA</name>
+    <name evidence="3" type="ORF">FC794_10435</name>
+    <name evidence="4" type="ORF">FC964_00400</name>
+    <name evidence="2" type="ORF">FCV25_15910</name>
+    <name evidence="5" type="ORF">FDC65_16340</name>
+    <name evidence="1" type="ORF">HYH72_00410</name>
+  </gene>
+  <organism evidence="2 6">
+    <name type="scientific">Clostridium botulinum</name>
+    <dbReference type="NCBI Taxonomy" id="1491"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Bacillota</taxon>
+      <taxon>Clostridia</taxon>
+      <taxon>Eubacteriales</taxon>
+      <taxon>Clostridiaceae</taxon>
+      <taxon>Clostridium</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="6 7" key="1">
+    <citation type="submission" date="2019-04" db="EMBL/GenBank/DDBJ databases">
+      <title>Genome sequencing of Clostridium botulinum Groups I-IV and Clostridium butyricum.</title>
+      <authorList>
+        <person name="Brunt J."/>
+        <person name="Van Vliet A.H.M."/>
+        <person name="Stringer S.C."/>
+        <person name="Carter A.T."/>
+        <person name="Peck M.W."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="5">CDC 15044</strain>
+      <strain evidence="4 8">IFR 15/034</strain>
+      <strain evidence="3 7">IFR 18/037</strain>
+      <strain evidence="2 6">IFR 18/054</strain>
+    </source>
+  </reference>
+  <reference evidence="1" key="2">
+    <citation type="submission" date="2020-07" db="EMBL/GenBank/DDBJ databases">
+      <title>The genomes of food pathogen Clostridium botulinum.</title>
+      <authorList>
+        <person name="Schill K.M."/>
+        <person name="Tian R."/>
+        <person name="Imanian B."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="1">DFPST0041</strain>
+    </source>
+  </reference>
+  <comment type="caution">
+    <text evidence="2">The sequence shown here is derived from an EMBL/GenBank/DDBJ whole genome shotgun (WGS) entry which is preliminary data.</text>
+  </comment>
+  <dbReference type="EMBL" id="JACBCU010000001">
+    <property type="protein sequence ID" value="MBD5585982.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="SWND01000011">
+    <property type="protein sequence ID" value="NFF03217.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="SWOY01000003">
+    <property type="protein sequence ID" value="NFG17202.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="SWRJ01000001">
+    <property type="protein sequence ID" value="NFI19870.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="SWZI01000027">
+    <property type="protein sequence ID" value="NFP23300.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="WP_003357148.1">
+    <property type="nucleotide sequence ID" value="NZ_SWYN01000010.1"/>
+  </dbReference>
+  <dbReference type="GeneID" id="5184741"/>
+  <dbReference type="OMA" id="MLQFTSN"/>
+  <dbReference type="Proteomes" id="UP000472521">
+    <property type="component" value="Unassembled WGS sequence"/>
+  </dbReference>
+  <dbReference type="Proteomes" id="UP000478995">
+    <property type="component" value="Unassembled WGS sequence"/>
+  </dbReference>
+  <dbReference type="Proteomes" id="UP000482543">
+    <property type="component" value="Unassembled WGS sequence"/>
+  </dbReference>
+  <dbReference type="Proteomes" id="UP000650836">
+    <property type="component" value="Unassembled WGS sequence"/>
+  </dbReference>
+  <dbReference type="Proteomes" id="UP000733035">
+    <property type="component" value="Unassembled WGS sequence"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR019891">
+    <property type="entry name" value="Bacteriocin_streptolysin_S_pre"/>
+  </dbReference>
+  <dbReference type="NCBIfam" id="TIGR03602">
+    <property type="entry name" value="streptolysinS"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="predicted"/>
+  <evidence type="ECO:0000313" key="1">
+    <source>
+      <dbReference type="EMBL" id="MBD5585982.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="2">
+    <source>
+      <dbReference type="EMBL" id="NFF03217.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="3">
+    <source>
+      <dbReference type="EMBL" id="NFG17202.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="4">
+    <source>
+      <dbReference type="EMBL" id="NFI19870.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="5">
+    <source>
+      <dbReference type="EMBL" id="NFP23300.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="6">
+    <source>
+      <dbReference type="Proteomes" id="UP000472521"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="7">
+    <source>
+      <dbReference type="Proteomes" id="UP000478995"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="8">
+    <source>
+      <dbReference type="Proteomes" id="UP000482543"/>
+    </source>
+  </evidence>
+  <sequence length="57" mass="5416" checksum="427DE0C45A1377E3" modified="2015-05-27" version="1">MLKFNEHVLTTTNNSNNKVTVAPGSCCCCSCCCCVSVSVGGGSASTGGGAAAGQGGN</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

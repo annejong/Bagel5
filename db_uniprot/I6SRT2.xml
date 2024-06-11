@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2012-10-03" modified="2024-01-24" version="14" xmlns="http://uniprot.org/uniprot">
+  <accession>I6SRT2</accession>
+  <name>I6SRT2_LACPN</name>
+  <protein>
+    <submittedName>
+      <fullName evidence="1">Putative plantaricin NC8 beta peptide</fullName>
+    </submittedName>
+  </protein>
+  <gene>
+    <name evidence="1" type="primary">plnc8B</name>
+  </gene>
+  <organism evidence="1">
+    <name type="scientific">Lactiplantibacillus plantarum subsp. plantarum</name>
+    <dbReference type="NCBI Taxonomy" id="337330"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Bacillota</taxon>
+      <taxon>Bacilli</taxon>
+      <taxon>Lactobacillales</taxon>
+      <taxon>Lactobacillaceae</taxon>
+      <taxon>Lactiplantibacillus</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="1" key="1">
+    <citation type="submission" date="2012-04" db="EMBL/GenBank/DDBJ databases">
+      <title>Genetic analysis plantaricin locus of Lactobacillus plantarum subsp. plantarum YM-5-2.</title>
+      <authorList>
+        <person name="Zhang Z.H."/>
+        <person name="Liu C.J."/>
+        <person name="Gong F.M."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="1">YM-5-2</strain>
+    </source>
+  </reference>
+  <dbReference type="EMBL" id="JQ900767">
+    <property type="protein sequence ID" value="AFM80195.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="I6SRT2"/>
+  <dbReference type="InterPro" id="IPR004288">
+    <property type="entry name" value="Competence_ComC"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF03047">
+    <property type="entry name" value="ComC"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="predicted"/>
+  <evidence type="ECO:0000313" key="1">
+    <source>
+      <dbReference type="EMBL" id="AFM80195.1"/>
+    </source>
+  </evidence>
+  <sequence length="55" mass="6208" checksum="41AE6233E404FD08" modified="2012-10-03" version="1">MNNLNKFSTLGKSSLSQIEGGSVPTSVYTLGIKILWSAYKHRKTIEKSFNKGFYH</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

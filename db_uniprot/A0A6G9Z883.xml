@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2020-08-12" modified="2023-09-13" version="8" xmlns="http://uniprot.org/uniprot">
+  <accession>A0A6G9Z883</accession>
+  <name>A0A6G9Z883_9NOCA</name>
+  <protein>
+    <recommendedName>
+      <fullName evidence="3">Thiazolylpeptide-type bacteriocin</fullName>
+    </recommendedName>
+  </protein>
+  <gene>
+    <name evidence="1" type="ORF">F6W96_28125</name>
+  </gene>
+  <organism evidence="1 2">
+    <name type="scientific">Nocardia terpenica</name>
+    <dbReference type="NCBI Taxonomy" id="455432"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Actinomycetota</taxon>
+      <taxon>Actinomycetes</taxon>
+      <taxon>Mycobacteriales</taxon>
+      <taxon>Nocardiaceae</taxon>
+      <taxon>Nocardia</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="1 2" key="1">
+    <citation type="journal article" date="2019" name="ACS Chem. Biol.">
+      <title>Identification and Mobilization of a Cryptic Antibiotic Biosynthesis Gene Locus from a Human-Pathogenic Nocardia Isolate.</title>
+      <authorList>
+        <person name="Herisse M."/>
+        <person name="Ishida K."/>
+        <person name="Porter J.L."/>
+        <person name="Howden B."/>
+        <person name="Hertweck C."/>
+        <person name="Stinear T.P."/>
+        <person name="Pidot S.J."/>
+      </authorList>
+      <dbReference type="PubMed" id="31697466"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="1 2">AUSMDU00012715</strain>
+    </source>
+  </reference>
+  <dbReference type="EMBL" id="CP046173">
+    <property type="protein sequence ID" value="QIS21630.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="A0A6G9Z883"/>
+  <dbReference type="Proteomes" id="UP000500953">
+    <property type="component" value="Chromosome"/>
+  </dbReference>
+  <dbReference type="NCBIfam" id="NF038395">
+    <property type="entry name" value="nocathioamide"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="predicted"/>
+  <evidence type="ECO:0000313" key="1">
+    <source>
+      <dbReference type="EMBL" id="QIS21630.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="2">
+    <source>
+      <dbReference type="Proteomes" id="UP000500953"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0008006" key="3">
+    <source>
+      <dbReference type="Google" id="ProtNLM"/>
+    </source>
+  </evidence>
+  <sequence length="51" mass="5644" checksum="F2505840AF4597C2" modified="2020-08-12" version="1">MKMMKRNEEVAESGYDDFDLNIIDSSMFDDESSRPAAPACHTLSSLPCCAN</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

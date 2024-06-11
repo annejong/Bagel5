@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2019-06-05" modified="2023-06-28" version="4" xmlns="http://uniprot.org/uniprot">
+  <accession>A0A481XYR2</accession>
+  <name>A0A481XYR2_9PSEU</name>
+  <protein>
+    <submittedName>
+      <fullName evidence="1">LanA1</fullName>
+    </submittedName>
+  </protein>
+  <organism evidence="1">
+    <name type="scientific">Saccharopolyspora cebuensis</name>
+    <dbReference type="NCBI Taxonomy" id="418759"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Actinomycetota</taxon>
+      <taxon>Actinomycetes</taxon>
+      <taxon>Pseudonocardiales</taxon>
+      <taxon>Pseudonocardiaceae</taxon>
+      <taxon>Saccharopolyspora</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="1" key="1">
+    <citation type="journal article" date="2019" name="ACS Chem. Biol.">
+      <title>Bioactivity-HiTES Unveils Cryptic Antibiotics Encoded in Actinomycete Bacteria.</title>
+      <authorList>
+        <person name="Moon K."/>
+        <person name="Xu F."/>
+        <person name="Zhang C."/>
+        <person name="Seyedsayamdost M.R."/>
+      </authorList>
+      <dbReference type="PubMed" id="30830740"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="1">DSM 45019</strain>
+    </source>
+  </reference>
+  <dbReference type="EMBL" id="MK423958">
+    <property type="protein sequence ID" value="QBK47606.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="A0A481XYR2"/>
+  <proteinExistence type="predicted"/>
+  <evidence type="ECO:0000313" key="1">
+    <source>
+      <dbReference type="EMBL" id="QBK47606.1"/>
+    </source>
+  </evidence>
+  <sequence length="55" mass="5523" checksum="3ED5EF23504A80B4" modified="2019-06-05" version="1">MSAPVQDFDLDVDTTSFAAPGGGALSEDGIEARGPITFGTTCWGTPCPSANTVSC</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

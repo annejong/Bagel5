@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2018-11-07" modified="2024-01-24" version="14" xmlns="http://uniprot.org/uniprot">
+  <accession>A0A372ZMY9</accession>
+  <name>A0A372ZMY9_9ACTN</name>
+  <protein>
+    <recommendedName>
+      <fullName evidence="4">Mersacidin/lichenicidin family type 2 lantibiotic</fullName>
+    </recommendedName>
+  </protein>
+  <gene>
+    <name evidence="2" type="ORF">DR950_03290</name>
+  </gene>
+  <organism evidence="2 3">
+    <name type="scientific">Kitasatospora xanthocidica</name>
+    <dbReference type="NCBI Taxonomy" id="83382"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Actinomycetota</taxon>
+      <taxon>Actinomycetes</taxon>
+      <taxon>Kitasatosporales</taxon>
+      <taxon>Streptomycetaceae</taxon>
+      <taxon>Kitasatospora</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="2 3" key="1">
+    <citation type="submission" date="2018-08" db="EMBL/GenBank/DDBJ databases">
+      <title>Diversity &amp; Physiological Properties of Lignin-Decomposing Actinobacteria from Soil.</title>
+      <authorList>
+        <person name="Roh S.G."/>
+        <person name="Kim S.B."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="2 3">MMS17-GH009</strain>
+    </source>
+  </reference>
+  <comment type="caution">
+    <text evidence="2">The sequence shown here is derived from an EMBL/GenBank/DDBJ whole genome shotgun (WGS) entry which is preliminary data.</text>
+  </comment>
+  <dbReference type="EMBL" id="QVIG01000001">
+    <property type="protein sequence ID" value="RGD56944.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="WP_074003146.1">
+    <property type="nucleotide sequence ID" value="NZ_QVIG01000001.1"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="A0A372ZMY9"/>
+  <dbReference type="Proteomes" id="UP000263377">
+    <property type="component" value="Unassembled WGS sequence"/>
+  </dbReference>
+  <proteinExistence type="predicted"/>
+  <feature type="region of interest" description="Disordered" evidence="1">
+    <location>
+      <begin position="1"/>
+      <end position="31"/>
+    </location>
+  </feature>
+  <evidence type="ECO:0000256" key="1">
+    <source>
+      <dbReference type="SAM" id="MobiDB-lite"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="2">
+    <source>
+      <dbReference type="EMBL" id="RGD56944.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="3">
+    <source>
+      <dbReference type="Proteomes" id="UP000263377"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0008006" key="4">
+    <source>
+      <dbReference type="Google" id="ProtNLM"/>
+    </source>
+  </evidence>
+  <sequence length="63" mass="6642" checksum="3681B79B35EC44D0" modified="2018-11-07" version="1">MSNEDIVRSWKDPETARTAPGHPVGEPDLTALSGGEEQITVYDICTTNQTGCGTCGSFSFGCC</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

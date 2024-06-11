@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="1996-11-01" modified="2023-09-13" version="45" xmlns="http://uniprot.org/uniprot">
+  <accession>Q48496</accession>
+  <name>Q48496_LACAI</name>
+  <protein>
+    <submittedName>
+      <fullName evidence="4">Acidocin A</fullName>
+    </submittedName>
+  </protein>
+  <gene>
+    <name evidence="4" type="primary">acdA</name>
+  </gene>
+  <organism evidence="4">
+    <name type="scientific">Lactobacillus acidophilus</name>
+    <dbReference type="NCBI Taxonomy" id="1579"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Bacillota</taxon>
+      <taxon>Bacilli</taxon>
+      <taxon>Lactobacillales</taxon>
+      <taxon>Lactobacillaceae</taxon>
+      <taxon>Lactobacillus</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="4" key="1">
+    <citation type="journal article" date="1995" name="Appl. Environ. Microbiol." volume="61" first="1061" last="1067">
+      <title>Isolation and characterization of acidocin A and cloning of the bacteriocin gene from Lactobacillus acidophilus.</title>
+      <authorList>
+        <person name="Kanatani K."/>
+        <person name="Oshimura M."/>
+        <person name="Sano K."/>
+      </authorList>
+      <dbReference type="PubMed" id="7793908"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="4">TK9201</strain>
+    </source>
+  </reference>
+  <dbReference type="EMBL" id="D37881">
+    <property type="protein sequence ID" value="BAA07120.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="Q48496"/>
+  <dbReference type="GO" id="GO:0042742">
+    <property type="term" value="P:defense response to bacterium"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0031640">
+    <property type="term" value="P:killing of cells of another organism"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR010133">
+    <property type="entry name" value="Bacteriocin_signal_seq"/>
+  </dbReference>
+  <dbReference type="NCBIfam" id="TIGR01847">
+    <property type="entry name" value="bacteriocin_sig"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="predicted"/>
+  <keyword evidence="2" id="KW-0044">Antibiotic</keyword>
+  <keyword evidence="1" id="KW-0929">Antimicrobial</keyword>
+  <keyword evidence="3" id="KW-0078">Bacteriocin</keyword>
+  <evidence type="ECO:0000256" key="1">
+    <source>
+      <dbReference type="ARBA" id="ARBA00022529"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000256" key="2">
+    <source>
+      <dbReference type="ARBA" id="ARBA00023022"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000256" key="3">
+    <source>
+      <dbReference type="ARBA" id="ARBA00023048"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="4">
+    <source>
+      <dbReference type="EMBL" id="BAA07120.1"/>
+    </source>
+  </evidence>
+  <sequence length="81" mass="8946" checksum="89698AA296F7819D" modified="1996-11-01" version="1">MISMISSHQKTLTDKELALISGGKTYYGTNGVHCTKKSLWGKVRLKNVIPGTLCRKQSLPIKQDLKILLGWATGAFGKTFH</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

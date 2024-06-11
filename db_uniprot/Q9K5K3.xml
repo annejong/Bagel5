@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2022-02-23" modified="2023-06-28" version="35" xmlns="http://uniprot.org/uniprot">
+  <accession>Q9K5K3</accession>
+  <name>COMX2_BACMO</name>
+  <protein>
+    <recommendedName>
+      <fullName evidence="6">ComX pheromone</fullName>
+    </recommendedName>
+    <alternativeName>
+      <fullName evidence="7">Competence pheromone</fullName>
+    </alternativeName>
+  </protein>
+  <gene>
+    <name evidence="5" type="primary">comX</name>
+  </gene>
+  <organism>
+    <name type="scientific">Bacillus mojavensis</name>
+    <dbReference type="NCBI Taxonomy" id="72360"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Bacillota</taxon>
+      <taxon>Bacilli</taxon>
+      <taxon>Bacillales</taxon>
+      <taxon>Bacillaceae</taxon>
+      <taxon>Bacillus</taxon>
+    </lineage>
+  </organism>
+  <reference key="1">
+    <citation type="journal article" date="2001" name="J. Bacteriol." volume="183" first="451" last="460">
+      <title>Specificity and genetic polymorphism of the Bacillus competence quorum-sensing system.</title>
+      <authorList>
+        <person name="Tortosa P."/>
+        <person name="Logsdon L."/>
+        <person name="Kraigher B."/>
+        <person name="Itoh Y."/>
+        <person name="Mandic-Mulec I."/>
+        <person name="Dubnau D."/>
+      </authorList>
+      <dbReference type="PubMed" id="11133937"/>
+      <dbReference type="DOI" id="10.1128/jb.183.2.451-460.2001"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+    <scope>POLYMORPHISM IN COMX; COMQ AND COMP</scope>
+    <source>
+      <strain>RO-C-2</strain>
+    </source>
+  </reference>
+  <reference key="2">
+    <citation type="journal article" date="2002" name="Mol. Microbiol." volume="44" first="1561" last="1573">
+      <title>Specific activation of the Bacillus quorum-sensing systems by isoprenylated pheromone variants.</title>
+      <authorList>
+        <person name="Ansaldi M."/>
+        <person name="Marolt D."/>
+        <person name="Stebe T."/>
+        <person name="Mandic-Mulec I."/>
+        <person name="Dubnau D."/>
+      </authorList>
+      <dbReference type="PubMed" id="12067344"/>
+      <dbReference type="DOI" id="10.1046/j.1365-2958.2002.02977.x"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+    <scope>FUNCTION</scope>
+    <scope>ISOPRENYLATION AT TRP-54</scope>
+    <scope>IDENTIFICATION BY MASS SPECTROMETRY</scope>
+    <source>
+      <strain>RO-C-2</strain>
+    </source>
+  </reference>
+  <reference key="3">
+    <citation type="journal article" date="2008" name="Biosci. Biotechnol. Biochem." volume="72" first="914" last="918">
+      <title>Chemical structure of posttranslational modification with a farnesyl group on tryptophan.</title>
+      <authorList>
+        <person name="Okada M."/>
+        <person name="Yamaguchi H."/>
+        <person name="Sato I."/>
+        <person name="Tsuji F."/>
+        <person name="Dubnau D."/>
+        <person name="Sakagami Y."/>
+      </authorList>
+      <dbReference type="PubMed" id="18323630"/>
+      <dbReference type="DOI" id="10.1271/bbb.80006"/>
+    </citation>
+    <scope>ISOPRENYLATION AT TRP-54</scope>
+    <source>
+      <strain>RO-C-2</strain>
+    </source>
+  </reference>
+  <comment type="function">
+    <text evidence="1 3">Part of a major quorum-sensing system that regulates the development of genetic competence (PubMed:12067344). Acts through the activation of the two-component regulatory system ComP/ComA composed of a sensor histidine kinase, ComP, and a response regulator, ComA (By similarity).</text>
+  </comment>
+  <comment type="subunit">
+    <text evidence="1">Interacts directly with the sensor histidine kinase ComP and stimulates its activity.</text>
+  </comment>
+  <comment type="subcellular location">
+    <subcellularLocation>
+      <location evidence="1">Secreted</location>
+    </subcellularLocation>
+  </comment>
+  <comment type="PTM">
+    <text evidence="1 3 4">Trp-54 is modified by farnesylation, which is essential for activity (PubMed:12067344, PubMed:18323630). Modified by the tryptophan prenyltransferase ComQ before export to the extracellular environment (By similarity). The type of isoprenyl derivative differs among the different pherotypes and depends on ComX primary sequence (PubMed:12067344).</text>
+  </comment>
+  <comment type="miscellaneous">
+    <text evidence="2">The DNA sequences encoding comQ, comX and the N-terminal two-thirds of comP show a striking polymorphism, which determines the specificity of the quorum-sensing system in the different pherotypes of Bacillus. In ComX, the sole conserved residue is the modified tryptophan essential for the activity.</text>
+  </comment>
+  <dbReference type="EMBL" id="AY003904">
+    <property type="protein sequence ID" value="AAF82182.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="AF456134">
+    <property type="protein sequence ID" value="AAL67728.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="Q9K5K3"/>
+  <dbReference type="SMR" id="Q9K5K3"/>
+  <dbReference type="GO" id="GO:0005576">
+    <property type="term" value="C:extracellular region"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-SubCell"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0005186">
+    <property type="term" value="F:pheromone activity"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0030420">
+    <property type="term" value="P:establishment of competence for transformation"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR009233">
+    <property type="entry name" value="Competence_ComX_Bacillus"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF05952">
+    <property type="entry name" value="ComX"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="evidence at protein level"/>
+  <keyword id="KW-0178">Competence</keyword>
+  <keyword id="KW-0449">Lipoprotein</keyword>
+  <keyword id="KW-0588">Pheromone</keyword>
+  <keyword id="KW-0636">Prenylation</keyword>
+  <keyword id="KW-0964">Secreted</keyword>
+  <feature type="propeptide" id="PRO_0000454306" evidence="3">
+    <location>
+      <begin position="1"/>
+      <end position="50"/>
+    </location>
+  </feature>
+  <feature type="peptide" id="PRO_0000454307" description="ComX pheromone" evidence="3">
+    <location>
+      <begin position="51"/>
+      <end position="56"/>
+    </location>
+  </feature>
+  <feature type="modified residue" description="Tryptophan derivative" evidence="3 4">
+    <location>
+      <position position="54"/>
+    </location>
+  </feature>
+  <feature type="lipid moiety-binding region" description="3'-farnesyl-2',N2-cyclotryptophan" evidence="4 8">
+    <location>
+      <position position="54"/>
+    </location>
+  </feature>
+  <evidence type="ECO:0000250" key="1">
+    <source>
+      <dbReference type="UniProtKB" id="P45453"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="2">
+    <source>
+      <dbReference type="PubMed" id="11133937"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="3">
+    <source>
+      <dbReference type="PubMed" id="12067344"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="4">
+    <source>
+      <dbReference type="PubMed" id="18323630"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000303" key="5">
+    <source>
+      <dbReference type="PubMed" id="11133937"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000303" key="6">
+    <source>
+      <dbReference type="PubMed" id="18323630"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000305" key="7"/>
+  <evidence type="ECO:0000305" key="8">
+    <source>
+      <dbReference type="PubMed" id="12067344"/>
+    </source>
+  </evidence>
+  <sequence length="56" mass="6575" checksum="1EB524BCC033DD12" modified="2000-10-01" version="1" precursor="true">MMQDLINYFLSYPEVLKKLKNREACLIGFSSNETETIIKAYNDYHLSSPTTREWDG</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

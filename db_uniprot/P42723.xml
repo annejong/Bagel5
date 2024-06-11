@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="1995-11-01" modified="2023-09-13" version="48" xmlns="http://uniprot.org/uniprot">
+  <accession>P42723</accession>
+  <name>TFXA_RHILT</name>
+  <protein>
+    <recommendedName>
+      <fullName>Trifolitoxin</fullName>
+      <shortName>TFX</shortName>
+    </recommendedName>
+  </protein>
+  <gene>
+    <name type="primary">tfxA</name>
+  </gene>
+  <organism>
+    <name type="scientific">Rhizobium leguminosarum bv. trifolii</name>
+    <dbReference type="NCBI Taxonomy" id="386"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Pseudomonadota</taxon>
+      <taxon>Alphaproteobacteria</taxon>
+      <taxon>Hyphomicrobiales</taxon>
+      <taxon>Rhizobiaceae</taxon>
+      <taxon>Rhizobium/Agrobacterium group</taxon>
+      <taxon>Rhizobium</taxon>
+    </lineage>
+  </organism>
+  <reference key="1">
+    <citation type="journal article" date="1993" name="J. Bacteriol." volume="175" first="3693" last="3702">
+      <title>DNA sequence and mutational analysis of genes involved in the production and resistance of the antibiotic peptide trifolitoxin.</title>
+      <authorList>
+        <person name="Breil B.T."/>
+        <person name="Ludden P.W."/>
+        <person name="Triplett E.W."/>
+      </authorList>
+      <dbReference type="PubMed" id="8509324"/>
+      <dbReference type="DOI" id="10.1128/jb.175.12.3693-3702.1993"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+    <source>
+      <strain>T24</strain>
+    </source>
+  </reference>
+  <reference key="2">
+    <citation type="thesis" date="1989" institute="University of Adelaide" country="Australia">
+      <authorList>
+        <person name="Lethbridge B.J."/>
+      </authorList>
+    </citation>
+    <scope>PROTEIN SEQUENCE OF 32-42</scope>
+  </reference>
+  <comment type="function">
+    <text>Antibiotic whose production provides the bacterium a mechanism of host root nodule competitiveness with other invading inefficient strains.</text>
+  </comment>
+  <comment type="biophysicochemical properties">
+    <phDependence>
+      <text>Sensitive to extremes of pH.</text>
+    </phDependence>
+    <temperatureDependence>
+      <text>Thermostable.</text>
+    </temperatureDependence>
+  </comment>
+  <comment type="PTM">
+    <text>Synthesized ribosomally as a prepeptide that is post-translationally modified to the active peptide. TfxB, TfxD and TfxF are all required for this processing.</text>
+  </comment>
+  <comment type="PTM">
+    <text>The chromophore is probably a six-membered ring derived from the cyclization of Gln-38.</text>
+  </comment>
+  <comment type="PTM">
+    <text>Maturation of thiazole and oxazole containing antibiotics involves the enzymatic condensation of a Cys, Ser or Thr with the alpha-carbonyl of the preceding amino acid to form a thioether or ether bond, then dehydration to form a double bond with the alpha-amino nitrogen. Thiazoline or oxazoline rings are dehydrogenated to form thiazole or oxazole rings.</text>
+  </comment>
+  <dbReference type="EMBL" id="L06719">
+    <property type="protein sequence ID" value="AAA26363.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="PIR" id="A47116">
+    <property type="entry name" value="A47116"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="P42723"/>
+  <dbReference type="GO" id="GO:0042742">
+    <property type="term" value="P:defense response to bacterium"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0031640">
+    <property type="term" value="P:killing of cells of another organism"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="NCBIfam" id="NF033430">
+    <property type="entry name" value="TfxA_RiPP"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="evidence at protein level"/>
+  <keyword id="KW-0044">Antibiotic</keyword>
+  <keyword id="KW-0929">Antimicrobial</keyword>
+  <keyword id="KW-0078">Bacteriocin</keyword>
+  <keyword id="KW-0903">Direct protein sequencing</keyword>
+  <keyword id="KW-0883">Thioether bond</keyword>
+  <feature type="propeptide" id="PRO_0000002778" evidence="2">
+    <location>
+      <begin position="1"/>
+      <end position="31"/>
+    </location>
+  </feature>
+  <feature type="peptide" id="PRO_0000002779" description="Trifolitoxin" evidence="1">
+    <location>
+      <begin position="32"/>
+      <end position="42"/>
+    </location>
+  </feature>
+  <feature type="modified residue" description="Glutamine derivative" evidence="1">
+    <location>
+      <position position="38"/>
+    </location>
+  </feature>
+  <feature type="cross-link" description="Thiazole-4-carboxylic acid (Gly-Cys)" evidence="1">
+    <location>
+      <begin position="39"/>
+      <end position="40"/>
+    </location>
+  </feature>
+  <evidence type="ECO:0000269" key="1">
+    <source>
+      <dbReference type="PubMed" id="8509324"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="2">
+    <source ref="2"/>
+  </evidence>
+  <sequence length="42" mass="4406" checksum="BC1F91116818E3D7" modified="1995-11-01" version="1" precursor="true">MDNKVAKNVEVKKGSIKATFKAAVLKSKTKVDIGGSRQGCVA</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

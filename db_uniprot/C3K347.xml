@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2009-09-22" modified="2024-01-24" version="78" xmlns="http://uniprot.org/uniprot">
+  <accession>C3K347</accession>
+  <name>PQQA_PSEFS</name>
+  <protein>
+    <recommendedName>
+      <fullName evidence="1">Coenzyme PQQ synthesis protein A</fullName>
+    </recommendedName>
+    <alternativeName>
+      <fullName evidence="1">Pyrroloquinoline quinone biosynthesis protein A</fullName>
+    </alternativeName>
+  </protein>
+  <gene>
+    <name evidence="1" type="primary">pqqA</name>
+    <name type="ordered locus">PFLU_5598</name>
+  </gene>
+  <organism>
+    <name type="scientific">Pseudomonas fluorescens (strain SBW25)</name>
+    <dbReference type="NCBI Taxonomy" id="216595"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Pseudomonadota</taxon>
+      <taxon>Gammaproteobacteria</taxon>
+      <taxon>Pseudomonadales</taxon>
+      <taxon>Pseudomonadaceae</taxon>
+      <taxon>Pseudomonas</taxon>
+    </lineage>
+  </organism>
+  <reference key="1">
+    <citation type="journal article" date="2009" name="Genome Biol." volume="10" first="R51.1" last="R51.16">
+      <title>Genomic and genetic analyses of diversity and plant interactions of Pseudomonas fluorescens.</title>
+      <authorList>
+        <person name="Silby M.W."/>
+        <person name="Cerdeno-Tarraga A.M."/>
+        <person name="Vernikos G.S."/>
+        <person name="Giddens S.R."/>
+        <person name="Jackson R.W."/>
+        <person name="Preston G.M."/>
+        <person name="Zhang X.-X."/>
+        <person name="Moon C.D."/>
+        <person name="Gehrig S.M."/>
+        <person name="Godfrey S.A.C."/>
+        <person name="Knight C.G."/>
+        <person name="Malone J.G."/>
+        <person name="Robinson Z."/>
+        <person name="Spiers A.J."/>
+        <person name="Harris S."/>
+        <person name="Challis G.L."/>
+        <person name="Yaxley A.M."/>
+        <person name="Harris D."/>
+        <person name="Seeger K."/>
+        <person name="Murphy L."/>
+        <person name="Rutter S."/>
+        <person name="Squares R."/>
+        <person name="Quail M.A."/>
+        <person name="Saunders E."/>
+        <person name="Mavromatis K."/>
+        <person name="Brettin T.S."/>
+        <person name="Bentley S.D."/>
+        <person name="Hothersall J."/>
+        <person name="Stephens E."/>
+        <person name="Thomas C.M."/>
+        <person name="Parkhill J."/>
+        <person name="Levy S.B."/>
+        <person name="Rainey P.B."/>
+        <person name="Thomson N.R."/>
+      </authorList>
+      <dbReference type="PubMed" id="19432983"/>
+      <dbReference type="DOI" id="10.1186/gb-2009-10-5-r51"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain>SBW25</strain>
+    </source>
+  </reference>
+  <comment type="function">
+    <text evidence="1">Required for coenzyme pyrroloquinoline quinone (PQQ) biosynthesis. PQQ is probably formed by cross-linking a specific glutamate to a specific tyrosine residue and excising these residues from the peptide.</text>
+  </comment>
+  <comment type="pathway">
+    <text evidence="1">Cofactor biosynthesis; pyrroloquinoline quinone biosynthesis.</text>
+  </comment>
+  <comment type="similarity">
+    <text evidence="1">Belongs to the PqqA family.</text>
+  </comment>
+  <dbReference type="EMBL" id="AM181176">
+    <property type="protein sequence ID" value="CAY52882.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="WP_003194766.1">
+    <property type="nucleotide sequence ID" value="NC_012660.1"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="C3K347"/>
+  <dbReference type="GeneID" id="78556483"/>
+  <dbReference type="HOGENOM" id="CLU_219131_0_0_6"/>
+  <dbReference type="UniPathway" id="UPA00539"/>
+  <dbReference type="Proteomes" id="UP000002332">
+    <property type="component" value="Chromosome"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0018189">
+    <property type="term" value="P:pyrroloquinoline quinone biosynthetic process"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-UniRule"/>
+  </dbReference>
+  <dbReference type="HAMAP" id="MF_00656">
+    <property type="entry name" value="PQQ_syn_PqqA"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR011725">
+    <property type="entry name" value="PQQ_synth_PqqA"/>
+  </dbReference>
+  <dbReference type="NCBIfam" id="TIGR02107">
+    <property type="entry name" value="PQQ_syn_pqqA"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF08042">
+    <property type="entry name" value="PqqA"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="inferred from homology"/>
+  <keyword id="KW-0884">PQQ biosynthesis</keyword>
+  <keyword id="KW-1185">Reference proteome</keyword>
+  <feature type="chain" id="PRO_1000212440" description="Coenzyme PQQ synthesis protein A">
+    <location>
+      <begin position="1"/>
+      <end position="24"/>
+    </location>
+  </feature>
+  <feature type="cross-link" description="Pyrroloquinoline quinone (Glu-Tyr)" evidence="1">
+    <location>
+      <begin position="16"/>
+      <end position="20"/>
+    </location>
+  </feature>
+  <evidence type="ECO:0000255" key="1">
+    <source>
+      <dbReference type="HAMAP-Rule" id="MF_00656"/>
+    </source>
+  </evidence>
+  <sequence length="24" mass="2871" checksum="ED13A879B2EA3E8E" modified="2009-06-16" version="1">MTWSKPAYTDLRIGFEVTMYFASR</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2020-06-17" modified="2024-01-24" version="79" xmlns="http://uniprot.org/uniprot">
+  <accession>Q7V735</accession>
+  <name>LAN43_PROMM</name>
+  <protein>
+    <recommendedName>
+      <fullName evidence="5 6">Lantipeptide prochlorosin 4.3</fullName>
+      <shortName evidence="5 6">Lantipeptide Pcn4.3</shortName>
+    </recommendedName>
+  </protein>
+  <gene>
+    <name evidence="5 6" type="primary">ProcA4.3</name>
+    <name evidence="10" type="ordered locus">PMT_0926</name>
+  </gene>
+  <organism>
+    <name type="scientific">Prochlorococcus marinus (strain MIT 9313)</name>
+    <dbReference type="NCBI Taxonomy" id="74547"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Cyanobacteriota</taxon>
+      <taxon>Cyanophyceae</taxon>
+      <taxon>Synechococcales</taxon>
+      <taxon>Prochlorococcaceae</taxon>
+      <taxon>Prochlorococcus</taxon>
+    </lineage>
+  </organism>
+  <reference key="1">
+    <citation type="journal article" date="2003" name="Nature" volume="424" first="1042" last="1047">
+      <title>Genome divergence in two Prochlorococcus ecotypes reflects oceanic niche differentiation.</title>
+      <authorList>
+        <person name="Rocap G."/>
+        <person name="Larimer F.W."/>
+        <person name="Lamerdin J.E."/>
+        <person name="Malfatti S."/>
+        <person name="Chain P."/>
+        <person name="Ahlgren N.A."/>
+        <person name="Arellano A."/>
+        <person name="Coleman M."/>
+        <person name="Hauser L."/>
+        <person name="Hess W.R."/>
+        <person name="Johnson Z.I."/>
+        <person name="Land M.L."/>
+        <person name="Lindell D."/>
+        <person name="Post A.F."/>
+        <person name="Regala W."/>
+        <person name="Shah M."/>
+        <person name="Shaw S.L."/>
+        <person name="Steglich C."/>
+        <person name="Sullivan M.B."/>
+        <person name="Ting C.S."/>
+        <person name="Tolonen A."/>
+        <person name="Webb E.A."/>
+        <person name="Zinser E.R."/>
+        <person name="Chisholm S.W."/>
+      </authorList>
+      <dbReference type="PubMed" id="12917642"/>
+      <dbReference type="DOI" id="10.1038/nature01947"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain>MIT 9313</strain>
+    </source>
+  </reference>
+  <reference key="2">
+    <citation type="journal article" date="2010" name="Proc. Natl. Acad. Sci. U.S.A." volume="107" first="10430" last="10435">
+      <title>Catalytic promiscuity in the biosynthesis of cyclic peptide secondary metabolites in planktonic marine cyanobacteria.</title>
+      <authorList>
+        <person name="Li B."/>
+        <person name="Sher D."/>
+        <person name="Kelly L."/>
+        <person name="Shi Y."/>
+        <person name="Huang K."/>
+        <person name="Knerr P.J."/>
+        <person name="Joewono I."/>
+        <person name="Rusch D."/>
+        <person name="Chisholm S.W."/>
+        <person name="van der Donk W.A."/>
+      </authorList>
+      <dbReference type="PubMed" id="20479271"/>
+      <dbReference type="DOI" id="10.1073/pnas.0913677107"/>
+    </citation>
+    <scope>PRELIMINARY LANTHIONINE CROSS-LINKS</scope>
+    <scope>DEHYDRATION AT THR-65</scope>
+    <scope>INDUCTION BY NITROGEN STARVATION</scope>
+    <source>
+      <strain>MIT 9313</strain>
+    </source>
+  </reference>
+  <reference key="3">
+    <citation type="journal article" date="2012" name="Biochemistry" volume="51" first="4271" last="4279">
+      <title>Structural characterization of four prochlorosins: a novel class of lantipeptides produced by planktonic marine cyanobacteria.</title>
+      <authorList>
+        <person name="Tang W."/>
+        <person name="van der Donk W.A."/>
+      </authorList>
+      <dbReference type="PubMed" id="22574919"/>
+      <dbReference type="DOI" id="10.1021/bi300255s"/>
+    </citation>
+    <scope>STRUCTURE BY NMR OF 65-77</scope>
+    <scope>DEHYDRATION AT THR-65</scope>
+    <scope>LANTHIONINE CROSS-LINKS</scope>
+    <scope>EXPRESSION IN E.COLI</scope>
+    <source>
+      <strain>MIT 9313</strain>
+    </source>
+  </reference>
+  <comment type="function">
+    <text evidence="2 7 8 9">Lanthionine-containing peptide (lantipeptide) with unknown function (Probable). Does not show antibiotic activity against Lactococcus lactis 117 and Bacillus subtilis 6633 bacteria (By similarity). Organisms that produce this peptide live in oligotrophic environments at very dilute concentrations, suggesting this peptide is not secreted to influence other bacteria (Probable).</text>
+  </comment>
+  <comment type="subcellular location">
+    <subcellularLocation>
+      <location evidence="7">Secreted</location>
+    </subcellularLocation>
+  </comment>
+  <comment type="induction">
+    <text evidence="3">Down-regulated under nitrogen starvation.</text>
+  </comment>
+  <comment type="PTM">
+    <text evidence="4">Cross-links are proved in vitro, when coepressed in E.coli with the ProcM lanthionine synthetase.</text>
+  </comment>
+  <comment type="PTM">
+    <text evidence="4 9">The lanthionine residue has both a DL configuration (with 2S,6R stereochemistry) and a LL configuration (with 2R,6R stereochemistry) (PubMed:22574919). DL and LL diastomers have a 4:1 ratio (PubMed:22574919). It is unknown whether nonenzymatic cyclization occur, but authors favor a model in which ProcM does generate all thioether cross-links (Probable). The beta-methyllanthionine residue has a DL configuration (with 2S,3S,6R stereochemistry) (PubMed:22574919).</text>
+  </comment>
+  <comment type="PTM">
+    <text evidence="1 9">Maturation of prochlorosin involves the enzymatic conversion of Thr, and Ser into dehydrated AA and the formation of thioether bonds with cysteines. This is followed by membrane translocation and cleavage of the modified precursor.</text>
+  </comment>
+  <dbReference type="EMBL" id="BX548175">
+    <property type="protein sequence ID" value="CAE21101.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="WP_011130304.1">
+    <property type="nucleotide sequence ID" value="NC_005071.1"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="Q7V735"/>
+  <dbReference type="SMR" id="Q7V735"/>
+  <dbReference type="KEGG" id="pmt:PMT_0926"/>
+  <dbReference type="eggNOG" id="ENOG5034BZY">
+    <property type="taxonomic scope" value="Bacteria"/>
+  </dbReference>
+  <dbReference type="HOGENOM" id="CLU_158613_2_0_3"/>
+  <dbReference type="OMA" id="DTSMFCY"/>
+  <dbReference type="OrthoDB" id="542288at2"/>
+  <dbReference type="Proteomes" id="UP000001423">
+    <property type="component" value="Chromosome"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0005576">
+    <property type="term" value="C:extracellular region"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-SubCell"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR022516">
+    <property type="entry name" value="CHP03798_Ocin"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR012903">
+    <property type="entry name" value="Nif11"/>
+  </dbReference>
+  <dbReference type="NCBIfam" id="TIGR03798">
+    <property type="entry name" value="leader_Nif11"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF07862">
+    <property type="entry name" value="Nif11"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="evidence at protein level"/>
+  <keyword id="KW-1185">Reference proteome</keyword>
+  <keyword id="KW-0964">Secreted</keyword>
+  <keyword id="KW-0883">Thioether bond</keyword>
+  <feature type="propeptide" id="PRO_0000450377" evidence="8 9">
+    <location>
+      <begin position="1"/>
+      <end position="64"/>
+    </location>
+  </feature>
+  <feature type="peptide" id="PRO_0000450378" description="Lantipeptide prochlorosin 4.3" evidence="8 9">
+    <location>
+      <begin position="65"/>
+      <end position="77"/>
+    </location>
+  </feature>
+  <feature type="modified residue" description="2,3-didehydrobutyrine" evidence="4 8">
+    <location>
+      <position position="65"/>
+    </location>
+  </feature>
+  <feature type="cross-link" description="Lanthionine (Ser-Cys)" evidence="4 8">
+    <location>
+      <begin position="67"/>
+      <end position="70"/>
+    </location>
+  </feature>
+  <feature type="cross-link" description="Beta-methyllanthionine (Thr-Cys)" evidence="4 8">
+    <location>
+      <begin position="72"/>
+      <end position="76"/>
+    </location>
+  </feature>
+  <evidence type="ECO:0000250" key="1">
+    <source>
+      <dbReference type="UniProtKB" id="H2A7G5"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000250" key="2">
+    <source>
+      <dbReference type="UniProtKB" id="Q7V8T1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="3">
+    <source>
+      <dbReference type="PubMed" id="20479271"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="4">
+    <source>
+      <dbReference type="PubMed" id="22574919"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000303" key="5">
+    <source>
+      <dbReference type="PubMed" id="20479271"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000303" key="6">
+    <source>
+      <dbReference type="PubMed" id="22574919"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000305" key="7"/>
+  <evidence type="ECO:0000305" key="8">
+    <source>
+      <dbReference type="PubMed" id="20479271"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000305" key="9">
+    <source>
+      <dbReference type="PubMed" id="22574919"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000312" key="10">
+    <source>
+      <dbReference type="EMBL" id="CAE21101.1"/>
+    </source>
+  </evidence>
+  <sequence length="77" mass="8100" checksum="763CF6554E7C6C56" modified="2003-10-01" version="1" precursor="true">MSEEQLKAFIAKVQADTSLQEQLKAEGADVVAIAKAAGFTITTEDLNSHRQNLTDDELEGVAGGTASGGCDTSMFCY</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

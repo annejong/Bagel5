@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2011-05-03" modified="2024-01-24" version="33" xmlns="http://uniprot.org/uniprot">
+  <accession>F0CAT0</accession>
+  <name>F0CAT0_9XANT</name>
+  <protein>
+    <recommendedName>
+      <fullName evidence="5">Lasso peptide xanthomonin 1</fullName>
+    </recommendedName>
+  </protein>
+  <gene>
+    <name evidence="2" type="ORF">XGA_4058</name>
+  </gene>
+  <organism evidence="2 3">
+    <name type="scientific">Xanthomonas hortorum ATCC 19865</name>
+    <dbReference type="NCBI Taxonomy" id="925777"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Pseudomonadota</taxon>
+      <taxon>Gammaproteobacteria</taxon>
+      <taxon>Xanthomonadales</taxon>
+      <taxon>Xanthomonadaceae</taxon>
+      <taxon>Xanthomonas</taxon>
+      <taxon>Xanthomonas hortorum pv. gardneri</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="2 3" key="1">
+    <citation type="journal article" date="2011" name="BMC Genomics" volume="12" first="146" last="146">
+      <title>Comparative genomics reveals diversity among xanthomonads infecting tomato and pepper.</title>
+      <authorList>
+        <person name="Potnis N."/>
+        <person name="Krasileva K."/>
+        <person name="Chow V."/>
+        <person name="Almeida N.F."/>
+        <person name="Patil P.B."/>
+        <person name="Ryan R.P."/>
+        <person name="Sharlach M."/>
+        <person name="Behlau F."/>
+        <person name="Dow J.M."/>
+        <person name="Momol M.T."/>
+        <person name="White F.F."/>
+        <person name="Preston J.F."/>
+        <person name="Vinatzer B.A."/>
+        <person name="Koebnik R."/>
+        <person name="Setubal J.C."/>
+        <person name="Norman D.J."/>
+        <person name="Staskawicz B.J."/>
+        <person name="Jones J.B."/>
+      </authorList>
+      <dbReference type="PubMed" id="21396108"/>
+      <dbReference type="DOI" id="10.1186/1471-2164-12-146"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="2 3">ATCC 19865</strain>
+    </source>
+  </reference>
+  <reference evidence="4" key="2">
+    <citation type="journal article" date="2014" name="Angew. Chem. Int. Ed." volume="53" first="2230" last="2234">
+      <title>XanthomoninsI-III: a new class of lasso peptides with a seven-residue macrolactam ring.</title>
+      <authorList>
+        <person name="Hegemann J.D."/>
+        <person name="Zimmermann M."/>
+        <person name="Zhu S."/>
+        <person name="Steuber H."/>
+        <person name="Harms K."/>
+        <person name="Xie X."/>
+        <person name="Marahiel M.A."/>
+      </authorList>
+      <dbReference type="PubMed" id="24446383"/>
+      <dbReference type="DOI" id="10.1002/anie.201309267"/>
+    </citation>
+    <scope>X-RAY CRYSTALLOGRAPHY (0.81 ANGSTROMS) OF 27-42</scope>
+  </reference>
+  <comment type="caution">
+    <text evidence="2">The sequence shown here is derived from an EMBL/GenBank/DDBJ whole genome shotgun (WGS) entry which is preliminary data.</text>
+  </comment>
+  <dbReference type="EMBL" id="AEQX01000392">
+    <property type="protein sequence ID" value="EGD17354.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="PDB" id="4NAG">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="0.81 A"/>
+    <property type="chains" value="A/B=27-42"/>
+  </dbReference>
+  <dbReference type="PDBsum" id="4NAG"/>
+  <dbReference type="AlphaFoldDB" id="F0CAT0"/>
+  <dbReference type="SMR" id="F0CAT0"/>
+  <dbReference type="PATRIC" id="fig|925777.8.peg.1295"/>
+  <dbReference type="Proteomes" id="UP000005023">
+    <property type="component" value="Unassembled WGS sequence"/>
+  </dbReference>
+  <dbReference type="NCBIfam" id="NF033522">
+    <property type="entry name" value="lasso_benenodin"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="evidence at protein level"/>
+  <keyword evidence="4" id="KW-0002">3D-structure</keyword>
+  <feature type="region of interest" description="Disordered" evidence="1">
+    <location>
+      <begin position="24"/>
+      <end position="46"/>
+    </location>
+  </feature>
+  <evidence type="ECO:0000256" key="1">
+    <source>
+      <dbReference type="SAM" id="MobiDB-lite"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="2">
+    <source>
+      <dbReference type="EMBL" id="EGD17354.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="3">
+    <source>
+      <dbReference type="Proteomes" id="UP000005023"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007829" key="4">
+    <source>
+      <dbReference type="PDB" id="4NAG"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0008006" key="5">
+    <source>
+      <dbReference type="Google" id="ProtNLM"/>
+    </source>
+  </evidence>
+  <sequence length="46" mass="4620" checksum="C50E4675DD806386" modified="2011-05-03" version="1">MNSNDTTHSDASNEITVLGVASTDTKGGPLAGEEIGGFNVPGISEE</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

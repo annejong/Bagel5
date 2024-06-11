@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2012-10-03" modified="2024-01-24" version="25" xmlns="http://uniprot.org/uniprot">
+  <accession>I8ZX82</accession>
+  <name>I8ZX82_PHOVU</name>
+  <protein>
+    <recommendedName>
+      <fullName evidence="1">MACPF domain-containing protein</fullName>
+    </recommendedName>
+  </protein>
+  <gene>
+    <name evidence="2" type="ORF">HMPREF1058_01765</name>
+  </gene>
+  <organism evidence="2 3">
+    <name type="scientific">Phocaeicola vulgatus CL09T03C04</name>
+    <dbReference type="NCBI Taxonomy" id="997891"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Bacteroidota</taxon>
+      <taxon>Bacteroidia</taxon>
+      <taxon>Bacteroidales</taxon>
+      <taxon>Bacteroidaceae</taxon>
+      <taxon>Phocaeicola</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="2 3" key="1">
+    <citation type="submission" date="2012-02" db="EMBL/GenBank/DDBJ databases">
+      <title>The Genome Sequence of Bacteroides vulgatus CL09T03C04.</title>
+      <authorList>
+        <consortium name="The Broad Institute Genome Sequencing Platform"/>
+        <person name="Earl A."/>
+        <person name="Ward D."/>
+        <person name="Feldgarden M."/>
+        <person name="Gevers D."/>
+        <person name="Zitomersky N.L."/>
+        <person name="Coyne M.J."/>
+        <person name="Comstock L.E."/>
+        <person name="Young S.K."/>
+        <person name="Zeng Q."/>
+        <person name="Gargeya S."/>
+        <person name="Fitzgerald M."/>
+        <person name="Haas B."/>
+        <person name="Abouelleil A."/>
+        <person name="Alvarado L."/>
+        <person name="Arachchi H.M."/>
+        <person name="Berlin A."/>
+        <person name="Chapman S.B."/>
+        <person name="Gearin G."/>
+        <person name="Goldberg J."/>
+        <person name="Griggs A."/>
+        <person name="Gujja S."/>
+        <person name="Hansen M."/>
+        <person name="Heiman D."/>
+        <person name="Howarth C."/>
+        <person name="Larimer J."/>
+        <person name="Lui A."/>
+        <person name="MacDonald P.J.P."/>
+        <person name="McCowen C."/>
+        <person name="Montmayeur A."/>
+        <person name="Murphy C."/>
+        <person name="Neiman D."/>
+        <person name="Pearson M."/>
+        <person name="Priest M."/>
+        <person name="Roberts A."/>
+        <person name="Saif S."/>
+        <person name="Shea T."/>
+        <person name="Sisk P."/>
+        <person name="Stolte C."/>
+        <person name="Sykes S."/>
+        <person name="Wortman J."/>
+        <person name="Nusbaum C."/>
+        <person name="Birren B."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="2 3">CL09T03C04</strain>
+    </source>
+  </reference>
+  <comment type="caution">
+    <text evidence="2">The sequence shown here is derived from an EMBL/GenBank/DDBJ whole genome shotgun (WGS) entry which is preliminary data.</text>
+  </comment>
+  <dbReference type="EMBL" id="AGXZ01000013">
+    <property type="protein sequence ID" value="EIY79737.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="WP_005850107.1">
+    <property type="nucleotide sequence ID" value="NZ_JH724283.1"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="I8ZX82"/>
+  <dbReference type="PATRIC" id="fig|997891.3.peg.1867"/>
+  <dbReference type="HOGENOM" id="CLU_043117_0_0_10"/>
+  <dbReference type="Proteomes" id="UP000004219">
+    <property type="component" value="Unassembled WGS sequence"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR020864">
+    <property type="entry name" value="MACPF"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF01823">
+    <property type="entry name" value="MACPF"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="PROSITE" id="PS51412">
+    <property type="entry name" value="MACPF_2"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="PROSITE" id="PS51257">
+    <property type="entry name" value="PROKAR_LIPOPROTEIN"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="predicted"/>
+  <feature type="domain" description="MACPF" evidence="1">
+    <location>
+      <begin position="21"/>
+      <end position="356"/>
+    </location>
+  </feature>
+  <evidence type="ECO:0000259" key="1">
+    <source>
+      <dbReference type="PROSITE" id="PS51412"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="2">
+    <source>
+      <dbReference type="EMBL" id="EIY79737.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="3">
+    <source>
+      <dbReference type="Proteomes" id="UP000004219"/>
+    </source>
+  </evidence>
+  <sequence length="491" mass="55354" checksum="CF822292199A687D" modified="2012-10-03" version="1">MRKINLCYFLFVGVLVSCTNTYDVCEMQRNETEDMSSRMAGDGVYDVLGFGYDITEDYLGENSTRLQVIDVKALIRDNGDRFYNPFIGTIDQKIVAGEDAQSFLQNVITDSNFKGSVAAMDIKKDAEGFFSGTLSAGFKSASKYSYSSKYSFAKAEVTKKQRKYFVDADVELLSRYLSSNFVSDLGKYSADQIVAKYGTHVLTNITVGGSYIAYYKSAIIEENTGTEKKQTVSAGAKYNMSKVGLDFDGTWSTTTITEANKKNSDWTCTIQCVGGTTSGTTITLAPNQGPTTTINIGAWSQSVDDTHSRLVDVDWNATYPIYDLVSDPVKKADLKLAVEKYINSKKISVIKLVTLYQLYWPKGVNCHWCTSWSEVLRYKNEGHEYSGVFGYICAEEEPGTLPLYRMYWSKGRNSHYITSWAEVRKFQNEGHEYQGIVGYIYTWNEVNTIPVYSLYYPKGRDSHYLTDKAEVDRFIRERGDQYGGILGYVYP</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

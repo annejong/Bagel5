@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2002-10-01" modified="2023-09-13" version="31" xmlns="http://uniprot.org/uniprot">
+  <accession>Q8KMU4</accession>
+  <name>Q8KMU4_ENTFL</name>
+  <protein>
+    <submittedName>
+      <fullName evidence="1">EJ97 enterocin</fullName>
+    </submittedName>
+  </protein>
+  <gene>
+    <name evidence="1" type="primary">ej97a</name>
+  </gene>
+  <organism evidence="1">
+    <name type="scientific">Enterococcus faecalis</name>
+    <name type="common">Streptococcus faecalis</name>
+    <dbReference type="NCBI Taxonomy" id="1351"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Bacillota</taxon>
+      <taxon>Bacilli</taxon>
+      <taxon>Lactobacillales</taxon>
+      <taxon>Enterococcaceae</taxon>
+      <taxon>Enterococcus</taxon>
+    </lineage>
+  </organism>
+  <geneLocation type="plasmid" evidence="1">
+    <name>pEJ97-1</name>
+  </geneLocation>
+  <reference evidence="1" key="1">
+    <citation type="journal article" date="2003" name="Appl. Environ. Microbiol." volume="69" first="1633" last="1641">
+      <title>The genes coding for enterocin EJ97 production by Enterococcus faecalis EJ97 are located on a conjugative plasmid.</title>
+      <authorList>
+        <person name="Sanchez-Hidalgo M."/>
+        <person name="Maqueda M."/>
+        <person name="Galvez A."/>
+        <person name="Abriousel H."/>
+        <person name="Valdivia E."/>
+        <person name="Martinez-Bueno M."/>
+      </authorList>
+      <dbReference type="PubMed" id="12620853"/>
+      <dbReference type="DOI" id="10.1128/AEM.69.3.1633-1641.2003"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <plasmid evidence="1">pEJ97-1</plasmid>
+    </source>
+  </reference>
+  <dbReference type="EMBL" id="AJ490170">
+    <property type="protein sequence ID" value="CAD35293.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="WP_010714875.1">
+    <property type="nucleotide sequence ID" value="NZ_VHRY01000082.1"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="Q8KMU4"/>
+  <dbReference type="SMR" id="Q8KMU4"/>
+  <dbReference type="NCBIfam" id="NF033385">
+    <property type="entry name" value="enterocin_LsbB"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="predicted"/>
+  <keyword evidence="1" id="KW-0614">Plasmid</keyword>
+  <evidence type="ECO:0000313" key="1">
+    <source>
+      <dbReference type="EMBL" id="CAD35293.1"/>
+    </source>
+  </evidence>
+  <sequence length="44" mass="5322" checksum="C3ACF29788012937" modified="2002-10-01" version="1">MLAKIKAMIKKFPNPYTLAAKLTTYEINWYKQQYGRYPWERPVA</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

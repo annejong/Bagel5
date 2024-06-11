@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2017-11-22" modified="2023-06-28" version="8" xmlns="http://uniprot.org/uniprot">
+  <accession>A0A286T6U9</accession>
+  <name>A0A286T6U9_STRAQ</name>
+  <protein>
+    <submittedName>
+      <fullName evidence="2">Precursor peptide</fullName>
+    </submittedName>
+  </protein>
+  <organism evidence="2">
+    <name type="scientific">Streptomyces anulatus</name>
+    <name type="common">Streptomyces chrysomallus</name>
+    <dbReference type="NCBI Taxonomy" id="1892"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Actinomycetota</taxon>
+      <taxon>Actinomycetes</taxon>
+      <taxon>Kitasatosporales</taxon>
+      <taxon>Streptomycetaceae</taxon>
+      <taxon>Streptomyces</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="2" key="1">
+    <citation type="journal article" date="2017" name="Sci. Rep." volume="7" first="3382" last="3382">
+      <title>Identification of a gene cluster for telomestatin biosynthesis and heterologous expression using a specific promoter in a clean host.</title>
+      <authorList>
+        <person name="Amagai K."/>
+        <person name="Ikeda H."/>
+        <person name="Hashimoto J."/>
+        <person name="Kozone I."/>
+        <person name="Izumikawa M."/>
+        <person name="Kudo F."/>
+        <person name="Eguchi T."/>
+        <person name="Nakamura T."/>
+        <person name="Osada H."/>
+        <person name="Takahashi S."/>
+        <person name="Shin-ya K."/>
+      </authorList>
+      <dbReference type="PubMed" id="28611443"/>
+      <dbReference type="DOI" id="10.1038/s41598-017-03308-5"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="2">3533-SV4</strain>
+    </source>
+  </reference>
+  <dbReference type="EMBL" id="LC318724">
+    <property type="protein sequence ID" value="BBA31805.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="A0A286T6U9"/>
+  <proteinExistence type="predicted"/>
+  <feature type="region of interest" description="Disordered" evidence="1">
+    <location>
+      <begin position="22"/>
+      <end position="42"/>
+    </location>
+  </feature>
+  <evidence type="ECO:0000256" key="1">
+    <source>
+      <dbReference type="SAM" id="MobiDB-lite"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="2">
+    <source>
+      <dbReference type="EMBL" id="BBA31805.1"/>
+    </source>
+  </evidence>
+  <sequence length="42" mass="4460" checksum="F3B9A838993E7759" modified="2017-11-22" version="1">MADITFDIVDEQISSLESIGVEEGCTTSSSSSSLDISDVDFE</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

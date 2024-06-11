@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2017-02-15" modified="2023-09-13" version="8" xmlns="http://uniprot.org/uniprot">
+  <accession>A0A1K0ITP4</accession>
+  <name>A0A1K0ITP4_LACLL</name>
+  <protein>
+    <submittedName>
+      <fullName evidence="1">Bacteriocin lactolisterin BU</fullName>
+    </submittedName>
+  </protein>
+  <gene>
+    <name evidence="1" type="primary">lliBU</name>
+  </gene>
+  <organism evidence="1">
+    <name type="scientific">Lactococcus lactis subsp. lactis</name>
+    <name type="common">Streptococcus lactis</name>
+    <dbReference type="NCBI Taxonomy" id="1360"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Bacillota</taxon>
+      <taxon>Bacilli</taxon>
+      <taxon>Lactobacillales</taxon>
+      <taxon>Streptococcaceae</taxon>
+      <taxon>Lactococcus</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="1" key="1">
+    <citation type="submission" date="2016-10" db="EMBL/GenBank/DDBJ databases">
+      <title>Antilisterial bacteriocin lactolisterin BU produced by Lactococcus lactis subsp. lactis BGBU1-4.</title>
+      <authorList>
+        <person name="Lozo J."/>
+        <person name="Mirkovic N."/>
+        <person name="Miljkovic M."/>
+        <person name="Jovcic B."/>
+        <person name="Kojic M."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="1">BGBU1-4</strain>
+    </source>
+  </reference>
+  <dbReference type="EMBL" id="LT629305">
+    <property type="protein sequence ID" value="SDR48784.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="A0A1K0ITP4"/>
+  <dbReference type="SMR" id="A0A1K0ITP4"/>
+  <dbReference type="InterPro" id="IPR020968">
+    <property type="entry name" value="Bacteriocin_II_aureocin-like"/>
+  </dbReference>
+  <dbReference type="NCBIfam" id="NF033881">
+    <property type="entry name" value="aureocin_A53"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF11758">
+    <property type="entry name" value="Bacteriocin_IIi"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="predicted"/>
+  <evidence type="ECO:0000313" key="1">
+    <source>
+      <dbReference type="EMBL" id="SDR48784.1"/>
+    </source>
+  </evidence>
+  <sequence length="43" mass="5135" checksum="DF665DB8204BB0B9" modified="2017-02-15" version="1">MWGRILGTVAKYGPKAVSWAWQHKWELINMGDLAFRYIQRIWG</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

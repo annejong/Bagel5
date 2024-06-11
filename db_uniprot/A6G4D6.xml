@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2007-07-24" modified="2023-06-28" version="26" xmlns="http://uniprot.org/uniprot">
+  <accession>A6G4D6</accession>
+  <name>A6G4D6_9BACT</name>
+  <protein>
+    <submittedName>
+      <fullName evidence="2">Uncharacterized protein</fullName>
+    </submittedName>
+  </protein>
+  <gene>
+    <name evidence="2" type="ORF">PPSIR1_03888</name>
+  </gene>
+  <organism evidence="2 3">
+    <name type="scientific">Plesiocystis pacifica SIR-1</name>
+    <dbReference type="NCBI Taxonomy" id="391625"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Myxococcota</taxon>
+      <taxon>Polyangia</taxon>
+      <taxon>Nannocystales</taxon>
+      <taxon>Nannocystaceae</taxon>
+      <taxon>Plesiocystis</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="2 3" key="1">
+    <citation type="submission" date="2007-06" db="EMBL/GenBank/DDBJ databases">
+      <authorList>
+        <person name="Shimkets L."/>
+        <person name="Ferriera S."/>
+        <person name="Johnson J."/>
+        <person name="Kravitz S."/>
+        <person name="Beeson K."/>
+        <person name="Sutton G."/>
+        <person name="Rogers Y.-H."/>
+        <person name="Friedman R."/>
+        <person name="Frazier M."/>
+        <person name="Venter J.C."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="2 3">SIR-1</strain>
+    </source>
+  </reference>
+  <comment type="caution">
+    <text evidence="2">The sequence shown here is derived from an EMBL/GenBank/DDBJ whole genome shotgun (WGS) entry which is preliminary data.</text>
+  </comment>
+  <dbReference type="EMBL" id="ABCS01000021">
+    <property type="protein sequence ID" value="EDM79248.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="WP_006971585.1">
+    <property type="nucleotide sequence ID" value="NZ_ABCS01000021.1"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="A6G4D6"/>
+  <dbReference type="STRING" id="391625.PPSIR1_03888"/>
+  <dbReference type="OrthoDB" id="8562078at2"/>
+  <dbReference type="Proteomes" id="UP000005801">
+    <property type="component" value="Unassembled WGS sequence"/>
+  </dbReference>
+  <proteinExistence type="predicted"/>
+  <keyword evidence="3" id="KW-1185">Reference proteome</keyword>
+  <feature type="region of interest" description="Disordered" evidence="1">
+    <location>
+      <begin position="21"/>
+      <end position="40"/>
+    </location>
+  </feature>
+  <feature type="region of interest" description="Disordered" evidence="1">
+    <location>
+      <begin position="48"/>
+      <end position="77"/>
+    </location>
+  </feature>
+  <feature type="compositionally biased region" description="Polar residues" evidence="1">
+    <location>
+      <begin position="52"/>
+      <end position="77"/>
+    </location>
+  </feature>
+  <evidence type="ECO:0000256" key="1">
+    <source>
+      <dbReference type="SAM" id="MobiDB-lite"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="2">
+    <source>
+      <dbReference type="EMBL" id="EDM79248.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="3">
+    <source>
+      <dbReference type="Proteomes" id="UP000005801"/>
+    </source>
+  </evidence>
+  <sequence length="77" mass="8235" checksum="44BF3AF342A7DA06" modified="2007-07-24" version="1">MSNDKKNNELKELFIEDLGQVTGGCRRPHPTPVGEGPATTLALGEEEPTTLSLQAEEPTTLSLQAEEPTTLSLSAED</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

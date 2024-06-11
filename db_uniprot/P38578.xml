@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="1994-10-01" modified="2023-09-13" version="57" xmlns="http://uniprot.org/uniprot">
+  <accession>P38578</accession>
+  <name>CBA_CARML</name>
+  <protein>
+    <recommendedName>
+      <fullName>Bacteriocin carnobacteriocin-A</fullName>
+    </recommendedName>
+    <alternativeName>
+      <fullName>Piscicolin-61</fullName>
+    </alternativeName>
+  </protein>
+  <gene>
+    <name type="primary">cbnBA</name>
+    <name type="synonym">psc61</name>
+  </gene>
+  <organism>
+    <name type="scientific">Carnobacterium maltaromaticum</name>
+    <name type="common">Carnobacterium piscicola</name>
+    <dbReference type="NCBI Taxonomy" id="2751"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Bacillota</taxon>
+      <taxon>Bacilli</taxon>
+      <taxon>Lactobacillales</taxon>
+      <taxon>Carnobacteriaceae</taxon>
+      <taxon>Carnobacterium</taxon>
+    </lineage>
+  </organism>
+  <geneLocation type="plasmid">
+    <name>74 kb</name>
+  </geneLocation>
+  <reference key="1">
+    <citation type="journal article" date="1994" name="Microbiology" volume="140" first="517" last="526">
+      <title>Characteristics and genetic determinant of a hydrophobic peptide bacteriocin, carnobacteriocin A, produced by Carnobacterium piscicola LV17A.</title>
+      <authorList>
+        <person name="Worobo R.W."/>
+        <person name="Henkel T."/>
+        <person name="Sailer M."/>
+        <person name="Roy K.L."/>
+        <person name="Vederas J.C."/>
+        <person name="Stiles M.E."/>
+      </authorList>
+      <dbReference type="PubMed" id="8012574"/>
+      <dbReference type="DOI" id="10.1099/00221287-140-3-517"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+    <scope>PARTIAL PROTEIN SEQUENCE</scope>
+    <source>
+      <strain>LV17A</strain>
+    </source>
+  </reference>
+  <reference key="2">
+    <citation type="journal article" date="1994" name="Curr. Microbiol." volume="29" first="63" last="68">
+      <title>Purification and cloning of piscicolin 61, a bacteriocin from Carnobacterium piscicola LV61.</title>
+      <authorList>
+        <person name="Holck A.L."/>
+        <person name="Axelsson L."/>
+        <person name="Schillinger U."/>
+      </authorList>
+      <dbReference type="PubMed" id="7764997"/>
+      <dbReference type="DOI" id="10.1007/bf01575750"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+    <source>
+      <strain>LV61</strain>
+    </source>
+  </reference>
+  <comment type="function">
+    <text>Has antibacterial activity.</text>
+  </comment>
+  <comment type="subcellular location">
+    <subcellularLocation>
+      <location>Secreted</location>
+    </subcellularLocation>
+  </comment>
+  <dbReference type="EMBL" id="L23112">
+    <property type="protein sequence ID" value="AAA23016.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="Z26650">
+    <property type="protein sequence ID" value="CAA81391.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="PIR" id="I40863">
+    <property type="entry name" value="I40863"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="P38578"/>
+  <dbReference type="TCDB" id="1.C.22.1.3">
+    <property type="family name" value="the lactococcin a (lactococcin a) family"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0005576">
+    <property type="term" value="C:extracellular region"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-SubCell"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0042742">
+    <property type="term" value="P:defense response to bacterium"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0031640">
+    <property type="term" value="P:killing of cells of another organism"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR010133">
+    <property type="entry name" value="Bacteriocin_signal_seq"/>
+  </dbReference>
+  <dbReference type="NCBIfam" id="TIGR01847">
+    <property type="entry name" value="bacteriocin_sig"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="evidence at protein level"/>
+  <keyword id="KW-0044">Antibiotic</keyword>
+  <keyword id="KW-0929">Antimicrobial</keyword>
+  <keyword id="KW-0078">Bacteriocin</keyword>
+  <keyword id="KW-0903">Direct protein sequencing</keyword>
+  <keyword id="KW-1015">Disulfide bond</keyword>
+  <keyword id="KW-0614">Plasmid</keyword>
+  <keyword id="KW-0964">Secreted</keyword>
+  <feature type="propeptide" id="PRO_0000002760">
+    <location>
+      <begin position="1"/>
+      <end position="18"/>
+    </location>
+  </feature>
+  <feature type="chain" id="PRO_0000002761" description="Bacteriocin carnobacteriocin-A">
+    <location>
+      <begin position="19"/>
+      <end position="71"/>
+    </location>
+  </feature>
+  <feature type="disulfide bond" evidence="1">
+    <location>
+      <begin position="40"/>
+      <end position="69"/>
+    </location>
+  </feature>
+  <evidence type="ECO:0000269" key="1">
+    <source>
+      <dbReference type="PubMed" id="8012574"/>
+    </source>
+  </evidence>
+  <sequence length="71" mass="7041" checksum="40280AB004A7E454" modified="1994-10-01" version="1" precursor="true">MNNVKELSIKEMQQVTGGDQMSDGVNYGKGSSLSKGGAKCGLGIVGGLATIPSGPLGWLAGAAGVINSCMK</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

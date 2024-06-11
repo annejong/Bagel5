@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2017-12-20" modified="2024-01-24" version="8" xmlns="http://uniprot.org/uniprot">
+  <accession>A0A290TVA1</accession>
+  <name>A0A290TVA1_PSEO7</name>
+  <protein>
+    <submittedName>
+      <fullName evidence="1">Uncharacterized protein</fullName>
+    </submittedName>
+  </protein>
+  <gene>
+    <name evidence="1" type="ORF">PPIS_a3552</name>
+  </gene>
+  <organism evidence="1 2">
+    <name type="scientific">Pseudoalteromonas piscicida</name>
+    <dbReference type="NCBI Taxonomy" id="43662"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Pseudomonadota</taxon>
+      <taxon>Gammaproteobacteria</taxon>
+      <taxon>Alteromonadales</taxon>
+      <taxon>Pseudoalteromonadaceae</taxon>
+      <taxon>Pseudoalteromonas</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="1 2" key="1">
+    <citation type="submission" date="2015-06" db="EMBL/GenBank/DDBJ databases">
+      <authorList>
+        <person name="Hoefler B.C."/>
+        <person name="Straight P.D."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="1 2">JCM 20779</strain>
+    </source>
+  </reference>
+  <dbReference type="EMBL" id="CP011924">
+    <property type="protein sequence ID" value="ATD08324.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="A0A290TVA1"/>
+  <dbReference type="Proteomes" id="UP000016521">
+    <property type="component" value="Chromosome i"/>
+  </dbReference>
+  <proteinExistence type="predicted"/>
+  <evidence type="ECO:0000313" key="1">
+    <source>
+      <dbReference type="EMBL" id="ATD08324.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="2">
+    <source>
+      <dbReference type="Proteomes" id="UP000016521"/>
+    </source>
+  </evidence>
+  <sequence length="57" mass="6214" checksum="6277346E2C2ADD18" modified="2017-12-20" version="1">MKLSLNKKKIKALSADKQTVPAVMTPQVAGGALRFSQDRLTHCVANTCGRHTCPDIY</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

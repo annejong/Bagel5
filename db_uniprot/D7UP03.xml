@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2010-10-05" modified="2024-01-24" version="49" xmlns="http://uniprot.org/uniprot">
+  <accession>D7UP03</accession>
+  <name>D7UP03_ENTFC</name>
+  <protein>
+    <submittedName>
+      <fullName evidence="1">Enterocin Xalpha prepeptide</fullName>
+    </submittedName>
+  </protein>
+  <gene>
+    <name evidence="1" type="primary">enxA</name>
+    <name evidence="2" type="ORF">EB12_02102</name>
+    <name evidence="3" type="ORF">EB44_01744</name>
+  </gene>
+  <organism evidence="1">
+    <name type="scientific">Enterococcus faecium</name>
+    <name type="common">Streptococcus faecium</name>
+    <dbReference type="NCBI Taxonomy" id="1352"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Bacillota</taxon>
+      <taxon>Bacilli</taxon>
+      <taxon>Lactobacillales</taxon>
+      <taxon>Enterococcaceae</taxon>
+      <taxon>Enterococcus</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="1" key="1">
+    <citation type="submission" date="2008-03" db="EMBL/GenBank/DDBJ databases">
+      <authorList>
+        <person name="Hu C."/>
+        <person name="Malaphan W."/>
+        <person name="Zendo T."/>
+        <person name="Nakayama J."/>
+        <person name="Sonomoto K."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="1">KU-B5</strain>
+    </source>
+  </reference>
+  <reference evidence="1" key="2">
+    <citation type="journal article" date="2010" name="Appl. Environ. Microbiol." volume="76" first="4542" last="4545">
+      <title>Enterocin X, a novel two-peptide bacteriocin from Enterococcus faecium KU-B5, has an antibacterial spectrum entirely different from those of its component peptides.</title>
+      <authorList>
+        <person name="Hu C.-B."/>
+        <person name="Malaphan W."/>
+        <person name="Zendo T."/>
+        <person name="Nakayama J."/>
+        <person name="Sonomoto K."/>
+      </authorList>
+      <dbReference type="PubMed" id="20418437"/>
+      <dbReference type="DOI" id="10.1128/AEM.02264-09"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="1">KU-B5</strain>
+    </source>
+  </reference>
+  <reference evidence="2 5" key="3">
+    <citation type="submission" date="2015-06" db="EMBL/GenBank/DDBJ databases">
+      <title>The Genome Sequence of Enterococcus faecium 131EA1.</title>
+      <authorList>
+        <consortium name="The Broad Institute Genomics Platform"/>
+        <consortium name="The Broad Institute Genome Sequencing Center for Infectious Disease"/>
+        <person name="Earl A.M."/>
+        <person name="Van Tyne D."/>
+        <person name="Lebreton F."/>
+        <person name="Saavedra J.T."/>
+        <person name="Gilmore M.S."/>
+        <person name="Manson Mcguire A."/>
+        <person name="Clock S."/>
+        <person name="Crupain M."/>
+        <person name="Rangan U."/>
+        <person name="Young S."/>
+        <person name="Abouelleil A."/>
+        <person name="Cao P."/>
+        <person name="Chapman S.B."/>
+        <person name="Griggs A."/>
+        <person name="Priest M."/>
+        <person name="Shea T."/>
+        <person name="Wortman J."/>
+        <person name="Nusbaum C."/>
+        <person name="Birren B."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="2 5">131EA1</strain>
+    </source>
+  </reference>
+  <reference evidence="3 4" key="4">
+    <citation type="submission" date="2015-06" db="EMBL/GenBank/DDBJ databases">
+      <title>The Genome Sequence of Enterococcus faecium 268EA1.</title>
+      <authorList>
+        <consortium name="The Broad Institute Genomics Platform"/>
+        <consortium name="The Broad Institute Genome Sequencing Center for Infectious Disease"/>
+        <person name="Earl A.M."/>
+        <person name="Van Tyne D."/>
+        <person name="Lebreton F."/>
+        <person name="Saavedra J.T."/>
+        <person name="Gilmore M.S."/>
+        <person name="Manson Mcguire A."/>
+        <person name="Clock S."/>
+        <person name="Crupain M."/>
+        <person name="Rangan U."/>
+        <person name="Young S."/>
+        <person name="Abouelleil A."/>
+        <person name="Cao P."/>
+        <person name="Chapman S.B."/>
+        <person name="Griggs A."/>
+        <person name="Priest M."/>
+        <person name="Shea T."/>
+        <person name="Wortman J."/>
+        <person name="Nusbaum C."/>
+        <person name="Birren B."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="3 4">268EA1</strain>
+    </source>
+  </reference>
+  <dbReference type="EMBL" id="AB430879">
+    <property type="protein sequence ID" value="BAJ10063.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="LEQJ01000013">
+    <property type="protein sequence ID" value="RBS29098.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="LEQY01000010">
+    <property type="protein sequence ID" value="RBS68638.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="WP_002295574.1">
+    <property type="nucleotide sequence ID" value="NZ_WVTH01000002.1"/>
+  </dbReference>
+  <dbReference type="PATRIC" id="fig|1352.657.peg.924"/>
+  <dbReference type="Proteomes" id="UP000252903">
+    <property type="component" value="Unassembled WGS sequence"/>
+  </dbReference>
+  <dbReference type="Proteomes" id="UP000253144">
+    <property type="component" value="Unassembled WGS sequence"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR010133">
+    <property type="entry name" value="Bacteriocin_signal_seq"/>
+  </dbReference>
+  <dbReference type="NCBIfam" id="TIGR01847">
+    <property type="entry name" value="bacteriocin_sig"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="predicted"/>
+  <evidence type="ECO:0000313" key="1">
+    <source>
+      <dbReference type="EMBL" id="BAJ10063.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="2">
+    <source>
+      <dbReference type="EMBL" id="RBS29098.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="3">
+    <source>
+      <dbReference type="EMBL" id="RBS68638.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="4">
+    <source>
+      <dbReference type="Proteomes" id="UP000252903"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="5">
+    <source>
+      <dbReference type="Proteomes" id="UP000253144"/>
+    </source>
+  </evidence>
+  <sequence length="58" mass="6423" checksum="64B6FC0656CB0091" modified="2010-10-05" version="1">MQNVKEVSVKEMKQIIGGSNDSLWYGVGQFMGKQANCITNHPVKHMIIPGYCLSKILG</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

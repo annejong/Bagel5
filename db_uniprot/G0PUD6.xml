@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2011-10-19" modified="2024-01-24" version="25" xmlns="http://uniprot.org/uniprot">
+  <accession>G0PUD6</accession>
+  <name>G0PUD6_9ACTN</name>
+  <protein>
+    <recommendedName>
+      <fullName evidence="3">Cypemycin family RiPP</fullName>
+    </recommendedName>
+  </protein>
+  <gene>
+    <name evidence="1" type="ORF">SACT1_6708</name>
+  </gene>
+  <organism evidence="1 2">
+    <name type="scientific">Streptomyces sp. ACT-1</name>
+    <dbReference type="NCBI Taxonomy" id="1609288"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Actinomycetota</taxon>
+      <taxon>Actinomycetes</taxon>
+      <taxon>Kitasatosporales</taxon>
+      <taxon>Streptomycetaceae</taxon>
+      <taxon>Streptomyces</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="1 2" key="1">
+    <citation type="journal article" date="2011" name="J. Bacteriol." volume="193" first="2890" last="2891">
+      <title>Genome sequence of Streptomyces griseus strain XylebKG-1, an ambrosia beetle-associated actinomycete.</title>
+      <authorList>
+        <person name="Grubbs K.J."/>
+        <person name="Biedermann P.H."/>
+        <person name="Suen G."/>
+        <person name="Adams S.M."/>
+        <person name="Moeller J.A."/>
+        <person name="Klassen J.L."/>
+        <person name="Goodwin L.A."/>
+        <person name="Woyke T."/>
+        <person name="Munk A.C."/>
+        <person name="Bruce D."/>
+        <person name="Detter C."/>
+        <person name="Tapia R."/>
+        <person name="Han C.S."/>
+        <person name="Currie C.R."/>
+      </authorList>
+      <dbReference type="PubMed" id="21460079"/>
+      <dbReference type="DOI" id="10.1128/JB.00330-11"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="1 2">XylebKG-1</strain>
+    </source>
+  </reference>
+  <dbReference type="EMBL" id="GL877172">
+    <property type="protein sequence ID" value="EGE46005.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="WP_003970682.1">
+    <property type="nucleotide sequence ID" value="NZ_GL877172.1"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="G0PUD6"/>
+  <dbReference type="GeneID" id="23453118"/>
+  <dbReference type="HOGENOM" id="CLU_2865896_0_0_11"/>
+  <dbReference type="Proteomes" id="UP000003967">
+    <property type="component" value="Unassembled WGS sequence"/>
+  </dbReference>
+  <dbReference type="NCBIfam" id="NF033752">
+    <property type="entry name" value="linaridin_CypA"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="predicted"/>
+  <evidence type="ECO:0000313" key="1">
+    <source>
+      <dbReference type="EMBL" id="EGE46005.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="2">
+    <source>
+      <dbReference type="Proteomes" id="UP000003967"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0008006" key="3">
+    <source>
+      <dbReference type="Google" id="ProtNLM"/>
+    </source>
+  </evidence>
+  <sequence length="64" mass="6555" checksum="094753AD44DE12C6" modified="2011-10-19" version="1">MRLDSIATQETATALPESMATQDFANSVLAGAVPGFHSDAETPAMATPAVAQFVIQGSTICLVC</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

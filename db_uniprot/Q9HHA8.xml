@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2001-09-26" modified="2023-05-03" version="52" xmlns="http://uniprot.org/uniprot">
+  <accession>Q9HHA8</accession>
+  <name>HAS8_HALS8</name>
+  <protein>
+    <recommendedName>
+      <fullName>Halocin-S8</fullName>
+    </recommendedName>
+  </protein>
+  <gene>
+    <name type="primary">halS8</name>
+  </gene>
+  <organism>
+    <name type="scientific">Haloarchaeon S8a</name>
+    <dbReference type="NCBI Taxonomy" id="135836"/>
+    <lineage>
+      <taxon>Archaea</taxon>
+      <taxon>Euryarchaeota</taxon>
+      <taxon>Stenosarchaea group</taxon>
+      <taxon>Halobacteria</taxon>
+      <taxon>Halobacteriales</taxon>
+      <taxon>Halobacteriaceae</taxon>
+    </lineage>
+  </organism>
+  <geneLocation type="plasmid"/>
+  <reference key="1">
+    <citation type="journal article" date="2000" name="J. Bacteriol." volume="182" first="4951" last="4958">
+      <title>Halocin S8: a 36-amino-acid microhalocin from the haloarchaeal strain S8a.</title>
+      <authorList>
+        <person name="Price L.B."/>
+        <person name="Shand R.F."/>
+      </authorList>
+      <dbReference type="PubMed" id="10940040"/>
+      <dbReference type="DOI" id="10.1128/jb.182.17.4951-4958.2000"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+    <scope>PROTEIN SEQUENCE OF 231-266</scope>
+  </reference>
+  <comment type="function">
+    <text>Has antibacterial activity against the haloarchaeons H.salinarium NRC817, Halobacterium GRB and H.gibbonsii.</text>
+  </comment>
+  <comment type="subcellular location">
+    <subcellularLocation>
+      <location>Secreted</location>
+    </subcellularLocation>
+  </comment>
+  <comment type="miscellaneous">
+    <text>Halocin-S8 is quite robust, as it can be desalted, boiled, subjected to organic solvents, and stored at 4 degrees Celsius for extended periods without losing activity.</text>
+  </comment>
+  <dbReference type="EMBL" id="AF276080">
+    <property type="protein sequence ID" value="AAG10010.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="Q9HHA8"/>
+  <dbReference type="GO" id="GO:0005576">
+    <property type="term" value="C:extracellular region"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-SubCell"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0042742">
+    <property type="term" value="P:defense response to bacterium"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0031640">
+    <property type="term" value="P:killing of cells of another organism"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR006311">
+    <property type="entry name" value="TAT_signal"/>
+  </dbReference>
+  <dbReference type="PROSITE" id="PS51318">
+    <property type="entry name" value="TAT"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="evidence at protein level"/>
+  <keyword id="KW-0044">Antibiotic</keyword>
+  <keyword id="KW-0929">Antimicrobial</keyword>
+  <keyword id="KW-0078">Bacteriocin</keyword>
+  <keyword id="KW-0903">Direct protein sequencing</keyword>
+  <keyword id="KW-0614">Plasmid</keyword>
+  <keyword id="KW-0964">Secreted</keyword>
+  <feature type="propeptide" id="PRO_0000013170" evidence="1">
+    <location>
+      <begin position="1"/>
+      <end position="230"/>
+    </location>
+  </feature>
+  <feature type="peptide" id="PRO_0000013171" description="Halocin-S8">
+    <location>
+      <begin position="231"/>
+      <end position="266"/>
+    </location>
+  </feature>
+  <feature type="propeptide" id="PRO_0000013172">
+    <location>
+      <begin position="267"/>
+      <end position="311"/>
+    </location>
+  </feature>
+  <evidence type="ECO:0000269" key="1">
+    <source>
+      <dbReference type="PubMed" id="10940040"/>
+    </source>
+  </evidence>
+  <sequence length="311" mass="33963" checksum="D3EB40CFAC3864E9" modified="2001-03-01" version="1" precursor="true">MSDKDSINRRNVLRKIGGIGVASAVGFSGLASGESLSDDEKQDVIDTIYKSQRVEQIKKKFGGVNIEPKKVQSVTTNQSGDLVTAKLSVSDGDLVYSSVKDTTVIVQFDRSASEIGESWPKNTEAFIKSTSSGVDLLRTATDEEIKDVTEGVNTSEIESADAVNIFIDPESQTYYMEKYDFNNKVLEMFELATGGTSSGKISPTREDQNHEYNVREHKVFNSEKQNIQLQSDCNINSNTAADVILCFNQVGSCALCSPTLVGGPVPTVACLLVVCFGTPNAVSAILEEVDNSCFNLIKDVISCWDEWTSFW</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

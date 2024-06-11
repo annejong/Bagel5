@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2017-10-25" modified="2023-05-03" version="5" xmlns="http://uniprot.org/uniprot">
+  <accession>A0A221C8V1</accession>
+  <name>A0A221C8V1_STAHY</name>
+  <protein>
+    <submittedName>
+      <fullName evidence="1">HycS</fullName>
+    </submittedName>
+  </protein>
+  <gene>
+    <name evidence="1" type="primary">hycS</name>
+  </gene>
+  <organism evidence="1">
+    <name type="scientific">Staphylococcus hyicus</name>
+    <dbReference type="NCBI Taxonomy" id="1284"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Bacillota</taxon>
+      <taxon>Bacilli</taxon>
+      <taxon>Bacillales</taxon>
+      <taxon>Staphylococcaceae</taxon>
+      <taxon>Staphylococcus</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="1" key="1">
+    <citation type="journal article" date="2017" name="Int. J. Antimicrob. Agents">
+      <title>Hyicin 4244, the first sactibiotic described in staphylococci, exhibits an anti- staphylococcal biofilm activity.</title>
+      <authorList>
+        <person name="Duarte A.F.S."/>
+        <person name="Ceotto-Vigoder H."/>
+        <person name="Barrias E.S."/>
+        <person name="Souto-Padron T.C.B.S."/>
+        <person name="Nes I.F."/>
+        <person name="Bastos M.D.C.F."/>
+      </authorList>
+      <dbReference type="PubMed" id="28705677"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="1">4244</strain>
+    </source>
+  </reference>
+  <dbReference type="EMBL" id="KY887472">
+    <property type="protein sequence ID" value="ASL69762.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="A0A221C8V1"/>
+  <dbReference type="InterPro" id="IPR021539">
+    <property type="entry name" value="Subtilosin_A"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF11420">
+    <property type="entry name" value="Subtilosin_A"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="predicted"/>
+  <evidence type="ECO:0000313" key="1">
+    <source>
+      <dbReference type="EMBL" id="ASL69762.1"/>
+    </source>
+  </evidence>
+  <sequence length="43" mass="4161" checksum="0263C6DA0A42199F" modified="2017-10-25" version="1">MEQGVMVSNKGCSACAIGAACLADGPIPDFEVAGITGTFGIAS</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

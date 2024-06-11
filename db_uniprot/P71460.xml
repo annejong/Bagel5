@@ -1,0 +1,644 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="1997-02-01" modified="2024-01-24" version="115" xmlns="http://uniprot.org/uniprot">
+  <accession>P71460</accession>
+  <name>P71460_LACPN</name>
+  <protein>
+    <submittedName>
+      <fullName evidence="1 5">Bacteriocin</fullName>
+    </submittedName>
+    <submittedName>
+      <fullName evidence="2 9">Bacteriocin peptide</fullName>
+    </submittedName>
+    <submittedName>
+      <fullName evidence="4">Plantaricin K</fullName>
+    </submittedName>
+    <submittedName>
+      <fullName evidence="6 8">PlnK</fullName>
+    </submittedName>
+  </protein>
+  <gene>
+    <name evidence="8" type="primary">plnK</name>
+    <name evidence="6" type="ORF">ASV54_01695</name>
+    <name evidence="5" type="ORF">AVR83_03435</name>
+    <name evidence="11" type="ORF">AYO51_04005</name>
+    <name evidence="14" type="ORF">C7M36_00841</name>
+    <name evidence="15" type="ORF">C7M40_01718</name>
+    <name evidence="10" type="ORF">IV39_GL002638</name>
+    <name evidence="12" type="ORF">Lp19_1645</name>
+    <name evidence="9" type="ORF">Lp90_0355</name>
+    <name evidence="13" type="ORF">LPJSA22_00373</name>
+    <name evidence="7" type="ORF">LpLQ80_01750</name>
+  </gene>
+  <organism evidence="8">
+    <name type="scientific">Lactiplantibacillus plantarum</name>
+    <name type="common">Lactobacillus plantarum</name>
+    <dbReference type="NCBI Taxonomy" id="1590"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Bacillota</taxon>
+      <taxon>Bacilli</taxon>
+      <taxon>Lactobacillales</taxon>
+      <taxon>Lactobacillaceae</taxon>
+      <taxon>Lactiplantibacillus</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="8" key="1">
+    <citation type="journal article" date="1994" name="Appl. Environ. Microbiol." volume="60" first="160" last="166">
+      <title>The gene encoding plantaricin A, a bacteriocin from Lactobacillus plantarum C11, is located on the same transcription unit as an agr-like regulatory system.</title>
+      <authorList>
+        <person name="Diep B.D."/>
+        <person name="Havarstein L.S."/>
+        <person name="Nissen-Meyer J."/>
+        <person name="Nes F.I."/>
+      </authorList>
+      <dbReference type="PubMed" id="8117074"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="8">C11</strain>
+    </source>
+  </reference>
+  <reference evidence="8" key="2">
+    <citation type="journal article" date="1995" name="Mol. Microbiol." volume="18" first="631" last="639">
+      <title>A bacteriocin-like peptide induces bacteriocin synthesis in Lactobacillus plantarum C11.</title>
+      <authorList>
+        <person name="Diep D.B."/>
+        <person name="Haavarstein S.L."/>
+        <person name="Nes I.F."/>
+      </authorList>
+      <dbReference type="PubMed" id="8817486"/>
+      <dbReference type="DOI" id="10.1111/j.1365-2958.1995.mmi_18040631.x"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="8">C11</strain>
+    </source>
+  </reference>
+  <reference evidence="8" key="3">
+    <citation type="journal article" date="1996" name="J. Bacteriol." volume="178" first="4472" last="4483">
+      <title>Characterization of the locus responsible for the bacteriocin production in Lactobacillus plantarum C11.</title>
+      <authorList>
+        <person name="Diep D.B."/>
+        <person name="Havarstein L.S."/>
+        <person name="Nes I.F."/>
+      </authorList>
+      <dbReference type="PubMed" id="8755874"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="8">C11</strain>
+    </source>
+  </reference>
+  <reference evidence="1" key="4">
+    <citation type="journal article" date="2004" name="J. Bacteriol." volume="186" first="1556" last="1564">
+      <title>Induction of plantaricin production in Lactobacillus plantarum NC8 after coculture with specific gram-positive bacteria is mediated by an autoinduction mechanism.</title>
+      <authorList>
+        <person name="Maldonado A."/>
+        <person name="Jimenez-Diaz R."/>
+        <person name="Ruiz-Barba J.L."/>
+      </authorList>
+      <dbReference type="PubMed" id="14973042"/>
+      <dbReference type="DOI" id="10.1128/JB.186.5.1556-1564.2004"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="1">NC8</strain>
+    </source>
+  </reference>
+  <reference evidence="26 27" key="5">
+    <citation type="journal article" date="2009" name="Peptides" volume="30" first="1613" last="1621">
+      <title>Three-dimensional structure of the two-peptide bacteriocin plantaricin JK.</title>
+      <authorList>
+        <person name="Rogne P."/>
+        <person name="Haugen C."/>
+        <person name="Fimland G."/>
+        <person name="Nissen-Meyer J."/>
+        <person name="Kristiansen P.E."/>
+      </authorList>
+      <dbReference type="PubMed" id="19538999"/>
+      <dbReference type="DOI" id="10.1016/j.peptides.2009.06.010"/>
+    </citation>
+    <scope>STRUCTURE BY NMR OF 26-57</scope>
+  </reference>
+  <reference evidence="2" key="6">
+    <citation type="submission" date="2009-03" db="EMBL/GenBank/DDBJ databases">
+      <title>An overview of the mosaic bacteriocin pln loci from Lactobacillus plantarum.</title>
+      <authorList>
+        <person name="Diep D.B."/>
+        <person name="Straume D."/>
+        <person name="Kjos M."/>
+        <person name="Torres C."/>
+        <person name="Nes I.F."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="2">V90</strain>
+    </source>
+  </reference>
+  <reference evidence="8" key="7">
+    <citation type="submission" date="2009-04" db="EMBL/GenBank/DDBJ databases">
+      <authorList>
+        <person name="Kjos M."/>
+        <person name="Brovold M.J."/>
+        <person name="Nes I.F."/>
+        <person name="Diep D.B."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="8">C11</strain>
+    </source>
+  </reference>
+  <reference evidence="3" key="8">
+    <citation type="submission" date="2010-01" db="EMBL/GenBank/DDBJ databases">
+      <title>Genetic analysis of the plantaricin EFI locus of Lactobacillus plantarum PCS20 reveals an unusual plantaricin E gene sequence as a result of mutation.</title>
+      <authorList>
+        <person name="Cho G.-S."/>
+        <person name="Huch M."/>
+        <person name="Holzapfel W.H."/>
+        <person name="Hanak A."/>
+        <person name="Franz C.M.A.P."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="3">BFE5092</strain>
+    </source>
+  </reference>
+  <reference evidence="4" key="9">
+    <citation type="submission" date="2013-10" db="EMBL/GenBank/DDBJ databases">
+      <title>Plantaricin locus found in Lactobacillus plantarum LbM2a.</title>
+      <authorList>
+        <person name="Chaalel A."/>
+        <person name="Dubois-Dauphin R."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="4">LbM2a</strain>
+    </source>
+  </reference>
+  <reference evidence="9 16" key="10">
+    <citation type="submission" date="2014-04" db="EMBL/GenBank/DDBJ databases">
+      <title>Noncontiguous-finished genome sequence of Lactobacillus plantarum strain Lp90 isolated from Apulian (Italy) wine.</title>
+      <authorList>
+        <person name="Lamontanara A."/>
+        <person name="Caggianiello G."/>
+        <person name="Orru L."/>
+        <person name="Capozzi V."/>
+        <person name="Michelotti V."/>
+        <person name="Bayjanov J.R."/>
+        <person name="Renckens B."/>
+        <person name="van Hijum S.A."/>
+        <person name="Cattivelli L."/>
+        <person name="Spano G."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="9 16">Lp90</strain>
+    </source>
+  </reference>
+  <reference evidence="10 17" key="11">
+    <citation type="journal article" date="2015" name="Nat. Commun." volume="6" first="8322" last="8322">
+      <title>Expanding the biotechnology potential of lactobacilli through comparative genomics of 213 strains and associated genera.</title>
+      <authorList>
+        <person name="Sun Z."/>
+        <person name="Harris H.M."/>
+        <person name="McCann A."/>
+        <person name="Guo C."/>
+        <person name="Argimon S."/>
+        <person name="Zhang W."/>
+        <person name="Yang X."/>
+        <person name="Jeffery I.B."/>
+        <person name="Cooney J.C."/>
+        <person name="Kagawa T.F."/>
+        <person name="Liu W."/>
+        <person name="Song Y."/>
+        <person name="Salvetti E."/>
+        <person name="Wrobel A."/>
+        <person name="Rasinkangas P."/>
+        <person name="Parkhill J."/>
+        <person name="Rea M.C."/>
+        <person name="O'Sullivan O."/>
+        <person name="Ritari J."/>
+        <person name="Douillard F.P."/>
+        <person name="Paul Ross R."/>
+        <person name="Yang R."/>
+        <person name="Briner A.E."/>
+        <person name="Felis G.E."/>
+        <person name="de Vos W.M."/>
+        <person name="Barrangou R."/>
+        <person name="Klaenhammer T.R."/>
+        <person name="Caufield P.W."/>
+        <person name="Cui Y."/>
+        <person name="Zhang H."/>
+        <person name="O'Toole P.W."/>
+      </authorList>
+      <dbReference type="PubMed" id="26415554"/>
+      <dbReference type="DOI" id="10.1038/ncomms9322"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="10 17">DSM 13273</strain>
+    </source>
+  </reference>
+  <reference evidence="22" key="12">
+    <citation type="submission" date="2015-11" db="EMBL/GenBank/DDBJ databases">
+      <title>Genome sequence of Lactobacillus plantarum MF1298, a candidate probiotic associated with unfavorable effect.</title>
+      <authorList>
+        <person name="McLeod A."/>
+        <person name="Rud I."/>
+        <person name="Axelsson L."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="22">MF1298</strain>
+    </source>
+  </reference>
+  <reference evidence="5 20" key="13">
+    <citation type="submission" date="2015-12" db="EMBL/GenBank/DDBJ databases">
+      <title>Comparative evaluation of the genomes of common bacterial members of the Drosophila intestinal community.</title>
+      <authorList>
+        <person name="Petkau K."/>
+        <person name="Fast D."/>
+        <person name="Duggal A."/>
+        <person name="Foley E."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="5 20">DF</strain>
+    </source>
+  </reference>
+  <reference evidence="12 19" key="14">
+    <citation type="submission" date="2016-03" db="EMBL/GenBank/DDBJ databases">
+      <title>Comparative genomics of 54 Lactobacillus plantarum strains reveals genomic uncoupling from niche constraints.</title>
+      <authorList>
+        <person name="Martino M.E."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="12 19">19.1</strain>
+    </source>
+  </reference>
+  <reference evidence="11" key="15">
+    <citation type="submission" date="2016-03" db="EMBL/GenBank/DDBJ databases">
+      <authorList>
+        <person name="Ploux O."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="11">E2C2</strain>
+    </source>
+  </reference>
+  <reference evidence="18" key="16">
+    <citation type="submission" date="2016-03" db="EMBL/GenBank/DDBJ databases">
+      <authorList>
+        <person name="Suryavanshi M.V."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="18">E2C2</strain>
+    </source>
+  </reference>
+  <reference evidence="13 21" key="17">
+    <citation type="submission" date="2016-08" db="EMBL/GenBank/DDBJ databases">
+      <title>Genome sequencing of Lactobacillus plantarum JSA22, isolated from fermented soybean paste.</title>
+      <authorList>
+        <person name="Choi H.S."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="13 21">JSA22</strain>
+    </source>
+  </reference>
+  <reference evidence="14 24" key="18">
+    <citation type="submission" date="2018-03" db="EMBL/GenBank/DDBJ databases">
+      <title>Lactobacillus plantatrum SRCM101167 having anti-virus activity species isolated from Korea kimchi.</title>
+      <authorList>
+        <person name="Jeong D.-Y."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="14 24">SRCM101167</strain>
+    </source>
+  </reference>
+  <reference evidence="15 25" key="19">
+    <citation type="submission" date="2018-03" db="EMBL/GenBank/DDBJ databases">
+      <title>Lactobacillus plantatrum SRCM101518 having antimicrbial activity species isolated from Korea kimchi.</title>
+      <authorList>
+        <person name="Jeong D.-Y."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="15 25">SRCM101518</strain>
+    </source>
+  </reference>
+  <reference evidence="7 23" key="20">
+    <citation type="submission" date="2018-04" db="EMBL/GenBank/DDBJ databases">
+      <title>Complete Genome Sequence of Lactobacillus plantarum Strain LQ80 Selected for Preparation of Fermented Liquid Feed for Pig.</title>
+      <authorList>
+        <person name="Moriya N."/>
+        <person name="Nakano K."/>
+        <person name="Shiroma A."/>
+        <person name="Shinzato M."/>
+        <person name="Ashimine N."/>
+        <person name="Minami M."/>
+        <person name="Tamotsu H."/>
+        <person name="Shimoji M."/>
+        <person name="Nakanishi T."/>
+        <person name="Ohki S."/>
+        <person name="Teruya K."/>
+        <person name="Satou K."/>
+        <person name="Hirano T."/>
+        <person name="Hagi T."/>
+        <person name="Kobayashi M."/>
+        <person name="Nomura M."/>
+        <person name="Kimoto H.N."/>
+        <person name="Tajima K."/>
+        <person name="Cai Y."/>
+        <person name="Suzuki C."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="7 23">LQ80</strain>
+    </source>
+  </reference>
+  <reference evidence="6" key="21">
+    <citation type="submission" date="2018-08" db="EMBL/GenBank/DDBJ databases">
+      <title>Genome sequence of Lactobacillus plantarum MF1298, a candidate probiotic associated with unfavorable effect.</title>
+      <authorList>
+        <person name="McLeod A."/>
+        <person name="Fagerlund A."/>
+        <person name="Rud I."/>
+        <person name="Axelsson L."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="6">MF1298</strain>
+    </source>
+  </reference>
+  <dbReference type="EMBL" id="AF522077">
+    <property type="protein sequence ID" value="AAS21882.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="FJ809773">
+    <property type="protein sequence ID" value="ACO06037.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="GU584090">
+    <property type="protein sequence ID" value="ADE08244.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="KF802197">
+    <property type="protein sequence ID" value="AHG54971.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="CP013753">
+    <property type="protein sequence ID" value="AOB22034.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="CP013149">
+    <property type="protein sequence ID" value="APD00131.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="CP028977">
+    <property type="protein sequence ID" value="AWI39304.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="X94434">
+    <property type="protein sequence ID" value="CAA64197.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="JIBX01000004">
+    <property type="protein sequence ID" value="KEZ15848.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="JQAW01000032">
+    <property type="protein sequence ID" value="KRN37862.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="LSST01000033">
+    <property type="protein sequence ID" value="KYK52922.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="LUXM01000028">
+    <property type="protein sequence ID" value="KZU94856.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="MCOL01000001">
+    <property type="protein sequence ID" value="ODO60440.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="CP028334">
+    <property type="protein sequence ID" value="QHM36571.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="CP028241">
+    <property type="protein sequence ID" value="QHM49753.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="WP_003641972.1">
+    <property type="nucleotide sequence ID" value="NZ_WWDG01000047.1"/>
+  </dbReference>
+  <dbReference type="PDB" id="2KEG">
+    <property type="method" value="NMR"/>
+    <property type="chains" value="A=26-57"/>
+  </dbReference>
+  <dbReference type="PDB" id="2KEH">
+    <property type="method" value="NMR"/>
+    <property type="chains" value="A=26-57"/>
+  </dbReference>
+  <dbReference type="PDBsum" id="2KEG"/>
+  <dbReference type="PDBsum" id="2KEH"/>
+  <dbReference type="TCDB" id="1.C.30.1.1">
+    <property type="family name" value="the plantaricin jk (plantaricin jk) family"/>
+  </dbReference>
+  <dbReference type="GeneID" id="77217046"/>
+  <dbReference type="KEGG" id="lpb:SH83_01775"/>
+  <dbReference type="PATRIC" id="fig|1590.142.peg.381"/>
+  <dbReference type="Proteomes" id="UP000028536">
+    <property type="component" value="Unassembled WGS sequence"/>
+  </dbReference>
+  <dbReference type="Proteomes" id="UP000051742">
+    <property type="component" value="Unassembled WGS sequence"/>
+  </dbReference>
+  <dbReference type="Proteomes" id="UP000075744">
+    <property type="component" value="Unassembled WGS sequence"/>
+  </dbReference>
+  <dbReference type="Proteomes" id="UP000076882">
+    <property type="component" value="Unassembled WGS sequence"/>
+  </dbReference>
+  <dbReference type="Proteomes" id="UP000093296">
+    <property type="component" value="Chromosome"/>
+  </dbReference>
+  <dbReference type="Proteomes" id="UP000094892">
+    <property type="component" value="Unassembled WGS sequence"/>
+  </dbReference>
+  <dbReference type="Proteomes" id="UP000183026">
+    <property type="component" value="Chromosome"/>
+  </dbReference>
+  <dbReference type="Proteomes" id="UP000244922">
+    <property type="component" value="Chromosome"/>
+  </dbReference>
+  <dbReference type="Proteomes" id="UP000464882">
+    <property type="component" value="Chromosome"/>
+  </dbReference>
+  <dbReference type="Proteomes" id="UP000465032">
+    <property type="component" value="Chromosome"/>
+  </dbReference>
+  <proteinExistence type="evidence at protein level"/>
+  <keyword evidence="26 27" id="KW-0002">3D-structure</keyword>
+  <evidence type="ECO:0000313" key="1">
+    <source>
+      <dbReference type="EMBL" id="AAS21882.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="2">
+    <source>
+      <dbReference type="EMBL" id="ACO06037.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="3">
+    <source>
+      <dbReference type="EMBL" id="ADE08244.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="4">
+    <source>
+      <dbReference type="EMBL" id="AHG54971.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="5">
+    <source>
+      <dbReference type="EMBL" id="AOB22034.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="6">
+    <source>
+      <dbReference type="EMBL" id="APD00131.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="7">
+    <source>
+      <dbReference type="EMBL" id="AWI39304.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="8">
+    <source>
+      <dbReference type="EMBL" id="CAA64197.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="9">
+    <source>
+      <dbReference type="EMBL" id="KEZ15848.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="10">
+    <source>
+      <dbReference type="EMBL" id="KRN37862.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="11">
+    <source>
+      <dbReference type="EMBL" id="KYK52922.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="12">
+    <source>
+      <dbReference type="EMBL" id="KZU94856.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="13">
+    <source>
+      <dbReference type="EMBL" id="ODO60440.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="14">
+    <source>
+      <dbReference type="EMBL" id="QHM36571.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="15">
+    <source>
+      <dbReference type="EMBL" id="QHM49753.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="16">
+    <source>
+      <dbReference type="Proteomes" id="UP000028536"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="17">
+    <source>
+      <dbReference type="Proteomes" id="UP000051742"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="18">
+    <source>
+      <dbReference type="Proteomes" id="UP000075744"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="19">
+    <source>
+      <dbReference type="Proteomes" id="UP000076882"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="20">
+    <source>
+      <dbReference type="Proteomes" id="UP000093296"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="21">
+    <source>
+      <dbReference type="Proteomes" id="UP000094892"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="22">
+    <source>
+      <dbReference type="Proteomes" id="UP000183026"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="23">
+    <source>
+      <dbReference type="Proteomes" id="UP000244922"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="24">
+    <source>
+      <dbReference type="Proteomes" id="UP000464882"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="25">
+    <source>
+      <dbReference type="Proteomes" id="UP000465032"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007829" key="26">
+    <source>
+      <dbReference type="PDB" id="2KEG"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007829" key="27">
+    <source>
+      <dbReference type="PDB" id="2KEH"/>
+    </source>
+  </evidence>
+  <sequence length="57" mass="6236" checksum="17A8C75CBABBD124" modified="1997-02-01" version="1">MKIKLTVLNEFEELTADAEKNISGGRRSRKNGIGYAIGYAFGAVERAVLGGSRDYNK</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2015-01-07" modified="2023-06-28" version="5" xmlns="http://uniprot.org/uniprot">
+  <accession>A0A096XPP0</accession>
+  <name>A0A096XPP0_9ACTN</name>
+  <protein>
+    <submittedName>
+      <fullName evidence="1">Precursor peptide</fullName>
+    </submittedName>
+  </protein>
+  <gene>
+    <name evidence="1" type="primary">ctmA</name>
+  </gene>
+  <organism evidence="1">
+    <name type="scientific">Streptomyces sp. NRRL WC-3908</name>
+    <dbReference type="NCBI Taxonomy" id="1509516"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Actinomycetota</taxon>
+      <taxon>Actinomycetes</taxon>
+      <taxon>Kitasatosporales</taxon>
+      <taxon>Streptomycetaceae</taxon>
+      <taxon>Streptomyces</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="1" key="1">
+    <citation type="journal article" date="2014" name="ACS Chem. Biol." volume="9" first="2014" last="2022">
+      <title>Nucleophilic 1,4-additions for natural product discovery.</title>
+      <authorList>
+        <person name="Cox C.L."/>
+        <person name="Tietz J.I."/>
+        <person name="Sokolowski K."/>
+        <person name="Melby J.O."/>
+        <person name="Doroghazi J.R."/>
+        <person name="Mitchell D.A."/>
+      </authorList>
+      <dbReference type="PubMed" id="24937678"/>
+      <dbReference type="DOI" id="10.1021/cb500324n"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="1">NRRL WC-3908</strain>
+    </source>
+  </reference>
+  <dbReference type="EMBL" id="KJ651958">
+    <property type="protein sequence ID" value="AID54693.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="A0A096XPP0"/>
+  <proteinExistence type="predicted"/>
+  <evidence type="ECO:0000313" key="1">
+    <source>
+      <dbReference type="EMBL" id="AID54693.1"/>
+    </source>
+  </evidence>
+  <sequence length="60" mass="6090" checksum="714D311922E14871" modified="2015-01-07" version="1">MDANLVLDLDDLSVDQLDILPTAPGSTLESINVGHAMVEIGASNCTSKGSPASCCSCCCC</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

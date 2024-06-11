@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2006-11-14" modified="2024-01-24" version="77" xmlns="http://uniprot.org/uniprot">
+  <accession>Q03HX9</accession>
+  <name>Q03HX9_PEDPA</name>
+  <protein>
+    <submittedName>
+      <fullName evidence="8">Prebacteriocin</fullName>
+    </submittedName>
+  </protein>
+  <gene>
+    <name evidence="8" type="ordered locus">PEPE_0082</name>
+  </gene>
+  <organism evidence="8 9">
+    <name type="scientific">Pediococcus pentosaceus (strain ATCC 25745 / CCUG 21536 / LMG 10740 / 183-1w)</name>
+    <dbReference type="NCBI Taxonomy" id="278197"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Bacillota</taxon>
+      <taxon>Bacilli</taxon>
+      <taxon>Lactobacillales</taxon>
+      <taxon>Lactobacillaceae</taxon>
+      <taxon>Pediococcus</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="8 9" key="1">
+    <citation type="journal article" date="2006" name="Proc. Natl. Acad. Sci. U.S.A." volume="103" first="15611" last="15616">
+      <title>Comparative genomics of the lactic acid bacteria.</title>
+      <authorList>
+        <person name="Makarova K."/>
+        <person name="Slesarev A."/>
+        <person name="Wolf Y."/>
+        <person name="Sorokin A."/>
+        <person name="Mirkin B."/>
+        <person name="Koonin E."/>
+        <person name="Pavlov A."/>
+        <person name="Pavlova N."/>
+        <person name="Karamychev V."/>
+        <person name="Polouchine N."/>
+        <person name="Shakhova V."/>
+        <person name="Grigoriev I."/>
+        <person name="Lou Y."/>
+        <person name="Rohksar D."/>
+        <person name="Lucas S."/>
+        <person name="Huang K."/>
+        <person name="Goodstein D.M."/>
+        <person name="Hawkins T."/>
+        <person name="Plengvidhya V."/>
+        <person name="Welker D."/>
+        <person name="Hughes J."/>
+        <person name="Goh Y."/>
+        <person name="Benson A."/>
+        <person name="Baldwin K."/>
+        <person name="Lee J.H."/>
+        <person name="Diaz-Muniz I."/>
+        <person name="Dosti B."/>
+        <person name="Smeianov V."/>
+        <person name="Wechter W."/>
+        <person name="Barabote R."/>
+        <person name="Lorca G."/>
+        <person name="Altermann E."/>
+        <person name="Barrangou R."/>
+        <person name="Ganesan B."/>
+        <person name="Xie Y."/>
+        <person name="Rawsthorne H."/>
+        <person name="Tamir D."/>
+        <person name="Parker C."/>
+        <person name="Breidt F."/>
+        <person name="Broadbent J."/>
+        <person name="Hutkins R."/>
+        <person name="O'Sullivan D."/>
+        <person name="Steele J."/>
+        <person name="Unlu G."/>
+        <person name="Saier M."/>
+        <person name="Klaenhammer T."/>
+        <person name="Richardson P."/>
+        <person name="Kozyavkin S."/>
+        <person name="Weimer B."/>
+        <person name="Mills D."/>
+      </authorList>
+      <dbReference type="PubMed" id="17030793"/>
+      <dbReference type="DOI" id="10.1073/pnas.0607117103"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="9">ATCC 25745 / CCUG 21536 / LMG 10740 / 183-1w</strain>
+    </source>
+  </reference>
+  <comment type="subcellular location">
+    <subcellularLocation>
+      <location evidence="1">Secreted</location>
+    </subcellularLocation>
+  </comment>
+  <comment type="similarity">
+    <text evidence="2">Belongs to the bacteriocin class IIA/YGNGV family.</text>
+  </comment>
+  <dbReference type="EMBL" id="CP000422">
+    <property type="protein sequence ID" value="ABJ67193.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="WP_011672822.1">
+    <property type="nucleotide sequence ID" value="NC_008525.1"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="Q03HX9"/>
+  <dbReference type="SMR" id="Q03HX9"/>
+  <dbReference type="GeneID" id="33062359"/>
+  <dbReference type="KEGG" id="ppe:PEPE_0082"/>
+  <dbReference type="eggNOG" id="ENOG5030AT6">
+    <property type="taxonomic scope" value="Bacteria"/>
+  </dbReference>
+  <dbReference type="HOGENOM" id="CLU_190022_0_0_9"/>
+  <dbReference type="OrthoDB" id="2226259at2"/>
+  <dbReference type="Proteomes" id="UP000000773">
+    <property type="component" value="Chromosome"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0005576">
+    <property type="term" value="C:extracellular region"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-SubCell"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0042742">
+    <property type="term" value="P:defense response to bacterium"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0031640">
+    <property type="term" value="P:killing of cells of another organism"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="Gene3D" id="1.20.5.130">
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR002633">
+    <property type="entry name" value="Bacteriocin_IIa"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR023384">
+    <property type="entry name" value="Bacteriocin_IIa_CS"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR023388">
+    <property type="entry name" value="Bacteriocin_IIa_dom_sf"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR010133">
+    <property type="entry name" value="Bacteriocin_signal_seq"/>
+  </dbReference>
+  <dbReference type="NCBIfam" id="TIGR01847">
+    <property type="entry name" value="bacteriocin_sig"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF01721">
+    <property type="entry name" value="Bacteriocin_II"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="PROSITE" id="PS60030">
+    <property type="entry name" value="BACTERIOCIN_IIA"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="inferred from homology"/>
+  <keyword evidence="5" id="KW-0044">Antibiotic</keyword>
+  <keyword evidence="4" id="KW-0929">Antimicrobial</keyword>
+  <keyword evidence="6" id="KW-0078">Bacteriocin</keyword>
+  <keyword evidence="7" id="KW-1015">Disulfide bond</keyword>
+  <keyword evidence="3" id="KW-0964">Secreted</keyword>
+  <evidence type="ECO:0000256" key="1">
+    <source>
+      <dbReference type="ARBA" id="ARBA00004613"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000256" key="2">
+    <source>
+      <dbReference type="ARBA" id="ARBA00007999"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000256" key="3">
+    <source>
+      <dbReference type="ARBA" id="ARBA00022525"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000256" key="4">
+    <source>
+      <dbReference type="ARBA" id="ARBA00022529"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000256" key="5">
+    <source>
+      <dbReference type="ARBA" id="ARBA00023022"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000256" key="6">
+    <source>
+      <dbReference type="ARBA" id="ARBA00023048"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000256" key="7">
+    <source>
+      <dbReference type="ARBA" id="ARBA00023157"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="8">
+    <source>
+      <dbReference type="EMBL" id="ABJ67193.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="9">
+    <source>
+      <dbReference type="Proteomes" id="UP000000773"/>
+    </source>
+  </evidence>
+  <sequence length="60" mass="6659" checksum="1238F36F15DF4641" modified="2006-11-14" version="1">MTEIKVLNDKELKNVVGGKYYGNGVHCGKKTCYVDWGQATASIGKIIVNGWTQHGPWAHR</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

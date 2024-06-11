@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2019-10-16" modified="2023-09-13" version="8" xmlns="http://uniprot.org/uniprot">
+  <accession>A0A552FCJ9</accession>
+  <name>A0A552FCJ9_MICAE</name>
+  <protein>
+    <submittedName>
+      <fullName evidence="2">Microcyclamide/patellamide family RiPP</fullName>
+    </submittedName>
+  </protein>
+  <gene>
+    <name evidence="2" type="ORF">EWV57_22625</name>
+  </gene>
+  <organism evidence="2 3">
+    <name type="scientific">Microcystis aeruginosa Ma_QC_Ch_20071001_S25D</name>
+    <dbReference type="NCBI Taxonomy" id="2486250"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Cyanobacteriota</taxon>
+      <taxon>Cyanophyceae</taxon>
+      <taxon>Oscillatoriophycideae</taxon>
+      <taxon>Chroococcales</taxon>
+      <taxon>Microcystaceae</taxon>
+      <taxon>Microcystis</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="2 3" key="1">
+    <citation type="submission" date="2019-01" db="EMBL/GenBank/DDBJ databases">
+      <title>Coherence of Microcystis species and biogeography revealed through population genomics.</title>
+      <authorList>
+        <person name="Perez-Carrascal O.M."/>
+        <person name="Terrat Y."/>
+        <person name="Giani A."/>
+        <person name="Fortin N."/>
+        <person name="Tromas N."/>
+        <person name="Shapiro B.J."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="2">Ma_QC_Ch_20071001_S25D</strain>
+    </source>
+  </reference>
+  <comment type="caution">
+    <text evidence="2">The sequence shown here is derived from an EMBL/GenBank/DDBJ whole genome shotgun (WGS) entry which is preliminary data.</text>
+  </comment>
+  <dbReference type="EMBL" id="SFBE01000371">
+    <property type="protein sequence ID" value="TRU44443.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="A0A552FCJ9"/>
+  <dbReference type="SMR" id="A0A552FCJ9"/>
+  <dbReference type="Proteomes" id="UP000316958">
+    <property type="component" value="Unassembled WGS sequence"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR044050">
+    <property type="entry name" value="DUF5837"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR022264">
+    <property type="entry name" value="Microcy/ptell_bactrcn_lead_pep"/>
+  </dbReference>
+  <dbReference type="NCBIfam" id="TIGR03678">
+    <property type="entry name" value="het_cyc_patell"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF19155">
+    <property type="entry name" value="DUF5837"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="predicted"/>
+  <feature type="region of interest" description="Disordered" evidence="1">
+    <location>
+      <begin position="1"/>
+      <end position="20"/>
+    </location>
+  </feature>
+  <evidence type="ECO:0000256" key="1">
+    <source>
+      <dbReference type="SAM" id="MobiDB-lite"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="2">
+    <source>
+      <dbReference type="EMBL" id="TRU44443.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="3">
+    <source>
+      <dbReference type="Proteomes" id="UP000316958"/>
+    </source>
+  </evidence>
+  <sequence length="78" mass="8253" checksum="C49493F134458F27" modified="2019-10-16" version="1">MDKKNILPHQGKPVLRTTNGKLPSHLAELSEEALGGAGMDASFFPCSYDGADASFFPVCSYDGADASFFPCSYDDGDA</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

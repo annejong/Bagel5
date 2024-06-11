@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="1990-01-01" modified="2023-09-13" version="90" xmlns="http://uniprot.org/uniprot">
+  <accession>P13068</accession>
+  <name>LANN_LACLL</name>
+  <protein>
+    <recommendedName>
+      <fullName>Lantibiotic nisin-A</fullName>
+    </recommendedName>
+  </protein>
+  <gene>
+    <name type="primary">spaN</name>
+    <name type="synonym">nisA</name>
+  </gene>
+  <organism>
+    <name type="scientific">Lactococcus lactis subsp. lactis</name>
+    <name type="common">Streptococcus lactis</name>
+    <dbReference type="NCBI Taxonomy" id="1360"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Bacillota</taxon>
+      <taxon>Bacilli</taxon>
+      <taxon>Lactobacillales</taxon>
+      <taxon>Streptococcaceae</taxon>
+      <taxon>Lactococcus</taxon>
+    </lineage>
+  </organism>
+  <geneLocation type="plasmid">
+    <name>unnamed</name>
+  </geneLocation>
+  <reference key="1">
+    <citation type="journal article" date="1988" name="J. Biol. Chem." volume="263" first="16260" last="16266">
+      <title>Structure, expression, and evolution of a gene encoding the precursor of nisin, a small protein antibiotic.</title>
+      <authorList>
+        <person name="Buchman G.W."/>
+        <person name="Banerjee S."/>
+        <person name="Hansen J.N."/>
+      </authorList>
+      <dbReference type="PubMed" id="3141403"/>
+      <dbReference type="DOI" id="10.1016/s0021-9258(18)37587-2"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+    <source>
+      <strain>ATCC 11454 / DSM 20729 / LMG 7930 / NCDO 496 / NCIMB 8586 / Berridge X 13</strain>
+    </source>
+  </reference>
+  <reference key="2">
+    <citation type="journal article" date="1991" name="Appl. Environ. Microbiol." volume="57" first="1181" last="1188">
+      <title>Characterization of the nisin gene as part of a polycistronic operon in the chromosome of Lactococcus lactis ATCC 11454.</title>
+      <authorList>
+        <person name="Steen M.T."/>
+        <person name="Chung Y.J."/>
+        <person name="Hansen J.N."/>
+      </authorList>
+      <dbReference type="PubMed" id="1905517"/>
+      <dbReference type="DOI" id="10.1128/aem.57.4.1181-1188.1991"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+    <source>
+      <strain>ATCC 11454 / DSM 20729 / LMG 7930 / NCDO 496 / NCIMB 8586 / Berridge X 13</strain>
+    </source>
+  </reference>
+  <reference key="3">
+    <citation type="journal article" date="1989" name="J. Bacteriol." volume="171" first="1597" last="1601">
+      <title>Nisin, a peptide antibiotic: cloning and sequencing of the nisA gene and posttranslational processing of its peptide product.</title>
+      <authorList>
+        <person name="Kaletta C."/>
+        <person name="Entian K.-D."/>
+      </authorList>
+      <dbReference type="PubMed" id="2493449"/>
+      <dbReference type="DOI" id="10.1128/jb.171.3.1597-1601.1989"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+    <source>
+      <strain>6F3</strain>
+      <plasmid>unnamed</plasmid>
+    </source>
+  </reference>
+  <reference key="4">
+    <citation type="journal article" date="1992" name="Appl. Environ. Microbiol." volume="58" first="3730" last="3743">
+      <title>Biosynthesis of the lantibiotic nisin: genomic organization and membrane localization of the NisB protein.</title>
+      <authorList>
+        <person name="Engelke G."/>
+        <person name="Gutowski-Eckel Z."/>
+        <person name="Hammelmann M."/>
+        <person name="Entian K.-D."/>
+      </authorList>
+      <dbReference type="PubMed" id="1482192"/>
+      <dbReference type="DOI" id="10.1128/aem.58.11.3730-3743.1992"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+    <source>
+      <strain>6F3</strain>
+    </source>
+  </reference>
+  <reference key="5">
+    <citation type="journal article" date="1993" name="Eur. J. Biochem." volume="216" first="281" last="291">
+      <title>Characterization of the nisin gene cluster nisABTCIPR of Lactococcus lactis. Requirement of expression of the nisA and nisI genes for development of immunity.</title>
+      <authorList>
+        <person name="Kuipers O.P."/>
+        <person name="Beerthuyzen M.M."/>
+        <person name="Siezen R.J."/>
+        <person name="de Vos W.M."/>
+      </authorList>
+      <dbReference type="PubMed" id="7689965"/>
+      <dbReference type="DOI" id="10.1111/j.1432-1033.1993.tb18143.x"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+    <source>
+      <strain>NIZO R5</strain>
+      <transposon>Tn5276</transposon>
+    </source>
+  </reference>
+  <reference key="6">
+    <citation type="book" date="1977" name="Protein cross-linking" first="131" last="153" publisher="Plenum Press" city="New York">
+      <editorList>
+        <person name="Friedman M."/>
+      </editorList>
+      <authorList>
+        <person name="Gross E."/>
+      </authorList>
+    </citation>
+    <scope>PROTEIN SEQUENCE OF 24-57</scope>
+  </reference>
+  <reference key="7">
+    <citation type="journal article" date="1971" name="J. Am. Chem. Soc." volume="93" first="4634" last="4635">
+      <title>The structure of nisin.</title>
+      <authorList>
+        <person name="Gross E."/>
+        <person name="Morell J.L."/>
+      </authorList>
+      <dbReference type="PubMed" id="5131162"/>
+      <dbReference type="DOI" id="10.1021/ja00747a073"/>
+    </citation>
+    <scope>PROTEIN SEQUENCE OF 24-57</scope>
+    <scope>DEHYDRATION AT THR-25; SER-28 AND SER-56</scope>
+    <scope>LANTHIONINE CROSS-LINKS</scope>
+  </reference>
+  <reference key="8">
+    <citation type="journal article" date="1991" name="Eur. J. Biochem." volume="202" first="1181" last="1188">
+      <title>NMR studies of lantibiotics. The structure of nisin in aqueous solution.</title>
+      <authorList>
+        <person name="van de Ven F.J."/>
+        <person name="van den Hooven H.W."/>
+        <person name="Konings R.N.H."/>
+        <person name="Hilbers C.W."/>
+      </authorList>
+      <dbReference type="PubMed" id="1765078"/>
+      <dbReference type="DOI" id="10.1111/j.1432-1033.1991.tb16488.x"/>
+    </citation>
+    <scope>STRUCTURE BY NMR</scope>
+  </reference>
+  <reference key="9">
+    <citation type="journal article" date="1992" name="Biochem. J." volume="283" first="413" last="420">
+      <title>Solution structures of nisin A and its two major degradation products determined by NMR.</title>
+      <authorList>
+        <person name="Lian L.-Y."/>
+        <person name="Chan W.C."/>
+        <person name="Morley S.D."/>
+        <person name="Roberts G.C.K."/>
+        <person name="Bycroft B.W."/>
+        <person name="Jackson D."/>
+      </authorList>
+      <dbReference type="PubMed" id="1575686"/>
+      <dbReference type="DOI" id="10.1042/bj2830413"/>
+    </citation>
+    <scope>STRUCTURE BY NMR</scope>
+  </reference>
+  <reference key="10">
+    <citation type="journal article" date="1993" name="FEBS Lett." volume="319" first="189" last="194">
+      <title>NMR and circular dichroism studies of the lantibiotic nisin in non-aqueous environments.</title>
+      <authorList>
+        <person name="van den Hooven H.W."/>
+        <person name="Fogolari F."/>
+        <person name="Rollema H.S."/>
+        <person name="Konings R.N.H."/>
+        <person name="Hilbers C.W."/>
+        <person name="van de Ven F.J."/>
+      </authorList>
+      <dbReference type="PubMed" id="8454055"/>
+      <dbReference type="DOI" id="10.1016/0014-5793(93)80065-3"/>
+    </citation>
+    <scope>STRUCTURE BY NMR</scope>
+  </reference>
+  <reference key="11">
+    <citation type="journal article" date="1993" name="Biochemistry" volume="32" first="310" last="318">
+      <title>15N- and 13C-labeled media from Anabaena sp. for universal isotopic labeling of bacteriocins: NMR resonance assignments of leucocin A from Leuconostoc gelidum and nisin A from Lactococcus lactis.</title>
+      <authorList>
+        <person name="Sailer M."/>
+        <person name="Helms G.L."/>
+        <person name="Henkel T."/>
+        <person name="Niemczura W.P."/>
+        <person name="Stiles M.E."/>
+        <person name="Vederas J.C."/>
+      </authorList>
+      <dbReference type="PubMed" id="8418850"/>
+      <dbReference type="DOI" id="10.1021/bi00052a039"/>
+    </citation>
+    <scope>STRUCTURE BY NMR</scope>
+  </reference>
+  <comment type="function">
+    <text>Lanthionine-containing peptide antibiotic (lantibiotic) active on Gram-positive bacteria. The bactericidal activity of lantibiotics is based on depolarization of energized bacterial cytoplasmic membranes, initiated by the formation of aqueous transmembrane pores.</text>
+  </comment>
+  <comment type="PTM">
+    <text>Maturation of lantibiotics involves the enzymatic conversion of Thr, and Ser into dehydrated AA and the formation of thioether bonds with cysteine. This is followed by membrane translocation and cleavage of the modified precursor.</text>
+  </comment>
+  <comment type="PTM">
+    <text>The structure of the 2,3-didehydrobutyrine is not discussed in PubMed:8454055. However, in Fig. 1 the residue is diagrammed as the Z-isomer.</text>
+  </comment>
+  <comment type="biotechnology">
+    <text>Used as a food preservative.</text>
+  </comment>
+  <comment type="miscellaneous">
+    <text evidence="3">In strain 6F3 the nisA gene is encoded on an unnamed plasmid. The reported protein sequences are identical.</text>
+  </comment>
+  <comment type="similarity">
+    <text evidence="4">Belongs to the type A lantibiotic family.</text>
+  </comment>
+  <dbReference type="EMBL" id="J04057">
+    <property type="protein sequence ID" value="AAA88606.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="M65089">
+    <property type="protein sequence ID" value="AAA73038.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="M24527">
+    <property type="protein sequence ID" value="AAA26948.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="X68307">
+    <property type="protein sequence ID" value="CAA48380.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="M27277">
+    <property type="protein sequence ID" value="AAA25188.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="D00696">
+    <property type="protein sequence ID" value="BAA00602.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="L16226">
+    <property type="protein sequence ID" value="AAA25189.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="M79445">
+    <property type="protein sequence ID" value="AAA25198.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="PIR" id="A31915">
+    <property type="entry name" value="NILLSA"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="WP_014570405.1">
+    <property type="nucleotide sequence ID" value="NZ_ML956318.1"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="P13068"/>
+  <dbReference type="SMR" id="P13068"/>
+  <dbReference type="TCDB" id="1.C.20.1.1">
+    <property type="family name" value="the nisin (nisin) family"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0005576">
+    <property type="term" value="C:extracellular region"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="InterPro"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0005102">
+    <property type="term" value="F:signaling receptor binding"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0042742">
+    <property type="term" value="P:defense response to bacterium"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0031640">
+    <property type="term" value="P:killing of cells of another organism"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR006079">
+    <property type="entry name" value="Lantibiotic_typ-A_Bacillales"/>
+  </dbReference>
+  <dbReference type="NCBIfam" id="TIGR03731">
+    <property type="entry name" value="lantibio_gallid"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF02052">
+    <property type="entry name" value="Gallidermin"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="PRINTS" id="PR00324">
+    <property type="entry name" value="NISIN"/>
+  </dbReference>
+  <proteinExistence type="evidence at protein level"/>
+  <keyword id="KW-0044">Antibiotic</keyword>
+  <keyword id="KW-0929">Antimicrobial</keyword>
+  <keyword id="KW-0078">Bacteriocin</keyword>
+  <keyword id="KW-0903">Direct protein sequencing</keyword>
+  <keyword id="KW-0425">Lantibiotic</keyword>
+  <keyword id="KW-0614">Plasmid</keyword>
+  <keyword id="KW-0883">Thioether bond</keyword>
+  <feature type="propeptide" id="PRO_0000017122" evidence="1 2">
+    <location>
+      <begin position="1"/>
+      <end position="23"/>
+    </location>
+  </feature>
+  <feature type="peptide" id="PRO_0000017123" description="Lantibiotic nisin-A">
+    <location>
+      <begin position="24"/>
+      <end position="57"/>
+    </location>
+  </feature>
+  <feature type="modified residue" description="(Z)-2,3-didehydrobutyrine" evidence="1">
+    <location>
+      <position position="25"/>
+    </location>
+  </feature>
+  <feature type="modified residue" description="2,3-didehydroalanine (Ser)" evidence="1">
+    <location>
+      <position position="28"/>
+    </location>
+  </feature>
+  <feature type="modified residue" description="2,3-didehydroalanine (Ser)" evidence="1">
+    <location>
+      <position position="56"/>
+    </location>
+  </feature>
+  <feature type="cross-link" description="Lanthionine (Ser-Cys)" evidence="1">
+    <location>
+      <begin position="26"/>
+      <end position="30"/>
+    </location>
+  </feature>
+  <feature type="cross-link" description="Beta-methyllanthionine (Thr-Cys)" evidence="1">
+    <location>
+      <begin position="31"/>
+      <end position="34"/>
+    </location>
+  </feature>
+  <feature type="cross-link" description="Beta-methyllanthionine (Thr-Cys)" evidence="1">
+    <location>
+      <begin position="36"/>
+      <end position="42"/>
+    </location>
+  </feature>
+  <feature type="cross-link" description="Beta-methyllanthionine (Thr-Cys)" evidence="1">
+    <location>
+      <begin position="46"/>
+      <end position="49"/>
+    </location>
+  </feature>
+  <feature type="cross-link" description="Beta-methyllanthionine (Thr-Cys)" evidence="1">
+    <location>
+      <begin position="48"/>
+      <end position="51"/>
+    </location>
+  </feature>
+  <evidence type="ECO:0000269" key="1">
+    <source>
+      <dbReference type="PubMed" id="5131162"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="2">
+    <source ref="6"/>
+  </evidence>
+  <evidence type="ECO:0000303" key="3">
+    <source>
+      <dbReference type="PubMed" id="2493449"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000305" key="4"/>
+  <sequence length="57" mass="5963" checksum="315E4428AC70BFEA" modified="1990-01-01" version="1" precursor="true">MSTKDFNLDLVSVSKKDSGASPRITSISLCTPGCKTGALMGCNMKTATCHCSIHVSK</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

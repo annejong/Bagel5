@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2012-07-11" modified="2023-09-13" version="8" xmlns="http://uniprot.org/uniprot">
+  <accession>I2CME1</accession>
+  <name>I2CME1_9ACTN</name>
+  <protein>
+    <submittedName>
+      <fullName evidence="1">Precursor peptide</fullName>
+    </submittedName>
+  </protein>
+  <organism evidence="1">
+    <name type="scientific">Streptomyces nobilis</name>
+    <dbReference type="NCBI Taxonomy" id="66901"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Actinomycetota</taxon>
+      <taxon>Actinomycetes</taxon>
+      <taxon>Kitasatosporales</taxon>
+      <taxon>Streptomycetaceae</taxon>
+      <taxon>Streptomyces</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="1" key="1">
+    <citation type="submission" date="2011-07" db="EMBL/GenBank/DDBJ databases">
+      <authorList>
+        <person name="Jian X."/>
+        <person name="Pan H."/>
+        <person name="Tang G."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="1">JCM 4274</strain>
+    </source>
+  </reference>
+  <reference evidence="1" key="2">
+    <citation type="journal article" date="2012" name="ACS Chem. Biol." volume="7" first="646" last="651">
+      <title>Analysis of YM-216391 Biosynthetic Gene Cluster and Improvement of the Cyclopeptide Production in a Heterologous Host.</title>
+      <authorList>
+        <person name="Jian X.H."/>
+        <person name="Pan H.X."/>
+        <person name="Ning T.T."/>
+        <person name="Shi Y.Y."/>
+        <person name="Chen Y.S."/>
+        <person name="Li Y."/>
+        <person name="Zeng X.W."/>
+        <person name="Xu J."/>
+        <person name="Tang G.L."/>
+      </authorList>
+      <dbReference type="PubMed" id="22248379"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="1">JCM 4274</strain>
+    </source>
+  </reference>
+  <dbReference type="EMBL" id="JN411915">
+    <property type="protein sequence ID" value="AFJ68074.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="I2CME1"/>
+  <dbReference type="NCBIfam" id="NF033416">
+    <property type="entry name" value="YM-216391_RiPP"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="predicted"/>
+  <evidence type="ECO:0000313" key="1">
+    <source>
+      <dbReference type="EMBL" id="AFJ68074.1"/>
+    </source>
+  </evidence>
+  <sequence length="36" mass="3860" checksum="464ECECB42F5C02F" modified="2012-07-11" version="1">MTAEIEEVDIEVGFIVGSSSCSLELEEDDLDVAADE</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

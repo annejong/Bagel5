@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2003-10-01" modified="2023-09-13" version="30" xmlns="http://uniprot.org/uniprot">
+  <accession>Q7WYZ9</accession>
+  <name>Q7WYZ9_ENTFC</name>
+  <protein>
+    <submittedName>
+      <fullName evidence="1">EntQ</fullName>
+    </submittedName>
+  </protein>
+  <gene>
+    <name evidence="1" type="primary">entqA</name>
+  </gene>
+  <organism evidence="1">
+    <name type="scientific">Enterococcus faecium</name>
+    <name type="common">Streptococcus faecium</name>
+    <dbReference type="NCBI Taxonomy" id="1352"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Bacillota</taxon>
+      <taxon>Bacilli</taxon>
+      <taxon>Lactobacillales</taxon>
+      <taxon>Enterococcaceae</taxon>
+      <taxon>Enterococcus</taxon>
+    </lineage>
+  </organism>
+  <geneLocation type="plasmid" evidence="1">
+    <name>pCIZ2</name>
+  </geneLocation>
+  <reference evidence="1" key="1">
+    <citation type="journal article" date="2000" name="J. Bacteriol." volume="182" first="6806" last="6814">
+      <title>Biochemical and genetic evidence that Enterococcus faecium L50 produces enterocins L50A and L50B, the sec-dependent enterocin P, and a novel bacteriocin secreted without an N-terminal extension termed enterocin Q.</title>
+      <authorList>
+        <person name="Cintas L.M."/>
+        <person name="Casaus P."/>
+        <person name="Herranz C."/>
+        <person name="Havarstein L.S."/>
+        <person name="Holo H."/>
+        <person name="Hernandez P.E."/>
+        <person name="Nes I.F."/>
+      </authorList>
+      <dbReference type="PubMed" id="11073927"/>
+      <dbReference type="DOI" id="10.1128/JB.182.23.6806-6814.2000"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="1">L50</strain>
+      <plasmid evidence="1">pCIZ2</plasmid>
+    </source>
+  </reference>
+  <reference evidence="1" key="2">
+    <citation type="journal article" date="2006" name="Appl. Environ. Microbiol." volume="72" first="6653" last="6666">
+      <title>Complete sequence of the enterocin Q-encoding plasmid pCIZ2 from the multiple bacteriocin producer Enterococcus faecium L50 and genetic characterization of enterocin Q production and immunity.</title>
+      <authorList>
+        <person name="Criado R."/>
+        <person name="Diep D.B."/>
+        <person name="Aakra A."/>
+        <person name="Gutierrez J."/>
+        <person name="Nes I.F."/>
+        <person name="Hernandez P.E."/>
+        <person name="Cintas L.M."/>
+      </authorList>
+      <dbReference type="PubMed" id="17021217"/>
+      <dbReference type="DOI" id="10.1128/AEM.00859-06"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="1">L50</strain>
+      <plasmid evidence="1">pCIZ2</plasmid>
+    </source>
+  </reference>
+  <dbReference type="EMBL" id="DQ832184">
+    <property type="protein sequence ID" value="AAP83165.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="YP_691711.1">
+    <property type="nucleotide sequence ID" value="NC_008259.1"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="Q7WYZ9"/>
+  <proteinExistence type="predicted"/>
+  <keyword evidence="1" id="KW-0614">Plasmid</keyword>
+  <evidence type="ECO:0000313" key="1">
+    <source>
+      <dbReference type="EMBL" id="AAP83165.1"/>
+    </source>
+  </evidence>
+  <sequence length="34" mass="3952" checksum="E7A3B28417A0F428" modified="2003-10-01" version="1">MNFLKNGIAKWMTGAELQAYKKKYGCLPWEKISC</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2015-02-04" modified="2023-09-13" version="13" xmlns="http://uniprot.org/uniprot">
+  <accession>A0A0A1GQM2</accession>
+  <name>A0A0A1GQM2_9ACTN</name>
+  <protein>
+    <submittedName>
+      <fullName evidence="1">Uncharacterized protein</fullName>
+    </submittedName>
+  </protein>
+  <gene>
+    <name evidence="1" type="primary">pgm2</name>
+  </gene>
+  <organism evidence="1">
+    <name type="scientific">Streptomyces cirratus</name>
+    <dbReference type="NCBI Taxonomy" id="68187"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Actinomycetota</taxon>
+      <taxon>Actinomycetes</taxon>
+      <taxon>Kitasatosporales</taxon>
+      <taxon>Streptomycetaceae</taxon>
+      <taxon>Streptomyces</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="1" key="1">
+    <citation type="journal article" date="2015" name="Nat. Chem. Biol." volume="11" first="71" last="76">
+      <title>A peptide ligase and the ribosome cooperate to synthesize the peptide pheganomycin.</title>
+      <authorList>
+        <person name="Noike M."/>
+        <person name="Matsui T."/>
+        <person name="Ooya K."/>
+        <person name="Sasaki I."/>
+        <person name="Ohtaki S."/>
+        <person name="Hamano Y."/>
+        <person name="Maruyama C."/>
+        <person name="Ishikawa J."/>
+        <person name="Satoh Y."/>
+        <person name="Ito H."/>
+        <person name="Morita H."/>
+        <person name="Dairi T."/>
+      </authorList>
+      <dbReference type="PubMed" id="25402768"/>
+      <dbReference type="DOI" id="10.1038/nchembio.1697"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="1">MD227-A9</strain>
+    </source>
+  </reference>
+  <dbReference type="EMBL" id="AB896796">
+    <property type="protein sequence ID" value="BAP82648.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="A0A0A1GQM2"/>
+  <dbReference type="NCBIfam" id="NF038371">
+    <property type="entry name" value="phegan_RiPP_fam"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="predicted"/>
+  <evidence type="ECO:0000313" key="1">
+    <source>
+      <dbReference type="EMBL" id="BAP82648.1"/>
+    </source>
+  </evidence>
+  <sequence length="38" mass="4150" checksum="8EE27C7BE89DE904" modified="2015-02-04" version="1">MEREIVWTEIEESDLAAVVSASNVKDGPTVSSSNVKDR</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

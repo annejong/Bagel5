@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2016-06-08" modified="2024-01-24" version="24" xmlns="http://uniprot.org/uniprot">
+  <accession>A0A126UN42</accession>
+  <name>A0A126UN42_STRSU</name>
+  <protein>
+    <recommendedName>
+      <fullName evidence="7">Lantibiotic</fullName>
+    </recommendedName>
+  </protein>
+  <gene>
+    <name evidence="8" type="ORF">APQ97_04760</name>
+    <name evidence="9" type="ORF">DF184_05180</name>
+    <name evidence="11" type="ORF">EI220_12380</name>
+    <name evidence="10" type="ORF">NOL11_07370</name>
+  </gene>
+  <organism evidence="11 14">
+    <name type="scientific">Streptococcus suis</name>
+    <dbReference type="NCBI Taxonomy" id="1307"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Bacillota</taxon>
+      <taxon>Bacilli</taxon>
+      <taxon>Lactobacillales</taxon>
+      <taxon>Streptococcaceae</taxon>
+      <taxon>Streptococcus</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="12" key="1">
+    <citation type="submission" date="2015-10" db="EMBL/GenBank/DDBJ databases">
+      <title>Streptococcus suis Serotype 2 Sequence Type 25.</title>
+      <authorList>
+        <person name="Athey T.B.T."/>
+        <person name="Teatero S."/>
+        <person name="Wasserscheid J."/>
+        <person name="Dewar K."/>
+        <person name="Fittipaldi N."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="12">NSUI060</strain>
+    </source>
+  </reference>
+  <reference evidence="8" key="2">
+    <citation type="submission" date="2015-10" db="EMBL/GenBank/DDBJ databases">
+      <authorList>
+        <person name="Athey T.B.T."/>
+        <person name="Teatero S."/>
+        <person name="Wasserscheid J."/>
+        <person name="Dewar K."/>
+        <person name="Fittipaldi N."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="8">NSUI060</strain>
+    </source>
+  </reference>
+  <reference evidence="8 12" key="3">
+    <citation type="journal article" date="2016" name="PLoS ONE" volume="11" first="E0150908" last="E0150908">
+      <title>Population Structure and Antimicrobial Resistance Profiles of Streptococcus suis Serotype 2 Sequence Type 25 Strains.</title>
+      <authorList>
+        <person name="Athey T.B."/>
+        <person name="Teatero S."/>
+        <person name="Takamatsu D."/>
+        <person name="Wasserscheid J."/>
+        <person name="Dewar K."/>
+        <person name="Gottschalk M."/>
+        <person name="Fittipaldi N."/>
+      </authorList>
+      <dbReference type="PubMed" id="26954687"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="8 12">NSUI060</strain>
+    </source>
+  </reference>
+  <reference evidence="9 13" key="4">
+    <citation type="submission" date="2018-05" db="EMBL/GenBank/DDBJ databases">
+      <title>Genomic analyses of a virulent Streptococcus suis serotype 5 strain HN105 with multi-antibiotic resistance facilitate to identify a functional type B lantibiotic locus.</title>
+      <authorList>
+        <person name="Zhu Y."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="9 13">HN105</strain>
+    </source>
+  </reference>
+  <reference evidence="11 14" key="5">
+    <citation type="submission" date="2018-11" db="EMBL/GenBank/DDBJ databases">
+      <title>Changes in penicillin susceptibility of Streptococcus suis isolates by amino acid alterations in the penicillin-binding protein.</title>
+      <authorList>
+        <person name="Niemann L."/>
+        <person name="Eichhorn I."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="11 14">IMT40738</strain>
+    </source>
+  </reference>
+  <reference evidence="10" key="6">
+    <citation type="submission" date="2022-07" db="EMBL/GenBank/DDBJ databases">
+      <title>Whole Genome Sequencing of Streptococcus suis.</title>
+      <authorList>
+        <person name="Dai X."/>
+        <person name="Huang J."/>
+        <person name="Wang L."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="10">HDJ11</strain>
+    </source>
+  </reference>
+  <comment type="function">
+    <text evidence="7">Lanthionine-containing peptide antibiotic (lantibiotic) active on Gram-positive bacteria. The bactericidal activity of lantibiotics is based on depolarization of energized bacterial cytoplasmic membranes, initiated by the formation of aqueous transmembrane pores.</text>
+  </comment>
+  <comment type="PTM">
+    <text evidence="7">Maturation of lantibiotics involves the enzymatic conversion of Thr, and Ser into dehydrated AA and the formation of thioether bonds with cysteine. This is followed by membrane translocation and cleavage of the modified precursor.</text>
+  </comment>
+  <comment type="similarity">
+    <text evidence="1 7">Belongs to the type A lantibiotic family.</text>
+  </comment>
+  <dbReference type="EMBL" id="CP012911">
+    <property type="protein sequence ID" value="AML46402.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="CP029398">
+    <property type="protein sequence ID" value="AWL25955.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="JANFMI010000026">
+    <property type="protein sequence ID" value="MDG4516780.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="RRZO01000136">
+    <property type="protein sequence ID" value="RRN48033.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="WP_002935049.1">
+    <property type="nucleotide sequence ID" value="NZ_WCIZ01000002.1"/>
+  </dbReference>
+  <dbReference type="OrthoDB" id="2080803at2"/>
+  <dbReference type="Proteomes" id="UP000070276">
+    <property type="component" value="Chromosome"/>
+  </dbReference>
+  <dbReference type="Proteomes" id="UP000245682">
+    <property type="component" value="Chromosome"/>
+  </dbReference>
+  <dbReference type="Proteomes" id="UP000278566">
+    <property type="component" value="Unassembled WGS sequence"/>
+  </dbReference>
+  <dbReference type="Proteomes" id="UP001152877">
+    <property type="component" value="Unassembled WGS sequence"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0005576">
+    <property type="term" value="C:extracellular region"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="InterPro"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0005102">
+    <property type="term" value="F:signaling receptor binding"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0042742">
+    <property type="term" value="P:defense response to bacterium"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-UniRule"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0031640">
+    <property type="term" value="P:killing of cells of another organism"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-UniRule"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR007682">
+    <property type="entry name" value="Lantibiotic_typ-A_Lactobact"/>
+  </dbReference>
+  <dbReference type="NCBIfam" id="NF040664">
+    <property type="entry name" value="HEC_x9_TCC_lant"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF04604">
+    <property type="entry name" value="L_biotic_typeA"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="inferred from homology"/>
+  <keyword evidence="5 7" id="KW-0044">Antibiotic</keyword>
+  <keyword evidence="2 7" id="KW-0929">Antimicrobial</keyword>
+  <keyword evidence="6 7" id="KW-0078">Bacteriocin</keyword>
+  <keyword evidence="4 7" id="KW-0425">Lantibiotic</keyword>
+  <keyword evidence="3" id="KW-0883">Thioether bond</keyword>
+  <evidence type="ECO:0000256" key="1">
+    <source>
+      <dbReference type="ARBA" id="ARBA00009379"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000256" key="2">
+    <source>
+      <dbReference type="ARBA" id="ARBA00022529"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000256" key="3">
+    <source>
+      <dbReference type="ARBA" id="ARBA00022784"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000256" key="4">
+    <source>
+      <dbReference type="ARBA" id="ARBA00022789"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000256" key="5">
+    <source>
+      <dbReference type="ARBA" id="ARBA00023022"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000256" key="6">
+    <source>
+      <dbReference type="ARBA" id="ARBA00023048"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000256" key="7">
+    <source>
+      <dbReference type="RuleBase" id="RU362078"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="8">
+    <source>
+      <dbReference type="EMBL" id="AML46402.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="9">
+    <source>
+      <dbReference type="EMBL" id="AWL25955.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="10">
+    <source>
+      <dbReference type="EMBL" id="MDG4516780.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="11">
+    <source>
+      <dbReference type="EMBL" id="RRN48033.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="12">
+    <source>
+      <dbReference type="Proteomes" id="UP000070276"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="13">
+    <source>
+      <dbReference type="Proteomes" id="UP000245682"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="14">
+    <source>
+      <dbReference type="Proteomes" id="UP000278566"/>
+    </source>
+  </evidence>
+  <sequence length="51" mass="5885" checksum="AA4D3E7E09216EC7" modified="2016-06-08" version="1">MKDNYELMNTIQEVSLEELDQIIGAGKNGVFKTISHECHMNSWQFLFTCCS</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

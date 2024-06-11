@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2013-05-01" modified="2024-01-24" version="28" xmlns="http://uniprot.org/uniprot">
+  <accession>M1QRN1</accession>
+  <name>M1QRN1_BACTU</name>
+  <protein>
+    <recommendedName>
+      <fullName evidence="3">Lantibiotic paenibacillin</fullName>
+    </recommendedName>
+  </protein>
+  <gene>
+    <name evidence="1" type="ORF">H175_233p097</name>
+  </gene>
+  <organism evidence="1 2">
+    <name type="scientific">Bacillus thuringiensis serovar thuringiensis str. IS5056</name>
+    <dbReference type="NCBI Taxonomy" id="1286404"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Bacillota</taxon>
+      <taxon>Bacilli</taxon>
+      <taxon>Bacillales</taxon>
+      <taxon>Bacillaceae</taxon>
+      <taxon>Bacillus</taxon>
+      <taxon>Bacillus cereus group</taxon>
+    </lineage>
+  </organism>
+  <geneLocation type="plasmid" evidence="1 2">
+    <name>pIS56-233</name>
+  </geneLocation>
+  <reference evidence="1 2" key="1">
+    <citation type="journal article" date="2013" name="Genome Announc." volume="1" first="E0010813" last="E0010813">
+      <title>Complete genome sequence of Bacillus thuringiensis subsp. thuringiensis strain IS5056, an isolate highly toxic to Trichoplusia ni.</title>
+      <authorList>
+        <person name="Murawska E."/>
+        <person name="Fiedoruk K."/>
+        <person name="Bideshi D.K."/>
+        <person name="Swiecicka I."/>
+      </authorList>
+      <dbReference type="PubMed" id="23516221"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="1">IS5056</strain>
+      <plasmid evidence="2">Plasmid pIS56-233</plasmid>
+    </source>
+  </reference>
+  <dbReference type="EMBL" id="CP004135">
+    <property type="protein sequence ID" value="AGG04951.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="WP_000356689.1">
+    <property type="nucleotide sequence ID" value="NC_020394.1"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="M1QRN1"/>
+  <dbReference type="GeneID" id="79382473"/>
+  <dbReference type="KEGG" id="btht:H175_233p097"/>
+  <dbReference type="HOGENOM" id="CLU_3095886_0_0_9"/>
+  <dbReference type="Proteomes" id="UP000011719">
+    <property type="component" value="Plasmid pIS56-233"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR012519">
+    <property type="entry name" value="Lantibiotic_typ-A_Pep5"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF08130">
+    <property type="entry name" value="Antimicrobial18"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="predicted"/>
+  <keyword evidence="1" id="KW-0614">Plasmid</keyword>
+  <evidence type="ECO:0000313" key="1">
+    <source>
+      <dbReference type="EMBL" id="AGG04951.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="2">
+    <source>
+      <dbReference type="Proteomes" id="UP000011719"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0008006" key="3">
+    <source>
+      <dbReference type="Google" id="ProtNLM"/>
+    </source>
+  </evidence>
+  <sequence length="51" mass="5691" checksum="EC88C1134BE2C764" modified="2013-05-01" version="1">MDKELFDLDINKKMETPTEMTAQTWTSILKVSRAPCKSGTCLCTTSCSNCK</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

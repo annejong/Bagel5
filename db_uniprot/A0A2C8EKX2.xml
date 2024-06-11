@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2017-12-20" modified="2024-01-24" version="14" xmlns="http://uniprot.org/uniprot">
+  <accession>A0A2C8EKX2</accession>
+  <name>A0A2C8EKX2_9LACO</name>
+  <protein>
+    <recommendedName>
+      <fullName evidence="3">Bacteriocin</fullName>
+    </recommendedName>
+  </protein>
+  <gene>
+    <name evidence="1" type="ORF">LABALGLTS371_06770</name>
+  </gene>
+  <organism evidence="1 2">
+    <name type="scientific">Dellaglioa algida</name>
+    <dbReference type="NCBI Taxonomy" id="105612"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Bacillota</taxon>
+      <taxon>Bacilli</taxon>
+      <taxon>Lactobacillales</taxon>
+      <taxon>Lactobacillaceae</taxon>
+      <taxon>Dellaglioa</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="1 2" key="1">
+    <citation type="submission" date="2019-04" db="EMBL/GenBank/DDBJ databases">
+      <title>In vitro growth and metabolic characteristics of meat-borne Lactobacillus algidus strains.</title>
+      <authorList>
+        <person name="Sade E."/>
+        <person name="Per J."/>
+        <person name="Tytti H."/>
+        <person name="Johanna B.K."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="1 2">LTS37-1</strain>
+    </source>
+  </reference>
+  <comment type="caution">
+    <text evidence="1">The sequence shown here is derived from an EMBL/GenBank/DDBJ whole genome shotgun (WGS) entry which is preliminary data.</text>
+  </comment>
+  <dbReference type="EMBL" id="SRRQ01000003">
+    <property type="protein sequence ID" value="TWW11504.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="A0A2C8EKX2"/>
+  <dbReference type="Proteomes" id="UP000321659">
+    <property type="component" value="Unassembled WGS sequence"/>
+  </dbReference>
+  <proteinExistence type="predicted"/>
+  <evidence type="ECO:0000313" key="1">
+    <source>
+      <dbReference type="EMBL" id="TWW11504.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="2">
+    <source>
+      <dbReference type="Proteomes" id="UP000321659"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0008006" key="3">
+    <source>
+      <dbReference type="Google" id="ProtNLM"/>
+    </source>
+  </evidence>
+  <sequence length="64" mass="6863" checksum="D33A1FB66D5AE887" modified="2017-12-20" version="1">MSKLLRKLTDEEIEKADASAGSSCSWYKAMLPGYVAACTVALSRGGSCGCAEMKRARSYIAKHC</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

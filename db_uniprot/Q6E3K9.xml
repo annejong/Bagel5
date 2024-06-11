@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2006-04-04" modified="2023-11-08" version="27" xmlns="http://uniprot.org/uniprot">
+  <accession>Q6E3K9</accession>
+  <name>PRONF_PROFF</name>
+  <protein>
+    <recommendedName>
+      <fullName>Propionicin-F</fullName>
+    </recommendedName>
+  </protein>
+  <gene>
+    <name evidence="3" type="primary">pcfA</name>
+  </gene>
+  <organism>
+    <name type="scientific">Propionibacterium freudenreichii subsp. freudenreichii</name>
+    <dbReference type="NCBI Taxonomy" id="66712"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Actinomycetota</taxon>
+      <taxon>Actinomycetes</taxon>
+      <taxon>Propionibacteriales</taxon>
+      <taxon>Propionibacteriaceae</taxon>
+      <taxon>Propionibacterium</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="2 3" key="1">
+    <citation type="journal article" date="2004" name="Appl. Environ. Microbiol." volume="70" first="7303" last="7310">
+      <title>Molecular and genetic characterization of propionicin F, a bacteriocin from Propionibacterium freudenreichii.</title>
+      <authorList>
+        <person name="Brede D.A."/>
+        <person name="Faye T."/>
+        <person name="Johnsborg O."/>
+        <person name="Oedegaard I."/>
+        <person name="Nes I.F."/>
+        <person name="Holo H."/>
+      </authorList>
+      <dbReference type="PubMed" id="15574930"/>
+      <dbReference type="DOI" id="10.1128/aem.70.12.7303-7310.2004"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+    <scope>PROTEIN SEQUENCE OF 102-124</scope>
+    <scope>FUNCTION</scope>
+    <scope>MASS SPECTROMETRY</scope>
+    <source>
+      <strain evidence="3">LMGT 2946</strain>
+    </source>
+  </reference>
+  <comment type="function">
+    <text evidence="1">Bacteriocin with specific antibacterial activity against strains of P.freudenreichii. No antibacterial activity was detected against P.acidipropionici, P.jensenii and P.thoenii.</text>
+  </comment>
+  <comment type="subcellular location">
+    <subcellularLocation>
+      <location>Secreted</location>
+    </subcellularLocation>
+  </comment>
+  <comment type="mass spectrometry" mass="4397.3" method="MALDI" evidence="1"/>
+  <dbReference type="EMBL" id="AY587566">
+    <property type="protein sequence ID" value="AAT47515.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="Q6E3K9"/>
+  <dbReference type="SMR" id="Q6E3K9"/>
+  <dbReference type="TCDB" id="9.B.86.1.1">
+    <property type="family name" value="the propionicin (propionicin) family"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0005576">
+    <property type="term" value="C:extracellular region"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0050830">
+    <property type="term" value="P:defense response to Gram-positive bacterium"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0031640">
+    <property type="term" value="P:killing of cells of another organism"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <proteinExistence type="evidence at protein level"/>
+  <keyword id="KW-0044">Antibiotic</keyword>
+  <keyword id="KW-0929">Antimicrobial</keyword>
+  <keyword id="KW-0078">Bacteriocin</keyword>
+  <keyword id="KW-0903">Direct protein sequencing</keyword>
+  <keyword id="KW-0964">Secreted</keyword>
+  <feature type="propeptide" id="PRO_0000229753" evidence="1">
+    <location>
+      <begin position="1"/>
+      <end position="101"/>
+    </location>
+  </feature>
+  <feature type="peptide" id="PRO_0000229754" description="Propionicin-F">
+    <location>
+      <begin position="102"/>
+      <end position="144"/>
+    </location>
+  </feature>
+  <feature type="propeptide" id="PRO_0000229755" evidence="1">
+    <location>
+      <begin position="145"/>
+      <end position="255"/>
+    </location>
+  </feature>
+  <evidence type="ECO:0000269" key="1">
+    <source>
+      <dbReference type="PubMed" id="15574930"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000305" key="2"/>
+  <evidence type="ECO:0000312" key="3">
+    <source>
+      <dbReference type="EMBL" id="AAT47515.1"/>
+    </source>
+  </evidence>
+  <sequence length="255" mass="28310" checksum="65482F0161DAD12A" modified="2004-08-16" version="1" precursor="true">MNTKAVNLKSENTTKLVSYLTENQLDEFIRRIRIDGALVEEVSQNAKQALDNTGLNGWINTDCDEGLLSDFISKIASARWIPLAESIRPAVTDRDKYRVSCWFYQGMNIAIYANIGGVANIIGYTEAAVATLLGAVVAVAPVVPGTPTPPKDKSSQYKEVPLAVRLSETYHEEGVRGLFDELNYSESRMISTLRRASTDGVLINSWNDGQDTILLKKYNFQDLQLTVRSRIVGNQTIIEECKITDGRKTLSDETV</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

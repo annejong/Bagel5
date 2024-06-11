@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2013-11-13" modified="2023-09-13" version="11" xmlns="http://uniprot.org/uniprot">
+  <accession>T2HUM0</accession>
+  <name>T2HUM0_9ACTN</name>
+  <protein>
+    <submittedName>
+      <fullName evidence="2">Precursor peptide for JBIR-140</fullName>
+    </submittedName>
+    <submittedName>
+      <fullName evidence="1">Thioviridamide peptide</fullName>
+    </submittedName>
+  </protein>
+  <gene>
+    <name evidence="1" type="primary">tvaA</name>
+  </gene>
+  <organism evidence="1">
+    <name type="scientific">Streptomyces olivoviridis</name>
+    <dbReference type="NCBI Taxonomy" id="67338"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Actinomycetota</taxon>
+      <taxon>Actinomycetes</taxon>
+      <taxon>Kitasatosporales</taxon>
+      <taxon>Streptomycetaceae</taxon>
+      <taxon>Streptomyces</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="1" key="1">
+    <citation type="journal article" date="2013" name="Appl. Environ. Microbiol." volume="79" first="7110" last="7113">
+      <title>Cloning and Heterologous Expression of the Thioviridamide Biosynthesis Gene Cluster from Streptomyces olivoviridis.</title>
+      <authorList>
+        <person name="Izawa M."/>
+        <person name="Kawasaki T."/>
+        <person name="Hayakawa Y."/>
+      </authorList>
+      <dbReference type="PubMed" id="23995943"/>
+      <dbReference type="DOI" id="10.1128/AEM.01978-13"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="1">NA05001</strain>
+    </source>
+  </reference>
+  <reference evidence="2" key="2">
+    <citation type="journal article" date="2015" name="J. Antibiot." volume="68" first="533" last="536">
+      <title>Novel thioviridamide derivative--JBIR-140: heterologous expression of the gene cluster for thioviridamide biosynthesis.</title>
+      <authorList>
+        <person name="Izumikawa M."/>
+        <person name="Kozone I."/>
+        <person name="Hashimoto J."/>
+        <person name="Kagaya N."/>
+        <person name="Takagi M."/>
+        <person name="Koiwai H."/>
+        <person name="Komatsu M."/>
+        <person name="Fujie M."/>
+        <person name="Satoh N."/>
+        <person name="Ikeda H."/>
+        <person name="Shin-ya K."/>
+      </authorList>
+      <dbReference type="PubMed" id="25712397"/>
+      <dbReference type="DOI" id=".1038/ja.2015.20"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="2">NA05001</strain>
+    </source>
+  </reference>
+  <reference evidence="2" key="3">
+    <citation type="submission" date="2019-03" db="EMBL/GenBank/DDBJ databases">
+      <authorList>
+        <person name="Ikeda H."/>
+        <person name="Shin-ya K."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="2">NA05001</strain>
+    </source>
+  </reference>
+  <dbReference type="EMBL" id="AB819757">
+    <property type="protein sequence ID" value="BAN83916.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="LC466032">
+    <property type="protein sequence ID" value="BBI93400.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="T2HUM0"/>
+  <dbReference type="NCBIfam" id="NF033415">
+    <property type="entry name" value="thiovirid_RiPP"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="predicted"/>
+  <evidence type="ECO:0000313" key="1">
+    <source>
+      <dbReference type="EMBL" id="BAN83916.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="2">
+    <source>
+      <dbReference type="EMBL" id="BBI93400.1"/>
+    </source>
+  </evidence>
+  <sequence length="75" mass="7752" checksum="E7547F07F0D75341" modified="2013-11-13" version="1">MTEKTQITDVQAFEDLVAKVQEMDGPAQASSTVAALAGLDAAELQNFLEEKSGISPDEEAQGSVMAAAASIALHC</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

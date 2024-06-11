@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2000-05-01" modified="2023-05-03" version="21" xmlns="http://uniprot.org/uniprot">
+  <accession>Q9R4A0</accession>
+  <name>Q9R4A0_LACAI</name>
+  <protein>
+    <submittedName>
+      <fullName>ACIDOCIN J1132 alpha peptide</fullName>
+    </submittedName>
+  </protein>
+  <organism>
+    <name type="scientific">Lactobacillus acidophilus</name>
+    <dbReference type="NCBI Taxonomy" id="1579"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Bacillota</taxon>
+      <taxon>Bacilli</taxon>
+      <taxon>Lactobacillales</taxon>
+      <taxon>Lactobacillaceae</taxon>
+      <taxon>Lactobacillus</taxon>
+    </lineage>
+  </organism>
+  <reference key="1">
+    <citation type="journal article" date="1996" name="Appl. Environ. Microbiol." volume="62" first="892" last="897">
+      <title>Isolation, partial characterization, and mode of action of Acidocin J1132, a two-component bacteriocin produced by Lactobacillus acidophilus JCM 1132.</title>
+      <authorList>
+        <person name="Tahara T."/>
+        <person name="Oshimura M."/>
+        <person name="Umezawa C."/>
+        <person name="Kanatani K."/>
+      </authorList>
+      <dbReference type="PubMed" id="8975617"/>
+    </citation>
+    <scope>PROTEIN SEQUENCE</scope>
+  </reference>
+  <dbReference type="AlphaFoldDB" id="Q9R4A0"/>
+  <proteinExistence type="evidence at protein level"/>
+  <keyword id="KW-0903">Direct protein sequencing</keyword>
+  <sequence length="23" mass="2269" checksum="45231D87B690772E" modified="2000-05-01" version="1" fragment="single">NPKVAHCASQIGRSTAWGAVSGA</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

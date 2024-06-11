@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2011-09-21" modified="2023-09-13" version="13" xmlns="http://uniprot.org/uniprot">
+  <accession>F8QV07</accession>
+  <name>F8QV07_RUMGN</name>
+  <protein>
+    <submittedName>
+      <fullName evidence="1">Ruminococcin C</fullName>
+    </submittedName>
+  </protein>
+  <gene>
+    <name evidence="1" type="primary">rumC1</name>
+  </gene>
+  <organism evidence="1">
+    <name type="scientific">[Ruminococcus] gnavus E1</name>
+    <dbReference type="NCBI Taxonomy" id="935582"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Bacillota</taxon>
+      <taxon>Clostridia</taxon>
+      <taxon>Eubacteriales</taxon>
+      <taxon>Lachnospiraceae</taxon>
+      <taxon>Mediterraneibacter</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="1" key="1">
+    <citation type="journal article" date="2011" name="Biochimie" volume="93" first="1487" last="1494">
+      <title>Ruminococcin C, a new anti-Clostridium perfringens bacteriocin produced in the gut by the commensal bacterium Ruminococcus gnavus E1.</title>
+      <authorList>
+        <person name="Crost E.H."/>
+        <person name="Ajandouz E.H."/>
+        <person name="Villard C."/>
+        <person name="Geraert P.A."/>
+        <person name="Puigserver A."/>
+        <person name="Fons M."/>
+      </authorList>
+      <dbReference type="PubMed" id="21586310"/>
+      <dbReference type="DOI" id="10.1016/j.biochi.2011.05.001"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="1">E1</strain>
+    </source>
+  </reference>
+  <reference evidence="2" key="2">
+    <citation type="journal article" date="2020" name="Proc. Natl. Acad. Sci. U.S.A." volume="117" first="19168" last="19177">
+      <title>The unusual structure of Ruminococcin C1 antimicrobial peptide confers clinical properties.</title>
+      <authorList>
+        <person name="Roblin C."/>
+        <person name="Chiumento S."/>
+        <person name="Bornet O."/>
+        <person name="Nouailler M."/>
+        <person name="Muller C.S."/>
+        <person name="Jeannot K."/>
+        <person name="Basset C."/>
+        <person name="Kieffer-Jaquinod S."/>
+        <person name="Coute Y."/>
+        <person name="Torelli S."/>
+        <person name="Le Pape L."/>
+        <person name="Schunemann V."/>
+        <person name="Olleik H."/>
+        <person name="De La Villeon B."/>
+        <person name="Sockeel P."/>
+        <person name="Di Pasquale E."/>
+        <person name="Nicoletti C."/>
+        <person name="Vidal N."/>
+        <person name="Poljak L."/>
+        <person name="Iranzo O."/>
+        <person name="Giardina T."/>
+        <person name="Fons M."/>
+        <person name="Devillard E."/>
+        <person name="Polard P."/>
+        <person name="Maresca M."/>
+        <person name="Perrier J."/>
+        <person name="Atta M."/>
+        <person name="Guerlesquin F."/>
+        <person name="Lafond M."/>
+        <person name="Duarte V."/>
+      </authorList>
+      <dbReference type="PubMed" id="32719135"/>
+      <dbReference type="DOI" id="10.1073/pnas.2004045117"/>
+    </citation>
+    <scope>STRUCTURE BY NMR OF 20-63</scope>
+  </reference>
+  <dbReference type="EMBL" id="HM060266">
+    <property type="protein sequence ID" value="AEC03333.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="PDB" id="6T33">
+    <property type="method" value="NMR"/>
+    <property type="chains" value="A=20-63"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="F8QV07"/>
+  <dbReference type="BMRB" id="F8QV07"/>
+  <dbReference type="SMR" id="F8QV07"/>
+  <dbReference type="NCBIfam" id="NF035950">
+    <property type="entry name" value="RumC_sactiRiPP"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="evidence at protein level"/>
+  <keyword evidence="2" id="KW-0002">3D-structure</keyword>
+  <evidence type="ECO:0000313" key="1">
+    <source>
+      <dbReference type="EMBL" id="AEC03333.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007829" key="2">
+    <source>
+      <dbReference type="PDB" id="6T33"/>
+    </source>
+  </evidence>
+  <sequence length="63" mass="6349" checksum="DF2AD22090CC4014" modified="2011-09-21" version="1">MRKIVAGKLQTGADFEGSKWGCVCSGSTAVANSHNAGPAYCVGYCGNNGVVTRNANANVAKTA</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

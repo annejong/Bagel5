@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2002-07-11" modified="2023-09-13" version="68" xmlns="http://uniprot.org/uniprot">
+  <accession>Q48501</accession>
+  <accession>Q9R5H2</accession>
+  <name>LA89_LACAI</name>
+  <protein>
+    <recommendedName>
+      <fullName>Bacteriocin acidocin 8912</fullName>
+    </recommendedName>
+  </protein>
+  <gene>
+    <name type="primary">acdT</name>
+  </gene>
+  <organism>
+    <name type="scientific">Lactobacillus acidophilus</name>
+    <dbReference type="NCBI Taxonomy" id="1579"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Bacillota</taxon>
+      <taxon>Bacilli</taxon>
+      <taxon>Lactobacillales</taxon>
+      <taxon>Lactobacillaceae</taxon>
+      <taxon>Lactobacillus</taxon>
+    </lineage>
+  </organism>
+  <geneLocation type="plasmid">
+    <name>pLA103</name>
+  </geneLocation>
+  <reference key="1">
+    <citation type="journal article" date="1995" name="Lett. Appl. Microbiol." volume="21" first="384" last="386">
+      <title>Cloning and nucleotide sequence of the gene for acidocin 8912, a bacteriocin from Lactobacillus acidophilus TK8912.</title>
+      <authorList>
+        <person name="Kanatani K."/>
+        <person name="Tahara T."/>
+        <person name="Oshimura M."/>
+        <person name="Sano K."/>
+        <person name="Umezawa C."/>
+      </authorList>
+      <dbReference type="PubMed" id="8554765"/>
+      <dbReference type="DOI" id="10.1111/j.1472-765x.1995.tb01087.x"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+    <source>
+      <strain>TK8912</strain>
+    </source>
+  </reference>
+  <reference key="2">
+    <citation type="submission" date="2002-03" db="EMBL/GenBank/DDBJ databases">
+      <authorList>
+        <person name="Nakachi I."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+    <source>
+      <strain>TK8912</strain>
+    </source>
+  </reference>
+  <reference key="3">
+    <citation type="journal article" date="1992" name="Biosci. Biotechnol. Biochem." volume="56" first="1212" last="1215">
+      <title>Purification and some properties of acidocin 8912, a novel bacteriocin produced by Lactobacillus acidophilus TK8912.</title>
+      <authorList>
+        <person name="Tahara T."/>
+        <person name="Kanatani K."/>
+        <person name="Yoshida K."/>
+        <person name="Miura H."/>
+        <person name="Sakamoto M."/>
+        <person name="Oshimura M."/>
+      </authorList>
+      <dbReference type="PubMed" id="1368836"/>
+      <dbReference type="DOI" id="10.1271/bbb.56.1212"/>
+    </citation>
+    <scope>PROTEIN SEQUENCE OF 21-44</scope>
+    <source>
+      <strain>TK8912</strain>
+    </source>
+  </reference>
+  <comment type="function">
+    <text>Has a bactericidal effect on sensitive cells but not a bacteriolytic effect.</text>
+  </comment>
+  <comment type="subcellular location">
+    <subcellularLocation>
+      <location>Secreted</location>
+    </subcellularLocation>
+  </comment>
+  <dbReference type="EMBL" id="D43626">
+    <property type="protein sequence ID" value="BAA07737.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="AB081463">
+    <property type="protein sequence ID" value="BAB86322.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="NP_604414.1">
+    <property type="nucleotide sequence ID" value="NC_003458.1"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="WP_011017212.1">
+    <property type="nucleotide sequence ID" value="NC_003458.1"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="Q48501"/>
+  <dbReference type="GO" id="GO:0005576">
+    <property type="term" value="C:extracellular region"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-SubCell"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0042742">
+    <property type="term" value="P:defense response to bacterium"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0031640">
+    <property type="term" value="P:killing of cells of another organism"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR010133">
+    <property type="entry name" value="Bacteriocin_signal_seq"/>
+  </dbReference>
+  <dbReference type="NCBIfam" id="TIGR01847">
+    <property type="entry name" value="bacteriocin_sig"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="evidence at protein level"/>
+  <keyword id="KW-0044">Antibiotic</keyword>
+  <keyword id="KW-0929">Antimicrobial</keyword>
+  <keyword id="KW-0078">Bacteriocin</keyword>
+  <keyword id="KW-0903">Direct protein sequencing</keyword>
+  <keyword id="KW-0614">Plasmid</keyword>
+  <keyword id="KW-0964">Secreted</keyword>
+  <feature type="propeptide" id="PRO_0000002762" evidence="1">
+    <location>
+      <begin position="1"/>
+      <end position="20"/>
+    </location>
+  </feature>
+  <feature type="peptide" id="PRO_0000002763" description="Bacteriocin acidocin 8912">
+    <location>
+      <begin position="21"/>
+      <end position="46"/>
+    </location>
+  </feature>
+  <feature type="sequence conflict" description="In Ref. 3; AA sequence." evidence="2" ref="3">
+    <original>W</original>
+    <variation>R</variation>
+    <location>
+      <position position="33"/>
+    </location>
+  </feature>
+  <evidence type="ECO:0000269" key="1">
+    <source>
+      <dbReference type="PubMed" id="1368836"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000305" key="2"/>
+  <sequence length="46" mass="5331" checksum="EAF910D04D2AC3E8" modified="1996-11-01" version="1" precursor="true">MISSHQKTLTDKELALISGGKTHYPTNAWKSLWKGFWESLRYTDGF</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

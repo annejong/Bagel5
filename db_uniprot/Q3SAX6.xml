@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2005-10-11" modified="2023-09-13" version="41" xmlns="http://uniprot.org/uniprot">
+  <accession>Q3SAX6</accession>
+  <name>Q3SAX6_CARDV</name>
+  <protein>
+    <submittedName>
+      <fullName evidence="2">Divergicin A</fullName>
+    </submittedName>
+  </protein>
+  <gene>
+    <name evidence="2" type="primary">dvnA</name>
+    <name evidence="3" type="ORF">CKN86_13375</name>
+  </gene>
+  <organism evidence="2">
+    <name type="scientific">Carnobacterium divergens</name>
+    <name type="common">Lactobacillus divergens</name>
+    <dbReference type="NCBI Taxonomy" id="2748"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Bacillota</taxon>
+      <taxon>Bacilli</taxon>
+      <taxon>Lactobacillales</taxon>
+      <taxon>Carnobacteriaceae</taxon>
+      <taxon>Carnobacterium</taxon>
+    </lineage>
+  </organism>
+  <geneLocation type="plasmid" evidence="2">
+    <name>pCD3.4</name>
+  </geneLocation>
+  <reference evidence="2" key="1">
+    <citation type="journal article" date="1995" name="J. Bacteriol." volume="177" first="3143" last="3149">
+      <title>A signal peptide secretion-dependent bacteriocin from Carnobacterium divergens.</title>
+      <authorList>
+        <person name="Worobo R.W."/>
+        <person name="Van Belkum M.J."/>
+        <person name="Sailer M."/>
+        <person name="Roy K.L."/>
+        <person name="Vederas J.C."/>
+        <person name="Stiles M.E."/>
+      </authorList>
+      <dbReference type="PubMed" id="7768812"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="2">LV13</strain>
+      <plasmid evidence="2">pCD3.4</plasmid>
+    </source>
+  </reference>
+  <reference evidence="2" key="2">
+    <citation type="journal article" date="2006" name="Microbiology" volume="152" first="171" last="178">
+      <title>Characterization of the theta-type plasmid pCD3.4 from Carnobacterium divergens, and modulation of its host range by RepA mutation.</title>
+      <authorList>
+        <person name="van Belkum M.J."/>
+        <person name="Stiles M.E."/>
+      </authorList>
+      <dbReference type="PubMed" id="16385127"/>
+      <dbReference type="DOI" id="10.1099/mic.0.28294-0"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="2">LV13</strain>
+      <plasmid evidence="2">pCD3.4</plasmid>
+    </source>
+  </reference>
+  <reference evidence="3 4" key="3">
+    <citation type="journal article" date="2018" name="Int. J. Food Microbiol." volume="286" first="120" last="127">
+      <title>Growth of Carnobacterium spp. isolated from chilled vacuum-packaged meat under relevant acidic conditions.</title>
+      <authorList>
+        <person name="Zhang P."/>
+        <person name="Badoni M."/>
+        <person name="Ganzle M."/>
+        <person name="Yang X."/>
+      </authorList>
+      <dbReference type="PubMed" id="30081251"/>
+      <dbReference type="DOI" id=".1016/j.ijfoodmicro.2018.07.032"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="3 4">B7</strain>
+    </source>
+  </reference>
+  <dbReference type="EMBL" id="DQ087597">
+    <property type="protein sequence ID" value="AAZ29031.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="NRPK01000018">
+    <property type="protein sequence ID" value="TFJ01729.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="PIR" id="A57260">
+    <property type="entry name" value="A57260"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="Q3SAX6"/>
+  <dbReference type="TCDB" id="1.C.27.1.1">
+    <property type="family name" value="the divergicin a (divergicin a) family"/>
+  </dbReference>
+  <dbReference type="Proteomes" id="UP000298289">
+    <property type="component" value="Unassembled WGS sequence"/>
+  </dbReference>
+  <proteinExistence type="predicted"/>
+  <keyword evidence="2" id="KW-0614">Plasmid</keyword>
+  <keyword evidence="1" id="KW-0732">Signal</keyword>
+  <feature type="signal peptide" evidence="1">
+    <location>
+      <begin position="1"/>
+      <end position="29"/>
+    </location>
+  </feature>
+  <feature type="chain" id="PRO_5036286018" evidence="1">
+    <location>
+      <begin position="30"/>
+      <end position="75"/>
+    </location>
+  </feature>
+  <evidence type="ECO:0000256" key="1">
+    <source>
+      <dbReference type="SAM" id="SignalP"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="2">
+    <source>
+      <dbReference type="EMBL" id="AAZ29031.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="3">
+    <source>
+      <dbReference type="EMBL" id="TFJ01729.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="4">
+    <source>
+      <dbReference type="Proteomes" id="UP000298289"/>
+    </source>
+  </evidence>
+  <sequence length="75" mass="7273" checksum="2ACFE0CD04F8F813" modified="2005-10-11" version="1">MKKQILKGLVIVVCLSGATFFSTPQQASAAAPKITQKQKNCVNGQLGGMLAGALGGPGGVVLGGIGGAIAGGCFN</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

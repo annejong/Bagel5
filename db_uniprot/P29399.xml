@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="1992-12-01" modified="2023-11-08" version="65" xmlns="http://uniprot.org/uniprot">
+  <accession>P29399</accession>
+  <accession>Q9WWQ5</accession>
+  <name>MARI_ALTSP</name>
+  <protein>
+    <recommendedName>
+      <fullName>Marinostatin-L</fullName>
+    </recommendedName>
+    <component>
+      <recommendedName>
+        <fullName>Marinostatin-C1</fullName>
+      </recommendedName>
+    </component>
+    <component>
+      <recommendedName>
+        <fullName>Marinostatin-C2</fullName>
+      </recommendedName>
+    </component>
+    <component>
+      <recommendedName>
+        <fullName>Marinostatin-D</fullName>
+      </recommendedName>
+    </component>
+  </protein>
+  <gene>
+    <name type="primary">mstI</name>
+  </gene>
+  <organism>
+    <name type="scientific">Alteromonas sp. (strain B-10-31)</name>
+    <dbReference type="NCBI Taxonomy" id="29456"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Pseudomonadota</taxon>
+      <taxon>Gammaproteobacteria</taxon>
+      <taxon>Alteromonadales</taxon>
+      <taxon>Alteromonadaceae</taxon>
+      <taxon>Alteromonas/Salinimonas group</taxon>
+      <taxon>Alteromonas</taxon>
+    </lineage>
+  </organism>
+  <reference key="1">
+    <citation type="journal article" date="1998" name="Biosci. Biotechnol. Biochem." volume="62" first="2446" last="2449">
+      <title>Cloning and nucleotide sequence of the gene encoding a serine proteinase inhibitor named marinostatin from a marine bacterium, Alteromonas sp. strain B-10-31.</title>
+      <authorList>
+        <person name="Miyamoto K."/>
+        <person name="Tsujibo H."/>
+        <person name="Hikita Y."/>
+        <person name="Tanaka K."/>
+        <person name="Miyamoto S."/>
+        <person name="Hishimoto M."/>
+        <person name="Imada C."/>
+        <person name="Kamei K."/>
+        <person name="Hara S."/>
+        <person name="Inamori Y."/>
+      </authorList>
+      <dbReference type="PubMed" id="9972273"/>
+      <dbReference type="DOI" id="10.1271/bbb.62.2446"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+    <scope>PROTEIN SEQUENCE OF 30-60</scope>
+  </reference>
+  <reference key="2">
+    <citation type="journal article" date="1991" name="J. Biochem." volume="110" first="856" last="858">
+      <title>The reactive site of marinostatin, a proteinase inhibitor from marine Alteromonas sp. B-10-31.</title>
+      <authorList>
+        <person name="Takano R."/>
+        <person name="Imada C."/>
+        <person name="Kamei K."/>
+        <person name="Hara S."/>
+      </authorList>
+      <dbReference type="PubMed" id="1794974"/>
+      <dbReference type="DOI" id="10.1093/oxfordjournals.jbchem.a123678"/>
+    </citation>
+    <scope>PROTEIN SEQUENCE OF 43-56</scope>
+    <scope>PYROGLUTAMATE FORMATION AT GLN-43</scope>
+    <scope>REACTIVE SITE</scope>
+  </reference>
+  <reference key="3">
+    <citation type="journal article" date="2005" name="Biochemistry" volume="44" first="2462" last="2468">
+      <title>Solution structure of marinostatin, a natural ester-linked protein protease inhibitor.</title>
+      <authorList>
+        <person name="Kanaori K."/>
+        <person name="Kamei K."/>
+        <person name="Taniguchi M."/>
+        <person name="Koyama T."/>
+        <person name="Yasui T."/>
+        <person name="Takano R."/>
+        <person name="Imada C."/>
+        <person name="Tajima K."/>
+        <person name="Hara S."/>
+      </authorList>
+      <dbReference type="PubMed" id="15709758"/>
+      <dbReference type="DOI" id="10.1021/bi048034x"/>
+    </citation>
+    <scope>STRUCTURE BY NMR OF 45-56</scope>
+  </reference>
+  <comment type="function">
+    <text>Inhibits subtilisin, chymotrypsin, and elastase, but not trypsin.</text>
+  </comment>
+  <comment type="similarity">
+    <text evidence="4">Belongs to the protease inhibitor I10 family.</text>
+  </comment>
+  <dbReference type="EMBL" id="AB011418">
+    <property type="protein sequence ID" value="BAA81783.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="PIR" id="JE0393">
+    <property type="entry name" value="JE0393"/>
+  </dbReference>
+  <dbReference type="PDB" id="1IXU">
+    <property type="method" value="NMR"/>
+    <property type="chains" value="A=45-56"/>
+  </dbReference>
+  <dbReference type="PDBsum" id="1IXU"/>
+  <dbReference type="AlphaFoldDB" id="P29399"/>
+  <dbReference type="SMR" id="P29399"/>
+  <dbReference type="MEROPS" id="I10.001"/>
+  <dbReference type="EvolutionaryTrace" id="P29399"/>
+  <dbReference type="GO" id="GO:0004867">
+    <property type="term" value="F:serine-type endopeptidase inhibitor activity"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR022217">
+    <property type="entry name" value="Prot_inh_I10_marinostatin"/>
+  </dbReference>
+  <dbReference type="NCBIfam" id="NF033738">
+    <property type="entry name" value="microvirid_RiPP"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF12559">
+    <property type="entry name" value="Inhibitor_I10"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="evidence at protein level"/>
+  <keyword id="KW-0002">3D-structure</keyword>
+  <keyword id="KW-0903">Direct protein sequencing</keyword>
+  <keyword id="KW-0646">Protease inhibitor</keyword>
+  <keyword id="KW-0873">Pyrrolidone carboxylic acid</keyword>
+  <keyword id="KW-0722">Serine protease inhibitor</keyword>
+  <keyword id="KW-0732">Signal</keyword>
+  <feature type="signal peptide" evidence="3">
+    <location>
+      <begin position="1"/>
+      <end position="29"/>
+    </location>
+  </feature>
+  <feature type="chain" id="PRO_0000021651" description="Marinostatin-L">
+    <location>
+      <begin position="30"/>
+      <end position="63"/>
+    </location>
+  </feature>
+  <feature type="peptide" id="PRO_0000021652" description="Marinostatin-C2">
+    <location>
+      <begin position="43"/>
+      <end position="56"/>
+    </location>
+  </feature>
+  <feature type="peptide" id="PRO_0000021653" description="Marinostatin-C1">
+    <location>
+      <begin position="45"/>
+      <end position="56"/>
+    </location>
+  </feature>
+  <feature type="peptide" id="PRO_0000021654" description="Marinostatin-D">
+    <location>
+      <begin position="46"/>
+      <end position="56"/>
+    </location>
+  </feature>
+  <feature type="region of interest" description="Disordered" evidence="1">
+    <location>
+      <begin position="23"/>
+      <end position="63"/>
+    </location>
+  </feature>
+  <feature type="compositionally biased region" description="Polar residues" evidence="1">
+    <location>
+      <begin position="23"/>
+      <end position="41"/>
+    </location>
+  </feature>
+  <feature type="site" description="Reactive bond">
+    <location>
+      <begin position="48"/>
+      <end position="49"/>
+    </location>
+  </feature>
+  <feature type="modified residue" description="Pyrrolidone carboxylic acid" evidence="2">
+    <location>
+      <position position="43"/>
+    </location>
+  </feature>
+  <feature type="sequence conflict" description="In Ref. 2; AA sequence." evidence="4" ref="2">
+    <original>SD</original>
+    <variation>DS</variation>
+    <location>
+      <begin position="54"/>
+      <end position="55"/>
+    </location>
+  </feature>
+  <evidence type="ECO:0000256" key="1">
+    <source>
+      <dbReference type="SAM" id="MobiDB-lite"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="2">
+    <source>
+      <dbReference type="PubMed" id="1794974"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="3">
+    <source>
+      <dbReference type="PubMed" id="9972273"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000305" key="4"/>
+  <sequence length="63" mass="6986" checksum="8E23AD74CEA9AE32" modified="2004-03-29" version="3" precursor="true">MKTTPFFANLLASQTRELTENELEMTAGGTASQQSPVQEVPEQPFATMRYPSDSDEDGFNFPV</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

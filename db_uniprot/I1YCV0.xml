@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2012-07-11" modified="2023-09-13" version="7" xmlns="http://uniprot.org/uniprot">
+  <accession>I1YCV0</accession>
+  <name>I1YCV0_9BACL</name>
+  <protein>
+    <submittedName>
+      <fullName evidence="1">Elgicins</fullName>
+    </submittedName>
+  </protein>
+  <gene>
+    <name evidence="1" type="primary">elgA</name>
+  </gene>
+  <organism evidence="1">
+    <name type="scientific">Paenibacillus elgii B69</name>
+    <dbReference type="NCBI Taxonomy" id="1007103"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Bacillota</taxon>
+      <taxon>Bacilli</taxon>
+      <taxon>Bacillales</taxon>
+      <taxon>Paenibacillaceae</taxon>
+      <taxon>Paenibacillus</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="1" key="1">
+    <citation type="journal article" date="2012" name="BMC Microbiol." volume="12" first="45" last="45">
+      <title>Gene cluster analysis for the biosynthesis of elgicins, novel lantibiotics produced by paenibacillus elgii B69.</title>
+      <authorList>
+        <person name="Teng Y."/>
+        <person name="Zhao W."/>
+        <person name="Qian C."/>
+        <person name="Li O."/>
+        <person name="Zhu L."/>
+        <person name="Wu X."/>
+      </authorList>
+      <dbReference type="PubMed" id="22443157"/>
+      <dbReference type="DOI" id="10.1186/1471-2180-12-45"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+  </reference>
+  <dbReference type="EMBL" id="JQ429086">
+    <property type="protein sequence ID" value="AFI99859.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="I1YCV0"/>
+  <dbReference type="NCBIfam" id="NF033457">
+    <property type="entry name" value="elgicin_lanti"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="predicted"/>
+  <evidence type="ECO:0000313" key="1">
+    <source>
+      <dbReference type="EMBL" id="AFI99859.1"/>
+    </source>
+  </evidence>
+  <sequence length="64" mass="7158" checksum="4B1C05349A12E4DC" modified="2012-07-11" version="1">MANNNFDLDVQMKSVNSVNANLGNYTSQCYSSQCYSSKCYSDSCYSSNCYTGRHMCGYTHGYSC</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

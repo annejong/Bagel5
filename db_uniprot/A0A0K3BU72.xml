@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2015-11-11" modified="2023-09-13" version="8" xmlns="http://uniprot.org/uniprot">
+  <accession>A0A0K3BU72</accession>
+  <name>A0A0K3BU72_9PSEU</name>
+  <protein>
+    <submittedName>
+      <fullName evidence="1">Uncharacterized protein</fullName>
+    </submittedName>
+  </protein>
+  <organism evidence="1">
+    <name type="scientific">Kibdelosporangium sp. MJ126-NF4</name>
+    <dbReference type="NCBI Taxonomy" id="703222"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Actinomycetota</taxon>
+      <taxon>Actinomycetes</taxon>
+      <taxon>Pseudonocardiales</taxon>
+      <taxon>Pseudonocardiaceae</taxon>
+      <taxon>Kibdelosporangium</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="1" key="1">
+    <citation type="submission" date="2015-07" db="EMBL/GenBank/DDBJ databases">
+      <title>MeaNS - Measles Nucleotide Surveillance Program.</title>
+      <authorList>
+        <person name="Tran T."/>
+        <person name="Druce J."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="1">MJ126-NF4</strain>
+    </source>
+  </reference>
+  <dbReference type="EMBL" id="LN877229">
+    <property type="protein sequence ID" value="CTQ98516.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="A0A0K3BU72"/>
+  <dbReference type="OrthoDB" id="4286794at2"/>
+  <dbReference type="NCBIfam" id="NF033521">
+    <property type="entry name" value="lasso_leader_L3"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="predicted"/>
+  <evidence type="ECO:0000313" key="1">
+    <source>
+      <dbReference type="EMBL" id="CTQ98516.1"/>
+    </source>
+  </evidence>
+  <sequence length="43" mass="4821" checksum="841188CAD8A79605" modified="2015-11-11" version="1">MIKDDEIYEVPTLVEVGDFAELTLGLPWGCPNDLFFVNTPFAC</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

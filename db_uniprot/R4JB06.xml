@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2013-07-24" modified="2024-01-24" version="11" xmlns="http://uniprot.org/uniprot">
+  <accession>R4JB06</accession>
+  <name>R4JB06_9BACT</name>
+  <protein>
+    <submittedName>
+      <fullName evidence="3">Enterolysin A</fullName>
+    </submittedName>
+  </protein>
+  <organism evidence="3">
+    <name type="scientific">uncultured bacterium</name>
+    <dbReference type="NCBI Taxonomy" id="77133"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>environmental samples</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="3" key="1">
+    <citation type="submission" date="2012-10" db="EMBL/GenBank/DDBJ databases">
+      <title>Molecular cloning and antimicrobial activity of enterolysin A and helveticin J of class III bacteriocins from metagenome of Chinese traditional fermented foods.</title>
+      <authorList>
+        <person name="Zhang T."/>
+        <person name="Pan Y."/>
+        <person name="Li B."/>
+        <person name="Ou J."/>
+        <person name="Zhang J."/>
+        <person name="Chen Y."/>
+        <person name="Peng X."/>
+        <person name="Chen L."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+  </reference>
+  <dbReference type="EMBL" id="JX944507">
+    <property type="protein sequence ID" value="AGK83636.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="R4JB06"/>
+  <dbReference type="CDD" id="cd12797">
+    <property type="entry name" value="M23_peptidase"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Gene3D" id="2.70.70.10">
+    <property type="entry name" value="Glucose Permease (Domain IIA)"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR011055">
+    <property type="entry name" value="Dup_hybrid_motif"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR016047">
+    <property type="entry name" value="Peptidase_M23"/>
+  </dbReference>
+  <dbReference type="PANTHER" id="PTHR21666:SF270">
+    <property type="entry name" value="MUREIN DD-ENDOPEPTIDASE MEPM"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="PANTHER" id="PTHR21666">
+    <property type="entry name" value="PEPTIDASE-RELATED"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF01551">
+    <property type="entry name" value="Peptidase_M23"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="SUPFAM" id="SSF51261">
+    <property type="entry name" value="Duplicated hybrid motif"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="predicted"/>
+  <keyword evidence="1" id="KW-0175">Coiled coil</keyword>
+  <feature type="domain" description="Peptidase M23" evidence="2">
+    <location>
+      <begin position="102"/>
+      <end position="191"/>
+    </location>
+  </feature>
+  <feature type="coiled-coil region" evidence="1">
+    <location>
+      <begin position="223"/>
+      <end position="257"/>
+    </location>
+  </feature>
+  <evidence type="ECO:0000256" key="1">
+    <source>
+      <dbReference type="SAM" id="Coils"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000259" key="2">
+    <source>
+      <dbReference type="Pfam" id="PF01551"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="3">
+    <source>
+      <dbReference type="EMBL" id="AGK83636.1"/>
+    </source>
+  </evidence>
+  <sequence length="268" mass="30642" checksum="D8F835A067D0FA1A" modified="2013-07-24" version="1">MSKNKKNNKKSKRIWGGVVTVALFAALLAFAGVYIKNYPVEKNVKLGATQPKALKAKKTVAEKDIWGYPFAKCYTKKIKYLSGQRYGKTDVCRRVYPKKSYFHDGWDFGWSEVGNKAAVLAIHPGTVKKVAYCTGLGWYIWVVSPDDYVEVYQEGFANRSDITVKAGQKVKLGNKIGRLTDSHLHLGITKTSADYISKHGHPYKNYWRDNDTWLNPMKMITDSLQLQEDVKEYNAKAASYNEKLAAKKKKLRVEESKHPYHYLKSFIK</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

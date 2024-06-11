@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2011-05-31" modified="2024-01-24" version="39" xmlns="http://uniprot.org/uniprot">
+  <accession>F2R8J0</accession>
+  <name>F2R8J0_STRVP</name>
+  <protein>
+    <submittedName>
+      <fullName evidence="1">Lantibiotic</fullName>
+    </submittedName>
+  </protein>
+  <gene>
+    <name evidence="1" type="primary">venA</name>
+    <name evidence="2" type="ordered locus">SVEN_0621</name>
+  </gene>
+  <organism evidence="2 3">
+    <name type="scientific">Streptomyces venezuelae (strain ATCC 10712 / CBS 650.69 / DSM 40230 / JCM 4526 / NBRC 13096 / PD 04745)</name>
+    <dbReference type="NCBI Taxonomy" id="953739"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Actinomycetota</taxon>
+      <taxon>Actinomycetes</taxon>
+      <taxon>Kitasatosporales</taxon>
+      <taxon>Streptomycetaceae</taxon>
+      <taxon>Streptomyces</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="1" key="1">
+    <citation type="journal article" date="2010" name="PLoS Biol." volume="8" first="E1000339" last="E1000339">
+      <title>Discovery of unique lanthionine synthetases reveals new mechanistic and evolutionary insights.</title>
+      <authorList>
+        <person name="Goto Y."/>
+        <person name="Li B."/>
+        <person name="Claesen J."/>
+        <person name="Shi Y."/>
+        <person name="Bibb M.J."/>
+        <person name="van der Donk W.A."/>
+      </authorList>
+      <dbReference type="PubMed" id="20351769"/>
+      <dbReference type="DOI" id="10.1371/journal.pbio.1000339"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="1">ATCC 10712</strain>
+    </source>
+  </reference>
+  <reference evidence="2 3" key="2">
+    <citation type="journal article" date="2011" name="BMC Genomics" volume="12" first="175" last="175">
+      <title>Genome-wide analysis of the role of GlnR in Streptomyces venezuelae provides new insights into global nitrogen regulation in actinomycetes.</title>
+      <authorList>
+        <person name="Pullan S.T."/>
+        <person name="Bibb M.J."/>
+        <person name="Merrick M."/>
+      </authorList>
+      <dbReference type="PubMed" id="21463507"/>
+      <dbReference type="DOI" id="10.1186/1471-2164-12-175"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="2">ATCC 10712</strain>
+    </source>
+  </reference>
+  <reference evidence="2" key="3">
+    <citation type="submission" date="2011-03" db="EMBL/GenBank/DDBJ databases">
+      <authorList>
+        <person name="Bibb M."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="2">ATCC 10712</strain>
+    </source>
+  </reference>
+  <dbReference type="EMBL" id="HQ328852">
+    <property type="protein sequence ID" value="AEA03263.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="FR845719">
+    <property type="protein sequence ID" value="CCA53908.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="F2R8J0"/>
+  <dbReference type="STRING" id="953739.SVEN_0621"/>
+  <dbReference type="KEGG" id="sve:SVEN_0621"/>
+  <dbReference type="PATRIC" id="fig|953739.5.peg.2348"/>
+  <dbReference type="eggNOG" id="ENOG502ZK9V">
+    <property type="taxonomic scope" value="Bacteria"/>
+  </dbReference>
+  <dbReference type="HOGENOM" id="CLU_3104304_0_0_11"/>
+  <dbReference type="OMA" id="FANTCAC"/>
+  <dbReference type="Proteomes" id="UP000006854">
+    <property type="component" value="Chromosome"/>
+  </dbReference>
+  <dbReference type="NCBIfam" id="NF038147">
+    <property type="entry name" value="lanti_IV_venA"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="predicted"/>
+  <keyword evidence="3" id="KW-1185">Reference proteome</keyword>
+  <evidence type="ECO:0000313" key="1">
+    <source>
+      <dbReference type="EMBL" id="AEA03263.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="2">
+    <source>
+      <dbReference type="EMBL" id="CCA53908.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="3">
+    <source>
+      <dbReference type="Proteomes" id="UP000006854"/>
+    </source>
+  </evidence>
+  <sequence length="51" mass="5289" checksum="C5EC67EE160A87E1" modified="2011-05-31" version="1">MENHDIELLAHLHALPETDPVGVDGAPFAATCECVGLLTLLNTVCIGISCA</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

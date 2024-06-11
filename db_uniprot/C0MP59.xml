@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2009-05-05" modified="2023-09-13" version="13" xmlns="http://uniprot.org/uniprot">
+  <accession>C0MP59</accession>
+  <name>C0MP59_ACTNM</name>
+  <protein>
+    <submittedName>
+      <fullName evidence="1">Labyrinthopeptin A1/A3 prepropeptide</fullName>
+    </submittedName>
+  </protein>
+  <gene>
+    <name evidence="1" type="primary">labA1</name>
+    <name evidence="2" type="ORF">HNR61_003486</name>
+  </gene>
+  <organism evidence="1">
+    <name type="scientific">Actinomadura namibiensis</name>
+    <dbReference type="NCBI Taxonomy" id="182080"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Actinomycetota</taxon>
+      <taxon>Actinomycetes</taxon>
+      <taxon>Streptosporangiales</taxon>
+      <taxon>Thermomonosporaceae</taxon>
+      <taxon>Actinomadura</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="1" key="1">
+    <citation type="submission" date="2009-02" db="EMBL/GenBank/DDBJ databases">
+      <authorList>
+        <person name="Suessmuth R."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+  </reference>
+  <reference evidence="2 3" key="2">
+    <citation type="submission" date="2020-08" db="EMBL/GenBank/DDBJ databases">
+      <title>Genomic Encyclopedia of Type Strains, Phase IV (KMG-IV): sequencing the most valuable type-strain genomes for metagenomic binning, comparative biology and taxonomic classification.</title>
+      <authorList>
+        <person name="Goeker M."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="2 3">DSM 44197</strain>
+    </source>
+  </reference>
+  <dbReference type="EMBL" id="FN178622">
+    <property type="protein sequence ID" value="CAX48972.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="JACJIA010000004">
+    <property type="protein sequence ID" value="MBA8951846.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="C0MP59"/>
+  <dbReference type="Proteomes" id="UP000572680">
+    <property type="component" value="Unassembled WGS sequence"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR045825">
+    <property type="entry name" value="RamS"/>
+  </dbReference>
+  <dbReference type="NCBIfam" id="NF033212">
+    <property type="entry name" value="SapB_AmfS_lanti"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF19402">
+    <property type="entry name" value="RamS"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="predicted"/>
+  <keyword evidence="3" id="KW-1185">Reference proteome</keyword>
+  <evidence type="ECO:0000313" key="1">
+    <source>
+      <dbReference type="EMBL" id="CAX48972.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="2">
+    <source>
+      <dbReference type="EMBL" id="MBA8951846.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="3">
+    <source>
+      <dbReference type="Proteomes" id="UP000572680"/>
+    </source>
+  </evidence>
+  <sequence length="40" mass="4298" checksum="657503D760EBD976" modified="2009-05-05" version="1">MASILELQDLEVERASSAADSNASVWECCSTGSWVPFTCC</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="1998-01-01" modified="2024-01-24" version="75" xmlns="http://uniprot.org/uniprot">
+  <accession>O34017</accession>
+  <name>O34017_ENTFC</name>
+  <protein>
+    <submittedName>
+      <fullName evidence="4">Bacteriocin</fullName>
+    </submittedName>
+    <submittedName>
+      <fullName evidence="1 2">Enterocin B</fullName>
+    </submittedName>
+    <submittedName>
+      <fullName evidence="3">Pre-peptide of enterocin B</fullName>
+    </submittedName>
+  </protein>
+  <gene>
+    <name evidence="1" type="primary">entB</name>
+    <name evidence="5" type="ORF">CUS10_11700</name>
+    <name evidence="6" type="ORF">EB12_02099</name>
+    <name evidence="7" type="ORF">EB44_01741</name>
+    <name evidence="4" type="ORF">KYX88_05965</name>
+  </gene>
+  <organism evidence="1">
+    <name type="scientific">Enterococcus faecium</name>
+    <name type="common">Streptococcus faecium</name>
+    <dbReference type="NCBI Taxonomy" id="1352"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Bacillota</taxon>
+      <taxon>Bacilli</taxon>
+      <taxon>Lactobacillales</taxon>
+      <taxon>Enterococcaceae</taxon>
+      <taxon>Enterococcus</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="1" key="1">
+    <citation type="journal article" date="1997" name="Microbiology" volume="143">
+      <title>Enterocin B, a new bacteriocin from Enterococcus faecium T136 which can act synergistically with enterocin A.</title>
+      <authorList>
+        <person name="Casaus P."/>
+        <person name="Nilsen T."/>
+        <person name="Cintas L.M."/>
+        <person name="Nes I.F."/>
+        <person name="Hernandez P.E."/>
+        <person name="Holo H."/>
+      </authorList>
+      <dbReference type="PubMed" id="9245817"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="1">T136</strain>
+    </source>
+  </reference>
+  <reference evidence="1" key="2">
+    <citation type="submission" date="1997-02" db="EMBL/GenBank/DDBJ databases">
+      <authorList>
+        <person name="Casaus P."/>
+        <person name="Nielsen T."/>
+        <person name="Cintas L.M."/>
+        <person name="Nes I.F."/>
+        <person name="Hernandez P.E."/>
+        <person name="Holo H."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="1">T136</strain>
+    </source>
+  </reference>
+  <reference evidence="2" key="3">
+    <citation type="journal article" date="1999" name="Appl. Environ. Microbiol." volume="65" first="2170" last="2178">
+      <title>Atypical genetic locus associated with constitutive production of enterocin B by Enterococcus faecium BFE 900.</title>
+      <authorList>
+        <person name="Franz C.M."/>
+        <person name="Worobo R.W."/>
+        <person name="Quadri L.E."/>
+        <person name="Schillinger U."/>
+        <person name="Holzapfel W.H."/>
+        <person name="Vederas J.C."/>
+        <person name="Stiles M.E."/>
+      </authorList>
+      <dbReference type="PubMed" id="10224016"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="2">BFE 900</strain>
+    </source>
+  </reference>
+  <reference evidence="3" key="4">
+    <citation type="submission" date="2007-02" db="EMBL/GenBank/DDBJ databases">
+      <authorList>
+        <person name="Hu C."/>
+        <person name="Praphailong W."/>
+        <person name="Zendo T."/>
+        <person name="Nakayama J."/>
+        <person name="Sonomoto K."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="3">Bb5</strain>
+    </source>
+  </reference>
+  <reference evidence="3" key="5">
+    <citation type="journal article" date="2010" name="Appl. Environ. Microbiol." volume="76" first="4542" last="4545">
+      <title>Enterocin X, a novel two-peptide bacteriocin from Enterococcus faecium KU-B5, has an antibacterial spectrum entirely different from those of its component peptides.</title>
+      <authorList>
+        <person name="Hu C.-B."/>
+        <person name="Malaphan W."/>
+        <person name="Zendo T."/>
+        <person name="Nakayama J."/>
+        <person name="Sonomoto K."/>
+      </authorList>
+      <dbReference type="PubMed" id="20418437"/>
+      <dbReference type="DOI" id="10.1128/AEM.02264-09"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="3">Bb5</strain>
+    </source>
+  </reference>
+  <reference evidence="6 10" key="6">
+    <citation type="submission" date="2015-06" db="EMBL/GenBank/DDBJ databases">
+      <title>The Genome Sequence of Enterococcus faecium 131EA1.</title>
+      <authorList>
+        <consortium name="The Broad Institute Genomics Platform"/>
+        <consortium name="The Broad Institute Genome Sequencing Center for Infectious Disease"/>
+        <person name="Earl A.M."/>
+        <person name="Van Tyne D."/>
+        <person name="Lebreton F."/>
+        <person name="Saavedra J.T."/>
+        <person name="Gilmore M.S."/>
+        <person name="Manson Mcguire A."/>
+        <person name="Clock S."/>
+        <person name="Crupain M."/>
+        <person name="Rangan U."/>
+        <person name="Young S."/>
+        <person name="Abouelleil A."/>
+        <person name="Cao P."/>
+        <person name="Chapman S.B."/>
+        <person name="Griggs A."/>
+        <person name="Priest M."/>
+        <person name="Shea T."/>
+        <person name="Wortman J."/>
+        <person name="Nusbaum C."/>
+        <person name="Birren B."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="6 10">131EA1</strain>
+    </source>
+  </reference>
+  <reference evidence="7 9" key="7">
+    <citation type="submission" date="2015-06" db="EMBL/GenBank/DDBJ databases">
+      <title>The Genome Sequence of Enterococcus faecium 268EA1.</title>
+      <authorList>
+        <consortium name="The Broad Institute Genomics Platform"/>
+        <consortium name="The Broad Institute Genome Sequencing Center for Infectious Disease"/>
+        <person name="Earl A.M."/>
+        <person name="Van Tyne D."/>
+        <person name="Lebreton F."/>
+        <person name="Saavedra J.T."/>
+        <person name="Gilmore M.S."/>
+        <person name="Manson Mcguire A."/>
+        <person name="Clock S."/>
+        <person name="Crupain M."/>
+        <person name="Rangan U."/>
+        <person name="Young S."/>
+        <person name="Abouelleil A."/>
+        <person name="Cao P."/>
+        <person name="Chapman S.B."/>
+        <person name="Griggs A."/>
+        <person name="Priest M."/>
+        <person name="Shea T."/>
+        <person name="Wortman J."/>
+        <person name="Nusbaum C."/>
+        <person name="Birren B."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="7 9">268EA1</strain>
+    </source>
+  </reference>
+  <reference evidence="5 8" key="8">
+    <citation type="journal article" date="2018" name="Pathog. Dis.">
+      <title>Whole-genome sequencing based characterization of antimicrobial resistance in Enterococcus.</title>
+      <authorList>
+        <person name="Tyson G."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="5 8">CVM N52649</strain>
+    </source>
+  </reference>
+  <reference evidence="4" key="9">
+    <citation type="journal article" date="2022" name="J. Anim. Sci." volume="100" first="skac030" last="skac030">
+      <title>Whole genome sequence analyses-based assessment of virulence potential and antimicrobial susceptibilities and resistance of Enterococcus faecium strains isolated from commercial swine and cattle probiotic products.</title>
+      <authorList>
+        <person name="Shridhar P.B."/>
+        <person name="Amachawadi R.G."/>
+        <person name="Tokach M."/>
+        <person name="Patel I."/>
+        <person name="Gangiredla J."/>
+        <person name="Mammel M."/>
+        <person name="Nagaraja T.G."/>
+      </authorList>
+      <dbReference type="PubMed" id="35150575"/>
+      <dbReference type="DOI" id="10.1093/jas/skac030"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="4">EF215</strain>
+    </source>
+  </reference>
+  <dbReference type="EMBL" id="U87997">
+    <property type="protein sequence ID" value="AAB66690.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="AF076604">
+    <property type="protein sequence ID" value="AAC27519.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="AF121254">
+    <property type="protein sequence ID" value="AAD28234.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="AB292464">
+    <property type="protein sequence ID" value="BAF74804.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="JAIFOC010000044">
+    <property type="protein sequence ID" value="MBX4222392.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="PUBJ01000083">
+    <property type="protein sequence ID" value="PQE60873.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="LEQJ01000013">
+    <property type="protein sequence ID" value="RBS29095.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="LEQY01000010">
+    <property type="protein sequence ID" value="RBS68635.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="WP_002295295.1">
+    <property type="nucleotide sequence ID" value="NZ_WVTH01000002.1"/>
+  </dbReference>
+  <dbReference type="TCDB" id="1.C.22.1.4">
+    <property type="family name" value="the lactococcin a (lactococcin a) family"/>
+  </dbReference>
+  <dbReference type="PATRIC" id="fig|1352.771.peg.2026"/>
+  <dbReference type="Proteomes" id="UP000240033">
+    <property type="component" value="Unassembled WGS sequence"/>
+  </dbReference>
+  <dbReference type="Proteomes" id="UP000252903">
+    <property type="component" value="Unassembled WGS sequence"/>
+  </dbReference>
+  <dbReference type="Proteomes" id="UP000253144">
+    <property type="component" value="Unassembled WGS sequence"/>
+  </dbReference>
+  <dbReference type="Proteomes" id="UP001139644">
+    <property type="component" value="Unassembled WGS sequence"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR010133">
+    <property type="entry name" value="Bacteriocin_signal_seq"/>
+  </dbReference>
+  <dbReference type="NCBIfam" id="TIGR01847">
+    <property type="entry name" value="bacteriocin_sig"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="predicted"/>
+  <evidence type="ECO:0000313" key="1">
+    <source>
+      <dbReference type="EMBL" id="AAB66690.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="2">
+    <source>
+      <dbReference type="EMBL" id="AAC27519.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="3">
+    <source>
+      <dbReference type="EMBL" id="BAF74804.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="4">
+    <source>
+      <dbReference type="EMBL" id="MBX4222392.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="5">
+    <source>
+      <dbReference type="EMBL" id="PQE60873.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="6">
+    <source>
+      <dbReference type="EMBL" id="RBS29095.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="7">
+    <source>
+      <dbReference type="EMBL" id="RBS68635.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="8">
+    <source>
+      <dbReference type="Proteomes" id="UP000240033"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="9">
+    <source>
+      <dbReference type="Proteomes" id="UP000252903"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="10">
+    <source>
+      <dbReference type="Proteomes" id="UP000253144"/>
+    </source>
+  </evidence>
+  <sequence length="71" mass="7482" checksum="9CC960590788A9C4" modified="1998-01-01" version="1">MQNVKELSTKEMKQIIGGENDHRMPNELNRPNNLSKGGAKCGAAIAGGLFGIPKGPLAWAAGLANVYSKCN</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

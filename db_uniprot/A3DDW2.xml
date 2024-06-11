@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2007-03-20" modified="2024-01-24" version="63" xmlns="http://uniprot.org/uniprot">
+  <accession>A3DDW2</accession>
+  <name>A3DDW2_ACET2</name>
+  <protein>
+    <recommendedName>
+      <fullName evidence="4">Six-cysteine peptide SCIFF</fullName>
+    </recommendedName>
+  </protein>
+  <gene>
+    <name evidence="1" type="ordered locus">Cthe_0907</name>
+  </gene>
+  <organism evidence="1 2">
+    <name type="scientific">Acetivibrio thermocellus (strain ATCC 27405 / DSM 1237 / JCM 9322 / NBRC 103400 / NCIMB 10682 / NRRL B-4536 / VPI 7372)</name>
+    <name type="common">Clostridium thermocellum</name>
+    <dbReference type="NCBI Taxonomy" id="203119"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Bacillota</taxon>
+      <taxon>Clostridia</taxon>
+      <taxon>Eubacteriales</taxon>
+      <taxon>Oscillospiraceae</taxon>
+      <taxon>Acetivibrio</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="2" key="1">
+    <citation type="submission" date="2007-02" db="EMBL/GenBank/DDBJ databases">
+      <title>Complete sequence of Clostridium thermocellum ATCC 27405.</title>
+      <authorList>
+        <consortium name="US DOE Joint Genome Institute"/>
+        <person name="Copeland A."/>
+        <person name="Lucas S."/>
+        <person name="Lapidus A."/>
+        <person name="Barry K."/>
+        <person name="Detter J.C."/>
+        <person name="Glavina del Rio T."/>
+        <person name="Hammon N."/>
+        <person name="Israni S."/>
+        <person name="Dalin E."/>
+        <person name="Tice H."/>
+        <person name="Pitluck S."/>
+        <person name="Chertkov O."/>
+        <person name="Brettin T."/>
+        <person name="Bruce D."/>
+        <person name="Han C."/>
+        <person name="Tapia R."/>
+        <person name="Gilna P."/>
+        <person name="Schmutz J."/>
+        <person name="Larimer F."/>
+        <person name="Land M."/>
+        <person name="Hauser L."/>
+        <person name="Kyrpides N."/>
+        <person name="Mikhailova N."/>
+        <person name="Wu J.H.D."/>
+        <person name="Newcomb M."/>
+        <person name="Richardson P."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="2">ATCC 27405 / DSM 1237 / JCM 9322 / NBRC 103400 / NCIMB 10682 / NRRL B-4536 / VPI 7372</strain>
+    </source>
+  </reference>
+  <reference evidence="1 2" key="2">
+    <citation type="journal article" date="2013" name="Biotechnol. Biofuels" volume="6" first="179" last="179">
+      <title>Global transcriptome analysis of Clostridium thermocellum ATCC 27405 during growth on dilute acid pretreated Populus and switchgrass.</title>
+      <authorList>
+        <person name="Wilson C.M."/>
+        <person name="Rodriguez M.Jr."/>
+        <person name="Johnson C.M."/>
+        <person name="Martin S.L."/>
+        <person name="Chu T.M."/>
+        <person name="Wolfinger R.D."/>
+        <person name="Hauser L.J."/>
+        <person name="Land M.L."/>
+        <person name="Klingeman D.M."/>
+        <person name="Syed M.H."/>
+        <person name="Ragauskas A.J."/>
+        <person name="Tschaplinski T.J."/>
+        <person name="Mielenz J.R."/>
+        <person name="Brown S.D."/>
+      </authorList>
+      <dbReference type="PubMed" id="24295562"/>
+      <dbReference type="DOI" id="10.1186/1754-6834-6-179"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="2">ATCC 27405 / DSM 1237 / JCM 9322 / NBRC 103400 / NCIMB 10682 / NRRL B-4536 / VPI 7372</strain>
+    </source>
+  </reference>
+  <reference evidence="3" key="3">
+    <citation type="journal article" date="2017" name="J. Am. Chem. Soc." volume="139" first="11734" last="11744">
+      <title>Structural Insights into Thioether Bond Formation in the Biosynthesis of Sactipeptides.</title>
+      <authorList>
+        <person name="Grove T.L."/>
+        <person name="Himes P.M."/>
+        <person name="Hwang S."/>
+        <person name="Yumerefendi H."/>
+        <person name="Bonanno J.B."/>
+        <person name="Kuhlman B."/>
+        <person name="Almo S.C."/>
+        <person name="Bowers A.A."/>
+      </authorList>
+      <dbReference type="PubMed" id="28704043"/>
+      <dbReference type="DOI" id="10.1021/jacs.7b01283"/>
+    </citation>
+    <scope>X-RAY CRYSTALLOGRAPHY (2.04 ANGSTROMS) OF 1-21 IN COMPLEX WITH IRON-SULFUR (4FE-4S)</scope>
+  </reference>
+  <dbReference type="EMBL" id="CP000568">
+    <property type="protein sequence ID" value="ABN52141.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="WP_011837926.1">
+    <property type="nucleotide sequence ID" value="NC_009012.1"/>
+  </dbReference>
+  <dbReference type="PDB" id="5WGG">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="2.04 A"/>
+    <property type="chains" value="B=1-21"/>
+  </dbReference>
+  <dbReference type="PDBsum" id="5WGG"/>
+  <dbReference type="AlphaFoldDB" id="A3DDW2"/>
+  <dbReference type="SMR" id="A3DDW2"/>
+  <dbReference type="STRING" id="203119.Cthe_0907"/>
+  <dbReference type="GeneID" id="57418761"/>
+  <dbReference type="KEGG" id="cth:Cthe_0907"/>
+  <dbReference type="eggNOG" id="ENOG5033AHS">
+    <property type="taxonomic scope" value="Bacteria"/>
+  </dbReference>
+  <dbReference type="HOGENOM" id="CLU_185980_0_0_9"/>
+  <dbReference type="OrthoDB" id="1684200at2"/>
+  <dbReference type="Proteomes" id="UP000002145">
+    <property type="component" value="Chromosome"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0051539">
+    <property type="term" value="F:4 iron, 4 sulfur cluster binding"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0046872">
+    <property type="term" value="F:metal ion binding"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR023975">
+    <property type="entry name" value="Six-Cys_pep_SCIFF"/>
+  </dbReference>
+  <dbReference type="NCBIfam" id="TIGR03973">
+    <property type="entry name" value="six_Cys_in_45"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF13165">
+    <property type="entry name" value="SCIFF"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="evidence at protein level"/>
+  <keyword evidence="3" id="KW-0002">3D-structure</keyword>
+  <keyword evidence="3" id="KW-0004">4Fe-4S</keyword>
+  <keyword evidence="3" id="KW-0408">Iron</keyword>
+  <keyword evidence="3" id="KW-0411">Iron-sulfur</keyword>
+  <keyword evidence="3" id="KW-0479">Metal-binding</keyword>
+  <keyword evidence="2" id="KW-1185">Reference proteome</keyword>
+  <feature type="binding site" evidence="3">
+    <location>
+      <position position="21"/>
+    </location>
+    <ligand>
+      <name>[4Fe-4S] cluster</name>
+      <dbReference type="ChEBI" id="CHEBI:49883"/>
+    </ligand>
+  </feature>
+  <evidence type="ECO:0000313" key="1">
+    <source>
+      <dbReference type="EMBL" id="ABN52141.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="2">
+    <source>
+      <dbReference type="Proteomes" id="UP000002145"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007829" key="3">
+    <source>
+      <dbReference type="PDB" id="5WGG"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0008006" key="4">
+    <source>
+      <dbReference type="Google" id="ProtNLM"/>
+    </source>
+  </evidence>
+  <sequence length="46" mass="4907" checksum="57988E625FE1BA9D" modified="2007-03-20" version="1">MKHIKILNGSTLKDSLKKGGCGECQTSCQSACKTSCTVANQSCEKR</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

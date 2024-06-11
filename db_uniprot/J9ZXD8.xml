@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2020-08-12" modified="2023-09-13" version="19" xmlns="http://uniprot.org/uniprot">
+  <accession>J9ZXD8</accession>
+  <name>PROT_BACS1</name>
+  <protein>
+    <recommendedName>
+      <fullName evidence="2">Polytheonamide B</fullName>
+    </recommendedName>
+    <alternativeName>
+      <fullName evidence="2">Proteusin</fullName>
+    </alternativeName>
+  </protein>
+  <gene>
+    <name evidence="2" type="primary">poyA</name>
+  </gene>
+  <organism>
+    <name type="scientific">Bacterium symbiont subsp. Theonella swinhoei (strain pTSMAC1)</name>
+    <dbReference type="NCBI Taxonomy" id="1221190"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="4" key="1">
+    <citation type="journal article" date="2012" name="Science" volume="338" first="387" last="390">
+      <title>Metagenome mining reveals polytheonamides as posttranslationally modified ribosomal peptides.</title>
+      <authorList>
+        <person name="Freeman M.F."/>
+        <person name="Gurgui C."/>
+        <person name="Helf M.J."/>
+        <person name="Morinaka B.I."/>
+        <person name="Uria A.R."/>
+        <person name="Oldham N.J."/>
+        <person name="Sahl H.G."/>
+        <person name="Matsunaga S."/>
+        <person name="Piel J."/>
+      </authorList>
+      <dbReference type="PubMed" id="22983711"/>
+      <dbReference type="DOI" id="10.1126/science.1226121"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+    <scope>EXPRESSION IN E.COLI</scope>
+    <scope>D-AMINO ACID AT VAL-102; ALA-104; VAL-106; VAL-110; ASN-112; ASN-118; VAL-120; ASN-124; ASN-126; VAL-128; ASN-130; ASN-132; ASN-134; ASN-136; SER-138; ASN-140; ASN-142 AND THR-144</scope>
+    <scope>METHYLATION AT ILE-99; VAL-101; VAL-102; VAL-103; VAL-105; VAL-106; VAL-110; ASN-112; THR-113; VAL-117; ASN-118; GLN-119; ASN-124; ASN-126; VAL-127; ASN-130; ASN-132; ASN-134; ASN-136 AND MET-141</scope>
+    <scope>HYDROXYLATION AT VAL-120; ASN-126; VAL-128 AND ASN-134</scope>
+  </reference>
+  <comment type="function">
+    <text evidence="1">Antimicrobial peptide active against Gram-positive bacteria (MIC=4-&gt;125 ug/ml) (PubMed:22983711). May act by forming transmembrane ion channels, since the peptide rapidly depolarizes the bacterial cytoplasmic membrane, simultaneously decreasing the membrane potential and intracellular potassium contents (PubMed:22983711).</text>
+  </comment>
+  <comment type="PTM">
+    <text evidence="1">Epimerization of most, and perhaps all, L- to D-amino acids is catalyzed by PoyD, when PoyA and PoyD are coexpressed in E.coli.</text>
+  </comment>
+  <comment type="PTM">
+    <text evidence="1">N-methylations are catalyzed by PoyE, when PoyA and PoyE are coexpressed in E.coli.</text>
+  </comment>
+  <comment type="PTM">
+    <text evidence="1 3">To obtain 2-oxo-5,5-dimethylhexanoate, Thr-97 is firstly dehydrated by PoyF (PubMed:22983711). The second step possibly corresponds to methylation by PoyB/C, and the third step may be a cleavage by PoyH/J (Probable).</text>
+  </comment>
+  <comment type="miscellaneous">
+    <text evidence="3">The name 'proteusin' is inspired by Proteus, a Greek shape-shifting sea god.</text>
+  </comment>
+  <comment type="miscellaneous">
+    <text evidence="3">Compared to polytheonamide B, polytheonamide A has an additional sulfoxide moiety at Met-141, which arises from spontaneous oxidation during polytheonamide isolation.</text>
+  </comment>
+  <dbReference type="EMBL" id="JX456532">
+    <property type="protein sequence ID" value="AFS60639.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="J9ZXD8"/>
+  <dbReference type="TCDB" id="1.D.24.1.1">
+    <property type="family name" value="the marine sponge polytheonamide b (ptb) family"/>
+  </dbReference>
+  <dbReference type="BioCyc" id="MetaCyc:MONOMER-124150"/>
+  <dbReference type="GO" id="GO:0003824">
+    <property type="term" value="F:catalytic activity"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="InterPro"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0046914">
+    <property type="term" value="F:transition metal ion binding"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="InterPro"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0042742">
+    <property type="term" value="P:defense response to bacterium"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0006807">
+    <property type="term" value="P:nitrogen compound metabolic process"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="InterPro"/>
+  </dbReference>
+  <dbReference type="Gene3D" id="3.90.330.10">
+    <property type="entry name" value="Nitrile hydratase alpha /Thiocyanate hydrolase gamma"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR036648">
+    <property type="entry name" value="CN_Hdrase_a/SCN_Hdrase_g_sf"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR022513">
+    <property type="entry name" value="TOMM_pelo"/>
+  </dbReference>
+  <dbReference type="NCBIfam" id="TIGR03793">
+    <property type="entry name" value="leader_NHLP"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="SUPFAM" id="SSF56209">
+    <property type="entry name" value="Nitrile hydratase alpha chain"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="evidence at protein level"/>
+  <keyword id="KW-0044">Antibiotic</keyword>
+  <keyword id="KW-0929">Antimicrobial</keyword>
+  <keyword id="KW-0208">D-amino acid</keyword>
+  <keyword id="KW-0379">Hydroxylation</keyword>
+  <keyword id="KW-0488">Methylation</keyword>
+  <feature type="propeptide" id="PRO_0000450586" evidence="3">
+    <location>
+      <begin position="1"/>
+      <end position="96"/>
+    </location>
+  </feature>
+  <feature type="chain" id="PRO_0000450587" description="Polytheonamide B" evidence="3">
+    <location>
+      <begin position="97"/>
+      <end position="145"/>
+    </location>
+  </feature>
+  <feature type="modified residue" description="2-oxo-5,5-dimethylhexanoate" evidence="1">
+    <location>
+      <position position="97"/>
+    </location>
+  </feature>
+  <feature type="modified residue" description="3-methylisoleucine" evidence="1">
+    <location>
+      <position position="99"/>
+    </location>
+  </feature>
+  <feature type="modified residue" description="3-methylvaline" evidence="1">
+    <location>
+      <position position="101"/>
+    </location>
+  </feature>
+  <feature type="modified residue" description="3-methyl-D-valine" evidence="1">
+    <location>
+      <position position="102"/>
+    </location>
+  </feature>
+  <feature type="modified residue" description="3-methylvaline" evidence="1">
+    <location>
+      <position position="103"/>
+    </location>
+  </feature>
+  <feature type="modified residue" description="D-alanine (Ala)" evidence="1">
+    <location>
+      <position position="104"/>
+    </location>
+  </feature>
+  <feature type="modified residue" description="3-methylvaline" evidence="1">
+    <location>
+      <position position="105"/>
+    </location>
+  </feature>
+  <feature type="modified residue" description="3-methyl-D-valine" evidence="1">
+    <location>
+      <position position="106"/>
+    </location>
+  </feature>
+  <feature type="modified residue" description="3-methyl-D-valine" evidence="1">
+    <location>
+      <position position="110"/>
+    </location>
+  </feature>
+  <feature type="modified residue" description="N4-methyl-D-asparagine" evidence="1">
+    <location>
+      <position position="112"/>
+    </location>
+  </feature>
+  <feature type="modified residue" description="3-hydroxyvaline (Thr)" evidence="1">
+    <location>
+      <position position="113"/>
+    </location>
+  </feature>
+  <feature type="modified residue" description="3-methylvaline" evidence="1">
+    <location>
+      <position position="117"/>
+    </location>
+  </feature>
+  <feature type="modified residue" description="N4-methyl-D-asparagine" evidence="1">
+    <location>
+      <position position="118"/>
+    </location>
+  </feature>
+  <feature type="modified residue" description="(3S)-3-methylglutamine" evidence="1">
+    <location>
+      <position position="119"/>
+    </location>
+  </feature>
+  <feature type="modified residue" description="3-hydroxy-D-valine" evidence="1">
+    <location>
+      <position position="120"/>
+    </location>
+  </feature>
+  <feature type="modified residue" description="N4-methyl-D-asparagine" evidence="1">
+    <location>
+      <position position="124"/>
+    </location>
+  </feature>
+  <feature type="modified residue" description="(3R)-N4-methyl-3-hydroxy-D-asparagine" evidence="1">
+    <location>
+      <position position="126"/>
+    </location>
+  </feature>
+  <feature type="modified residue" description="3-methylvaline" evidence="1">
+    <location>
+      <position position="127"/>
+    </location>
+  </feature>
+  <feature type="modified residue" description="3-hydroxy-D-valine" evidence="1">
+    <location>
+      <position position="128"/>
+    </location>
+  </feature>
+  <feature type="modified residue" description="N4-methyl-D-asparagine" evidence="1">
+    <location>
+      <position position="130"/>
+    </location>
+  </feature>
+  <feature type="modified residue" description="N4-methyl-D-asparagine" evidence="1">
+    <location>
+      <position position="132"/>
+    </location>
+  </feature>
+  <feature type="modified residue" description="(3R)-N4-methyl-3-hydroxy-D-asparagine" evidence="1">
+    <location>
+      <position position="134"/>
+    </location>
+  </feature>
+  <feature type="modified residue" description="N4-methyl-D-asparagine" evidence="1">
+    <location>
+      <position position="136"/>
+    </location>
+  </feature>
+  <feature type="modified residue" description="D-serine (Ser)" evidence="1">
+    <location>
+      <position position="138"/>
+    </location>
+  </feature>
+  <feature type="modified residue" description="D-asparagine" evidence="1">
+    <location>
+      <position position="140"/>
+    </location>
+  </feature>
+  <feature type="modified residue" description="3,3-dimethylmethionine" evidence="1">
+    <location>
+      <position position="141"/>
+    </location>
+  </feature>
+  <feature type="modified residue" description="D-asparagine" evidence="1">
+    <location>
+      <position position="142"/>
+    </location>
+  </feature>
+  <feature type="modified residue" description="D-threonine" evidence="1">
+    <location>
+      <position position="144"/>
+    </location>
+  </feature>
+  <evidence type="ECO:0000269" key="1">
+    <source>
+      <dbReference type="PubMed" id="22983711"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000303" key="2">
+    <source>
+      <dbReference type="PubMed" id="22983711"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000305" key="3">
+    <source>
+      <dbReference type="PubMed" id="22983711"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000312" key="4">
+    <source>
+      <dbReference type="EMBL" id="AFS60639.1"/>
+    </source>
+  </evidence>
+  <sequence length="145" mass="15425" checksum="A01FD18DAF5944EE" modified="2012-11-28" version="1" precursor="true">MADSDNTPTSRKDFETAIIAKAWKDPEYLRRLRSNPREVLQEELEALHPGAQLPDDLGISIHEEDENHVHLVMPRHPQNVSDQTLTDDDLDQAAGGTGIGVVVAVVAGAVANTGAGVNQVAGGNINVVGNINVNANVSVNMNQTT</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

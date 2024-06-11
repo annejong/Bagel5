@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2008-04-08" modified="2024-01-24" version="45" xmlns="http://uniprot.org/uniprot">
+  <accession>B0T9D8</accession>
+  <name>B0T9D8_CAUSK</name>
+  <protein>
+    <recommendedName>
+      <fullName evidence="2">Benenodin family lasso peptide</fullName>
+    </recommendedName>
+  </protein>
+  <gene>
+    <name evidence="1" type="ordered locus">Caul_5193</name>
+  </gene>
+  <organism evidence="1">
+    <name type="scientific">Caulobacter sp. (strain K31)</name>
+    <dbReference type="NCBI Taxonomy" id="366602"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Pseudomonadota</taxon>
+      <taxon>Alphaproteobacteria</taxon>
+      <taxon>Caulobacterales</taxon>
+      <taxon>Caulobacteraceae</taxon>
+      <taxon>Caulobacter</taxon>
+    </lineage>
+  </organism>
+  <geneLocation type="plasmid" evidence="1">
+    <name>pCAUL01</name>
+  </geneLocation>
+  <reference evidence="1" key="1">
+    <citation type="submission" date="2008-01" db="EMBL/GenBank/DDBJ databases">
+      <title>Complete sequence of plasmid1 pCAUL01 of Caulobacter sp. K31.</title>
+      <authorList>
+        <consortium name="US DOE Joint Genome Institute"/>
+        <person name="Copeland A."/>
+        <person name="Lucas S."/>
+        <person name="Lapidus A."/>
+        <person name="Barry K."/>
+        <person name="Glavina del Rio T."/>
+        <person name="Dalin E."/>
+        <person name="Tice H."/>
+        <person name="Pitluck S."/>
+        <person name="Bruce D."/>
+        <person name="Goodwin L."/>
+        <person name="Thompson L.S."/>
+        <person name="Brettin T."/>
+        <person name="Detter J.C."/>
+        <person name="Han C."/>
+        <person name="Schmutz J."/>
+        <person name="Larimer F."/>
+        <person name="Land M."/>
+        <person name="Hauser L."/>
+        <person name="Kyrpides N."/>
+        <person name="Kim E."/>
+        <person name="Stephens C."/>
+        <person name="Richardson P."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <plasmid evidence="1">K31</plasmid>
+      <plasmid evidence="1">pCAUL01</plasmid>
+    </source>
+  </reference>
+  <dbReference type="EMBL" id="CP000928">
+    <property type="protein sequence ID" value="ABZ74313.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="B0T9D8"/>
+  <dbReference type="KEGG" id="cak:Caul_5193"/>
+  <dbReference type="HOGENOM" id="CLU_3214018_0_0_5"/>
+  <dbReference type="NCBIfam" id="NF033522">
+    <property type="entry name" value="lasso_benenodin"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="predicted"/>
+  <keyword evidence="1" id="KW-0614">Plasmid</keyword>
+  <evidence type="ECO:0000313" key="1">
+    <source>
+      <dbReference type="EMBL" id="ABZ74313.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0008006" key="2">
+    <source>
+      <dbReference type="Google" id="ProtNLM"/>
+    </source>
+  </evidence>
+  <sequence length="44" mass="4612" checksum="77A61545CD0A44AE" modified="2008-04-08" version="1">MQRIIDETTDGLIELGAASVQTQGDVLFAPEPGVGRPPMGLSED</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

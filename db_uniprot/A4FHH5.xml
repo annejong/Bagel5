@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2007-04-17" modified="2024-01-24" version="48" xmlns="http://uniprot.org/uniprot">
+  <accession>A4FHH5</accession>
+  <name>A4FHH5_SACEN</name>
+  <protein>
+    <recommendedName>
+      <fullName evidence="5">SapB/AmfS family lantipeptide</fullName>
+    </recommendedName>
+  </protein>
+  <gene>
+    <name evidence="1" type="ordered locus">SACE_4231</name>
+    <name evidence="2" type="ORF">A8924_4621</name>
+  </gene>
+  <organism evidence="1 3">
+    <name type="scientific">Saccharopolyspora erythraea (strain ATCC 11635 / DSM 40517 / JCM 4748 / NBRC 13426 / NCIMB 8594 / NRRL 2338)</name>
+    <dbReference type="NCBI Taxonomy" id="405948"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Actinomycetota</taxon>
+      <taxon>Actinomycetes</taxon>
+      <taxon>Pseudonocardiales</taxon>
+      <taxon>Pseudonocardiaceae</taxon>
+      <taxon>Saccharopolyspora</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="1 3" key="1">
+    <citation type="journal article" date="2007" name="Nat. Biotechnol." volume="25" first="447" last="453">
+      <title>Complete genome sequence of the erythromycin-producing bacterium Saccharopolyspora erythraea NRRL23338.</title>
+      <authorList>
+        <person name="Oliynyk M."/>
+        <person name="Samborskyy M."/>
+        <person name="Lester J.B."/>
+        <person name="Mironenko T."/>
+        <person name="Scott N."/>
+        <person name="Dickens S."/>
+        <person name="Haydock S.F."/>
+        <person name="Leadlay P.F."/>
+      </authorList>
+      <dbReference type="PubMed" id="17369815"/>
+      <dbReference type="DOI" id="10.1038/nbt1297"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="3">ATCC 11635 / DSM 40517 / JCM 4748 / NBRC 13426 / NCIMB 8594 / NRRL 2338</strain>
+      <strain evidence="1">NRRL 2338</strain>
+    </source>
+  </reference>
+  <reference evidence="2 4" key="2">
+    <citation type="submission" date="2017-09" db="EMBL/GenBank/DDBJ databases">
+      <title>Sequencing the genomes of 1000 actinobacteria strains.</title>
+      <authorList>
+        <person name="Klenk H.-P."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="2 4">DSM 40517</strain>
+    </source>
+  </reference>
+  <dbReference type="EMBL" id="AM420293">
+    <property type="protein sequence ID" value="CAM03500.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="PDBV01000001">
+    <property type="protein sequence ID" value="PFG97193.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="A4FHH5"/>
+  <dbReference type="STRING" id="405948.SACE_4231"/>
+  <dbReference type="KEGG" id="sen:SACE_4231"/>
+  <dbReference type="HOGENOM" id="CLU_3188676_0_0_11"/>
+  <dbReference type="Proteomes" id="UP000006728">
+    <property type="component" value="Chromosome"/>
+  </dbReference>
+  <dbReference type="Proteomes" id="UP000225825">
+    <property type="component" value="Unassembled WGS sequence"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR045825">
+    <property type="entry name" value="RamS"/>
+  </dbReference>
+  <dbReference type="NCBIfam" id="NF038159">
+    <property type="entry name" value="lanthi_III_b"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="NCBIfam" id="NF033212">
+    <property type="entry name" value="SapB_AmfS_lanti"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF19402">
+    <property type="entry name" value="RamS"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="predicted"/>
+  <keyword evidence="3" id="KW-1185">Reference proteome</keyword>
+  <evidence type="ECO:0000313" key="1">
+    <source>
+      <dbReference type="EMBL" id="CAM03500.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="2">
+    <source>
+      <dbReference type="EMBL" id="PFG97193.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="3">
+    <source>
+      <dbReference type="Proteomes" id="UP000006728"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="4">
+    <source>
+      <dbReference type="Proteomes" id="UP000225825"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0008006" key="5">
+    <source>
+      <dbReference type="Google" id="ProtNLM"/>
+    </source>
+  </evidence>
+  <sequence length="46" mass="4789" checksum="99269DF4030682CF" modified="2007-04-17" version="1">MEMVLELQELDAPNELAYGDPSHGGGSNLSLLASCANSTVSLLTCH</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

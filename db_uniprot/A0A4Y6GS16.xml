@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2019-09-18" modified="2023-05-03" version="11" xmlns="http://uniprot.org/uniprot">
+  <accession>A0A4Y6GS16</accession>
+  <name>A0A4Y6GS16_9ENTE</name>
+  <protein>
+    <submittedName>
+      <fullName evidence="1">Enterocin R5</fullName>
+    </submittedName>
+  </protein>
+  <organism evidence="1">
+    <name type="scientific">Enterococcus lactis</name>
+    <dbReference type="NCBI Taxonomy" id="357441"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Bacillota</taxon>
+      <taxon>Bacilli</taxon>
+      <taxon>Lactobacillales</taxon>
+      <taxon>Enterococcaceae</taxon>
+      <taxon>Enterococcus</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="1" key="1">
+    <citation type="submission" date="2019-01" db="EMBL/GenBank/DDBJ databases">
+      <title>Isolation of probiotics from marine fish.</title>
+      <authorList>
+        <person name="Shastry R.P."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="1">RS5</strain>
+    </source>
+  </reference>
+  <dbReference type="EMBL" id="MK391580">
+    <property type="protein sequence ID" value="QDF46145.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="A0A4Y6GS16"/>
+  <proteinExistence type="predicted"/>
+  <feature type="non-terminal residue" evidence="1">
+    <location>
+      <position position="51"/>
+    </location>
+  </feature>
+  <evidence type="ECO:0000313" key="1">
+    <source>
+      <dbReference type="EMBL" id="QDF46145.1"/>
+    </source>
+  </evidence>
+  <sequence length="51" mass="5591" checksum="68DD716FADA2F326" modified="2019-09-18" version="1" fragment="single">MHSVVLVSLKHLLTAPIYYGNGVSCLFKTPCGVYWGIARHGSGAVPLYYHI</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

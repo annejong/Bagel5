@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2007-05-01" modified="2024-01-24" version="62" xmlns="http://uniprot.org/uniprot">
+  <accession>A4IJZ5</accession>
+  <name>A4IJZ5_GEOTN</name>
+  <protein>
+    <recommendedName>
+      <fullName evidence="3">Lantibiotic</fullName>
+    </recommendedName>
+  </protein>
+  <gene>
+    <name evidence="4" type="primary">sunA</name>
+    <name evidence="4" type="ordered locus">GTNG_0265</name>
+  </gene>
+  <organism evidence="4 5">
+    <name type="scientific">Geobacillus thermodenitrificans (strain NG80-2)</name>
+    <dbReference type="NCBI Taxonomy" id="420246"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Bacillota</taxon>
+      <taxon>Bacilli</taxon>
+      <taxon>Bacillales</taxon>
+      <taxon>Bacillaceae</taxon>
+      <taxon>Geobacillus</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="4 5" key="1">
+    <citation type="journal article" date="2007" name="Proc. Natl. Acad. Sci. U.S.A." volume="104" first="5602" last="5607">
+      <title>Genome and proteome of long-chain alkane degrading Geobacillus thermodenitrificans NG80-2 isolated from a deep-subsurface oil reservoir.</title>
+      <authorList>
+        <person name="Feng L."/>
+        <person name="Wang W."/>
+        <person name="Cheng J."/>
+        <person name="Ren Y."/>
+        <person name="Zhao G."/>
+        <person name="Gao C."/>
+        <person name="Tang Y."/>
+        <person name="Liu X."/>
+        <person name="Han W."/>
+        <person name="Peng X."/>
+        <person name="Liu R."/>
+        <person name="Wang L."/>
+      </authorList>
+      <dbReference type="PubMed" id="17372208"/>
+      <dbReference type="DOI" id="10.1073/pnas.0609650104"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="4 5">NG80-2</strain>
+    </source>
+  </reference>
+  <comment type="function">
+    <text evidence="3">Lanthionine-containing peptide antibiotic (lantibiotic) active on Gram-positive bacteria. The bactericidal activity of lantibiotics is based on depolarization of energized bacterial cytoplasmic membranes, initiated by the formation of aqueous transmembrane pores.</text>
+  </comment>
+  <comment type="PTM">
+    <text evidence="3">Maturation of lantibiotics involves the enzymatic conversion of Thr, and Ser into dehydrated AA and the formation of thioether bonds with cysteine. This is followed by membrane translocation and cleavage of the modified precursor.</text>
+  </comment>
+  <comment type="similarity">
+    <text evidence="1 3">Belongs to the type A lantibiotic family.</text>
+  </comment>
+  <dbReference type="EMBL" id="CP000557">
+    <property type="protein sequence ID" value="ABO65649.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="A4IJZ5"/>
+  <dbReference type="KEGG" id="gtn:GTNG_0265"/>
+  <dbReference type="eggNOG" id="ENOG5033K3X">
+    <property type="taxonomic scope" value="Bacteria"/>
+  </dbReference>
+  <dbReference type="HOGENOM" id="CLU_211937_0_0_9"/>
+  <dbReference type="OMA" id="CTPGCKT"/>
+  <dbReference type="Proteomes" id="UP000001578">
+    <property type="component" value="Chromosome"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0005576">
+    <property type="term" value="C:extracellular region"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="InterPro"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0005102">
+    <property type="term" value="F:signaling receptor binding"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0042742">
+    <property type="term" value="P:defense response to bacterium"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-UniRule"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0031640">
+    <property type="term" value="P:killing of cells of another organism"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-UniRule"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR006079">
+    <property type="entry name" value="Lantibiotic_typ-A_Bacillales"/>
+  </dbReference>
+  <dbReference type="NCBIfam" id="NF038155">
+    <property type="entry name" value="lanthi_I_FDLD"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="NCBIfam" id="TIGR03731">
+    <property type="entry name" value="lantibio_gallid"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF02052">
+    <property type="entry name" value="Gallidermin"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="inferred from homology"/>
+  <keyword evidence="3" id="KW-0044">Antibiotic</keyword>
+  <keyword evidence="3" id="KW-0929">Antimicrobial</keyword>
+  <keyword evidence="3" id="KW-0078">Bacteriocin</keyword>
+  <keyword evidence="2 3" id="KW-0425">Lantibiotic</keyword>
+  <evidence type="ECO:0000256" key="1">
+    <source>
+      <dbReference type="ARBA" id="ARBA00009379"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000256" key="2">
+    <source>
+      <dbReference type="ARBA" id="ARBA00022789"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000256" key="3">
+    <source>
+      <dbReference type="RuleBase" id="RU362078"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="4">
+    <source>
+      <dbReference type="EMBL" id="ABO65649.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="5">
+    <source>
+      <dbReference type="Proteomes" id="UP000001578"/>
+    </source>
+  </evidence>
+  <sequence length="56" mass="6088" checksum="BBF9F004A25B1D00" modified="2007-05-01" version="1">MAKFDDFDLDIVVKKQDDVVQPNVTSKSLCTPGCITGVLMCLTQNSCVSCNSCIRC</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

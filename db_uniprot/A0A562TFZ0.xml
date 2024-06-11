@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2019-10-16" modified="2023-09-13" version="7" xmlns="http://uniprot.org/uniprot">
+  <accession>A0A562TFZ0</accession>
+  <name>A0A562TFZ0_CHIJA</name>
+  <protein>
+    <submittedName>
+      <fullName evidence="2">Serine endopeptidase inhibitor I10-like protein</fullName>
+    </submittedName>
+  </protein>
+  <gene>
+    <name evidence="2" type="ORF">LX66_1261</name>
+  </gene>
+  <organism evidence="2 3">
+    <name type="scientific">Chitinophaga japonensis</name>
+    <name type="common">Flexibacter japonensis</name>
+    <dbReference type="NCBI Taxonomy" id="104662"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Bacteroidota</taxon>
+      <taxon>Chitinophagia</taxon>
+      <taxon>Chitinophagales</taxon>
+      <taxon>Chitinophagaceae</taxon>
+      <taxon>Chitinophaga</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="2 3" key="1">
+    <citation type="journal article" date="2013" name="Stand. Genomic Sci." volume="9" first="1278" last="1284">
+      <title>Genomic Encyclopedia of Type Strains, Phase I: The one thousand microbial genomes (KMG-I) project.</title>
+      <authorList>
+        <person name="Kyrpides N.C."/>
+        <person name="Woyke T."/>
+        <person name="Eisen J.A."/>
+        <person name="Garrity G."/>
+        <person name="Lilburn T.G."/>
+        <person name="Beck B.J."/>
+        <person name="Whitman W.B."/>
+        <person name="Hugenholtz P."/>
+        <person name="Klenk H.P."/>
+      </authorList>
+      <dbReference type="PubMed" id="25197443"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="2 3">DSM 13484</strain>
+    </source>
+  </reference>
+  <comment type="caution">
+    <text evidence="2">The sequence shown here is derived from an EMBL/GenBank/DDBJ whole genome shotgun (WGS) entry which is preliminary data.</text>
+  </comment>
+  <dbReference type="EMBL" id="VLLG01000002">
+    <property type="protein sequence ID" value="TWI91880.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="A0A562TFZ0"/>
+  <dbReference type="Proteomes" id="UP000316778">
+    <property type="component" value="Unassembled WGS sequence"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR022217">
+    <property type="entry name" value="Prot_inh_I10_marinostatin"/>
+  </dbReference>
+  <dbReference type="NCBIfam" id="NF033738">
+    <property type="entry name" value="microvirid_RiPP"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF12559">
+    <property type="entry name" value="Inhibitor_I10"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="predicted"/>
+  <keyword evidence="3" id="KW-1185">Reference proteome</keyword>
+  <feature type="region of interest" description="Disordered" evidence="1">
+    <location>
+      <begin position="19"/>
+      <end position="58"/>
+    </location>
+  </feature>
+  <evidence type="ECO:0000256" key="1">
+    <source>
+      <dbReference type="SAM" id="MobiDB-lite"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="2">
+    <source>
+      <dbReference type="EMBL" id="TWI91880.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="3">
+    <source>
+      <dbReference type="Proteomes" id="UP000316778"/>
+    </source>
+  </evidence>
+  <sequence length="58" mass="6465" checksum="31E5BAC183B53BF2" modified="2019-10-16" version="1">MMQSNQQVQKPFFAQFLESQANESQEASSWQGTGKLIDAPGGDVTQKFPSDGDEEWDI</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

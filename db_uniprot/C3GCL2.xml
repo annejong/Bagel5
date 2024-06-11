@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2009-06-16" modified="2024-01-24" version="27" xmlns="http://uniprot.org/uniprot">
+  <accession>C3GCL2</accession>
+  <name>C3GCL2_BACTU</name>
+  <protein>
+    <submittedName>
+      <fullName evidence="1">Uncharacterized protein</fullName>
+    </submittedName>
+  </protein>
+  <gene>
+    <name evidence="1" type="ORF">bthur0009_56250</name>
+  </gene>
+  <organism evidence="1">
+    <name type="scientific">Bacillus thuringiensis serovar andalousiensis BGSC 4AW1</name>
+    <dbReference type="NCBI Taxonomy" id="527032"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Bacillota</taxon>
+      <taxon>Bacilli</taxon>
+      <taxon>Bacillales</taxon>
+      <taxon>Bacillaceae</taxon>
+      <taxon>Bacillus</taxon>
+      <taxon>Bacillus cereus group</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="1" key="1">
+    <citation type="journal article" date="2012" name="Genome Res." volume="22" first="1512" last="1524">
+      <title>Genomic characterization of the Bacillus cereus sensu lato species: Backdrop to the evolution of Bacillus anthracis.</title>
+      <authorList>
+        <person name="Zwick M.E."/>
+        <person name="Joseph S.J."/>
+        <person name="Didelot X."/>
+        <person name="Chen P.E."/>
+        <person name="Bishop-Lilly K.A."/>
+        <person name="Stewart A.C."/>
+        <person name="Willner K."/>
+        <person name="Nolan N."/>
+        <person name="Lentz S."/>
+        <person name="Thomason M.K."/>
+        <person name="Sozhamannan S."/>
+        <person name="Mateczun A.J."/>
+        <person name="Du L."/>
+        <person name="Read T.D."/>
+      </authorList>
+      <dbReference type="PubMed" id="22645259"/>
+      <dbReference type="DOI" id="10.1101/gr.134437.111"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="1">BGSC 4AW1</strain>
+    </source>
+  </reference>
+  <comment type="caution">
+    <text evidence="1">The sequence shown here is derived from an EMBL/GenBank/DDBJ whole genome shotgun (WGS) entry which is preliminary data.</text>
+  </comment>
+  <dbReference type="EMBL" id="ACNG01000227">
+    <property type="protein sequence ID" value="EEM68348.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="WP_000661240.1">
+    <property type="nucleotide sequence ID" value="NZ_CM000754.1"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="C3GCL2"/>
+  <dbReference type="HOGENOM" id="CLU_2582503_0_0_9"/>
+  <dbReference type="Proteomes" id="UP000001380">
+    <property type="component" value="Chromosome"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR026479">
+    <property type="entry name" value="Glycopep_SunS"/>
+  </dbReference>
+  <dbReference type="NCBIfam" id="TIGR04196">
+    <property type="entry name" value="glycopep_SunS"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="predicted"/>
+  <evidence type="ECO:0000313" key="1">
+    <source>
+      <dbReference type="EMBL" id="EEM68348.1"/>
+    </source>
+  </evidence>
+  <sequence length="80" mass="8454" checksum="AB24C369F8EE0D31" modified="2009-06-16" version="1">MKELIKELNLEELETFEGGYDGVNYMHQHDGGGAGGGSGIGTAQCAYFKALCYSGGSEWLGGYGGCGSTQNNCELARKYC</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

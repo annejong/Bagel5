@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2003-10-01" modified="2024-01-24" version="72" xmlns="http://uniprot.org/uniprot">
+  <accession>Q7V447</accession>
+  <name>Q7V447_PROMM</name>
+  <protein>
+    <submittedName>
+      <fullName evidence="2">Possible REJ domain</fullName>
+    </submittedName>
+  </protein>
+  <gene>
+    <name evidence="2" type="ordered locus">PMT_2122</name>
+  </gene>
+  <organism evidence="2 3">
+    <name type="scientific">Prochlorococcus marinus (strain MIT 9313)</name>
+    <dbReference type="NCBI Taxonomy" id="74547"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Cyanobacteriota</taxon>
+      <taxon>Cyanophyceae</taxon>
+      <taxon>Synechococcales</taxon>
+      <taxon>Prochlorococcaceae</taxon>
+      <taxon>Prochlorococcus</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="2 3" key="1">
+    <citation type="journal article" date="2003" name="Nature" volume="424" first="1042" last="1047">
+      <title>Genome divergence in two Prochlorococcus ecotypes reflects oceanic niche differentiation.</title>
+      <authorList>
+        <person name="Rocap G."/>
+        <person name="Larimer F.W."/>
+        <person name="Lamerdin J.E."/>
+        <person name="Malfatti S."/>
+        <person name="Chain P."/>
+        <person name="Ahlgren N.A."/>
+        <person name="Arellano A."/>
+        <person name="Coleman M."/>
+        <person name="Hauser L."/>
+        <person name="Hess W.R."/>
+        <person name="Johnson Z.I."/>
+        <person name="Land M.L."/>
+        <person name="Lindell D."/>
+        <person name="Post A.F."/>
+        <person name="Regala W."/>
+        <person name="Shah M."/>
+        <person name="Shaw S.L."/>
+        <person name="Steglich C."/>
+        <person name="Sullivan M.B."/>
+        <person name="Ting C.S."/>
+        <person name="Tolonen A."/>
+        <person name="Webb E.A."/>
+        <person name="Zinser E.R."/>
+        <person name="Chisholm S.W."/>
+      </authorList>
+      <dbReference type="PubMed" id="12917642"/>
+      <dbReference type="DOI" id="10.1038/nature01947"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="3">MIT 9313</strain>
+    </source>
+  </reference>
+  <reference evidence="4" key="2">
+    <citation type="journal article" date="2020" name="Chem. Sci." volume="11" first="12854" last="12870">
+      <title>Structural determinants of macrocyclization in substrate-controlled lanthipeptide biosynthetic pathways.</title>
+      <authorList>
+        <person name="Bobeica S.C."/>
+        <person name="Zhu L."/>
+        <person name="Acedo J.Z."/>
+        <person name="Tang W."/>
+        <person name="van der Donk W.A."/>
+      </authorList>
+      <dbReference type="PubMed" id="34094481"/>
+      <dbReference type="DOI" id="10.1039/d0sc01651a"/>
+    </citation>
+    <scope>STRUCTURE BY NMR OF 65-83</scope>
+  </reference>
+  <dbReference type="EMBL" id="BX548175">
+    <property type="protein sequence ID" value="CAE22296.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="WP_011131486.1">
+    <property type="nucleotide sequence ID" value="NC_005071.1"/>
+  </dbReference>
+  <dbReference type="PDB" id="6VLJ">
+    <property type="method" value="NMR"/>
+    <property type="chains" value="A=65-83"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="Q7V447"/>
+  <dbReference type="SMR" id="Q7V447"/>
+  <dbReference type="KEGG" id="pmt:PMT_2122"/>
+  <dbReference type="eggNOG" id="ENOG5034BZY">
+    <property type="taxonomic scope" value="Bacteria"/>
+  </dbReference>
+  <dbReference type="HOGENOM" id="CLU_158613_2_0_3"/>
+  <dbReference type="OrthoDB" id="542288at2"/>
+  <dbReference type="Proteomes" id="UP000001423">
+    <property type="component" value="Chromosome"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR022516">
+    <property type="entry name" value="CHP03798_Ocin"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR012903">
+    <property type="entry name" value="Nif11"/>
+  </dbReference>
+  <dbReference type="NCBIfam" id="TIGR03798">
+    <property type="entry name" value="leader_Nif11"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF07862">
+    <property type="entry name" value="Nif11"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="evidence at protein level"/>
+  <keyword evidence="4" id="KW-0002">3D-structure</keyword>
+  <keyword evidence="3" id="KW-1185">Reference proteome</keyword>
+  <feature type="domain" description="Nif11" evidence="1">
+    <location>
+      <begin position="1"/>
+      <end position="46"/>
+    </location>
+  </feature>
+  <evidence type="ECO:0000259" key="1">
+    <source>
+      <dbReference type="Pfam" id="PF07862"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="2">
+    <source>
+      <dbReference type="EMBL" id="CAE22296.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="3">
+    <source>
+      <dbReference type="Proteomes" id="UP000001423"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007829" key="4">
+    <source>
+      <dbReference type="PDB" id="6VLJ"/>
+    </source>
+  </evidence>
+  <sequence length="83" mass="8889" checksum="D8D74B5A118146D3" modified="2003-10-01" version="1">MSEEQLKAFLTKVQADTSLQEQLKIEGADVVAIAKAAGFSITTEDLNSHRQNLSDDELEGVAGGAACHNHAPSMPPSYWEGEC</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

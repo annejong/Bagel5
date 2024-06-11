@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2019-12-11" modified="2024-01-24" version="14" xmlns="http://uniprot.org/uniprot">
+  <accession>A0A5K1NCN1</accession>
+  <accession>A0A1K2AQD0</accession>
+  <accession>A0A653TL66</accession>
+  <name>A0A5K1NCN1_BACAB</name>
+  <protein>
+    <submittedName>
+      <fullName evidence="7">Circular bacteriocin, circularin A/uberolysin family</fullName>
+    </submittedName>
+  </protein>
+  <gene>
+    <name evidence="6" type="ORF">AMR71_07660</name>
+    <name evidence="7" type="ORF">BACI348_41645</name>
+  </gene>
+  <organism evidence="7 9">
+    <name type="scientific">Bacillus altitudinis</name>
+    <dbReference type="NCBI Taxonomy" id="293387"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Bacillota</taxon>
+      <taxon>Bacilli</taxon>
+      <taxon>Bacillales</taxon>
+      <taxon>Bacillaceae</taxon>
+      <taxon>Bacillus</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="6 8" key="1">
+    <citation type="submission" date="2015-08" db="EMBL/GenBank/DDBJ databases">
+      <title>Complete genome of Bacillus cereus NJ-V2.</title>
+      <authorList>
+        <person name="Hou L."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="6 8">NJ-V2</strain>
+    </source>
+  </reference>
+  <reference evidence="7 9" key="2">
+    <citation type="submission" date="2019-10" db="EMBL/GenBank/DDBJ databases">
+      <authorList>
+        <person name="Karimi E."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="7">Bacillus sp. 348</strain>
+    </source>
+  </reference>
+  <comment type="subcellular location">
+    <subcellularLocation>
+      <location evidence="1">Secreted</location>
+    </subcellularLocation>
+  </comment>
+  <dbReference type="EMBL" id="CP012482">
+    <property type="protein sequence ID" value="ALM45108.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="CABWLH010000009">
+    <property type="protein sequence ID" value="VXB82206.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="WP_017358050.1">
+    <property type="nucleotide sequence ID" value="NZ_WOGS01000001.1"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="A0A5K1NCN1"/>
+  <dbReference type="GeneID" id="66363888"/>
+  <dbReference type="Proteomes" id="UP000059080">
+    <property type="component" value="Chromosome"/>
+  </dbReference>
+  <dbReference type="Proteomes" id="UP000433089">
+    <property type="component" value="Unassembled WGS sequence"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0005576">
+    <property type="term" value="C:extracellular region"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-SubCell"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0016020">
+    <property type="term" value="C:membrane"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0042742">
+    <property type="term" value="P:defense response to bacterium"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0031640">
+    <property type="term" value="P:killing of cells of another organism"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="Gene3D" id="1.20.225.10">
+    <property type="entry name" value="Bacteriocin AS-48"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR009086">
+    <property type="entry name" value="Bacteriocin_AS48"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR020038">
+    <property type="entry name" value="Circ_bacteriocin"/>
+  </dbReference>
+  <dbReference type="NCBIfam" id="TIGR03651">
+    <property type="entry name" value="circ_ocin_uber"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF09221">
+    <property type="entry name" value="Bacteriocin_IId"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="SUPFAM" id="SSF47869">
+    <property type="entry name" value="Bacteriocin AS-48"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="predicted"/>
+  <keyword evidence="3" id="KW-0044">Antibiotic</keyword>
+  <keyword evidence="4" id="KW-0929">Antimicrobial</keyword>
+  <keyword evidence="4" id="KW-0078">Bacteriocin</keyword>
+  <keyword evidence="5" id="KW-0472">Membrane</keyword>
+  <keyword evidence="2" id="KW-0964">Secreted</keyword>
+  <keyword evidence="5" id="KW-0812">Transmembrane</keyword>
+  <keyword evidence="5" id="KW-1133">Transmembrane helix</keyword>
+  <feature type="transmembrane region" description="Helical" evidence="5">
+    <location>
+      <begin position="12"/>
+      <end position="34"/>
+    </location>
+  </feature>
+  <feature type="transmembrane region" description="Helical" evidence="5">
+    <location>
+      <begin position="62"/>
+      <end position="84"/>
+    </location>
+  </feature>
+  <evidence type="ECO:0000256" key="1">
+    <source>
+      <dbReference type="ARBA" id="ARBA00004613"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000256" key="2">
+    <source>
+      <dbReference type="ARBA" id="ARBA00022525"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000256" key="3">
+    <source>
+      <dbReference type="ARBA" id="ARBA00023022"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000256" key="4">
+    <source>
+      <dbReference type="ARBA" id="ARBA00023048"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000256" key="5">
+    <source>
+      <dbReference type="SAM" id="Phobius"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="6">
+    <source>
+      <dbReference type="EMBL" id="ALM45108.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="7">
+    <source>
+      <dbReference type="EMBL" id="VXB82206.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="8">
+    <source>
+      <dbReference type="Proteomes" id="UP000059080"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="9">
+    <source>
+      <dbReference type="Proteomes" id="UP000433089"/>
+    </source>
+  </evidence>
+  <sequence length="108" mass="11280" checksum="10A764802ECCA39B" modified="2019-12-11" version="1">MTETRNEIKLHVLFGALAVGFLMLALFSFSLQVLPVADLAKEFGIPGSVAAVVLNVVEAGGAVTTIVSILTAVGSGGLSLIAAAGKETIRQYLKNEIKKKGRKAVIAW</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

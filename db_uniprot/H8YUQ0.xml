@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2012-05-16" modified="2023-05-03" version="32" xmlns="http://uniprot.org/uniprot">
+  <accession>H8YUQ0</accession>
+  <name>H8YUQ0_YERFR</name>
+  <protein>
+    <submittedName>
+      <fullName evidence="8">Colicin FY</fullName>
+    </submittedName>
+  </protein>
+  <gene>
+    <name evidence="8" type="primary">cfyA</name>
+  </gene>
+  <organism evidence="8">
+    <name type="scientific">Yersinia frederiksenii</name>
+    <dbReference type="NCBI Taxonomy" id="29484"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Pseudomonadota</taxon>
+      <taxon>Gammaproteobacteria</taxon>
+      <taxon>Enterobacterales</taxon>
+      <taxon>Yersiniaceae</taxon>
+      <taxon>Yersinia</taxon>
+    </lineage>
+  </organism>
+  <geneLocation type="plasmid" evidence="8">
+    <name>pYF27601</name>
+  </geneLocation>
+  <reference evidence="8" key="1">
+    <citation type="journal article" date="2012" name="J. Bacteriol." volume="194" first="1950" last="1959">
+      <title>Novel Colicin FY of Yersinia frederiksenii Inhibits Pathogenic Yersinia Strains via YiuR-Mediated Reception, TonB Import, and Cell Membrane Pore Formation.</title>
+      <authorList>
+        <person name="Bosak J."/>
+        <person name="Laiblova P."/>
+        <person name="Smarda J."/>
+        <person name="Dedicova D."/>
+        <person name="Smajs D."/>
+      </authorList>
+      <dbReference type="PubMed" id="22343298"/>
+      <dbReference type="DOI" id="10.1128/JB.05885-11"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="8">27601</strain>
+      <plasmid evidence="8">pYF27601</plasmid>
+    </source>
+  </reference>
+  <comment type="function">
+    <text evidence="2">Colicins are polypeptide toxins produced by and active against E.coli and closely related bacteria.</text>
+  </comment>
+  <comment type="function">
+    <text evidence="1">This colicin is a channel-forming colicin. This class of transmembrane toxins depolarize the cytoplasmic membrane, leading to dissipation of cellular energy.</text>
+  </comment>
+  <comment type="similarity">
+    <text evidence="3">Belongs to the channel forming colicin family.</text>
+  </comment>
+  <dbReference type="EMBL" id="JF937655">
+    <property type="protein sequence ID" value="AFC36229.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="WP_015060722.1">
+    <property type="nucleotide sequence ID" value="NC_019269.1"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="YP_006961690.1">
+    <property type="nucleotide sequence ID" value="NC_019269.1"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="H8YUQ0"/>
+  <dbReference type="TCDB" id="1.C.1.1.5">
+    <property type="family name" value="the channel-forming colicin (colicin) family"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0016020">
+    <property type="term" value="C:membrane"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0140911">
+    <property type="term" value="F:pore-forming activity"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="InterPro"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0050829">
+    <property type="term" value="P:defense response to Gram-negative bacterium"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="InterPro"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0031640">
+    <property type="term" value="P:killing of cells of another organism"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="InterPro"/>
+  </dbReference>
+  <dbReference type="Gene3D" id="1.10.490.30">
+    <property type="entry name" value="Colicin"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR000293">
+    <property type="entry name" value="Channel_colicin_C"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR038283">
+    <property type="entry name" value="Channel_colicin_C_sf"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF01024">
+    <property type="entry name" value="Colicin"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="PRINTS" id="PR00280">
+    <property type="entry name" value="CHANLCOLICIN"/>
+  </dbReference>
+  <dbReference type="SUPFAM" id="SSF56837">
+    <property type="entry name" value="Colicin"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="PROSITE" id="PS00276">
+    <property type="entry name" value="CHANNEL_COLICIN"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="inferred from homology"/>
+  <keyword evidence="4" id="KW-0175">Coiled coil</keyword>
+  <keyword evidence="6" id="KW-0472">Membrane</keyword>
+  <keyword evidence="8" id="KW-0614">Plasmid</keyword>
+  <keyword evidence="6" id="KW-0812">Transmembrane</keyword>
+  <keyword evidence="6" id="KW-1133">Transmembrane helix</keyword>
+  <feature type="transmembrane region" description="Helical" evidence="6">
+    <location>
+      <begin position="398"/>
+      <end position="424"/>
+    </location>
+  </feature>
+  <feature type="domain" description="Channel forming colicins" evidence="7">
+    <location>
+      <begin position="373"/>
+      <end position="384"/>
+    </location>
+  </feature>
+  <feature type="region of interest" description="Disordered" evidence="5">
+    <location>
+      <begin position="75"/>
+      <end position="103"/>
+    </location>
+  </feature>
+  <feature type="coiled-coil region" evidence="4">
+    <location>
+      <begin position="112"/>
+      <end position="172"/>
+    </location>
+  </feature>
+  <feature type="coiled-coil region" evidence="4">
+    <location>
+      <begin position="215"/>
+      <end position="249"/>
+    </location>
+  </feature>
+  <feature type="compositionally biased region" description="Basic and acidic residues" evidence="5">
+    <location>
+      <begin position="77"/>
+      <end position="103"/>
+    </location>
+  </feature>
+  <evidence type="ECO:0000256" key="1">
+    <source>
+      <dbReference type="ARBA" id="ARBA00002178"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000256" key="2">
+    <source>
+      <dbReference type="ARBA" id="ARBA00003197"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000256" key="3">
+    <source>
+      <dbReference type="ARBA" id="ARBA00007595"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000256" key="4">
+    <source>
+      <dbReference type="SAM" id="Coils"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000256" key="5">
+    <source>
+      <dbReference type="SAM" id="MobiDB-lite"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000256" key="6">
+    <source>
+      <dbReference type="SAM" id="Phobius"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000259" key="7">
+    <source>
+      <dbReference type="PROSITE" id="PS00276"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="8">
+    <source>
+      <dbReference type="EMBL" id="AFC36229.1"/>
+    </source>
+  </evidence>
+  <sequence length="438" mass="49637" checksum="932BF867EF44A6C9" modified="2012-05-16" version="1">MTDYKDVDPFERQVMESLGYGWVSQGEGSWQKGEISGAIDNDTMTVTGWNGAIPTSPSGRPHIWDQKISELNNARQNSIDDNDDDVTPTSDHEKNQRREASAKALKYTSDIESKVNEQLNVINNDIQKTEAEYKEKQGGLSEVDKAKYQLVLSKLQLQKQNAKILSEEAKKRRVHAEWEQINDENVLNARDRPSAEWRQQREINSKKSLAKLAEERAVQEQVELIRQGLAQLEKNILANKENVKRWTEEMNKNKEKEENEVKDALKFTADFYKTVTEKYGEKSSKIAQELADAAKGKQIRSVDEALKAFDKYKDVLNKKFSVKDREAIAKALESVDRELMAKNLAKFSKAFNYVGKTIDRYDTLKEIQKALETNNWRPVFVQLESLAVGRAAGAITAFAFSIIIGAPLGILGVALIMALVSVFVDDRFIEKINEMVGV</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="1996-11-01" modified="2023-09-13" version="51" xmlns="http://uniprot.org/uniprot">
+  <accession>Q48499</accession>
+  <name>Q48499_LACAI</name>
+  <protein>
+    <submittedName>
+      <fullName evidence="2">AciA</fullName>
+    </submittedName>
+    <submittedName>
+      <fullName evidence="3">Acidocin B</fullName>
+    </submittedName>
+  </protein>
+  <gene>
+    <name evidence="3" type="primary">acdB</name>
+    <name evidence="2" type="synonym">aciA</name>
+  </gene>
+  <organism evidence="3">
+    <name type="scientific">Lactobacillus acidophilus</name>
+    <dbReference type="NCBI Taxonomy" id="1579"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Bacillota</taxon>
+      <taxon>Bacilli</taxon>
+      <taxon>Lactobacillales</taxon>
+      <taxon>Lactobacillaceae</taxon>
+      <taxon>Lactobacillus</taxon>
+    </lineage>
+  </organism>
+  <geneLocation type="plasmid" evidence="2">
+    <name>pCV461</name>
+  </geneLocation>
+  <reference evidence="3" key="1">
+    <citation type="journal article" date="1995" name="Microbiology (Mosc.)" volume="141" first="1629" last="1635">
+      <title>Genetic analysis of acidocin B, a novel bacteriocin produced by Lactobacillus acidophilus.</title>
+      <authorList>
+        <person name="Leer R."/>
+        <person name="van der Vossen J."/>
+        <person name="van Giezen M."/>
+        <person name="van Noort H."/>
+        <person name="Pouwels P."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="3">M46</strain>
+    </source>
+  </reference>
+  <reference evidence="2 4" key="2">
+    <citation type="journal article" date="2015" name="Appl. Environ. Microbiol." volume="81" first="2910" last="2918">
+      <title>Solution structure of acidocin B, a circular bacteriocin produced by Lactobacillus acidophilus M46.</title>
+      <authorList>
+        <person name="Acedo J.Z."/>
+        <person name="van Belkum M.J."/>
+        <person name="Lohans C.T."/>
+        <person name="McKay R.T."/>
+        <person name="Miskolzie M."/>
+        <person name="Vederas J.C."/>
+      </authorList>
+      <dbReference type="PubMed" id="25681186"/>
+      <dbReference type="DOI" id="10.1128/AEM.04265-14"/>
+    </citation>
+    <scope>STRUCTURE BY NMR OF 34-91</scope>
+    <source>
+      <strain evidence="2">M46</strain>
+      <plasmid evidence="2">pCV461</plasmid>
+    </source>
+  </reference>
+  <dbReference type="EMBL" id="KP728900">
+    <property type="protein sequence ID" value="AJP07153.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="Z34920">
+    <property type="protein sequence ID" value="CAA84399.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="PDB" id="2MWR">
+    <property type="method" value="NMR"/>
+    <property type="chains" value="A=34-91"/>
+  </dbReference>
+  <dbReference type="PDBsum" id="2MWR"/>
+  <dbReference type="AlphaFoldDB" id="Q48499"/>
+  <dbReference type="SMR" id="Q48499"/>
+  <dbReference type="GO" id="GO:0016020">
+    <property type="term" value="C:membrane"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR020970">
+    <property type="entry name" value="Bacteriocin_IIc"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF12173">
+    <property type="entry name" value="BacteriocIIc_cy"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="evidence at protein level"/>
+  <keyword evidence="4" id="KW-0002">3D-structure</keyword>
+  <keyword evidence="1" id="KW-0472">Membrane</keyword>
+  <keyword evidence="2" id="KW-0614">Plasmid</keyword>
+  <keyword evidence="1" id="KW-0812">Transmembrane</keyword>
+  <keyword evidence="1" id="KW-1133">Transmembrane helix</keyword>
+  <feature type="transmembrane region" description="Helical" evidence="1">
+    <location>
+      <begin position="16"/>
+      <end position="38"/>
+    </location>
+  </feature>
+  <feature type="transmembrane region" description="Helical" evidence="1">
+    <location>
+      <begin position="58"/>
+      <end position="86"/>
+    </location>
+  </feature>
+  <evidence type="ECO:0000256" key="1">
+    <source>
+      <dbReference type="SAM" id="Phobius"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="2">
+    <source>
+      <dbReference type="EMBL" id="AJP07153.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="3">
+    <source>
+      <dbReference type="EMBL" id="CAA84399.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007829" key="4">
+    <source>
+      <dbReference type="PDB" id="2MWR"/>
+    </source>
+  </evidence>
+  <sequence length="91" mass="9197" checksum="9F7E65AF718F499B" modified="1996-11-01" version="1">MVTKYGRNLGLSKVELFAIWAVLVVALLLATANIYWIADQFGIHLATGTARKLLDAVASGASLGTAFAAILGVTLPAWALAAAGALGATAA</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

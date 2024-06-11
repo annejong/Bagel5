@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2005-09-27" modified="2023-05-03" version="14" xmlns="http://uniprot.org/uniprot">
+  <accession>Q3YB76</accession>
+  <name>Q3YB76_STRRT</name>
+  <protein>
+    <submittedName>
+      <fullName evidence="1">BhtA2</fullName>
+    </submittedName>
+  </protein>
+  <gene>
+    <name evidence="1" type="primary">bhtA beta</name>
+  </gene>
+  <organism evidence="1">
+    <name type="scientific">Streptococcus ratti</name>
+    <dbReference type="NCBI Taxonomy" id="1341"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Bacillota</taxon>
+      <taxon>Bacilli</taxon>
+      <taxon>Lactobacillales</taxon>
+      <taxon>Streptococcaceae</taxon>
+      <taxon>Streptococcus</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="1" key="1">
+    <citation type="journal article" date="2005" name="FEMS Microbiol. Lett." volume="252" first="235" last="241">
+      <title>Streptococcus rattus strain BHT produces both a class I two-component lantibiotic and a class II bacteriocin.</title>
+      <authorList>
+        <person name="Hyink O."/>
+        <person name="Balakrishnan M."/>
+        <person name="Tagg J.R."/>
+      </authorList>
+      <dbReference type="PubMed" id="16194596"/>
+      <dbReference type="DOI" id="10.1016/j.femsle.2005.09.003"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="1">BHT</strain>
+    </source>
+  </reference>
+  <dbReference type="EMBL" id="DQ145752">
+    <property type="protein sequence ID" value="AAZ76602.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="WP_003086771.1">
+    <property type="nucleotide sequence ID" value="NZ_CP043405.1"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="Q3YB76"/>
+  <proteinExistence type="predicted"/>
+  <evidence type="ECO:0000313" key="1">
+    <source>
+      <dbReference type="EMBL" id="AAZ76602.1"/>
+    </source>
+  </evidence>
+  <sequence length="62" mass="6456" checksum="C058379A7A2977FC" modified="2005-09-27" version="1">MKSNLLKINNVTEVEKDMVTLIKDEDMELAGGSTPACAIGVVGITVAVTGISTACTSRCINK</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2019-12-11" modified="2023-06-28" version="7" xmlns="http://uniprot.org/uniprot">
+  <accession>A0A5J4LME0</accession>
+  <name>A0A5J4LME0_9ACTN</name>
+  <protein>
+    <submittedName>
+      <fullName evidence="1">Uncharacterized protein</fullName>
+    </submittedName>
+  </protein>
+  <gene>
+    <name evidence="1" type="ORF">San01_42050</name>
+  </gene>
+  <organism evidence="1 2">
+    <name type="scientific">Streptomyces angustmyceticus</name>
+    <dbReference type="NCBI Taxonomy" id="285578"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Actinomycetota</taxon>
+      <taxon>Actinomycetes</taxon>
+      <taxon>Kitasatosporales</taxon>
+      <taxon>Streptomycetaceae</taxon>
+      <taxon>Streptomyces</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="1 2" key="1">
+    <citation type="submission" date="2019-10" db="EMBL/GenBank/DDBJ databases">
+      <title>Whole genome shotgun sequence of Streptomyces angustmyceticus NBRC 3934.</title>
+      <authorList>
+        <person name="Hosoyama A."/>
+        <person name="Ichikawa N."/>
+        <person name="Kimura A."/>
+        <person name="Kitahashi Y."/>
+        <person name="Komaki H."/>
+        <person name="Uohara A."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="1 2">NBRC 3934</strain>
+    </source>
+  </reference>
+  <comment type="caution">
+    <text evidence="1">The sequence shown here is derived from an EMBL/GenBank/DDBJ whole genome shotgun (WGS) entry which is preliminary data.</text>
+  </comment>
+  <dbReference type="EMBL" id="BLAG01000011">
+    <property type="protein sequence ID" value="GES31718.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="A0A5J4LME0"/>
+  <dbReference type="Proteomes" id="UP000325598">
+    <property type="component" value="Unassembled WGS sequence"/>
+  </dbReference>
+  <proteinExistence type="predicted"/>
+  <evidence type="ECO:0000313" key="1">
+    <source>
+      <dbReference type="EMBL" id="GES31718.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="2">
+    <source>
+      <dbReference type="Proteomes" id="UP000325598"/>
+    </source>
+  </evidence>
+  <sequence length="53" mass="5585" checksum="4A3DDCC09E0545F4" modified="2019-12-11" version="1">MSRNGTWYVITVFPCHDESPEGGVAMTIMDLQGLEVPGERDAQALGSTISGGC</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

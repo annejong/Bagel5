@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2012-03-21" modified="2023-09-13" version="24" xmlns="http://uniprot.org/uniprot">
+  <accession>H1ZZ98</accession>
+  <name>H1ZZ98_9BACL</name>
+  <protein>
+    <submittedName>
+      <fullName evidence="1">Putative bacteriocin</fullName>
+    </submittedName>
+  </protein>
+  <gene>
+    <name evidence="1" type="primary">laterosporulin</name>
+  </gene>
+  <organism evidence="1">
+    <name type="scientific">Brevibacillus sp. GI-9</name>
+    <dbReference type="NCBI Taxonomy" id="880754"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Bacillota</taxon>
+      <taxon>Bacilli</taxon>
+      <taxon>Bacillales</taxon>
+      <taxon>Paenibacillaceae</taxon>
+      <taxon>Brevibacillus</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="1" key="1">
+    <citation type="submission" date="2011-08" db="EMBL/GenBank/DDBJ databases">
+      <authorList>
+        <person name="Li A."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="1">GI-9</strain>
+    </source>
+  </reference>
+  <reference evidence="1" key="2">
+    <citation type="journal article" date="2012" name="PLoS ONE" volume="7" first="e31498" last="e31498">
+      <title>Identification, purification and characterization of laterosporulin, a novel bacteriocin produced by Brevibacillus sp. strain GI-9.</title>
+      <authorList>
+        <person name="Singh P.K."/>
+        <person name="Chittpurna NOT SET?!"/>
+        <person name="Ashish NOT SET?!"/>
+        <person name="Sharma V."/>
+        <person name="Patil P.B."/>
+        <person name="Korpole S."/>
+      </authorList>
+      <dbReference type="PubMed" id="22403615"/>
+      <dbReference type="DOI" id="10.1371/journal.pone.0031498"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="1">GI-9</strain>
+    </source>
+  </reference>
+  <reference evidence="2" key="3">
+    <citation type="journal article" date="2015" name="FEBS J." volume="282" first="203" last="214">
+      <title>The intramolecular disulfide-stapled structure of laterosporulin, a class IId bacteriocin, conceals a human defensin-like structural module.</title>
+      <authorList>
+        <person name="Singh P.K."/>
+        <person name="Solanki V."/>
+        <person name="Sharma S."/>
+        <person name="Thakur K.G."/>
+        <person name="Krishnan B."/>
+        <person name="Korpole S."/>
+      </authorList>
+      <dbReference type="PubMed" id="25345978"/>
+      <dbReference type="DOI" id="10.1111/febs.13129"/>
+    </citation>
+    <scope>X-RAY CRYSTALLOGRAPHY (2.04 ANGSTROMS) OF 2-50</scope>
+    <scope>DISULFIDE BONDS</scope>
+  </reference>
+  <dbReference type="EMBL" id="HE579167">
+    <property type="protein sequence ID" value="CCD21955.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="PDB" id="4OZK">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="2.04 A"/>
+    <property type="chains" value="A=2-50"/>
+  </dbReference>
+  <dbReference type="PDBsum" id="4OZK"/>
+  <dbReference type="AlphaFoldDB" id="H1ZZ98"/>
+  <dbReference type="SMR" id="H1ZZ98"/>
+  <dbReference type="InterPro" id="IPR041572">
+    <property type="entry name" value="Laterosporulin"/>
+  </dbReference>
+  <dbReference type="NCBIfam" id="NF033806">
+    <property type="entry name" value="laterosporulin"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF17861">
+    <property type="entry name" value="Laterosporulin"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="evidence at protein level"/>
+  <keyword evidence="2" id="KW-0002">3D-structure</keyword>
+  <feature type="disulfide bond" evidence="2">
+    <location>
+      <begin position="3"/>
+      <end position="42"/>
+    </location>
+  </feature>
+  <feature type="disulfide bond" evidence="2">
+    <location>
+      <begin position="5"/>
+      <end position="34"/>
+    </location>
+  </feature>
+  <feature type="disulfide bond" evidence="2">
+    <location>
+      <begin position="19"/>
+      <end position="50"/>
+    </location>
+  </feature>
+  <evidence type="ECO:0000313" key="1">
+    <source>
+      <dbReference type="EMBL" id="CCD21955.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007829" key="2">
+    <source>
+      <dbReference type="PDB" id="4OZK"/>
+    </source>
+  </evidence>
+  <sequence length="50" mass="5750" checksum="B3F94DDB80E1C9AC" modified="2012-03-21" version="1">MACQCPDAISGWTHTDYQCHGLENKMYRHVYAICMNGTQVYCRTEWGSSC</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

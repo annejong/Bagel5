@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2001-05-04" modified="2024-01-24" version="75" xmlns="http://uniprot.org/uniprot">
+  <accession>Q9Z4N4</accession>
+  <accession>P82962</accession>
+  <name>MCEA_KLEPN</name>
+  <protein>
+    <recommendedName>
+      <fullName>Microcin E492</fullName>
+      <shortName>MccE492</shortName>
+    </recommendedName>
+  </protein>
+  <gene>
+    <name evidence="7" type="primary">mceA</name>
+  </gene>
+  <organism>
+    <name type="scientific">Klebsiella pneumoniae</name>
+    <dbReference type="NCBI Taxonomy" id="573"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Pseudomonadota</taxon>
+      <taxon>Gammaproteobacteria</taxon>
+      <taxon>Enterobacterales</taxon>
+      <taxon>Enterobacteriaceae</taxon>
+      <taxon>Klebsiella/Raoultella group</taxon>
+      <taxon>Klebsiella</taxon>
+    </lineage>
+  </organism>
+  <reference key="1">
+    <citation type="journal article" date="1999" name="J. Bacteriol." volume="181" first="212" last="217">
+      <title>Identification and properties of the genes encoding microcin E492 and its immunity protein.</title>
+      <authorList>
+        <person name="Lagos R."/>
+        <person name="Villanueva J.E."/>
+        <person name="Monasterio O."/>
+      </authorList>
+      <dbReference type="PubMed" id="9864332"/>
+      <dbReference type="DOI" id="10.1128/jb.181.1.212-217.1999"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+    <scope>PROTEIN SEQUENCE OF 18-26</scope>
+    <source>
+      <strain>RYC492</strain>
+    </source>
+  </reference>
+  <reference key="2">
+    <citation type="journal article" date="2002" name="Antimicrob. Agents Chemother." volume="46" first="229" last="230">
+      <title>Microcin E492 is an unmodified peptide related in structure to colicin V.</title>
+      <authorList>
+        <person name="Pons A.-M."/>
+        <person name="Zorn N."/>
+        <person name="Vignon D."/>
+        <person name="Delalande F."/>
+        <person name="Van Dorsselaer A."/>
+        <person name="Cottenceau G."/>
+      </authorList>
+      <dbReference type="PubMed" id="11751140"/>
+      <dbReference type="DOI" id="10.1128/aac.46.1.229-230.2002"/>
+    </citation>
+    <scope>PROTEIN SEQUENCE OF 16-99</scope>
+    <scope>MASS SPECTROMETRY</scope>
+  </reference>
+  <reference key="3">
+    <citation type="journal article" date="2003" name="Mol. Microbiol." volume="49" first="1031" last="1041">
+      <title>Microcin E492 antibacterial activity: evidence for a TonB-dependent inner membrane permeabilization on Escherichia coli.</title>
+      <authorList>
+        <person name="Destoumieux-Garzon D."/>
+        <person name="Thomas X."/>
+        <person name="Santamaria M."/>
+        <person name="Goulard C."/>
+        <person name="Barthelemy M."/>
+        <person name="Boscher B."/>
+        <person name="Bessin Y."/>
+        <person name="Molle G."/>
+        <person name="Pons A.-M."/>
+        <person name="Letellier L."/>
+        <person name="Peduzzi J."/>
+        <person name="Rebuffat S."/>
+      </authorList>
+      <dbReference type="PubMed" id="12890026"/>
+      <dbReference type="DOI" id="10.1046/j.1365-2958.2003.03610.x"/>
+    </citation>
+    <scope>PROTEIN SEQUENCE OF 16-20</scope>
+    <scope>FUNCTION</scope>
+    <scope>SUBUNIT</scope>
+    <scope>MASS SPECTROMETRY</scope>
+  </reference>
+  <reference key="4">
+    <citation type="journal article" date="2004" name="J. Biol. Chem." volume="279" first="28233" last="28242">
+      <title>Siderophore peptide, a new type of post-translationally modified antibacterial peptide with potent activity.</title>
+      <authorList>
+        <person name="Thomas X."/>
+        <person name="Destoumieux-Garzon D."/>
+        <person name="Peduzzi J."/>
+        <person name="Afonso C."/>
+        <person name="Blond A."/>
+        <person name="Birlirakis N."/>
+        <person name="Goulard C."/>
+        <person name="Dubost L."/>
+        <person name="Thai R."/>
+        <person name="Tabet J.-C."/>
+        <person name="Rebuffat S."/>
+      </authorList>
+      <dbReference type="PubMed" id="15102848"/>
+      <dbReference type="DOI" id="10.1074/jbc.m400228200"/>
+    </citation>
+    <scope>PROTEIN SEQUENCE OF 89-99</scope>
+    <scope>FUNCTION</scope>
+    <scope>MASS SPECTROMETRY</scope>
+    <scope>SIDEROPHORE BINDING SITE</scope>
+    <source>
+      <strain>RYC492</strain>
+    </source>
+  </reference>
+  <reference key="5">
+    <citation type="journal article" date="1993" name="FEBS Lett." volume="321" first="145" last="148">
+      <title>Microcin E492 forms ion channels in phospholipid bilayer membrane.</title>
+      <authorList>
+        <person name="Lagos R."/>
+        <person name="Wilkens M."/>
+        <person name="Vergara C."/>
+        <person name="Cecchi X."/>
+        <person name="Monasterio O."/>
+      </authorList>
+      <dbReference type="PubMed" id="7682973"/>
+      <dbReference type="DOI" id="10.1016/0014-5793(93)80096-d"/>
+    </citation>
+    <scope>FUNCTION</scope>
+  </reference>
+  <comment type="function">
+    <text evidence="3 4 5 6">Channel-forming bacteriocin. Forms cation-selective channels. Active on enterobacteria, with highest activity against E.coli. Not active on other Gram-negative bacteria, Gram-positive bacteria or fungi. The unmodified protein is active against E.coli and S.enteritidis. When the siderophore ester is present at Ser-99, antibacterial activity against these species is increased and activity is also detected against E.cloacae and K.pneumoniae. Neutralized by its immunity protein MceB (PubMed:9864332).</text>
+  </comment>
+  <comment type="subunit">
+    <text evidence="3">Multimer. Possibly forms a homodimer or a homotrimer.</text>
+  </comment>
+  <comment type="PTM">
+    <text>The C-terminal Ser is modified by attachment to a siderophore similar to enterobactin, which can bind one atom of iron. The modification consists of an ester linkage of the serine carboxyl to O6 of a glucose which is linked by a C-glycosidic bond to the 5'-benzoyl of a linear triester of N-(2,3-dihydroxybenzoyl)serine. Presence of the siderophore ester increases the antibacterial activity of the protein.</text>
+  </comment>
+  <comment type="mass spectrometry" mass="7886.68" error="0.52" method="Electrospray" evidence="2"/>
+  <comment type="mass spectrometry" mass="7887.8" method="MALDI" evidence="2"/>
+  <comment type="mass spectrometry" mass="7885.32" method="MALDI" evidence="3"/>
+  <comment type="mass spectrometry" mass="7887.0" method="MALDI" evidence="4">
+    <text>Ser-99 unmodified form.</text>
+  </comment>
+  <comment type="mass spectrometry" mass="8718.0" method="MALDI" evidence="4">
+    <text>Ser-99 modified form.</text>
+  </comment>
+  <comment type="similarity">
+    <text evidence="8">Belongs to the class IIa microcin family.</text>
+  </comment>
+  <dbReference type="EMBL" id="AF063590">
+    <property type="protein sequence ID" value="AAD04332.2"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="WP_071785591.1">
+    <property type="nucleotide sequence ID" value="NZ_WYAM01000026.1"/>
+  </dbReference>
+  <dbReference type="PDB" id="7DYR">
+    <property type="method" value="EM"/>
+    <property type="resolution" value="2.28 A"/>
+    <property type="chains" value="A/D/G=16-99"/>
+  </dbReference>
+  <dbReference type="PDBsum" id="7DYR"/>
+  <dbReference type="AlphaFoldDB" id="Q9Z4N4"/>
+  <dbReference type="EMDB" id="EMD-30923"/>
+  <dbReference type="SMR" id="Q9Z4N4"/>
+  <dbReference type="TCDB" id="1.C.58.1.1">
+    <property type="family name" value="the microcin e492/c24 (microcin e492) family"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0042742">
+    <property type="term" value="P:defense response to bacterium"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0031640">
+    <property type="term" value="P:killing of cells of another organism"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0034220">
+    <property type="term" value="P:monoatomic ion transmembrane transport"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <proteinExistence type="evidence at protein level"/>
+  <keyword id="KW-0002">3D-structure</keyword>
+  <keyword id="KW-0044">Antibiotic</keyword>
+  <keyword id="KW-0929">Antimicrobial</keyword>
+  <keyword id="KW-0078">Bacteriocin</keyword>
+  <keyword id="KW-0903">Direct protein sequencing</keyword>
+  <keyword id="KW-0407">Ion channel</keyword>
+  <keyword id="KW-0406">Ion transport</keyword>
+  <keyword id="KW-0732">Signal</keyword>
+  <keyword id="KW-0813">Transport</keyword>
+  <feature type="signal peptide" evidence="2 3">
+    <location>
+      <begin position="1"/>
+      <end position="15"/>
+    </location>
+  </feature>
+  <feature type="chain" id="PRO_0000005677" description="Microcin E492">
+    <location>
+      <begin position="16"/>
+      <end position="99"/>
+    </location>
+  </feature>
+  <feature type="region of interest" description="Disordered" evidence="1">
+    <location>
+      <begin position="80"/>
+      <end position="99"/>
+    </location>
+  </feature>
+  <feature type="compositionally biased region" description="Polar residues" evidence="1">
+    <location>
+      <begin position="82"/>
+      <end position="99"/>
+    </location>
+  </feature>
+  <feature type="modified residue" description="Serine microcin E492 siderophore ester">
+    <location>
+      <position position="99"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="9">
+    <location>
+      <begin position="20"/>
+      <end position="38"/>
+    </location>
+  </feature>
+  <feature type="turn" evidence="9">
+    <location>
+      <begin position="39"/>
+      <end position="42"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="9">
+    <location>
+      <begin position="44"/>
+      <end position="66"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="9">
+    <location>
+      <begin position="69"/>
+      <end position="71"/>
+    </location>
+  </feature>
+  <feature type="turn" evidence="9">
+    <location>
+      <begin position="80"/>
+      <end position="83"/>
+    </location>
+  </feature>
+  <feature type="turn" evidence="9">
+    <location>
+      <begin position="88"/>
+      <end position="90"/>
+    </location>
+  </feature>
+  <evidence type="ECO:0000256" key="1">
+    <source>
+      <dbReference type="SAM" id="MobiDB-lite"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="2">
+    <source>
+      <dbReference type="PubMed" id="11751140"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="3">
+    <source>
+      <dbReference type="PubMed" id="12890026"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="4">
+    <source>
+      <dbReference type="PubMed" id="15102848"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="5">
+    <source>
+      <dbReference type="PubMed" id="7682973"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="6">
+    <source>
+      <dbReference type="PubMed" id="9864332"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000303" key="7">
+    <source>
+      <dbReference type="PubMed" id="9864332"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000305" key="8"/>
+  <evidence type="ECO:0007829" key="9">
+    <source>
+      <dbReference type="PDB" id="7DYR"/>
+    </source>
+  </evidence>
+  <sequence length="99" mass="9562" checksum="FC59A5472E7D28C5" modified="2008-12-16" version="2" precursor="true">MREISQKDLNLAFGAGETDPNTQLLNDLGNNMAWGAALGAPGGLGSAALGAAGGALQTVGQGLIDHGPVNVPIPVLIGPSWNGSGSGYNSATSSSGSGS</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

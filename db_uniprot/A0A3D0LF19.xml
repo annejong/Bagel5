@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2019-01-16" modified="2023-05-03" version="9" xmlns="http://uniprot.org/uniprot">
+  <accession>A0A3D0LF19</accession>
+  <name>A0A3D0LF19_9FIRM</name>
+  <protein>
+    <submittedName>
+      <fullName evidence="2">Nif11 family protein</fullName>
+    </submittedName>
+  </protein>
+  <gene>
+    <name evidence="2" type="ORF">DEO87_04705</name>
+  </gene>
+  <organism evidence="2 3">
+    <name type="scientific">Lachnospiraceae bacterium</name>
+    <dbReference type="NCBI Taxonomy" id="1898203"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Bacillota</taxon>
+      <taxon>Clostridia</taxon>
+      <taxon>Eubacteriales</taxon>
+      <taxon>Lachnospiraceae</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="2 3" key="1">
+    <citation type="journal article" date="2018" name="Nat. Biotechnol." volume="36" first="996" last="1004">
+      <title>A standardized bacterial taxonomy based on genome phylogeny substantially revises the tree of life.</title>
+      <authorList>
+        <person name="Parks D.H."/>
+        <person name="Chuvochina M."/>
+        <person name="Waite D.W."/>
+        <person name="Rinke C."/>
+        <person name="Skarshewski A."/>
+        <person name="Chaumeil P.A."/>
+        <person name="Hugenholtz P."/>
+      </authorList>
+      <dbReference type="PubMed" id="30148503"/>
+      <dbReference type="DOI" id=".1038/nbt.4229"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="2">UBA9790</strain>
+    </source>
+  </reference>
+  <comment type="caution">
+    <text evidence="2">The sequence shown here is derived from an EMBL/GenBank/DDBJ whole genome shotgun (WGS) entry which is preliminary data.</text>
+  </comment>
+  <dbReference type="EMBL" id="DOVL01000169">
+    <property type="protein sequence ID" value="HCA21659.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="A0A3D0LF19"/>
+  <dbReference type="Proteomes" id="UP000263149">
+    <property type="component" value="Unassembled WGS sequence"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR012903">
+    <property type="entry name" value="Nif11"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF07862">
+    <property type="entry name" value="Nif11"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="predicted"/>
+  <feature type="domain" description="Nif11" evidence="1">
+    <location>
+      <begin position="3"/>
+      <end position="36"/>
+    </location>
+  </feature>
+  <evidence type="ECO:0000259" key="1">
+    <source>
+      <dbReference type="Pfam" id="PF07862"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="2">
+    <source>
+      <dbReference type="EMBL" id="HCA21659.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="3">
+    <source>
+      <dbReference type="Proteomes" id="UP000263149"/>
+    </source>
+  </evidence>
+  <sequence length="103" mass="10928" checksum="2A86D3B9630227DB" modified="2019-01-16" version="1">MNDSLKEFLKKLSEDEELCAKLESAGDSDKAYEIAKTIQEGFTKEEFVDAMTRINNSISADGEINDDDLISVAGGLTTDEETLLMDGTFLGSAIVAASSAGAV</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2018-07-18" modified="2024-01-24" version="13" xmlns="http://uniprot.org/uniprot">
+  <accession>A0A2S0PEI6</accession>
+  <name>A0A2S0PEI6_9NEIS</name>
+  <protein>
+    <submittedName>
+      <fullName evidence="1">NHLP leader peptide family natural product</fullName>
+    </submittedName>
+  </protein>
+  <gene>
+    <name evidence="1" type="ORF">DAI18_18440</name>
+  </gene>
+  <organism evidence="1 2">
+    <name type="scientific">Microvirgula aerodenitrificans</name>
+    <dbReference type="NCBI Taxonomy" id="57480"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Pseudomonadota</taxon>
+      <taxon>Betaproteobacteria</taxon>
+      <taxon>Neisseriales</taxon>
+      <taxon>Aquaspirillaceae</taxon>
+      <taxon>Microvirgula</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="1 2" key="1">
+    <citation type="submission" date="2018-04" db="EMBL/GenBank/DDBJ databases">
+      <title>Denitrifier Microvirgula.</title>
+      <authorList>
+        <person name="Anderson E."/>
+        <person name="Jang J."/>
+        <person name="Ishii S."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="1 2">BE2.4</strain>
+    </source>
+  </reference>
+  <dbReference type="EMBL" id="CP028519">
+    <property type="protein sequence ID" value="AVY95799.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="WP_051528945.1">
+    <property type="nucleotide sequence ID" value="NZ_CP028519.1"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="A0A2S0PEI6"/>
+  <dbReference type="STRING" id="1122240.GCA_000620105_02795"/>
+  <dbReference type="OrthoDB" id="528553at2"/>
+  <dbReference type="Proteomes" id="UP000244173">
+    <property type="component" value="Chromosome"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0003824">
+    <property type="term" value="F:catalytic activity"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="InterPro"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0046914">
+    <property type="term" value="F:transition metal ion binding"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="InterPro"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0006807">
+    <property type="term" value="P:nitrogen compound metabolic process"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="InterPro"/>
+  </dbReference>
+  <dbReference type="Gene3D" id="3.90.330.10">
+    <property type="entry name" value="Nitrile hydratase alpha /Thiocyanate hydrolase gamma"/>
+    <property type="match status" value="2"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR036648">
+    <property type="entry name" value="CN_Hdrase_a/SCN_Hdrase_g_sf"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR022513">
+    <property type="entry name" value="TOMM_pelo"/>
+  </dbReference>
+  <dbReference type="NCBIfam" id="TIGR03793">
+    <property type="entry name" value="leader_NHLP"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="SUPFAM" id="SSF56209">
+    <property type="entry name" value="Nitrile hydratase alpha chain"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="predicted"/>
+  <keyword evidence="2" id="KW-1185">Reference proteome</keyword>
+  <evidence type="ECO:0000313" key="1">
+    <source>
+      <dbReference type="EMBL" id="AVY95799.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="2">
+    <source>
+      <dbReference type="Proteomes" id="UP000244173"/>
+    </source>
+  </evidence>
+  <sequence length="146" mass="15169" checksum="A8FAC0E9789EEE80" modified="2018-07-18" version="1">MTTTTPASTQVPQTRRDLETHIITKAWKDPEYKAQLLKDPKAALQDALKSIDPSLSLPDSLQVQVHEENANLFHLVLPRNPSEISLAEVVGDNLEAVAPQTIAVVLVAVVGAAAAAVVTYLGAANVVGAANGTVTANAVANTNAVA</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2011-01-11" modified="2024-01-24" version="26" xmlns="http://uniprot.org/uniprot">
+  <accession>E3R2A6</accession>
+  <name>E3R2A6_9LACO</name>
+  <protein>
+    <recommendedName>
+      <fullName evidence="3">Bacteriocin-type signal sequence</fullName>
+    </recommendedName>
+  </protein>
+  <gene>
+    <name evidence="1" type="ORF">LBKG_00201</name>
+  </gene>
+  <organism evidence="1 2">
+    <name type="scientific">Lactobacillus crispatus CTV-05</name>
+    <dbReference type="NCBI Taxonomy" id="440496"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Bacillota</taxon>
+      <taxon>Bacilli</taxon>
+      <taxon>Lactobacillales</taxon>
+      <taxon>Lactobacillaceae</taxon>
+      <taxon>Lactobacillus</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="1 2" key="1">
+    <citation type="submission" date="2010-04" db="EMBL/GenBank/DDBJ databases">
+      <title>The Genome Sequence of Lactobacillus crispatus strain CTV-05.</title>
+      <authorList>
+        <consortium name="The Broad Institute Genome Sequencing Platform"/>
+        <consortium name="The Broad Institute Genome Sequencing Center for Infectious Disease."/>
+        <person name="Ward D."/>
+        <person name="Xu Q."/>
+        <person name="Earl A."/>
+        <person name="Liu Y."/>
+        <person name="Feldgarden M."/>
+        <person name="Gevers D."/>
+        <person name="Young S.K."/>
+        <person name="Zeng Q."/>
+        <person name="Koehrsen M."/>
+        <person name="Alvarado L."/>
+        <person name="Berlin A."/>
+        <person name="Borenstein D."/>
+        <person name="Chapman S.B."/>
+        <person name="Chen Z."/>
+        <person name="Engels R."/>
+        <person name="Freedman E."/>
+        <person name="Gellesch M."/>
+        <person name="Goldberg J."/>
+        <person name="Griggs A."/>
+        <person name="Gujja S."/>
+        <person name="Heilman E.R."/>
+        <person name="Heiman D."/>
+        <person name="Howarth C."/>
+        <person name="Jen D."/>
+        <person name="Larson L."/>
+        <person name="Mehta T."/>
+        <person name="Neiman D."/>
+        <person name="Park D."/>
+        <person name="Pearson M."/>
+        <person name="Richards J."/>
+        <person name="Roberts A."/>
+        <person name="Saif S."/>
+        <person name="Shea T."/>
+        <person name="Shenoy N."/>
+        <person name="Sisk P."/>
+        <person name="Stolte C."/>
+        <person name="Sykes S."/>
+        <person name="Walk T."/>
+        <person name="White J."/>
+        <person name="Yandava C."/>
+        <person name="Haas B."/>
+        <person name="Nusbaum C."/>
+        <person name="Birren B."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="1 2">CTV-05</strain>
+    </source>
+  </reference>
+  <dbReference type="EMBL" id="GL531736">
+    <property type="protein sequence ID" value="EFQ45245.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="E3R2A6"/>
+  <dbReference type="HOGENOM" id="CLU_3154102_0_0_9"/>
+  <dbReference type="Proteomes" id="UP000005124">
+    <property type="component" value="Unassembled WGS sequence"/>
+  </dbReference>
+  <proteinExistence type="predicted"/>
+  <evidence type="ECO:0000313" key="1">
+    <source>
+      <dbReference type="EMBL" id="EFQ45245.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="2">
+    <source>
+      <dbReference type="Proteomes" id="UP000005124"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0008006" key="3">
+    <source>
+      <dbReference type="Google" id="ProtNLM"/>
+    </source>
+  </evidence>
+  <sequence length="48" mass="5519" checksum="8608B9CD7659DB2B" modified="2011-01-11" version="1">MENTVGFEKLSSNELVSVVGGSKGWNKFWKSEGKYWRGFKEGLCKYAR</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2016-03-16" modified="2023-09-13" version="5" xmlns="http://uniprot.org/uniprot">
+  <accession>A0A0U2SSJ0</accession>
+  <name>A0A0U2SSJ0_9BACL</name>
+  <protein>
+    <submittedName>
+      <fullName evidence="1">Putative lantibiotic peptide</fullName>
+    </submittedName>
+  </protein>
+  <gene>
+    <name evidence="1" type="primary">penA2</name>
+  </gene>
+  <organism evidence="1">
+    <name type="scientific">Paenibacillus ehimensis</name>
+    <dbReference type="NCBI Taxonomy" id="79264"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Bacillota</taxon>
+      <taxon>Bacilli</taxon>
+      <taxon>Bacillales</taxon>
+      <taxon>Paenibacillaceae</taxon>
+      <taxon>Paenibacillus</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="1" key="1">
+    <citation type="journal article" date="2015" name="Antimicrob. Agents Chemother." volume="60" first="580" last="591">
+      <title>Characterization of the Antimicrobial Peptide Penisin, a Class Ia Novel Lantibiotic from Paenibacillus sp. Strain A3.</title>
+      <authorList>
+        <person name="Baindara P."/>
+        <person name="Chaudhry V."/>
+        <person name="Mittal G."/>
+        <person name="Liao L.M."/>
+        <person name="Matos C.O."/>
+        <person name="Khatri N."/>
+        <person name="Franco O.L."/>
+        <person name="Patil P.B."/>
+        <person name="Korpole S."/>
+      </authorList>
+      <dbReference type="PubMed" id="26574006"/>
+      <dbReference type="DOI" id="10.1128/AAC.01813-15"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="1">A3</strain>
+    </source>
+  </reference>
+  <dbReference type="EMBL" id="KT934325">
+    <property type="protein sequence ID" value="ALR96369.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="A0A0U2SSJ0"/>
+  <dbReference type="NCBIfam" id="NF033457">
+    <property type="entry name" value="elgicin_lanti"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="predicted"/>
+  <evidence type="ECO:0000313" key="1">
+    <source>
+      <dbReference type="EMBL" id="ALR96369.1"/>
+    </source>
+  </evidence>
+  <sequence length="63" mass="6907" checksum="2E865C86104225F5" modified="2016-03-16" version="1">MANNVFDLDVEVKSVNSVNQNIGLFTSTCFSSQCFSSKCFTDTCFSSNCFTGRHQCGYTHGSC</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

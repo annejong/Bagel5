@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2019-05-08" modified="2023-09-13" version="9" xmlns="http://uniprot.org/uniprot">
+  <accession>A0A411DYN7</accession>
+  <name>A0A411DYN7_STRSQ</name>
+  <protein>
+    <submittedName>
+      <fullName evidence="2">SinA</fullName>
+    </submittedName>
+  </protein>
+  <gene>
+    <name evidence="2" type="primary">sinA</name>
+  </gene>
+  <organism evidence="2">
+    <name type="scientific">Streptomyces sp</name>
+    <dbReference type="NCBI Taxonomy" id="1931"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Actinomycetota</taxon>
+      <taxon>Actinomycetes</taxon>
+      <taxon>Kitasatosporales</taxon>
+      <taxon>Streptomycetaceae</taxon>
+      <taxon>Streptomyces</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="2" key="1">
+    <citation type="submission" date="2018-01" db="EMBL/GenBank/DDBJ databases">
+      <title>Salinipeptins: Integrated Genomic and Chemical Approaches Reveal D-Amino Acid-Containing Ribosomally Synthesized and Post-Translationally Modified Peptides (RiPPs) from a Great Salt Lake Streptomyces sp.</title>
+      <authorList>
+        <person name="Shang Z."/>
+        <person name="Winter J.M."/>
+        <person name="Kauffman C.A."/>
+        <person name="Yang I."/>
+        <person name="Fenical W."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="2">GSL-6C</strain>
+    </source>
+  </reference>
+  <dbReference type="EMBL" id="MG788286">
+    <property type="protein sequence ID" value="QBA31011.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="A0A411DYN7"/>
+  <dbReference type="NCBIfam" id="NF033752">
+    <property type="entry name" value="linaridin_CypA"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="predicted"/>
+  <feature type="region of interest" description="Disordered" evidence="1">
+    <location>
+      <begin position="27"/>
+      <end position="47"/>
+    </location>
+  </feature>
+  <feature type="compositionally biased region" description="Polar residues" evidence="1">
+    <location>
+      <begin position="32"/>
+      <end position="47"/>
+    </location>
+  </feature>
+  <evidence type="ECO:0000256" key="1">
+    <source>
+      <dbReference type="SAM" id="MobiDB-lite"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="2">
+    <source>
+      <dbReference type="EMBL" id="QBA31011.1"/>
+    </source>
+  </evidence>
+  <sequence length="95" mass="9887" checksum="AA08F5A2E62F9CC7" modified="2019-05-08" version="1">MGAGDVLATFGTPRPFARIDHRRKVSEVRSELTSTRPDSSATHPESLAAQEFANTALGAATPGFHADCETPAMATPATPTAAQFVIQGSTICLVC</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

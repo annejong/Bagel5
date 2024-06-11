@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2006-07-11" modified="2023-09-13" version="45" xmlns="http://uniprot.org/uniprot">
+  <accession>Q1A2D2</accession>
+  <name>Q1A2D2_ENTFL</name>
+  <protein>
+    <submittedName>
+      <fullName evidence="2">Enterocin JSB</fullName>
+    </submittedName>
+    <submittedName>
+      <fullName evidence="1">Enterocin MR10B</fullName>
+    </submittedName>
+    <submittedName>
+      <fullName evidence="3">Enterocin NB</fullName>
+    </submittedName>
+  </protein>
+  <gene>
+    <name evidence="1" type="primary">mr10B</name>
+    <name evidence="3" type="synonym">entNB</name>
+  </gene>
+  <organism evidence="1">
+    <name type="scientific">Enterococcus faecalis</name>
+    <name type="common">Streptococcus faecalis</name>
+    <dbReference type="NCBI Taxonomy" id="1351"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Bacillota</taxon>
+      <taxon>Bacilli</taxon>
+      <taxon>Lactobacillales</taxon>
+      <taxon>Enterococcaceae</taxon>
+      <taxon>Enterococcus</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="1" key="1">
+    <citation type="journal article" date="2006" name="Appl. Environ. Microbiol." volume="72" first="4245" last="4249">
+      <title>Characterization of antimicrobial substances produced by Enterococcus faecalis MRR 10-3, isolated from the uropygial gland of the hoopoe (Upupa epops).</title>
+      <authorList>
+        <person name="Martin-Platero A.M."/>
+        <person name="Valdivia E."/>
+        <person name="Ruiz-Rodriguez M."/>
+        <person name="Soler J.J."/>
+        <person name="Martin-Vivaldi M."/>
+        <person name="Maqueda M."/>
+        <person name="Martinez-Bueno M."/>
+      </authorList>
+      <dbReference type="PubMed" id="16751538"/>
+      <dbReference type="DOI" id="10.1128/AEM.02940-05"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="1">MRR 10-3</strain>
+    </source>
+  </reference>
+  <reference evidence="3" key="2">
+    <citation type="submission" date="2007-02" db="EMBL/GenBank/DDBJ databases">
+      <title>Identification of enterocin N produced by Enterococcus faecalis N1-33 isolated from fermented vegetables in Thailand and its application to ready-to-eat foods as a biopreservative.</title>
+      <authorList>
+        <person name="Hata T."/>
+        <person name="Alemu M."/>
+        <person name="Kobayashi M."/>
+        <person name="Tanaka R."/>
+        <person name="Sato T."/>
+        <person name="Suzuki C."/>
+        <person name="Nitisinprasert S."/>
+        <person name="Ohmomo S."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="3">N1-33</strain>
+    </source>
+  </reference>
+  <reference evidence="2" key="3">
+    <citation type="submission" date="2012-09" db="EMBL/GenBank/DDBJ databases">
+      <title>Enterococcus faecalis DBH18, isolated from Mallard ducks (Anas platyrhynchos), encodes the bacteriocin-producing genes ef1097, entL50A-entL50B, and the entL50A-entL50B-like genes termed entJSA and entJSB.</title>
+      <authorList>
+        <person name="Jimenez J.J."/>
+        <person name="Borrero J."/>
+        <person name="Sanchez J."/>
+        <person name="Diep D.B."/>
+        <person name="Herranz C."/>
+        <person name="Nes I.F."/>
+        <person name="Cintas L.M."/>
+        <person name="Hernandez P.E."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="2">DBH18</strain>
+    </source>
+  </reference>
+  <reference evidence="4" key="4">
+    <citation type="journal article" date="2013" name="Biochemistry" volume="52" first="3987" last="3994">
+      <title>Solution structures of the linear leaderless bacteriocins enterocin 7A and 7B resemble carnocyclin A, a circular antimicrobial peptide.</title>
+      <authorList>
+        <person name="Lohans C.T."/>
+        <person name="Towle K.M."/>
+        <person name="Miskolzie M."/>
+        <person name="McKay R.T."/>
+        <person name="van Belkum M.J."/>
+        <person name="McMullen L.M."/>
+        <person name="Vederas J.C."/>
+      </authorList>
+      <dbReference type="PubMed" id="23725536"/>
+      <dbReference type="DOI" id="10.1021/bi400359z"/>
+    </citation>
+    <scope>STRUCTURE BY NMR</scope>
+  </reference>
+  <dbReference type="EMBL" id="DQ366596">
+    <property type="protein sequence ID" value="ABC95647.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="EF502034">
+    <property type="protein sequence ID" value="ABP68408.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="AB292312">
+    <property type="protein sequence ID" value="BAF74789.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="WP_061101450.1">
+    <property type="nucleotide sequence ID" value="NZ_LSFS01000018.1"/>
+  </dbReference>
+  <dbReference type="PDB" id="2M60">
+    <property type="method" value="NMR"/>
+    <property type="chains" value="A=1-43"/>
+  </dbReference>
+  <dbReference type="PDBsum" id="2M60"/>
+  <dbReference type="AlphaFoldDB" id="Q1A2D2"/>
+  <dbReference type="SMR" id="Q1A2D2"/>
+  <dbReference type="Gene3D" id="1.10.8.860">
+    <property type="entry name" value="Enterocin 7a-like"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="NCBIfam" id="NF033384">
+    <property type="entry name" value="enterocin_MR10"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="evidence at protein level"/>
+  <keyword evidence="4" id="KW-0002">3D-structure</keyword>
+  <evidence type="ECO:0000313" key="1">
+    <source>
+      <dbReference type="EMBL" id="ABC95647.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="2">
+    <source>
+      <dbReference type="EMBL" id="ABP68408.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="3">
+    <source>
+      <dbReference type="EMBL" id="BAF74789.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007829" key="4">
+    <source>
+      <dbReference type="PDB" id="2M60"/>
+    </source>
+  </evidence>
+  <sequence length="43" mass="5182" checksum="5366E65CFC971417" modified="2006-07-11" version="1">MGAIAKLVAKFGWPFIKKFYKQIMQFIGQGWTIDQIEKWLKRH</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

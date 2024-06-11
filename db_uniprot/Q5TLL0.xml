@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2004-12-21" modified="2023-09-13" version="28" xmlns="http://uniprot.org/uniprot">
+  <accession>Q5TLL0</accession>
+  <name>Q5TLL0_STRMG</name>
+  <protein>
+    <submittedName>
+      <fullName evidence="1">SmbB</fullName>
+    </submittedName>
+  </protein>
+  <gene>
+    <name evidence="1" type="primary">smbB</name>
+  </gene>
+  <organism evidence="1">
+    <name type="scientific">Streptococcus mutans</name>
+    <dbReference type="NCBI Taxonomy" id="1309"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Bacillota</taxon>
+      <taxon>Bacilli</taxon>
+      <taxon>Lactobacillales</taxon>
+      <taxon>Streptococcaceae</taxon>
+      <taxon>Streptococcus</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="1" key="1">
+    <citation type="journal article" date="2005" name="Antimicrob. Agents Chemother." volume="49" first="541" last="548">
+      <title>Genetic analysis of a unique bacteriocin, Smb, produced by Streptococcus mutans GS5.</title>
+      <authorList>
+        <person name="Yonezawa H."/>
+        <person name="Kuramitsu H.K."/>
+      </authorList>
+      <dbReference type="PubMed" id="15673730"/>
+      <dbReference type="DOI" id="10.1128/AAC.49.2.541-548.2005"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+  </reference>
+  <dbReference type="EMBL" id="AB179778">
+    <property type="protein sequence ID" value="BAD72777.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="WP_002268652.1">
+    <property type="nucleotide sequence ID" value="NZ_QYCI01000008.1"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="Q5TLL0"/>
+  <dbReference type="GO" id="GO:0050830">
+    <property type="term" value="P:defense response to Gram-positive bacterium"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="InterPro"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR029243">
+    <property type="entry name" value="Lantibiotic_alpha"/>
+  </dbReference>
+  <dbReference type="NCBIfam" id="NF000539">
+    <property type="entry name" value="plantaricin"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF14867">
+    <property type="entry name" value="Lantibiotic_a"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="predicted"/>
+  <evidence type="ECO:0000313" key="1">
+    <source>
+      <dbReference type="EMBL" id="BAD72777.1"/>
+    </source>
+  </evidence>
+  <sequence length="62" mass="6725" checksum="1EEDD4B3201B90E1" modified="2004-12-21" version="1">MKEIQKAGLQEELSILMDDANNLEQLTAGIGTTVVNSTFSIVLGNKGYICTVTVECMRNCSK</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2015-11-11" modified="2024-01-24" version="17" xmlns="http://uniprot.org/uniprot">
+  <accession>A0A0K6INR8</accession>
+  <name>A0A0K6INR8_9GAMM</name>
+  <protein>
+    <submittedName>
+      <fullName evidence="1">Uncharacterized protein</fullName>
+    </submittedName>
+  </protein>
+  <gene>
+    <name evidence="1" type="ORF">Ga0061065_10833</name>
+  </gene>
+  <organism evidence="1 2">
+    <name type="scientific">Marinomonas fungiae</name>
+    <dbReference type="NCBI Taxonomy" id="1137284"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Pseudomonadota</taxon>
+      <taxon>Gammaproteobacteria</taxon>
+      <taxon>Oceanospirillales</taxon>
+      <taxon>Oceanospirillaceae</taxon>
+      <taxon>Marinomonas</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="2" key="1">
+    <citation type="submission" date="2015-08" db="EMBL/GenBank/DDBJ databases">
+      <authorList>
+        <person name="Babu N.S."/>
+        <person name="Beckwith C.J."/>
+        <person name="Beseler K.G."/>
+        <person name="Brison A."/>
+        <person name="Carone J.V."/>
+        <person name="Caskin T.P."/>
+        <person name="Diamond M."/>
+        <person name="Durham M.E."/>
+        <person name="Foxe J.M."/>
+        <person name="Go M."/>
+        <person name="Henderson B.A."/>
+        <person name="Jones I.B."/>
+        <person name="McGettigan J.A."/>
+        <person name="Micheletti S.J."/>
+        <person name="Nasrallah M.E."/>
+        <person name="Ortiz D."/>
+        <person name="Piller C.R."/>
+        <person name="Privatt S.R."/>
+        <person name="Schneider S.L."/>
+        <person name="Sharp S."/>
+        <person name="Smith T.C."/>
+        <person name="Stanton J.D."/>
+        <person name="Ullery H.E."/>
+        <person name="Wilson R.J."/>
+        <person name="Serrano M.G."/>
+        <person name="Buck G."/>
+        <person name="Lee V."/>
+        <person name="Wang Y."/>
+        <person name="Carvalho R."/>
+        <person name="Voegtly L."/>
+        <person name="Shi R."/>
+        <person name="Duckworth R."/>
+        <person name="Johnson A."/>
+        <person name="Loviza R."/>
+        <person name="Walstead R."/>
+        <person name="Shah Z."/>
+        <person name="Kiflezghi M."/>
+        <person name="Wade K."/>
+        <person name="Ball S.L."/>
+        <person name="Bradley K.W."/>
+        <person name="Asai D.J."/>
+        <person name="Bowman C.A."/>
+        <person name="Russell D.A."/>
+        <person name="Pope W.H."/>
+        <person name="Jacobs-Sera D."/>
+        <person name="Hendrix R.W."/>
+        <person name="Hatfull G.F."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="2">JCM 18476</strain>
+    </source>
+  </reference>
+  <dbReference type="EMBL" id="CYHG01000008">
+    <property type="protein sequence ID" value="CUB04731.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="A0A0K6INR8"/>
+  <dbReference type="STRING" id="1137284.GCA_001418205_02555"/>
+  <dbReference type="OrthoDB" id="7068007at2"/>
+  <dbReference type="Proteomes" id="UP000182769">
+    <property type="component" value="Unassembled WGS sequence"/>
+  </dbReference>
+  <proteinExistence type="predicted"/>
+  <evidence type="ECO:0000313" key="1">
+    <source>
+      <dbReference type="EMBL" id="CUB04731.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="2">
+    <source>
+      <dbReference type="Proteomes" id="UP000182769"/>
+    </source>
+  </evidence>
+  <sequence length="67" mass="7428" checksum="A8DAF75FD13509D5" modified="2015-11-11" version="1">MSNHVLIALAKRKPFVVTPEMPEGCSYDYVRGLWMKANDVLVSHGSEFGVQATKKCDVETGEDQKGE</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

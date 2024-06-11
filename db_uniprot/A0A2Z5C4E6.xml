@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2018-10-10" modified="2023-11-08" version="15" xmlns="http://uniprot.org/uniprot">
+  <accession>A0A2Z5C4E6</accession>
+  <name>A0A2Z5C4E6_LISMN</name>
+  <protein>
+    <submittedName>
+      <fullName evidence="1">Listeriolysin S</fullName>
+    </submittedName>
+  </protein>
+  <gene>
+    <name evidence="2" type="primary">llsA</name>
+    <name evidence="2" type="ORF">F3257_08085</name>
+    <name evidence="1" type="ORF">QD52_00740</name>
+  </gene>
+  <organism evidence="1 3">
+    <name type="scientific">Listeria monocytogenes</name>
+    <dbReference type="NCBI Taxonomy" id="1639"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Bacillota</taxon>
+      <taxon>Bacilli</taxon>
+      <taxon>Bacillales</taxon>
+      <taxon>Listeriaceae</taxon>
+      <taxon>Listeria</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="1 3" key="1">
+    <citation type="submission" date="2018-06" db="EMBL/GenBank/DDBJ databases">
+      <authorList>
+        <consortium name="GenomeTrakr: Next Generation Sequencing Network for Food Pathogen Tracability"/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <strain evidence="1 3">FDA00008584</strain>
+      <strain evidence="2 4">Ulm_74</strain>
+    </source>
+  </reference>
+  <comment type="caution">
+    <text evidence="1">The sequence shown here is derived from an EMBL/GenBank/DDBJ whole genome shotgun (WGS) entry which is preliminary data.</text>
+  </comment>
+  <dbReference type="EMBL" id="AAALRN010000001">
+    <property type="protein sequence ID" value="EAD1183604.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="AANCND010000008">
+    <property type="protein sequence ID" value="EDN7463368.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="A0A2Z5C4E6"/>
+  <dbReference type="Proteomes" id="UP000403352">
+    <property type="component" value="Unassembled WGS sequence"/>
+  </dbReference>
+  <dbReference type="Proteomes" id="UP000469570">
+    <property type="component" value="Unassembled WGS sequence"/>
+  </dbReference>
+  <dbReference type="NCBIfam" id="NF033222">
+    <property type="entry name" value="listolys_S"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="predicted"/>
+  <evidence type="ECO:0000313" key="1">
+    <source>
+      <dbReference type="EMBL" id="EAD1183604.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="2">
+    <source>
+      <dbReference type="EMBL" id="EDN7463368.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="3">
+    <source>
+      <dbReference type="Proteomes" id="UP000403352"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="4">
+    <source>
+      <dbReference type="Proteomes" id="UP000469570"/>
+    </source>
+  </evidence>
+  <sequence length="49" mass="4949" checksum="93FC33373EC237CF" modified="2018-10-10" version="1">MNIKSQSTNGYSNNAVGSEAMNYAAGCCSCSCSTCTCTCTCASSATTKM</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

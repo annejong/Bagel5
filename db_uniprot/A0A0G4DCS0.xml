@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2015-09-16" modified="2023-05-03" version="5" xmlns="http://uniprot.org/uniprot">
+  <accession>A0A0G4DCS0</accession>
+  <name>A0A0G4DCS0_ENTFL</name>
+  <protein>
+    <submittedName>
+      <fullName evidence="1">Enterocin F4-9</fullName>
+    </submittedName>
+  </protein>
+  <gene>
+    <name evidence="1" type="primary">enfA49</name>
+  </gene>
+  <organism evidence="1">
+    <name type="scientific">Enterococcus faecalis</name>
+    <name type="common">Streptococcus faecalis</name>
+    <dbReference type="NCBI Taxonomy" id="1351"/>
+    <lineage>
+      <taxon>Bacteria</taxon>
+      <taxon>Bacillota</taxon>
+      <taxon>Bacilli</taxon>
+      <taxon>Lactobacillales</taxon>
+      <taxon>Enterococcaceae</taxon>
+      <taxon>Enterococcus</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="1" key="1">
+    <citation type="journal article" date="2015" name="Appl. Environ. Microbiol." volume="81" first="4819" last="4826">
+      <title>Enterocin F4-9, a Novel O-Linked Glycosylated Bacteriocin.</title>
+      <authorList>
+        <person name="Maky M.A."/>
+        <person name="Ishibashi N."/>
+        <person name="Zendo T."/>
+        <person name="Perez R.H."/>
+        <person name="Doud J.R."/>
+        <person name="Karmi M."/>
+        <person name="Sonomoto K."/>
+      </authorList>
+      <dbReference type="PubMed" id="25956765"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE</scope>
+    <source>
+      <strain evidence="1">F4-9</strain>
+    </source>
+  </reference>
+  <dbReference type="EMBL" id="LC029806">
+    <property type="protein sequence ID" value="BAR87969.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="AlphaFoldDB" id="A0A0G4DCS0"/>
+  <proteinExistence type="predicted"/>
+  <evidence type="ECO:0000313" key="1">
+    <source>
+      <dbReference type="EMBL" id="BAR87969.1"/>
+    </source>
+  </evidence>
+  <sequence length="67" mass="7233" checksum="BD94F51C51C7CD92" modified="2015-09-16" version="1">MGNSILNKMTVEEMEAVKGGNLVCPPMPDYIKRLSTGKGVSSVYMAWQIANCKSSGSCMKGQTNRTC</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>
