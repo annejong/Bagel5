@@ -1,0 +1,16 @@
+bacteriocinII.hmm
+ggmotif.hmm
+leaderLanBC.hmm
+leaderLanM.hmm
+LE-DUF.hmm
+LE-LAC481.hmm
+LE-LanBC.hmm
+LE-MER+2PEP.hmm
+LinL.hmm
+MA-2PEPA.hmm
+MA-2PEPB.hmm
+MA-DUF.hmm
+MA-EPI.hmm
+MA-LAC481.hmm
+MA-NIS+EPI.hmm
+MA-NIS.hmm
